@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2026 Hans Henrik Juhl <hans@kopula.dk>
 msgid ""
 msgstr ""
-"Project-Id-Version: 2.0\n"
+"Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-26 22:44+0200\n"
 "PO-Revision-Date: 2026-08-27 15:23+0200\n"
@@ -3487,6 +3487,11 @@ msgstr "Trykluftsbor"
 #: ../src/fw/services/vibes/vibes.def:15
 msgid "Gentle"
 msgstr "Blid"
+
+#: src/fw/apps/system/weather/forecast_list.c:2058
+#, no-c-format
+msgid "%a, %b %d"
+msgstr "%a %d. %b"
 
 #~ msgid "High performance"
 #~ msgstr "Høj ydelse"

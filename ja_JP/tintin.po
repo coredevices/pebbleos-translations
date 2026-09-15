@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 420\n"
+"Project-Id-Version: 421.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-07 18:50+0200\n"
 "PO-Revision-Date: 2026-07-04 14:40+0900\n"
@@ -3281,6 +3281,11 @@ msgstr "天気予報"
 #: src/fw/apps/system/weather/forecast_list.c:1478
 msgid "PRECIPITATION"
 msgstr "降水確率"
+
+#: src/fw/apps/system/weather/forecast_list.c:2058
+#, no-c-format
+msgid "%a, %b %d"
+msgstr "%b%d日 (%a)"
 
 #: src/fw/apps/system/weather/globe_view.c:2185
 msgid "Saved Location"

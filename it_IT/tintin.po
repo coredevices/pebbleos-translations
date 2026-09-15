@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 24.0\n"
+"Project-Id-Version: 25.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-07 18:50+0200\n"
 "PO-Revision-Date: 2026-05-24 14:36+0200\n"
@@ -3236,6 +3236,11 @@ msgstr "BOLLETTINO METEO"
 #: src/fw/apps/system/weather/forecast_list.c:1478
 msgid "PRECIPITATION"
 msgstr "PRECIPITAZIONI"
+
+#: src/fw/apps/system/weather/forecast_list.c:2058
+#, no-c-format
+msgid "%a, %b %d"
+msgstr "%a %d %b"
 
 #: src/fw/apps/system/weather/globe_view.c:2185
 msgid "Saved Location"

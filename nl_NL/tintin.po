@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 8.0\n"
+"Project-Id-Version: 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-07 18:50+0200\n"
 "PO-Revision-Date: 2026-05-15 00:00+0200\n"
@@ -3297,6 +3297,11 @@ msgstr "WEERBERICHT"
 #: src/fw/apps/system/weather/forecast_list.c:1478
 msgid "PRECIPITATION"
 msgstr "NEERSLAG"
+
+#: src/fw/apps/system/weather/forecast_list.c:2058
+#, no-c-format
+msgid "%a, %b %d"
+msgstr "%a %d %b"
 
 #: src/fw/apps/system/weather/globe_view.c:2185
 msgid "Saved Location"

@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.0\n"
+"Project-Id-Version: 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-07 18:50+0200\n"
 "Language: uk\n"
@@ -3298,6 +3298,11 @@ msgstr "ПРОГНОЗ ПОГОДИ"
 #: src/fw/apps/system/weather/forecast_list.c:1478
 msgid "PRECIPITATION"
 msgstr "ОПАДИ"
+
+#: src/fw/apps/system/weather/forecast_list.c:2058
+#, no-c-format
+msgid "%a, %b %d"
+msgstr "%a, %d %b"
 
 #: src/fw/apps/system/weather/globe_view.c:2185
 msgid "Saved Location"
