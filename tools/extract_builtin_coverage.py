@@ -14,7 +14,11 @@ import tempfile
 from pathlib import Path
 
 import freetype
-from pack_format import FONT_SLOTS
+
+if __package__:
+    from .pack_format import FONT_SLOTS
+else:
+    from pack_format import FONT_SLOTS
 
 
 def pbf_codepoints(data):

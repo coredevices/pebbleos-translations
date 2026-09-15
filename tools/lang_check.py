@@ -7,15 +7,36 @@ import json
 import re
 import struct
 import tempfile
+from importlib.resources import files
 from pathlib import Path
 
-import lang_commands as commands
 import polib
-from extract_builtin_coverage import pbf_codepoints
-from generate_codepoint_requirements import generate_codepoint_requirements
-from pack_format import FONT_SLOTS, serialize
 
-COVERAGE_PATH = Path(__file__).resolve().parents[1] / "data/builtin_font_coverage.json"
+# Support both the installed package and the existing direct-script commands.
+if __package__:
+    from . import lang_commands as commands
+    from .extract_builtin_coverage import pbf_codepoints
+    from .generate_codepoint_requirements import (
+        generate_codepoint_requirements,
+        uses_emoji_font,
+    )
+    from .pack_format import FONT_SLOTS, serialize
+else:
+    import lang_commands as commands
+    from extract_builtin_coverage import pbf_codepoints
+    from generate_codepoint_requirements import (
+        generate_codepoint_requirements,
+        uses_emoji_font,
+    )
+    from pack_format import FONT_SLOTS, serialize
+
+DATA_ROOT = (
+    files("pebble_language_tools.data")
+    if __package__
+    else Path(__file__).resolve().parents[1] / "data"
+)
+
+COVERAGE_PATH = DATA_ROOT / "builtin_font_coverage.json"
 
 
 def load_builtin_coverage():
@@ -28,31 +49,6 @@ def load_builtin_coverage():
         ):
             raise ValueError("Invalid built-in font codepoints")
     return snapshot
-
-
-def uses_emoji_font(cp):
-    # codepoint_is_emoji() in the firmware revision recorded by the snapshot.
-    return cp in {
-        0x2192,
-        0x25AA,
-        0x25AB,
-        0x25B6,
-        0x25BA,
-        0x25C0,
-        0x25FB,
-        0x25FC,
-        0x25FD,
-        0x25FE,
-    } or any(
-        low <= cp <= high
-        for low, high in (
-            (0x1F300, 0x1FAFF),
-            (0x2300, 0x23FF),
-            (0x2600, 0x27BF),
-            (0x2B00, 0x2BFF),
-            (0x1F100, 0x1F2FF),
-        )
-    )
 
 
 def translated_texts(catalog):
@@ -150,7 +146,31 @@ def check_lang(lang):
                     issue("warning", "catalog_warning", warnings)
                 resources["STRINGS"] = mo.read_bytes()
                 codepoints = temp / "codepoints.json"
-                codepoints.write_text(json.dumps(generate_codepoint_requirements(po)))
+                requirements = generate_codepoint_requirements(
+                    po, language=resource_map["strings"].get("lang") or lang
+                )
+                report["character_requirements"] = {
+                    "language": requirements["language"],
+                    "baseline_locale": requirements["baseline_locale"],
+                    "count": len(requirements["codepoints"]),
+                }
+                if not requirements["baseline_locale"]:
+                    issue(
+                        "warning",
+                        "language_baseline_unknown",
+                        "No language character baseline is available; checking translation characters only.",
+                    )
+                for cp in requirements["codepoints"]:
+                    examples.setdefault(
+                        cp,
+                        {
+                            "source": "Language character requirements",
+                            "translation": "",
+                            "context": None,
+                            "line": None,
+                        },
+                    )
+                codepoints.write_text(json.dumps(requirements))
             except (OSError, ValueError, KeyError, TypeError) as error:
                 issue("error", "catalog_invalid", str(error), file=str(po))
 

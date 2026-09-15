@@ -8,12 +8,24 @@ import re
 import struct
 import subprocess
 import tempfile
+from importlib.resources import files
 from pathlib import Path
 
-from generate_codepoint_requirements import generate_codepoint_requirements
-from pack_format import FONT_SLOTS, MAX_GLYPH_SIZE, serialize
+# Support both the installed package and the existing direct-script commands.
+if __package__:
+    from .generate_codepoint_requirements import generate_codepoint_requirements
+    from .pack_format import FONT_SLOTS, MAX_GLYPH_SIZE, serialize
+else:
+    from generate_codepoint_requirements import generate_codepoint_requirements
+    from pack_format import FONT_SLOTS, MAX_GLYPH_SIZE, serialize
 
-LANG_ROOT = Path(__file__).resolve().parent.parent
+DATA_ROOT = (
+    files("pebble_language_tools.data")
+    if __package__
+    else Path(__file__).resolve().parents[1] / "data"
+)
+
+LANG_ROOT = Path.cwd() if __package__ else Path(__file__).resolve().parent.parent
 LANG_MAP = "lang_map.json"
 CATALOG = "tintin.po"
 INCOMPLETE = "INCOMPLETE"
@@ -34,7 +46,10 @@ def new_map(lang):
 
 
 def configure_font(source, entry, codepoints):
-    from fontgen import MAX_GLYPHS, MAX_GLYPHS_EXTENDED, Font
+    if __package__:
+        from .fontgen import MAX_GLYPHS, MAX_GLYPHS_EXTENDED, Font
+    else:
+        from fontgen import MAX_GLYPHS, MAX_GLYPHS_EXTENDED, Font
 
     name = entry["name"]
     name_height = int(re.search(r"\d+", name).group())
@@ -52,8 +67,18 @@ def configure_font(source, entry, codepoints):
     character_list = entry.get("characterList")
     if character_list is not None:
         font.set_codepoint_list(source / character_list)
-    elif codepoints is not None:
-        font.set_codepoint_list(codepoints)
+    if codepoints is not None:
+        requirements = set(json.loads(Path(codepoints).read_text())["codepoints"])
+        # Keep explicit legacy additions, but never let a hand-written subset exclude requirements.
+        if character_list is not None:
+            requirements.update(font.codepoints)
+        if extended:
+            snapshot = json.loads(
+                (DATA_ROOT / "builtin_font_coverage.json").read_text()
+            )
+            requirements -= set(snapshot["fonts"][name]["codepoints"])
+        font.codepoints = requirements
+        font.regex = None
     if entry.get("compress"):
         font.set_compression(entry["compress"])
     if entry.get("trackingAdjust") is not None:
@@ -148,7 +173,13 @@ def pack_lang(lang, output):
             compile_catalog(po, mo)
             resources["STRINGS"] = mo.read_bytes()
             codepoints = temp / "codepoints.json"
-            codepoints.write_text(json.dumps(generate_codepoint_requirements(po)))
+            codepoints.write_text(
+                json.dumps(
+                    generate_codepoint_requirements(
+                        po, language=resource_map["strings"].get("lang") or lang
+                    )
+                )
+            )
 
         entries = {name: {"name": name, "file": ""} for name in FONT_SLOTS}
         entries.update({entry["name"]: entry for entry in resource_map["fonts"]})

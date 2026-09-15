@@ -9,11 +9,19 @@ import subprocess
 import sys
 from pathlib import Path
 
-from lang_commands import make_lang, pack_all_langs, pack_lang
+if __package__:
+    from .lang_commands import make_lang, pack_all_langs, pack_lang
+else:
+    from lang_commands import make_lang, pack_all_langs, pack_lang
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--root",
+        type=Path,
+        help="Catalog repository directory (default: current directory when installed)",
+    )
     subparsers = parser.add_subparsers(dest="command", required=True)
     make = subparsers.add_parser("make_lang", help="Initialize or update a catalog")
     make.add_argument("--lang", required=True, help="Locale identifier")
@@ -31,8 +39,17 @@ def main():
         if command == "pack_lang":
             pack.add_argument("--lang", required=True, help="Locale identifier")
     args = parser.parse_args()
+    if args.root is not None:
+        if __package__:
+            from . import lang_commands
+        else:
+            import lang_commands
+        lang_commands.LANG_ROOT = args.root.resolve()
     if args.command == "check_lang":
-        from lang_check import check_lang, format_report
+        if __package__:
+            from .lang_check import check_lang, format_report
+        else:
+            from lang_check import check_lang, format_report
 
         report = check_lang(args.lang)
         print(

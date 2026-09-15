@@ -111,7 +111,8 @@ class CheckLanguageTest(unittest.TestCase):
         )
         self.save()
         requirements = generate_codepoint_requirements(self.source / commands.CATALOG)
-        self.assertEqual(requirements["codepoints"], sorted(map(ord, "אבגדה")))
+        self.assertTrue(set(map(ord, "Aéאבגדה")) <= set(requirements["codepoints"]))
+        self.assertEqual(requirements["baseline_locale"], "fr")
         self.font()
         self.save()
         report = check_lang("test")
@@ -126,7 +127,7 @@ class CheckLanguageTest(unittest.TestCase):
         self.assertEqual(base_missing["א"]["example"]["context"], "menu")
         self.assertNotIn("Ж", json.dumps(font, ensure_ascii=False))
 
-    def test_missing_glyphs_and_filter_exclusions_are_reported(self):
+    def test_required_characters_override_legacy_filters(self):
         self.font(characterRegex="א")
         self.catalog.append(polib.POEntry(msgid="Test", msgstr="אב漢"))
         self.save()
@@ -134,8 +135,23 @@ class CheckLanguageTest(unittest.TestCase):
         self.assertTrue(report["ok"], report)
         font = report["fonts"][0]
         self.assertIn("漢", [d["character"] for d in font["missing_characters"]])
-        self.assertIn("ב", [d["character"] for d in font["excluded_characters"]])
+        self.assertNotIn("ב", [d["character"] for d in font["uncovered_characters"]])
         self.assertIn("U+6F22", format_report(report))
+
+    def test_empty_hebrew_still_requires_alphabet_and_builds_it(self):
+        self.mapping["strings"]["lang"] = "he"
+        self.font()
+        self.save()
+        report = check_lang("test")
+        self.assertEqual(report["character_requirements"]["baseline_locale"], "he")
+        self.assertEqual(report["fonts"][0]["uncovered_characters"], [])
+        unassigned = report["fonts"][1]
+        self.assertIn(
+            "ת", [item["character"] for item in unassigned["uncovered_characters"]]
+        )
+        with tempfile.TemporaryDirectory() as output:
+            pack = commands.pack_lang("test", output)
+            self.assertEqual(report["pack_size_bytes"], pack.stat().st_size)
 
     def test_font_limit_and_missing_file_fail(self):
         self.font(pixelHeight=200)

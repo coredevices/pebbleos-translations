@@ -13,5 +13,16 @@ dev = [
     "ruff==0.16.7",
 ]
 
-[tool.uv]
-package = false
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+pebble-lang = "pebble_language_tools.lang:main"
+
+[tool.setuptools]
+packages = ["pebble_language_tools", "pebble_language_tools.data"]
+package-dir = {pebble_language_tools = "tools", "pebble_language_tools.data" = "data"}
+
+[tool.setuptools.package-data]
+"pebble_language_tools.data" = ["*.json", "*.txt", "*.md"]
