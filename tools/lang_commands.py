@@ -33,7 +33,7 @@ def new_map(lang):
     }
 
 
-def build_font(source, entry, codepoints):
+def configure_font(source, entry, codepoints):
     from fontgen import MAX_GLYPHS, MAX_GLYPHS_EXTENDED, Font
 
     name = entry["name"]
@@ -58,24 +58,75 @@ def build_font(source, entry, codepoints):
         font.set_compression(entry["compress"])
     if entry.get("trackingAdjust") is not None:
         font.set_tracking_adjust(entry["trackingAdjust"])
+    return font
+
+
+def build_font(source, entry, codepoints, *, font=None):
+    font = font or configure_font(source, entry, codepoints)
     try:
         font.build_tables()
         return font.bitstring()
     except (ValueError, RuntimeError, struct.error) as error:
         raise ValueError(
-            f"{name} ({entry['file']}): {error}. "
+            f"{entry['name']} ({entry['file']}): {error}. "
             "Adjust the font or its pixelHeight; packs must fit all supported watches."
         ) from error
 
 
 def validate_map(resource_map):
+    if not isinstance(resource_map, dict):
+        raise TypeError("The resource map must be an object")
+    if not isinstance(resource_map.get("strings"), dict) or not isinstance(
+        resource_map.get("fonts"), list
+    ):
+        raise TypeError("The resource map needs strings and fonts entries")
+    if not isinstance(resource_map["strings"].get("file"), str):
+        raise TypeError("The catalog file must be a filename or an empty string")
     if resource_map["strings"]["name"] != "STRINGS":
         raise ValueError("The catalog resource must be named STRINGS")
+    for entry in resource_map["fonts"]:
+        if not isinstance(entry, dict) or not isinstance(entry.get("name"), str):
+            raise TypeError("Each font entry needs a slot name")
+        if "alias" in entry:
+            if not isinstance(entry["alias"], str):
+                raise ValueError("Font aliases must name a font slot")
+        elif not isinstance(entry.get("file"), str):
+            raise ValueError(
+                f"{entry['name']}: supply a font filename or an empty string"
+            )
     names = [entry["name"] for entry in resource_map["fonts"]]
     if len(names) != len(set(names)) or not set(names).issubset(FONT_SLOTS):
         raise ValueError("lang_map.json contains duplicate or unknown font slots")
     if resource_map.get("images"):
         raise ValueError("Language packs do not support image resources")
+    resolve_font_entries(resource_map)
+
+
+def resolve_font_entries(resource_map):
+    entries = {name: {"name": name, "file": ""} for name in FONT_SLOTS}
+    entries.update({entry["name"]: entry for entry in resource_map["fonts"]})
+
+    def resolve(name, visiting):
+        if name not in entries or name in visiting:
+            raise ValueError(f"Unknown or cyclic font alias: {name}")
+        entry = entries[name]
+        if "alias" in entry:
+            return resolve(entry["alias"], visiting | {name})
+        return entry
+
+    return {name: resolve(name, set()) for name in FONT_SLOTS}
+
+
+def compile_catalog(po, mo):
+    result = subprocess.run(
+        ["msgfmt", "-c", "-o", str(mo), str(po)],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if result.returncode:
+        raise ValueError(result.stderr.strip() or "Catalog compilation failed")
+    return result.stderr.strip()
 
 
 def pack_lang(lang, output):
@@ -94,7 +145,7 @@ def pack_lang(lang, output):
         if strings["file"]:
             po = source / strings["file"]
             mo = temp / "strings.mo"
-            subprocess.run(["msgfmt", "-c", "-v", "-o", str(mo), str(po)], check=True)
+            compile_catalog(po, mo)
             resources["STRINGS"] = mo.read_bytes()
             codepoints = temp / "codepoints.json"
             codepoints.write_text(json.dumps(generate_codepoint_requirements(po)))

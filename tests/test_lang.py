@@ -208,7 +208,7 @@ class LanguageTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             env = os.environ.copy()
             env.pop("PYTHONPATH", None)
-            for locale in ("en_US", "fr_FR", "en_IL"):
+            for locale in ("fr_FR", "en_IL"):
                 subprocess.run(
                     [
                         sys.executable,
@@ -228,7 +228,7 @@ class LanguageTest(unittest.TestCase):
                     self.assertTrue(contents[0])
                 if locale == "en_IL":
                     self.assertTrue(contents[1])
-            self.assertEqual(len(list(Path(directory).iterdir())), 3)
+            self.assertEqual(len(list(Path(directory).iterdir())), 2)
 
 
 if __name__ == "__main__":

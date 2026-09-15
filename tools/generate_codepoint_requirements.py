@@ -2,36 +2,29 @@
 # SPDX-License-Identifier: Apache-2.0
 
 import argparse
-import codecs
 import json
 import os
-import re
+
+import polib
 
 
 def generate_codepoint_requirements(path, encoding="utf-8", controlchars=False):
-    latin_start = 0x20
-    latin_end = 0x2AF
-    lang = None
+    # Preserve the existing extended-font subset policy. This is not a claim
+    # about built-in glyph coverage; check_lang inspects all translated text.
+    catalog = polib.pofile(str(path), encoding=encoding)
     codepoints = set()
-
-    with codecs.open(path, encoding=encoding, mode="r") as fin:
-        for line in fin:
-            if lang is None:
-                langstr = re.search(r"^\"Language: (\w*)", line)
-                lang = langstr.group(1) if langstr else None
-                continue
-
-            msgstr = re.search('^msgstr "(.*)"$', line)
-            if msgstr and len(msgstr.group(1)) > 0:
-                for char in msgstr.group(1):
-                    codepoints.update(char)
-
-        required_codepoints = [
-            ord(c)
-            for c in codepoints
-            if ord(c) > latin_end or (ord(c) < latin_start and controlchars)
-        ]
-        return {"language": lang, "codepoints": required_codepoints}
+    for entry in catalog:
+        if entry.obsolete or not entry.translated():
+            continue
+        texts = entry.msgstr_plural.values() if entry.msgid_plural else [entry.msgstr]
+        for text in texts:
+            codepoints.update(ord(character) for character in text)
+    return {
+        "language": catalog.metadata.get("Language"),
+        "codepoints": sorted(
+            cp for cp in codepoints if cp > 0x2AF or (cp < 0x20 and controlchars)
+        ),
+    }
 
 
 def main():

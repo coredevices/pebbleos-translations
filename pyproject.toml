@@ -5,6 +5,7 @@ description = "Catalog maintenance and universal Pebble language-pack tools"
 requires-python = ">=3.9"
 dependencies = [
     "freetype-py==2.5.1",
+    "polib==1.2.0",
 ]
 
 [dependency-groups]
