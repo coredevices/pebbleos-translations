@@ -23,9 +23,11 @@ The installed CLI defaults to the current directory; the existing script command
 above continue to work.
 
 The checked-in `pebbleos.pot` is the source template for Weblate and new languages.
-Its initial snapshot comes from PebbleOS checkout
-`6cd53f3c39dece12089e5797fec347267fbbeb3c` (`obelix@pvt`, normal firmware).
-Subsequent automated source updates come only from firmware releases.
+The current snapshot comes from PebbleOS checkout
+`26327be13fd7484a6b019b0213e26a9024402f24`, using its universal extraction target
+(independent of board and enabled services). `POT-Creation-Date` is omitted to
+match firmware CI and avoid timestamp-only changes. The firmware workflow uploads
+updated sources after successful main builds.
 
 To initialize or update a language, use the source catalog:
 
