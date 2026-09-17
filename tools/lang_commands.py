@@ -11,6 +11,8 @@ import tempfile
 from importlib.resources import files
 from pathlib import Path
 
+import polib
+
 # Support both the installed package and the existing direct-script commands.
 if __package__:
     from .generate_codepoint_requirements import generate_codepoint_requirements
@@ -28,7 +30,6 @@ DATA_ROOT = (
 LANG_ROOT = Path.cwd() if __package__ else Path(__file__).resolve().parent.parent
 LANG_MAP = "lang_map.json"
 CATALOG = "tintin.po"
-INCOMPLETE = "INCOMPLETE"
 
 
 def lang_dir(lang):
@@ -154,10 +155,8 @@ def compile_catalog(po, mo):
     return result.stderr.strip()
 
 
-def pack_lang(lang, output):
+def pack_lang(lang, output, *, version=None):
     source = lang_dir(lang)
-    if (source / INCOMPLETE).is_file():
-        raise ValueError(f"Locale {lang} is marked incomplete")
     resource_map = json.loads((source / LANG_MAP).read_text())
     validate_map(resource_map)
     output = Path(output)
@@ -170,7 +169,15 @@ def pack_lang(lang, output):
         if strings["file"]:
             po = source / strings["file"]
             mo = temp / "strings.mo"
-            compile_catalog(po, mo)
+            compilation_source = po
+            if version is not None:
+                if not 1 <= version <= 65535:
+                    raise ValueError("Pack version must be between 1 and 65535")
+                catalog = polib.pofile(str(po))
+                catalog.metadata["Project-Id-Version"] = str(version)
+                compilation_source = temp / "versioned.po"
+                catalog.save(str(compilation_source))
+            compile_catalog(compilation_source, mo)
             resources["STRINGS"] = mo.read_bytes()
             codepoints = temp / "codepoints.json"
             codepoints.write_text(
@@ -212,11 +219,7 @@ def pack_lang(lang, output):
 
 def pack_all_langs(output):
     for source in sorted(LANG_ROOT.iterdir()):
-        if (
-            source.is_dir()
-            and (source / LANG_MAP).is_file()
-            and not (source / INCOMPLETE).is_file()
-        ):
+        if source.is_dir() and (source / LANG_MAP).is_file():
             pack_lang(source.name, output)
 
 

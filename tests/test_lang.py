@@ -94,27 +94,16 @@ class LanguageTest(unittest.TestCase):
                 (root / name).mkdir()
             for name in ("fr_FR", "uk_UA", "en_US"):
                 (root / name / commands.LANG_MAP).write_text("{}")
-            (root / "uk_UA" / commands.INCOMPLETE).write_text("Missing fonts\n")
+            (root / "uk_UA" / "INCOMPLETE").write_text("Missing fonts\n")
             with (
                 patch.object(commands, "LANG_ROOT", root),
                 patch.object(commands, "pack_lang") as pack,
             ):
                 commands.pack_all_langs("dist")
             self.assertEqual(
-                pack.call_args_list, [call("en_US", "dist"), call("fr_FR", "dist")]
+                pack.call_args_list,
+                [call("en_US", "dist"), call("fr_FR", "dist"), call("uk_UA", "dist")],
             )
-
-    def test_pack_lang_rejects_incomplete_locale(self):
-        with tempfile.TemporaryDirectory() as directory:
-            root = Path(directory)
-            source = root / "uk_UA"
-            source.mkdir()
-            (source / commands.INCOMPLETE).write_text("Missing fonts\n")
-            with (
-                patch.object(commands, "LANG_ROOT", root),
-                self.assertRaisesRegex(ValueError, "marked incomplete"),
-            ):
-                commands.pack_lang("uk_UA", root / "out")
 
     def test_font_aliases_and_map_order(self):
         with tempfile.TemporaryDirectory() as directory:

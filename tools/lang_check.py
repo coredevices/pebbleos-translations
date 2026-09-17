@@ -97,13 +97,6 @@ def check_lang(lang):
         issue("error", "resource_map_invalid", str(error))
         return report
 
-    if (source / commands.INCOMPLETE).is_file():
-        issue(
-            "error",
-            "language_incomplete",
-            f"Locale {lang} is marked incomplete; resolve the outstanding work before building a pack.",
-        )
-
     with tempfile.TemporaryDirectory(prefix="check-lang-") as directory:
         temp = Path(directory)
         resources = {"STRINGS": b""}

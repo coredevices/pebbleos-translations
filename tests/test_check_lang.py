@@ -175,15 +175,12 @@ class CheckLanguageTest(unittest.TestCase):
         self.save()
         self.assertFalse(check_lang("test")["ok"])
 
-    def test_malformed_inputs_and_incomplete_marker(self):
+    def test_malformed_inputs(self):
         for value in ([], {}, {"strings": {}, "fonts": []}):
             (self.source / commands.LANG_MAP).write_text(json.dumps(value))
             self.assertFalse(check_lang("test")["ok"])
         self.save()
         (self.source / commands.CATALOG).write_text('msgid "unterminated\n')
-        self.assertFalse(check_lang("test")["ok"])
-        self.save()
-        (self.source / commands.INCOMPLETE).touch()
         self.assertFalse(check_lang("test")["ok"])
 
     def test_json_cli_stdout_and_exit_status(self):
