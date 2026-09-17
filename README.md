@@ -3,6 +3,16 @@
 Translation catalogs, language-pack resource maps, fonts, and character sets
 for [PebbleOS](https://github.com/coredevices/pebbleos).
 
+## Production translation publishing
+
+Use [Pebble translations](https://translate.repebble.com/) to edit translations
+and upload fonts and licenses. Project managers can use Weblate's repository
+maintenance **Commit** and **Push** actions to publish immediately. Push-on-commit
+is enabled; pending translation changes are also committed by the scheduled task
+once they are at least one hour old. Every push to `main` runs the **Language
+packs** workflow, which validates and publishes the complete pack snapshot.
+No separate pull-request approval is required for this production workflow.
+
 ## Packing
 
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/) and GNU
