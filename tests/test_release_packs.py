@@ -166,6 +166,35 @@ class ReleaseTest(unittest.TestCase):
         with self.assertRaises(FileNotFoundError):
             self.build()
 
+    def test_completion_excludes_formatting_sources_but_keeps_missing_text(self):
+        template = polib.POFile()
+        catalog = polib.POFile()
+        for context, source, translation in (
+            ("suffix", "", ""),
+            ("separator", " ", " "),
+            ("layout", "\t\n", "formatting"),
+            (None, "Hello", "Bonjour"),
+            (None, "Missing", ""),
+        ):
+            template.append(polib.POEntry(msgctxt=context, msgid=source))
+            catalog.append(
+                polib.POEntry(msgctxt=context, msgid=source, msgstr=translation)
+            )
+        template.append(polib.POEntry(msgid="Not in catalog"))
+        # A nonblank plural still requires translation even if its singular is blank.
+        template.append(polib.POEntry(msgctxt="count", msgid="", msgid_plural="items"))
+        self.assertEqual(
+            releases.completion(catalog, template),
+            {"translatedStrings": 1, "totalStrings": 4},
+        )
+        self.assertEqual(len(template), 7)
+        formatting_only = polib.POFile()
+        formatting_only.extend(template[:3])
+        self.assertEqual(
+            releases.completion(catalog, formatting_only),
+            {"translatedStrings": 0, "totalStrings": 0},
+        )
+
     def test_completion_excludes_fuzzy_obsolete_missing_plural_and_old_sources(self):
         template = polib.POFile()
         catalog = polib.POFile()

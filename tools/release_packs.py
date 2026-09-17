@@ -72,7 +72,12 @@ def completion(catalog, template):
     )
     nplurals = int(plural[1]) if plural else 0
     translated = 0
-    source = [e for e in template if not e.obsolete]
+    # Empty suffixes and whitespace separators are formatting, not translation work.
+    source = [
+        e
+        for e in template
+        if not e.obsolete and (e.msgid.strip() or e.msgid_plural.strip())
+    ]
     for entry in source:
         target = entries.get((entry.msgctxt, entry.msgid))
         if not target or target.fuzzy or target.msgid_plural != entry.msgid_plural:
