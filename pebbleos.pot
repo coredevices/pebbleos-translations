@@ -1,0 +1,3735 @@
+# PebbleOS source strings. Initial snapshot from the local firmware checkout.
+# SPDX-FileCopyrightText: 2026 Core Devices LLC
+# SPDX-License-Identifier: Apache-2.0
+# Source revision: 6cd53f3c39dece12089e5797fec347267fbbeb3c
+# Configuration: obelix@pvt, normal firmware.
+# Future source updates are generated from firmware releases.
+msgid ""
+msgstr ""
+"Project-Id-Version: PebbleOS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/fw/applib/template_string.c:303 src/fw/applib/template_string.c:315
+#: src/fw/applib/template_string.c:327 src/fw/applib/template_string.c:339
+#: src/fw/applib/template_string.c:352 src/fw/applib/template_string.c:366
+msgctxt "TmplStringMany"
+msgid ""
+msgstr ""
+
+#: src/fw/applib/template_string.c:302 src/fw/applib/template_string.c:314
+#: src/fw/applib/template_string.c:326 src/fw/applib/template_string.c:338
+#: src/fw/applib/template_string.c:351 src/fw/applib/template_string.c:365
+msgctxt "TmplStringPlur"
+msgid ""
+msgstr ""
+
+#. / Suffixes for seconds with no units
+#. / Suffixes for minutes with no units
+#. / Suffixes for hours with no units
+#. / Suffixes for days with no units
+#. / Suffixes for months with no units
+#. / Suffixes for years with no units
+#: src/fw/applib/template_string.c:302 src/fw/applib/template_string.c:314
+#: src/fw/applib/template_string.c:326 src/fw/applib/template_string.c:338
+#: src/fw/applib/template_string.c:351 src/fw/applib/template_string.c:365
+msgctxt "TmplStringSing"
+msgid ""
+msgstr ""
+
+#: src/fw/services/activity/health_util.c:102
+msgid " "
+msgstr ""
+
+#. / The second separator in `<hour> hr <minute> min <second> sec`
+#: src/fw/applib/template_string.c:221 src/fw/applib/template_string.c:223
+msgctxt "TmplStringSep"
+msgid " "
+msgstr ""
+
+#: src/fw/services/timeline/calendar_layout.c:168
+msgid " - "
+msgstr ""
+
+#: src/fw/services/clock/service.c:548
+msgid " MIN. TO"
+msgstr ""
+
+#: src/fw/applib/template_string.c:342
+msgctxt "TmplStringMany"
+msgid " d"
+msgstr ""
+
+#: src/fw/applib/template_string.c:341
+msgctxt "TmplStringPlur"
+msgid " d"
+msgstr ""
+
+#. / Suffixes for days with abbreviated units
+#: src/fw/applib/template_string.c:341
+msgctxt "TmplStringSing"
+msgid " d"
+msgstr ""
+
+#. / Suffixes for days with full units
+#: src/fw/applib/template_string.c:344
+msgctxt "TmplStringSing"
+msgid " day"
+msgstr ""
+
+#: src/fw/applib/template_string.c:345
+msgctxt "TmplStringMany"
+msgid " days"
+msgstr ""
+
+#: src/fw/applib/template_string.c:344
+msgctxt "TmplStringPlur"
+msgid " days"
+msgstr ""
+
+#. / Suffixes for hours with full units
+#: src/fw/applib/template_string.c:332
+msgctxt "TmplStringSing"
+msgid " hour"
+msgstr ""
+
+#: src/fw/applib/template_string.c:333
+msgctxt "TmplStringMany"
+msgid " hours"
+msgstr ""
+
+#: src/fw/applib/template_string.c:332
+msgctxt "TmplStringPlur"
+msgid " hours"
+msgstr ""
+
+#: src/fw/applib/template_string.c:330
+msgctxt "TmplStringMany"
+msgid " hr"
+msgstr ""
+
+#: src/fw/applib/template_string.c:329
+msgctxt "TmplStringPlur"
+msgid " hr"
+msgstr ""
+
+#. / Suffixes for hours with abbreviated units
+#: src/fw/applib/template_string.c:329
+msgctxt "TmplStringSing"
+msgid " hr"
+msgstr ""
+
+#: src/fw/applib/template_string.c:318
+msgctxt "TmplStringMany"
+msgid " min"
+msgstr ""
+
+#: src/fw/applib/template_string.c:317
+msgctxt "TmplStringPlur"
+msgid " min"
+msgstr ""
+
+#. / Suffixes for minutes with abbreviated units
+#: src/fw/applib/template_string.c:317
+msgctxt "TmplStringSing"
+msgid " min"
+msgstr ""
+
+#. / Suffixes for minutes with full units
+#: src/fw/applib/template_string.c:320
+msgctxt "TmplStringSing"
+msgid " minute"
+msgstr ""
+
+#: src/fw/applib/template_string.c:321
+msgctxt "TmplStringMany"
+msgid " minutes"
+msgstr ""
+
+#: src/fw/applib/template_string.c:320
+msgctxt "TmplStringPlur"
+msgid " minutes"
+msgstr ""
+
+#: src/fw/applib/template_string.c:355
+msgctxt "TmplStringMany"
+msgid " mo"
+msgstr ""
+
+#: src/fw/applib/template_string.c:354
+msgctxt "TmplStringPlur"
+msgid " mo"
+msgstr ""
+
+#. / Suffixes for months with abbreviated units
+#: src/fw/applib/template_string.c:354
+msgctxt "TmplStringSing"
+msgid " mo"
+msgstr ""
+
+#. / Suffixes for months with full units
+#: src/fw/applib/template_string.c:357
+msgctxt "TmplStringSing"
+msgid " month"
+msgstr ""
+
+#: src/fw/applib/template_string.c:358
+msgctxt "TmplStringMany"
+msgid " months"
+msgstr ""
+
+#: src/fw/applib/template_string.c:357
+msgctxt "TmplStringPlur"
+msgid " months"
+msgstr ""
+
+#: src/fw/applib/template_string.c:306
+msgctxt "TmplStringMany"
+msgid " sec"
+msgstr ""
+
+#: src/fw/applib/template_string.c:305
+msgctxt "TmplStringPlur"
+msgid " sec"
+msgstr ""
+
+#. / Suffixes for seconds with abbreviated units
+#: src/fw/applib/template_string.c:305
+msgctxt "TmplStringSing"
+msgid " sec"
+msgstr ""
+
+#. / Suffixes for seconds with full units
+#: src/fw/applib/template_string.c:308
+msgctxt "TmplStringSing"
+msgid " second"
+msgstr ""
+
+#: src/fw/applib/template_string.c:309
+msgctxt "TmplStringMany"
+msgid " seconds"
+msgstr ""
+
+#: src/fw/applib/template_string.c:308
+msgctxt "TmplStringPlur"
+msgid " seconds"
+msgstr ""
+
+#. / Suffixes for years with full units
+#: src/fw/applib/template_string.c:371
+msgctxt "TmplStringSing"
+msgid " year"
+msgstr ""
+
+#: src/fw/applib/template_string.c:372
+msgctxt "TmplStringMany"
+msgid " years"
+msgstr ""
+
+#: src/fw/applib/template_string.c:371
+msgctxt "TmplStringPlur"
+msgid " years"
+msgstr ""
+
+#: src/fw/applib/template_string.c:369
+msgctxt "TmplStringMany"
+msgid " yr"
+msgstr ""
+
+#: src/fw/applib/template_string.c:368
+msgctxt "TmplStringPlur"
+msgid " yr"
+msgstr ""
+
+#. / Suffixes for years with abbreviated units
+#: src/fw/applib/template_string.c:368
+msgctxt "TmplStringSing"
+msgid " yr"
+msgstr ""
+
+#: src/fw/process_management/app_manager.c:458
+#, c-format
+msgid "%.*s is not responding"
+msgstr ""
+
+#: src/fw/services/clock/service.c:745 src/fw/services/clock/service.c:860
+#: src/fw/services/clock/service.c:868
+#, c-format
+msgid "%A"
+msgstr ""
+
+#: src/fw/services/clock/service.c:968
+msgid "%B "
+msgstr ""
+
+#: src/fw/services/clock/service.c:748
+msgid "%B %d"
+msgstr ""
+
+#: src/fw/apps/watch/tictoc/bw/tictoc_bw.c:75
+#: src/fw/services/clock/service.c:841 src/fw/services/clock/service.c:849
+msgid "%B %e"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:829
+msgid "%H:%M"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:52
+msgid "%H:%M:%S"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:55
+msgid "%I:%M:%S %p"
+msgstr ""
+
+#: src/fw/services/clock/service.c:503 src/fw/services/clock/service.c:812
+msgid "%R"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:54
+msgid "%a %b %e %H:%M:%S %Y"
+msgstr ""
+
+#: src/fw/services/clock/service.c:866
+msgid "%a, %R"
+msgstr ""
+
+#: src/fw/apps/system/weather/forecast_list.c:2216
+#, no-c-format
+msgid "%a, %b %d"
+msgstr ""
+
+#: src/fw/services/clock/service.c:858
+msgid "%a, %l:%M %p"
+msgstr ""
+
+#: src/fw/apps/system/health/graph_card.c:312
+#, c-format
+msgid "%a: "
+msgstr ""
+
+#: src/fw/services/clock/service.c:968
+#, c-format
+msgid "%b "
+msgstr ""
+
+#: src/fw/services/clock/service.c:847
+msgid "%b %e, %R"
+msgstr ""
+
+#: src/fw/services/clock/service.c:839
+msgid "%b %e, %l:%M %p"
+msgstr ""
+
+#. #-#-#-#-#  apps.pot (PACKAGE VERSION)  #-#-#-#-#
+#. / Step count less than 1000
+#: src/fw/apps/watch/kickstart/kickstart.c:475
+#: src/fw/services/activity/health_util.c:109
+#: src/fw/services/activity/health_util.c:93
+#: src/fw/services/clock/service.c:963
+#, c-format
+msgid "%d"
+msgstr ""
+
+#: src/fw/apps/watch/kickstart/kickstart.c:361
+#, c-format
+msgid "%d BPM"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1639
+#: src/fw/services/activity/activity_insights.c:1729
+#: src/fw/services/activity/activity_insights.c:1736
+#: src/fw/services/activity/activity_insights.c:1743
+#, c-format
+msgid "%d Min"
+msgstr ""
+
+#. / Step count greater than 1000 with a thousands separator
+#: src/fw/apps/watch/kickstart/kickstart.c:471
+#, c-format
+msgid "%d,%03d"
+msgstr ""
+
+#: src/fw/services/activity/health_util.c:130
+#, c-format
+msgid "%d.%d"
+msgstr ""
+
+#: src/fw/services/activity/health_util.c:59
+#, c-format
+msgid "%d:%d"
+msgstr ""
+
+#: src/fw/services/activity/health_util.c:30
+#, c-format
+msgid "%dH"
+msgstr ""
+
+#: src/fw/services/activity/health_util.c:36
+#, c-format
+msgid "%dM"
+msgstr ""
+
+#: src/fw/services/clock/service.c:972
+#, c-format
+msgid "%e"
+msgstr ""
+
+#. / Today's current temperature (e.g. "68°")
+#: src/fw/apps/system/launcher/default/app_glance_weather.c:125
+#, c-format
+msgid "%i°"
+msgstr ""
+
+#. / Shown when today's temperature and conditions phrase is known (e.g. "52°
+#. - Fair")
+#: src/fw/apps/system/launcher/default/app_glance_weather.c:123
+#, c-format
+msgid "%i° - %s"
+msgstr ""
+
+#: src/fw/services/clock/service.c:503
+msgid "%l:%M"
+msgstr ""
+
+#: src/fw/services/clock/service.c:808
+msgid "%l:%M %p"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:829
+msgid "%l:%M%p"
+msgstr ""
+
+#: src/fw/services/clock/service.c:895
+#, c-format
+msgid "%lu H AGO"
+msgstr ""
+
+#: src/fw/services/clock/service.c:909
+#, c-format
+msgid "%lu MIN AGO"
+msgstr ""
+
+#: src/fw/services/clock/service.c:899
+#, c-format
+msgid "%lu hours ago"
+msgstr ""
+
+#: src/fw/services/clock/service.c:911
+#, c-format
+msgid "%lu minute ago"
+msgstr ""
+
+#: src/fw/services/clock/service.c:913
+#, c-format
+msgid "%lu minutes ago"
+msgstr ""
+
+#: src/fw/services/clock/service.c:955 src/fw/services/clock/service.c:959
+#, c-format
+msgid "%m/%d"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:53
+msgid "%m/%d/%y"
+msgstr ""
+
+#: src/fw/services/clock/service.c:515
+#, c-format
+msgid "%p"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:902
+#, c-format
+msgid "%s - %s"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:550
+#, c-format
+msgid "%s at %d%s."
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:889
+#, c-format
+msgid "%s of sleep"
+msgstr ""
+
+#: src/fw/popups/crashed_ui.c:92
+#, c-format
+msgid ""
+"%s%.*s is not responding.\n"
+"\n"
+"Open app?"
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:188
+#, c-format
+msgid "%u Paired Phone"
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:188
+#, c-format
+msgid "%u Paired Phones"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1498
+#, c-format
+msgid "%u Steps"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:853
+#, c-format
+msgid "%uH %uM Sleep"
+msgstr ""
+
+#: src/fw/applib/template_string.c:227
+msgctxt "TmplStringSep"
+msgid ", "
+msgstr ""
+
+#. / The second separator in `<hour> hours, <minute> minutes, and <second>
+#. seconds`
+#: src/fw/applib/template_string.c:229
+msgctxt "TmplStringSep"
+msgid ", and "
+msgstr ""
+
+#. / Shown when the current temperature is unknown
+#: src/fw/apps/system/launcher/default/app_glance_weather.c:117
+msgid "--°"
+msgstr ""
+
+#: src/fw/apps/system/settings/health.c:30
+msgid "1 Hour"
+msgstr ""
+
+#. / 1 Minute Notification Window Timeout
+#: src/fw/apps/system/settings/notifications.c:152
+msgid "1 Minute"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:321
+msgid "1 hour"
+msgstr ""
+
+#. / Shows up in the Timeline settings as a "Timing" subtitle and submenu
+#. option.
+#: src/fw/apps/system/settings/timeline.c:72
+msgid "10 Min Before"
+msgstr ""
+
+#. / 10 Minute Notification Window Timeout
+#: src/fw/apps/system/settings/health.c:28
+#: src/fw/apps/system/settings/notifications.c:156
+msgid "10 Minutes"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:520
+msgid "10 back-button presses"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:320
+msgid "10 minutes"
+msgstr ""
+
+#: src/fw/apps/system/settings/time.c:383
+msgid "12h"
+msgstr ""
+
+#. / Shows up in the Timeline settings as a "Timing" subtitle and submenu
+#. option.
+#: src/fw/apps/system/settings/timeline.c:74
+msgid "15 Min Before"
+msgstr ""
+
+#. / 15 Second Notification Window Timeout
+#: src/fw/apps/system/settings/notifications.c:148
+msgid "15 Seconds"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:320
+msgid "15 minutes"
+msgstr ""
+
+#: src/fw/apps/system/settings/time.c:383
+msgid "24h"
+msgstr ""
+
+#. / 3 Minute Notification Window Timeout
+#: src/fw/apps/system/settings/notifications.c:154
+msgid "3 Minutes"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:175
+msgid "3 Seconds"
+msgstr ""
+
+#: src/fw/apps/system/health/sleep_detail_card.c:67
+msgid "30 DAY"
+msgstr ""
+
+#: src/fw/apps/system/health/activity_detail_card.c:56
+#: src/fw/apps/system/health/sleep_detail_card.c:65
+msgid "30 DAY AVG"
+msgstr ""
+
+#. / Shows up in the Timeline settings as a "Timing" subtitle and submenu
+#. option.
+#: src/fw/apps/system/settings/timeline.c:76
+msgid "30 Min Before"
+msgstr ""
+
+#: src/fw/apps/system/settings/health.c:29
+msgid "30 Minutes"
+msgstr ""
+
+#. / 30 Second Notification Window Timeout
+#: src/fw/apps/system/settings/notifications.c:150
+msgid "30 Seconds"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:321
+msgid "30 minutes"
+msgstr ""
+
+#. / Shows up in the Timeline settings as a "Timing" subtitle and submenu
+#. option.
+#: src/fw/apps/system/settings/timeline.c:70
+msgid "5 Min Before"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:175
+msgid "5 Seconds"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:320
+msgid "5 minutes"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:175
+msgid "8 Seconds"
+msgstr ""
+
+#. / The second separator in `<hour>:<minute>:<second>`
+#: src/fw/applib/template_string.c:215 src/fw/applib/template_string.c:217
+msgctxt "TmplStringSep"
+msgid ":"
+msgstr ""
+
+#: src/fw/apps/system/health/graph_card.c:306
+msgid ": "
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:123
+msgid "<Untitled>"
+msgstr ""
+
+#: src/fw/popups/crashed_ui.c:148
+msgid ""
+"A bug report has been captured. Please finish uploading the bug report using"
+" the Pebble phone app."
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:272
+#: src/fw/services/activity/activity_insights.c:276
+msgid "A good night's sleep goes a long way! Try to get more hours tonight."
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:547
+msgid "ABOVE AVG"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:492
+msgid "ALS Threshold"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:59
+#: src/fw/applib/ui/date_time_selection_window_private.c:76
+#: src/fw/apps/system/weather/expanded_view.c:157
+msgid "AM"
+msgstr ""
+
+#. / Average Pace Label
+#: src/fw/apps/system/workout/active.c:130
+msgid "AVG PACE"
+msgstr ""
+
+#: src/fw/apps/system/workout/active.c:134
+msgid "AVG PACE (/KM)"
+msgstr ""
+
+#. / Average Pace Label with units
+#: src/fw/apps/system/workout/active.c:133
+msgid "AVG PACE (/MI)"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:174
+msgid "About average"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:192
+msgid "About the same"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:547
+msgid "Above avg"
+msgstr ""
+
+#: src/fw/apps/system/settings/themes.c:98
+msgid "Accent Color"
+msgstr ""
+
+#. / Shown in Quick Launch Settings as the title of the list of actions.
+#. / Title of the Quick Launch menu listing the available actions.
+#: src/fw/apps/system/settings/quick_launch.c:71
+#: src/fw/apps/system/settings/quick_launch_app_menu.c:35
+msgid "Actions"
+msgstr ""
+
+#: src/fw/apps/system/watchfaces.c:87
+msgid "Active"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1709
+msgid "Active Calories"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:223
+msgid "Activity Summary"
+msgstr ""
+
+#: src/fw/apps/system/send_text/send_text.c:348
+msgid ""
+"Add contacts in\n"
+"mobile app"
+msgstr ""
+
+#: src/fw/apps/system/weather/saved_locations.c:242
+msgid "Add them in the app"
+msgstr ""
+
+#: src/fw/apps/system/reminders/reminder.c:109
+msgid "Added"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:264
+msgid "Advanced"
+msgstr ""
+
+#: src/fw/apps/system/toggle/airplane_mode.c:28
+msgid ""
+"Airplane\n"
+"Mode Off"
+msgstr ""
+
+#: src/fw/apps/system/toggle/airplane_mode.c:27
+msgid ""
+"Airplane\n"
+"Mode On"
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:401
+msgid "Airplane Mode"
+msgstr ""
+
+#: src/fw/services/alarms/alarm.c:412 src/fw/services/alarms/alarm_pin.c:18
+msgid "Alarm"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarms.c:114
+msgid "Alarm Deleted"
+msgstr ""
+
+#: src/fw/popups/alarm_popup.c:69
+msgid "Alarm dismissed"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarms.c:472
+#: src/fw/apps/system/settings/vibe_patterns.c:90
+#: src/fw/services/timeline/timeline.c:938
+msgid "Alarms"
+msgstr ""
+
+#: src/fw/services/timeline/calendar_layout.c:331
+msgid "All Day"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:513
+msgid "All clear"
+msgstr ""
+
+#: src/fw/services/clock/service.c:531
+#: src/fw/services/timeline/timeline_layout.c:371
+msgid "All day"
+msgstr ""
+
+#: src/fw/apps/system/settings/notifications.c:58
+msgid "Allow All Notifications"
+msgstr ""
+
+#: src/fw/apps/system/settings/quiet_time.c:97
+msgid "Allow Phone Calls"
+msgstr ""
+
+#: src/fw/apps/system/settings/notifications.c:59
+msgid "Allow Phone Calls Only"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:435
+msgid "Ambient Sensor"
+msgstr ""
+
+#: src/fw/services/clock/service.c:897
+msgid "An hour ago"
+msgstr ""
+
+#: src/fw/apps/system/settings/timeline.c:267
+msgid "Appears on your watchface when an event is about to start."
+msgstr ""
+
+#. / Shown in Quick Launch Settings as the title of the list of apps.
+#. / Title of the Quick Launch menu listing the installed apps.
+#: src/fw/apps/system/settings/quick_launch.c:73
+#: src/fw/apps/system/settings/quick_launch_app_menu.c:37
+msgid "Apps"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:38
+msgid "Apr"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:42
+msgid "April"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:953
+#, c-format
+msgid "Aren't naps great? You knocked out for %dH %dM!"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:555
+#, c-format
+msgid "At %d%s."
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:39
+msgid "Aug"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:43
+msgid "August"
+msgstr ""
+
+#: src/fw/apps/system/settings/time.c:362
+#: src/fw/apps/system/settings/time.c:393
+#: src/fw/apps/system/settings/time.c:397
+msgid "Automatic"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1721
+msgid "Avg HR"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1668
+msgid "Avg Pace"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:176
+#: src/fw/services/activity/activity_insights.c:194
+msgid "Awesome!"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:284
+msgid "BACKLIGHT"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:530
+#: src/fw/services/activity/activity_insights.c:536
+msgid "BELOW AVG"
+msgstr ""
+
+#: src/fw/apps/system/health/hr_summary_card.c:110
+msgid "BPM"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:206
+msgid "BT Address"
+msgstr ""
+
+#: src/fw/apps/system/settings/activity_tracker.c:238
+#: src/fw/apps/system/settings/activity_tracker.c:255
+msgid "Background App"
+msgstr ""
+
+#. / String within Settings->Notifications that describes backlight setting
+#: src/fw/apps/system/settings/display.c:284
+#: src/fw/apps/system/settings/display.c:406
+#: src/fw/apps/system/settings/display.c:647
+#: src/fw/apps/system/settings/notifications.c:339
+#: src/fw/apps/system/settings/quiet_time.c:404
+#: src/fw/apps/system/settings/quiet_time.c:444
+msgid "Backlight"
+msgstr ""
+
+#: src/fw/apps/system/toggle/backlight_state.c:29
+msgid "Backlight Off"
+msgstr ""
+
+#: src/fw/apps/system/toggle/backlight_state.c:28
+msgid "Backlight On"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:542
+#: src/fw/apps/system/settings/display.c:652
+msgid "Backlight Settings"
+msgstr ""
+
+#. / Status bar title for the Notification Design Style settings screen
+#. / String within Settings->Notifications that describes the notification
+#. design style
+#: src/fw/apps/system/settings/notifications.c:222
+#: src/fw/apps/system/settings/notifications.c:326
+msgid "Banner Style"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_editor.c:258
+msgid "Basic Alarm"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:263
+msgid "Battery Saver"
+msgstr ""
+
+#: src/fw/services/alarms/alarm_tones.c:190
+msgid "Beacon"
+msgstr ""
+
+#. / Vibrate at the beginning of notification animation (immediate)
+#: src/fw/apps/system/settings/notifications.c:234
+msgid "Beginning"
+msgstr ""
+
+#: src/fw/services/alarms/alarm_tones.c:192
+msgid "Bell"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:530
+#: src/fw/services/activity/activity_insights.c:536
+msgid "Below avg"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:474
+msgid "Below freezing"
+msgstr ""
+
+#: src/fw/apps/system/settings/notifications.c:266
+msgid "Big & Bold"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:91
+msgid "Blinding"
+msgstr ""
+
+#: src/fw/apps/system/settings/health.c:154
+msgid "Blood O2 During Activity"
+msgstr ""
+
+#: src/fw/apps/system/settings/health.c:139
+#: src/fw/apps/system/settings/health.c:81
+msgid "Blood Oxygen"
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:592
+msgid "Bluetooth"
+msgstr ""
+
+#: src/fw/apps/system/settings/notifications.c:265
+msgid "Bold"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:210
+msgid "Bootloader"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:235
+msgid "Bright"
+msgstr ""
+
+#: src/fw/services/timeline/sports_layout.c:141
+msgid "Broadcaster"
+msgstr ""
+
+#: src/fw/apps/system/health/activity_detail_card.c:83
+msgid "CALORIES"
+msgstr ""
+
+#: src/fw/apps/system/weather/globe_view.c:3091
+#: src/fw/apps/system/weather/globe_view.c:3098
+msgid "CITY SELECT"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:237
+msgid "CONSISTENT!"
+msgstr ""
+
+#: src/fw/apps/system/weather/expanded_view.c:475
+msgid "CURRENT UV"
+msgstr ""
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / on a custom choice of days. Respect capitalization!
+#: src/fw/services/alarms/alarm.c:1376
+msgid "CUSTOM"
+msgstr ""
+
+#: src/fw/services/timeline/timeline.c:926
+msgid "Calendar"
+msgstr ""
+
+#: src/fw/apps/system/settings/quiet_time.c:255
+msgid "Calendar Aware"
+msgstr ""
+
+#: src/fw/services/notifications/do_not_disturb.c:107
+msgid ""
+"Calendar Aware enables Quiet Time automatically during calendar events."
+msgstr ""
+
+#: src/fw/popups/phone_ui.c:562
+msgid "Call Accepted"
+msgstr ""
+
+#: src/fw/services/notifications/ancs/ancs_item.c:160
+msgid "Call Back"
+msgstr ""
+
+#: src/fw/popups/phone_ui.c:571
+msgid "Call Declined"
+msgstr ""
+
+#: src/fw/popups/phone_ui.c:568
+msgid "Call Ended"
+msgstr ""
+
+#: src/fw/services/timeline/timeline_actions.c:800
+msgid "Call me"
+msgstr ""
+
+#: src/fw/services/timeline/timeline_actions.c:801
+msgid "Call you later"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:506
+msgid "Calm breeze"
+msgstr ""
+
+#: src/fw/services/timeline/timeline.c:696
+msgid "Can't connect. Relaunch Pebble Time app on phone."
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1610
+msgid "Can't stop, won't stop 👊"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:1054
+msgid "Canada IC"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:1061
+msgid "Canada ISED"
+msgstr ""
+
+#: src/fw/services/timeline/timeline_actions.c:936
+msgid "Canned messages"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:294
+msgid "Centered"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:161
+#: src/fw/apps/system/settings/system.c:961
+msgid "Certification"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:421
+msgid "Chance of rain"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:419
+msgid "Chance of sleet"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:417
+msgid "Chance of snow"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:461
+msgid "Chance of storms"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:285
+msgid "Change Days"
+msgstr ""
+
+#: src/fw/apps/system/settings/quiet_time.c:219
+msgid "Change Schedule"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:280
+#: src/fw/apps/system/alarms/alarm_editor.c:161
+msgid "Change Time"
+msgstr ""
+
+#: src/fw/shell/normal/battery_ui.c:49
+msgid "Charging"
+msgstr ""
+
+#: src/fw/applib/ui/dialogs/bt_conn_dialog.c:96
+msgid "Check bluetooth connection"
+msgstr ""
+
+#: src/fw/applib/ui/day_picker.c:234
+msgid "Check something first."
+msgstr ""
+
+#: src/fw/services/alarms/alarm_tones.c:194
+msgid "Chime"
+msgstr ""
+
+#. / Standard notification design option (default)
+#: src/fw/apps/system/settings/notifications.c:202
+msgid "Classic"
+msgstr ""
+
+#: src/fw/apps/system/notifications.c:541
+#: src/fw/apps/system/notifications.c:548
+msgid "Clear All"
+msgstr ""
+
+#: src/fw/apps/system/notifications.c:847
+msgid "Clear Notification History"
+msgstr ""
+
+#: src/fw/apps/system/notifications.c:272
+msgid "Clear history?"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:501
+msgid "Clear skies"
+msgstr ""
+
+#. / Status bar title for the Notification Status Bar Style settings screen
+#: src/fw/apps/system/settings/notifications.c:288
+msgid "Clock Style"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather.c:102
+msgid "Cloudy"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:498
+msgid "Compact Settings DBs"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:983
+msgid "Company"
+msgstr ""
+
+#: src/fw/apps/system/reminders/reminder.c:51
+msgid "Completed"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:189
+msgid ""
+"Congratulations - you're having a super active day! Activity makes you more "
+"focused and creative. How do you feel?"
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:339
+msgid "Connected"
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:397
+msgid "Connection"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:290
+msgid "Convert to Basic Alarm"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:291
+msgid "Convert to Smart Alarm"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:353
+msgid "Core dump and reboot?"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:490
+msgid "CoreDump now"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:491
+msgid "CoreDump shortcut"
+msgstr ""
+
+#: src/fw/apps/system/weather/globe_view.c:2161
+#: src/fw/apps/system/weather/globe_view.c:3689
+#: src/fw/apps/system/weather/globe_view.c:3743
+#: src/fw/apps/system/weather/saved_locations.c:160
+msgid "Current Location"
+msgstr ""
+
+#. #-#-#-#-#  services.pot (PACKAGE VERSION)  #-#-#-#-#
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / on a custom choice of days. Respect capitalization!
+#: src/fw/apps/system/settings/display.c:40
+#: src/fw/services/alarms/alarm.c:1380
+msgid "Custom"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:1019
+msgid "DC Input"
+msgstr ""
+
+#: src/fw/apps/system/health/sleep_detail_card.c:109
+msgid "DEEP SLEEP"
+msgstr ""
+
+#. / Distance Label
+#: src/fw/apps/system/health/activity_detail_card.c:85
+#: src/fw/apps/system/workout/active.c:157
+msgid "DISTANCE"
+msgstr ""
+
+#: src/fw/apps/system/workout/active.c:161
+msgid "DISTANCE (KM)"
+msgstr ""
+
+#. / Distance Label with units
+#: src/fw/apps/system/workout/active.c:160
+msgid "DISTANCE (MI)"
+msgstr ""
+
+#. / Duration Label
+#: src/fw/apps/system/workout/active.c:126
+msgid "DURATION"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:251
+msgid "DYNAMIC BACKLIGHT"
+msgstr ""
+
+#: src/fw/apps/system/settings/time.c:447
+msgid "Date & Time"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:163
+#: src/fw/apps/system/settings/system.c:603
+msgid "Debugging"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:40
+msgid "Dec"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:44
+msgid "December"
+msgstr ""
+
+#: src/fw/apps/demo/dialogs/dialogs_demo.c:104
+msgid "Decline dialog."
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:136
+msgctxt "Orientation"
+msgid "Default"
+msgstr ""
+
+#: src/fw/apps/system/settings/notifications.c:264
+msgctxt "StatusBar"
+msgid "Default"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:63
+#: src/fw/apps/system/settings/notifications.c:107
+msgctxt "TextSize"
+msgid "Default"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:270
+msgid "Delete"
+msgstr ""
+
+#: src/fw/services/timeline/timeline.c:747
+msgid "Deleted"
+msgstr ""
+
+#: src/fw/applib/voice/voice_window.c:192
+msgid "Dictation is not available."
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1580
+msgid "Didn’t that walk feel good?"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:237
+msgid "Dim"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:275
+#: src/fw/apps/system/settings/quiet_time.c:203
+msgid "Disable"
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:436
+msgid "Disable Airplane Mode to connect."
+msgstr ""
+
+#: src/fw/apps/system/settings/health.c:31
+#: src/fw/apps/system/settings/system.c:521
+#: src/fw/apps/system/settings/system.c:537
+#: src/fw/apps/system/settings/system.c:540
+msgid "Disabled"
+msgstr ""
+
+#: src/fw/apps/system/settings/quiet_time.c:258
+#: src/fw/apps/system/settings/quiet_time.c:266
+#: src/fw/apps/system/settings/quiet_time.c:274
+msgctxt "QuietTime"
+msgid "Disabled"
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:411
+msgid "Disabling..."
+msgstr ""
+
+#: src/fw/popups/phone_ui.c:565
+msgid "Disconnected"
+msgstr ""
+
+#: src/fw/apps/system/workout/utils.c:28
+#: src/fw/popups/ble_hrm/ble_hrm_reminder_popup.c:24
+#: src/fw/services/activity/activity_insights.c:1195
+#: src/fw/services/notifications/ancs/ancs_item.c:152
+msgid "Dismiss"
+msgstr ""
+
+#: src/fw/popups/notifications/notification_window.c:967
+msgid "Dismiss All"
+msgstr ""
+
+#: src/fw/services/timeline/timeline.c:722
+#: src/fw/services/timeline/timeline.c:743
+msgid "Dismissed"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:726
+msgid "Display"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1684
+msgid "Distance"
+msgstr ""
+
+#: src/fw/apps/system/settings/health.c:112
+msgid "Distance Unit"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:231
+msgid "Do you feel more energetic, sharper or optimistic? Being active helps!"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:1273
+msgid "Do you want to shut down?"
+msgstr ""
+
+#: src/fw/apps/system/notifications.c:246
+msgid "Done"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:208
+msgid "Double Tap"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:251
+#: src/fw/apps/system/settings/display.c:447
+msgid "Dynamic Backlight"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:523
+msgid "E"
+msgstr ""
+
+#. / Zone 2 HR Label
+#: src/fw/apps/system/workout/active.c:103
+msgid "ENDURANCE"
+msgstr ""
+
+#. / A frequency option for alarms, i.e. the alarm would go off every
+#. / day. Respect capitalization!
+#: src/fw/services/alarms/alarm.c:1334
+msgid "EVERY DAY"
+msgstr ""
+
+#: src/fw/services/alarms/alarm_pin.c:31
+msgid "Edit"
+msgstr ""
+
+#: src/fw/services/timeline/timeline_actions.c:940
+msgid "Emoji"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:275
+#: src/fw/apps/system/settings/quiet_time.c:205
+msgid "Enable"
+msgstr ""
+
+#. / Health disabled text
+#: src/fw/apps/system/workout/workout.c:192
+msgid "Enable Pebble Health in the mobile app to track workouts"
+msgstr ""
+
+#. / HRM disabled
+#: src/fw/apps/system/health/hr_summary_card.c:155
+msgid "Enable heart rate monitoring in the mobile app"
+msgstr ""
+
+#: src/fw/applib/voice/voice_window.c:312
+msgid "Enable voice in the settings page of the Pebble app."
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:536
+#: src/fw/apps/system/settings/system.c:539
+msgid "Enabled"
+msgstr ""
+
+#: src/fw/apps/system/settings/quiet_time.c:257
+msgctxt "QuietTime"
+msgid "Enabled"
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:412
+msgid "Enabling..."
+msgstr ""
+
+#. #-#-#-#-#  apps.pot (PACKAGE VERSION)  #-#-#-#-#
+#. / Vibrate at the end of notification animation (delayed)
+#: src/fw/applib/ui/time_range_selection_window.c:181
+#: src/fw/apps/system/settings/notifications.c:236
+msgid "End"
+msgstr ""
+
+#: src/fw/popups/notifications/notification_window.c:973
+msgid "End Quiet Time"
+msgstr ""
+
+#: src/fw/services/notifications/do_not_disturb_toggle.c:30
+msgid "End Quiet Time?"
+msgstr ""
+
+#: src/fw/apps/system/workout/utils.c:32
+msgid "End Workout"
+msgstr ""
+
+#: src/fw/apps/system/workout/active.c:669
+msgid "End Workout?"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1609
+msgid "Endorphin rush?"
+msgstr ""
+
+#: src/fw/apps/system/health/hr_detail_card.c:68
+#: src/fw/services/activity/activity_insights.c:1737
+msgid "Endurance"
+msgstr ""
+
+#: src/fw/applib/voice/voice_window.c:211
+msgid "Error occurred. Try again."
+msgstr ""
+
+#. / A frequency option for alarms, i.e. the alarm would go off every
+#. / day. Respect capitalization!
+#: src/fw/services/alarms/alarm.c:1338
+msgid "Every Day"
+msgstr ""
+
+#. / Zone 1 HR Label
+#: src/fw/apps/system/workout/active.c:100
+msgid "FAT BURN"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:165
+msgid "Factory Reset"
+msgstr ""
+
+#: src/fw/apps/system/app_fetch_ui.c:138
+#: src/fw/services/timeline/timeline_actions.c:261
+msgid "Failed"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:509
+msgid "Fair conditions"
+msgstr ""
+
+#: src/fw/apps/system/health/hr_detail_card.c:65
+#: src/fw/services/activity/activity_insights.c:1730
+msgid "Fat Burn"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:38
+msgid "Feb"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:42
+msgid "February"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1420
+#, c-format
+msgid "Feelin' good? You slept for %dH %dM. Nothing can stop you now 👊"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1593
+msgid "Feelin' hot? Cause you're on 🔥"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:479
+msgid "Feels below freezing"
+msgstr ""
+
+#. / The option in the Settings app for filtering notifications by type.
+#: src/fw/apps/system/settings/notifications.c:309
+#: src/fw/apps/system/settings/notifications.c:92
+msgid "Filter"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:207
+msgid "Firmware"
+msgstr ""
+
+#. / Alternative notification design option
+#: src/fw/apps/system/settings/notifications.c:204
+msgid "Flat Black"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:469
+msgid "Flood risk"
+msgstr ""
+
+#: src/fw/apps/system/settings/remote.c:122
+msgid "Forget"
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:449
+msgid "Forget this device to pair a new device."
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:47 src/fw/services/alarms/alarm.c:1394
+msgid "Fri"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:50
+#: src/fw/apps/system/weather/weather.c:142
+msgid "Friday"
+msgstr ""
+
+#: src/fw/services/alarms/alarm.c:1398
+msgid "Fridays"
+msgstr ""
+
+#: src/fw/shell/normal/battery_ui.c:43
+msgid "Fully Charged"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:232
+msgid "GREAT DAY TODAY"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1583
+msgid "Gettin' your step on?"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1311
+#, c-format
+msgid "Good job! You walked %d steps today–do it again tomorrow."
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1415
+#, c-format
+msgid ""
+"Good morning! You slept for %dH %dM. Consistency is key; keep doing what "
+"you're doing 😃."
+msgstr ""
+
+#. / Sleep notification on wake up, slept similar to their typical sleep
+#. duration
+#: src/fw/services/activity/activity_insights.c:1412
+#, c-format
+msgid ""
+"Good mornin’. You slept for %dH %dM. Every good day begins with a solid "
+"night’s sleep...kinda like that one 😉 Keep it up!"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1436
+#, c-format
+msgid ""
+"Goooood morning! You slept for %dH %dM which is %d%% below your typical. Go "
+"crush your day and then get back in bed 😉"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1431
+#, c-format
+msgid ""
+"Groggy? You slept for %dH %dM which is %d%% below your typical. Sleep is "
+"important for everything you do-try getting more shut eye tonight!"
+msgstr ""
+
+#. / Default/Zone 0 HR Label
+#: src/fw/apps/system/workout/active.c:109
+msgid "HEART RATE"
+msgstr ""
+
+#: src/fw/apps/system/settings/health.c:133
+msgid "HR During Activity"
+msgstr ""
+
+#: src/fw/apps/system/settings/health.c:123
+#: src/fw/apps/system/settings/health.c:62
+msgid "HR Monitoring"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:459
+msgid "Hail"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:476
+msgid "Hard frost"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:211
+msgid "Hardware"
+msgstr ""
+
+#: src/fw/apps/system/health/health.c:182
+#: src/fw/apps/system/settings/health.c:254
+#: src/fw/services/timeline/timeline.c:942
+msgid "Health"
+msgstr ""
+
+#: src/fw/apps/system/settings/health.c:107
+msgid "Health Tracking"
+msgstr ""
+
+#: src/fw/apps/system/health/health.c:115
+msgid "Health requires the time to be synced. Please connect your phone."
+msgstr ""
+
+#: src/fw/popups/ble_hrm/ble_hrm_stop_sharing_popup.c:17
+msgid "Heart Rate Not Shared"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:481
+msgid "Heatwave"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:465
+msgid "Heavy rain"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:463
+msgid "Heavy snow"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1594
+msgid "Hey lightning bolt, way to go!"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1294
+#, c-format
+msgid ""
+"Hey rockstar 🎤 You've walked %d steps today which is %d%% above your "
+"typical. Nothing can stop you!"
+msgstr ""
+
+#. / Sleep notification on wake up, slept below their typical sleep duration
+#: src/fw/services/activity/activity_insights.c:1429
+#, c-format
+msgid ""
+"Hey sleepy head. You slept for %dH %dM which is %d%% below your typical. Try"
+" to get more tonight!"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1596
+msgid "Hey speedster, we can barely keep up!"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:91
+#: src/fw/apps/system/settings/system.c:442
+msgid "High"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:485
+msgid "High UV"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:490
+msgid "High humidity"
+msgstr ""
+
+#. / Shown in Quick Launch Settings as the title of the hold back button quick
+#. launch option.
+#: src/fw/apps/system/settings/quick_launch.c:66
+msgid "Hold Back"
+msgstr ""
+
+#. / Shown in Quick Launch Settings as the title of the hold center button
+#. quick launch option.
+#: src/fw/apps/system/settings/quick_launch.c:62
+msgid "Hold Center"
+msgstr ""
+
+#. / Shown in Quick Launch Settings as the title of the hold down button quick
+#. launch option.
+#: src/fw/apps/system/settings/quick_launch.c:64
+msgid "Hold Down"
+msgstr ""
+
+#. / Shown in Quick Launch Settings as the title of the hold up button quick
+#. launch option.
+#: src/fw/apps/system/settings/quick_launch.c:60
+msgid "Hold Up"
+msgstr ""
+
+#: src/fw/apps/system/settings/vibe_patterns.c:95
+msgid "Hourly Notice"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:171
+msgid ""
+"How are you feeling? Have you noticed extra focus, better mood or extra "
+"energy? You have been sleeping great this week! Keep it up!"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:969
+msgid "I didn't nap!?"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:173
+msgid "I feel fabulous!"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:191
+#: src/fw/services/activity/activity_insights.c:919
+msgid "I feel great!"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:923
+msgid "I need more"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:175
+msgid "I'm still tired"
+msgstr ""
+
+#: src/fw/services/clock/service.c:940
+#, c-format
+msgid "IN %lu H"
+msgstr ""
+
+#: src/fw/services/clock/service.c:926
+#, c-format
+msgid "IN %lu MIN"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:126
+msgid "INTENSITY"
+msgstr ""
+
+#: src/fw/services/clock/service.c:942
+#, c-format
+msgid "In %lu hour"
+msgstr ""
+
+#: src/fw/services/clock/service.c:944
+#, c-format
+msgid "In %lu hours"
+msgstr ""
+
+#: src/fw/services/clock/service.c:928
+#, c-format
+msgid "In %lu minute"
+msgstr ""
+
+#: src/fw/services/clock/service.c:930
+#, c-format
+msgid "In %lu minutes"
+msgstr ""
+
+#: src/fw/services/timeline/timeline_actions.c:1044
+msgid "In 15 minutes"
+msgstr ""
+
+#: src/fw/apps/system/settings/vibe_patterns.c:85
+msgid "Incoming Calls"
+msgstr ""
+
+#: src/fw/apps/system/app_fetch_ui.c:129
+msgid "Incompatible JS"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:160
+#: src/fw/apps/system/settings/system.c:255
+msgid "Information"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:126
+#: src/fw/apps/system/settings/display.c:454
+#: src/fw/apps/system/settings/display.c:456
+msgid "Intensity"
+msgstr ""
+
+#: src/fw/services/timeline/timeline.c:946
+msgid "Intercom"
+msgstr ""
+
+#: src/fw/apps/system/settings/quiet_time.c:435
+msgid "Interruptions"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1433
+#, c-format
+msgid ""
+"It's a new day! You slept for %dH %dM which is %d%% below your typical. It's"
+" not your best, but there's always tonight."
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:268
+msgid "It's great that you're keeping a consistent sleep routine!"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:38
+msgid "Jan"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:42
+msgid "January"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:39
+msgid "Jul"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:43
+msgid "July"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:39
+msgid "Jun"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:43
+msgid "June"
+msgstr ""
+
+#: src/fw/apps/system/workout/active.c:273
+#: src/fw/apps/system/workout/active.c:330
+msgid "KM"
+msgstr ""
+
+#: src/fw/apps/system/workout/active.c:349
+msgid "KM/H"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:177
+#: src/fw/services/activity/activity_insights.c:195
+msgid "Keep it up!"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1611
+msgid "Keepin' that heart healthy! ❤"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1289
+#, c-format
+msgid ""
+"Killer job! You've walked %d steps today which is %d%% above your typical. "
+"Do it again tomorrow and you'll be on top of the world!"
+msgstr ""
+
+#: src/fw/apps/system/settings/health.c:22
+msgid "Kilometers"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:53
+#: src/fw/apps/system/settings/display.c:679
+#: src/fw/apps/system/settings/system.c:208
+msgid "Language"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:64
+#: src/fw/apps/system/settings/notifications.c:108
+msgid "Larger"
+msgstr ""
+
+#: src/fw/services/timeline/timeline_layout.c:726
+msgid "Last updated"
+msgstr ""
+
+#: src/fw/apps/system/weather/expanded_view.c:206
+#, c-format
+msgid "Last updated %s"
+msgstr ""
+
+#: src/fw/apps/system/weather/expanded_view.c:203
+msgid "Last updated --:--"
+msgstr ""
+
+#: src/fw/services/timeline/timeline_actions.c:1048
+msgid "Later today"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:137
+msgid "Left-Handed"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:307
+msgid "Legacy App Display"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:684
+msgid "Legacy Apps"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:214
+msgid "Legal"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarms.c:344
+msgid ""
+"Let us wake you in your lightest sleep so you're fully refreshed! Smart "
+"Alarm wakes you up to 30min before your alarm."
+msgstr ""
+
+#: src/fw/apps/system/weather/weather.c:104
+msgid "Light Rain"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather.c:108
+msgid "Light Snow"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:503
+msgid "Light winds"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarms.c:229
+msgid "Limit reached."
+msgstr ""
+
+#: src/fw/applib/voice/voice_window.c:1100
+msgid "Listening"
+msgstr ""
+
+#: src/fw/apps/system/weather/saved_locations.c:159
+msgid "Location"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:91
+#: src/fw/apps/system/settings/system.c:440
+msgid "Low"
+msgstr ""
+
+#: src/fw/apps/system/workout/active.c:273
+#: src/fw/apps/system/workout/active.c:330
+msgid "MI"
+msgstr ""
+
+#: src/fw/apps/system/workout/active.c:349
+msgid "MPH"
+msgstr ""
+
+#: src/fw/apps/system/settings/quiet_time.c:427
+#: src/fw/apps/system/settings/time.c:362
+#: src/fw/apps/system/settings/time.c:389
+msgid "Manual"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:38
+msgid "Mar"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:42
+msgid "March"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:261
+msgid "Max Brightness"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:453
+msgid "Max Intensity"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:38 src/fw/applib/pbl_std/timelocal.c:43
+msgid "May"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:91
+#: src/fw/apps/system/settings/system.c:441
+msgid "Medium"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:442
+msgid "Medium-High"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:441
+msgid "Medium-Low"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:511
+msgid "Mild conditions"
+msgstr ""
+
+#: src/fw/apps/system/settings/health.c:23
+msgid "Miles"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:1033
+msgid "Milliampere-hour"
+msgstr ""
+
+#: src/fw/applib/voice/voice_window.c:362
+msgid "Missed that. Try again."
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1399
+#, c-format
+msgid ""
+"Mmmm...what a night. You slept for %dH %dM which is %d%% above your typical."
+" That's gotta feel good!"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1393
+msgid "Mon"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:49
+#: src/fw/apps/system/weather/weather.c:141
+msgid "Monday"
+msgstr ""
+
+#: src/fw/services/alarms/alarm.c:1396
+msgid "Mondays"
+msgstr ""
+
+#: src/fw/apps/system/settings/quiet_time.c:362
+msgid "Motion"
+msgstr ""
+
+#: src/fw/apps/system/toggle/motion_backlight.c:26
+msgid ""
+"Motion\n"
+"Backlight Off"
+msgstr ""
+
+#: src/fw/apps/system/toggle/motion_backlight.c:25
+msgid ""
+"Motion\n"
+"Backlight On"
+msgstr ""
+
+#: src/fw/apps/system/settings/quiet_time.c:448
+msgid "Motion Backlight"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:468
+#: src/fw/apps/system/settings/system.c:494
+msgid "Motion Sensitivity"
+msgstr ""
+
+#: src/fw/apps/system/music.c:1768
+msgid "Music"
+msgstr ""
+
+#: src/fw/popups/notifications/notification_window.c:929
+#, c-format
+msgid "Mute %s"
+msgstr ""
+
+#: src/fw/popups/notifications/notification_window.c:947
+msgid "Mute 1 Hour"
+msgstr ""
+
+#: src/fw/apps/system/settings/notifications.c:60
+msgid "Mute All Notifications"
+msgstr ""
+
+#: src/fw/popups/notifications/notification_window.c:953
+msgid "Mute Always"
+msgstr ""
+
+#: src/fw/apps/system/settings/quiet_time.c:455
+#: src/fw/apps/system/settings/vibe_patterns.c:66
+msgid "Mute Speaker"
+msgstr ""
+
+#: src/fw/popups/notifications/notification_window.c:950
+msgid "Mute Today"
+msgstr ""
+
+#: src/fw/popups/notifications/notification_window.c:959
+msgid "Mute Weekdays"
+msgstr ""
+
+#: src/fw/popups/notifications/notification_window.c:956
+msgid "Mute Weekends"
+msgstr ""
+
+#: src/fw/popups/notifications/notification_window.c:741
+msgid "Muted"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:523
+msgid "N"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:523
+msgid "NE"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:242
+#: src/fw/services/activity/activity_insights.c:247
+msgid "NOT VERY ACTIVE"
+msgstr ""
+
+#: src/fw/services/clock/service.c:918
+msgid "NOW"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:524
+msgid "NW"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:881
+msgid "Nap Time"
+msgstr ""
+
+#: src/fw/apps/system/settings/health.c:157
+msgid "Needs HR During Activity"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_editor.c:163
+#: src/fw/apps/system/alarms/alarm_editor.c:261
+msgid "New Alarm"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_editor.c:162
+msgid "New Smart Alarm"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1292
+#, c-format
+msgid ""
+"Nice moves! You've walked %d steps today which is %d%% above your typical. "
+"Crush it again tomorrow 😀"
+msgstr ""
+
+#: src/fw/services/timeline/timeline_actions.c:799
+msgid "No"
+msgstr ""
+
+#: src/fw/apps/system/weather/saved_locations.c:241
+msgid "No Locations"
+msgstr ""
+
+#: src/fw/apps/system/settings/activity_tracker.c:154
+msgid "No background apps"
+msgstr ""
+
+#: src/fw/apps/system/timeline/timeline.c:903
+msgid "No events"
+msgstr ""
+
+#: src/fw/apps/system/app_fetch_ui.c:121
+msgid ""
+"No internet\n"
+"connection"
+msgstr ""
+
+#: src/fw/applib/voice/voice_window.c:218
+#: src/fw/apps/system/app_fetch_ui.c:123
+msgid "No internet connection"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather.c:378
+msgid ""
+"No location information available. To see weather, add locations in your "
+"Pebble mobile app."
+msgstr ""
+
+#: src/fw/apps/system/notifications.c:726
+msgid "No notifications"
+msgstr ""
+
+#: src/fw/apps/system/health/sleep_summary_card.c:209
+msgid ""
+"No sleep data,\n"
+"wear your watch\n"
+"to sleep"
+msgstr ""
+
+#. / No Notification Window Timeout
+#: src/fw/apps/system/settings/activity_tracker.c:162
+#: src/fw/apps/system/settings/notifications.c:158
+msgid "None"
+msgstr ""
+
+#: src/fw/apps/system/app_fetch_ui.c:109
+msgid "Not connected"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:193
+msgid "Not feeling it"
+msgstr ""
+
+#. / Quick Launch action that makes the button do nothing at all.
+#: src/fw/apps/system/quick_launch_nothing.c:24
+msgid "Nothing"
+msgstr ""
+
+#: src/fw/apps/system/notifications.c:833
+#: src/fw/apps/system/settings/notifications.c:443
+#: src/fw/apps/system/settings/quiet_time.c:439
+#: src/fw/apps/system/settings/vibe_patterns.c:80
+#: src/fw/services/timeline/timeline.c:922
+msgid "Notifications"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:40
+msgid "Nov"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:44
+msgid "November"
+msgstr ""
+
+#: src/fw/services/clock/service.c:544 src/fw/services/clock/service.c:556
+#: src/fw/services/clock/service.c:918
+msgid "Now"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarms.c:272
+msgid "OFF"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarms.c:272
+msgid "ON"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:542
+msgid "ON AVG"
+msgstr ""
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / one time ever. Respect capitalization!
+#: src/fw/services/alarms/alarm.c:1365
+msgid "ONCE"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:39
+msgid "Oct"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:44
+msgid "October"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:894
+msgid "Of napping"
+msgstr ""
+
+#. / Shows up in the Timeline settings as the status under the "Quick View"
+#. toggle.
+#: src/fw/apps/system/settings/display.c:426
+#: src/fw/apps/system/settings/display.c:657
+#: src/fw/apps/system/settings/display.c:661
+#: src/fw/apps/system/settings/health.c:108
+#: src/fw/apps/system/settings/health.c:135
+#: src/fw/apps/system/settings/health.c:140
+#: src/fw/apps/system/settings/health.c:160
+#: src/fw/apps/system/settings/notifications.c:341
+#: src/fw/apps/system/settings/quiet_time.c:324
+#: src/fw/apps/system/settings/quiet_time.c:363
+#: src/fw/apps/system/settings/quiet_time.c:367
+#: src/fw/apps/system/settings/quiet_time.c:429
+#: src/fw/apps/system/settings/quiet_time.c:450
+#: src/fw/apps/system/settings/quiet_time.c:457
+#: src/fw/apps/system/settings/system.c:1293
+#: src/fw/apps/system/settings/timeline.c:190
+#: src/fw/apps/system/settings/vibe_patterns.c:67
+msgid "Off"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:347
+msgctxt "AlarmSound"
+msgid "Off"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:421
+#: src/fw/apps/system/settings/display.c:442
+#: src/fw/apps/system/settings/display.c:649
+msgctxt "DeviceState"
+msgid "Off"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:234
+msgctxt "DynBacklight"
+msgid "Off"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:210
+msgctxt "TouchWake"
+msgid "Off"
+msgstr ""
+
+#: src/fw/services/timeline/timeline_actions.c:797
+msgid "Ok"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:426
+#: src/fw/apps/system/settings/display.c:657
+#: src/fw/apps/system/settings/display.c:661
+#: src/fw/apps/system/settings/health.c:108
+#: src/fw/apps/system/settings/health.c:135
+#: src/fw/apps/system/settings/health.c:140
+#: src/fw/apps/system/settings/health.c:159
+#: src/fw/apps/system/settings/notifications.c:341
+#: src/fw/apps/system/settings/quiet_time.c:363
+#: src/fw/apps/system/settings/quiet_time.c:367
+#: src/fw/apps/system/settings/quiet_time.c:429
+#: src/fw/apps/system/settings/quiet_time.c:449
+#: src/fw/apps/system/settings/quiet_time.c:457
+#: src/fw/apps/system/settings/system.c:1293
+#: src/fw/apps/system/settings/timeline.c:187
+#: src/fw/apps/system/settings/vibe_patterns.c:67
+msgid "On"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:415
+#: src/fw/apps/system/settings/display.c:418
+msgctxt "DeviceState"
+msgid "On"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:438
+#, c-format
+msgid "On (%d)"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:412
+#, c-format
+msgid "On - %d%%"
+msgstr ""
+
+#: src/fw/apps/system/settings/quiet_time.c:327
+msgid "On - Auto Dismiss"
+msgstr ""
+
+#: src/fw/apps/system/settings/quiet_time.c:329
+msgid "On - Persistent"
+msgstr ""
+
+#: src/fw/apps/system/settings/vibe_patterns.c:100
+msgid "On Disconnect"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:542
+msgid "On avg"
+msgstr ""
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / one time ever. Respect capitalization!
+#: src/fw/services/alarms/alarm.c:1369
+msgid "Once"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:425
+msgid "Open App"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1203
+msgid "Open Pin"
+msgstr ""
+
+#: src/fw/apps/system/workout/utils.c:38
+msgid "Open Workout"
+msgstr ""
+
+#: src/fw/apps/system/settings/quick_launch_setup_menu.c:48
+msgid ""
+"Open favorite apps quickly with a long button press from your watchface."
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:439
+msgid "Open the Pebble app on your phone to connect."
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:162
+#: src/fw/apps/system/settings/display.c:666
+msgid "Orientation"
+msgstr ""
+
+#. / Shows up in the Timeline settings as an "Unsupported Faces" submenu
+#. option.
+#: src/fw/apps/system/settings/timeline.c:86
+msgid "Overlay"
+msgstr ""
+
+#. / Pace Label
+#: src/fw/apps/system/workout/active.c:139
+msgid "PACE"
+msgstr ""
+
+#: src/fw/apps/system/workout/active.c:143
+msgid "PACE (/KM)"
+msgstr ""
+
+#. / Pace Label with units
+#: src/fw/apps/system/workout/active.c:142
+msgid "PACE (/MI)"
+msgstr ""
+
+#. / Zone 3 HR Label
+#: src/fw/apps/system/workout/active.c:106
+msgid "PERFORMANCE"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:60
+#: src/fw/applib/ui/date_time_selection_window_private.c:78
+#: src/fw/apps/system/weather/expanded_view.c:157
+msgid "PM"
+msgstr ""
+
+#. / row at 164: with the deeper section lift (EXTRA_LIFT 19) the
+#. scrolled column's air splits evenly — solved for disc->graph = graph->pill
+#. =
+#. %-row->dot (~10-11px each; the graph auto-centres in its band, so the split
+#. holds for any temp spread).
+#: src/fw/apps/system/weather/forecast_list.c:1598
+msgid "PRECIPITATION"
+msgstr ""
+
+#: src/fw/apps/system/weather/expanded_view.c:392
+#, c-format
+msgid "PRECIPITATION: %d%%"
+msgstr ""
+
+#: src/fw/apps/system/weather/expanded_view.c:390
+msgid "PRECIPITATION: --"
+msgstr ""
+
+#: src/fw/popups/bluetooth_pairing_ui.c:221
+msgid "Pair?"
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:183
+msgid "Pairing Instructions"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather.c:100
+msgid "Partly Cloudy"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:680
+msgid "PebbleOS developers only!"
+msgstr ""
+
+#: src/fw/apps/system/settings/factory_reset.c:108
+msgid "Perform factory reset?"
+msgstr ""
+
+#: src/fw/apps/system/health/hr_detail_card.c:71
+#: src/fw/services/activity/activity_insights.c:1744
+msgid "Performance"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:1012
+msgid "Place of Origin"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:488
+msgid "Poor visibility"
+msgstr ""
+
+#: src/fw/apps/system/reminders/reminder.c:55
+msgid "Postpone"
+msgstr ""
+
+#: src/fw/shell/normal/battery_ui.c:64
+#, c-format
+msgid "Powered 'til %s"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:564
+#, c-format
+msgid "Precipitation %d%%."
+msgstr ""
+
+#: src/fw/services/notifications/do_not_disturb.c:115
+msgid ""
+"Press and hold the Back button from a notification to turn Quiet Time on or "
+"off."
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:991
+msgid "Product Model"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:998
+msgid "Product Type"
+msgstr ""
+
+#: src/fw/apps/system/health/health.c:76
+msgid ""
+"Psst! Want smart tips about your activity and sleep? You can enable Insights"
+" in the mobile app."
+msgstr ""
+
+#. / Title of the Quick Launch Settings submenu in Settings
+#. / Title for the Quick Launch first use dialog.
+#: src/fw/apps/system/settings/quick_launch.c:174
+#: src/fw/apps/system/settings/quick_launch.c:248
+#: src/fw/apps/system/settings/quick_launch_setup_menu.c:45
+msgid "Quick Launch"
+msgstr ""
+
+#. / Shows up in the Timeline settings as a toggle-able "Quick View" item.
+#. / Title for the Timeline Quick View first use dialog.
+#: src/fw/apps/system/settings/timeline.c:183
+#: src/fw/apps/system/settings/timeline.c:264
+msgid "Quick View"
+msgstr ""
+
+#: src/fw/services/timeline/timeline_actions.c:709
+msgid ""
+"Quickly dismiss all notifications by holding the Select button for 2 seconds"
+" from any incoming notification."
+msgstr ""
+
+#: src/fw/apps/system/settings/quiet_time.c:94
+msgid "Quiet All Notifications"
+msgstr ""
+
+#: src/fw/apps/system/settings/quiet_time.c:519
+msgid "Quiet Time"
+msgstr ""
+
+#: src/fw/services/notifications/do_not_disturb_toggle.c:32
+msgid ""
+"Quiet Time\n"
+"Ended"
+msgstr ""
+
+#: src/fw/services/notifications/do_not_disturb_toggle.c:31
+msgid ""
+"Quiet Time\n"
+"Started"
+msgstr ""
+
+#: src/fw/apps/system/weather/expanded_view.c:500
+msgid "RAIN"
+msgstr ""
+
+#: src/fw/apps/system/weather/expanded_view.c:488
+#, c-format
+msgid "RAIN %d%%"
+msgstr ""
+
+#: src/fw/apps/system/weather/expanded_view.c:490
+msgid "RAIN --"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather.c:106
+msgid "Rain"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather.c:112
+msgid "Rain & Snow"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:409
+msgid "Rain likely"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:1026
+msgid "Rated Voltage"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:209
+msgid "Recovery"
+msgstr ""
+
+#: src/fw/services/timeline/calendar_layout.c:373
+msgid "Recurring"
+msgstr ""
+
+#. / Sleep notification on wake up, slept above their typical sleep duration
+#: src/fw/services/activity/activity_insights.c:1392
+#, c-format
+msgid ""
+"Refreshed? You slept for %dH %dM which is %d%% above your typical. Go tackle"
+" your day 😃."
+msgstr ""
+
+#: src/fw/apps/system/reminders/reminder.c:295
+msgid "Reminder"
+msgstr ""
+
+#: src/fw/services/timeline/timeline.c:934
+msgid "Reminders"
+msgstr ""
+
+#: src/fw/apps/system/reminders/reminder.c:59
+#: src/fw/services/activity/activity_insights.c:443
+#: src/fw/services/timeline/timeline.c:656
+msgid "Remove"
+msgstr ""
+
+#: src/fw/services/timeline/timeline.c:710
+msgid "Removed"
+msgstr ""
+
+#: src/fw/services/timeline/timeline_actions.c:926
+msgid "Reply with Voice"
+msgstr ""
+
+#: src/fw/apps/core/progress_ui.c:174
+#: src/fw/apps/system/settings/factory_reset.c:56
+msgid "Resetting..."
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:241
+#: src/fw/services/activity/activity_insights.c:246
+msgid "Resting is fine, but try to recover and step it up tomorrow!"
+msgstr ""
+
+#: src/fw/services/alarms/alarm_tones.c:187
+msgid "Reveille"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1396
+#, c-format
+msgid ""
+"Rise and shine! You slept for %dH %dM which is %d%% above your typical. Do "
+"it again tonight, sleep master."
+msgstr ""
+
+#. #-#-#-#-#  apps.pot (PACKAGE VERSION)  #-#-#-#-#
+#. / Run Label
+#: src/fw/apps/system/workout/utils.c:97
+#: src/fw/services/activity/activity_insights.c:1646
+msgid "Run"
+msgstr ""
+
+#. / Run automatically detected dialog text
+#: src/fw/apps/system/workout/utils.c:121
+msgid ""
+"Run\n"
+"Detected"
+msgstr ""
+
+#: src/fw/popups/switch_worker_ui.c:93
+#, c-format
+msgid "Run %s instead of %s as the background app?"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:524
+msgid "S"
+msgstr ""
+
+#: src/fw/apps/system/weather/globe_view.c:3159
+#: src/fw/apps/system/weather/globe_view.c:3191
+msgid "SAVED LOCATIONS"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:523
+msgid "SE"
+msgstr ""
+
+#: src/fw/apps/system/health/sleep_detail_card.c:96
+msgid "SLEEP SESSION"
+msgstr ""
+
+#: src/fw/apps/system/health/graph_card.c:395
+msgid "SMTWTFS"
+msgstr ""
+
+#. / Speed Label
+#: src/fw/apps/system/workout/active.c:148
+msgid "SPEED"
+msgstr ""
+
+#: src/fw/apps/system/workout/active.c:152
+msgid "SPEED (KM/H)"
+msgstr ""
+
+#. / Speed Label with units
+#: src/fw/apps/system/workout/active.c:151
+msgid "SPEED (MPH)"
+msgstr ""
+
+#: src/fw/apps/system/music.c:878
+msgid ""
+"START PLAYBACK\n"
+"ON YOUR PHONE"
+msgstr ""
+
+#: src/fw/services/timeline/sports_layout.c:60
+msgid "STARTS "
+msgstr ""
+
+#. / Steps Label
+#: src/fw/apps/system/workout/active.c:165
+msgid "STEPS"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:524
+msgid "SW"
+msgstr ""
+
+#. / Notification text size option that follows the system Text Size setting
+#: src/fw/apps/system/settings/notifications.c:110
+msgid "Same as System"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:47 src/fw/services/alarms/alarm.c:1395
+msgid "Sat"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:50
+#: src/fw/apps/system/weather/weather.c:142
+msgid "Saturday"
+msgstr ""
+
+#: src/fw/services/alarms/alarm.c:1399
+msgid "Saturdays"
+msgstr ""
+
+#: src/fw/apps/system/weather/globe_view.c:2157
+msgid "Saved Location"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:294
+msgid "Scaled (Bilinear)"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:294
+msgid "Scaled (Nearest)"
+msgstr ""
+
+#: src/fw/apps/system/settings/quiet_time.c:318
+#: src/fw/apps/system/settings/quiet_time.c:432
+msgid "Schedule"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:925
+msgid "See details..."
+msgstr ""
+
+#: src/fw/apps/system/send_text/send_text.c:252
+#: src/fw/apps/system/send_text/send_text.c:334
+msgid "Select Contact"
+msgstr ""
+
+#: src/fw/apps/system/send_text/send_text.c:382
+msgid "Send Text"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:39
+msgid "Sep"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:44
+msgid "September"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:212
+msgid "Serial"
+msgstr ""
+
+#: src/fw/apps/system/settings/time.c:302
+#: src/fw/apps/system/settings/time.c:374
+msgid "Set Date"
+msgstr ""
+
+#: src/fw/apps/system/settings/time.c:263
+#: src/fw/apps/system/settings/time.c:366
+msgid "Set Time"
+msgstr ""
+
+#: src/fw/apps/system/settings/settings.c:228
+msgid "Settings"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:496
+msgid "Shake Log Info"
+msgstr ""
+
+#: src/fw/popups/ble_hrm/ble_hrm_sharing_popup.c:66
+msgid "Share heart rate?"
+msgstr ""
+
+#: src/fw/popups/ble_hrm/ble_hrm_sharing_popup.c:29
+msgid "Sharing Heart Rate"
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:354
+msgid "Sharing Heart Rate ❤"
+msgstr ""
+
+#. / Shows up in the Timeline settings as an "Unsupported Faces" submenu
+#. option.
+#: src/fw/apps/system/settings/timeline.c:88
+msgid "Shift up"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:164
+msgid "Shut Down"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:255
+msgid "Sleep Summary"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:407
+msgid "Sleet likely"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:62
+#: src/fw/apps/system/settings/notifications.c:106
+msgid "Smaller"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_editor.c:259
+#: src/fw/apps/system/alarms/alarms.c:347 src/fw/services/alarms/alarm.c:412
+#: src/fw/services/alarms/alarm_pin.c:18
+msgid "Smart Alarm"
+msgstr ""
+
+#: src/fw/popups/notifications/notification_window.c:911
+msgid "Snooze"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:309
+msgid "Snooze Delay"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:59
+#, c-format
+msgid "Snooze delay set to %d minutes"
+msgstr ""
+
+#: src/fw/popups/alarm_popup.c:52
+#, c-format
+msgid "Snooze for %d minutes"
+msgstr ""
+
+#: src/fw/popups/notifications/notification_window.c:708
+msgid "Snoozed"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather.c:110
+msgid "Snow"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:405
+msgid "Snow likely"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1312
+#, c-format
+msgid ""
+"Someone's on the move 👊 You walked %d steps today; keep doing what you're "
+"doing!"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:297
+msgid "Sound"
+msgstr ""
+
+#: src/fw/apps/system/settings/vibe_patterns.c:282
+msgid "Sounds & Haptics"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:1075
+#: src/fw/apps/system/settings/system.c:1185
+msgid "South Korea KCC"
+msgstr ""
+
+#: src/fw/apps/system/settings/health.c:144
+msgid "SpO2 Monitoring"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:500
+msgid "SpO2 Test"
+msgstr ""
+
+#: src/fw/apps/system/workout/sports.c:344
+msgid "Sports"
+msgstr ""
+
+#. / Shows up in the Timeline settings as an "Unsupported Faces" submenu
+#. option.
+#: src/fw/apps/system/settings/timeline.c:90
+msgid "Squish up"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:162
+msgid "Stand-By Mode"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:236
+#: src/fw/apps/system/settings/display.c:262
+msgid "Standard"
+msgstr ""
+
+#. / Standard vibration pattern option that has a high intensity
+#: src/fw/services/vibes/vibe_intensity.c:47
+msgid "Standard - High"
+msgstr ""
+
+#. / Standard vibration pattern option that has a low intensity
+#: src/fw/services/vibes/vibe_intensity.c:39
+msgid "Standard - Low"
+msgstr ""
+
+#. / Standard vibration pattern option that has a medium intensity
+#: src/fw/services/vibes/vibe_intensity.c:43
+msgid "Standard - Medium"
+msgstr ""
+
+#: src/fw/applib/ui/time_range_selection_window.c:177
+msgid "Start"
+msgstr ""
+
+#: src/fw/popups/notifications/notification_window.c:974
+msgid "Start Quiet Time"
+msgstr ""
+
+#: src/fw/services/notifications/do_not_disturb_toggle.c:29
+msgid "Start Quiet Time?"
+msgstr ""
+
+#. / Shows up in the Timeline settings as a "Timing" subtitle and submenu
+#. option.
+#: src/fw/apps/system/settings/timeline.c:68
+msgid "Start Time"
+msgstr ""
+
+#. / String within Settings->Notifications that selects the notification
+#. status bar style
+#: src/fw/apps/system/settings/notifications.c:346
+msgid "Status Bar"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1696
+msgid "Steps"
+msgstr ""
+
+#: src/fw/apps/system/workout/utils.c:17
+msgid ""
+"Still sweating? Your workout is active and will be ended soon. Open the "
+"workout to keep it going."
+msgstr ""
+
+#: src/fw/apps/system/settings/remote.c:130
+#: src/fw/popups/ble_hrm/ble_hrm_reminder_popup.c:28
+msgid "Stop Sharing Heart Rate"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:471
+msgid "Strong winds"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1393
+msgid "Sun"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:49
+#: src/fw/apps/system/weather/weather.c:141
+msgid "Sunday"
+msgstr ""
+
+#: src/fw/services/alarms/alarm.c:1396
+msgid "Sundays"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather.c:98
+msgid "Sunny"
+msgstr ""
+
+#: src/fw/apps/system/weather/expanded_view.c:178
+#, c-format
+msgid "Sunset %s"
+msgstr ""
+
+#: src/fw/apps/system/weather/expanded_view.c:175
+msgid "Sunset --:--"
+msgstr ""
+
+#. / Refers to the class of all non-score vibes, e.g. 3rd party app vibes
+#: src/fw/apps/system/settings/system.c:1360
+#: src/fw/apps/system/settings/vibe_patterns.c:106
+msgid "System"
+msgstr ""
+
+#. / Resting HR
+#: src/fw/apps/system/health/hr_detail_card.c:77
+msgid "TIME IN ZONES"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:198
+msgid "TIMEOUT"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:1127
+#: src/fw/apps/system/weather/weather_app_layout.c:839
+msgid "TODAY"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:1213
+#: src/fw/apps/system/weather/weather_app_layout.c:870
+msgid "TOMORROW"
+msgstr ""
+
+#: src/fw/apps/system/health/activity_summary_card.c:142
+msgid "TOTAL"
+msgstr ""
+
+#: src/fw/apps/system/health/ui.c:65
+#, c-format
+msgid "TYPICAL %s"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:209
+msgid "Tap"
+msgstr ""
+
+#. / Shown in Quick Launch Settings as the title of the tap down button
+#. option.
+#: src/fw/apps/system/settings/quick_launch.c:58
+msgid "Tap Down"
+msgstr ""
+
+#. / Shown in Quick Launch Settings as the title of the tap up button option.
+#: src/fw/apps/system/settings/quick_launch.c:56
+msgid "Tap Up"
+msgstr ""
+
+#. / The option in the Settings app for choosing the text size of the system
+#. UI.
+#. / String within Settings->Display that describes the text font size
+#. / The option in the Settings app for choosing the text size of
+#. notifications.
+#. / String within Settings->Notifications that describes the text font size
+#: src/fw/apps/system/settings/display.c:672
+#: src/fw/apps/system/settings/display.c:77
+#: src/fw/apps/system/settings/notifications.c:132
+#: src/fw/apps/system/settings/notifications.c:314
+msgid "Text Size"
+msgstr ""
+
+#: src/fw/services/timeline/timeline.c:776
+msgid "Thanks!"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1402
+#, c-format
+msgid ""
+"That's a lot of sheep you just counted! You slept for %dH %dM which is %d%% "
+"above your typical. Boom shakalaka."
+msgstr ""
+
+#. / Title of the Themes Settings submenu in Settings
+#: src/fw/apps/system/settings/themes.c:147
+msgid "Themes"
+msgstr ""
+
+#: src/fw/process_management/process_manager.c:196
+msgid "This app requires a newer version of the Pebble firmware."
+msgstr ""
+
+#: src/fw/process_management/process_manager.c:340
+msgid "This app uses RockyJS which is no longer supported."
+msgstr ""
+
+#: src/fw/popups/health_tracking_ui.c:75
+msgid ""
+"This feature requires Pebble Health to work. Enable Health in the Pebble "
+"mobile app to continue."
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1394
+msgid "Thu"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:50
+#: src/fw/apps/system/weather/weather.c:142
+msgid "Thursday"
+msgstr ""
+
+#: src/fw/services/alarms/alarm.c:1398
+msgid "Thursdays"
+msgstr ""
+
+#: src/fw/apps/system/settings/time.c:382
+msgid "Time Format"
+msgstr ""
+
+#: src/fw/apps/system/settings/time.c:361
+msgid "Time Source"
+msgstr ""
+
+#: src/fw/apps/system/settings/timeline.c:293
+#: src/fw/apps/system/timeline/timeline.c:1308
+msgid "Timeline"
+msgstr ""
+
+#: src/fw/apps/system/timeline/timeline.c:1280
+msgid "Timeline Future"
+msgstr ""
+
+#. / The title of Timeline Past in Quick Launch. If the translation is too
+#. long, cut out
+#. / Timeline and only translate "Past".
+#: src/fw/apps/system/timeline/timeline.c:1295
+msgid "Timeline Past"
+msgstr ""
+
+#. / Status bar title for the Notification Window Timeout settings screen
+#. / String within Settings->Notifications that describes the window timeout
+#. setting
+#: src/fw/apps/system/settings/display.c:198
+#: src/fw/apps/system/settings/display.c:461
+#: src/fw/apps/system/settings/notifications.c:190
+#: src/fw/apps/system/settings/notifications.c:319
+msgid "Timeout"
+msgstr ""
+
+#. / Title of the menu for changing the watch's timezone.
+#: src/fw/apps/system/settings/time.c:163
+#: src/fw/apps/system/settings/time.c:402
+msgid "Timezone"
+msgstr ""
+
+#: src/fw/apps/system/settings/time.c:387
+msgid "Timezone Source"
+msgstr ""
+
+#. / Shows up in the Timeline settings as the title for the "Timing" submenu
+#. window.
+#. / Shows up in the Timeline settings as the title for the menu item that
+#. controls the
+#. / timing for when to begin showing the peek for an event.
+#: src/fw/apps/system/settings/timeline.c:123
+#: src/fw/apps/system/settings/timeline.c:195
+msgid "Timing"
+msgstr ""
+
+#: src/fw/apps/system/health/detail_card.c:538
+#: src/fw/apps/system/weather/weather.c:136
+#: src/fw/services/clock/service.c:529 src/fw/services/clock/service.c:738
+msgid "Today"
+msgstr ""
+
+#. / The Quick Launch action that toggles Airplane Mode.
+#: src/fw/apps/system/toggle/airplane_mode.c:52
+msgid "Toggle Airplane Mode"
+msgstr ""
+
+#. / The Quick Launch action that toggles the backlight.
+#: src/fw/apps/system/toggle/backlight_state.c:53
+msgid "Toggle Backlight"
+msgstr ""
+
+#. / The Quick Launch action that toggles the motion backlight.
+#: src/fw/apps/system/toggle/motion_backlight.c:50
+msgid "Toggle Motion Backlight"
+msgstr ""
+
+#. / The Quick Launch action that toggles Quiet Time.
+#: src/fw/apps/system/toggle/quiet_time.c:25
+msgid "Toggle Quiet Time"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather.c:138
+#: src/fw/services/clock/service.c:742
+#: src/fw/services/timeline/timeline_actions.c:1052
+msgid "Tomorrow"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:656
+#: src/fw/apps/system/settings/quiet_time.c:366
+msgid "Touch"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:660
+msgid "Touch Navigation"
+msgstr ""
+
+#: src/fw/apps/system/health/health.c:106
+msgid ""
+"Track your steps, sleep, and more! Enable Pebble Health in the mobile app."
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:1005
+msgid "Trademark"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1393
+msgid "Tue"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:49
+#: src/fw/apps/system/weather/weather.c:141
+msgid "Tuesday"
+msgstr ""
+
+#: src/fw/services/alarms/alarm.c:1397
+msgid "Tuesdays"
+msgstr ""
+
+#: src/fw/apps/system/toggle/airplane_mode.c:26
+msgid "Turn Off Airplane Mode?"
+msgstr ""
+
+#: src/fw/apps/system/toggle/backlight_state.c:27
+msgid "Turn Off Backlight?"
+msgstr ""
+
+#: src/fw/apps/system/toggle/motion_backlight.c:24
+msgid "Turn Off Motion Backlight?"
+msgstr ""
+
+#: src/fw/apps/system/toggle/airplane_mode.c:25
+msgid "Turn On Airplane Mode?"
+msgstr ""
+
+#: src/fw/apps/system/toggle/backlight_state.c:26
+msgid "Turn On Backlight?"
+msgstr ""
+
+#: src/fw/apps/system/toggle/motion_backlight.c:23
+msgid "Turn On Motion Backlight?"
+msgstr ""
+
+#: src/fw/apps/system/weather/expanded_view.c:498
+msgid "UV"
+msgstr ""
+
+#: src/fw/apps/system/weather/expanded_view.c:484
+#, c-format
+msgid "UV %d"
+msgstr ""
+
+#: src/fw/apps/system/weather/expanded_view.c:486
+msgid "UV --"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:1063
+#: src/fw/apps/system/weather/weather_app_layout.c:967
+msgid "UV INDEX"
+msgstr ""
+
+#. / Shown in Quick Launch Settings when no action or app is bound to the
+#. button.
+#: src/fw/apps/system/settings/quick_launch.c:80
+#: src/fw/apps/system/settings/quick_launch_app_menu.c:109
+msgid "Unassigned"
+msgstr ""
+
+#: src/fw/apps/system/send_text/send_text.c:194
+#: src/fw/apps/system/settings/health.c:115
+#: src/fw/apps/system/settings/health.c:126
+#: src/fw/apps/system/settings/health.c:147
+#: src/fw/services/phone_call/util.c:18
+msgid "Unknown"
+msgstr ""
+
+#. / Shows up in the Timeline settings as the title for unsupported watchface
+#. behavior.
+#. / Shows up in the Timeline settings for watchfaces that do not support
+#. Quick View.
+#: src/fw/apps/system/settings/timeline.c:152
+#: src/fw/apps/system/settings/timeline.c:202
+msgid "Unsupported Faces"
+msgstr ""
+
+#: src/fw/apps/core/progress_ui.c:62
+msgid "Update Complete"
+msgstr ""
+
+#: src/fw/apps/core/progress_ui.c:62
+msgid "Update Failed"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:213
+msgid "Uptime"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:443
+msgid "Very High"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:440
+msgid "Very Low"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:483
+msgid "Very high UV"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:497
+msgid "Vibe Log Info"
+msgstr ""
+
+#. / Status bar title for the Notification Vibe Timing settings screen
+#. / String within Settings->Notifications that describes when vibration
+#. happens
+#: src/fw/apps/system/settings/notifications.c:254
+#: src/fw/apps/system/settings/notifications.c:333
+msgid "Vibe Timing"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:304
+msgid "Vibration: Off"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_detail.c:303
+msgid "Vibration: On"
+msgstr ""
+
+#: src/fw/apps/system/settings/vibe_patterns.c:284
+msgid "Vibrations"
+msgstr ""
+
+#: src/fw/services/timeline/timeline_actions.c:926
+msgid "Voice"
+msgstr ""
+
+#: src/fw/apps/system/settings/speaker_volume_window.c:55
+#: src/fw/apps/system/settings/vibe_patterns.c:72
+msgid "Volume"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:524
+msgid "W"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:223
+msgid "WAKE ON TOUCH"
+msgstr ""
+
+#: src/fw/apps/system/weather/forecast_list.c:1277
+msgid "WEATHER REPORT"
+msgstr ""
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / every weekday. Respect capitalization!
+#: src/fw/services/alarms/alarm.c:1344
+msgid "WEEKDAYS"
+msgstr ""
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / each day on the weekend. Respect capitalization!
+#: src/fw/services/alarms/alarm.c:1354
+msgid "WEEKENDS"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:425
+msgid "Wake on motion"
+msgstr ""
+
+#: src/fw/apps/system/settings/display.c:223
+#: src/fw/apps/system/settings/display.c:430
+msgid "Wake on touch"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_editor.c:165
+msgid "Wake up between"
+msgstr ""
+
+#: src/fw/apps/system/alarms/alarm_editor.c:165
+msgid "Wake up interval"
+msgstr ""
+
+#. #-#-#-#-#  apps.pot (PACKAGE VERSION)  #-#-#-#-#
+#. / Walk Label
+#: src/fw/apps/system/workout/utils.c:94
+#: src/fw/services/activity/activity_insights.c:1648
+msgid "Walk"
+msgstr ""
+
+#. / Walk automatically detected dialog text
+#: src/fw/apps/system/workout/utils.c:118
+msgid ""
+"Walk\n"
+"Detected"
+msgstr ""
+
+#: src/fw/apps/system/watchfaces.c:205
+msgid "Watchfaces"
+msgstr ""
+
+#: src/fw/apps/system/settings/system.c:1040
+msgid "Watt-hour"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1581
+msgid "Way to keep it active!"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1597
+msgid "Way to show us what you're made of 👊"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1296
+#, c-format
+msgid ""
+"We can barely keep up! You walked %d steps today which is %d%% above your "
+"typical. You're on 🔥"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:178
+#: src/fw/services/activity/activity_insights.c:196
+msgid "We'll get there!"
+msgstr ""
+
+#: src/fw/apps/system/workout/workout.c:200
+msgid ""
+"Wear your watch snug and 2 fingers' width above your wrist bone for best "
+"results."
+msgstr ""
+
+#: src/fw/apps/system/weather/weather.c:795
+#: src/fw/services/timeline/timeline.c:930
+msgid "Weather"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1394
+msgid "Wed"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:49
+#: src/fw/apps/system/weather/weather.c:141
+msgid "Wednesday"
+msgstr ""
+
+#: src/fw/services/alarms/alarm.c:1397
+msgid "Wednesdays"
+msgstr ""
+
+#. #-#-#-#-#  services.pot (PACKAGE VERSION)  #-#-#-#-#
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / every weekday. Respect capitalization!
+#: src/fw/apps/system/settings/quiet_time.c:262
+#: src/fw/services/alarms/alarm.c:1348
+msgid "Weekdays"
+msgstr ""
+
+#. #-#-#-#-#  services.pot (PACKAGE VERSION)  #-#-#-#-#
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / each day on the weekend. Respect capitalization!
+#: src/fw/apps/system/settings/quiet_time.c:270
+#: src/fw/services/alarms/alarm.c:1358
+msgid "Weekends"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1608
+msgid "Well done 💪"
+msgstr ""
+
+#: src/fw/popups/wakeup_ui.c:52
+msgid "While your Pebble was off wakeup events occurred for:\n"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:550
+#, c-format
+msgid "Winds %s at %d%s."
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:555
+#, c-format
+msgid "Winds at %d%s."
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:496
+msgid "Windy"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:467
+msgid "Wintry mix"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1607
+msgid "Workin' up a sweat?"
+msgstr ""
+
+#. #-#-#-#-#  apps.pot (PACKAGE VERSION)  #-#-#-#-#
+#. / Workout Label
+#: src/fw/apps/system/workout/utils.c:91
+#: src/fw/apps/system/workout/workout.c:258
+#: src/fw/services/activity/activity_insights.c:1650
+msgid "Workout"
+msgstr ""
+
+#. / Workout automatically detected dialog text
+#: src/fw/apps/system/workout/utils.c:115
+msgid ""
+"Workout\n"
+"Detected"
+msgstr ""
+
+#: src/fw/apps/system/workout/workout.c:158
+msgid ""
+"Workout\n"
+"Ended"
+msgstr ""
+
+#: src/fw/apps/system/workout/workout.c:184
+msgid "Workout requires the time to be synced. Please connect your phone."
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:894
+msgid "YOU NAPPED"
+msgstr ""
+
+#: src/fw/services/timeline/timeline_actions.c:798
+msgid "Yes"
+msgstr ""
+
+#: src/fw/services/clock/service.c:740 src/fw/services/clock/service.c:822
+#: src/fw/services/clock/service.c:830
+msgid "Yesterday"
+msgstr ""
+
+#: src/fw/services/clock/service.c:828
+msgid "Yesterday, %R"
+msgstr ""
+
+#: src/fw/services/clock/service.c:820
+msgid "Yesterday, %l:%M %p"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1394
+#, c-format
+msgid ""
+"You caught some killer zzz’s! You slept for %dH %dM which is %d%% above your"
+" typical. Keep it up."
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1582
+msgid "You got the moves!"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:264
+msgid "You had a good night! Feel the energy 😃"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1314
+#, c-format
+msgid ""
+"You keep moving, we'll keep counting! You've clocked in %d steps today. Keep"
+" it rolling, hot stuff."
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1445
+#, c-format
+msgid ""
+"You only slept for %dH %dM which is %d%% below your typical. We know you're "
+"busy, but try getting more tonight. We believe in you 😉"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1443
+#, c-format
+msgid ""
+"You slept for %dH %dM which is %d%% below your typical. Sleep is vital for "
+"all your great ideas–how 'bout getting more tonight?"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1447
+#, c-format
+msgid ""
+"You slept for %dH %dM which is %d%% below your typical. We know stuff "
+"happens; take another crack at it tonight."
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1299
+#, c-format
+msgid ""
+"You walked %d steps today which is %d%% above your typical. You just "
+"outstepped YOURSELF. Mic drop."
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1328
+#, c-format
+msgid ""
+"You walked %d steps today which is %d%% below your typical. Don't worry, "
+"tomorrow is just around the corner 😀"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1323
+#, c-format
+msgid ""
+"You walked %d steps today which is %d%% below your typical. Try to be more "
+"active tomorrow–you can do it!"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1337
+#, c-format
+msgid ""
+"You walked %d steps today. Don't fret, you can get back on track in no time "
+"😉"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1339
+#, c-format
+msgid "You walked %d steps today. Good news is the sky's the limit!"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1340
+#, c-format
+msgid ""
+"You walked %d steps today. Try to take even more steps tomorrow–show us what"
+" you're made of!"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1308
+#, c-format
+msgid ""
+"You walked %d steps today; keep it up! Being active is the key to feeling "
+"like a million bucks. Try to beat your typical tomorrow."
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1330
+#, c-format
+msgid ""
+"You walked %d steps which is %d%% below your typical, but don't stress. "
+"You'll crush it tomorrow 😉"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1326
+#, c-format
+msgid ""
+"You walked %d steps which is %d%% below your typical. Being active makes you"
+" feel amaaaazing–try to get back on track tomorrow."
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1595
+msgid "You're a machine!"
+msgstr ""
+
+#: src/fw/apps/system/settings/remote.c:53
+msgid "You're all set"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:236
+msgid "You're being consistent and that's important, keep at it!"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:1418
+#, c-format
+msgid ""
+"You're rockin' the shut eye! You slept for %dH %dM. Make it a nightly "
+"ritual. You deserve it."
+msgstr ""
+
+#: src/fw/popups/ble_hrm/ble_hrm_reminder_popup.c:15
+msgid ""
+"Your heart rate has been shared with an app on your phone for several hours."
+" This could affect your battery. Stop sharing now?"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:63
+msgid "am"
+msgstr ""
+
+#: src/fw/services/activity/health_util.c:96
+msgid "h"
+msgstr ""
+
+#: src/fw/apps/system/health/activity_detail_card.c:43
+#: src/fw/services/activity/activity_insights.c:1627
+msgid "km"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:548
+msgid "km/h"
+msgstr ""
+
+#: src/fw/apps/system/health/activity_detail_card.c:43
+#: src/fw/services/activity/activity_insights.c:1627
+msgid "mi"
+msgstr ""
+
+#: src/fw/services/activity/health_util.c:112
+msgid "min"
+msgstr ""
+
+#: src/fw/apps/system/weather/weather_app_layout.c:548
+msgid "mph"
+msgstr ""
+
+#: src/fw/applib/pbl_std/timelocal.c:64
+msgid "pm"
+msgstr ""
+
+#: src/fw/services/notifications/ancs/ancs_item.c:112
+msgid "sent an attachment"
+msgstr ""
+
+#: src/fw/services/clock/service.c:1030 src/fw/services/clock/service.c:1031
+msgid "the day after tomorrow"
+msgstr ""
+
+#: src/fw/services/clock/service.c:1032
+msgid "the foreseeable future"
+msgstr ""
+
+#: src/fw/services/clock/service.c:1023
+msgid "this afternoon"
+msgstr ""
+
+#: src/fw/services/clock/service.c:1024
+msgid "this evening"
+msgstr ""
+
+#: src/fw/services/clock/service.c:1022
+msgid "this morning"
+msgstr ""
+
+#: src/fw/services/clock/service.c:1027
+msgid "tomorrow afternoon"
+msgstr ""
+
+#: src/fw/services/clock/service.c:1028
+msgid "tomorrow evening"
+msgstr ""
+
+#: src/fw/services/clock/service.c:1026
+msgid "tomorrow morning"
+msgstr ""
+
+#: src/fw/services/clock/service.c:1029
+msgid "tomorrow night"
+msgstr ""
+
+#: src/fw/services/clock/service.c:1025
+msgid "tonight"
+msgstr ""

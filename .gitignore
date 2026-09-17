@@ -3,6 +3,7 @@
 *.mo
 *.pbl
 *.pot
+!/pebbleos.pot
 __pycache__/
 .venv/
 dist/

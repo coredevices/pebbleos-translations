@@ -22,10 +22,15 @@ this checkout and run `pebble-lang --root /path/to/catalogs check_lang --lang he
 The installed CLI defaults to the current directory; the existing script commands
 above continue to work.
 
-To initialize or update a language, supply the current source catalog:
+The checked-in `pebbleos.pot` is the source template for Weblate and new languages.
+Its initial snapshot comes from PebbleOS checkout
+`6cd53f3c39dece12089e5797fec347267fbbeb3c` (`obelix@pvt`, normal firmware).
+Subsequent automated source updates come only from firmware releases.
+
+To initialize or update a language, use the source catalog:
 
 ```sh
-uv run --locked python tools/lang.py make_lang --lang fr_FR --pot /path/to/pebbleos.pot
+uv run --locked python tools/lang.py make_lang --lang fr_FR --pot pebbleos.pot
 ```
 
 ## Validation
