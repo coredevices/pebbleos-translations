@@ -5,6 +5,7 @@ import gettext
 import io
 import json
 import shutil
+import struct
 import subprocess
 import tempfile
 import unittest
@@ -16,6 +17,36 @@ import polib
 import publish_packs
 import release_packs as releases
 from test_lang import unpack
+
+
+def firmware_lookup(mo, key):
+    """Exercise the hash-table lookup contract from PebbleOS services/i18n/i18n.c."""
+    magic, _, count, originals, translations, hash_size, hash_offset = (
+        struct.unpack_from("<7I", mo)
+    )
+    assert magic == 0x950412DE
+    assert hash_size > 2, "Firmware rejects catalogs without a lookup hash table"
+    key = key.encode("utf-8")
+    value = 0
+    for byte in key:
+        value = ((value << 4) + byte) & 0xFFFFFFFF
+        high = value & 0xF0000000
+        value ^= high ^ (high >> 24)
+    index = value % hash_size
+    step = value % (hash_size - 2) + 1
+    for _ in range(hash_size):
+        number = struct.unpack_from("<I", mo, hash_offset + 4 * index)[0]
+        if number == 0:
+            return None
+        assert number <= count
+        size, offset = struct.unpack_from("<II", mo, originals + 8 * (number - 1))
+        if mo[offset : offset + size] == key:
+            size, offset = struct.unpack_from(
+                "<II", mo, translations + 8 * (number - 1)
+            )
+            return mo[offset : offset + size]
+        index = (index + step) % hash_size
+    raise AssertionError("Catalog hash lookup never terminates")
 
 
 class ReleaseTest(unittest.TestCase):
@@ -69,6 +100,44 @@ class ReleaseTest(unittest.TestCase):
             rebuild=rebuild,
         )
         return output, manifest, changed
+
+    def test_stamped_catalog_is_readable_by_firmware(self):
+        self.catalog.append(
+            polib.POEntry(msgid="Open", msgctxt="menu", msgstr="Ouvrir")
+        )
+        for index in range(40):
+            self.catalog.append(
+                polib.POEntry(msgid=f"String {index}", msgstr=f"Texte {index}")
+            )
+        self.catalog.save(str(self.locale / "tintin.po"))
+        self.commit()
+        directory, _, _ = self.build()
+        original = (directory / "fr_FR.pbl").read_bytes()
+        for version in (1, 2, 65535):
+            stamped = releases.stamp_version(original, version)
+            resources = unpack(stamped)
+            self.assertEqual(resources[1:], unpack(original)[1:])
+            header = firmware_lookup(resources[0], "")[:399]
+            self.assertIn(f"Project-Id-Version: {version}\n".encode(), header)
+            self.assertIn(b"Language: fr_FR\n", header)
+            self.assertIn("Name: Français\n".encode(), header)
+            self.assertEqual(firmware_lookup(resources[0], "Hello"), b"Bonjour")
+            self.assertEqual(firmware_lookup(resources[0], "menu\x04Open"), b"Ouvrir")
+            for index in range(40):
+                self.assertEqual(
+                    firmware_lookup(resources[0], f"String {index}"),
+                    f"Texte {index}".encode(),
+                )
+            self.assertIsNone(firmware_lookup(resources[0], "Missing string"))
+
+    def test_missing_watch_display_name_uses_catalog_name(self):
+        del self.catalog.metadata["Name"]
+        self.catalog.metadata["Language-Team"] = "French <team@example.invalid>"
+        self.catalog.save(str(self.locale / "tintin.po"))
+        self.commit()
+        directory, _, _ = self.build()
+        mo = unpack((directory / "fr_FR.pbl").read_bytes())[0]
+        self.assertIn(b"Name: French\n", firmware_lookup(mo, "")[:399])
 
     def test_versions_reuse_rebuild_and_source_unchanged(self):
         original = (self.locale / "tintin.po").read_bytes()

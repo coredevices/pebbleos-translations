@@ -10,6 +10,7 @@ import re
 import shutil
 import struct
 import subprocess
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -61,7 +62,17 @@ def stamp_version(data, version):
         raise ValueError("Published packs require a translation catalog")
     catalog = polib.mofile(resources[0])
     catalog.metadata["Project-Id-Version"] = str(version)
-    resources[0] = catalog.to_binary()
+    if not catalog.metadata.get("Name"):
+        catalog.metadata["Name"] = re.sub(
+            r"\s*<[^>]*>\s*$", "", catalog.metadata.get("Language-Team", "")
+        ).strip() or catalog.metadata.get("Language", "Unknown")
+    # polib's MO writer omits the hash table required by the firmware loader.
+    with tempfile.TemporaryDirectory(prefix="stamp-language-") as directory:
+        po = Path(directory) / "strings.po"
+        mo = Path(directory) / "strings.mo"
+        catalog.save_as_pofile(str(po))
+        commands.compile_catalog(po, mo)
+        resources[0] = mo.read_bytes()
     return serialize(resources)
 
 
