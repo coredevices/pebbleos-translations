@@ -108,31 +108,31 @@ msgstr ""
 msgid "December"
 msgstr ""
 
-#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1393
+#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1394
 msgid "Sun"
 msgstr ""
 
-#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1393
+#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1394
 msgid "Mon"
 msgstr ""
 
-#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1393
+#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1394
 msgid "Tue"
 msgstr ""
 
-#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1394
+#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1395
 msgid "Wed"
 msgstr ""
 
-#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1394
+#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1395
 msgid "Thu"
 msgstr ""
 
-#: src/fw/applib/pbl_std/timelocal.c:47 src/fw/services/alarms/alarm.c:1394
+#: src/fw/applib/pbl_std/timelocal.c:47 src/fw/services/alarms/alarm.c:1395
 msgid "Fri"
 msgstr ""
 
-#: src/fw/applib/pbl_std/timelocal.c:47 src/fw/services/alarms/alarm.c:1395
+#: src/fw/applib/pbl_std/timelocal.c:47 src/fw/services/alarms/alarm.c:1396
 msgid "Sat"
 msgstr ""
 
@@ -208,24 +208,24 @@ msgid "pm"
 msgstr ""
 
 #. / The second separator in `<hour>:<minute>:<second>`
-#: src/fw/applib/template_string.c:215 src/fw/applib/template_string.c:217
+#: src/fw/applib/template_string.c:216 src/fw/applib/template_string.c:218
 msgctxt "TmplStringSep"
 msgid ":"
 msgstr ""
 
 #. / The second separator in `<hour> hr <minute> min <second> sec`
-#: src/fw/applib/template_string.c:221 src/fw/applib/template_string.c:223
+#: src/fw/applib/template_string.c:222 src/fw/applib/template_string.c:224
 msgctxt "TmplStringSep"
 msgid " "
 msgstr ""
 
-#: src/fw/applib/template_string.c:227
+#: src/fw/applib/template_string.c:228
 msgctxt "TmplStringSep"
 msgid ", "
 msgstr ""
 
 #. / The second separator in `<hour> hours, <minute> minutes, and <second> seconds`
-#: src/fw/applib/template_string.c:229
+#: src/fw/applib/template_string.c:230
 msgctxt "TmplStringSep"
 msgid ", and "
 msgstr ""
@@ -236,215 +236,215 @@ msgstr ""
 #. / Suffixes for days with no units
 #. / Suffixes for months with no units
 #. / Suffixes for years with no units
-#: src/fw/applib/template_string.c:302 src/fw/applib/template_string.c:314
-#: src/fw/applib/template_string.c:326 src/fw/applib/template_string.c:338
-#: src/fw/applib/template_string.c:351 src/fw/applib/template_string.c:365
+#: src/fw/applib/template_string.c:303 src/fw/applib/template_string.c:315
+#: src/fw/applib/template_string.c:327 src/fw/applib/template_string.c:339
+#: src/fw/applib/template_string.c:352 src/fw/applib/template_string.c:366
 msgctxt "TmplStringSing"
-msgid ""
-msgstr ""
-
-#: src/fw/applib/template_string.c:302 src/fw/applib/template_string.c:314
-#: src/fw/applib/template_string.c:326 src/fw/applib/template_string.c:338
-#: src/fw/applib/template_string.c:351 src/fw/applib/template_string.c:365
-msgctxt "TmplStringPlur"
 msgid ""
 msgstr ""
 
 #: src/fw/applib/template_string.c:303 src/fw/applib/template_string.c:315
 #: src/fw/applib/template_string.c:327 src/fw/applib/template_string.c:339
 #: src/fw/applib/template_string.c:352 src/fw/applib/template_string.c:366
+msgctxt "TmplStringPlur"
+msgid ""
+msgstr ""
+
+#: src/fw/applib/template_string.c:304 src/fw/applib/template_string.c:316
+#: src/fw/applib/template_string.c:328 src/fw/applib/template_string.c:340
+#: src/fw/applib/template_string.c:353 src/fw/applib/template_string.c:367
 msgctxt "TmplStringMany"
 msgid ""
 msgstr ""
 
 #. / Suffixes for seconds with abbreviated units
-#: src/fw/applib/template_string.c:305
+#: src/fw/applib/template_string.c:306
 msgctxt "TmplStringSing"
 msgid " sec"
 msgstr ""
 
-#: src/fw/applib/template_string.c:305
+#: src/fw/applib/template_string.c:306
 msgctxt "TmplStringPlur"
 msgid " sec"
 msgstr ""
 
-#: src/fw/applib/template_string.c:306
+#: src/fw/applib/template_string.c:307
 msgctxt "TmplStringMany"
 msgid " sec"
 msgstr ""
 
 #. / Suffixes for seconds with full units
-#: src/fw/applib/template_string.c:308
+#: src/fw/applib/template_string.c:309
 msgctxt "TmplStringSing"
 msgid " second"
 msgstr ""
 
-#: src/fw/applib/template_string.c:308
+#: src/fw/applib/template_string.c:309
 msgctxt "TmplStringPlur"
 msgid " seconds"
 msgstr ""
 
-#: src/fw/applib/template_string.c:309
+#: src/fw/applib/template_string.c:310
 msgctxt "TmplStringMany"
 msgid " seconds"
 msgstr ""
 
 #. / Suffixes for minutes with abbreviated units
-#: src/fw/applib/template_string.c:317
+#: src/fw/applib/template_string.c:318
 msgctxt "TmplStringSing"
 msgid " min"
 msgstr ""
 
-#: src/fw/applib/template_string.c:317
+#: src/fw/applib/template_string.c:318
 msgctxt "TmplStringPlur"
 msgid " min"
 msgstr ""
 
-#: src/fw/applib/template_string.c:318
+#: src/fw/applib/template_string.c:319
 msgctxt "TmplStringMany"
 msgid " min"
 msgstr ""
 
 #. / Suffixes for minutes with full units
-#: src/fw/applib/template_string.c:320
+#: src/fw/applib/template_string.c:321
 msgctxt "TmplStringSing"
 msgid " minute"
 msgstr ""
 
-#: src/fw/applib/template_string.c:320
+#: src/fw/applib/template_string.c:321
 msgctxt "TmplStringPlur"
 msgid " minutes"
 msgstr ""
 
-#: src/fw/applib/template_string.c:321
+#: src/fw/applib/template_string.c:322
 msgctxt "TmplStringMany"
 msgid " minutes"
 msgstr ""
 
 #. / Suffixes for hours with abbreviated units
-#: src/fw/applib/template_string.c:329
+#: src/fw/applib/template_string.c:330
 msgctxt "TmplStringSing"
 msgid " hr"
 msgstr ""
 
-#: src/fw/applib/template_string.c:329
+#: src/fw/applib/template_string.c:330
 msgctxt "TmplStringPlur"
 msgid " hr"
 msgstr ""
 
-#: src/fw/applib/template_string.c:330
+#: src/fw/applib/template_string.c:331
 msgctxt "TmplStringMany"
 msgid " hr"
 msgstr ""
 
 #. / Suffixes for hours with full units
-#: src/fw/applib/template_string.c:332
+#: src/fw/applib/template_string.c:333
 msgctxt "TmplStringSing"
 msgid " hour"
 msgstr ""
 
-#: src/fw/applib/template_string.c:332
+#: src/fw/applib/template_string.c:333
 msgctxt "TmplStringPlur"
 msgid " hours"
 msgstr ""
 
-#: src/fw/applib/template_string.c:333
+#: src/fw/applib/template_string.c:334
 msgctxt "TmplStringMany"
 msgid " hours"
 msgstr ""
 
 #. / Suffixes for days with abbreviated units
-#: src/fw/applib/template_string.c:341
+#: src/fw/applib/template_string.c:342
 msgctxt "TmplStringSing"
 msgid " d"
 msgstr ""
 
-#: src/fw/applib/template_string.c:341
+#: src/fw/applib/template_string.c:342
 msgctxt "TmplStringPlur"
 msgid " d"
 msgstr ""
 
-#: src/fw/applib/template_string.c:342
+#: src/fw/applib/template_string.c:343
 msgctxt "TmplStringMany"
 msgid " d"
 msgstr ""
 
 #. / Suffixes for days with full units
-#: src/fw/applib/template_string.c:344
+#: src/fw/applib/template_string.c:345
 msgctxt "TmplStringSing"
 msgid " day"
 msgstr ""
 
-#: src/fw/applib/template_string.c:344
+#: src/fw/applib/template_string.c:345
 msgctxt "TmplStringPlur"
 msgid " days"
 msgstr ""
 
-#: src/fw/applib/template_string.c:345
+#: src/fw/applib/template_string.c:346
 msgctxt "TmplStringMany"
 msgid " days"
 msgstr ""
 
 #. / Suffixes for months with abbreviated units
-#: src/fw/applib/template_string.c:354
+#: src/fw/applib/template_string.c:355
 msgctxt "TmplStringSing"
 msgid " mo"
 msgstr ""
 
-#: src/fw/applib/template_string.c:354
+#: src/fw/applib/template_string.c:355
 msgctxt "TmplStringPlur"
 msgid " mo"
 msgstr ""
 
-#: src/fw/applib/template_string.c:355
+#: src/fw/applib/template_string.c:356
 msgctxt "TmplStringMany"
 msgid " mo"
 msgstr ""
 
 #. / Suffixes for months with full units
-#: src/fw/applib/template_string.c:357
+#: src/fw/applib/template_string.c:358
 msgctxt "TmplStringSing"
 msgid " month"
 msgstr ""
 
-#: src/fw/applib/template_string.c:357
+#: src/fw/applib/template_string.c:358
 msgctxt "TmplStringPlur"
 msgid " months"
 msgstr ""
 
-#: src/fw/applib/template_string.c:358
+#: src/fw/applib/template_string.c:359
 msgctxt "TmplStringMany"
 msgid " months"
 msgstr ""
 
 #. / Suffixes for years with abbreviated units
-#: src/fw/applib/template_string.c:368
+#: src/fw/applib/template_string.c:369
 msgctxt "TmplStringSing"
 msgid " yr"
 msgstr ""
 
-#: src/fw/applib/template_string.c:368
+#: src/fw/applib/template_string.c:369
 msgctxt "TmplStringPlur"
 msgid " yr"
 msgstr ""
 
-#: src/fw/applib/template_string.c:369
+#: src/fw/applib/template_string.c:370
 msgctxt "TmplStringMany"
 msgid " yr"
 msgstr ""
 
 #. / Suffixes for years with full units
-#: src/fw/applib/template_string.c:371
+#: src/fw/applib/template_string.c:372
 msgctxt "TmplStringSing"
 msgid " year"
 msgstr ""
 
-#: src/fw/applib/template_string.c:371
+#: src/fw/applib/template_string.c:372
 msgctxt "TmplStringPlur"
 msgid " years"
 msgstr ""
 
-#: src/fw/applib/template_string.c:372
+#: src/fw/applib/template_string.c:373
 msgctxt "TmplStringMany"
 msgid " years"
 msgstr ""
@@ -607,7 +607,7 @@ msgid "Basic Alarm"
 msgstr ""
 
 #: src/fw/apps/system/alarms/alarm_editor.c:259
-#: src/fw/apps/system/alarms/alarms.c:347 src/fw/services/alarms/alarm.c:412
+#: src/fw/apps/system/alarms/alarms.c:347 src/fw/services/alarms/alarm.c:413
 #: src/fw/services/alarms/alarm_pin.c:18
 msgid "Smart Alarm"
 msgstr ""
@@ -655,17 +655,17 @@ msgid "Incompatible JS"
 msgstr ""
 
 #: src/fw/apps/system/app_fetch_ui.c:138
-#: src/fw/services/timeline/timeline_actions.c:261
+#: src/fw/services/timeline/timeline_actions.c:262
 msgid "Failed"
 msgstr ""
 
 #: src/fw/apps/system/health/activity_detail_card.c:43
-#: src/fw/services/activity/activity_insights.c:1627
+#: src/fw/services/activity/activity_insights.c:1628
 msgid "mi"
 msgstr ""
 
 #: src/fw/apps/system/health/activity_detail_card.c:43
-#: src/fw/services/activity/activity_insights.c:1627
+#: src/fw/services/activity/activity_insights.c:1628
 msgid "km"
 msgstr ""
 
@@ -680,7 +680,7 @@ msgstr ""
 
 #. / Distance Label
 #: src/fw/apps/system/health/activity_detail_card.c:85
-#: src/fw/apps/system/workout/active.c:157
+#: src/fw/apps/system/workout/active.c:158
 msgid "DISTANCE"
 msgstr ""
 
@@ -689,8 +689,8 @@ msgid "TOTAL"
 msgstr ""
 
 #: src/fw/apps/system/health/detail_card.c:538
-#: src/fw/apps/system/weather/weather.c:136 src/fw/services/clock/service.c:529
-#: src/fw/services/clock/service.c:738
+#: src/fw/apps/system/weather/weather.c:136 src/fw/services/clock/service.c:531
+#: src/fw/services/clock/service.c:740
 msgid "Today"
 msgstr ""
 
@@ -729,17 +729,17 @@ msgid "Health"
 msgstr ""
 
 #: src/fw/apps/system/health/hr_detail_card.c:65
-#: src/fw/services/activity/activity_insights.c:1730
+#: src/fw/services/activity/activity_insights.c:1731
 msgid "Fat Burn"
 msgstr ""
 
 #: src/fw/apps/system/health/hr_detail_card.c:68
-#: src/fw/services/activity/activity_insights.c:1737
+#: src/fw/services/activity/activity_insights.c:1738
 msgid "Endurance"
 msgstr ""
 
 #: src/fw/apps/system/health/hr_detail_card.c:71
-#: src/fw/services/activity/activity_insights.c:1744
+#: src/fw/services/activity/activity_insights.c:1745
 msgid "Performance"
 msgstr ""
 
@@ -851,7 +851,7 @@ msgid "Postpone"
 msgstr ""
 
 #: src/fw/apps/system/reminders/reminder.c:59
-#: src/fw/services/activity/activity_insights.c:443
+#: src/fw/services/activity/activity_insights.c:444
 #: src/fw/services/timeline/timeline.c:656
 msgid "Remove"
 msgstr ""
@@ -967,7 +967,7 @@ msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / on a custom choice of days. Respect capitalization!
-#: src/fw/apps/system/settings/display.c:40 src/fw/services/alarms/alarm.c:1380
+#: src/fw/apps/system/settings/display.c:40 src/fw/services/alarms/alarm.c:1381
 msgid "Custom"
 msgstr ""
 
@@ -1516,14 +1516,14 @@ msgstr ""
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / every weekday. Respect capitalization!
 #: src/fw/apps/system/settings/quiet_time.c:262
-#: src/fw/services/alarms/alarm.c:1348
+#: src/fw/services/alarms/alarm.c:1349
 msgid "Weekdays"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / each day on the weekend. Respect capitalization!
 #: src/fw/apps/system/settings/quiet_time.c:270
-#: src/fw/services/alarms/alarm.c:1358
+#: src/fw/services/alarms/alarm.c:1359
 msgid "Weekends"
 msgstr ""
 
@@ -1899,7 +1899,7 @@ msgid "Appears on your watchface when an event is about to start."
 msgstr ""
 
 #: src/fw/apps/system/settings/timeline.c:293
-#: src/fw/apps/system/timeline/timeline.c:1308
+#: src/fw/apps/system/timeline/timeline.c:1309
 msgid "Timeline"
 msgstr ""
 
@@ -1923,17 +1923,17 @@ msgstr ""
 msgid "Vibrations"
 msgstr ""
 
-#: src/fw/apps/system/timeline/timeline.c:903
+#: src/fw/apps/system/timeline/timeline.c:904
 msgid "No events"
 msgstr ""
 
-#: src/fw/apps/system/timeline/timeline.c:1280
+#: src/fw/apps/system/timeline/timeline.c:1281
 msgid "Timeline Future"
 msgstr ""
 
 #. / The title of Timeline Past in Quick Launch. If the translation is too long, cut out
 #. / Timeline and only translate "Past".
-#: src/fw/apps/system/timeline/timeline.c:1295
+#: src/fw/apps/system/timeline/timeline.c:1296
 msgid "Timeline Past"
 msgstr ""
 
@@ -2160,8 +2160,8 @@ msgstr ""
 msgid "Rain & Snow"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather.c:138 src/fw/services/clock/service.c:742
-#: src/fw/services/timeline/timeline_actions.c:1052
+#: src/fw/apps/system/weather/weather.c:138 src/fw/services/clock/service.c:744
+#: src/fw/services/timeline/timeline_actions.c:1053
 msgid "Tomorrow"
 msgstr ""
 
@@ -2369,105 +2369,105 @@ msgid "UV INDEX"
 msgstr ""
 
 #. / Zone 1 HR Label
-#: src/fw/apps/system/workout/active.c:100
+#: src/fw/apps/system/workout/active.c:101
 msgid "FAT BURN"
 msgstr ""
 
 #. / Zone 2 HR Label
-#: src/fw/apps/system/workout/active.c:103
+#: src/fw/apps/system/workout/active.c:104
 msgid "ENDURANCE"
 msgstr ""
 
 #. / Zone 3 HR Label
-#: src/fw/apps/system/workout/active.c:106
+#: src/fw/apps/system/workout/active.c:107
 msgid "PERFORMANCE"
 msgstr ""
 
 #. / Default/Zone 0 HR Label
-#: src/fw/apps/system/workout/active.c:109
+#: src/fw/apps/system/workout/active.c:110
 msgid "HEART RATE"
 msgstr ""
 
 #. / Duration Label
-#: src/fw/apps/system/workout/active.c:126
+#: src/fw/apps/system/workout/active.c:127
 msgid "DURATION"
 msgstr ""
 
 #. / Average Pace Label
-#: src/fw/apps/system/workout/active.c:130
+#: src/fw/apps/system/workout/active.c:131
 msgid "AVG PACE"
 msgstr ""
 
 #. / Average Pace Label with units
-#: src/fw/apps/system/workout/active.c:133
+#: src/fw/apps/system/workout/active.c:134
 msgid "AVG PACE (/MI)"
 msgstr ""
 
-#: src/fw/apps/system/workout/active.c:134
+#: src/fw/apps/system/workout/active.c:135
 msgid "AVG PACE (/KM)"
 msgstr ""
 
 #. / Pace Label
-#: src/fw/apps/system/workout/active.c:139
+#: src/fw/apps/system/workout/active.c:140
 msgid "PACE"
 msgstr ""
 
 #. / Pace Label with units
-#: src/fw/apps/system/workout/active.c:142
+#: src/fw/apps/system/workout/active.c:143
 msgid "PACE (/MI)"
 msgstr ""
 
-#: src/fw/apps/system/workout/active.c:143
+#: src/fw/apps/system/workout/active.c:144
 msgid "PACE (/KM)"
 msgstr ""
 
 #. / Speed Label
-#: src/fw/apps/system/workout/active.c:148
+#: src/fw/apps/system/workout/active.c:149
 msgid "SPEED"
 msgstr ""
 
 #. / Speed Label with units
-#: src/fw/apps/system/workout/active.c:151
+#: src/fw/apps/system/workout/active.c:152
 msgid "SPEED (MPH)"
 msgstr ""
 
-#: src/fw/apps/system/workout/active.c:152
+#: src/fw/apps/system/workout/active.c:153
 msgid "SPEED (KM/H)"
 msgstr ""
 
 #. / Distance Label with units
-#: src/fw/apps/system/workout/active.c:160
+#: src/fw/apps/system/workout/active.c:161
 msgid "DISTANCE (MI)"
 msgstr ""
 
-#: src/fw/apps/system/workout/active.c:161
+#: src/fw/apps/system/workout/active.c:162
 msgid "DISTANCE (KM)"
 msgstr ""
 
 #. / Steps Label
-#: src/fw/apps/system/workout/active.c:165
+#: src/fw/apps/system/workout/active.c:166
 msgid "STEPS"
 msgstr ""
 
-#: src/fw/apps/system/workout/active.c:273
-#: src/fw/apps/system/workout/active.c:330
+#: src/fw/apps/system/workout/active.c:274
+#: src/fw/apps/system/workout/active.c:331
 msgid "MI"
 msgstr ""
 
-#: src/fw/apps/system/workout/active.c:273
-#: src/fw/apps/system/workout/active.c:330
+#: src/fw/apps/system/workout/active.c:274
+#: src/fw/apps/system/workout/active.c:331
 msgid "KM"
 msgstr ""
 
-#: src/fw/apps/system/workout/active.c:349
+#: src/fw/apps/system/workout/active.c:350
 msgid "MPH"
 msgstr ""
 
-#: src/fw/apps/system/workout/active.c:349
+#: src/fw/apps/system/workout/active.c:350
 msgid "KM/H"
 msgstr ""
 
-#: src/fw/apps/system/workout/active.c:669
+#: src/fw/apps/system/workout/active.c:670
 msgid "End Workout?"
 msgstr ""
 
@@ -2483,7 +2483,7 @@ msgstr ""
 
 #: src/fw/apps/system/workout/utils.c:28
 #: src/fw/popups/ble_hrm/ble_hrm_reminder_popup.c:24
-#: src/fw/services/activity/activity_insights.c:1195
+#: src/fw/services/activity/activity_insights.c:1196
 #: src/fw/services/notifications/ancs/ancs_item.c:152
 msgid "Dismiss"
 msgstr ""
@@ -2499,19 +2499,19 @@ msgstr ""
 #. / Workout Label
 #: src/fw/apps/system/workout/utils.c:91
 #: src/fw/apps/system/workout/workout.c:258
-#: src/fw/services/activity/activity_insights.c:1650
+#: src/fw/services/activity/activity_insights.c:1651
 msgid "Workout"
 msgstr ""
 
 #. / Walk Label
 #: src/fw/apps/system/workout/utils.c:94
-#: src/fw/services/activity/activity_insights.c:1648
+#: src/fw/services/activity/activity_insights.c:1649
 msgid "Walk"
 msgstr ""
 
 #. / Run Label
 #: src/fw/apps/system/workout/utils.c:97
-#: src/fw/services/activity/activity_insights.c:1646
+#: src/fw/services/activity/activity_insights.c:1647
 msgid "Run"
 msgstr ""
 
@@ -2557,28 +2557,28 @@ msgid ""
 "results."
 msgstr ""
 
-#: src/fw/apps/watch/kickstart/kickstart.c:361
+#: src/fw/apps/watch/kickstart/kickstart.c:362
 #, c-format
 msgid "%d BPM"
 msgstr ""
 
 #. / Step count greater than 1000 with a thousands separator
-#: src/fw/apps/watch/kickstart/kickstart.c:471
+#: src/fw/apps/watch/kickstart/kickstart.c:472
 #, c-format
 msgid "%d,%03d"
 msgstr ""
 
 #. / Step count less than 1000
-#: src/fw/apps/watch/kickstart/kickstart.c:475
+#: src/fw/apps/watch/kickstart/kickstart.c:476
 #: src/fw/services/activity/health_util.c:93
 #: src/fw/services/activity/health_util.c:109
-#: src/fw/services/clock/service.c:963
+#: src/fw/services/clock/service.c:965
 #, c-format
 msgid "%d"
 msgstr ""
 
 #: src/fw/apps/watch/tictoc/bw/tictoc_bw.c:75
-#: src/fw/services/clock/service.c:841 src/fw/services/clock/service.c:849
+#: src/fw/services/clock/service.c:843 src/fw/services/clock/service.c:851
 msgid "%B %e"
 msgstr ""
 
@@ -2633,52 +2633,52 @@ msgid ""
 "mobile app to continue."
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:708
+#: src/fw/popups/notifications/notification_window.c:709
 msgid "Snoozed"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:741
+#: src/fw/popups/notifications/notification_window.c:742
 msgid "Muted"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:911
+#: src/fw/popups/notifications/notification_window.c:912
 msgid "Snooze"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:929
+#: src/fw/popups/notifications/notification_window.c:930
 #, c-format
 msgid "Mute %s"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:947
+#: src/fw/popups/notifications/notification_window.c:948
 msgid "Mute 1 Hour"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:950
+#: src/fw/popups/notifications/notification_window.c:951
 msgid "Mute Today"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:953
+#: src/fw/popups/notifications/notification_window.c:954
 msgid "Mute Always"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:956
+#: src/fw/popups/notifications/notification_window.c:957
 msgid "Mute Weekends"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:959
+#: src/fw/popups/notifications/notification_window.c:960
 msgid "Mute Weekdays"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:967
+#: src/fw/popups/notifications/notification_window.c:968
 msgid "Dismiss All"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:973
+#: src/fw/popups/notifications/notification_window.c:974
 msgid "End Quiet Time"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:974
+#: src/fw/popups/notifications/notification_window.c:975
 msgid "Start Quiet Time"
 msgstr ""
 
@@ -2707,7 +2707,7 @@ msgstr ""
 msgid "While your Pebble was off wakeup events occurred for:\n"
 msgstr ""
 
-#: src/fw/process_management/app_manager.c:458
+#: src/fw/process_management/app_manager.c:459
 #, c-format
 msgid "%.*s is not responding"
 msgstr ""
@@ -2720,289 +2720,289 @@ msgstr ""
 msgid "This app uses RockyJS which is no longer supported."
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:171
+#: src/fw/services/activity/activity_insights.c:172
 msgid ""
 "How are you feeling? Have you noticed extra focus, better mood or extra "
 "energy? You have been sleeping great this week! Keep it up!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:173
+#: src/fw/services/activity/activity_insights.c:174
 msgid "I feel fabulous!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:174
+#: src/fw/services/activity/activity_insights.c:175
 msgid "About average"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:175
-msgid "I'm still tired"
-msgstr ""
-
 #: src/fw/services/activity/activity_insights.c:176
-#: src/fw/services/activity/activity_insights.c:194
-msgid "Awesome!"
+msgid "I'm still tired"
 msgstr ""
 
 #: src/fw/services/activity/activity_insights.c:177
 #: src/fw/services/activity/activity_insights.c:195
-msgid "Keep it up!"
+msgid "Awesome!"
 msgstr ""
 
 #: src/fw/services/activity/activity_insights.c:178
 #: src/fw/services/activity/activity_insights.c:196
+msgid "Keep it up!"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:179
+#: src/fw/services/activity/activity_insights.c:197
 msgid "We'll get there!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:189
+#: src/fw/services/activity/activity_insights.c:190
 msgid ""
 "Congratulations - you're having a super active day! Activity makes you more "
 "focused and creative. How do you feel?"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:191
-#: src/fw/services/activity/activity_insights.c:919
+#: src/fw/services/activity/activity_insights.c:192
+#: src/fw/services/activity/activity_insights.c:920
 msgid "I feel great!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:192
+#: src/fw/services/activity/activity_insights.c:193
 msgid "About the same"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:193
+#: src/fw/services/activity/activity_insights.c:194
 msgid "Not feeling it"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:223
+#: src/fw/services/activity/activity_insights.c:224
 msgid "Activity Summary"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:231
+#: src/fw/services/activity/activity_insights.c:232
 msgid "Do you feel more energetic, sharper or optimistic? Being active helps!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:232
+#: src/fw/services/activity/activity_insights.c:233
 msgid "GREAT DAY TODAY"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:236
+#: src/fw/services/activity/activity_insights.c:237
 msgid "You're being consistent and that's important, keep at it!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:237
+#: src/fw/services/activity/activity_insights.c:238
 msgid "CONSISTENT!"
-msgstr ""
-
-#: src/fw/services/activity/activity_insights.c:241
-#: src/fw/services/activity/activity_insights.c:246
-msgid "Resting is fine, but try to recover and step it up tomorrow!"
 msgstr ""
 
 #: src/fw/services/activity/activity_insights.c:242
 #: src/fw/services/activity/activity_insights.c:247
+msgid "Resting is fine, but try to recover and step it up tomorrow!"
+msgstr ""
+
+#: src/fw/services/activity/activity_insights.c:243
+#: src/fw/services/activity/activity_insights.c:248
 msgid "NOT VERY ACTIVE"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:255
+#: src/fw/services/activity/activity_insights.c:256
 msgid "Sleep Summary"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:264
+#: src/fw/services/activity/activity_insights.c:265
 msgid "You had a good night! Feel the energy 😃"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:268
+#: src/fw/services/activity/activity_insights.c:269
 msgid "It's great that you're keeping a consistent sleep routine!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:272
-#: src/fw/services/activity/activity_insights.c:276
+#: src/fw/services/activity/activity_insights.c:273
+#: src/fw/services/activity/activity_insights.c:277
 msgid "A good night's sleep goes a long way! Try to get more hours tonight."
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:425
+#: src/fw/services/activity/activity_insights.c:426
 msgid "Open App"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:530
-#: src/fw/services/activity/activity_insights.c:536
+#: src/fw/services/activity/activity_insights.c:531
+#: src/fw/services/activity/activity_insights.c:537
 msgid "BELOW AVG"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:530
-#: src/fw/services/activity/activity_insights.c:536
+#: src/fw/services/activity/activity_insights.c:531
+#: src/fw/services/activity/activity_insights.c:537
 msgid "Below avg"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:542
+#: src/fw/services/activity/activity_insights.c:543
 msgid "ON AVG"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:542
+#: src/fw/services/activity/activity_insights.c:543
 msgid "On avg"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:547
+#: src/fw/services/activity/activity_insights.c:548
 msgid "ABOVE AVG"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:547
+#: src/fw/services/activity/activity_insights.c:548
 msgid "Above avg"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:829
+#: src/fw/services/activity/activity_insights.c:830
 msgid "%H:%M"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:829
+#: src/fw/services/activity/activity_insights.c:830
 msgid "%l:%M%p"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:853
+#: src/fw/services/activity/activity_insights.c:854
 #, c-format
 msgid "%uH %uM Sleep"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:881
+#: src/fw/services/activity/activity_insights.c:882
 msgid "Nap Time"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:889
+#: src/fw/services/activity/activity_insights.c:890
 #, c-format
 msgid "%s of sleep"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:894
+#: src/fw/services/activity/activity_insights.c:895
 msgid "YOU NAPPED"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:894
+#: src/fw/services/activity/activity_insights.c:895
 msgid "Of napping"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:902
+#: src/fw/services/activity/activity_insights.c:903
 #, c-format
 msgid "%s - %s"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:923
+#: src/fw/services/activity/activity_insights.c:924
 msgid "I need more"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:953
+#: src/fw/services/activity/activity_insights.c:954
 #, c-format
 msgid "Aren't naps great? You knocked out for %dH %dM!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:969
+#: src/fw/services/activity/activity_insights.c:970
 msgid "I didn't nap!?"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1203
+#: src/fw/services/activity/activity_insights.c:1204
 msgid "Open Pin"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1289
+#: src/fw/services/activity/activity_insights.c:1290
 #, c-format
 msgid ""
 "Killer job! You've walked %d steps today which is %d%% above your typical. "
 "Do it again tomorrow and you'll be on top of the world!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1292
+#: src/fw/services/activity/activity_insights.c:1293
 #, c-format
 msgid ""
 "Nice moves! You've walked %d steps today which is %d%% above your typical. "
 "Crush it again tomorrow 😀"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1294
+#: src/fw/services/activity/activity_insights.c:1295
 #, c-format
 msgid ""
 "Hey rockstar 🎤 You've walked %d steps today which is %d%% above your "
 "typical. Nothing can stop you!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1296
+#: src/fw/services/activity/activity_insights.c:1297
 #, c-format
 msgid ""
 "We can barely keep up! You walked %d steps today which is %d%% above your "
 "typical. You're on 🔥"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1299
+#: src/fw/services/activity/activity_insights.c:1300
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% above your typical. You just "
 "outstepped YOURSELF. Mic drop."
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1308
+#: src/fw/services/activity/activity_insights.c:1309
 #, c-format
 msgid ""
 "You walked %d steps today; keep it up! Being active is the key to feeling "
 "like a million bucks. Try to beat your typical tomorrow."
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1311
+#: src/fw/services/activity/activity_insights.c:1312
 #, c-format
 msgid "Good job! You walked %d steps today–do it again tomorrow."
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1312
+#: src/fw/services/activity/activity_insights.c:1313
 #, c-format
 msgid ""
 "Someone's on the move 👊 You walked %d steps today; keep doing what you're "
 "doing!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1314
+#: src/fw/services/activity/activity_insights.c:1315
 #, c-format
 msgid ""
 "You keep moving, we'll keep counting! You've clocked in %d steps today. Keep "
 "it rolling, hot stuff."
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1323
+#: src/fw/services/activity/activity_insights.c:1324
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% below your typical. Try to be more "
 "active tomorrow–you can do it!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1326
+#: src/fw/services/activity/activity_insights.c:1327
 #, c-format
 msgid ""
 "You walked %d steps which is %d%% below your typical. Being active makes you "
 "feel amaaaazing–try to get back on track tomorrow."
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1328
+#: src/fw/services/activity/activity_insights.c:1329
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% below your typical. Don't worry, "
 "tomorrow is just around the corner 😀"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1330
+#: src/fw/services/activity/activity_insights.c:1331
 #, c-format
 msgid ""
 "You walked %d steps which is %d%% below your typical, but don't stress. "
 "You'll crush it tomorrow 😉"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1337
+#: src/fw/services/activity/activity_insights.c:1338
 #, c-format
 msgid ""
 "You walked %d steps today. Don't fret, you can get back on track in no time "
 "😉"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1339
+#: src/fw/services/activity/activity_insights.c:1340
 #, c-format
 msgid "You walked %d steps today. Good news is the sky's the limit!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1340
+#: src/fw/services/activity/activity_insights.c:1341
 #, c-format
 msgid ""
 "You walked %d steps today. Try to take even more steps tomorrow–show us what "
@@ -3010,35 +3010,35 @@ msgid ""
 msgstr ""
 
 #. / Sleep notification on wake up, slept above their typical sleep duration
-#: src/fw/services/activity/activity_insights.c:1392
+#: src/fw/services/activity/activity_insights.c:1393
 #, c-format
 msgid ""
 "Refreshed? You slept for %dH %dM which is %d%% above your typical. Go tackle "
 "your day 😃."
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1394
+#: src/fw/services/activity/activity_insights.c:1395
 #, c-format
 msgid ""
 "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above your "
 "typical. Keep it up."
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1396
+#: src/fw/services/activity/activity_insights.c:1397
 #, c-format
 msgid ""
 "Rise and shine! You slept for %dH %dM which is %d%% above your typical. Do "
 "it again tonight, sleep master."
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1399
+#: src/fw/services/activity/activity_insights.c:1400
 #, c-format
 msgid ""
 "Mmmm...what a night. You slept for %dH %dM which is %d%% above your typical. "
 "That's gotta feel good!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1402
+#: src/fw/services/activity/activity_insights.c:1403
 #, c-format
 msgid ""
 "That's a lot of sheep you just counted! You slept for %dH %dM which is %d%% "
@@ -3046,168 +3046,168 @@ msgid ""
 msgstr ""
 
 #. / Sleep notification on wake up, slept similar to their typical sleep duration
-#: src/fw/services/activity/activity_insights.c:1412
+#: src/fw/services/activity/activity_insights.c:1413
 #, c-format
 msgid ""
 "Good mornin’. You slept for %dH %dM. Every good day begins with a solid "
 "night’s sleep...kinda like that one 😉 Keep it up!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1415
+#: src/fw/services/activity/activity_insights.c:1416
 #, c-format
 msgid ""
 "Good morning! You slept for %dH %dM. Consistency is key; keep doing what "
 "you're doing 😃."
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1418
+#: src/fw/services/activity/activity_insights.c:1419
 #, c-format
 msgid ""
 "You're rockin' the shut eye! You slept for %dH %dM. Make it a nightly "
 "ritual. You deserve it."
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1420
+#: src/fw/services/activity/activity_insights.c:1421
 #, c-format
 msgid "Feelin' good? You slept for %dH %dM. Nothing can stop you now 👊"
 msgstr ""
 
 #. / Sleep notification on wake up, slept below their typical sleep duration
-#: src/fw/services/activity/activity_insights.c:1429
+#: src/fw/services/activity/activity_insights.c:1430
 #, c-format
 msgid ""
 "Hey sleepy head. You slept for %dH %dM which is %d%% below your typical. Try "
 "to get more tonight!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1431
+#: src/fw/services/activity/activity_insights.c:1432
 #, c-format
 msgid ""
 "Groggy? You slept for %dH %dM which is %d%% below your typical. Sleep is "
 "important for everything you do-try getting more shut eye tonight!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1433
+#: src/fw/services/activity/activity_insights.c:1434
 #, c-format
 msgid ""
 "It's a new day! You slept for %dH %dM which is %d%% below your typical. It's "
 "not your best, but there's always tonight."
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1436
+#: src/fw/services/activity/activity_insights.c:1437
 #, c-format
 msgid ""
 "Goooood morning! You slept for %dH %dM which is %d%% below your typical. Go "
 "crush your day and then get back in bed 😉"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1443
+#: src/fw/services/activity/activity_insights.c:1444
 #, c-format
 msgid ""
 "You slept for %dH %dM which is %d%% below your typical. Sleep is vital for "
 "all your great ideas–how 'bout getting more tonight?"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1445
+#: src/fw/services/activity/activity_insights.c:1446
 #, c-format
 msgid ""
 "You only slept for %dH %dM which is %d%% below your typical. We know you're "
 "busy, but try getting more tonight. We believe in you 😉"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1447
+#: src/fw/services/activity/activity_insights.c:1448
 #, c-format
 msgid ""
 "You slept for %dH %dM which is %d%% below your typical. We know stuff "
 "happens; take another crack at it tonight."
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1498
+#: src/fw/services/activity/activity_insights.c:1499
 #, c-format
 msgid "%u Steps"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1580
+#: src/fw/services/activity/activity_insights.c:1581
 msgid "Didn’t that walk feel good?"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1581
+#: src/fw/services/activity/activity_insights.c:1582
 msgid "Way to keep it active!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1582
+#: src/fw/services/activity/activity_insights.c:1583
 msgid "You got the moves!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1583
+#: src/fw/services/activity/activity_insights.c:1584
 msgid "Gettin' your step on?"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1593
+#: src/fw/services/activity/activity_insights.c:1594
 msgid "Feelin' hot? Cause you're on 🔥"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1594
+#: src/fw/services/activity/activity_insights.c:1595
 msgid "Hey lightning bolt, way to go!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1595
+#: src/fw/services/activity/activity_insights.c:1596
 msgid "You're a machine!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1596
+#: src/fw/services/activity/activity_insights.c:1597
 msgid "Hey speedster, we can barely keep up!"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1597
+#: src/fw/services/activity/activity_insights.c:1598
 msgid "Way to show us what you're made of 👊"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1607
+#: src/fw/services/activity/activity_insights.c:1608
 msgid "Workin' up a sweat?"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1608
+#: src/fw/services/activity/activity_insights.c:1609
 msgid "Well done 💪"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1609
+#: src/fw/services/activity/activity_insights.c:1610
 msgid "Endorphin rush?"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1610
+#: src/fw/services/activity/activity_insights.c:1611
 msgid "Can't stop, won't stop 👊"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1611
+#: src/fw/services/activity/activity_insights.c:1612
 msgid "Keepin' that heart healthy! ❤"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1639
-#: src/fw/services/activity/activity_insights.c:1729
-#: src/fw/services/activity/activity_insights.c:1736
-#: src/fw/services/activity/activity_insights.c:1743
+#: src/fw/services/activity/activity_insights.c:1640
+#: src/fw/services/activity/activity_insights.c:1730
+#: src/fw/services/activity/activity_insights.c:1737
+#: src/fw/services/activity/activity_insights.c:1744
 #, c-format
 msgid "%d Min"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1668
+#: src/fw/services/activity/activity_insights.c:1669
 msgid "Avg Pace"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1684
+#: src/fw/services/activity/activity_insights.c:1685
 msgid "Distance"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1696
+#: src/fw/services/activity/activity_insights.c:1697
 msgid "Steps"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1709
+#: src/fw/services/activity/activity_insights.c:1710
 msgid "Active Calories"
 msgstr ""
 
-#: src/fw/services/activity/activity_insights.c:1721
+#: src/fw/services/activity/activity_insights.c:1722
 msgid "Avg HR"
 msgstr ""
 
@@ -3243,77 +3243,77 @@ msgstr ""
 msgid "%d.%d"
 msgstr ""
 
-#: src/fw/services/alarms/alarm.c:412 src/fw/services/alarms/alarm_pin.c:18
+#: src/fw/services/alarms/alarm.c:413 src/fw/services/alarms/alarm_pin.c:18
 msgid "Alarm"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would go off every
 #. / day. Respect capitalization!
-#: src/fw/services/alarms/alarm.c:1334
+#: src/fw/services/alarms/alarm.c:1335
 msgid "EVERY DAY"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would go off every
 #. / day. Respect capitalization!
-#: src/fw/services/alarms/alarm.c:1338
+#: src/fw/services/alarms/alarm.c:1339
 msgid "Every Day"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / every weekday. Respect capitalization!
-#: src/fw/services/alarms/alarm.c:1344
+#: src/fw/services/alarms/alarm.c:1345
 msgid "WEEKDAYS"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / each day on the weekend. Respect capitalization!
-#: src/fw/services/alarms/alarm.c:1354
+#: src/fw/services/alarms/alarm.c:1355
 msgid "WEEKENDS"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / one time ever. Respect capitalization!
-#: src/fw/services/alarms/alarm.c:1365
+#: src/fw/services/alarms/alarm.c:1366
 msgid "ONCE"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / one time ever. Respect capitalization!
-#: src/fw/services/alarms/alarm.c:1369
+#: src/fw/services/alarms/alarm.c:1370
 msgid "Once"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / on a custom choice of days. Respect capitalization!
-#: src/fw/services/alarms/alarm.c:1376
+#: src/fw/services/alarms/alarm.c:1377
 msgid "CUSTOM"
 msgstr ""
 
-#: src/fw/services/alarms/alarm.c:1396
+#: src/fw/services/alarms/alarm.c:1397
 msgid "Sundays"
 msgstr ""
 
-#: src/fw/services/alarms/alarm.c:1396
+#: src/fw/services/alarms/alarm.c:1397
 msgid "Mondays"
 msgstr ""
 
-#: src/fw/services/alarms/alarm.c:1397
+#: src/fw/services/alarms/alarm.c:1398
 msgid "Tuesdays"
 msgstr ""
 
-#: src/fw/services/alarms/alarm.c:1397
+#: src/fw/services/alarms/alarm.c:1398
 msgid "Wednesdays"
 msgstr ""
 
-#: src/fw/services/alarms/alarm.c:1398
+#: src/fw/services/alarms/alarm.c:1399
 msgid "Thursdays"
 msgstr ""
 
-#: src/fw/services/alarms/alarm.c:1398
+#: src/fw/services/alarms/alarm.c:1399
 msgid "Fridays"
 msgstr ""
 
-#: src/fw/services/alarms/alarm.c:1399
+#: src/fw/services/alarms/alarm.c:1400
 msgid "Saturdays"
 msgstr ""
 
@@ -3337,195 +3337,194 @@ msgstr ""
 msgid "Chime"
 msgstr ""
 
-#: src/fw/services/clock/service.c:503 src/fw/services/clock/service.c:812
+#: src/fw/services/clock/service.c:505 src/fw/services/clock/service.c:814
 msgid "%R"
 msgstr ""
 
-#: src/fw/services/clock/service.c:503
+#: src/fw/services/clock/service.c:505
 msgid "%l:%M"
 msgstr ""
 
-#: src/fw/services/clock/service.c:515
+#: src/fw/services/clock/service.c:517
 #, c-format
 msgid "%p"
 msgstr ""
 
-#: src/fw/services/clock/service.c:531
+#: src/fw/services/clock/service.c:533
 #: src/fw/services/timeline/timeline_layout.c:371
 msgid "All day"
 msgstr ""
 
-#: src/fw/services/clock/service.c:544 src/fw/services/clock/service.c:556
-#: src/fw/services/clock/service.c:918
+#: src/fw/services/clock/service.c:546 src/fw/services/clock/service.c:558
+#: src/fw/services/clock/service.c:920
 msgid "Now"
 msgstr ""
 
-#: src/fw/services/clock/service.c:548
+#: src/fw/services/clock/service.c:550
 msgid " MIN. TO"
 msgstr ""
 
-#: src/fw/services/clock/service.c:740 src/fw/services/clock/service.c:822
-#: src/fw/services/clock/service.c:830
+#: src/fw/services/clock/service.c:742 src/fw/services/clock/service.c:824
+#: src/fw/services/clock/service.c:832
 msgid "Yesterday"
 msgstr ""
 
-#: src/fw/services/clock/service.c:745 src/fw/services/clock/service.c:860
-#: src/fw/services/clock/service.c:868
+#: src/fw/services/clock/service.c:747 src/fw/services/clock/service.c:862
+#: src/fw/services/clock/service.c:870
 #, c-format
 msgid "%A"
 msgstr ""
 
-#: src/fw/services/clock/service.c:748
+#: src/fw/services/clock/service.c:750
 msgid "%B %d"
 msgstr ""
 
-#: src/fw/services/clock/service.c:808
+#: src/fw/services/clock/service.c:810
 msgid "%l:%M %p"
 msgstr ""
 
-#: src/fw/services/clock/service.c:820
+#: src/fw/services/clock/service.c:822
 msgid "Yesterday, %l:%M %p"
 msgstr ""
 
-#: src/fw/services/clock/service.c:828
+#: src/fw/services/clock/service.c:830
 msgid "Yesterday, %R"
 msgstr ""
 
-#: src/fw/services/clock/service.c:839
+#: src/fw/services/clock/service.c:841
 msgid "%b %e, %l:%M %p"
 msgstr ""
 
-#: src/fw/services/clock/service.c:847
+#: src/fw/services/clock/service.c:849
 msgid "%b %e, %R"
 msgstr ""
 
-#: src/fw/services/clock/service.c:858
+#: src/fw/services/clock/service.c:860
 msgid "%a, %l:%M %p"
 msgstr ""
 
-#: src/fw/services/clock/service.c:866
+#: src/fw/services/clock/service.c:868
 msgid "%a, %R"
 msgstr ""
 
-#: src/fw/services/clock/service.c:895
+#: src/fw/services/clock/service.c:897
 #, c-format
 msgid "%lu H AGO"
 msgstr ""
 
-#: src/fw/services/clock/service.c:897
+#: src/fw/services/clock/service.c:899
 msgid "An hour ago"
 msgstr ""
 
-#: src/fw/services/clock/service.c:899
+#: src/fw/services/clock/service.c:901
 #, c-format
 msgid "%lu hours ago"
 msgstr ""
 
-#: src/fw/services/clock/service.c:909
+#: src/fw/services/clock/service.c:911
 #, c-format
 msgid "%lu MIN AGO"
 msgstr ""
 
-#: src/fw/services/clock/service.c:911
+#: src/fw/services/clock/service.c:913
 #, c-format
 msgid "%lu minute ago"
 msgstr ""
 
-#: src/fw/services/clock/service.c:913
+#: src/fw/services/clock/service.c:915
 #, c-format
 msgid "%lu minutes ago"
 msgstr ""
 
-#: src/fw/services/clock/service.c:918
+#: src/fw/services/clock/service.c:920
 msgid "NOW"
-msgstr ""
-
-#: src/fw/services/clock/service.c:926
-#, c-format
-msgid "IN %lu MIN"
 msgstr ""
 
 #: src/fw/services/clock/service.c:928
 #, c-format
-msgid "In %lu minute"
+msgid "IN %lu MIN"
 msgstr ""
 
 #: src/fw/services/clock/service.c:930
 #, c-format
-msgid "In %lu minutes"
+msgid "In %lu minute"
 msgstr ""
 
-#: src/fw/services/clock/service.c:940
+#: src/fw/services/clock/service.c:932
 #, c-format
-msgid "IN %lu H"
+msgid "In %lu minutes"
 msgstr ""
 
 #: src/fw/services/clock/service.c:942
 #, c-format
-msgid "In %lu hour"
+msgid "IN %lu H"
 msgstr ""
 
 #: src/fw/services/clock/service.c:944
 #, c-format
+msgid "In %lu hour"
+msgstr ""
+
+#: src/fw/services/clock/service.c:946
+#, c-format
 msgid "In %lu hours"
 msgstr ""
 
-#: src/fw/services/clock/service.c:955 src/fw/services/clock/service.c:959
+#: src/fw/services/clock/service.c:957 src/fw/services/clock/service.c:961
 #, c-format
 msgid "%m/%d"
 msgstr ""
 
-#: src/fw/services/clock/service.c:968
-#, c-format
+#: src/fw/services/clock/service.c:970
 msgid "%b "
 msgstr ""
 
-#: src/fw/services/clock/service.c:968
+#: src/fw/services/clock/service.c:970
 msgid "%B "
 msgstr ""
 
-#: src/fw/services/clock/service.c:972
+#: src/fw/services/clock/service.c:974
 #, c-format
 msgid "%e"
 msgstr ""
 
-#: src/fw/services/clock/service.c:1022
+#: src/fw/services/clock/service.c:1024
 msgid "this morning"
 msgstr ""
 
-#: src/fw/services/clock/service.c:1023
+#: src/fw/services/clock/service.c:1025
 msgid "this afternoon"
 msgstr ""
 
-#: src/fw/services/clock/service.c:1024
+#: src/fw/services/clock/service.c:1026
 msgid "this evening"
 msgstr ""
 
-#: src/fw/services/clock/service.c:1025
+#: src/fw/services/clock/service.c:1027
 msgid "tonight"
 msgstr ""
 
-#: src/fw/services/clock/service.c:1026
+#: src/fw/services/clock/service.c:1028
 msgid "tomorrow morning"
 msgstr ""
 
-#: src/fw/services/clock/service.c:1027
+#: src/fw/services/clock/service.c:1029
 msgid "tomorrow afternoon"
 msgstr ""
 
-#: src/fw/services/clock/service.c:1028
+#: src/fw/services/clock/service.c:1030
 msgid "tomorrow evening"
 msgstr ""
 
-#: src/fw/services/clock/service.c:1029
+#: src/fw/services/clock/service.c:1031
 msgid "tomorrow night"
 msgstr ""
 
-#: src/fw/services/clock/service.c:1030 src/fw/services/clock/service.c:1031
+#: src/fw/services/clock/service.c:1032 src/fw/services/clock/service.c:1033
 msgid "the day after tomorrow"
 msgstr ""
 
-#: src/fw/services/clock/service.c:1032
+#: src/fw/services/clock/service.c:1034
 msgid "the foreseeable future"
 msgstr ""
 
@@ -3537,11 +3536,22 @@ msgstr ""
 msgid "Call Back"
 msgstr ""
 
-#: src/fw/services/notifications/do_not_disturb.c:107
+#: src/fw/services/notifications/ancs/ancs_notifications.c:412
+msgid "iPhone Notifications Blocked"
+msgstr ""
+
+#: src/fw/services/notifications/ancs/ancs_notifications.c:415
+msgid ""
+"Your iPhone is not sharing notifications with this watch. On your iPhone, "
+"open Settings > Bluetooth, tap the (i) next to your Pebble and turn on Share "
+"System Notifications."
+msgstr ""
+
+#: src/fw/services/notifications/do_not_disturb.c:114
 msgid "Calendar Aware enables Quiet Time automatically during calendar events."
 msgstr ""
 
-#: src/fw/services/notifications/do_not_disturb.c:115
+#: src/fw/services/notifications/do_not_disturb.c:122
 msgid ""
 "Press and hold the Back button from a notification to turn Quiet Time on or "
 "off."
@@ -3620,53 +3630,53 @@ msgstr ""
 msgid "Intercom"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:709
+#: src/fw/services/timeline/timeline_actions.c:710
 msgid ""
 "Quickly dismiss all notifications by holding the Select button for 2 seconds "
 "from any incoming notification."
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:797
+#: src/fw/services/timeline/timeline_actions.c:798
 msgid "Ok"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:798
+#: src/fw/services/timeline/timeline_actions.c:799
 msgid "Yes"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:799
+#: src/fw/services/timeline/timeline_actions.c:800
 msgid "No"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:800
+#: src/fw/services/timeline/timeline_actions.c:801
 msgid "Call me"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:801
+#: src/fw/services/timeline/timeline_actions.c:802
 msgid "Call you later"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:926
+#: src/fw/services/timeline/timeline_actions.c:927
 msgid "Reply with Voice"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:926
+#: src/fw/services/timeline/timeline_actions.c:927
 msgid "Voice"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:936
+#: src/fw/services/timeline/timeline_actions.c:937
 msgid "Canned messages"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:940
+#: src/fw/services/timeline/timeline_actions.c:941
 msgid "Emoji"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:1044
+#: src/fw/services/timeline/timeline_actions.c:1045
 msgid "In 15 minutes"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:1048
+#: src/fw/services/timeline/timeline_actions.c:1049
 msgid "Later today"
 msgstr ""
 
