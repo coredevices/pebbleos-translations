@@ -463,7 +463,7 @@ msgstr ""
 
 #. / Vibrate at the end of notification animation (delayed)
 #: src/fw/applib/ui/time_range_selection_window.c:181
-#: src/fw/apps/system/settings/notifications.c:236
+#: src/fw/apps/system/settings/notifications.c:237
 msgid "End"
 msgstr ""
 
@@ -808,32 +808,38 @@ msgstr ""
 msgid "Music"
 msgstr ""
 
-#: src/fw/apps/system/notifications.c:246
+#: src/fw/apps/system/notifications.c:404
 msgid "Done"
 msgstr ""
 
-#: src/fw/apps/system/notifications.c:272
+#: src/fw/apps/system/notifications.c:430
 msgid "Clear history?"
 msgstr ""
 
-#: src/fw/apps/system/notifications.c:541
-#: src/fw/apps/system/notifications.c:548
+#. / Notification sender followed by the number of grouped notifications
+#: src/fw/apps/system/notifications.c:690
+#, c-format
+msgid "%s (%u)"
+msgstr ""
+
+#: src/fw/apps/system/notifications.c:729
+#: src/fw/apps/system/notifications.c:736
 msgid "Clear All"
 msgstr ""
 
-#: src/fw/apps/system/notifications.c:726
+#: src/fw/apps/system/notifications.c:987
 msgid "No notifications"
 msgstr ""
 
-#: src/fw/apps/system/notifications.c:833
-#: src/fw/apps/system/settings/notifications.c:443
+#: src/fw/apps/system/notifications.c:1096
+#: src/fw/apps/system/settings/notifications.c:489
 #: src/fw/apps/system/settings/quiet_time.c:439
 #: src/fw/apps/system/settings/vibe_patterns.c:80
 #: src/fw/services/timeline/timeline.c:922
 msgid "Notifications"
 msgstr ""
 
-#: src/fw/apps/system/notifications.c:847
+#: src/fw/apps/system/notifications.c:1110
 msgid "Clear Notification History"
 msgstr ""
 
@@ -893,7 +899,7 @@ msgstr ""
 
 #. / No Notification Window Timeout
 #: src/fw/apps/system/settings/activity_tracker.c:162
-#: src/fw/apps/system/settings/notifications.c:158
+#: src/fw/apps/system/settings/notifications.c:159
 msgid "None"
 msgstr ""
 
@@ -978,18 +984,18 @@ msgid "Language"
 msgstr ""
 
 #: src/fw/apps/system/settings/display.c:62
-#: src/fw/apps/system/settings/notifications.c:106
+#: src/fw/apps/system/settings/notifications.c:107
 msgid "Smaller"
 msgstr ""
 
 #: src/fw/apps/system/settings/display.c:63
-#: src/fw/apps/system/settings/notifications.c:107
+#: src/fw/apps/system/settings/notifications.c:108
 msgctxt "TextSize"
 msgid "Default"
 msgstr ""
 
 #: src/fw/apps/system/settings/display.c:64
-#: src/fw/apps/system/settings/notifications.c:108
+#: src/fw/apps/system/settings/notifications.c:109
 msgid "Larger"
 msgstr ""
 
@@ -999,8 +1005,8 @@ msgstr ""
 #. / String within Settings->Notifications that describes the text font size
 #: src/fw/apps/system/settings/display.c:77
 #: src/fw/apps/system/settings/display.c:672
-#: src/fw/apps/system/settings/notifications.c:132
-#: src/fw/apps/system/settings/notifications.c:314
+#: src/fw/apps/system/settings/notifications.c:133
+#: src/fw/apps/system/settings/notifications.c:350
 msgid "Text Size"
 msgstr ""
 
@@ -1067,8 +1073,8 @@ msgstr ""
 #. / String within Settings->Notifications that describes the window timeout setting
 #: src/fw/apps/system/settings/display.c:198
 #: src/fw/apps/system/settings/display.c:461
-#: src/fw/apps/system/settings/notifications.c:190
-#: src/fw/apps/system/settings/notifications.c:319
+#: src/fw/apps/system/settings/notifications.c:191
+#: src/fw/apps/system/settings/notifications.c:355
 msgid "Timeout"
 msgstr ""
 
@@ -1141,7 +1147,7 @@ msgstr ""
 #: src/fw/apps/system/settings/display.c:284
 #: src/fw/apps/system/settings/display.c:406
 #: src/fw/apps/system/settings/display.c:647
-#: src/fw/apps/system/settings/notifications.c:339
+#: src/fw/apps/system/settings/notifications.c:375
 #: src/fw/apps/system/settings/quiet_time.c:404
 #: src/fw/apps/system/settings/quiet_time.c:444
 msgid "Backlight"
@@ -1192,7 +1198,7 @@ msgstr ""
 #: src/fw/apps/system/settings/health.c:135
 #: src/fw/apps/system/settings/health.c:140
 #: src/fw/apps/system/settings/health.c:159
-#: src/fw/apps/system/settings/notifications.c:341
+#: src/fw/apps/system/settings/notifications.c:377
 #: src/fw/apps/system/settings/quiet_time.c:363
 #: src/fw/apps/system/settings/quiet_time.c:367
 #: src/fw/apps/system/settings/quiet_time.c:429
@@ -1212,7 +1218,7 @@ msgstr ""
 #: src/fw/apps/system/settings/health.c:135
 #: src/fw/apps/system/settings/health.c:140
 #: src/fw/apps/system/settings/health.c:160
-#: src/fw/apps/system/settings/notifications.c:341
+#: src/fw/apps/system/settings/notifications.c:377
 #: src/fw/apps/system/settings/quiet_time.c:324
 #: src/fw/apps/system/settings/quiet_time.c:363
 #: src/fw/apps/system/settings/quiet_time.c:367
@@ -1274,7 +1280,7 @@ msgstr ""
 
 #. / 10 Minute Notification Window Timeout
 #: src/fw/apps/system/settings/health.c:28
-#: src/fw/apps/system/settings/notifications.c:156
+#: src/fw/apps/system/settings/notifications.c:157
 msgid "10 Minutes"
 msgstr ""
 
@@ -1327,98 +1333,125 @@ msgstr ""
 msgid "Needs HR During Activity"
 msgstr ""
 
-#: src/fw/apps/system/settings/notifications.c:58
+#: src/fw/apps/system/settings/notifications.c:59
 msgid "Allow All Notifications"
 msgstr ""
 
-#: src/fw/apps/system/settings/notifications.c:59
+#: src/fw/apps/system/settings/notifications.c:60
 msgid "Allow Phone Calls Only"
 msgstr ""
 
-#: src/fw/apps/system/settings/notifications.c:60
+#: src/fw/apps/system/settings/notifications.c:61
 msgid "Mute All Notifications"
 msgstr ""
 
 #. / The option in the Settings app for filtering notifications by type.
-#: src/fw/apps/system/settings/notifications.c:92
-#: src/fw/apps/system/settings/notifications.c:309
+#: src/fw/apps/system/settings/notifications.c:93
+#: src/fw/apps/system/settings/notifications.c:345
 msgid "Filter"
 msgstr ""
 
 #. / Notification text size option that follows the system Text Size setting
-#: src/fw/apps/system/settings/notifications.c:110
+#: src/fw/apps/system/settings/notifications.c:111
 msgid "Same as System"
 msgstr ""
 
 #. / 15 Second Notification Window Timeout
-#: src/fw/apps/system/settings/notifications.c:148
+#: src/fw/apps/system/settings/notifications.c:149
 msgid "15 Seconds"
 msgstr ""
 
 #. / 30 Second Notification Window Timeout
-#: src/fw/apps/system/settings/notifications.c:150
+#: src/fw/apps/system/settings/notifications.c:151
 msgid "30 Seconds"
 msgstr ""
 
 #. / 1 Minute Notification Window Timeout
-#: src/fw/apps/system/settings/notifications.c:152
+#: src/fw/apps/system/settings/notifications.c:153
 msgid "1 Minute"
 msgstr ""
 
 #. / 3 Minute Notification Window Timeout
-#: src/fw/apps/system/settings/notifications.c:154
+#: src/fw/apps/system/settings/notifications.c:155
 msgid "3 Minutes"
 msgstr ""
 
 #. / Standard notification design option (default)
-#: src/fw/apps/system/settings/notifications.c:202
+#: src/fw/apps/system/settings/notifications.c:203
 msgid "Classic"
 msgstr ""
 
 #. / Alternative notification design option
-#: src/fw/apps/system/settings/notifications.c:204
+#: src/fw/apps/system/settings/notifications.c:205
 msgid "Flat Black"
 msgstr ""
 
 #. / Status bar title for the Notification Design Style settings screen
 #. / String within Settings->Notifications that describes the notification design style
-#: src/fw/apps/system/settings/notifications.c:222
-#: src/fw/apps/system/settings/notifications.c:326
+#: src/fw/apps/system/settings/notifications.c:223
+#: src/fw/apps/system/settings/notifications.c:362
 msgid "Banner Style"
 msgstr ""
 
 #. / Vibrate at the beginning of notification animation (immediate)
-#: src/fw/apps/system/settings/notifications.c:234
+#: src/fw/apps/system/settings/notifications.c:235
 msgid "Beginning"
 msgstr ""
 
 #. / Status bar title for the Notification Vibe Timing settings screen
 #. / String within Settings->Notifications that describes when vibration happens
-#: src/fw/apps/system/settings/notifications.c:254
-#: src/fw/apps/system/settings/notifications.c:333
+#: src/fw/apps/system/settings/notifications.c:255
+#: src/fw/apps/system/settings/notifications.c:369
 msgid "Vibe Timing"
 msgstr ""
 
-#: src/fw/apps/system/settings/notifications.c:264
+#: src/fw/apps/system/settings/notifications.c:265
 msgctxt "StatusBar"
 msgid "Default"
 msgstr ""
 
-#: src/fw/apps/system/settings/notifications.c:265
+#: src/fw/apps/system/settings/notifications.c:266
 msgid "Bold"
 msgstr ""
 
-#: src/fw/apps/system/settings/notifications.c:266
+#: src/fw/apps/system/settings/notifications.c:267
 msgid "Big & Bold"
 msgstr ""
 
 #. / Status bar title for the Notification Status Bar Style settings screen
-#: src/fw/apps/system/settings/notifications.c:288
+#: src/fw/apps/system/settings/notifications.c:289
 msgid "Clock Style"
 msgstr ""
 
+#. / Disable notification grouping
+#: src/fw/apps/system/settings/notifications.c:300
+msgid "Never"
+msgstr ""
+
+#. / Group notifications received within one day
+#: src/fw/apps/system/settings/notifications.c:302
+msgid "1 Day"
+msgstr ""
+
+#. / Group notifications received within one week
+#: src/fw/apps/system/settings/notifications.c:304
+msgid "1 Week"
+msgstr ""
+
+#. / Group all notifications
+#: src/fw/apps/system/settings/notifications.c:306
+msgid "All"
+msgstr ""
+
+#. / Title for the notification sender grouping settings screen
+#. / Notification settings item for grouping notifications by sender
+#: src/fw/apps/system/settings/notifications.c:323
+#: src/fw/apps/system/settings/notifications.c:382
+msgid "Group by Sender"
+msgstr ""
+
 #. / String within Settings->Notifications that selects the notification status bar style
-#: src/fw/apps/system/settings/notifications.c:346
+#: src/fw/apps/system/settings/notifications.c:389
 msgid "Status Bar"
 msgstr ""
 
