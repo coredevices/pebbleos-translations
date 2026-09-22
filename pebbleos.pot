@@ -2078,7 +2078,7 @@ msgstr ""
 msgid "RAIN"
 msgstr ""
 
-#: src/fw/apps/system/weather/forecast_list.c:1277
+#: src/fw/apps/system/weather/forecast_list.c:1278
 msgid "WEATHER REPORT"
 msgstr ""
 
@@ -2086,33 +2086,33 @@ msgstr ""
 #. scrolled column's air splits evenly — solved for disc->graph = graph->pill =
 #. %-row->dot (~10-11px each; the graph auto-centres in its band, so the split
 #. holds for any temp spread).
-#: src/fw/apps/system/weather/forecast_list.c:1598
+#: src/fw/apps/system/weather/forecast_list.c:1599
 msgid "PRECIPITATION"
 msgstr ""
 
-#: src/fw/apps/system/weather/forecast_list.c:2216
+#: src/fw/apps/system/weather/forecast_list.c:2217
 #, no-c-format
 msgid "%a, %b %d"
 msgstr ""
 
-#: src/fw/apps/system/weather/globe_view.c:2157
+#: src/fw/apps/system/weather/globe_view.c:2156
 msgid "Saved Location"
 msgstr ""
 
-#: src/fw/apps/system/weather/globe_view.c:2161
-#: src/fw/apps/system/weather/globe_view.c:3689
-#: src/fw/apps/system/weather/globe_view.c:3743
+#: src/fw/apps/system/weather/globe_view.c:2160
+#: src/fw/apps/system/weather/globe_view.c:3688
+#: src/fw/apps/system/weather/globe_view.c:3742
 #: src/fw/apps/system/weather/saved_locations.c:160
 msgid "Current Location"
 msgstr ""
 
-#: src/fw/apps/system/weather/globe_view.c:3091
-#: src/fw/apps/system/weather/globe_view.c:3098
+#: src/fw/apps/system/weather/globe_view.c:3090
+#: src/fw/apps/system/weather/globe_view.c:3097
 msgid "CITY SELECT"
 msgstr ""
 
-#: src/fw/apps/system/weather/globe_view.c:3159
-#: src/fw/apps/system/weather/globe_view.c:3191
+#: src/fw/apps/system/weather/globe_view.c:3158
+#: src/fw/apps/system/weather/globe_view.c:3190
 msgid "SAVED LOCATIONS"
 msgstr ""
 
@@ -2176,195 +2176,195 @@ msgstr ""
 msgid "Weather"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:405
+#: src/fw/apps/system/weather/weather_app_layout.c:406
 msgid "Snow likely"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:407
+#: src/fw/apps/system/weather/weather_app_layout.c:408
 msgid "Sleet likely"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:409
+#: src/fw/apps/system/weather/weather_app_layout.c:410
 msgid "Rain likely"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:417
+#: src/fw/apps/system/weather/weather_app_layout.c:418
 msgid "Chance of snow"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:419
+#: src/fw/apps/system/weather/weather_app_layout.c:420
 msgid "Chance of sleet"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:421
+#: src/fw/apps/system/weather/weather_app_layout.c:422
 msgid "Chance of rain"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:459
+#: src/fw/apps/system/weather/weather_app_layout.c:460
 msgid "Hail"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:461
+#: src/fw/apps/system/weather/weather_app_layout.c:462
 msgid "Chance of storms"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:463
+#: src/fw/apps/system/weather/weather_app_layout.c:464
 msgid "Heavy snow"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:465
+#: src/fw/apps/system/weather/weather_app_layout.c:466
 msgid "Heavy rain"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:467
+#: src/fw/apps/system/weather/weather_app_layout.c:468
 msgid "Wintry mix"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:469
+#: src/fw/apps/system/weather/weather_app_layout.c:470
 msgid "Flood risk"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:471
+#: src/fw/apps/system/weather/weather_app_layout.c:472
 msgid "Strong winds"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:474
+#: src/fw/apps/system/weather/weather_app_layout.c:475
 msgid "Below freezing"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:476
+#: src/fw/apps/system/weather/weather_app_layout.c:477
 msgid "Hard frost"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:479
+#: src/fw/apps/system/weather/weather_app_layout.c:480
 msgid "Feels below freezing"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:481
+#: src/fw/apps/system/weather/weather_app_layout.c:482
 msgid "Heatwave"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:483
+#: src/fw/apps/system/weather/weather_app_layout.c:484
 msgid "Very high UV"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:485
+#: src/fw/apps/system/weather/weather_app_layout.c:486
 msgid "High UV"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:488
+#: src/fw/apps/system/weather/weather_app_layout.c:489
 msgid "Poor visibility"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:490
+#: src/fw/apps/system/weather/weather_app_layout.c:491
 msgid "High humidity"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:496
+#: src/fw/apps/system/weather/weather_app_layout.c:497
 msgid "Windy"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:501
+#: src/fw/apps/system/weather/weather_app_layout.c:502
 msgid "Clear skies"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:503
+#: src/fw/apps/system/weather/weather_app_layout.c:504
 msgid "Light winds"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:506
+#: src/fw/apps/system/weather/weather_app_layout.c:507
 msgid "Calm breeze"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:509
+#: src/fw/apps/system/weather/weather_app_layout.c:510
 msgid "Fair conditions"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:511
+#: src/fw/apps/system/weather/weather_app_layout.c:512
 msgid "Mild conditions"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:513
+#: src/fw/apps/system/weather/weather_app_layout.c:514
 msgid "All clear"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:523
+#: src/fw/apps/system/weather/weather_app_layout.c:524
 msgid "N"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:523
+#: src/fw/apps/system/weather/weather_app_layout.c:524
 msgid "NE"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:523
+#: src/fw/apps/system/weather/weather_app_layout.c:524
 msgid "E"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:523
+#: src/fw/apps/system/weather/weather_app_layout.c:524
 msgid "SE"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:524
+#: src/fw/apps/system/weather/weather_app_layout.c:525
 msgid "S"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:524
+#: src/fw/apps/system/weather/weather_app_layout.c:525
 msgid "SW"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:524
+#: src/fw/apps/system/weather/weather_app_layout.c:525
 msgid "W"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:524
+#: src/fw/apps/system/weather/weather_app_layout.c:525
 msgid "NW"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:548
+#: src/fw/apps/system/weather/weather_app_layout.c:549
 msgid "mph"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:548
+#: src/fw/apps/system/weather/weather_app_layout.c:549
 msgid "km/h"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:550
+#: src/fw/apps/system/weather/weather_app_layout.c:551
 #, c-format
 msgid "%s at %d%s."
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:550
+#: src/fw/apps/system/weather/weather_app_layout.c:551
 #, c-format
 msgid "Winds %s at %d%s."
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:555
+#: src/fw/apps/system/weather/weather_app_layout.c:556
 #, c-format
 msgid "At %d%s."
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:555
+#: src/fw/apps/system/weather/weather_app_layout.c:556
 #, c-format
 msgid "Winds at %d%s."
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:564
+#: src/fw/apps/system/weather/weather_app_layout.c:565
 #, c-format
 msgid "Precipitation %d%%."
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:839
-#: src/fw/apps/system/weather/weather_app_layout.c:1127
+#: src/fw/apps/system/weather/weather_app_layout.c:840
+#: src/fw/apps/system/weather/weather_app_layout.c:1128
 msgid "TODAY"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:870
-#: src/fw/apps/system/weather/weather_app_layout.c:1213
+#: src/fw/apps/system/weather/weather_app_layout.c:871
+#: src/fw/apps/system/weather/weather_app_layout.c:1214
 msgid "TOMORROW"
 msgstr ""
 
-#: src/fw/apps/system/weather/weather_app_layout.c:967
-#: src/fw/apps/system/weather/weather_app_layout.c:1063
+#: src/fw/apps/system/weather/weather_app_layout.c:968
+#: src/fw/apps/system/weather/weather_app_layout.c:1064
 msgid "UV INDEX"
 msgstr ""
 
@@ -2609,7 +2609,7 @@ msgstr ""
 msgid "Heart Rate Not Shared"
 msgstr ""
 
-#: src/fw/popups/bluetooth_pairing_ui.c:221
+#: src/fw/popups/bluetooth_pairing_ui.c:222
 msgid "Pair?"
 msgstr ""
 
