@@ -479,15 +479,15 @@ msgstr ""
 msgid "No internet connection"
 msgstr ""
 
-#: src/fw/applib/voice/voice_window.c:312
+#: src/fw/applib/voice/voice_window.c:230
 msgid "Enable voice in the settings page of the Pebble app."
 msgstr ""
 
-#: src/fw/applib/voice/voice_window.c:362
+#: src/fw/applib/voice/voice_window.c:366
 msgid "Missed that. Try again."
 msgstr ""
 
-#: src/fw/applib/voice/voice_window.c:1100
+#: src/fw/applib/voice/voice_window.c:1108
 msgid "Listening"
 msgstr ""
 
