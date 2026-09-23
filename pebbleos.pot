@@ -655,7 +655,7 @@ msgid "Incompatible JS"
 msgstr ""
 
 #: src/fw/apps/system/app_fetch_ui.c:138
-#: src/fw/services/timeline/timeline_actions.c:263
+#: src/fw/services/timeline/timeline_actions.c:264
 msgid "Failed"
 msgstr ""
 
@@ -2194,7 +2194,7 @@ msgid "Rain & Snow"
 msgstr ""
 
 #: src/fw/apps/system/weather/weather.c:138 src/fw/services/clock/service.c:744
-#: src/fw/services/timeline/timeline_actions.c:1054
+#: src/fw/services/timeline/timeline_actions.c:1055
 msgid "Tomorrow"
 msgstr ""
 
@@ -3663,53 +3663,53 @@ msgstr ""
 msgid "Intercom"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:711
+#: src/fw/services/timeline/timeline_actions.c:712
 msgid ""
 "Quickly dismiss all notifications by holding the Select button for 2 seconds "
 "from any incoming notification."
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:799
+#: src/fw/services/timeline/timeline_actions.c:800
 msgid "Ok"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:800
+#: src/fw/services/timeline/timeline_actions.c:801
 msgid "Yes"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:801
+#: src/fw/services/timeline/timeline_actions.c:802
 msgid "No"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:802
+#: src/fw/services/timeline/timeline_actions.c:803
 msgid "Call me"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:803
+#: src/fw/services/timeline/timeline_actions.c:804
 msgid "Call you later"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:928
+#: src/fw/services/timeline/timeline_actions.c:929
 msgid "Reply with Voice"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:928
+#: src/fw/services/timeline/timeline_actions.c:929
 msgid "Voice"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:938
+#: src/fw/services/timeline/timeline_actions.c:939
 msgid "Canned messages"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:942
+#: src/fw/services/timeline/timeline_actions.c:943
 msgid "Emoji"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:1046
+#: src/fw/services/timeline/timeline_actions.c:1047
 msgid "In 15 minutes"
 msgstr ""
 
-#: src/fw/services/timeline/timeline_actions.c:1050
+#: src/fw/services/timeline/timeline_actions.c:1051
 msgid "Later today"
 msgstr ""
 
