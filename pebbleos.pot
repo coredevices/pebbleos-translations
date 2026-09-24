@@ -2046,11 +2046,11 @@ msgstr ""
 msgid "Toggle Quiet Time"
 msgstr ""
 
-#: src/fw/apps/system/watchfaces.c:87
+#: src/fw/apps/system/watchfaces.c:97
 msgid "Active"
 msgstr ""
 
-#: src/fw/apps/system/watchfaces.c:205
+#: src/fw/apps/system/watchfaces.c:217
 msgid "Watchfaces"
 msgstr ""
 
