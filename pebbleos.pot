@@ -908,61 +908,61 @@ msgstr ""
 msgid "Background App"
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:123
+#: src/fw/apps/system/settings/bluetooth.c:126
 msgid "<Untitled>"
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:183
+#: src/fw/apps/system/settings/bluetooth.c:186
 msgid "Pairing Instructions"
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:188
+#: src/fw/apps/system/settings/bluetooth.c:191
 #, c-format
 msgid "%u Paired Phones"
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:188
+#: src/fw/apps/system/settings/bluetooth.c:191
 #, c-format
 msgid "%u Paired Phone"
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:339
+#: src/fw/apps/system/settings/bluetooth.c:342
 msgid "Connected"
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:354
+#: src/fw/apps/system/settings/bluetooth.c:357
 msgid "Sharing Heart Rate ❤"
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:397
-msgid "Connection"
-msgstr ""
-
-#: src/fw/apps/system/settings/bluetooth.c:401
-msgid "Airplane Mode"
-msgstr ""
-
-#: src/fw/apps/system/settings/bluetooth.c:411
-msgid "Disabling..."
-msgstr ""
-
-#: src/fw/apps/system/settings/bluetooth.c:412
-msgid "Enabling..."
-msgstr ""
-
-#: src/fw/apps/system/settings/bluetooth.c:436
-msgid "Disable Airplane Mode to connect."
-msgstr ""
-
-#: src/fw/apps/system/settings/bluetooth.c:439
-msgid "Open the Pebble app on your phone to connect."
-msgstr ""
-
-#: src/fw/apps/system/settings/bluetooth.c:449
+#: src/fw/apps/system/settings/bluetooth.c:382
 msgid "Forget this device to pair a new device."
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:592
+#: src/fw/apps/system/settings/bluetooth.c:385
+msgid "Disable Airplane Mode to connect."
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:387
+msgid "Open the Pebble app on your phone to connect."
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:462
+msgid "Connection"
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:466
+msgid "Airplane Mode"
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:476
+msgid "Disabling..."
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:477
+msgid "Enabling..."
+msgstr ""
+
+#: src/fw/apps/system/settings/bluetooth.c:625
 msgid "Bluetooth"
 msgstr ""
 
