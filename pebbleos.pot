@@ -908,61 +908,61 @@ msgstr ""
 msgid "Background App"
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:126
+#: src/fw/apps/system/settings/bluetooth.c:127
 msgid "<Untitled>"
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:186
+#: src/fw/apps/system/settings/bluetooth.c:187
 msgid "Pairing Instructions"
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:191
+#: src/fw/apps/system/settings/bluetooth.c:192
 #, c-format
 msgid "%u Paired Phones"
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:191
+#: src/fw/apps/system/settings/bluetooth.c:192
 #, c-format
 msgid "%u Paired Phone"
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:342
+#: src/fw/apps/system/settings/bluetooth.c:343
 msgid "Connected"
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:357
+#: src/fw/apps/system/settings/bluetooth.c:358
 msgid "Sharing Heart Rate ❤"
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:382
+#: src/fw/apps/system/settings/bluetooth.c:383
 msgid "Forget this device to pair a new device."
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:385
+#: src/fw/apps/system/settings/bluetooth.c:386
 msgid "Disable Airplane Mode to connect."
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:387
+#: src/fw/apps/system/settings/bluetooth.c:388
 msgid "Open the Pebble app on your phone to connect."
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:462
+#: src/fw/apps/system/settings/bluetooth.c:463
 msgid "Connection"
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:466
+#: src/fw/apps/system/settings/bluetooth.c:467
 msgid "Airplane Mode"
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:476
+#: src/fw/apps/system/settings/bluetooth.c:477
 msgid "Disabling..."
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:477
+#: src/fw/apps/system/settings/bluetooth.c:478
 msgid "Enabling..."
 msgstr ""
 
-#: src/fw/apps/system/settings/bluetooth.c:625
+#: src/fw/apps/system/settings/bluetooth.c:631
 msgid "Bluetooth"
 msgstr ""
 
@@ -1613,7 +1613,7 @@ msgstr ""
 msgid "Stop Sharing Heart Rate"
 msgstr ""
 
-#: src/fw/apps/system/settings/settings.c:228
+#: src/fw/apps/system/settings/settings.c:230
 msgid "Settings"
 msgstr ""
 
@@ -2046,11 +2046,11 @@ msgstr ""
 msgid "Toggle Quiet Time"
 msgstr ""
 
-#: src/fw/apps/system/watchfaces.c:97
+#: src/fw/apps/system/watchfaces.c:98
 msgid "Active"
 msgstr ""
 
-#: src/fw/apps/system/watchfaces.c:217
+#: src/fw/apps/system/watchfaces.c:219
 msgid "Watchfaces"
 msgstr ""
 
