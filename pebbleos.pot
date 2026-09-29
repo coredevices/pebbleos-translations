@@ -2615,12 +2615,12 @@ msgstr ""
 msgid "%B %e"
 msgstr ""
 
-#: src/fw/popups/alarm_popup.c:52
+#: src/fw/popups/alarm_popup.c:54
 #, c-format
 msgid "Snooze for %d minutes"
 msgstr ""
 
-#: src/fw/popups/alarm_popup.c:69
+#: src/fw/popups/alarm_popup.c:71
 msgid "Alarm dismissed"
 msgstr ""
 
@@ -2666,52 +2666,52 @@ msgid ""
 "mobile app to continue."
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:709
+#: src/fw/popups/notifications/notification_window.c:723
 msgid "Snoozed"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:742
+#: src/fw/popups/notifications/notification_window.c:756
 msgid "Muted"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:912
+#: src/fw/popups/notifications/notification_window.c:926
 msgid "Snooze"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:930
+#: src/fw/popups/notifications/notification_window.c:944
 #, c-format
 msgid "Mute %s"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:948
+#: src/fw/popups/notifications/notification_window.c:962
 msgid "Mute 1 Hour"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:951
+#: src/fw/popups/notifications/notification_window.c:965
 msgid "Mute Today"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:954
+#: src/fw/popups/notifications/notification_window.c:968
 msgid "Mute Always"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:957
+#: src/fw/popups/notifications/notification_window.c:971
 msgid "Mute Weekends"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:960
+#: src/fw/popups/notifications/notification_window.c:974
 msgid "Mute Weekdays"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:968
+#: src/fw/popups/notifications/notification_window.c:982
 msgid "Dismiss All"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:974
+#: src/fw/popups/notifications/notification_window.c:988
 msgid "End Quiet Time"
 msgstr ""
 
-#: src/fw/popups/notifications/notification_window.c:975
+#: src/fw/popups/notifications/notification_window.c:989
 msgid "Start Quiet Time"
 msgstr ""
 
