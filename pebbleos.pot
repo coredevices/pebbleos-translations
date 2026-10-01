@@ -723,7 +723,7 @@ msgid "Health requires the time to be synced. Please connect your phone."
 msgstr ""
 
 #: src/fw/apps/system/health/health.c:182
-#: src/fw/apps/system/settings/health.c:254
+#: src/fw/apps/system/settings/health.c:287
 #: src/fw/services/timeline/timeline.c:942
 msgid "Health"
 msgstr ""
@@ -871,9 +871,7 @@ msgid "Reminder"
 msgstr ""
 
 #: src/fw/apps/system/send_text/send_text.c:194
-#: src/fw/apps/system/settings/health.c:115
-#: src/fw/apps/system/settings/health.c:126
-#: src/fw/apps/system/settings/health.c:147
+#: src/fw/apps/system/settings/health.c:154
 #: src/fw/services/phone_call/util.c:18
 msgid "Unknown"
 msgstr ""
@@ -1194,10 +1192,10 @@ msgstr ""
 #: src/fw/apps/system/settings/display.c:426
 #: src/fw/apps/system/settings/display.c:657
 #: src/fw/apps/system/settings/display.c:661
-#: src/fw/apps/system/settings/health.c:108
-#: src/fw/apps/system/settings/health.c:135
-#: src/fw/apps/system/settings/health.c:140
-#: src/fw/apps/system/settings/health.c:159
+#: src/fw/apps/system/settings/health.c:147
+#: src/fw/apps/system/settings/health.c:171
+#: src/fw/apps/system/settings/health.c:176
+#: src/fw/apps/system/settings/health.c:192
 #: src/fw/apps/system/settings/notifications.c:378
 #: src/fw/apps/system/settings/quiet_time.c:363
 #: src/fw/apps/system/settings/quiet_time.c:367
@@ -1214,10 +1212,10 @@ msgstr ""
 #: src/fw/apps/system/settings/display.c:426
 #: src/fw/apps/system/settings/display.c:657
 #: src/fw/apps/system/settings/display.c:661
-#: src/fw/apps/system/settings/health.c:108
-#: src/fw/apps/system/settings/health.c:135
-#: src/fw/apps/system/settings/health.c:140
-#: src/fw/apps/system/settings/health.c:160
+#: src/fw/apps/system/settings/health.c:147
+#: src/fw/apps/system/settings/health.c:171
+#: src/fw/apps/system/settings/health.c:176
+#: src/fw/apps/system/settings/health.c:193
 #: src/fw/apps/system/settings/notifications.c:378
 #: src/fw/apps/system/settings/quiet_time.c:324
 #: src/fw/apps/system/settings/quiet_time.c:363
@@ -1278,58 +1276,66 @@ msgstr ""
 msgid "Miles"
 msgstr ""
 
+#: src/fw/apps/system/settings/health.c:33
+msgid "5 Minutes"
+msgstr ""
+
 #. / 10 Minute Notification Window Timeout
-#: src/fw/apps/system/settings/health.c:28
+#: src/fw/apps/system/settings/health.c:33
+#: src/fw/apps/system/settings/health.c:54
 #: src/fw/apps/system/settings/notifications.c:158
 msgid "10 Minutes"
 msgstr ""
 
-#: src/fw/apps/system/settings/health.c:29
+#: src/fw/apps/system/settings/health.c:33
+#: src/fw/apps/system/settings/health.c:55
 msgid "30 Minutes"
 msgstr ""
 
-#: src/fw/apps/system/settings/health.c:30
+#: src/fw/apps/system/settings/health.c:34
+#: src/fw/apps/system/settings/health.c:56
 msgid "1 Hour"
 msgstr ""
 
-#: src/fw/apps/system/settings/health.c:31
+#: src/fw/apps/system/settings/health.c:34
+#: src/fw/apps/system/settings/health.c:57
 #: src/fw/apps/system/settings/system.c:521
 #: src/fw/apps/system/settings/system.c:537
 #: src/fw/apps/system/settings/system.c:540
 msgid "Disabled"
 msgstr ""
 
-#: src/fw/apps/system/settings/health.c:62
-#: src/fw/apps/system/settings/health.c:123
+#: src/fw/apps/system/settings/health.c:99
+#: src/fw/apps/system/settings/health.c:162
 msgid "HR Monitoring"
 msgstr ""
 
-#: src/fw/apps/system/settings/health.c:81
-#: src/fw/apps/system/settings/health.c:139
+#: src/fw/apps/system/settings/health.c:120
+#: src/fw/apps/system/settings/health.c:175
 msgid "Blood Oxygen"
 msgstr ""
 
-#: src/fw/apps/system/settings/health.c:107
+#: src/fw/apps/system/settings/health.c:146
 msgid "Health Tracking"
 msgstr ""
 
-#: src/fw/apps/system/settings/health.c:112
+#: src/fw/apps/system/settings/health.c:151
 msgid "Distance Unit"
 msgstr ""
 
-#: src/fw/apps/system/settings/health.c:133
+#: src/fw/apps/system/settings/health.c:169
 msgid "HR During Activity"
 msgstr ""
 
-#: src/fw/apps/system/settings/health.c:144
+#: src/fw/apps/system/settings/health.c:180
 msgid "SpO2 Monitoring"
 msgstr ""
 
-#: src/fw/apps/system/settings/health.c:154
+#: src/fw/apps/system/settings/health.c:187
 msgid "Blood O2 During Activity"
 msgstr ""
 
-#: src/fw/apps/system/settings/health.c:157
+#: src/fw/apps/system/settings/health.c:190
 msgid "Needs HR During Activity"
 msgstr ""
 
