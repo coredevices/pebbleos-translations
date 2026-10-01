@@ -798,13 +798,13 @@ msgstr ""
 msgid "%i°"
 msgstr ""
 
-#: src/fw/apps/system/music.c:878
+#: src/fw/apps/system/music.c:879
 msgid ""
 "START PLAYBACK\n"
 "ON YOUR PHONE"
 msgstr ""
 
-#: src/fw/apps/system/music.c:1768
+#: src/fw/apps/system/music.c:1800
 msgid "Music"
 msgstr ""
 
