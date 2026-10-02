@@ -1996,6 +1996,27 @@ msgstr ""
 msgid "Toggle Quiet Time"
 msgstr ""
 
+#: fw/apps/system/toggle/touch.c:23
+msgid "Turn On Touch?"
+msgstr ""
+
+#: fw/apps/system/toggle/touch.c:24
+msgid "Turn Off Touch?"
+msgstr ""
+
+#: fw/apps/system/toggle/touch.c:25
+msgid "Touch On"
+msgstr ""
+
+#: fw/apps/system/toggle/touch.c:26
+msgid "Touch Off"
+msgstr ""
+
+#. / The Quick Launch action that turns the touchscreen on or off.
+#: fw/apps/system/toggle/touch.c:50
+msgid "Toggle Touch"
+msgstr ""
+
 #: fw/apps/system/watchfaces.c:98
 msgid "Active"
 msgstr ""
