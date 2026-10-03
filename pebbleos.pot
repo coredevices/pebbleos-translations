@@ -2711,11 +2711,11 @@ msgstr ""
 msgid "%.*s is not responding"
 msgstr ""
 
-#: fw/process_management/process_manager.c:196
+#: fw/process_management/process_manager.c:197
 msgid "This app requires a newer version of the Pebble firmware."
 msgstr ""
 
-#: fw/process_management/process_manager.c:340
+#: fw/process_management/process_manager.c:342
 msgid "This app uses RockyJS which is no longer supported."
 msgstr ""
 
