@@ -29,6 +29,10 @@ FONT_SLOTS = (
     "ROBOTO_BOLD_SUBSET_49_EXTENDED",
     "DROID_SERIF_28_BOLD_EXTENDED",
 )
+# Firmware uses these for digits or short units, rather than arbitrary text.
+SPECIALIZED_FONT_SLOTS = frozenset(
+    slot for slot in FONT_SLOTS if "NUMBERS" in slot or "SUBSET" in slot
+)
 TABLE_SIZE = 256
 MAX_GLYPH_SIZE = 256  # Smallest glyph buffer across supported watches.
 

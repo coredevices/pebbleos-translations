@@ -15,6 +15,23 @@ import release_policy as policy
 
 
 class PolicyTest(unittest.TestCase):
+    def test_old_reports_do_not_gate_on_specialized_alphabet_gaps(self):
+        report = {
+            "fonts": [
+                {
+                    "slot": slot,
+                    "uncovered_characters": [{"codepoint": "U+05D0"}],
+                }
+                for slot in (
+                    "GOTHIC_18_EXTENDED",
+                    "BITHAM_42_MEDIUM_NUMBERS_EXTENDED",
+                    "BITHAM_18_LIGHT_SUBSET_EXTENDED",
+                    "ROBOTO_BOLD_SUBSET_49_EXTENDED",
+                )
+            ]
+        }
+        self.assertEqual(policy.gaps(report), {"GOTHIC_18_EXTENDED": [0x05D0]})
+
     @staticmethod
     def evidence(catalog):
         return {

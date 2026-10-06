@@ -15,11 +15,11 @@ import polib
 if __package__:
     from . import lang_commands as commands
     from .lang_check import load_builtin_coverage
-    from .pack_format import FONT_SLOTS
+    from .pack_format import FONT_SLOTS, SPECIALIZED_FONT_SLOTS
 else:
     import lang_commands as commands
     from lang_check import load_builtin_coverage
-    from pack_format import FONT_SLOTS
+    from pack_format import FONT_SLOTS, SPECIALIZED_FONT_SLOTS
 
 WEBLATE_ORIGIN = "https://translate.repebble.com"
 
@@ -67,8 +67,7 @@ def font_inputs(source, mapping):
 
 
 def gaps(report):
-    # Numeric styles deliberately cover fewer characters. Without a source-to-
-    # screen mapping, a maintainer must explicitly accept those intentional gaps.
+    # Also filter older draft reports that compared specialized styles to the alphabet.
     return {
         font["slot"]: sorted(
             {
@@ -77,7 +76,7 @@ def gaps(report):
             }
         )
         for font in report["fonts"]
-        if font["uncovered_characters"]
+        if font["slot"] not in SPECIALIZED_FONT_SLOTS and font["uncovered_characters"]
     }
 
 

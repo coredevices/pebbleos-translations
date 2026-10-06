@@ -14,8 +14,11 @@ recorded as absent, matching the firmware resource lookup.
 
 This is reference data, not a guarantee of shaping or layout. Numeric and unit
 slots intentionally have limited coverage. `check_lang` combines this snapshot
-with each built extension and reports remaining gaps per slot, including aliases.
-Emoji are excluded. String-to-slot usage and layout are not checked.
+with each built extension and reports remaining alphabet gaps in text styles,
+including aliases. The five numeric and unit-only subset styles are marked
+`specialized` and excluded from full-alphabet checks. They still compile, but
+their actual screen text needs watch testing. Emoji are excluded. String-to-slot
+usage and layout are not checked.
 
 Only maintainers refreshing the snapshot need a PebbleOS Git checkout:
 

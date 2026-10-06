@@ -20,7 +20,7 @@ if __package__:
         generate_codepoint_requirements,
         uses_emoji_font,
     )
-    from .pack_format import FONT_SLOTS, serialize
+    from .pack_format import FONT_SLOTS, SPECIALIZED_FONT_SLOTS, serialize
 else:
     import lang_commands as commands
     from extract_builtin_coverage import pbf_codepoints
@@ -28,7 +28,7 @@ else:
         generate_codepoint_requirements,
         uses_emoji_font,
     )
-    from pack_format import FONT_SLOTS, serialize
+    from pack_format import FONT_SLOTS, SPECIALIZED_FONT_SLOTS, serialize
 
 DATA_ROOT = (
     files("pebble_language_tools.data")
@@ -215,6 +215,11 @@ def check_lang(lang):
                 ]
 
             required = {cp for cp in examples if not uses_emoji_font(cp)}
+            specialized = slot in SPECIALIZED_FONT_SLOTS
+            if specialized:
+                # No catalog-to-screen mapping exists for these digit/unit styles.
+                # Requiring the whole alphabet would flag their intended subsets.
+                required = set()
             base_missing = required - base
             uncovered = base_missing - uploaded
             report["fonts"].append(
@@ -222,6 +227,7 @@ def check_lang(lang):
                     **result,
                     "slot": slot,
                     "resolved_slot": name,
+                    "coverage_scope": "specialized" if specialized else "alphabet",
                     "built_in_missing_characters": details(base_missing),
                     "uncovered_characters": details(uncovered),
                     "missing_characters": details(uncovered - available)
@@ -240,7 +246,7 @@ def check_lang(lang):
                 "font_coverage_gap",
                 "Some translated characters are absent from a slot's base font and built extension. "
                 "Supply a font containing them or adjust its character selection if those strings use that slot. "
-                "Numeric and unit-only slots intentionally have limited coverage; layout is not checked.",
+                "Numeric and unit-only slots are excluded from alphabet checks; layout is not checked.",
                 slots=[font["slot"] for font in gaps],
             )
 

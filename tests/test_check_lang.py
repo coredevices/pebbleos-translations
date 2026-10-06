@@ -15,7 +15,7 @@ import lang_commands as commands
 import polib
 from generate_codepoint_requirements import generate_codepoint_requirements
 from lang_check import check_lang, format_report
-from pack_format import FONT_SLOTS
+from pack_format import FONT_SLOTS, SPECIALIZED_FONT_SLOTS
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -228,24 +228,55 @@ class CheckLanguageTest(unittest.TestCase):
 
     def test_alias_keeps_destination_base_coverage(self):
         self.font()
-        self.catalog.append(polib.POEntry(msgid="Test", msgstr="Aא"))
-        numeric_slot = "BITHAM_42_MEDIUM_NUMBERS_EXTENDED"
+        self.catalog.append(polib.POEntry(msgid="Test", msgstr="Äא"))
+        destination_slot = "BITHAM_30_BLACK_EXTENDED"
         self.mapping["fonts"] = [
             self.mapping["fonts"][0],
-            {"name": numeric_slot, "alias": FONT_SLOTS[0]},
+            {"name": destination_slot, "alias": FONT_SLOTS[0]},
         ]
         self.save()
         report = check_lang("test")
         fonts = {font["slot"]: font for font in report["fonts"]}
         self.assertEqual(fonts[FONT_SLOTS[0]]["uncovered_characters"], [])
         self.assertEqual(
-            [d["character"] for d in fonts[numeric_slot]["uncovered_characters"]], ["A"]
+            [d["character"] for d in fonts[destination_slot]["uncovered_characters"]],
+            ["Ä"],
         )
         self.assertIn(
-            numeric_slot,
+            destination_slot,
             next(i for i in report["issues"] if i["code"] == "font_coverage_gap")[
                 "slots"
             ],
+        )
+
+    def test_specialized_styles_do_not_require_the_full_alphabet(self):
+        self.catalog.append(polib.POEntry(msgid="Text", msgstr="Hello אב漢 123"))
+        self.save()
+        report = check_lang("test")
+        self.assertTrue(report["ok"], report)
+        fonts = {font["slot"]: font for font in report["fonts"]}
+        self.assertEqual(len(SPECIALIZED_FONT_SLOTS), 5)
+        for slot in SPECIALIZED_FONT_SLOTS:
+            self.assertEqual(fonts[slot]["coverage_scope"], "specialized")
+            self.assertEqual(fonts[slot]["uncovered_characters"], [])
+        self.assertEqual(fonts[FONT_SLOTS[0]]["coverage_scope"], "alphabet")
+        self.assertIn(
+            "漢", [d["character"] for d in fonts[FONT_SLOTS[0]]["uncovered_characters"]]
+        )
+        warned = next(i for i in report["issues"] if i["code"] == "font_coverage_gap")
+        self.assertFalse(SPECIALIZED_FONT_SLOTS.intersection(warned["slots"]))
+
+    def test_specialized_font_still_has_to_compile(self):
+        slot = "BITHAM_42_MEDIUM_NUMBERS_EXTENDED"
+        self.mapping["fonts"] = [{"name": slot, "file": "missing.ttf"}]
+        self.save()
+        report = check_lang("test")
+        self.assertFalse(report["ok"])
+        self.assertTrue(
+            any(
+                issue["code"] == "font_invalid" and issue["slot"] == slot
+                for issue in report["issues"]
+            )
         )
 
     def test_invalid_coverage_snapshot_is_an_error(self):
