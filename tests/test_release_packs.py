@@ -63,9 +63,14 @@ class ReleaseTest(unittest.TestCase):
         self.git("config", "user.email", "test@example.invalid")
         self.locale = self.root / "fr_FR"
         self.locale.mkdir()
-        (self.locale / "lang_map.json").write_text(
-            json.dumps(commands.new_map("fr_FR"))
+        mapping = commands.new_map("fr_FR")
+        mapping["fonts"][0].update(file="font.ttf", license="license.txt")
+        shutil.copyfile(
+            Path(__file__).resolve().parents[1] / "en_IL/Heebo-Regular.ttf",
+            self.locale / "font.ttf",
         )
+        (self.locale / "license.txt").write_text("Test font redistribution license")
+        (self.locale / "lang_map.json").write_text(json.dumps(mapping))
         self.catalog = polib.POFile()
         self.catalog.metadata = {
             "Project-Id-Version": "38.0",
@@ -93,17 +98,16 @@ class ReleaseTest(unittest.TestCase):
             "reviewers": ["native-speaker"],
             "fontApproval": {
                 "approvedBy": "maintainer",
-                "inputHash": policy.font_inputs(self.locale, commands.new_map("fr_FR")),
+                "inputHash": policy.font_inputs(self.locale, mapping),
                 "redistributionConfirmed": True,
                 "renderingReviewed": True,
-                "note": "Reviewed built-in fonts; no third-party uploads",
+                "note": "Reviewed custom font license and rendering",
                 "acceptedMissingCharacters": {},
             },
         }
         with patch.object(commands, "LANG_ROOT", self.root):
             accepted = policy.gaps(releases.check_lang("fr_FR"))
-        # Fixture approves intentional ASCII gaps in numeric/subset styles.
-        # Real policies accept only the points a maintainer explicitly reviews.
+        # Fixtures accept untested display-style gaps; body-font gaps remain gated.
         for slot in commands.FONT_SLOTS:
             if not slot.startswith("GOTHIC_"):
                 accepted[slot] = sorted(
@@ -378,6 +382,45 @@ class ReleaseTest(unittest.TestCase):
         _, manifest, changed = self.build(first)
         self.assertTrue(changed)
         self.assertEqual(manifest["languages"][0]["version"], 2)
+
+    def test_built_in_fonts_publish_without_manual_approval(self):
+        (self.locale / "lang_map.json").write_text(
+            json.dumps(commands.new_map("fr_FR"))
+        )
+        self.evidence["fontApproval"] = None
+        self.commit()
+        directory, manifest, changed = self.build()
+        self.assertTrue(changed)
+        self.assertEqual(manifest["languages"][0]["locale"], "fr_FR")
+        status = json.loads((directory / "readiness.json").read_text())["languages"][0]
+        self.assertFalse(status["customFonts"])
+        self.assertEqual(status["status"], "ready")
+
+    def test_built_in_text_gaps_cannot_be_waived_by_old_approval(self):
+        (self.locale / "lang_map.json").write_text(
+            json.dumps(commands.new_map("fr_FR"))
+        )
+        self.commit()
+        first, _, _ = self.build()
+        self.catalog[0].msgstr = "漢字"
+        self.catalog.save(str(self.locale / "tintin.po"))
+        self.commit()
+        held, _, changed = self.build(first)
+        self.assertFalse(changed)
+        status = json.loads((held / "readiness.json").read_text())["languages"][0]
+        self.assertIn("Built-in text fonts", status["reasons"][0])
+        self.evidence["fontApproval"]["acceptedMissingCharacters"] = policy.gaps(
+            status["checks"]
+        )
+        _, _, changed = self.build(first)
+        self.assertFalse(changed)
+
+    def test_custom_font_detection_uses_git_mapping_not_api_claim(self):
+        self.evidence["customFonts"] = False
+        self.evidence["fontApproval"] = None
+        directory, _, changed = self.build()
+        self.assertFalse(changed)
+        self.assertIn("out of date", (directory / "readiness.json").read_text())
 
     def test_export_failure_or_unsynchronized_approval_never_publishes(self):
         first, _, _ = self.build()

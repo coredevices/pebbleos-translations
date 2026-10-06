@@ -20,6 +20,11 @@ including aliases. The five numeric and unit-only subset styles are marked
 their actual screen text needs watch testing. Emoji are excluded. String-to-slot
 usage and layout are not checked.
 
+For built-in-only packs, publication gates on body and heading (`GOTHIC_*`)
+coverage. Other display-style gaps remain warnings because strings are not mapped
+to their actual screen styles. Every style must still compile. Custom-font packs
+retain explicit maintainer review of licenses, rendering and coverage gaps.
+
 Only maintainers refreshing the snapshot need a PebbleOS Git checkout:
 
 ```sh

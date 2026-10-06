@@ -9,10 +9,11 @@ in [Peblate](https://github.com/coredevices/peblate).
 Use [Pebble translations](https://translate.repebble.com/) to translate, upload
 fonts with their licenses, preview text and test draft packs. Language reviewers
 approve wording; project maintainers manage font approval and publication in
-Weblate. Keep translations concise and check that they fit in the watch preview.
+Weblate. Built-in fonts need no manual approval. Keep translations concise and
+check that they fit in the watch preview.
 
 Published updates require a language reviewer, at least 80% approved strings,
-current font approval and passing build checks. Only approved strings ship.
+passing build checks and approval of any custom fonts. Only approved strings ship.
 Languages without reviewers remain community drafts; held updates retain their
 previous published pack. English `en_*` font-only packs need font approval and
 coverage checks but contain no translated strings.

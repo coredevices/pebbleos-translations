@@ -184,8 +184,13 @@ def build(
                     policy_tools.validate_evidence(record, locale)
                     font_only = record["kind"] == "font-only"
                     font_hash = policy_tools.font_inputs(source, resource_map)
+                    custom_fonts = policy_tools.has_custom_fonts(resource_map)
+                    status["customFonts"] = custom_fonts
                     reason = policy_tools.check_approval(
-                        record, font_hash, {"ok": True, "fonts": [], "issues": []}
+                        record,
+                        font_hash,
+                        {"ok": True, "fonts": [], "issues": []},
+                        custom_fonts=custom_fonts,
                     )
                     if reason:
                         status["reasons"].append(reason)
@@ -224,7 +229,9 @@ def build(
                         commands.LANG_ROOT = snapshot
                         report = check_lang(locale)
                         status["checks"] = report
-                        reason = policy_tools.check_approval(record, font_hash, report)
+                        reason = policy_tools.check_approval(
+                            record, font_hash, report, custom_fonts=custom_fonts
+                        )
                         if reason:
                             status["reasons"].append(reason)
                         fingerprint = digest(

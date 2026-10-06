@@ -15,11 +15,11 @@ import polib
 if __package__:
     from . import lang_commands as commands
     from .lang_check import load_builtin_coverage
-    from .pack_format import FONT_SLOTS, SPECIALIZED_FONT_SLOTS
+    from .pack_format import FONT_SLOTS, SPECIALIZED_FONT_SLOTS, TEXT_FONT_SLOTS
 else:
     import lang_commands as commands
     from lang_check import load_builtin_coverage
-    from pack_format import FONT_SLOTS, SPECIALIZED_FONT_SLOTS
+    from pack_format import FONT_SLOTS, SPECIALIZED_FONT_SLOTS, TEXT_FONT_SLOTS
 
 WEBLATE_ORIGIN = "https://translate.repebble.com"
 
@@ -35,6 +35,13 @@ def asset(source, name):
     if not path.is_relative_to(source.resolve()):
         raise ValueError("Font assets must stay in the language folder")
     return path
+
+
+def has_custom_fonts(mapping):
+    commands.validate_map(mapping)
+    return any(
+        entry["file"] for entry in commands.resolve_font_entries(mapping).values()
+    )
 
 
 def font_inputs(source, mapping):
@@ -80,7 +87,13 @@ def gaps(report):
     }
 
 
-def check_approval(record, fingerprint, report):
+def check_approval(record, fingerprint, report, *, custom_fonts=True):
+    if not report["ok"]:
+        return "Catalog or font compilation checks failed"
+    if not custom_fonts:
+        if any(slot in TEXT_FONT_SLOTS for slot in gaps(report)):
+            return "Built-in text fonts are missing required characters; supply a custom font"
+        return None
     approval = record.get("fontApproval") or {}
     if (
         not approval.get("approvedBy")
@@ -91,8 +104,6 @@ def check_approval(record, fingerprint, report):
         or not approval["note"].strip()
     ):
         return "Font/license/rendering approval is missing or out of date"
-    if not report["ok"]:
-        return "Catalog or font compilation checks failed"
     accepted = approval.get("acceptedMissingCharacters", {})
     if not isinstance(accepted, dict) or any(
         slot not in FONT_SLOTS

@@ -15,6 +15,27 @@ import release_policy as policy
 
 
 class PolicyTest(unittest.TestCase):
+    def test_custom_font_detection_resolves_aliases(self):
+        mapping = commands.new_map("de_DE")
+        self.assertFalse(policy.has_custom_fonts(mapping))
+        mapping["fonts"][0].update(file="font.ttf")
+        mapping["fonts"][1] = {
+            "name": mapping["fonts"][1]["name"],
+            "alias": mapping["fonts"][0]["name"],
+        }
+        self.assertTrue(policy.has_custom_fonts(mapping))
+
+    def test_built_in_mode_still_requires_successful_compilation(self):
+        self.assertIn(
+            "compilation checks failed",
+            policy.check_approval(
+                {},
+                "unused",
+                {"ok": False, "fonts": [], "issues": []},
+                custom_fonts=False,
+            ),
+        )
+
     def test_old_reports_do_not_gate_on_specialized_alphabet_gaps(self):
         report = {
             "fonts": [

@@ -33,6 +33,8 @@ FONT_SLOTS = (
 SPECIALIZED_FONT_SLOTS = frozenset(
     slot for slot in FONT_SLOTS if "NUMBERS" in slot or "SUBSET" in slot
 )
+# General body and heading styles offered by the translation editor.
+TEXT_FONT_SLOTS = frozenset(slot for slot in FONT_SLOTS if slot.startswith("GOTHIC_"))
 TABLE_SIZE = 256
 MAX_GLYPH_SIZE = 256  # Smallest glyph buffer across supported watches.
 
