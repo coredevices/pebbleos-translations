@@ -2652,52 +2652,52 @@ msgid ""
 "mobile app to continue."
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:724
+#: fw/popups/notifications/notification_window.c:725
 msgid "Snoozed"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:757
+#: fw/popups/notifications/notification_window.c:758
 msgid "Muted"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:927
+#: fw/popups/notifications/notification_window.c:928
 msgid "Snooze"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:945
+#: fw/popups/notifications/notification_window.c:946
 #, c-format
 msgid "Mute %s"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:963
+#: fw/popups/notifications/notification_window.c:964
 msgid "Mute 1 Hour"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:966
+#: fw/popups/notifications/notification_window.c:967
 msgid "Mute Today"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:969
+#: fw/popups/notifications/notification_window.c:970
 msgid "Mute Always"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:972
+#: fw/popups/notifications/notification_window.c:973
 msgid "Mute Weekends"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:975
+#: fw/popups/notifications/notification_window.c:976
 msgid "Mute Weekdays"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:983
+#: fw/popups/notifications/notification_window.c:984
 msgid "Dismiss All"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:989
+#: fw/popups/notifications/notification_window.c:990
 msgid "End Quiet Time"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:990
+#: fw/popups/notifications/notification_window.c:991
 msgid "Start Quiet Time"
 msgstr ""
 
