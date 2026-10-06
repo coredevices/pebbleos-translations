@@ -17,202 +17,186 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: fw/applib/pbl_std/timelocal.c:38
-msgctxt "MonthAbbr"
 msgid "Jan"
 msgstr ""
 
 #: fw/applib/pbl_std/timelocal.c:38
-msgctxt "MonthAbbr"
 msgid "Feb"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:39
-msgctxt "MonthAbbr"
+#: fw/applib/pbl_std/timelocal.c:38
 msgid "Mar"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:39
-msgctxt "MonthAbbr"
+#: fw/applib/pbl_std/timelocal.c:38
 msgid "Apr"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:40
-msgctxt "MonthAbbr"
+#: fw/applib/pbl_std/timelocal.c:38 fw/applib/pbl_std/timelocal.c:43
 msgid "May"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:40
-msgctxt "MonthAbbr"
+#: fw/applib/pbl_std/timelocal.c:39
 msgid "Jun"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:41
-msgctxt "MonthAbbr"
+#: fw/applib/pbl_std/timelocal.c:39
 msgid "Jul"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:41
-msgctxt "MonthAbbr"
+#: fw/applib/pbl_std/timelocal.c:39
 msgid "Aug"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:42
-msgctxt "MonthAbbr"
+#: fw/applib/pbl_std/timelocal.c:39
 msgid "Sep"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:42
-msgctxt "MonthAbbr"
+#: fw/applib/pbl_std/timelocal.c:39
 msgid "Oct"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:43
-msgctxt "MonthAbbr"
+#: fw/applib/pbl_std/timelocal.c:40
 msgid "Nov"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:43
-msgctxt "MonthAbbr"
+#: fw/applib/pbl_std/timelocal.c:40
 msgid "Dec"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:45
+#: fw/applib/pbl_std/timelocal.c:42
 msgid "January"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:45
+#: fw/applib/pbl_std/timelocal.c:42
 msgid "February"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:45
+#: fw/applib/pbl_std/timelocal.c:42
 msgid "March"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:45
+#: fw/applib/pbl_std/timelocal.c:42
 msgid "April"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:46
-msgid "May"
-msgstr ""
-
-#: fw/applib/pbl_std/timelocal.c:46
+#: fw/applib/pbl_std/timelocal.c:43
 msgid "June"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:46
+#: fw/applib/pbl_std/timelocal.c:43
 msgid "July"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:46
+#: fw/applib/pbl_std/timelocal.c:43
 msgid "August"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:47
+#: fw/applib/pbl_std/timelocal.c:44
 msgid "September"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:47
+#: fw/applib/pbl_std/timelocal.c:44
 msgid "October"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:47
+#: fw/applib/pbl_std/timelocal.c:44
 msgid "November"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:47
+#: fw/applib/pbl_std/timelocal.c:44
 msgid "December"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1461
+#: fw/applib/pbl_std/timelocal.c:46 fw/services/alarms/alarm.c:1461
 msgid "Sun"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1461
+#: fw/applib/pbl_std/timelocal.c:46 fw/services/alarms/alarm.c:1461
 msgid "Mon"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1461
+#: fw/applib/pbl_std/timelocal.c:46 fw/services/alarms/alarm.c:1461
 msgid "Tue"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1462
+#: fw/applib/pbl_std/timelocal.c:46 fw/services/alarms/alarm.c:1462
 msgid "Wed"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1462
+#: fw/applib/pbl_std/timelocal.c:46 fw/services/alarms/alarm.c:1462
 msgid "Thu"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:50 fw/services/alarms/alarm.c:1462
+#: fw/applib/pbl_std/timelocal.c:47 fw/services/alarms/alarm.c:1462
 msgid "Fri"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:50 fw/services/alarms/alarm.c:1463
+#: fw/applib/pbl_std/timelocal.c:47 fw/services/alarms/alarm.c:1463
 msgid "Sat"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:142
+#: fw/applib/pbl_std/timelocal.c:49 fw/apps/system/weather/weather.c:142
 msgid "Sunday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:142
+#: fw/applib/pbl_std/timelocal.c:49 fw/apps/system/weather/weather.c:142
 msgid "Monday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:142
+#: fw/applib/pbl_std/timelocal.c:49 fw/apps/system/weather/weather.c:142
 msgid "Tuesday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:142
+#: fw/applib/pbl_std/timelocal.c:49 fw/apps/system/weather/weather.c:142
 msgid "Wednesday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:143
+#: fw/applib/pbl_std/timelocal.c:50 fw/apps/system/weather/weather.c:143
 msgid "Thursday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:143
+#: fw/applib/pbl_std/timelocal.c:50 fw/apps/system/weather/weather.c:143
 msgid "Friday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:143
+#: fw/applib/pbl_std/timelocal.c:50 fw/apps/system/weather/weather.c:143
 msgid "Saturday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:55
+#: fw/applib/pbl_std/timelocal.c:52
 msgid "%H:%M:%S"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:56
+#: fw/applib/pbl_std/timelocal.c:53
 msgid "%m/%d/%y"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:57
+#: fw/applib/pbl_std/timelocal.c:54
 msgid "%a %b %e %H:%M:%S %Y"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:58
+#: fw/applib/pbl_std/timelocal.c:55
 msgid "%I:%M:%S %p"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:62
+#: fw/applib/pbl_std/timelocal.c:59
 #: fw/applib/ui/date_time_selection_window_private.c:76
 #: fw/apps/system/weather/expanded_view.c:157
 msgid "AM"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:63
+#: fw/applib/pbl_std/timelocal.c:60
 #: fw/applib/ui/date_time_selection_window_private.c:78
 #: fw/apps/system/weather/expanded_view.c:157
 msgid "PM"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:66
+#: fw/applib/pbl_std/timelocal.c:63
 msgid "am"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:67
+#: fw/applib/pbl_std/timelocal.c:64
 msgid "pm"
 msgstr ""
 
