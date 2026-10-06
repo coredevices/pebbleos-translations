@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 38.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-07 18:50+0200\n"
-"PO-Revision-Date: 2026-10-06 17:56+0000\n"
+"PO-Revision-Date: 2026-10-06 18:26+0000\n"
 "Last-Translator: Joshua Jun <jp@repebble.com>\n"
 "Language-Team: German <https://translate.repebble.com/projects/pebbleos/"
 "watch/de/>\n"
@@ -1323,16 +1323,12 @@ msgid "HR During Activity"
 msgstr "HF während Aktivität"
 
 #: fw/apps/system/settings/health.c:180
-#, fuzzy
-#| msgid "HR Monitoring"
 msgid "SpO2 Monitoring"
-msgstr "HF-Überwachung"
+msgstr "SpO2-Überwachung"
 
 #: fw/apps/system/settings/health.c:187
-#, fuzzy
-#| msgid "HR During Activity"
 msgid "Blood O2 During Activity"
-msgstr "HF während Aktivität"
+msgstr "SpO2 während Aktivität"
 
 #: fw/apps/system/settings/health.c:190
 msgid "Needs HR During Activity"
@@ -1358,10 +1354,8 @@ msgstr "Filter"
 
 #. / Notification text size option that follows the system Text Size setting
 #: fw/apps/system/settings/notifications.c:111
-#, fuzzy
-#| msgid "System"
 msgid "Same as System"
-msgstr "System"
+msgstr "Gleich wie System"
 
 #. / 15 Second Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:150
@@ -1433,7 +1427,7 @@ msgstr "Uhr-Stil"
 #. / Disable notification grouping
 #: fw/apps/system/settings/notifications.c:301
 msgid "Never"
-msgstr ""
+msgstr "Niemals"
 
 #. / Group notifications received within one day
 #: fw/apps/system/settings/notifications.c:303
@@ -2013,10 +2007,8 @@ msgstr "Beleuchtung aus"
 
 #. / The Quick Launch action that toggles the backlight.
 #: fw/apps/system/toggle/backlight_state.c:53
-#, fuzzy
-#| msgid "Backlight"
 msgid "Toggle Backlight"
-msgstr "Licht"
+msgstr "Licht ein- oder ausschalten"
 
 #: fw/apps/system/toggle/motion_backlight.c:23
 msgid "Turn On Motion Backlight?"
@@ -2049,20 +2041,16 @@ msgstr "Licht bei Bewegung ein- oder ausschalten"
 
 #. / The Quick Launch action that toggles Quiet Time.
 #: fw/apps/system/toggle/quiet_time.c:25
-#, fuzzy
-#| msgid "Quiet Time"
 msgid "Toggle Quiet Time"
-msgstr "Ruhezeit"
+msgstr "Ruhezeit ein- oder ausschalten"
 
 #: fw/apps/system/toggle/touch.c:23
 msgid "Turn On Touch?"
 msgstr "Touch einschalten?"
 
 #: fw/apps/system/toggle/touch.c:24
-#, fuzzy
-#| msgid "Turn Off Backlight?"
 msgid "Turn Off Touch?"
-msgstr "Beleuchtung ausschalten?"
+msgstr "Touch ausschalten?"
 
 #: fw/apps/system/toggle/touch.c:25
 msgid "Touch On"
@@ -2075,7 +2063,7 @@ msgstr "Berührung aus"
 #. / The Quick Launch action that turns the touchscreen on or off.
 #: fw/apps/system/toggle/touch.c:50
 msgid "Toggle Touch"
-msgstr "Licht ein- oder ausschalten"
+msgstr "Touch ein- oder ausschalten"
 
 #: fw/apps/system/watchfaces.c:98
 msgid "Active"
@@ -3640,10 +3628,8 @@ msgid "Call Back"
 msgstr "Rückruf"
 
 #: fw/services/notifications/ancs/ancs_notifications.c:412
-#, fuzzy
-#| msgid "Notifications On"
 msgid "iPhone Notifications Blocked"
-msgstr "Mitteilungen Ein"
+msgstr "iPhone Benachrichtigungen blockiert"
 
 #: fw/services/notifications/ancs/ancs_notifications.c:415
 msgid ""
@@ -3801,13 +3787,11 @@ msgstr "Zuletzt Aktualisiert"
 
 #: fw/services/timeline/weather_layout.c:51
 msgid "Sunrise"
-msgstr ""
+msgstr "Sonnenaufgang"
 
 #: fw/services/timeline/weather_layout.c:53
-#, fuzzy
-#| msgid "Sunset %s"
 msgid "Sunset"
-msgstr "Sonnenuntergang %s"
+msgstr "Sonnenuntergang"
 
 #. / Standard vibration pattern option that has a low intensity
 #: fw/services/vibes/vibe_intensity.c:39 fw/services/vibes/vibes.def:5
@@ -3857,11 +3841,11 @@ msgstr "Pebble Morse"
 
 #: fw/services/vibes/vibes.def:18
 msgid "Heartbeat"
-msgstr ""
+msgstr "Herzschlag"
 
 #: fw/services/vibes/vibes.def:20
 msgid "Wave"
-msgstr ""
+msgstr "Welle"
 
 #: fw/shell/normal/battery_ui.c:42
 msgid "Fully Charged"
