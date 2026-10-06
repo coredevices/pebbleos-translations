@@ -132,7 +132,11 @@ def release_evidence(locale):
         )
     request = Request(
         f"{WEBLATE_ORIGIN}/api/pebble/release/{quote(locale)}/",
-        headers={"Authorization": f"Token {token}"},
+        headers={
+            "Authorization": f"Token {token}",
+            # Cloudflare blocks urllib's default user agent before authentication.
+            "User-Agent": "pebble-language-pack-publisher/0.1",
+        },
     )
     with build_opener(NoRedirects).open(request, timeout=30) as response:
         data = response.read(10 * 1024 * 1024 + 1)

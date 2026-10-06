@@ -50,6 +50,9 @@ class PolicyTest(unittest.TestCase):
         request = opener.open.call_args.args[0]
         self.assertIn("/api/pebble/release/fr_FR/", request.full_url)
         self.assertEqual(request.get_header("Authorization"), "Token test-token")
+        self.assertEqual(
+            request.get_header("User-agent"), "pebble-language-pack-publisher/0.1"
+        )
         self.assertTrue(request.full_url.startswith(policy.WEBLATE_ORIGIN + "/"))
         with (
             patch.dict(os.environ, {}, clear=True),
