@@ -18,9 +18,13 @@ import polib
 
 if __package__:
     from . import lang_commands as commands
+    from . import release_policy as policy_tools
+    from .lang_check import check_lang
     from .pack_format import FONT_SLOTS, TABLE_SIZE, serialize
 else:
     import lang_commands as commands
+    import release_policy as policy_tools
+    from lang_check import check_lang
     from pack_format import FONT_SLOTS, TABLE_SIZE, serialize
 
 SHARED = (
@@ -111,7 +115,16 @@ def read_previous(directory):
     return manifest
 
 
-def build(root, output, *, tag, repository, previous=None, rebuild=False):
+def build(
+    root,
+    output,
+    *,
+    tag,
+    repository,
+    previous=None,
+    rebuild=False,
+    evidence_provider=None,
+):
     root, output = Path(root).resolve(), Path(output).resolve()
     if not re.fullmatch(r"packs-[A-Za-z0-9._-]+", tag):
         raise ValueError(
@@ -129,7 +142,9 @@ def build(root, output, *, tag, repository, previous=None, rebuild=False):
     )
     versions = dict(old.get("versionHighWater", {})) if old else {}
     template = polib.pofile(str(root / "pebbleos.pot"))
+    evidence_provider = evidence_provider or policy_tools.release_evidence
     languages = []
+    readiness = []
     previous_root = commands.LANG_ROOT
     commands.LANG_ROOT = root
     try:
@@ -143,9 +158,6 @@ def build(root, output, *, tag, repository, previous=None, rebuild=False):
         for source in locales:
             locale = source.name
             commands.lang_dir(locale)  # Validate names before creating asset paths.
-            resource_map = json.loads((source / commands.LANG_MAP).read_text())
-            catalog = polib.pofile(str(source / resource_map["strings"]["file"]))
-            fingerprint, updated_at = input_state(root, locale)
             prior = old_languages.get(locale)
             path = output / f"{locale}.pbl"
             if prior:
@@ -157,12 +169,98 @@ def build(root, output, *, tag, repository, previous=None, rebuild=False):
                     raise ValueError(
                         f"Previous {locale} pack failed checksum/size verification"
                     )
+            status = {"locale": locale, "status": "held", "reasons": []}
+            readiness.append(status)
+            record = {}
+            font_only = False
+            resource_map = json.loads((source / commands.LANG_MAP).read_text())
+            catalog_path = policy_tools.asset(source, resource_map["strings"]["file"])
+            original_catalog = polib.pofile(str(catalog_path))
+            fingerprint, updated_at = input_state(root, locale)
+            with tempfile.TemporaryDirectory(prefix="approved-release-") as directory:
+                snapshot = Path(directory)
+                try:
+                    record = evidence_provider(locale)
+                    policy_tools.validate_evidence(record, locale)
+                    font_only = record["kind"] == "font-only"
+                    font_hash = policy_tools.font_inputs(source, resource_map)
+                    reason = policy_tools.check_approval(
+                        record, font_hash, {"ok": True, "fonts": [], "issues": []}
+                    )
+                    if reason:
+                        status["reasons"].append(reason)
+                    if not status["reasons"]:
+                        if font_only:
+                            coverage_language = record["coverageLanguage"]
+                            catalog = polib.POFile()
+                            catalog.metadata = dict(original_catalog.metadata)
+                        else:
+                            approved = polib.pofile(
+                                record["catalog"], check_for_duplicates=True
+                            )
+                            catalog = policy_tools.release_catalog(
+                                original_catalog, template, approved
+                            )
+                            progress = completion(catalog, template)
+                            status.update(progress)
+                            total = progress["totalStrings"]
+                            if (
+                                not total
+                                or progress["translatedStrings"] * 100
+                                < total * record["minimumApprovedPercent"]
+                            ):
+                                raise ValueError(
+                                    f"At least {record['minimumApprovedPercent']}% of current source strings must be approved"
+                                )
+                        shutil.copytree(source, snapshot / locale)
+                        catalog.save(
+                            str(snapshot / locale / catalog_path.relative_to(source))
+                        )
+                        if font_only:
+                            resource_map["strings"]["lang"] = coverage_language
+                            (snapshot / locale / commands.LANG_MAP).write_text(
+                                json.dumps(resource_map)
+                            )
+                        commands.LANG_ROOT = snapshot
+                        report = check_lang(locale)
+                        status["checks"] = report
+                        reason = policy_tools.check_approval(record, font_hash, report)
+                        if reason:
+                            status["reasons"].append(reason)
+                        fingerprint = digest(
+                            (
+                                fingerprint
+                                + str(catalog)
+                                + (record.get("coverageLanguage") or "")
+                            ).encode()
+                        )
+                except (OSError, ValueError, KeyError, TypeError) as error:
+                    status["reasons"].append(str(error))
+                finally:
+                    commands.LANG_ROOT = root
+                if status["reasons"]:
+                    if prior:
+                        shutil.copyfile(previous / path.name, path)
+                        languages.append(
+                            {
+                                **prior,
+                                "url": f"https://github.com/{repository}/releases/download/{tag}/{path.name}",
+                            }
+                        )
+                        status["retainedVersion"] = prior["version"]
+                    continue
+                status["status"] = "ready"
+                commands.LANG_ROOT = snapshot
+                try:
+                    if not prior or prior["inputHash"] != fingerprint or rebuild:
+                        commands.pack_lang(locale, output, version=1)
+                finally:
+                    commands.LANG_ROOT = root
             if prior and prior["inputHash"] == fingerprint and not rebuild:
                 shutil.copyfile(previous / path.name, path)
                 version, updated_at = prior["version"], prior["updatedAt"]
                 content_hash = prior["contentHash"]
             else:
-                commands.pack_lang(locale, output, version=1)
                 normalized = stamp_version(path.read_bytes(), 1)
                 content_hash = digest(normalized)
                 if prior and content_hash == prior["contentHash"]:
@@ -189,7 +287,11 @@ def build(root, output, *, tag, repository, previous=None, rebuild=False):
                     "url": f"https://github.com/{repository}/releases/download/{tag}/{path.name}",
                     "sha256": digest(data),
                     "size": len(data),
-                    **completion(catalog, template),
+                    **(
+                        {"translatedStrings": 0, "totalStrings": 0}
+                        if font_only
+                        else completion(catalog, template)
+                    ),
                     # A component link also works for locales Weblate normalizes to short codes.
                     "translationUrl": "https://translate.repebble.com/projects/pebbleos/watch/",
                     "inputHash": fingerprint,
@@ -211,7 +313,14 @@ def build(root, output, *, tag, repository, previous=None, rebuild=False):
     def comparable(entries):
         return [{k: v for k, v in e.items() if k != "url"} for e in entries]
 
-    changed = not old or comparable(languages) != comparable(old["languages"])
+    changed = (
+        bool(languages)
+        if not old
+        else comparable(languages) != comparable(old["languages"])
+    )
+    (output / "readiness.json").write_text(
+        json.dumps({"languages": readiness}, indent=2, ensure_ascii=False) + "\n"
+    )
     (output / "manifest.json").write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False) + "\n"
     )

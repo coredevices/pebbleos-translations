@@ -1,0 +1,5 @@
+# Publisher implementation remains code-owned; language decisions live in Weblate.
+/tools/ @jplexer
+/.github/ @jplexer
+/pebbleos.pot @jplexer
+/data/ @jplexer

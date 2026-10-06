@@ -1,93 +1,82 @@
 # PebbleOS translations
 
-Translation catalogs, language-pack resource maps, fonts, and character sets
-for [PebbleOS](https://github.com/coredevices/pebbleos).
+Translation catalogs, fonts and tools for building universal language packs for
+[PebbleOS](https://github.com/coredevices/pebbleos). The Weblate integration lives
+in [Peblate](https://github.com/coredevices/peblate).
 
-## Production translation publishing
+## Contributing
 
-Use [Pebble translations](https://translate.repebble.com/) to edit translations
-and upload fonts and licenses. Project managers can use Weblate's repository
-maintenance **Commit** and **Push** actions to publish immediately. Push-on-commit
-is enabled; pending translation changes are also committed by the scheduled task
-once they are at least one hour old. Every push to `main` runs the **Language
-packs** workflow, which validates and publishes the complete pack snapshot.
-No separate pull-request approval is required for this production workflow.
+Use [Pebble translations](https://translate.repebble.com/) to translate, upload
+fonts with their licenses, preview text and test draft packs. Language reviewers
+approve wording; project maintainers manage font approval and publication in
+Weblate. Keep translations concise and check that they fit in the watch preview.
 
-## Packing
+Published updates require a language reviewer, at least 80% approved strings,
+current font approval and passing build checks. Only approved strings ship.
+Languages without reviewers remain community drafts; held updates retain their
+previous published pack. English `en_*` font-only packs need font approval and
+coverage checks but contain no translated strings.
+
+## Local tools
 
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/) and GNU
-gettext (`msgfmt`, `msginit`, and `msgmerge` on `PATH`).
-On macOS, `brew install gettext` supplies gettext;
-on Debian/Ubuntu, install the `gettext` package. Then, from this checkout:
+gettext (`msgfmt`, `msginit` and `msgmerge` on `PATH`). Use `brew install gettext`
+on macOS or install the `gettext` package on Debian/Ubuntu.
+
+From this checkout:
 
 ```sh
 uv sync --locked
-uv run --locked python tools/lang.py pack_lang --lang fr_FR --output dist
+
+# Check a language without changing its files
+uv run --locked python tools/lang.py check_lang --lang de_DE
+
+# Build one language or all languages
+uv run --locked python tools/lang.py pack_lang --lang de_DE --output dist
 uv run --locked python tools/lang.py pack_all_langs --output dist
+
+# Initialize or update a catalog from the source template
+uv run --locked python tools/lang.py make_lang --lang de_DE --pot pebbleos.pot
 ```
 
-The tools also install as a wheel (`uv build --wheel`), including coverage and
-language-character data. Services such as Peblate can install it without mounting
-this checkout and run `pebble-lang --root /path/to/catalogs check_lang --lang he`.
-The installed CLI defaults to the current directory; the existing script commands
-above continue to work.
+Add `--json` to `check_lang` for structured diagnostics. Checks cover catalog
+validity, translation progress, font coverage and build limits. Exit status is
+0 when build checks pass (warnings allowed), or 1 on errors. Local builds are
+for testing and do not enforce publication approval.
 
-The checked-in `pebbleos.pot` is the source template for Weblate and new languages.
-The current snapshot comes from PebbleOS checkout
-`26327be13fd7484a6b019b0213e26a9024402f24`, using its universal extraction target
-(independent of board and enabled services). `POT-Creation-Date` is omitted to
-match firmware CI and avoid timestamp-only changes. The firmware workflow uploads
-updated sources after successful main builds.
-
-To initialize or update a language, use the source catalog:
+The tools can also be installed as a wheel, including their coverage data:
 
 ```sh
-uv run --locked python tools/lang.py make_lang --lang fr_FR --pot pebbleos.pot
+uv build --wheel
+# After installing the wheel in your Python environment:
+pebble-lang --root /path/to/catalogs check_lang --lang de_DE
 ```
 
-## Validation
+## Catalogs and fonts
 
-Check a language without changing its files or saving a pack:
+Each locale folder contains its catalog, `lang_map.json`, fonts and licenses.
+The shared `pebbleos.pot` is updated by firmware CI after successful main builds.
+Builds need neither a running Weblate service nor a firmware checkout.
 
-```sh
-uv run --locked python tools/lang.py check_lang --lang fr_FR
-uv run --locked python tools/lang.py check_lang --lang fr_FR --json
-```
+Required characters come from the selected language's CLDR baseline and saved
+translations, with Arabic presentation forms added where needed. Unknown
+baselines produce a warning. No character-list upload is required; legacy lists
+can add characters but cannot remove required ones.
 
-Checks catalogs, translation progress, uploaded-font coverage, and universal
-build limits. Use `--json` for structured diagnostics. Exit status is 0 when
-build checks pass (warnings allowed), or 1 on errors.
+Each style compiles the characters missing from its built-in font. Unassigned
+styles use the built-in fonts. One `.pbl` works across supported watches, and
+identical resources are stored once. `en_IL` provides English strings with Hebrew
+font coverage; Hebrew translations use `he_IL`.
 
-Coverage uses the checked-in base-font snapshot and built font extensions.
-Emoji are excluded. Per-slot gaps are warnings: string-to-slot usage and layout
-are not checked. Passing checks does not establish publication readiness.
+Peblate stores uploaded fonts and licenses by content hash inside the locale
+folder. Styles can share files, and Git deduplicates identical content across
+languages. Compiled fonts and preview caches are generated artifacts.
+
+Coverage gaps are warnings in local checks. Emoji, string-to-style usage and
+screen layout are not checked. See [coverage data](data/README.md) for details.
 
 ## License
 
-This project is licensed under the [Apache License 2.0](LICENSE), except
-where individual files or accompanying notices specify another license.
-Third-party fonts retain their original licenses
-
-## Language characters and storage
-
-The selected language supplies an offline [CLDR 48](https://cldr.unicode.org/translation/core-data/exemplars) baseline (main letters, case
-variants, and decimal digits). Saved translations add their characters; Arabic
-presentation forms are included where needed. Unknown languages produce a
-warning rather than an assumed alphabet. `en_IL` remains English with Hebrew font coverage; Hebrew is `he_IL`.
-
-Validation, previews, and pack builds share these requirements. Each font style
-compiles only requirements missing from its actual built-in font. Legacy subset
-files may add characters but cannot exclude required ones. Unassigned styles
-create no font files and fall back to base fonts. One universal `.pbl` contains
-translations and needed glyph resources; identical resource bytes are stored once.
-
-Peblate commits source fonts and their required licenses by content hash inside each language folder. Multiple styles reuse the same local file; Git
-stores identical file contents across languages as one blob. Maps beside each
-catalog reference local filenames. A fresh repository clone can build
-packs independently; compiled glyphs and preview caches are generated artifacts.
-Language baselines come from `data/language_characters.json`; its Unicode license
-is alongside it. No language-specific character-list upload is needed.
-
-The Weblate service and translator UI live in the separate
-[Peblate repository](../peblate/README.md). This repository remains usable with uv
-without running the service or checking out firmware.
+[Apache License 2.0](LICENSE), except where individual notices specify otherwise.
+Third-party fonts retain their original licenses; language-baseline data includes
+its Unicode license in `data/`.

@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   pull_request:
+  # Weblate approvals change in its database without requiring a Git commit.
+  schedule:
+    - cron: '17 * * * *'
   workflow_dispatch:
     inputs:
       rebuild:
@@ -68,3 +71,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           REBUILD: ${{ inputs.rebuild }}
+          # Read-only Weblate identity with translation.download permission.
+          WEBLATE_API_TOKEN: ${{ secrets.WEBLATE_API_TOKEN }}
+      - name: Save release readiness report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: language-pack-readiness
+          path: dist/release/readiness.json

@@ -1,6 +1,7 @@
 # SPDX-FileCopyrightText: 2026 Core Devices LLC
 # SPDX-License-Identifier: Apache-2.0
 
+import copy
 import gettext
 import io
 import json
@@ -16,6 +17,7 @@ import lang_commands as commands
 import polib
 import publish_packs
 import release_packs as releases
+import release_policy as policy
 from test_lang import unpack
 
 
@@ -78,6 +80,36 @@ class ReleaseTest(unittest.TestCase):
         self.template = polib.POFile()
         self.template.append(polib.POEntry(msgid="Hello"))
         self.template.save(str(self.root / "pebbleos.pot"))
+        self.evidence = {
+            "schemaVersion": 2,
+            "component": "pebbleos/watch",
+            "locale": "fr_FR",
+            "publicationEnabled": True,
+            "reviewEnabled": True,
+            "approvedOnlyCommits": True,
+            "minimumApprovedPercent": 80,
+            "kind": "translation",
+            "language": "fr",
+            "reviewers": ["native-speaker"],
+            "fontApproval": {
+                "approvedBy": "maintainer",
+                "inputHash": policy.font_inputs(self.locale, commands.new_map("fr_FR")),
+                "redistributionConfirmed": True,
+                "renderingReviewed": True,
+                "note": "Reviewed built-in fonts; no third-party uploads",
+                "acceptedMissingCharacters": {},
+            },
+        }
+        with patch.object(commands, "LANG_ROOT", self.root):
+            accepted = policy.gaps(releases.check_lang("fr_FR"))
+        # Fixture approves intentional ASCII gaps in numeric/subset styles.
+        # Real policies accept only the points a maintainer explicitly reviews.
+        for slot in commands.FONT_SLOTS:
+            if not slot.startswith("GOTHIC_"):
+                accepted[slot] = sorted(
+                    set(accepted.get(slot, [])) | set(range(32, 127))
+                )
+        self.evidence["fontApproval"]["acceptedMissingCharacters"] = accepted
         self.commit()
         self.sequence = 0
 
@@ -88,7 +120,7 @@ class ReleaseTest(unittest.TestCase):
         self.git("add", ".")
         self.git("commit", "-qm", "test")
 
-    def build(self, previous=None, rebuild=False):
+    def build(self, previous=None, rebuild=False, approved=None):
         self.sequence += 1
         output = self.base / str(self.sequence)
         manifest, changed = releases.build(
@@ -98,17 +130,29 @@ class ReleaseTest(unittest.TestCase):
             repository="example/translations",
             previous=previous,
             rebuild=rebuild,
+            evidence_provider=lambda locale: self.web_evidence(locale, approved),
         )
         return output, manifest, changed
+
+    def web_evidence(self, locale, approved=None):
+        evidence = copy.deepcopy(self.evidence)
+        evidence["locale"] = locale
+        catalog = copy.deepcopy(self.catalog if approved is None else approved)
+        catalog.metadata["Language"] = evidence["language"]
+        evidence["catalog"] = str(catalog)
+        return evidence
 
     def test_stamped_catalog_is_readable_by_firmware(self):
         self.catalog.append(
             polib.POEntry(msgid="Open", msgctxt="menu", msgstr="Ouvrir")
         )
+        self.template.append(polib.POEntry(msgid="Open", msgctxt="menu"))
         for index in range(40):
             self.catalog.append(
                 polib.POEntry(msgid=f"String {index}", msgstr=f"Texte {index}")
             )
+            self.template.append(polib.POEntry(msgid=f"String {index}"))
+        self.template.save(str(self.root / "pebbleos.pot"))
         self.catalog.save(str(self.locale / "tintin.po"))
         self.commit()
         directory, _, _ = self.build()
@@ -187,6 +231,14 @@ class ReleaseTest(unittest.TestCase):
         self.assertEqual(manifest["languages"][0]["version"], 1)
 
     def test_template_only_change_updates_completion_not_pack(self):
+        for index in range(3):
+            self.catalog.append(
+                polib.POEntry(msgid=f"String {index}", msgstr=f"Texte {index}")
+            )
+            self.template.append(polib.POEntry(msgid=f"String {index}"))
+        self.catalog.save(str(self.locale / "tintin.po"))
+        self.template.save(str(self.root / "pebbleos.pot"))
+        self.commit()
         first, old, _ = self.build()
         self.template.append(polib.POEntry(msgid="New string"))
         self.template.save(str(self.root / "pebbleos.pot"))
@@ -194,8 +246,8 @@ class ReleaseTest(unittest.TestCase):
         with patch.object(commands, "pack_lang", side_effect=AssertionError("Rebuilt")):
             _, new, changed = self.build(first)
         self.assertTrue(changed)
-        self.assertEqual(new["languages"][0]["totalStrings"], 2)
-        self.assertEqual(new["languages"][0]["translatedStrings"], 1)
+        self.assertEqual(new["languages"][0]["totalStrings"], 5)
+        self.assertEqual(new["languages"][0]["translatedStrings"], 4)
         for key in ("version", "updatedAt", "sha256"):
             self.assertEqual(new["languages"][0][key], old["languages"][0][key])
 
@@ -234,6 +286,152 @@ class ReleaseTest(unittest.TestCase):
         (self.locale / "lang_map.json").unlink()
         with self.assertRaises(FileNotFoundError):
             self.build()
+
+    def test_community_language_is_not_published(self):
+        self.evidence["reviewers"] = []
+        directory, manifest, changed = self.build()
+        self.assertFalse(changed)
+        self.assertEqual(manifest["languages"], [])
+        self.assertFalse((directory / "fr_FR.pbl").exists())
+        self.assertIn("Community language", (directory / "readiness.json").read_text())
+
+    def test_missing_reviewer_holds_last_release_without_rebuilding(self):
+        first, old, _ = self.build()
+        self.evidence["reviewers"] = []
+        self.catalog[0].msgstr = "Unreviewed update"
+        self.catalog.save(str(self.locale / "tintin.po"))
+        self.commit()
+        with patch.object(
+            commands, "pack_lang", side_effect=AssertionError("Held pack rebuilt")
+        ):
+            second, manifest, changed = self.build(first)
+        self.assertFalse(changed)
+        self.assertEqual(
+            manifest["languages"][0]["version"], old["languages"][0]["version"]
+        )
+        self.assertEqual(
+            (first / "fr_FR.pbl").read_bytes(), (second / "fr_FR.pbl").read_bytes()
+        )
+
+    def test_exact_80_percent_and_only_approved_targets(self):
+        for index in range(4):
+            self.template.append(polib.POEntry(msgid=f"String {index}"))
+            self.catalog.append(
+                polib.POEntry(msgid=f"String {index}", msgstr=f"Texte {index}")
+            )
+        self.template.save(str(self.root / "pebbleos.pot"))
+        self.catalog.save(str(self.locale / "tintin.po"))
+        self.commit()
+        approved = copy.deepcopy(self.catalog)
+        approved.pop()
+        directory, manifest, changed = self.build(approved=approved)
+        self.assertTrue(changed)
+        self.assertEqual(manifest["languages"][0]["translatedStrings"], 4)
+        mo = gettext.GNUTranslations(
+            io.BytesIO(unpack((directory / "fr_FR.pbl").read_bytes())[0])
+        )
+        self.assertEqual(mo.gettext("String 2"), "Texte 2")
+        self.assertEqual(mo.gettext("String 3"), "String 3")
+        approved.pop()
+        held, _, changed = self.build(directory, approved=approved)
+        self.assertFalse(changed)
+        self.assertEqual(
+            (held / "fr_FR.pbl").read_bytes(), (directory / "fr_FR.pbl").read_bytes()
+        )
+        self.assertIn("80%", (held / "readiness.json").read_text())
+
+    def test_font_revision_and_revoked_maintainer_approval_are_held(self):
+        first, _, _ = self.build()
+        for change in ("revoked", "rendering", "font"):
+            with self.subTest(change=change):
+                approval = self.evidence["fontApproval"]
+                old = dict(approval)
+                if change == "revoked":
+                    approval["approvedBy"] = None
+                elif change == "rendering":
+                    approval["renderingReviewed"] = False
+                else:
+                    mapping = commands.new_map("fr_FR")
+                    mapping["fonts"][0].update(
+                        file="changed.ttf", license="license.txt"
+                    )
+                    (self.locale / "changed.ttf").write_bytes(b"changed font")
+                    (self.locale / "license.txt").write_text("license")
+                    (self.locale / "lang_map.json").write_text(json.dumps(mapping))
+                directory, _, changed = self.build(first)
+                self.assertFalse(changed)
+                self.assertIn("out of date", (directory / "readiness.json").read_text())
+                self.evidence["fontApproval"] = old
+
+    def test_new_missing_glyphs_hold_until_explicitly_accepted(self):
+        first, _, _ = self.build()
+        self.catalog[0].msgstr = "漢字"
+        self.catalog.save(str(self.locale / "tintin.po"))
+        self.commit()
+        held, _, changed = self.build(first)
+        self.assertFalse(changed)
+        readiness = json.loads((held / "readiness.json").read_text())["languages"][0]
+        self.assertIn("coverage gaps", readiness["reasons"][0])
+        self.evidence["fontApproval"]["acceptedMissingCharacters"] = policy.gaps(
+            readiness["checks"]
+        )
+        _, manifest, changed = self.build(first)
+        self.assertTrue(changed)
+        self.assertEqual(manifest["languages"][0]["version"], 2)
+
+    def test_export_failure_or_unsynchronized_approval_never_publishes(self):
+        first, _, _ = self.build()
+        export = copy.deepcopy(self.catalog)
+        export[0].msgstr = "Not committed"
+        held, _, changed = self.build(first, approved=export)
+        self.assertFalse(changed)
+        self.assertIn("synchronized", (held / "readiness.json").read_text())
+        with patch.object(
+            policy, "release_evidence", side_effect=OSError("Weblate offline")
+        ):
+            directory = self.base / "offline"
+            _, changed = releases.build(
+                self.root,
+                directory,
+                tag="packs-offline",
+                repository="example/translations",
+                previous=first,
+            )
+        self.assertFalse(changed)
+        self.assertIn("Weblate offline", (directory / "readiness.json").read_text())
+
+    def test_source_format_flags_gate_bad_placeholders(self):
+        self.template[0].msgid = "Hello %s"
+        self.template[0].flags = ["c-format"]
+        self.catalog[0].msgid = "Hello %s"
+        self.catalog[0].msgstr = "Bonjour"
+        self.template.save(str(self.root / "pebbleos.pot"))
+        self.catalog.save(str(self.locale / "tintin.po"))
+        self.commit()
+        directory, manifest, changed = self.build()
+        self.assertFalse(changed)
+        self.assertEqual(manifest["languages"], [])
+        self.assertIn(
+            "compilation checks failed", (directory / "readiness.json").read_text()
+        )
+
+    def test_font_only_pack_needs_font_review_but_exports_no_custom_strings(self):
+        self.locale.rename(self.root / "en_IL")
+        self.locale = self.root / "en_IL"
+        self.evidence.update(kind="font-only", coverageLanguage="en", reviewers=[])
+        self.commit()
+        manifest, changed = releases.build(
+            self.root,
+            self.base / "font-only",
+            tag="packs-font-only",
+            repository="example/translations",
+            evidence_provider=self.web_evidence,
+        )
+        self.assertTrue(changed)
+        self.assertEqual(manifest["languages"][0]["translatedStrings"], 0)
+        pack = self.base / "font-only" / "en_IL.pbl"
+        strings = gettext.GNUTranslations(io.BytesIO(unpack(pack.read_bytes())[0]))
+        self.assertEqual(strings.gettext("Hello"), "Hello")
 
     def test_completion_excludes_formatting_sources_but_keeps_missing_text(self):
         template = polib.POFile()

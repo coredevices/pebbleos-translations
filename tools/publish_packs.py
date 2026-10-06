@@ -120,6 +120,10 @@ def main():
             previous=directory,
             rebuild=args.rebuild,
         )
+    readiness = json.loads((args.output / "readiness.json").read_text())
+    for language in readiness["languages"]:
+        detail = "; ".join(language["reasons"]) or "Approved release checks passed"
+        print(f"{language['locale']}: {language['status']} — {detail}")
     if args.publish and changed:
         publish(repository, args.output, tag, commit)
     else:
