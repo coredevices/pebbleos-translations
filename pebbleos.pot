@@ -650,27 +650,31 @@ msgstr ""
 msgid "Failed"
 msgstr ""
 
-#: fw/apps/system/health/activity_detail_card.c:43
+#: fw/apps/system/health/activity_detail_card.c:34
+msgid "kcal"
+msgstr ""
+
+#: fw/apps/system/health/activity_detail_card.c:44
 #: fw/services/activity/activity_insights.c:1625
 msgid "mi"
 msgstr ""
 
-#: fw/apps/system/health/activity_detail_card.c:43
+#: fw/apps/system/health/activity_detail_card.c:44
 #: fw/services/activity/activity_insights.c:1625
 msgid "km"
 msgstr ""
 
-#: fw/apps/system/health/activity_detail_card.c:56
+#: fw/apps/system/health/activity_detail_card.c:57
 #: fw/apps/system/health/sleep_detail_card.c:66
 msgid "30 DAY AVG"
 msgstr ""
 
-#: fw/apps/system/health/activity_detail_card.c:83
+#: fw/apps/system/health/activity_detail_card.c:84
 msgid "CALORIES"
 msgstr ""
 
 #. / Distance Label
-#: fw/apps/system/health/activity_detail_card.c:85
+#: fw/apps/system/health/activity_detail_card.c:86
 #: fw/apps/system/workout/active.c:159
 msgid "DISTANCE"
 msgstr ""
