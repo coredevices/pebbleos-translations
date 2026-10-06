@@ -1902,7 +1902,7 @@ msgid "Appears on your watchface when an event is about to start."
 msgstr ""
 
 #: fw/apps/system/settings/timeline.c:293
-#: fw/apps/system/timeline/timeline.c:1310
+#: fw/apps/system/timeline/timeline.c:1311
 msgid "Timeline"
 msgstr ""
 
@@ -1926,17 +1926,17 @@ msgstr ""
 msgid "Vibrations"
 msgstr ""
 
-#: fw/apps/system/timeline/timeline.c:905
+#: fw/apps/system/timeline/timeline.c:906
 msgid "No events"
 msgstr ""
 
-#: fw/apps/system/timeline/timeline.c:1282
+#: fw/apps/system/timeline/timeline.c:1283
 msgid "Timeline Future"
 msgstr ""
 
 #. / The title of Timeline Past in Quick Launch. If the translation is too long, cut out
 #. / Timeline and only translate "Past".
-#: fw/apps/system/timeline/timeline.c:1297
+#: fw/apps/system/timeline/timeline.c:1298
 msgid "Timeline Past"
 msgstr ""
 
@@ -3595,15 +3595,15 @@ msgid ""
 "Ended"
 msgstr ""
 
-#: fw/services/timeline/calendar_layout.c:169
+#: fw/services/timeline/calendar_layout.c:171
 msgid " - "
 msgstr ""
 
-#: fw/services/timeline/calendar_layout.c:332
+#: fw/services/timeline/calendar_layout.c:339
 msgid "All Day"
 msgstr ""
 
-#: fw/services/timeline/calendar_layout.c:374
+#: fw/services/timeline/calendar_layout.c:383
 msgid "Recurring"
 msgstr ""
 
@@ -3611,7 +3611,7 @@ msgstr ""
 msgid "STARTS "
 msgstr ""
 
-#: fw/services/timeline/sports_layout.c:142
+#: fw/services/timeline/sports_layout.c:149
 msgid "Broadcaster"
 msgstr ""
 
@@ -3697,7 +3697,7 @@ msgstr ""
 msgid "Later today"
 msgstr ""
 
-#: fw/services/timeline/timeline_layout.c:731
+#: fw/services/timeline/timeline_layout.c:735
 msgid "Last updated"
 msgstr ""
 
