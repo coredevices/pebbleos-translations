@@ -2119,24 +2119,24 @@ msgstr ""
 msgid "%a, %b %d"
 msgstr ""
 
-#: fw/apps/system/weather/globe_view.c:2156
+#: fw/apps/system/weather/globe_view.c:2165
 msgid "Saved Location"
 msgstr ""
 
-#: fw/apps/system/weather/globe_view.c:2160
-#: fw/apps/system/weather/globe_view.c:3688
-#: fw/apps/system/weather/globe_view.c:3742
+#: fw/apps/system/weather/globe_view.c:2169
+#: fw/apps/system/weather/globe_view.c:3697
+#: fw/apps/system/weather/globe_view.c:3751
 #: fw/apps/system/weather/saved_locations.c:160
 msgid "Current Location"
 msgstr ""
 
-#: fw/apps/system/weather/globe_view.c:3090
-#: fw/apps/system/weather/globe_view.c:3097
+#: fw/apps/system/weather/globe_view.c:3099
+#: fw/apps/system/weather/globe_view.c:3106
 msgid "CITY SELECT"
 msgstr ""
 
-#: fw/apps/system/weather/globe_view.c:3158
-#: fw/apps/system/weather/globe_view.c:3190
+#: fw/apps/system/weather/globe_view.c:3167
+#: fw/apps/system/weather/globe_view.c:3199
 msgid "SAVED LOCATIONS"
 msgstr ""
 
