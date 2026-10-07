@@ -7,40 +7,42 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: ru\n"
+"PO-Revision-Date: 2026-10-07 16:05+0000\n"
+"Last-Translator: dx3756 <dx3756@gmail.com>\n"
+"Language-Team: Russian <https://translate.repebble.com/projects/pebbleos/"
+"watch/ru/>\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: fw/applib/pbl_std/timelocal.c:38
 msgctxt "MonthAbbr"
 msgid "Jan"
-msgstr ""
+msgstr "Янв"
 
 #: fw/applib/pbl_std/timelocal.c:38
 msgctxt "MonthAbbr"
 msgid "Feb"
-msgstr ""
+msgstr "Фев"
 
 #: fw/applib/pbl_std/timelocal.c:39
 msgctxt "MonthAbbr"
 msgid "Mar"
-msgstr ""
+msgstr "Мар"
 
 #: fw/applib/pbl_std/timelocal.c:39
 msgctxt "MonthAbbr"
 msgid "Apr"
-msgstr ""
+msgstr "Апр"
 
 #: fw/applib/pbl_std/timelocal.c:40
 msgctxt "MonthAbbr"
 msgid "May"
-msgstr ""
+msgstr "Май"
 
 #: fw/applib/pbl_std/timelocal.c:40
 msgctxt "MonthAbbr"
@@ -1287,7 +1289,7 @@ msgstr ""
 
 #: fw/apps/system/settings/health.c:99 fw/apps/system/settings/health.c:162
 msgid "HR Monitoring"
-msgstr ""
+msgstr "Мониторинг ЧСС"
 
 #: fw/apps/system/settings/health.c:120 fw/apps/system/settings/health.c:175
 msgid "Blood Oxygen"
@@ -1303,7 +1305,7 @@ msgstr ""
 
 #: fw/apps/system/settings/health.c:169
 msgid "HR During Activity"
-msgstr ""
+msgstr "ЧСС в активностях"
 
 #: fw/apps/system/settings/health.c:180
 msgid "SpO2 Monitoring"
@@ -1315,7 +1317,7 @@ msgstr ""
 
 #: fw/apps/system/settings/health.c:190
 msgid "Needs HR During Activity"
-msgstr ""
+msgstr "Нужно ЧСС в активностях"
 
 #: fw/apps/system/settings/notifications.c:59
 msgid "Allow All Notifications"
@@ -2581,7 +2583,7 @@ msgstr ""
 #: fw/apps/watch/kickstart/kickstart.c:363
 #, c-format
 msgid "%d BPM"
-msgstr ""
+msgstr "ЧСС %d"
 
 #. / Step count greater than 1000 with a thousands separator
 #: fw/apps/watch/kickstart/kickstart.c:473
@@ -2616,18 +2618,20 @@ msgid ""
 "Your heart rate has been shared with an app on your phone for several hours. "
 "This could affect your battery. Stop sharing now?"
 msgstr ""
+"Ваша ЧСС была доступна приложению на вашем телефоне несколько часов. Батарея "
+"может быть затронута. Прекратить совместный доступ?"
 
 #: fw/popups/ble_hrm/ble_hrm_sharing_popup.c:29
 msgid "Sharing Heart Rate"
-msgstr ""
+msgstr "Доступ к ЧСС"
 
 #: fw/popups/ble_hrm/ble_hrm_sharing_popup.c:66
 msgid "Share heart rate?"
-msgstr ""
+msgstr "Поделиться ЧСС?"
 
 #: fw/popups/ble_hrm/ble_hrm_stop_sharing_popup.c:17
 msgid "Heart Rate Not Shared"
-msgstr ""
+msgstr "Данные о ЧСС не передаются"
 
 #: fw/popups/bluetooth_pairing_ui.c:222
 msgid "Pair?"
@@ -3229,7 +3233,7 @@ msgstr ""
 
 #: fw/services/activity/activity_insights.c:1721
 msgid "Avg HR"
-msgstr ""
+msgstr "Ср ЧСС"
 
 #: fw/services/activity/health_util.c:30
 #, c-format
@@ -3343,19 +3347,19 @@ msgstr ""
 
 #: fw/services/alarms/alarm_tones.c:187
 msgid "Reveille"
-msgstr ""
+msgstr "Reveille"
 
 #: fw/services/alarms/alarm_tones.c:190
 msgid "Beacon"
-msgstr ""
+msgstr "Beacon"
 
 #: fw/services/alarms/alarm_tones.c:192
 msgid "Bell"
-msgstr ""
+msgstr "Bell"
 
 #: fw/services/alarms/alarm_tones.c:194
 msgid "Chime"
-msgstr ""
+msgstr "Chime"
 
 #: fw/services/clock/service.c:507 fw/services/clock/service.c:792
 msgid "%R"
@@ -3746,23 +3750,23 @@ msgstr ""
 
 #: fw/services/vibes/vibes.def:15
 msgid "Gentle"
-msgstr ""
+msgstr "Gentle"
 
 #: fw/services/vibes/vibes.def:16
 msgid "Double Pulse Medium"
-msgstr ""
+msgstr "Double Pulse Medium"
 
 #: fw/services/vibes/vibes.def:17
 msgid "Pebble Morse"
-msgstr ""
+msgstr "Pebble Morse"
 
 #: fw/services/vibes/vibes.def:18
 msgid "Heartbeat"
-msgstr ""
+msgstr "Heartbeat"
 
 #: fw/services/vibes/vibes.def:20
 msgid "Wave"
-msgstr ""
+msgstr "Wave"
 
 #: fw/shell/normal/battery_ui.c:42
 msgid "Fully Charged"
