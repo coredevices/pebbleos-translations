@@ -700,7 +700,7 @@ msgid "TOTAL"
 msgstr ""
 
 #: fw/apps/system/health/detail_card.c:539 fw/apps/system/weather/weather.c:137
-#: fw/services/clock/service.c:533 fw/services/clock/service.c:718
+#: fw/services/clock/service.c:534 fw/services/clock/service.c:719
 msgid "Today"
 msgstr ""
 
@@ -778,7 +778,7 @@ msgstr ""
 msgid "DEEP SLEEP"
 msgstr ""
 
-#: fw/apps/system/health/sleep_summary_card.c:210
+#: fw/apps/system/health/sleep_summary_card.c:211
 msgid ""
 "No sleep data,\n"
 "wear your watch\n"
@@ -2184,7 +2184,7 @@ msgstr ""
 msgid "Rain & Snow"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:139 fw/services/clock/service.c:722
+#: fw/apps/system/weather/weather.c:139 fw/services/clock/service.c:723
 #: fw/services/timeline/timeline_actions.c:1056
 msgid "Tomorrow"
 msgstr ""
@@ -2591,13 +2591,13 @@ msgstr ""
 #. / Step count less than 1000
 #: fw/apps/watch/kickstart/kickstart.c:477
 #: fw/services/activity/health_util.c:93 fw/services/activity/health_util.c:109
-#: fw/services/clock/service.c:943
+#: fw/services/clock/service.c:944
 #, c-format
 msgid "%d"
 msgstr ""
 
-#: fw/apps/watch/tictoc/bw/tictoc_bw.c:75 fw/services/clock/service.c:821
-#: fw/services/clock/service.c:829
+#: fw/apps/watch/tictoc/bw/tictoc_bw.c:75 fw/services/clock/service.c:822
+#: fw/services/clock/service.c:830
 msgid "%B %e"
 msgstr ""
 
@@ -2726,7 +2726,7 @@ msgstr ""
 msgid "While your Pebble was off wakeup events occurred for:\n"
 msgstr ""
 
-#: fw/process_management/app_manager.c:486
+#: fw/process_management/app_manager.c:487
 #, c-format
 msgid "%.*s is not responding"
 msgstr ""
@@ -3356,193 +3356,193 @@ msgstr ""
 msgid "Chime"
 msgstr ""
 
-#: fw/services/clock/service.c:507 fw/services/clock/service.c:792
+#: fw/services/clock/service.c:508 fw/services/clock/service.c:793
 msgid "%R"
 msgstr ""
 
-#: fw/services/clock/service.c:507
+#: fw/services/clock/service.c:508
 msgid "%l:%M"
 msgstr ""
 
-#: fw/services/clock/service.c:519
+#: fw/services/clock/service.c:520
 #, c-format
 msgid "%p"
 msgstr ""
 
-#: fw/services/clock/service.c:535 fw/services/timeline/timeline_layout.c:373
+#: fw/services/clock/service.c:536 fw/services/timeline/timeline_layout.c:373
 msgid "All day"
 msgstr ""
 
-#: fw/services/clock/service.c:548 fw/services/clock/service.c:560
-#: fw/services/clock/service.c:898
+#: fw/services/clock/service.c:549 fw/services/clock/service.c:561
+#: fw/services/clock/service.c:899
 msgid "Now"
 msgstr ""
 
-#: fw/services/clock/service.c:552
+#: fw/services/clock/service.c:553
 msgid " MIN. TO"
 msgstr ""
 
-#: fw/services/clock/service.c:720 fw/services/clock/service.c:802
-#: fw/services/clock/service.c:810
+#: fw/services/clock/service.c:721 fw/services/clock/service.c:803
+#: fw/services/clock/service.c:811
 msgid "Yesterday"
 msgstr ""
 
-#: fw/services/clock/service.c:725 fw/services/clock/service.c:840
-#: fw/services/clock/service.c:848
+#: fw/services/clock/service.c:726 fw/services/clock/service.c:841
+#: fw/services/clock/service.c:849
 #, c-format
 msgid "%A"
 msgstr ""
 
-#: fw/services/clock/service.c:728
+#: fw/services/clock/service.c:729
 msgid "%B %d"
 msgstr ""
 
-#: fw/services/clock/service.c:788
+#: fw/services/clock/service.c:789
 msgid "%l:%M %p"
 msgstr ""
 
-#: fw/services/clock/service.c:800
+#: fw/services/clock/service.c:801
 msgid "Yesterday, %l:%M %p"
 msgstr ""
 
-#: fw/services/clock/service.c:808
+#: fw/services/clock/service.c:809
 msgid "Yesterday, %R"
 msgstr ""
 
-#: fw/services/clock/service.c:819
+#: fw/services/clock/service.c:820
 msgid "%b %e, %l:%M %p"
 msgstr ""
 
-#: fw/services/clock/service.c:827
+#: fw/services/clock/service.c:828
 msgid "%b %e, %R"
 msgstr ""
 
-#: fw/services/clock/service.c:838
+#: fw/services/clock/service.c:839
 msgid "%a, %l:%M %p"
 msgstr ""
 
-#: fw/services/clock/service.c:846
+#: fw/services/clock/service.c:847
 msgid "%a, %R"
 msgstr ""
 
-#: fw/services/clock/service.c:875
+#: fw/services/clock/service.c:876
 #, c-format
 msgid "%lu H AGO"
 msgstr ""
 
-#: fw/services/clock/service.c:877
+#: fw/services/clock/service.c:878
 msgid "An hour ago"
 msgstr ""
 
-#: fw/services/clock/service.c:879
+#: fw/services/clock/service.c:880
 #, c-format
 msgid "%lu hours ago"
 msgstr ""
 
-#: fw/services/clock/service.c:889
+#: fw/services/clock/service.c:890
 #, c-format
 msgid "%lu MIN AGO"
 msgstr ""
 
-#: fw/services/clock/service.c:891
+#: fw/services/clock/service.c:892
 #, c-format
 msgid "%lu minute ago"
 msgstr ""
 
-#: fw/services/clock/service.c:893
+#: fw/services/clock/service.c:894
 #, c-format
 msgid "%lu minutes ago"
 msgstr ""
 
-#: fw/services/clock/service.c:898
+#: fw/services/clock/service.c:899
 msgid "NOW"
 msgstr ""
 
-#: fw/services/clock/service.c:906
+#: fw/services/clock/service.c:907
 #, c-format
 msgid "IN %lu MIN"
 msgstr ""
 
-#: fw/services/clock/service.c:908
+#: fw/services/clock/service.c:909
 #, c-format
 msgid "In %lu minute"
 msgstr ""
 
-#: fw/services/clock/service.c:910
+#: fw/services/clock/service.c:911
 #, c-format
 msgid "In %lu minutes"
 msgstr ""
 
-#: fw/services/clock/service.c:920
+#: fw/services/clock/service.c:921
 #, c-format
 msgid "IN %lu H"
 msgstr ""
 
-#: fw/services/clock/service.c:922
+#: fw/services/clock/service.c:923
 #, c-format
 msgid "In %lu hour"
 msgstr ""
 
-#: fw/services/clock/service.c:924
+#: fw/services/clock/service.c:925
 #, c-format
 msgid "In %lu hours"
 msgstr ""
 
-#: fw/services/clock/service.c:935 fw/services/clock/service.c:939
+#: fw/services/clock/service.c:936 fw/services/clock/service.c:940
 #, c-format
 msgid "%m/%d"
 msgstr ""
 
-#: fw/services/clock/service.c:948
+#: fw/services/clock/service.c:949
 msgid "%b "
 msgstr ""
 
-#: fw/services/clock/service.c:948
+#: fw/services/clock/service.c:949
 msgid "%B "
 msgstr ""
 
-#: fw/services/clock/service.c:952
+#: fw/services/clock/service.c:953
 #, c-format
 msgid "%e"
 msgstr ""
 
-#: fw/services/clock/service.c:1002
+#: fw/services/clock/service.c:1003
 msgid "this morning"
 msgstr ""
 
-#: fw/services/clock/service.c:1003
+#: fw/services/clock/service.c:1004
 msgid "this afternoon"
 msgstr ""
 
-#: fw/services/clock/service.c:1004
+#: fw/services/clock/service.c:1005
 msgid "this evening"
 msgstr ""
 
-#: fw/services/clock/service.c:1005
+#: fw/services/clock/service.c:1006
 msgid "tonight"
 msgstr ""
 
-#: fw/services/clock/service.c:1006
+#: fw/services/clock/service.c:1007
 msgid "tomorrow morning"
 msgstr ""
 
-#: fw/services/clock/service.c:1007
+#: fw/services/clock/service.c:1008
 msgid "tomorrow afternoon"
 msgstr ""
 
-#: fw/services/clock/service.c:1008
+#: fw/services/clock/service.c:1009
 msgid "tomorrow evening"
 msgstr ""
 
-#: fw/services/clock/service.c:1009
+#: fw/services/clock/service.c:1010
 msgid "tomorrow night"
 msgstr ""
 
-#: fw/services/clock/service.c:1010 fw/services/clock/service.c:1011
+#: fw/services/clock/service.c:1011 fw/services/clock/service.c:1012
 msgid "the day after tomorrow"
 msgstr ""
 
-#: fw/services/clock/service.c:1012
+#: fw/services/clock/service.c:1013
 msgid "the foreseeable future"
 msgstr ""
 
