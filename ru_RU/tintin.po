@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-10-07 16:05+0000\n"
+"PO-Revision-Date: 2026-10-07 17:47+0000\n"
 "Last-Translator: dx3756 <dx3756@gmail.com>\n"
 "Language-Team: Russian <https://translate.repebble.com/projects/pebbleos/"
 "watch/ru/>\n"
@@ -47,200 +47,200 @@ msgstr "Май"
 #: fw/applib/pbl_std/timelocal.c:40
 msgctxt "MonthAbbr"
 msgid "Jun"
-msgstr ""
+msgstr "Июн"
 
 #: fw/applib/pbl_std/timelocal.c:41
 msgctxt "MonthAbbr"
 msgid "Jul"
-msgstr ""
+msgstr "Июл"
 
 #: fw/applib/pbl_std/timelocal.c:41
 msgctxt "MonthAbbr"
 msgid "Aug"
-msgstr ""
+msgstr "Авг"
 
 #: fw/applib/pbl_std/timelocal.c:42
 msgctxt "MonthAbbr"
 msgid "Sep"
-msgstr ""
+msgstr "Сен"
 
 #: fw/applib/pbl_std/timelocal.c:42
 msgctxt "MonthAbbr"
 msgid "Oct"
-msgstr ""
+msgstr "Окт"
 
 #: fw/applib/pbl_std/timelocal.c:43
 msgctxt "MonthAbbr"
 msgid "Nov"
-msgstr ""
+msgstr "Ноя"
 
 #: fw/applib/pbl_std/timelocal.c:43
 msgctxt "MonthAbbr"
 msgid "Dec"
-msgstr ""
+msgstr "Дек"
 
 #: fw/applib/pbl_std/timelocal.c:45
 msgid "January"
-msgstr ""
+msgstr "Январь"
 
 #: fw/applib/pbl_std/timelocal.c:45
 msgid "February"
-msgstr ""
+msgstr "Февраль"
 
 #: fw/applib/pbl_std/timelocal.c:45
 msgid "March"
-msgstr ""
+msgstr "Март"
 
 #: fw/applib/pbl_std/timelocal.c:45
 msgid "April"
-msgstr ""
+msgstr "Апрель"
 
 #: fw/applib/pbl_std/timelocal.c:46
 msgid "May"
-msgstr ""
+msgstr "Май"
 
 #: fw/applib/pbl_std/timelocal.c:46
 msgid "June"
-msgstr ""
+msgstr "Июнь"
 
 #: fw/applib/pbl_std/timelocal.c:46
 msgid "July"
-msgstr ""
+msgstr "Июль"
 
 #: fw/applib/pbl_std/timelocal.c:46
 msgid "August"
-msgstr ""
+msgstr "Август"
 
 #: fw/applib/pbl_std/timelocal.c:47
 msgid "September"
-msgstr ""
+msgstr "Сентябрь"
 
 #: fw/applib/pbl_std/timelocal.c:47
 msgid "October"
-msgstr ""
+msgstr "Октябрь"
 
 #: fw/applib/pbl_std/timelocal.c:47
 msgid "November"
-msgstr ""
+msgstr "Ноябрь"
 
 #: fw/applib/pbl_std/timelocal.c:47
 msgid "December"
-msgstr ""
+msgstr "Декабрь"
 
 #: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1461
 msgid "Sun"
-msgstr ""
+msgstr "Вс"
 
 #: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1461
 msgid "Mon"
-msgstr ""
+msgstr "Пн"
 
 #: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1461
 msgid "Tue"
-msgstr ""
+msgstr "Вт"
 
 #: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1462
 msgid "Wed"
-msgstr ""
+msgstr "Ср"
 
 #: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1462
 msgid "Thu"
-msgstr ""
+msgstr "Чт"
 
 #: fw/applib/pbl_std/timelocal.c:50 fw/services/alarms/alarm.c:1462
 msgid "Fri"
-msgstr ""
+msgstr "Пт"
 
 #: fw/applib/pbl_std/timelocal.c:50 fw/services/alarms/alarm.c:1463
 msgid "Sat"
-msgstr ""
+msgstr "Сб"
 
 #: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:142
 msgid "Sunday"
-msgstr ""
+msgstr "Воскресенье"
 
 #: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:142
 msgid "Monday"
-msgstr ""
+msgstr "Понедельник"
 
 #: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:142
 msgid "Tuesday"
-msgstr ""
+msgstr "Вторник"
 
 #: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:142
 msgid "Wednesday"
-msgstr ""
+msgstr "Среда"
 
 #: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:143
 msgid "Thursday"
-msgstr ""
+msgstr "Четверг"
 
 #: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:143
 msgid "Friday"
-msgstr ""
+msgstr "Пятница"
 
 #: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:143
 msgid "Saturday"
-msgstr ""
+msgstr "Суббота"
 
 #: fw/applib/pbl_std/timelocal.c:55
 msgid "%H:%M:%S"
-msgstr ""
+msgstr "%H:%M:%S"
 
 #: fw/applib/pbl_std/timelocal.c:56
 msgid "%m/%d/%y"
-msgstr ""
+msgstr "%m/%d/%y"
 
 #: fw/applib/pbl_std/timelocal.c:57
 msgid "%a %b %e %H:%M:%S %Y"
-msgstr ""
+msgstr "%a %b %e %H:%M:%S %Y"
 
 #: fw/applib/pbl_std/timelocal.c:58
 msgid "%I:%M:%S %p"
-msgstr ""
+msgstr "%I:%M:%S %p"
 
 #: fw/applib/pbl_std/timelocal.c:62
 #: fw/applib/ui/date_time_selection_window_private.c:76
 #: fw/apps/system/weather/expanded_view.c:157
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: fw/applib/pbl_std/timelocal.c:63
 #: fw/applib/ui/date_time_selection_window_private.c:78
 #: fw/apps/system/weather/expanded_view.c:157
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: fw/applib/pbl_std/timelocal.c:66
 msgid "am"
-msgstr ""
+msgstr "am"
 
 #: fw/applib/pbl_std/timelocal.c:67
 msgid "pm"
-msgstr ""
+msgstr "pm"
 
 #. / The second separator in `<hour>:<minute>:<second>`
 #: fw/applib/template_string.c:217 fw/applib/template_string.c:219
 msgctxt "TmplStringSep"
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #. / The second separator in `<hour> hr <minute> min <second> sec`
 #: fw/applib/template_string.c:223 fw/applib/template_string.c:225
 msgctxt "TmplStringSep"
 msgid " "
-msgstr ""
+msgstr " "
 
 #: fw/applib/template_string.c:229
 msgctxt "TmplStringSep"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #. / The second separator in `<hour> hours, <minute> minutes, and <second> seconds`
 #: fw/applib/template_string.c:231
 msgctxt "TmplStringSep"
 msgid ", and "
-msgstr ""
+msgstr ", и "
 
 #. / Suffixes for seconds with no units
 #. / Suffixes for minutes with no units
@@ -273,513 +273,522 @@ msgstr ""
 #: fw/applib/template_string.c:307
 msgctxt "TmplStringSing"
 msgid " sec"
-msgstr ""
+msgstr " сек"
 
 #: fw/applib/template_string.c:307
 msgctxt "TmplStringPlur"
 msgid " sec"
-msgstr ""
+msgstr " сек"
 
 #: fw/applib/template_string.c:308
 msgctxt "TmplStringMany"
 msgid " sec"
-msgstr ""
+msgstr " сек"
 
 #. / Suffixes for seconds with full units
 #: fw/applib/template_string.c:310
 msgctxt "TmplStringSing"
 msgid " second"
-msgstr ""
+msgstr " секунда"
 
 #: fw/applib/template_string.c:310
 msgctxt "TmplStringPlur"
 msgid " seconds"
-msgstr ""
+msgstr " секунды"
 
 #: fw/applib/template_string.c:311
 msgctxt "TmplStringMany"
 msgid " seconds"
-msgstr ""
+msgstr " секунд"
 
 #. / Suffixes for minutes with abbreviated units
 #: fw/applib/template_string.c:319
 msgctxt "TmplStringSing"
 msgid " min"
-msgstr ""
+msgstr " мин"
 
 #: fw/applib/template_string.c:319
 msgctxt "TmplStringPlur"
 msgid " min"
-msgstr ""
+msgstr " мин"
 
 #: fw/applib/template_string.c:320
 msgctxt "TmplStringMany"
 msgid " min"
-msgstr ""
+msgstr " мин"
 
 #. / Suffixes for minutes with full units
 #: fw/applib/template_string.c:322
 msgctxt "TmplStringSing"
 msgid " minute"
-msgstr ""
+msgstr " минута"
 
 #: fw/applib/template_string.c:322
 msgctxt "TmplStringPlur"
 msgid " minutes"
-msgstr ""
+msgstr " минуты"
 
 #: fw/applib/template_string.c:323
 msgctxt "TmplStringMany"
 msgid " minutes"
-msgstr ""
+msgstr " минут"
 
 #. / Suffixes for hours with abbreviated units
 #: fw/applib/template_string.c:331
 msgctxt "TmplStringSing"
 msgid " hr"
-msgstr ""
+msgstr " ч"
 
 #: fw/applib/template_string.c:331
 msgctxt "TmplStringPlur"
 msgid " hr"
-msgstr ""
+msgstr " ч"
 
 #: fw/applib/template_string.c:332
 msgctxt "TmplStringMany"
 msgid " hr"
-msgstr ""
+msgstr " ч"
 
 #. / Suffixes for hours with full units
 #: fw/applib/template_string.c:334
 msgctxt "TmplStringSing"
 msgid " hour"
-msgstr ""
+msgstr " час"
 
 #: fw/applib/template_string.c:334
 msgctxt "TmplStringPlur"
 msgid " hours"
-msgstr ""
+msgstr " часа"
 
 #: fw/applib/template_string.c:335
 msgctxt "TmplStringMany"
 msgid " hours"
-msgstr ""
+msgstr " часов"
 
 #. / Suffixes for days with abbreviated units
 #: fw/applib/template_string.c:343
 msgctxt "TmplStringSing"
 msgid " d"
-msgstr ""
+msgstr " дн"
 
 #: fw/applib/template_string.c:343
 msgctxt "TmplStringPlur"
 msgid " d"
-msgstr ""
+msgstr " дн"
 
 #: fw/applib/template_string.c:344
 msgctxt "TmplStringMany"
 msgid " d"
-msgstr ""
+msgstr " дн"
 
 #. / Suffixes for days with full units
 #: fw/applib/template_string.c:346
 msgctxt "TmplStringSing"
 msgid " day"
-msgstr ""
+msgstr " день"
 
 #: fw/applib/template_string.c:346
 msgctxt "TmplStringPlur"
 msgid " days"
-msgstr ""
+msgstr " дня"
 
 #: fw/applib/template_string.c:347
 msgctxt "TmplStringMany"
 msgid " days"
-msgstr ""
+msgstr " дней"
 
 #. / Suffixes for months with abbreviated units
 #: fw/applib/template_string.c:356
 msgctxt "TmplStringSing"
 msgid " mo"
-msgstr ""
+msgstr " мес"
 
 #: fw/applib/template_string.c:356
 msgctxt "TmplStringPlur"
 msgid " mo"
-msgstr ""
+msgstr " мес"
 
 #: fw/applib/template_string.c:357
 msgctxt "TmplStringMany"
 msgid " mo"
-msgstr ""
+msgstr " мес"
 
 #. / Suffixes for months with full units
 #: fw/applib/template_string.c:359
 msgctxt "TmplStringSing"
 msgid " month"
-msgstr ""
+msgstr " месяц"
 
 #: fw/applib/template_string.c:359
 msgctxt "TmplStringPlur"
 msgid " months"
-msgstr ""
+msgstr " месяца"
 
 #: fw/applib/template_string.c:360
 msgctxt "TmplStringMany"
 msgid " months"
-msgstr ""
+msgstr " месяцев"
 
 #. / Suffixes for years with abbreviated units
 #: fw/applib/template_string.c:370
 msgctxt "TmplStringSing"
 msgid " yr"
-msgstr ""
+msgstr " л"
 
 #: fw/applib/template_string.c:370
 msgctxt "TmplStringPlur"
 msgid " yr"
-msgstr ""
+msgstr " л"
 
 #: fw/applib/template_string.c:371
 msgctxt "TmplStringMany"
 msgid " yr"
-msgstr ""
+msgstr " л"
 
 #. / Suffixes for years with full units
 #: fw/applib/template_string.c:373
 msgctxt "TmplStringSing"
 msgid " year"
-msgstr ""
+msgstr " год"
 
 #: fw/applib/template_string.c:373
 msgctxt "TmplStringPlur"
 msgid " years"
-msgstr ""
+msgstr " года"
 
 #: fw/applib/template_string.c:374
 msgctxt "TmplStringMany"
 msgid " years"
-msgstr ""
+msgstr " лет"
 
 #: fw/applib/ui/day_picker.c:235
 msgid "Check something first."
-msgstr ""
+msgstr "Сначала выберите что-нибудь."
 
 #: fw/applib/ui/dialogs/bt_conn_dialog.c:96
 msgid "Check bluetooth connection"
-msgstr ""
+msgstr "Проверьте Bluetooth подключение"
 
 #: fw/applib/ui/time_range_selection_window.c:177
 msgid "Start"
-msgstr ""
+msgstr "Начало"
 
 #. / Vibrate at the end of notification animation (delayed)
 #: fw/applib/ui/time_range_selection_window.c:181
 #: fw/apps/system/settings/notifications.c:238
 msgid "End"
-msgstr ""
+msgstr "Конец"
 
 #: fw/applib/voice/voice_window.c:192
 msgid "Dictation is not available."
-msgstr ""
+msgstr "Диктовка недоступна."
 
 #: fw/applib/voice/voice_window.c:211
 msgid "Error occurred. Try again."
-msgstr ""
+msgstr "Ошибка. Попробуйте ещё раз."
 
 #: fw/applib/voice/voice_window.c:218 fw/apps/system/app_fetch_ui.c:123
 msgid "No internet connection"
-msgstr ""
+msgstr "Нет интернета"
 
 #: fw/applib/voice/voice_window.c:230
 msgid "Enable voice in the settings page of the Pebble app."
-msgstr ""
+msgstr "Включите голос во вкладке настроек в приложении Pebble."
 
 #: fw/applib/voice/voice_window.c:366
 msgid "Missed that. Try again."
-msgstr ""
+msgstr "Не распознано. Попробуйте ещё раз."
 
 #: fw/applib/voice/voice_window.c:1108
 msgid "Listening"
-msgstr ""
+msgstr "Слушаю"
 
 #: fw/apps/core/progress_ui.c:62
 msgid "Update Complete"
-msgstr ""
+msgstr "Обновление завершено"
 
 #: fw/apps/core/progress_ui.c:62
 msgid "Update Failed"
-msgstr ""
+msgstr "Обновление не выполнено"
 
 #: fw/apps/core/progress_ui.c:174 fw/apps/system/settings/factory_reset.c:56
 msgid "Resetting..."
-msgstr ""
+msgstr "Сброс..."
 
 #: fw/apps/demo/dialogs/dialogs_demo.c:104
 msgid "Decline dialog."
-msgstr ""
+msgstr "Отклонить диалог."
 
 #: fw/apps/system/alarms/alarm_detail.c:59
 #, c-format
 msgid "Snooze delay set to %d minutes"
-msgstr ""
+msgstr "Установлено на %d минут"
 
 #: fw/apps/system/alarms/alarm_detail.c:270
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 #: fw/apps/system/alarms/alarm_detail.c:275
 #: fw/apps/system/settings/quiet_time.c:203
 msgid "Disable"
-msgstr ""
+msgstr "Отключить"
 
 #: fw/apps/system/alarms/alarm_detail.c:275
 #: fw/apps/system/settings/quiet_time.c:205
 msgid "Enable"
-msgstr ""
+msgstr "Включить"
 
 #: fw/apps/system/alarms/alarm_detail.c:280
 #: fw/apps/system/alarms/alarm_editor.c:162
 msgid "Change Time"
-msgstr ""
+msgstr "Изменить время"
 
 #: fw/apps/system/alarms/alarm_detail.c:285
 msgid "Change Days"
-msgstr ""
+msgstr "Изменить дни"
 
 #: fw/apps/system/alarms/alarm_detail.c:290
 msgid "Convert to Basic Alarm"
-msgstr ""
+msgstr "Сделать обычным"
 
 #: fw/apps/system/alarms/alarm_detail.c:291
 msgid "Convert to Smart Alarm"
-msgstr ""
+msgstr "Сделать умным"
 
 #: fw/apps/system/alarms/alarm_detail.c:297
 msgid "Sound"
-msgstr ""
+msgstr "Звук"
 
 #: fw/apps/system/alarms/alarm_detail.c:303
 msgid "Vibration: On"
-msgstr ""
+msgstr "Вибрация: Вкл"
 
 #: fw/apps/system/alarms/alarm_detail.c:304
 msgid "Vibration: Off"
-msgstr ""
+msgstr "Вибрация: Выкл"
 
 #: fw/apps/system/alarms/alarm_detail.c:309
 msgid "Snooze Delay"
-msgstr ""
+msgstr "Задержка повтора"
 
 #: fw/apps/system/alarms/alarm_detail.c:320
 msgid "5 minutes"
-msgstr ""
+msgstr "5 минут"
 
 #: fw/apps/system/alarms/alarm_detail.c:320
 msgid "10 minutes"
-msgstr ""
+msgstr "10 минут"
 
 #: fw/apps/system/alarms/alarm_detail.c:320
 msgid "15 minutes"
-msgstr ""
+msgstr "15 минут"
 
 #: fw/apps/system/alarms/alarm_detail.c:321
 msgid "30 minutes"
-msgstr ""
+msgstr "30 минут"
 
 #: fw/apps/system/alarms/alarm_detail.c:321
 msgid "1 hour"
-msgstr ""
+msgstr "1 час"
 
 #: fw/apps/system/alarms/alarm_detail.c:347
 msgctxt "AlarmSound"
 msgid "Off"
-msgstr ""
+msgstr "Выкл"
 
 #: fw/apps/system/alarms/alarm_editor.c:163
 msgid "New Smart Alarm"
-msgstr ""
+msgstr "Умный будильник"
 
 #: fw/apps/system/alarms/alarm_editor.c:164
 #: fw/apps/system/alarms/alarm_editor.c:262
 msgid "New Alarm"
-msgstr ""
+msgstr "Новый будильник"
 
 #: fw/apps/system/alarms/alarm_editor.c:166
 msgid "Wake up between"
-msgstr ""
+msgstr "Разбудить между"
 
 #: fw/apps/system/alarms/alarm_editor.c:166
 msgid "Wake up interval"
-msgstr ""
+msgstr "Интервал пробуждения"
 
 #: fw/apps/system/alarms/alarm_editor.c:259
 msgid "Basic Alarm"
-msgstr ""
+msgstr "Обычный"
 
 #: fw/apps/system/alarms/alarm_editor.c:260 fw/apps/system/alarms/alarms.c:347
 #: fw/services/alarms/alarm.c:458 fw/services/alarms/alarm_pin.c:75
 msgid "Smart Alarm"
-msgstr ""
+msgstr "Умный"
 
 #: fw/apps/system/alarms/alarms.c:114
 msgid "Alarm Deleted"
-msgstr ""
+msgstr "Будильник удалён"
 
 #: fw/apps/system/alarms/alarms.c:229
 msgid "Limit reached."
-msgstr ""
+msgstr "Достигнут лимит."
 
 #: fw/apps/system/alarms/alarms.c:272
 msgid "ON"
-msgstr ""
+msgstr "ВКЛ"
 
 #: fw/apps/system/alarms/alarms.c:272
 msgid "OFF"
-msgstr ""
+msgstr "ВЫКЛ"
 
 #: fw/apps/system/alarms/alarms.c:344
 msgid ""
 "Let us wake you in your lightest sleep so you're fully refreshed! Smart "
 "Alarm wakes you up to 30min before your alarm."
 msgstr ""
+"Разбудим во время лёгкого сна, чтобы вы были отдохнувшим! Умный будильник "
+"разбудит вас за 30 минут до будильника."
 
 #: fw/apps/system/alarms/alarms.c:472
 #: fw/apps/system/settings/vibe_patterns.c:90
 #: fw/services/timeline/timeline.c:939
 msgid "Alarms"
-msgstr ""
+msgstr "Будильники"
 
 #: fw/apps/system/app_fetch_ui.c:109
 msgid "Not connected"
-msgstr ""
+msgstr "Не подключено"
 
 #: fw/apps/system/app_fetch_ui.c:121
 msgid ""
 "No internet\n"
 "connection"
 msgstr ""
+"Нет \n"
+"интернета"
 
 #: fw/apps/system/app_fetch_ui.c:129
 msgid "Incompatible JS"
-msgstr ""
+msgstr "Несовместимый JS"
 
 #: fw/apps/system/app_fetch_ui.c:138
 #: fw/services/timeline/timeline_actions.c:265
 msgid "Failed"
-msgstr ""
+msgstr "Не удалось"
 
 #: fw/apps/system/health/activity_detail_card.c:34
 msgid "kcal"
-msgstr ""
+msgstr "ккал"
 
 #: fw/apps/system/health/activity_detail_card.c:44
 #: fw/services/activity/activity_insights.c:1625
 msgid "mi"
-msgstr ""
+msgstr "ми"
 
 #: fw/apps/system/health/activity_detail_card.c:44
 #: fw/services/activity/activity_insights.c:1625
 msgid "km"
-msgstr ""
+msgstr "км"
 
 #: fw/apps/system/health/activity_detail_card.c:57
 #: fw/apps/system/health/sleep_detail_card.c:66
 msgid "30 DAY AVG"
-msgstr ""
+msgstr "30 ДН СРЕДН"
 
 #: fw/apps/system/health/activity_detail_card.c:84
 msgid "CALORIES"
-msgstr ""
+msgstr "КАЛОРИИ"
 
 #. / Distance Label
 #: fw/apps/system/health/activity_detail_card.c:86
 #: fw/apps/system/workout/active.c:159
 msgid "DISTANCE"
-msgstr ""
+msgstr "ДИСТАНЦИЯ"
 
 #: fw/apps/system/health/activity_summary_card.c:142
 msgid "TOTAL"
-msgstr ""
+msgstr "ВСЕГО"
 
 #: fw/apps/system/health/detail_card.c:539 fw/apps/system/weather/weather.c:137
 #: fw/services/clock/service.c:533 fw/services/clock/service.c:718
 msgid "Today"
-msgstr ""
+msgstr "Сегодня"
 
 #: fw/apps/system/health/graph_card.c:309
 msgid ": "
-msgstr ""
+msgstr ": "
 
 #: fw/apps/system/health/graph_card.c:315
 #, c-format
 msgid "%a: "
-msgstr ""
+msgstr "%a: "
 
 #: fw/apps/system/health/graph_card.c:398
 msgid "SMTWTFS"
-msgstr ""
+msgstr "ВПВСЧПС"
 
 #: fw/apps/system/health/health.c:76
 msgid ""
 "Psst! Want smart tips about your activity and sleep? You can enable Insights "
 "in the mobile app."
 msgstr ""
+"Псс! Хотите умные подсказки про свою активность и сон? Можете включить их в "
+"мобильном приложении."
 
 #: fw/apps/system/health/health.c:106
 msgid ""
 "Track your steps, sleep, and more! Enable Pebble Health in the mobile app."
 msgstr ""
+"Отслеживайте шаги, сон и многое другое! Включите Pebble Health в приложении."
 
 #: fw/apps/system/health/health.c:115
 msgid "Health requires the time to be synced. Please connect your phone."
 msgstr ""
+"Для работы Health требуется синхронизировать время. Пожалуйста, подключите "
+"телефон."
 
 #: fw/apps/system/health/health.c:182 fw/apps/system/settings/health.c:287
 #: fw/services/timeline/timeline.c:943
 msgid "Health"
-msgstr ""
+msgstr "Здоровье"
 
 #: fw/apps/system/health/hr_detail_card.c:66
 #: fw/services/activity/activity_insights.c:1730
 msgid "Fat Burn"
-msgstr ""
+msgstr "Сжигание жира"
 
 #: fw/apps/system/health/hr_detail_card.c:69
 #: fw/services/activity/activity_insights.c:1737
 msgid "Endurance"
-msgstr ""
+msgstr "Выносливость"
 
 #: fw/apps/system/health/hr_detail_card.c:72
 #: fw/services/activity/activity_insights.c:1744
 msgid "Performance"
-msgstr ""
+msgstr "Эффективность"
 
 #. / Resting HR
 #: fw/apps/system/health/hr_detail_card.c:78
 msgid "TIME IN ZONES"
-msgstr ""
+msgstr "ВРЕМЯ В ЗОНАХ ЧСС"
 
 #: fw/apps/system/health/hr_summary_card.c:111
 msgid "BPM"
-msgstr ""
+msgstr "уд/мин"
 
 #. / HRM disabled
 #: fw/apps/system/health/hr_summary_card.c:156
 msgid "Enable heart rate monitoring in the mobile app"
-msgstr ""
+msgstr "Включите мониторинг пульса в приложении"
 
 #: fw/apps/system/health/sleep_detail_card.c:68
 msgid "30 DAY"
-msgstr ""
+msgstr "30 ДНЕЙ"
 
 #: fw/apps/system/health/sleep_detail_card.c:97
 msgid "SLEEP SESSION"
-msgstr ""
+msgstr "СЕАНС СНА"
 
 #: fw/apps/system/health/sleep_detail_card.c:110
 msgid "DEEP SLEEP"
-msgstr ""
+msgstr "ГЛУБОКИЙ СОН"
 
 #: fw/apps/system/health/sleep_summary_card.c:210
 msgid ""
@@ -787,60 +796,67 @@ msgid ""
 "wear your watch\n"
 "to sleep"
 msgstr ""
+"Нет данных о сне,\n"
+"носите часы\n"
+"во время сна"
 
 #: fw/apps/system/health/ui.c:65
 #, c-format
 msgid "TYPICAL %s"
-msgstr ""
+msgstr "ТИПИЧН %s"
 
 #. / Shown when the current temperature is unknown
 #: fw/apps/system/launcher/default/app_glance_weather.c:117
 msgid "--°"
-msgstr ""
+msgstr "--°"
 
 #. / Shown when today's temperature and conditions phrase is known (e.g. "52° - Fair")
 #: fw/apps/system/launcher/default/app_glance_weather.c:123
 #, c-format
 msgid "%i° - %s"
-msgstr ""
+msgstr "%i° - %s"
 
 #. / Today's current temperature (e.g. "68°")
 #: fw/apps/system/launcher/default/app_glance_weather.c:125
 #, c-format
 msgid "%i°"
-msgstr ""
+msgstr "%i°"
 
 #: fw/apps/system/music.c:880
 msgid ""
 "START PLAYBACK\n"
 "ON YOUR PHONE"
 msgstr ""
+"НАЧНИТЕ ВОСПРОИЗВЕДЕНИЕ\n"
+"НА ТЕЛЕФОНЕ"
 
 #: fw/apps/system/music.c:1801
 msgid "Music"
-msgstr ""
+msgstr "Музыка"
 
 #: fw/apps/system/notifications.c:404
 msgid "Done"
-msgstr ""
+msgstr "Готово"
 
 #: fw/apps/system/notifications.c:430
 msgid "Clear history?"
-msgstr ""
+msgstr "Очистить историю?"
 
 #. / Notification sender followed by the number of grouped notifications
 #: fw/apps/system/notifications.c:690
 #, c-format
 msgid "%s (%u)"
-msgstr ""
+msgstr "%s (%u)"
 
 #: fw/apps/system/notifications.c:729 fw/apps/system/notifications.c:736
 msgid "Clear All"
-msgstr ""
+msgstr "Очистить всё"
 
 #: fw/apps/system/notifications.c:987
 msgid "No notifications"
 msgstr ""
+"Уведомлений\n"
+"нет"
 
 #: fw/apps/system/notifications.c:1096
 #: fw/apps/system/settings/notifications.c:490
@@ -848,163 +864,165 @@ msgstr ""
 #: fw/apps/system/settings/vibe_patterns.c:80
 #: fw/services/timeline/timeline.c:923
 msgid "Notifications"
-msgstr ""
+msgstr "Уведомления"
 
 #: fw/apps/system/notifications.c:1110
 msgid "Clear Notification History"
-msgstr ""
+msgstr "Очистить Историю Уведомлений"
 
 #. / Quick Launch action that makes the button do nothing at all.
 #: fw/apps/system/quick_launch_nothing.c:24
 msgid "Nothing"
-msgstr ""
+msgstr "Ничего"
 
 #: fw/apps/system/reminders/reminder.c:52
 msgid "Completed"
-msgstr ""
+msgstr "Завершено"
 
 #: fw/apps/system/reminders/reminder.c:56
 msgid "Postpone"
-msgstr ""
+msgstr "Отложить"
 
 #: fw/apps/system/reminders/reminder.c:60
 #: fw/services/activity/activity_insights.c:443
 #: fw/services/timeline/timeline.c:657
 msgid "Remove"
-msgstr ""
+msgstr "Удалить"
 
 #: fw/apps/system/reminders/reminder.c:110
 msgid "Added"
-msgstr ""
+msgstr "Добавлено"
 
 #: fw/apps/system/reminders/reminder.c:296
 msgid "Reminder"
-msgstr ""
+msgstr "Напоминание"
 
 #: fw/apps/system/send_text/send_text.c:193
 #: fw/apps/system/settings/health.c:154 fw/services/phone_call/util.c:18
 msgid "Unknown"
-msgstr ""
+msgstr "Неизвестно"
 
 #: fw/apps/system/send_text/send_text.c:251
 #: fw/apps/system/send_text/send_text.c:333
 msgid "Select Contact"
-msgstr ""
+msgstr "Выбрать контакт"
 
 #: fw/apps/system/send_text/send_text.c:347
 msgid ""
 "Add contacts in\n"
 "mobile app"
 msgstr ""
+"Добавьте контакты\n"
+"в приложении"
 
 #: fw/apps/system/send_text/send_text.c:381
 msgid "Send Text"
-msgstr ""
+msgstr "Отправить текст"
 
 #: fw/apps/system/settings/activity_tracker.c:154
 msgid "No background apps"
-msgstr ""
+msgstr "Нет фоновых приложений"
 
 #. / No Notification Window Timeout
 #: fw/apps/system/settings/activity_tracker.c:162
 #: fw/apps/system/settings/notifications.c:160
 msgid "None"
-msgstr ""
+msgstr "Нет"
 
 #: fw/apps/system/settings/activity_tracker.c:238
 #: fw/apps/system/settings/activity_tracker.c:255
 msgid "Background App"
-msgstr ""
+msgstr "Прилож. в фоне"
 
 #: fw/apps/system/settings/bluetooth.c:127
 msgid "<Untitled>"
-msgstr ""
+msgstr "<Без заголовка>"
 
 #: fw/apps/system/settings/bluetooth.c:187
 msgid "Pairing Instructions"
-msgstr ""
+msgstr "Инструкции привязки"
 
 #: fw/apps/system/settings/bluetooth.c:192
 #, c-format
 msgid "%u Paired Phones"
-msgstr ""
+msgstr "%u Привязанных Телефонов"
 
 #: fw/apps/system/settings/bluetooth.c:192
 #, c-format
 msgid "%u Paired Phone"
-msgstr ""
+msgstr "%u Привязанный Телефон"
 
 #: fw/apps/system/settings/bluetooth.c:343
 msgid "Connected"
-msgstr ""
+msgstr "Подключено"
 
 #: fw/apps/system/settings/bluetooth.c:358
 msgid "Sharing Heart Rate ❤"
-msgstr ""
+msgstr "Поделиться пульсом ❤"
 
 #: fw/apps/system/settings/bluetooth.c:383
 msgid "Forget this device to pair a new device."
-msgstr ""
+msgstr "Отвяжите это устройство, чтобы привязать новое."
 
 #: fw/apps/system/settings/bluetooth.c:386
 msgid "Disable Airplane Mode to connect."
-msgstr ""
+msgstr "Выключите Авиарежим для подключения."
 
 #: fw/apps/system/settings/bluetooth.c:388
 msgid "Open the Pebble app on your phone to connect."
-msgstr ""
+msgstr "Откройте приложение Pebble на телефоне для подключения."
 
 #: fw/apps/system/settings/bluetooth.c:463
 msgid "Connection"
-msgstr ""
+msgstr "Соединение"
 
 #: fw/apps/system/settings/bluetooth.c:467
 msgid "Airplane Mode"
-msgstr ""
+msgstr "Авиарежим"
 
 #: fw/apps/system/settings/bluetooth.c:477
 msgid "Disabling..."
-msgstr ""
+msgstr "Выключение..."
 
 #: fw/apps/system/settings/bluetooth.c:478
 msgid "Enabling..."
-msgstr ""
+msgstr "Включение..."
 
 #: fw/apps/system/settings/bluetooth.c:631
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: fw/apps/system/settings/bluetooth.h:37
 msgid ""
 "Remember to also forget your Pebble's Bluetooth connection from your phone."
-msgstr ""
+msgstr "Также не забудьте отвязать ваши часы в Bluetooth телефона."
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / on a custom choice of days. Respect capitalization!
 #: fw/apps/system/settings/display.c:40 fw/services/alarms/alarm.c:1448
 msgid "Custom"
-msgstr ""
+msgstr "Своё"
 
 #: fw/apps/system/settings/display.c:53 fw/apps/system/settings/display.c:679
 #: fw/apps/system/settings/system.c:209
 msgid "Language"
-msgstr ""
+msgstr "Язык"
 
 #: fw/apps/system/settings/display.c:62
 #: fw/apps/system/settings/notifications.c:107
 msgid "Smaller"
-msgstr ""
+msgstr "Мелкий"
 
 #: fw/apps/system/settings/display.c:63
 #: fw/apps/system/settings/notifications.c:108
 msgctxt "TextSize"
 msgid "Default"
-msgstr ""
+msgstr "Стандартный"
 
 #: fw/apps/system/settings/display.c:64
 #: fw/apps/system/settings/notifications.c:109
 msgid "Larger"
-msgstr ""
+msgstr "Большой"
 
 #. / The option in the Settings app for choosing the text size of the system UI.
 #. / String within Settings->Display that describes the text font size
@@ -1014,61 +1032,61 @@ msgstr ""
 #: fw/apps/system/settings/notifications.c:133
 #: fw/apps/system/settings/notifications.c:351
 msgid "Text Size"
-msgstr ""
+msgstr "Размер текста"
 
 #: fw/apps/system/settings/display.c:91 fw/apps/system/settings/system.c:441
 msgid "Low"
-msgstr ""
+msgstr "Слабая"
 
 #: fw/apps/system/settings/display.c:91 fw/apps/system/settings/system.c:442
 msgid "Medium"
-msgstr ""
+msgstr "Средняя"
 
 #: fw/apps/system/settings/display.c:91 fw/apps/system/settings/system.c:443
 msgid "High"
-msgstr ""
+msgstr "Сильная"
 
 #: fw/apps/system/settings/display.c:91
 msgid "Blinding"
-msgstr ""
+msgstr "Слепящая"
 
 #: fw/apps/system/settings/display.c:126
 msgid "INTENSITY"
-msgstr ""
+msgstr "ЯРКОСТЬ"
 
 #: fw/apps/system/settings/display.c:126 fw/apps/system/settings/display.c:454
 #: fw/apps/system/settings/display.c:456
 msgid "Intensity"
-msgstr ""
+msgstr "Яркость"
 
 #: fw/apps/system/settings/display.c:136
 msgctxt "Orientation"
 msgid "Default"
-msgstr ""
+msgstr "По умолчанию"
 
 #: fw/apps/system/settings/display.c:137
 msgid "Left-Handed"
-msgstr ""
+msgstr "Для левшей"
 
 #: fw/apps/system/settings/display.c:162 fw/apps/system/settings/display.c:666
 msgid "Orientation"
-msgstr ""
+msgstr "Ориентация"
 
 #: fw/apps/system/settings/display.c:175
 msgid "3 Seconds"
-msgstr ""
+msgstr "3 секунды"
 
 #: fw/apps/system/settings/display.c:175
 msgid "5 Seconds"
-msgstr ""
+msgstr "5 секунд"
 
 #: fw/apps/system/settings/display.c:175
 msgid "8 Seconds"
-msgstr ""
+msgstr "8 секунд"
 
 #: fw/apps/system/settings/display.c:198
 msgid "TIMEOUT"
-msgstr ""
+msgstr "ИНТЕРВАЛ"
 
 #. / Status bar title for the Notification Window Timeout settings screen
 #. / String within Settings->Notifications that describes the window timeout setting
@@ -1076,69 +1094,69 @@ msgstr ""
 #: fw/apps/system/settings/notifications.c:192
 #: fw/apps/system/settings/notifications.c:356
 msgid "Timeout"
-msgstr ""
+msgstr "Интервал"
 
 #: fw/apps/system/settings/display.c:208 fw/services/vibes/vibes.def:19
 msgid "Double Tap"
-msgstr ""
+msgstr "Два нажатия"
 
 #: fw/apps/system/settings/display.c:209
 msgid "Tap"
-msgstr ""
+msgstr "Одно нажатие"
 
 #: fw/apps/system/settings/display.c:210
 msgctxt "TouchWake"
 msgid "Off"
-msgstr ""
+msgstr "Выкл"
 
 #: fw/apps/system/settings/display.c:223
 msgid "WAKE ON TOUCH"
-msgstr ""
+msgstr "ПО КАСАНИЮ"
 
 #: fw/apps/system/settings/display.c:223 fw/apps/system/settings/display.c:430
 msgid "Wake on touch"
-msgstr ""
+msgstr "Вкл по касанию"
 
 #: fw/apps/system/settings/display.c:234
 msgctxt "DynBacklight"
 msgid "Off"
-msgstr ""
+msgstr "Выкл"
 
 #: fw/apps/system/settings/display.c:235
 msgid "Bright"
-msgstr ""
+msgstr "Ярко"
 
 #: fw/apps/system/settings/display.c:236 fw/apps/system/settings/display.c:262
 msgid "Standard"
-msgstr ""
+msgstr "Стандартно"
 
 #: fw/apps/system/settings/display.c:237
 msgid "Dim"
-msgstr ""
+msgstr "Тускло"
 
 #: fw/apps/system/settings/display.c:251
 msgid "DYNAMIC BACKLIGHT"
-msgstr ""
+msgstr "ДИНАМИЧ. ПОДСВ."
 
 #: fw/apps/system/settings/display.c:251 fw/apps/system/settings/display.c:447
 msgid "Dynamic Backlight"
-msgstr ""
+msgstr "Авто-яркость"
 
 #: fw/apps/system/settings/display.c:261
 msgid "Max Brightness"
-msgstr ""
+msgstr "Макс. Яркость"
 
 #: fw/apps/system/settings/display.c:263
 msgid "Battery Saver"
-msgstr ""
+msgstr "Энергосбер."
 
 #: fw/apps/system/settings/display.c:264
 msgid "Advanced"
-msgstr ""
+msgstr "Расширенная"
 
 #: fw/apps/system/settings/display.c:284
 msgid "BACKLIGHT"
-msgstr ""
+msgstr "ПОДСВЕТКА"
 
 #. / String within Settings->Notifications that describes backlight setting
 #: fw/apps/system/settings/display.c:284 fw/apps/system/settings/display.c:406
@@ -1147,43 +1165,43 @@ msgstr ""
 #: fw/apps/system/settings/quiet_time.c:404
 #: fw/apps/system/settings/quiet_time.c:444
 msgid "Backlight"
-msgstr ""
+msgstr "Подсветка"
 
 #: fw/apps/system/settings/display.c:294
 msgid "Centered"
-msgstr ""
+msgstr "По центру"
 
 #: fw/apps/system/settings/display.c:294
 msgid "Scaled (Nearest)"
-msgstr ""
+msgstr "Масштабирование (Ближний)"
 
 #: fw/apps/system/settings/display.c:294
 msgid "Scaled (Bilinear)"
-msgstr ""
+msgstr "Масштабирование (Билинейный)"
 
 #: fw/apps/system/settings/display.c:307
 msgid "Legacy App Display"
-msgstr ""
+msgstr "Вид устаревших приложений"
 
 #: fw/apps/system/settings/display.c:412
 #, c-format
 msgid "On - %d%%"
-msgstr ""
+msgstr "Вкл - %d%%"
 
 #: fw/apps/system/settings/display.c:415 fw/apps/system/settings/display.c:418
 msgctxt "DeviceState"
 msgid "On"
-msgstr ""
+msgstr "Вкл"
 
 #: fw/apps/system/settings/display.c:421 fw/apps/system/settings/display.c:442
 #: fw/apps/system/settings/display.c:649
 msgctxt "DeviceState"
 msgid "Off"
-msgstr ""
+msgstr "Выкл"
 
 #: fw/apps/system/settings/display.c:425
 msgid "Wake on motion"
-msgstr ""
+msgstr "Вкл по движению"
 
 #: fw/apps/system/settings/display.c:426 fw/apps/system/settings/display.c:657
 #: fw/apps/system/settings/display.c:661 fw/apps/system/settings/health.c:147
@@ -1198,7 +1216,7 @@ msgstr ""
 #: fw/apps/system/settings/system.c:1294 fw/apps/system/settings/timeline.c:187
 #: fw/apps/system/settings/vibe_patterns.c:67
 msgid "On"
-msgstr ""
+msgstr "Вкл"
 
 #. / Shows up in the Timeline settings as the status under the "Quick View" toggle.
 #: fw/apps/system/settings/display.c:426 fw/apps/system/settings/display.c:657
@@ -1215,77 +1233,77 @@ msgstr ""
 #: fw/apps/system/settings/system.c:1294 fw/apps/system/settings/timeline.c:190
 #: fw/apps/system/settings/vibe_patterns.c:67
 msgid "Off"
-msgstr ""
+msgstr "Выкл"
 
 #: fw/apps/system/settings/display.c:435
 msgid "Ambient Sensor"
-msgstr ""
+msgstr "Датчик света"
 
 #: fw/apps/system/settings/display.c:438
 #, c-format
 msgid "On (%d)"
-msgstr ""
+msgstr "Вкл (%d)"
 
 #: fw/apps/system/settings/display.c:453
 msgid "Max Intensity"
-msgstr ""
+msgstr "Максимальная Сила"
 
 #: fw/apps/system/settings/display.c:542 fw/apps/system/settings/display.c:652
 msgid "Backlight Settings"
-msgstr ""
+msgstr "Настройки подсветки"
 
 #: fw/apps/system/settings/display.c:656
 #: fw/apps/system/settings/quiet_time.c:366
 msgid "Touch"
-msgstr ""
+msgstr "Касания экрана"
 
 #: fw/apps/system/settings/display.c:660
 msgid "Touch Navigation"
-msgstr ""
+msgstr "Навигация касанием"
 
 #: fw/apps/system/settings/display.c:684
 msgid "Legacy Apps"
-msgstr ""
+msgstr "Устаревшие Приложения"
 
 #: fw/apps/system/settings/display.c:726
 msgid "Display"
-msgstr ""
+msgstr "Экран"
 
 #: fw/apps/system/settings/factory_reset.c:108
 msgid "Perform factory reset?"
-msgstr ""
+msgstr "Сбросить настройки?"
 
 #: fw/apps/system/settings/health.c:22
 msgid "Kilometers"
-msgstr ""
+msgstr "Километры"
 
 #: fw/apps/system/settings/health.c:23
 msgid "Miles"
-msgstr ""
+msgstr "Мили"
 
 #: fw/apps/system/settings/health.c:33
 msgid "5 Minutes"
-msgstr ""
+msgstr "5 минут"
 
 #. / 10 Minute Notification Window Timeout
 #: fw/apps/system/settings/health.c:33 fw/apps/system/settings/health.c:54
 #: fw/apps/system/settings/notifications.c:158
 msgid "10 Minutes"
-msgstr ""
+msgstr "10 минут"
 
 #: fw/apps/system/settings/health.c:33 fw/apps/system/settings/health.c:55
 msgid "30 Minutes"
-msgstr ""
+msgstr "30 минут"
 
 #: fw/apps/system/settings/health.c:34 fw/apps/system/settings/health.c:56
 msgid "1 Hour"
-msgstr ""
+msgstr "1 час"
 
 #: fw/apps/system/settings/health.c:34 fw/apps/system/settings/health.c:57
 #: fw/apps/system/settings/system.c:522 fw/apps/system/settings/system.c:538
 #: fw/apps/system/settings/system.c:541
 msgid "Disabled"
-msgstr ""
+msgstr "Отключено"
 
 #: fw/apps/system/settings/health.c:99 fw/apps/system/settings/health.c:162
 msgid "HR Monitoring"
@@ -1293,15 +1311,15 @@ msgstr "Мониторинг ЧСС"
 
 #: fw/apps/system/settings/health.c:120 fw/apps/system/settings/health.c:175
 msgid "Blood Oxygen"
-msgstr ""
+msgstr "Кислород в крови"
 
 #: fw/apps/system/settings/health.c:146
 msgid "Health Tracking"
-msgstr ""
+msgstr "Мониторинг здоровья"
 
 #: fw/apps/system/settings/health.c:151
 msgid "Distance Unit"
-msgstr ""
+msgstr "Единицы расстояния"
 
 #: fw/apps/system/settings/health.c:169
 msgid "HR During Activity"
@@ -1309,11 +1327,11 @@ msgstr "ЧСС в активностях"
 
 #: fw/apps/system/settings/health.c:180
 msgid "SpO2 Monitoring"
-msgstr ""
+msgstr "Мониторинг SpO2"
 
 #: fw/apps/system/settings/health.c:187
 msgid "Blood O2 During Activity"
-msgstr ""
+msgstr "Кислород в крови в активностях"
 
 #: fw/apps/system/settings/health.c:190
 msgid "Needs HR During Activity"
@@ -1321,175 +1339,175 @@ msgstr "Нужно ЧСС в активностях"
 
 #: fw/apps/system/settings/notifications.c:59
 msgid "Allow All Notifications"
-msgstr ""
+msgstr "Показывать все"
 
 #: fw/apps/system/settings/notifications.c:60
 msgid "Allow Phone Calls Only"
-msgstr ""
+msgstr "Только звонки"
 
 #: fw/apps/system/settings/notifications.c:61
 msgid "Mute All Notifications"
-msgstr ""
+msgstr "Скрывать все"
 
 #. / The option in the Settings app for filtering notifications by type.
 #: fw/apps/system/settings/notifications.c:93
 #: fw/apps/system/settings/notifications.c:346
 msgid "Filter"
-msgstr ""
+msgstr "Фильтровать"
 
 #. / Notification text size option that follows the system Text Size setting
 #: fw/apps/system/settings/notifications.c:111
 msgid "Same as System"
-msgstr ""
+msgstr "Как системный"
 
 #. / 15 Second Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:150
 msgid "15 Seconds"
-msgstr ""
+msgstr "15 секунд"
 
 #. / 30 Second Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:152
 msgid "30 Seconds"
-msgstr ""
+msgstr "30 секунд"
 
 #. / 1 Minute Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:154
 msgid "1 Minute"
-msgstr ""
+msgstr "1 минута"
 
 #. / 3 Minute Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:156
 msgid "3 Minutes"
-msgstr ""
+msgstr "3 минуты"
 
 #. / Standard notification design option (default)
 #: fw/apps/system/settings/notifications.c:204
 msgid "Classic"
-msgstr ""
+msgstr "Классика"
 
 #. / Alternative notification design option
 #: fw/apps/system/settings/notifications.c:206
 msgid "Flat Black"
-msgstr ""
+msgstr "Сплошной"
 
 #. / Status bar title for the Notification Design Style settings screen
 #. / String within Settings->Notifications that describes the notification design style
 #: fw/apps/system/settings/notifications.c:224
 #: fw/apps/system/settings/notifications.c:363
 msgid "Banner Style"
-msgstr ""
+msgstr "Стиль баннера"
 
 #. / Vibrate at the beginning of notification animation (immediate)
 #: fw/apps/system/settings/notifications.c:236
 msgid "Beginning"
-msgstr ""
+msgstr "Начало"
 
 #. / Status bar title for the Notification Vibe Timing settings screen
 #. / String within Settings->Notifications that describes when vibration happens
 #: fw/apps/system/settings/notifications.c:256
 #: fw/apps/system/settings/notifications.c:370
 msgid "Vibe Timing"
-msgstr ""
+msgstr "Время вибрации"
 
 #: fw/apps/system/settings/notifications.c:266
 msgctxt "StatusBar"
 msgid "Default"
-msgstr ""
+msgstr "По умолчанию"
 
 #: fw/apps/system/settings/notifications.c:267
 msgid "Bold"
-msgstr ""
+msgstr "Жирные"
 
 #: fw/apps/system/settings/notifications.c:268
 msgid "Big & Bold"
-msgstr ""
+msgstr "Большие и жирные"
 
 #. / Status bar title for the Notification Status Bar Style settings screen
 #: fw/apps/system/settings/notifications.c:290
 msgid "Clock Style"
-msgstr ""
+msgstr "Стиль Часов"
 
 #. / Disable notification grouping
 #: fw/apps/system/settings/notifications.c:301
 msgid "Never"
-msgstr ""
+msgstr "Никогда"
 
 #. / Group notifications received within one day
 #: fw/apps/system/settings/notifications.c:303
 msgid "1 Day"
-msgstr ""
+msgstr "1 день"
 
 #. / Group notifications received within one week
 #: fw/apps/system/settings/notifications.c:305
 msgid "1 Week"
-msgstr ""
+msgstr "1 неделя"
 
 #. / Group all notifications
 #: fw/apps/system/settings/notifications.c:307
 msgid "All"
-msgstr ""
+msgstr "Все"
 
 #. / Title for the notification sender grouping settings screen
 #. / Notification settings item for grouping notifications by sender
 #: fw/apps/system/settings/notifications.c:324
 #: fw/apps/system/settings/notifications.c:383
 msgid "Group by Sender"
-msgstr ""
+msgstr "Сорт. по Отправителю"
 
 #. / String within Settings->Notifications that selects the notification status bar style
 #: fw/apps/system/settings/notifications.c:390
 msgid "Status Bar"
-msgstr ""
+msgstr "Строка состояния"
 
 #. / Shown in Quick Launch Settings as the title of the tap up button option.
 #: fw/apps/system/settings/quick_launch.c:56
 msgid "Tap Up"
-msgstr ""
+msgstr "Нажатие Вверх"
 
 #. / Shown in Quick Launch Settings as the title of the tap down button option.
 #: fw/apps/system/settings/quick_launch.c:58
 msgid "Tap Down"
-msgstr ""
+msgstr "Нажатие Вниз"
 
 #. / Shown in Quick Launch Settings as the title of the hold up button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:60
 msgid "Hold Up"
-msgstr ""
+msgstr "Зажатие Вверх"
 
 #. / Shown in Quick Launch Settings as the title of the hold center button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:62
 msgid "Hold Center"
-msgstr ""
+msgstr "Зажатие Центра"
 
 #. / Shown in Quick Launch Settings as the title of the hold down button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:64
 msgid "Hold Down"
-msgstr ""
+msgstr "Зажатие Вниз"
 
 #. / Shown in Quick Launch Settings as the title of the hold back button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:66
 msgid "Hold Back"
-msgstr ""
+msgstr "Зажатие Назад"
 
 #. / Shown in Quick Launch Settings as the title of the list of actions.
 #. / Title of the Quick Launch menu listing the available actions.
 #: fw/apps/system/settings/quick_launch.c:71
 #: fw/apps/system/settings/quick_launch_app_menu.c:35
 msgid "Actions"
-msgstr ""
+msgstr "Действия"
 
 #. / Shown in Quick Launch Settings as the title of the list of apps.
 #. / Title of the Quick Launch menu listing the installed apps.
 #: fw/apps/system/settings/quick_launch.c:73
 #: fw/apps/system/settings/quick_launch_app_menu.c:37
 msgid "Apps"
-msgstr ""
+msgstr "Приложения"
 
 #. / Shown in Quick Launch Settings when no action or app is bound to the button.
 #: fw/apps/system/settings/quick_launch.c:80
 #: fw/apps/system/settings/quick_launch_app_menu.c:109
 msgid "Unassigned"
-msgstr ""
+msgstr "Не присвоено"
 
 #. / Title of the Quick Launch Settings submenu in Settings
 #. / Title for the Quick Launch first use dialog.
@@ -1497,386 +1515,388 @@ msgstr ""
 #: fw/apps/system/settings/quick_launch.c:248
 #: fw/apps/system/settings/quick_launch_setup_menu.c:45
 msgid "Quick Launch"
-msgstr ""
+msgstr "Быстрые действия"
 
 #: fw/apps/system/settings/quick_launch_setup_menu.c:48
 msgid ""
 "Open favorite apps quickly with a long button press from your watchface."
 msgstr ""
+"Настройте долгое нажатие кнопок с циферблата на избранные приложения или "
+"действия."
 
 #: fw/apps/system/settings/quiet_time.c:94
 msgid "Quiet All Notifications"
-msgstr ""
+msgstr "Заглушить все уведомл."
 
 #: fw/apps/system/settings/quiet_time.c:97
 msgid "Allow Phone Calls"
-msgstr ""
+msgstr "Разрешить звонки"
 
 #: fw/apps/system/settings/quiet_time.c:219
 msgid "Change Schedule"
-msgstr ""
+msgstr "Изменить расписание"
 
 #: fw/apps/system/settings/quiet_time.c:255
 msgid "Calendar Aware"
-msgstr ""
+msgstr "Приоритет календаря"
 
 #: fw/apps/system/settings/quiet_time.c:257
 msgctxt "QuietTime"
 msgid "Enabled"
-msgstr ""
+msgstr "Включено"
 
 #: fw/apps/system/settings/quiet_time.c:258
 #: fw/apps/system/settings/quiet_time.c:266
 #: fw/apps/system/settings/quiet_time.c:274
 msgctxt "QuietTime"
 msgid "Disabled"
-msgstr ""
+msgstr "Выключено"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / every weekday. Respect capitalization!
 #: fw/apps/system/settings/quiet_time.c:262 fw/services/alarms/alarm.c:1416
 msgid "Weekdays"
-msgstr ""
+msgstr "Будни"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / each day on the weekend. Respect capitalization!
 #: fw/apps/system/settings/quiet_time.c:270 fw/services/alarms/alarm.c:1426
 msgid "Weekends"
-msgstr ""
+msgstr "Выходные"
 
 #: fw/apps/system/settings/quiet_time.c:318
 #: fw/apps/system/settings/quiet_time.c:432
 msgid "Schedule"
-msgstr ""
+msgstr "По графику"
 
 #: fw/apps/system/settings/quiet_time.c:327
 msgid "On - Auto Dismiss"
-msgstr ""
+msgstr "Вкл - Автоотклонение"
 
 #: fw/apps/system/settings/quiet_time.c:329
 msgid "On - Persistent"
-msgstr ""
+msgstr "Вкл - Постоянные"
 
 #: fw/apps/system/settings/quiet_time.c:362
 msgid "Motion"
-msgstr ""
+msgstr "По движению"
 
 #: fw/apps/system/settings/quiet_time.c:427 fw/apps/system/settings/time.c:360
 #: fw/apps/system/settings/time.c:387
 msgid "Manual"
-msgstr ""
+msgstr "Вручную"
 
 #: fw/apps/system/settings/quiet_time.c:435
 msgid "Interruptions"
-msgstr ""
+msgstr "Исключения"
 
 #: fw/apps/system/settings/quiet_time.c:448
 msgid "Motion Backlight"
-msgstr ""
+msgstr "Подсветка по движению"
 
 #: fw/apps/system/settings/quiet_time.c:455
 #: fw/apps/system/settings/vibe_patterns.c:66
 msgid "Mute Speaker"
-msgstr ""
+msgstr "Заглушить динамик"
 
 #: fw/apps/system/settings/quiet_time.c:519
 msgid "Quiet Time"
-msgstr ""
+msgstr "Тихий режим"
 
 #: fw/apps/system/settings/remote.c:53
 msgid "You're all set"
-msgstr ""
+msgstr "Всё готово"
 
 #: fw/apps/system/settings/remote.c:122
 msgid "Forget"
-msgstr ""
+msgstr "Отвязать"
 
 #: fw/apps/system/settings/remote.c:130
 #: fw/popups/ble_hrm/ble_hrm_reminder_popup.c:28
 msgid "Stop Sharing Heart Rate"
-msgstr ""
+msgstr "Перестать делиться пульсом"
 
 #: fw/apps/system/settings/settings.c:230
 msgid "Settings"
-msgstr ""
+msgstr "Настройки"
 
 #: fw/apps/system/settings/speaker_volume_window.c:55
 #: fw/apps/system/settings/vibe_patterns.c:72
 msgid "Volume"
-msgstr ""
+msgstr "Громкость"
 
 #: fw/apps/system/settings/system.c:161 fw/apps/system/settings/system.c:256
 msgid "Information"
-msgstr ""
+msgstr "Информация"
 
 #: fw/apps/system/settings/system.c:162 fw/apps/system/settings/system.c:962
 msgid "Certification"
-msgstr ""
+msgstr "Сертификация"
 
 #: fw/apps/system/settings/system.c:163
 msgid "Stand-By Mode"
-msgstr ""
+msgstr "Режим ожидания"
 
 #: fw/apps/system/settings/system.c:164 fw/apps/system/settings/system.c:604
 msgid "Debugging"
-msgstr ""
+msgstr "Отладка"
 
 #: fw/apps/system/settings/system.c:165
 msgid "Shut Down"
-msgstr ""
+msgstr "Выключить"
 
 #: fw/apps/system/settings/system.c:166
 msgid "Factory Reset"
-msgstr ""
+msgstr "Сброс настроек"
 
 #: fw/apps/system/settings/system.c:207
 msgid "BT Address"
-msgstr ""
+msgstr "BT адрес"
 
 #: fw/apps/system/settings/system.c:208
 msgid "Firmware"
-msgstr ""
+msgstr "Прошивка"
 
 #: fw/apps/system/settings/system.c:210
 msgid "Recovery"
-msgstr ""
+msgstr "Прошивка PRF"
 
 #: fw/apps/system/settings/system.c:211
 msgid "Bootloader"
-msgstr ""
+msgstr "Загрузчик"
 
 #: fw/apps/system/settings/system.c:212
 msgid "Hardware"
-msgstr ""
+msgstr "Платформа"
 
 #: fw/apps/system/settings/system.c:213
 msgid "Serial"
-msgstr ""
+msgstr "Серийный номер"
 
 #: fw/apps/system/settings/system.c:214
 msgid "Uptime"
-msgstr ""
+msgstr "Время работы"
 
 #: fw/apps/system/settings/system.c:215
 msgid "Legal"
-msgstr ""
+msgstr "Лицензии"
 
 #: fw/apps/system/settings/system.c:354
 msgid "Core dump and reboot?"
-msgstr ""
+msgstr "Дамп ядра и перезагрузка?"
 
 #: fw/apps/system/settings/system.c:441
 msgid "Very Low"
-msgstr ""
+msgstr "Очень Низкая"
 
 #: fw/apps/system/settings/system.c:442
 msgid "Medium-Low"
-msgstr ""
+msgstr "Средняя"
 
 #: fw/apps/system/settings/system.c:443
 msgid "Medium-High"
-msgstr ""
+msgstr "Средне-Высокая"
 
 #: fw/apps/system/settings/system.c:444
 msgid "Very High"
-msgstr ""
+msgstr "Очень Высокая"
 
 #: fw/apps/system/settings/system.c:469 fw/apps/system/settings/system.c:495
 msgid "Motion Sensitivity"
-msgstr ""
+msgstr "Чувствительность к движению"
 
 #: fw/apps/system/settings/system.c:491
 msgid "CoreDump now"
-msgstr ""
+msgstr "Создать дамп ядра"
 
 #: fw/apps/system/settings/system.c:492
 msgid "CoreDump shortcut"
-msgstr ""
+msgstr "Быстрое создание"
 
 #: fw/apps/system/settings/system.c:493
 msgid "ALS Threshold"
-msgstr ""
+msgstr "Предел ALS"
 
 #: fw/apps/system/settings/system.c:497
 msgid "Shake Log Info"
-msgstr ""
+msgstr "Логи встряхиваний"
 
 #: fw/apps/system/settings/system.c:498
 msgid "Vibe Log Info"
-msgstr ""
+msgstr "Логи вибраций"
 
 #: fw/apps/system/settings/system.c:499
 msgid "Compact Settings DBs"
-msgstr ""
+msgstr "Сжать БД настроек"
 
 #: fw/apps/system/settings/system.c:501
 msgid "SpO2 Test"
-msgstr ""
+msgstr "Тест SpO2"
 
 #: fw/apps/system/settings/system.c:521
 msgid "10 back-button presses"
-msgstr ""
+msgstr "10 нажатий кнопки назад"
 
 #: fw/apps/system/settings/system.c:537 fw/apps/system/settings/system.c:540
 msgid "Enabled"
-msgstr ""
+msgstr "Включено"
 
 #: fw/apps/system/settings/system.c:681
 msgid "PebbleOS developers only!"
-msgstr ""
+msgstr "Только для разработчиков!"
 
 #: fw/apps/system/settings/system.c:926
 msgid "See details..."
-msgstr ""
+msgstr "Подробнее..."
 
 #: fw/apps/system/settings/system.c:984
 msgid "Company"
-msgstr ""
+msgstr "Компания"
 
 #: fw/apps/system/settings/system.c:992
 msgid "Product Model"
-msgstr ""
+msgstr "Модель продукта"
 
 #: fw/apps/system/settings/system.c:999
 msgid "Product Type"
-msgstr ""
+msgstr "Тип продукта"
 
 #: fw/apps/system/settings/system.c:1006
 msgid "Trademark"
-msgstr ""
+msgstr "Торговая марка"
 
 #: fw/apps/system/settings/system.c:1013
 msgid "Place of Origin"
-msgstr ""
+msgstr "Место производства"
 
 #: fw/apps/system/settings/system.c:1020
 msgid "DC Input"
-msgstr ""
+msgstr "Прямой ток"
 
 #: fw/apps/system/settings/system.c:1027
 msgid "Rated Voltage"
-msgstr ""
+msgstr "Напряжение"
 
 #: fw/apps/system/settings/system.c:1034
 msgid "Milliampere-hour"
-msgstr ""
+msgstr "Миллиампер-час"
 
 #: fw/apps/system/settings/system.c:1041
 msgid "Watt-hour"
-msgstr ""
+msgstr "Ватт-час"
 
 #: fw/apps/system/settings/system.c:1055
 msgid "Canada IC"
-msgstr ""
+msgstr "Canada IC"
 
 #: fw/apps/system/settings/system.c:1062
 msgid "Canada ISED"
-msgstr ""
+msgstr "Canada ISED"
 
 #: fw/apps/system/settings/system.c:1076 fw/apps/system/settings/system.c:1186
 msgid "South Korea KCC"
-msgstr ""
+msgstr "South Korea KCC"
 
 #: fw/apps/system/settings/system.c:1274
 msgid "Do you want to shut down?"
-msgstr ""
+msgstr "Выключить часы?"
 
 #. / Refers to the class of all non-score vibes, e.g. 3rd party app vibes
 #: fw/apps/system/settings/system.c:1361
 #: fw/apps/system/settings/vibe_patterns.c:106
 msgid "System"
-msgstr ""
+msgstr "Система"
 
 #: fw/apps/system/settings/themes.c:98
 msgid "Accent Color"
-msgstr ""
+msgstr "Акцентный цвет"
 
 #. / Title of the Themes Settings submenu in Settings
 #: fw/apps/system/settings/themes.c:147
 msgid "Themes"
-msgstr ""
+msgstr "Темы"
 
 #. / Title of the menu for changing the watch's timezone.
 #: fw/apps/system/settings/time.c:161 fw/apps/system/settings/time.c:400
 msgid "Timezone"
-msgstr ""
+msgstr "Часовой пояс"
 
 #: fw/apps/system/settings/time.c:261 fw/apps/system/settings/time.c:364
 msgid "Set Time"
-msgstr ""
+msgstr "Время"
 
 #: fw/apps/system/settings/time.c:300 fw/apps/system/settings/time.c:372
 msgid "Set Date"
-msgstr ""
+msgstr "Дата"
 
 #: fw/apps/system/settings/time.c:359
 msgid "Time Source"
-msgstr ""
+msgstr "Источник времени"
 
 #: fw/apps/system/settings/time.c:360 fw/apps/system/settings/time.c:391
 #: fw/apps/system/settings/time.c:395
 msgid "Automatic"
-msgstr ""
+msgstr "Авто"
 
 #: fw/apps/system/settings/time.c:380
 msgid "Time Format"
-msgstr ""
+msgstr "Формат времени"
 
 #: fw/apps/system/settings/time.c:381
 msgid "24h"
-msgstr ""
+msgstr "24ч"
 
 #: fw/apps/system/settings/time.c:381
 msgid "12h"
-msgstr ""
+msgstr "12ч"
 
 #: fw/apps/system/settings/time.c:385
 msgid "Timezone Source"
-msgstr ""
+msgstr "Источник Ч.Пояса"
 
 #: fw/apps/system/settings/time.c:445
 msgid "Date & Time"
-msgstr ""
+msgstr "Дата и время"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
 #: fw/apps/system/settings/timeline.c:68
 msgid "Start Time"
-msgstr ""
+msgstr "В начале"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
 #: fw/apps/system/settings/timeline.c:70
 msgid "5 Min Before"
-msgstr ""
+msgstr "За 5 минут"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
 #: fw/apps/system/settings/timeline.c:72
 msgid "10 Min Before"
-msgstr ""
+msgstr "За 10 минут"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
 #: fw/apps/system/settings/timeline.c:74
 msgid "15 Min Before"
-msgstr ""
+msgstr "За 15 минут"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
 #: fw/apps/system/settings/timeline.c:76
 msgid "30 Min Before"
-msgstr ""
+msgstr "За 30 минут"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
 #: fw/apps/system/settings/timeline.c:86
 msgid "Overlay"
-msgstr ""
+msgstr "Перекрыть"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
 #: fw/apps/system/settings/timeline.c:88
 msgid "Shift up"
-msgstr ""
+msgstr "Сдвинуть вверх"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
 #: fw/apps/system/settings/timeline.c:90
 msgid "Squish up"
-msgstr ""
+msgstr "Сжать вверх"
 
 #. / Shows up in the Timeline settings as the title for the "Timing" submenu window.
 #. / Shows up in the Timeline settings as the title for the menu item that controls the
@@ -1884,209 +1904,209 @@ msgstr ""
 #: fw/apps/system/settings/timeline.c:123
 #: fw/apps/system/settings/timeline.c:195
 msgid "Timing"
-msgstr ""
+msgstr "Когда показывать"
 
 #. / Shows up in the Timeline settings as the title for unsupported watchface behavior.
 #. / Shows up in the Timeline settings for watchfaces that do not support Quick View.
 #: fw/apps/system/settings/timeline.c:152
 #: fw/apps/system/settings/timeline.c:202
 msgid "Unsupported Faces"
-msgstr ""
+msgstr "Неподдерж. циферблаты"
 
 #. / Shows up in the Timeline settings as a toggle-able "Quick View" item.
 #. / Title for the Timeline Quick View first use dialog.
 #: fw/apps/system/settings/timeline.c:183
 #: fw/apps/system/settings/timeline.c:264
 msgid "Quick View"
-msgstr ""
+msgstr "Предпросмотр"
 
 #: fw/apps/system/settings/timeline.c:267
 msgid "Appears on your watchface when an event is about to start."
-msgstr ""
+msgstr "Появляется на циферблате, когда событие вот-вот наступит."
 
 #: fw/apps/system/settings/timeline.c:293
 #: fw/apps/system/timeline/timeline.c:1311
 msgid "Timeline"
-msgstr ""
+msgstr "Хронология"
 
 #: fw/apps/system/settings/vibe_patterns.c:85
 msgid "Incoming Calls"
-msgstr ""
+msgstr "Звонки"
 
 #: fw/apps/system/settings/vibe_patterns.c:95
 msgid "Hourly Notice"
-msgstr ""
+msgstr "Вибро раз в час"
 
 #: fw/apps/system/settings/vibe_patterns.c:100
 msgid "On Disconnect"
-msgstr ""
+msgstr "При потере подкл."
 
 #: fw/apps/system/settings/vibe_patterns.c:282
 msgid "Sounds & Haptics"
-msgstr ""
+msgstr "Звук и Вибрация"
 
 #: fw/apps/system/settings/vibe_patterns.c:284
 msgid "Vibrations"
-msgstr ""
+msgstr "Вибрация"
 
 #: fw/apps/system/timeline/timeline.c:906
 msgid "No events"
-msgstr ""
+msgstr "Событий нет"
 
 #: fw/apps/system/timeline/timeline.c:1283
 msgid "Timeline Future"
-msgstr ""
+msgstr "Хронология будущего"
 
 #. / The title of Timeline Past in Quick Launch. If the translation is too long, cut out
 #. / Timeline and only translate "Past".
 #: fw/apps/system/timeline/timeline.c:1298
 msgid "Timeline Past"
-msgstr ""
+msgstr "Хронология прошлого"
 
 #: fw/apps/system/toggle/airplane_mode.c:25
 msgid "Turn On Airplane Mode?"
-msgstr ""
+msgstr "Включить Авиарежим?"
 
 #: fw/apps/system/toggle/airplane_mode.c:26
 msgid "Turn Off Airplane Mode?"
-msgstr ""
+msgstr "Выключить Авиарежим?"
 
 #: fw/apps/system/toggle/airplane_mode.c:27
 msgid ""
 "Airplane\n"
 "Mode On"
-msgstr ""
+msgstr "Авиарежим вкл."
 
 #: fw/apps/system/toggle/airplane_mode.c:28
 msgid ""
 "Airplane\n"
 "Mode Off"
-msgstr ""
+msgstr "Авиарежим выкл."
 
 #. / The Quick Launch action that toggles Airplane Mode.
 #: fw/apps/system/toggle/airplane_mode.c:52
 msgid "Toggle Airplane Mode"
-msgstr ""
+msgstr "Перекл. Авиарежим"
 
 #: fw/apps/system/toggle/backlight_state.c:26
 msgid "Turn On Backlight?"
-msgstr ""
+msgstr "Включить подсветку?"
 
 #: fw/apps/system/toggle/backlight_state.c:27
 msgid "Turn Off Backlight?"
-msgstr ""
+msgstr "Выключить подсветку?"
 
 #: fw/apps/system/toggle/backlight_state.c:28
 msgid "Backlight On"
-msgstr ""
+msgstr "Подсветка вкл."
 
 #: fw/apps/system/toggle/backlight_state.c:29
 msgid "Backlight Off"
-msgstr ""
+msgstr "Подсветка выкл."
 
 #. / The Quick Launch action that toggles the backlight.
 #: fw/apps/system/toggle/backlight_state.c:53
 msgid "Toggle Backlight"
-msgstr ""
+msgstr "Перекл. Подсветки"
 
 #: fw/apps/system/toggle/motion_backlight.c:23
 msgid "Turn On Motion Backlight?"
-msgstr ""
+msgstr "Включить подсветку по движению?"
 
 #: fw/apps/system/toggle/motion_backlight.c:24
 msgid "Turn Off Motion Backlight?"
-msgstr ""
+msgstr "Выключить подсветку по движению?"
 
 #: fw/apps/system/toggle/motion_backlight.c:25
 msgid ""
 "Motion\n"
 "Backlight On"
-msgstr ""
+msgstr "Подсветка по движению вкл."
 
 #: fw/apps/system/toggle/motion_backlight.c:26
 msgid ""
 "Motion\n"
 "Backlight Off"
-msgstr ""
+msgstr "Подсветка по движению выкл."
 
 #. / The Quick Launch action that toggles the motion backlight.
 #: fw/apps/system/toggle/motion_backlight.c:50
 msgid "Toggle Motion Backlight"
-msgstr ""
+msgstr "Перекл. Подсветки по движению"
 
 #. / The Quick Launch action that toggles Quiet Time.
 #: fw/apps/system/toggle/quiet_time.c:25
 msgid "Toggle Quiet Time"
-msgstr ""
+msgstr "Перекл. Тихий режим"
 
 #: fw/apps/system/toggle/touch.c:23
 msgid "Turn On Touch?"
-msgstr ""
+msgstr "Включить Касания?"
 
 #: fw/apps/system/toggle/touch.c:24
 msgid "Turn Off Touch?"
-msgstr ""
+msgstr "Выключить Касания?"
 
 #: fw/apps/system/toggle/touch.c:25
 msgid "Touch On"
-msgstr ""
+msgstr "Касания вкл."
 
 #: fw/apps/system/toggle/touch.c:26
 msgid "Touch Off"
-msgstr ""
+msgstr "Касания выкл."
 
 #. / The Quick Launch action that turns the touchscreen on or off.
 #: fw/apps/system/toggle/touch.c:50
 msgid "Toggle Touch"
-msgstr ""
+msgstr "Перекл. Касания"
 
 #: fw/apps/system/watchfaces.c:98
 msgid "Active"
-msgstr ""
+msgstr "Активен"
 
 #: fw/apps/system/watchfaces.c:219
 msgid "Watchfaces"
-msgstr ""
+msgstr "Циферблаты"
 
 #: fw/apps/system/weather/expanded_view.c:175
 msgid "Sunset --:--"
-msgstr ""
+msgstr "Закат --:--"
 
 #: fw/apps/system/weather/expanded_view.c:178
 #, c-format
 msgid "Sunset %s"
-msgstr ""
+msgstr "Закат %s"
 
 #: fw/apps/system/weather/expanded_view.c:203
 msgid "Last updated --:--"
-msgstr ""
+msgstr "Последн. обн. --:--"
 
 #: fw/apps/system/weather/expanded_view.c:206
 #, c-format
 msgid "Last updated %s"
-msgstr ""
+msgstr "Последн. обн. %s"
 
 #: fw/apps/system/weather/expanded_view.c:390
 msgid "PRECIPITATION: --"
-msgstr ""
+msgstr "ОСАДКИ: --"
 
 #: fw/apps/system/weather/expanded_view.c:392
 #, c-format
 msgid "PRECIPITATION: %d%%"
-msgstr ""
+msgstr "ОСАДКИ: %d%%"
 
 #: fw/apps/system/weather/expanded_view.c:475
 msgid "CURRENT UV"
-msgstr ""
+msgstr "ТЕКУЩИЙ УФ"
 
 #: fw/apps/system/weather/expanded_view.c:484
 #, c-format
 msgid "UV %d"
-msgstr ""
+msgstr "УФ %d"
 
 #: fw/apps/system/weather/expanded_view.c:486
 msgid "UV --"
-msgstr ""
+msgstr "УФ --"
 
 #: fw/apps/system/weather/expanded_view.c:488
 #, c-format
@@ -3569,6 +3589,9 @@ msgid ""
 "open Settings > Bluetooth, tap the (i) next to your Pebble and turn on Share "
 "System Notifications."
 msgstr ""
+"Ваш iPhone не передает уведомления на эти часы. На iPhone откройте "
+"Настройки > Bluetooth, нажмите (i) рядом с часами Pebble и включите функцию "
+"Системные уведомления."
 
 #: fw/services/notifications/do_not_disturb.c:115
 msgid "Calendar Aware enables Quiet Time automatically during calendar events."
