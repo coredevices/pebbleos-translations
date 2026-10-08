@@ -2628,7 +2628,7 @@ msgstr ""
 msgid "Heart Rate Not Shared"
 msgstr ""
 
-#: fw/popups/bluetooth_pairing_ui.c:222
+#: fw/popups/bluetooth_pairing_ui.c:227
 msgid "Pair?"
 msgstr ""
 
