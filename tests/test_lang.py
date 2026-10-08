@@ -1,7 +1,9 @@
 # SPDX-FileCopyrightText: 2026 Core Devices LLC
 # SPDX-License-Identifier: Apache-2.0
 
+import gettext
 import hashlib
+import io
 import json
 import os
 import struct
@@ -13,6 +15,7 @@ from pathlib import Path
 from unittest.mock import call, patch
 
 import lang_commands as commands
+import polib
 from pack_format import FONT_SLOTS, crc32, serialize
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -66,6 +69,87 @@ class PackFormatTest(unittest.TestCase):
 
 
 class LanguageTest(unittest.TestCase):
+    def test_new_weblate_language_has_watch_readable_draft_headers(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = root / "ru_RU"
+            source.mkdir()
+            mapping = commands.new_map("ru_RU")
+            (source / commands.LANG_MAP).write_text(json.dumps(mapping))
+            catalog = polib.POFile()
+            catalog.metadata = {
+                "Project-Id-Version": "PACKAGE VERSION",
+                "Language": "ru_RU",
+                "Last-Translator": "Contributor " + "x" * 500,
+                "Language-Team": "Russian <https://translate.repebble.com/>",
+                "Content-Type": "text/plain; charset=UTF-8",
+                "Plural-Forms": "nplurals=3; plural=n == 1 ? 0 : n == 2 ? 1 : 2;",
+            }
+            catalog.append(polib.POEntry(msgid="Music", msgstr="Музыка"))
+            catalog.append(
+                polib.POEntry(msgid="Open", msgctxt="menu", msgstr="Открыть")
+            )
+            catalog.append(
+                polib.POEntry(msgid="Unfinished", msgstr="Черновик", flags=["fuzzy"])
+            )
+            catalog.append(
+                polib.POEntry(
+                    msgid="%d item",
+                    msgid_plural="%d items",
+                    msgstr_plural={
+                        0: "%d предмет",
+                        1: "%d предмета",
+                        2: "%d предметов",
+                    },
+                )
+            )
+            path = source / commands.CATALOG
+            catalog.save(str(path))
+            original = path.read_bytes()
+            with patch.object(commands, "LANG_ROOT", root):
+                mo = unpack(commands.pack_lang("ru_RU", root / "out").read_bytes())[0]
+            compiled = gettext.GNUTranslations(io.BytesIO(mo))
+            self.assertEqual(compiled.info()["project-id-version"], "1")
+            self.assertEqual(compiled.info()["name"], "Russian")
+            self.assertEqual(compiled.gettext("Music"), "Музыка")
+            self.assertEqual(compiled.pgettext("menu", "Open"), "Открыть")
+            self.assertEqual(
+                compiled.ngettext("%d item", "%d items", 5), "%d предметов"
+            )
+            self.assertEqual(compiled.gettext("Unfinished"), "Unfinished")
+            # The firmware truncates the header to 399 bytes before parsing.
+            header = compiled._catalog[""].encode("utf-8")[:399]
+            self.assertIn(b"Project-Id-Version: 1\n", header)
+            self.assertIn(b"Language: ru_RU\n", header)
+            self.assertIn(b"Name: Russian\n", header)
+            self.assertEqual(path.read_bytes(), original)
+
+    def test_existing_pack_metadata_and_explicit_release_version(self):
+        catalog = polib.POFile()
+        catalog.metadata = {
+            "Project-Id-Version": "38.0",
+            "Language": "de_DE",
+            "Name": "Deutsch",
+        }
+        draft = commands.firmware_catalog(catalog)
+        self.assertEqual(draft.metadata, catalog.metadata)
+        self.assertEqual(
+            commands.firmware_catalog(catalog, version=65535).metadata[
+                "Project-Id-Version"
+            ],
+            "65535",
+        )
+        self.assertEqual(catalog.metadata["Project-Id-Version"], "38.0")
+        with self.assertRaises(ValueError):
+            commands.firmware_catalog(catalog, version=65536)
+
+    def test_watch_language_name_does_not_split_utf8_or_overflow(self):
+        catalog = polib.POFile()
+        catalog.metadata = {"Language": "ru_RU", "Name": "Русский" * 10}
+        name = commands.firmware_catalog(catalog).metadata["Name"]
+        self.assertLessEqual(len(name.encode("utf-8")), 29)
+        self.assertTrue(name)
+
     def test_catalogs_belong_to_translation_checkout(self):
         self.assertEqual(commands.lang_dir("fr_FR"), ROOT / "fr_FR")
 

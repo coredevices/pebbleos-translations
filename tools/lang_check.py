@@ -134,7 +134,13 @@ def check_lang(lang):
                         "Some strings are untranslated or need review. Fuzzy entries are excluded from the pack.",
                     )
                 mo = temp / "strings.mo"
+                # Validate the original syntax before polib rewrites the headers.
                 warnings = commands.compile_catalog(po, mo)
+                compilation_source = temp / "firmware.po"
+                commands.firmware_catalog(catalog, locale=lang).save(
+                    str(compilation_source)
+                )
+                commands.compile_catalog(compilation_source, mo)
                 if warnings:
                     issue("warning", "catalog_warning", warnings)
                 resources["STRINGS"] = mo.read_bytes()

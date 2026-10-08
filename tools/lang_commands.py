@@ -155,6 +155,47 @@ def compile_catalog(po, mo):
     return result.stderr.strip()
 
 
+class FirmwareCatalog(polib.POFile):
+    def ordered_metadata(self):
+        # The watch reads only the first 399 bytes of the gettext header.
+        required = ("Project-Id-Version", "Language", "Name")
+        return [(key, self.metadata[key]) for key in required] + [
+            item for item in super().ordered_metadata() if item[0] not in required
+        ]
+
+
+def firmware_catalog(catalog, *, locale=None, version=None):
+    """Prepare binary-pack headers without changing the source PO or its strings."""
+    result = FirmwareCatalog()
+    result.extend(catalog)
+    result.metadata = dict(catalog.metadata)
+    raw_version = result.metadata.get("Project-Id-Version", "").strip()
+    numeric = re.fullmatch(r"([1-9][0-9]*)(?:\.[0-9]+)?", raw_version)
+    if version is not None:
+        if not 1 <= version <= 65535:
+            raise ValueError("Pack version must be between 1 and 65535")
+        raw_version = str(version)
+    elif not numeric or int(numeric[1]) > 65535 or len(raw_version) > 9:
+        # New Weblate catalogs inherit "PACKAGE VERSION" from the POT.
+        raw_version = "1"
+    result.metadata["Project-Id-Version"] = raw_version
+    result.metadata["Language"] = result.metadata.get("Language") or locale
+    if not result.metadata["Language"]:
+        raise ValueError("A language pack requires a Language header or locale")
+    name = (
+        result.metadata.get("Name")
+        or re.sub(
+            r"\s*<[^>]*>\s*$", "", result.metadata.get("Language-Team", "")
+        ).strip()
+        or result.metadata["Language"]
+    )
+    # LOCALE_NAME_LENGTH is 30 including the terminating NUL. Keep UTF-8 whole.
+    result.metadata["Name"] = (
+        name.splitlines()[0].encode("utf-8")[:29].decode("utf-8", errors="ignore")
+    )
+    return result
+
+
 def pack_lang(lang, output, *, version=None):
     source = lang_dir(lang)
     resource_map = json.loads((source / LANG_MAP).read_text())
@@ -169,14 +210,13 @@ def pack_lang(lang, output, *, version=None):
         if strings["file"]:
             po = source / strings["file"]
             mo = temp / "strings.mo"
-            compilation_source = po
-            if version is not None:
-                if not 1 <= version <= 65535:
-                    raise ValueError("Pack version must be between 1 and 65535")
-                catalog = polib.pofile(str(po))
-                catalog.metadata["Project-Id-Version"] = str(version)
-                compilation_source = temp / "versioned.po"
-                catalog.save(str(compilation_source))
+            # Do not let reserialization conceal malformed source syntax.
+            compile_catalog(po, mo)
+            catalog = firmware_catalog(
+                polib.pofile(str(po)), locale=lang, version=version
+            )
+            compilation_source = temp / "firmware.po"
+            catalog.save(str(compilation_source))
             compile_catalog(compilation_source, mo)
             resources["STRINGS"] = mo.read_bytes()
             codepoints = temp / "codepoints.json"
