@@ -6,14 +6,6 @@
   },
   "fonts": [
     {
-      "name": "GOTHIC_14_EXTENDED",
-      "file": "regular.ttf",
-      "license": "license.txt",
-      "extended": true,
-      "original_name": "NotoSans-Regular.ttf",
-      "license_original_name": "LICENSE.txt"
-    },
-    {
       "name": "GOTHIC_14_BOLD_EXTENDED",
       "file": "bold.ttf",
       "license": "license.txt",
@@ -22,7 +14,7 @@
       "license_original_name": "LICENSE.txt"
     },
     {
-      "name": "GOTHIC_18_EXTENDED",
+      "name": "GOTHIC_14_EXTENDED",
       "file": "regular.ttf",
       "license": "license.txt",
       "extended": true,
@@ -38,12 +30,12 @@
       "license_original_name": "LICENSE.txt"
     },
     {
-      "name": "GOTHIC_24_EXTENDED",
-      "file": "regular.ttf",
-      "license": "license.txt",
+      "name": "GOTHIC_18_EXTENDED",
+      "file": "99da5f554cb416b08a628f94415dfe357a365d0adc0d1d6a2f157a71cb30696b.ttf",
+      "license": "4dc9e92d69f7a9c8ac0939b61e629536b9f26bfbf0024299f0654fe3578ecac3.license",
       "extended": true,
-      "original_name": "NotoSans-Regular.ttf",
-      "license_original_name": "LICENSE.txt"
+      "original_name": "e-Ukraine-Regular.otf",
+      "license_original_name": "СС- BY-4.0-License.pdf"
     },
     {
       "name": "GOTHIC_24_BOLD_EXTENDED",
@@ -54,7 +46,7 @@
       "license_original_name": "LICENSE.txt"
     },
     {
-      "name": "GOTHIC_28_EXTENDED",
+      "name": "GOTHIC_24_EXTENDED",
       "file": "regular.ttf",
       "license": "license.txt",
       "extended": true,
@@ -70,7 +62,7 @@
       "license_original_name": "LICENSE.txt"
     },
     {
-      "name": "GOTHIC_36_EXTENDED",
+      "name": "GOTHIC_28_EXTENDED",
       "file": "regular.ttf",
       "license": "license.txt",
       "extended": true,
@@ -83,6 +75,14 @@
       "license": "license.txt",
       "extended": true,
       "original_name": "NotoSans-Bold.ttf",
+      "license_original_name": "LICENSE.txt"
+    },
+    {
+      "name": "GOTHIC_36_EXTENDED",
+      "file": "regular.ttf",
+      "license": "license.txt",
+      "extended": true,
+      "original_name": "NotoSans-Regular.ttf",
       "license_original_name": "LICENSE.txt"
     }
   ],
