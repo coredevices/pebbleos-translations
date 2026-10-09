@@ -1,0 +1,90 @@
+{
+  "strings": {
+    "lang": "uk",
+    "name": "STRINGS",
+    "file": "tintin.po"
+  },
+  "fonts": [
+    {
+      "name": "GOTHIC_14_EXTENDED",
+      "file": "regular.ttf",
+      "license": "license.txt",
+      "extended": true,
+      "original_name": "NotoSans-Regular.ttf",
+      "license_original_name": "LICENSE.txt"
+    },
+    {
+      "name": "GOTHIC_14_BOLD_EXTENDED",
+      "file": "bold.ttf",
+      "license": "license.txt",
+      "extended": true,
+      "original_name": "NotoSans-Bold.ttf",
+      "license_original_name": "LICENSE.txt"
+    },
+    {
+      "name": "GOTHIC_18_EXTENDED",
+      "file": "regular.ttf",
+      "license": "license.txt",
+      "extended": true,
+      "original_name": "NotoSans-Regular.ttf",
+      "license_original_name": "LICENSE.txt"
+    },
+    {
+      "name": "GOTHIC_18_BOLD_EXTENDED",
+      "file": "bold.ttf",
+      "license": "license.txt",
+      "extended": true,
+      "original_name": "NotoSans-Bold.ttf",
+      "license_original_name": "LICENSE.txt"
+    },
+    {
+      "name": "GOTHIC_24_EXTENDED",
+      "file": "regular.ttf",
+      "license": "license.txt",
+      "extended": true,
+      "original_name": "NotoSans-Regular.ttf",
+      "license_original_name": "LICENSE.txt"
+    },
+    {
+      "name": "GOTHIC_24_BOLD_EXTENDED",
+      "file": "bold.ttf",
+      "license": "license.txt",
+      "extended": true,
+      "original_name": "NotoSans-Bold.ttf",
+      "license_original_name": "LICENSE.txt"
+    },
+    {
+      "name": "GOTHIC_28_EXTENDED",
+      "file": "regular.ttf",
+      "license": "license.txt",
+      "extended": true,
+      "original_name": "NotoSans-Regular.ttf",
+      "license_original_name": "LICENSE.txt"
+    },
+    {
+      "name": "GOTHIC_28_BOLD_EXTENDED",
+      "file": "bold.ttf",
+      "license": "license.txt",
+      "extended": true,
+      "original_name": "NotoSans-Bold.ttf",
+      "license_original_name": "LICENSE.txt"
+    },
+    {
+      "name": "GOTHIC_36_EXTENDED",
+      "file": "regular.ttf",
+      "license": "license.txt",
+      "extended": true,
+      "original_name": "NotoSans-Regular.ttf",
+      "license_original_name": "LICENSE.txt"
+    },
+    {
+      "name": "GOTHIC_36_BOLD_EXTENDED",
+      "file": "bold.ttf",
+      "license": "license.txt",
+      "extended": true,
+      "original_name": "NotoSans-Bold.ttf",
+      "license_original_name": "LICENSE.txt"
+    }
+  ],
+  "images": []
+}
