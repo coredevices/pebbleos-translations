@@ -6,14 +6,6 @@
   },
   "fonts": [
     {
-      "name": "GOTHIC_14_EXTENDED",
-      "file": "regular.ttf",
-      "license": "license.txt",
-      "extended": true,
-      "original_name": "SofiaSansCondensed-Light.ttf",
-      "license_original_name": "OFL.txt"
-    },
-    {
       "name": "GOTHIC_14_BOLD_EXTENDED",
       "file": "bold.ttf",
       "license": "license.txt",
@@ -22,7 +14,7 @@
       "license_original_name": "OFL.txt"
     },
     {
-      "name": "GOTHIC_18_EXTENDED",
+      "name": "GOTHIC_14_EXTENDED",
       "file": "regular.ttf",
       "license": "license.txt",
       "extended": true,
@@ -38,11 +30,11 @@
       "license_original_name": "OFL.txt"
     },
     {
-      "name": "GOTHIC_24_EXTENDED",
-      "file": "regular.ttf",
-      "license": "license.txt",
+      "name": "GOTHIC_18_EXTENDED",
+      "file": "a33452e68cae1307a4b168c501e12d143e18c210db45102d2e8d852ce7986bb5.ttf",
+      "license": "be2f3f8727ac2e18b714ad1c4336d4ddb3f3adbeb9a7f70bfab74d21f4d2b3fb.license",
       "extended": true,
-      "original_name": "SofiaSansCondensed-Light.ttf",
+      "original_name": "NotoSans_Condensed-Regular.ttf",
       "license_original_name": "OFL.txt"
     },
     {
@@ -54,7 +46,7 @@
       "license_original_name": "OFL.txt"
     },
     {
-      "name": "GOTHIC_28_EXTENDED",
+      "name": "GOTHIC_24_EXTENDED",
       "file": "regular.ttf",
       "license": "license.txt",
       "extended": true,
@@ -70,7 +62,7 @@
       "license_original_name": "OFL.txt"
     },
     {
-      "name": "GOTHIC_36_EXTENDED",
+      "name": "GOTHIC_28_EXTENDED",
       "file": "regular.ttf",
       "license": "license.txt",
       "extended": true,
@@ -83,6 +75,14 @@
       "license": "license.txt",
       "extended": true,
       "original_name": "SofiaSansCondensed-SemiBold.ttf",
+      "license_original_name": "OFL.txt"
+    },
+    {
+      "name": "GOTHIC_36_EXTENDED",
+      "file": "regular.ttf",
+      "license": "license.txt",
+      "extended": true,
+      "original_name": "SofiaSansCondensed-Light.ttf",
       "license_original_name": "OFL.txt"
     }
   ],
