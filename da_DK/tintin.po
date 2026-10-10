@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-26 22:44+0200\n"
-"PO-Revision-Date: 2026-10-10 11:31+0000\n"
+"PO-Revision-Date: 2026-10-10 12:26+0000\n"
 "Last-Translator: Hans Henrik Juhl <hans@kopula.dk>\n"
 "Language-Team: Danish <https://translate.repebble.com/projects/pebbleos/"
 "watch/da/>\n"
@@ -3158,8 +3158,8 @@ msgid ""
 "Refreshed? You slept for %dH %dM which is %d%% above your typical. Go tackle "
 "your day 😃."
 msgstr ""
-"Udhvilet? Du sov i %dt %dm, hvilket er %d%% flere end du plejer. Ud og erobr "
-"verden! 😃"
+"Udhvilet? Du sov i %dt og %dm, hvilket er %d%% flere end du plejer. Ud og "
+"erobr verden! 😃"
 
 #: fw/services/activity/activity_insights.c:1391
 #, c-format
@@ -3167,8 +3167,8 @@ msgid ""
 "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above your "
 "typical. Keep it up."
 msgstr ""
-"Du fik virkelig sovet igennem! Du sov i %dt %dm, hvilket er %d%% mere end du "
-"plejer. Ingen klager herfra.."
+"Du fik virkelig sovet igennem! Du sov i %dt og %dm, hvilket er %d%% mere end "
+"du plejer. Ingen klager herfra.."
 
 #: fw/services/activity/activity_insights.c:1393
 #, c-format
@@ -3185,8 +3185,8 @@ msgid ""
 "Mmmm...what a night. You slept for %dH %dM which is %d%% above your typical. "
 "That's gotta feel good!"
 msgstr ""
-"Dejlig lang nattesøvn. Du sov i %dt %dm, hvilket er %d%% mere end du plejer. "
-"Det kan helt sikkert mærkes!"
+"Dejlig lang nattesøvn. Du sov i %dt og %dm, hvilket er %d%% mere end du "
+"plejer. Det kan helt sikkert mærkes!"
 
 #: fw/services/activity/activity_insights.c:1399
 #, c-format
@@ -3194,8 +3194,8 @@ msgid ""
 "That's a lot of sheep you just counted! You slept for %dH %dM which is %d%% "
 "above your typical. Boom shakalaka."
 msgstr ""
-"Det er da en hel del får, du lige fik talt! Du har sovet i %dt %dm, hvilket "
-"er %d%% mere end du plejer. Bum, færdig, slut."
+"Det er da en hel del får, du lige fik talt! Du har sovet i %dt og %dm, "
+"hvilket er %d%% mere end du plejer. Bum, færdig, slut."
 
 #. / Sleep notification on wake up, slept similar to their typical sleep duration
 #: fw/services/activity/activity_insights.c:1409
@@ -3204,8 +3204,8 @@ msgid ""
 "Good mornin’. You slept for %dH %dM. Every good day begins with a solid "
 "night’s sleep...kinda like that one 😉 Keep it up!"
 msgstr ""
-"Godmorgen. Du sov i %dt %dm. Enhver god dag starter med en god nats søvn... "
-"ligesom denne 😉. Fortsæt med det!"
+"Godmorgen. Du sov i %dt og %dm. Enhver god dag starter med en god nats "
+"søvn... ligesom denne 😉. Fortsæt med det!"
 
 #: fw/services/activity/activity_insights.c:1412
 #, c-format
@@ -3213,8 +3213,8 @@ msgid ""
 "Good morning! You slept for %dH %dM. Consistency is key; keep doing what "
 "you're doing 😃."
 msgstr ""
-"Godmorgen! Du har sovet i %dt %dm. Din døgnrytme er god. Det er lige som det "
-"skal være. 😃"
+"Godmorgen! Du har sovet i %dt og %dm. Din døgnrytme er god. Det er lige som "
+"det skal være. 😃"
 
 #: fw/services/activity/activity_insights.c:1415
 #, c-format
@@ -3222,14 +3222,15 @@ msgid ""
 "You're rockin' the shut eye! You slept for %dH %dM. Make it a nightly "
 "ritual. You deserve it."
 msgstr ""
-"Godt gået med søvnen. Du sov i %dt %dm. Prøv at holde fast i den gode rytme."
+"Godt gået med søvnen. Du sov i %dt og %dm. Prøv at holde fast i den gode "
+"rytme."
 
 #: fw/services/activity/activity_insights.c:1417
 #, c-format
 msgid "Feelin' good? You slept for %dH %dM. Nothing can stop you now 👊"
 msgstr ""
-"Frisk og frejdig? Du sov i %dt %dm, så der er lagt i kakkelovnen til en god "
-"dag. 👊"
+"Frisk og frejdig? Du sov i %dt og %dm, så der er lagt i kakkelovnen til en "
+"god dag. 👊"
 
 #. / Sleep notification on wake up, slept below their typical sleep duration
 #: fw/services/activity/activity_insights.c:1426
@@ -3238,7 +3239,7 @@ msgid ""
 "Hey sleepy head. You slept for %dH %dM which is %d%% below your typical. Try "
 "to get more tonight!"
 msgstr ""
-"Hej sovetryne. Du fik kun sovet i %dt %dm, hvilket er %d%% mindre end du "
+"Hej sovetryne. Du fik kun sovet i %dt og %dm, hvilket er %d%% mindre end du "
 "plejer. Prøv at kravle lidt tidligere i seng i nat."
 
 #: fw/services/activity/activity_insights.c:1428
@@ -3247,8 +3248,8 @@ msgid ""
 "Groggy? You slept for %dH %dM which is %d%% below your typical. Sleep is "
 "important for everything you do-try getting more shut eye tonight!"
 msgstr ""
-"Lidt træt i dag? Du sov i %dt %dm – det er %d%% mindre end du plejer. Husk, "
-"at kroppen har brug for søvn, så gå tidligt i seng i nat."
+"Lidt træt i dag? Du sov i %dt og %dm – det er %d%% mindre end du plejer. "
+"Husk, at kroppen har brug for søvn, så gå tidligt i seng i nat."
 
 #: fw/services/activity/activity_insights.c:1430
 #, c-format
@@ -3256,7 +3257,7 @@ msgid ""
 "It's a new day! You slept for %dH %dM which is %d%% below your typical. It's "
 "not your best, but there's always tonight."
 msgstr ""
-"Det er en ny dag. Du sov i %dt %dm, hvilket er %d%% mindre end du plejer. "
+"Det er en ny dag. Du sov i %dt og %dm, hvilket er %d%% mindre end du plejer. "
 "Det var ikke din bedste nat, men du kan indhente det i nat."
 
 #: fw/services/activity/activity_insights.c:1433
@@ -3265,8 +3266,8 @@ msgid ""
 "Goooood morning! You slept for %dH %dM which is %d%% below your typical. Go "
 "crush your day and then get back in bed 😉"
 msgstr ""
-"Morgenstund har guld i mund! Du sov i %dt %dm, hvilket er %d%% mindre end du "
-"plejer. Gør dit bedste i dag, og glæd dig så til at komme i seng igen 😉"
+"Morgenstund har guld i mund! Du sov i %dt og %dm, hvilket er %d%% mindre end "
+"du plejer. Gør dit bedste i dag, og glæd dig så til at komme i seng igen 😉"
 
 #: fw/services/activity/activity_insights.c:1440
 #, c-format
@@ -3274,8 +3275,8 @@ msgid ""
 "You slept for %dH %dM which is %d%% below your typical. Sleep is vital for "
 "all your great ideas–how 'bout getting more tonight?"
 msgstr ""
-"Du sov i %dt %dm, hvilket er %d%% mindre end du plejer. Husk, at gode idéer "
-"kræver god søvn. Gå lidt tidligere i seng i nat."
+"Du sov i %dt og %dm, hvilket er %d%% mindre end du plejer. Husk, at gode "
+"idéer kræver god søvn. Gå lidt tidligere i seng i nat."
 
 #: fw/services/activity/activity_insights.c:1442
 #, c-format
@@ -3283,7 +3284,7 @@ msgid ""
 "You only slept for %dH %dM which is %d%% below your typical. We know you're "
 "busy, but try getting more tonight. We believe in you 😉"
 msgstr ""
-"Du har kun sovet i %dt %dm, hvilket er %d%% mindre end du plejer. Jeg ved "
+"Du har kun sovet i %dt og %dm, hvilket er %d%% mindre end du plejer. Jeg ved "
 "godt, du har travlt, men prøv at sove lidt mere i nat. Hæng i! 😉"
 
 #: fw/services/activity/activity_insights.c:1444
@@ -3292,8 +3293,8 @@ msgid ""
 "You slept for %dH %dM which is %d%% below your typical. We know stuff "
 "happens; take another crack at it tonight."
 msgstr ""
-"Du sov i %dt %dm, hvilket er %d%% mindre end du plejer. Jeg ved godt, at der "
-"kan komme noget i vejen, men giv det et nyt forsøg i nat."
+"Du sov i %dt og %dm, hvilket er %d%% mindre end du plejer. Jeg ved godt, at "
+"der kan komme noget i vejen, men giv det et nyt forsøg i nat."
 
 #: fw/services/activity/activity_insights.c:1495
 #, c-format
@@ -3829,7 +3830,7 @@ msgstr "Ja"
 
 #: fw/services/timeline/timeline_actions.c:803
 msgid "No"
-msgstr "NEj"
+msgstr "Nej"
 
 #: fw/services/timeline/timeline_actions.c:804
 msgid "Call me"
