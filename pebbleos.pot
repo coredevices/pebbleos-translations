@@ -217,24 +217,24 @@ msgid "pm"
 msgstr ""
 
 #. / The second separator in `<hour>:<minute>:<second>`
-#: fw/applib/template_string.c:219 fw/applib/template_string.c:221
+#: fw/applib/template_string.c:218 fw/applib/template_string.c:220
 msgctxt "TmplStringSep"
 msgid ":"
 msgstr ""
 
 #. / The second separator in `<hour> hr <minute> min <second> sec`
-#: fw/applib/template_string.c:225 fw/applib/template_string.c:227
+#: fw/applib/template_string.c:224 fw/applib/template_string.c:226
 msgctxt "TmplStringSep"
 msgid " "
 msgstr ""
 
-#: fw/applib/template_string.c:231
+#: fw/applib/template_string.c:230
 msgctxt "TmplStringSep"
 msgid ", "
 msgstr ""
 
 #. / The second separator in `<hour> hours, <minute> minutes, and <second> seconds`
-#: fw/applib/template_string.c:233
+#: fw/applib/template_string.c:232
 msgctxt "TmplStringSep"
 msgid ", and "
 msgstr ""
@@ -245,215 +245,215 @@ msgstr ""
 #. / Suffixes for days with no units
 #. / Suffixes for months with no units
 #. / Suffixes for years with no units
-#: fw/applib/template_string.c:306 fw/applib/template_string.c:318
-#: fw/applib/template_string.c:330 fw/applib/template_string.c:342
-#: fw/applib/template_string.c:355 fw/applib/template_string.c:369
+#: fw/applib/template_string.c:305 fw/applib/template_string.c:317
+#: fw/applib/template_string.c:329 fw/applib/template_string.c:341
+#: fw/applib/template_string.c:354 fw/applib/template_string.c:368
 msgctxt "TmplStringSing"
 msgid ""
 msgstr ""
 
-#: fw/applib/template_string.c:306 fw/applib/template_string.c:318
-#: fw/applib/template_string.c:330 fw/applib/template_string.c:342
-#: fw/applib/template_string.c:355 fw/applib/template_string.c:369
+#: fw/applib/template_string.c:305 fw/applib/template_string.c:317
+#: fw/applib/template_string.c:329 fw/applib/template_string.c:341
+#: fw/applib/template_string.c:354 fw/applib/template_string.c:368
 msgctxt "TmplStringPlur"
 msgid ""
 msgstr ""
 
-#: fw/applib/template_string.c:307 fw/applib/template_string.c:319
-#: fw/applib/template_string.c:331 fw/applib/template_string.c:343
-#: fw/applib/template_string.c:356 fw/applib/template_string.c:370
+#: fw/applib/template_string.c:306 fw/applib/template_string.c:318
+#: fw/applib/template_string.c:330 fw/applib/template_string.c:342
+#: fw/applib/template_string.c:355 fw/applib/template_string.c:369
 msgctxt "TmplStringMany"
 msgid ""
 msgstr ""
 
 #. / Suffixes for seconds with abbreviated units
-#: fw/applib/template_string.c:309
+#: fw/applib/template_string.c:308
 msgctxt "TmplStringSing"
 msgid " sec"
 msgstr ""
 
-#: fw/applib/template_string.c:309
+#: fw/applib/template_string.c:308
 msgctxt "TmplStringPlur"
 msgid " sec"
 msgstr ""
 
-#: fw/applib/template_string.c:310
+#: fw/applib/template_string.c:309
 msgctxt "TmplStringMany"
 msgid " sec"
 msgstr ""
 
 #. / Suffixes for seconds with full units
-#: fw/applib/template_string.c:312
+#: fw/applib/template_string.c:311
 msgctxt "TmplStringSing"
 msgid " second"
 msgstr ""
 
-#: fw/applib/template_string.c:312
+#: fw/applib/template_string.c:311
 msgctxt "TmplStringPlur"
 msgid " seconds"
 msgstr ""
 
-#: fw/applib/template_string.c:313
+#: fw/applib/template_string.c:312
 msgctxt "TmplStringMany"
 msgid " seconds"
 msgstr ""
 
 #. / Suffixes for minutes with abbreviated units
-#: fw/applib/template_string.c:321
+#: fw/applib/template_string.c:320
 msgctxt "TmplStringSing"
 msgid " min"
 msgstr ""
 
-#: fw/applib/template_string.c:321
+#: fw/applib/template_string.c:320
 msgctxt "TmplStringPlur"
 msgid " min"
 msgstr ""
 
-#: fw/applib/template_string.c:322
+#: fw/applib/template_string.c:321
 msgctxt "TmplStringMany"
 msgid " min"
 msgstr ""
 
 #. / Suffixes for minutes with full units
-#: fw/applib/template_string.c:324
+#: fw/applib/template_string.c:323
 msgctxt "TmplStringSing"
 msgid " minute"
 msgstr ""
 
-#: fw/applib/template_string.c:324
+#: fw/applib/template_string.c:323
 msgctxt "TmplStringPlur"
 msgid " minutes"
 msgstr ""
 
-#: fw/applib/template_string.c:325
+#: fw/applib/template_string.c:324
 msgctxt "TmplStringMany"
 msgid " minutes"
 msgstr ""
 
 #. / Suffixes for hours with abbreviated units
-#: fw/applib/template_string.c:333
+#: fw/applib/template_string.c:332
 msgctxt "TmplStringSing"
 msgid " hr"
 msgstr ""
 
-#: fw/applib/template_string.c:333
+#: fw/applib/template_string.c:332
 msgctxt "TmplStringPlur"
 msgid " hr"
 msgstr ""
 
-#: fw/applib/template_string.c:334
+#: fw/applib/template_string.c:333
 msgctxt "TmplStringMany"
 msgid " hr"
 msgstr ""
 
 #. / Suffixes for hours with full units
-#: fw/applib/template_string.c:336
+#: fw/applib/template_string.c:335
 msgctxt "TmplStringSing"
 msgid " hour"
 msgstr ""
 
-#: fw/applib/template_string.c:336
+#: fw/applib/template_string.c:335
 msgctxt "TmplStringPlur"
 msgid " hours"
 msgstr ""
 
-#: fw/applib/template_string.c:337
+#: fw/applib/template_string.c:336
 msgctxt "TmplStringMany"
 msgid " hours"
 msgstr ""
 
 #. / Suffixes for days with abbreviated units
-#: fw/applib/template_string.c:345
+#: fw/applib/template_string.c:344
 msgctxt "TmplStringSing"
 msgid " d"
 msgstr ""
 
-#: fw/applib/template_string.c:345
+#: fw/applib/template_string.c:344
 msgctxt "TmplStringPlur"
 msgid " d"
 msgstr ""
 
-#: fw/applib/template_string.c:346
+#: fw/applib/template_string.c:345
 msgctxt "TmplStringMany"
 msgid " d"
 msgstr ""
 
 #. / Suffixes for days with full units
-#: fw/applib/template_string.c:348
+#: fw/applib/template_string.c:347
 msgctxt "TmplStringSing"
 msgid " day"
 msgstr ""
 
-#: fw/applib/template_string.c:348
+#: fw/applib/template_string.c:347
 msgctxt "TmplStringPlur"
 msgid " days"
 msgstr ""
 
-#: fw/applib/template_string.c:349
+#: fw/applib/template_string.c:348
 msgctxt "TmplStringMany"
 msgid " days"
 msgstr ""
 
 #. / Suffixes for months with abbreviated units
-#: fw/applib/template_string.c:358
+#: fw/applib/template_string.c:357
 msgctxt "TmplStringSing"
 msgid " mo"
 msgstr ""
 
-#: fw/applib/template_string.c:358
+#: fw/applib/template_string.c:357
 msgctxt "TmplStringPlur"
 msgid " mo"
 msgstr ""
 
-#: fw/applib/template_string.c:359
+#: fw/applib/template_string.c:358
 msgctxt "TmplStringMany"
 msgid " mo"
 msgstr ""
 
 #. / Suffixes for months with full units
-#: fw/applib/template_string.c:361
+#: fw/applib/template_string.c:360
 msgctxt "TmplStringSing"
 msgid " month"
 msgstr ""
 
-#: fw/applib/template_string.c:361
+#: fw/applib/template_string.c:360
 msgctxt "TmplStringPlur"
 msgid " months"
 msgstr ""
 
-#: fw/applib/template_string.c:362
+#: fw/applib/template_string.c:361
 msgctxt "TmplStringMany"
 msgid " months"
 msgstr ""
 
 #. / Suffixes for years with abbreviated units
-#: fw/applib/template_string.c:372
+#: fw/applib/template_string.c:371
 msgctxt "TmplStringSing"
 msgid " yr"
 msgstr ""
 
-#: fw/applib/template_string.c:372
+#: fw/applib/template_string.c:371
 msgctxt "TmplStringPlur"
 msgid " yr"
 msgstr ""
 
-#: fw/applib/template_string.c:373
+#: fw/applib/template_string.c:372
 msgctxt "TmplStringMany"
 msgid " yr"
 msgstr ""
 
 #. / Suffixes for years with full units
-#: fw/applib/template_string.c:375
+#: fw/applib/template_string.c:374
 msgctxt "TmplStringSing"
 msgid " year"
 msgstr ""
 
-#: fw/applib/template_string.c:375
+#: fw/applib/template_string.c:374
 msgctxt "TmplStringPlur"
 msgid " years"
 msgstr ""
 
-#: fw/applib/template_string.c:376
+#: fw/applib/template_string.c:375
 msgctxt "TmplStringMany"
 msgid " years"
 msgstr ""
@@ -614,7 +614,7 @@ msgstr ""
 msgid "Basic Alarm"
 msgstr ""
 
-#: fw/apps/system/alarms/alarm_editor.c:261 fw/apps/system/alarms/alarms.c:348
+#: fw/apps/system/alarms/alarm_editor.c:261 fw/apps/system/alarms/alarms.c:349
 #: fw/services/alarms/alarm.c:459 fw/services/alarms/alarm_pin.c:75
 msgid "Smart Alarm"
 msgstr ""
@@ -627,22 +627,22 @@ msgstr ""
 msgid "Limit reached."
 msgstr ""
 
-#: fw/apps/system/alarms/alarms.c:273
+#: fw/apps/system/alarms/alarms.c:274
 msgid "ON"
 msgstr ""
 
-#: fw/apps/system/alarms/alarms.c:273
+#: fw/apps/system/alarms/alarms.c:274
 msgid "OFF"
 msgstr ""
 
-#: fw/apps/system/alarms/alarms.c:345
+#: fw/apps/system/alarms/alarms.c:346
 msgid ""
 "Let us wake you in your lightest sleep so you're fully refreshed! Smart "
 "Alarm wakes you up to 30min before your alarm."
 msgstr ""
 
-#: fw/apps/system/alarms/alarms.c:473
-#: fw/apps/system/settings/vibe_patterns.c:92
+#: fw/apps/system/alarms/alarms.c:474
+#: fw/apps/system/settings/vibe_patterns.c:93
 #: fw/services/timeline/timeline.c:939
 msgid "Alarms"
 msgstr ""
@@ -778,7 +778,7 @@ msgstr ""
 msgid "DEEP SLEEP"
 msgstr ""
 
-#: fw/apps/system/health/sleep_summary_card.c:213
+#: fw/apps/system/health/sleep_summary_card.c:214
 msgid ""
 "No sleep data,\n"
 "wear your watch\n"
@@ -807,48 +807,48 @@ msgstr ""
 msgid "%i°"
 msgstr ""
 
-#: fw/apps/system/music.c:885
+#: fw/apps/system/music.c:887
 msgid ""
 "START PLAYBACK\n"
 "ON YOUR PHONE"
 msgstr ""
 
-#: fw/apps/system/music.c:1804
+#: fw/apps/system/music.c:1809
 msgid "Music"
 msgstr ""
 
-#: fw/apps/system/notifications.c:406
+#: fw/apps/system/notifications.c:407
 msgid "Done"
 msgstr ""
 
-#: fw/apps/system/notifications.c:432
+#: fw/apps/system/notifications.c:433
 msgid "Clear history?"
 msgstr ""
 
 #. / Notification sender followed by the number of grouped notifications
-#: fw/apps/system/notifications.c:692
+#: fw/apps/system/notifications.c:693
 #, c-format
 msgid "%s (%u)"
 msgstr ""
 
-#: fw/apps/system/notifications.c:731 fw/apps/system/notifications.c:738
+#: fw/apps/system/notifications.c:732 fw/apps/system/notifications.c:739
 msgid "Clear All"
 msgstr ""
 
-#: fw/apps/system/notifications.c:989
+#: fw/apps/system/notifications.c:990
 msgid "No notifications"
 msgstr ""
 
-#: fw/apps/system/notifications.c:1098
+#: fw/apps/system/notifications.c:1099
 #: fw/apps/system/settings/notifications.c:491
 #: fw/apps/system/settings/quiet_time.c:368
 #: fw/apps/system/settings/quiet_time.c:447
-#: fw/apps/system/settings/vibe_patterns.c:82
+#: fw/apps/system/settings/vibe_patterns.c:83
 #: fw/services/timeline/timeline.c:923
 msgid "Notifications"
 msgstr ""
 
-#: fw/apps/system/notifications.c:1112
+#: fw/apps/system/notifications.c:1113
 msgid "Clear Notification History"
 msgstr ""
 
@@ -932,43 +932,43 @@ msgstr ""
 msgid "%u Paired Phone"
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:344
+#: fw/apps/system/settings/bluetooth.c:345
 msgid "Connected"
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:359
+#: fw/apps/system/settings/bluetooth.c:360
 msgid "Sharing Heart Rate ❤"
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:384
+#: fw/apps/system/settings/bluetooth.c:385
 msgid "Forget this device to pair a new device."
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:387
+#: fw/apps/system/settings/bluetooth.c:388
 msgid "Disable Airplane Mode to connect."
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:389
+#: fw/apps/system/settings/bluetooth.c:390
 msgid "Open the Pebble app on your phone to connect."
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:464
+#: fw/apps/system/settings/bluetooth.c:465
 msgid "Connection"
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:468
+#: fw/apps/system/settings/bluetooth.c:469
 msgid "Airplane Mode"
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:478
+#: fw/apps/system/settings/bluetooth.c:479
 msgid "Disabling..."
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:479
+#: fw/apps/system/settings/bluetooth.c:480
 msgid "Enabling..."
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:632
+#: fw/apps/system/settings/bluetooth.c:633
 msgid "Bluetooth"
 msgstr ""
 
@@ -979,27 +979,27 @@ msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / on a custom choice of days. Respect capitalization!
-#: fw/apps/system/settings/display.c:42 fw/services/alarms/alarm.c:1461
+#: fw/apps/system/settings/display.c:41 fw/services/alarms/alarm.c:1461
 msgid "Custom"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:55 fw/apps/system/settings/display.c:681
+#: fw/apps/system/settings/display.c:54 fw/apps/system/settings/display.c:680
 #: fw/apps/system/settings/system.c:209
 msgid "Language"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:64
+#: fw/apps/system/settings/display.c:63
 #: fw/apps/system/settings/notifications.c:108
 msgid "Smaller"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:65
+#: fw/apps/system/settings/display.c:64
 #: fw/apps/system/settings/notifications.c:109
 msgctxt "TextSize"
 msgid "Default"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:66
+#: fw/apps/system/settings/display.c:65
 #: fw/apps/system/settings/notifications.c:110
 msgid "Larger"
 msgstr ""
@@ -1008,183 +1008,183 @@ msgstr ""
 #. / String within Settings->Display that describes the text font size
 #. / The option in the Settings app for choosing the text size of notifications.
 #. / String within Settings->Notifications that describes the text font size
-#: fw/apps/system/settings/display.c:79 fw/apps/system/settings/display.c:674
+#: fw/apps/system/settings/display.c:78 fw/apps/system/settings/display.c:673
 #: fw/apps/system/settings/notifications.c:134
 #: fw/apps/system/settings/notifications.c:352
 msgid "Text Size"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:93 fw/apps/system/settings/system.c:441
+#: fw/apps/system/settings/display.c:92 fw/apps/system/settings/system.c:441
 msgid "Low"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:93 fw/apps/system/settings/system.c:442
+#: fw/apps/system/settings/display.c:92 fw/apps/system/settings/system.c:442
 msgid "Medium"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:93 fw/apps/system/settings/system.c:443
+#: fw/apps/system/settings/display.c:92 fw/apps/system/settings/system.c:443
 msgid "High"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:93
+#: fw/apps/system/settings/display.c:92
 msgid "Blinding"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:128
+#: fw/apps/system/settings/display.c:127
 msgid "INTENSITY"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:128 fw/apps/system/settings/display.c:456
-#: fw/apps/system/settings/display.c:458
+#: fw/apps/system/settings/display.c:127 fw/apps/system/settings/display.c:455
+#: fw/apps/system/settings/display.c:457
 msgid "Intensity"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:138
+#: fw/apps/system/settings/display.c:137
 msgctxt "Orientation"
 msgid "Default"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:139
+#: fw/apps/system/settings/display.c:138
 msgid "Left-Handed"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:164 fw/apps/system/settings/display.c:668
+#: fw/apps/system/settings/display.c:163 fw/apps/system/settings/display.c:667
 msgid "Orientation"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:177
+#: fw/apps/system/settings/display.c:176
 msgid "3 Seconds"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:177
+#: fw/apps/system/settings/display.c:176
 msgid "5 Seconds"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:177
+#: fw/apps/system/settings/display.c:176
 msgid "8 Seconds"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:200
+#: fw/apps/system/settings/display.c:199
 msgid "TIMEOUT"
 msgstr ""
 
 #. / Status bar title for the Notification Window Timeout settings screen
 #. / String within Settings->Notifications that describes the window timeout setting
-#: fw/apps/system/settings/display.c:200 fw/apps/system/settings/display.c:463
+#: fw/apps/system/settings/display.c:199 fw/apps/system/settings/display.c:462
 #: fw/apps/system/settings/notifications.c:193
 #: fw/apps/system/settings/notifications.c:357
 msgid "Timeout"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:210 fw/services/vibes/vibes.def:19
+#: fw/apps/system/settings/display.c:209 fw/services/vibes/vibes.def:19
 msgid "Double Tap"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:211
+#: fw/apps/system/settings/display.c:210
 msgid "Tap"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:212
+#: fw/apps/system/settings/display.c:211
 msgctxt "TouchWake"
 msgid "Off"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:225
+#: fw/apps/system/settings/display.c:224
 msgid "WAKE ON TOUCH"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:225 fw/apps/system/settings/display.c:432
+#: fw/apps/system/settings/display.c:224 fw/apps/system/settings/display.c:431
 msgid "Wake on touch"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:236
+#: fw/apps/system/settings/display.c:235
 msgctxt "DynBacklight"
 msgid "Off"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:237
+#: fw/apps/system/settings/display.c:236
 msgid "Bright"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:238 fw/apps/system/settings/display.c:264
+#: fw/apps/system/settings/display.c:237 fw/apps/system/settings/display.c:263
 msgid "Standard"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:239
+#: fw/apps/system/settings/display.c:238
 msgid "Dim"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:253
+#: fw/apps/system/settings/display.c:252
 msgid "DYNAMIC BACKLIGHT"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:253 fw/apps/system/settings/display.c:449
+#: fw/apps/system/settings/display.c:252 fw/apps/system/settings/display.c:448
 msgid "Dynamic Backlight"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:263
+#: fw/apps/system/settings/display.c:262
 msgid "Max Brightness"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:265
+#: fw/apps/system/settings/display.c:264
 msgid "Battery Saver"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:266
+#: fw/apps/system/settings/display.c:265
 msgid "Advanced"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:286
+#: fw/apps/system/settings/display.c:285
 msgid "BACKLIGHT"
 msgstr ""
 
 #. / String within Settings->Notifications that describes backlight setting
-#: fw/apps/system/settings/display.c:286 fw/apps/system/settings/display.c:408
-#: fw/apps/system/settings/display.c:649
+#: fw/apps/system/settings/display.c:285 fw/apps/system/settings/display.c:407
+#: fw/apps/system/settings/display.c:648
 #: fw/apps/system/settings/notifications.c:377
 #: fw/apps/system/settings/quiet_time.c:413
 #: fw/apps/system/settings/quiet_time.c:451
 msgid "Backlight"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:296
+#: fw/apps/system/settings/display.c:295
 msgid "Centered"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:296
+#: fw/apps/system/settings/display.c:295
 msgid "Scaled (Nearest)"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:296
+#: fw/apps/system/settings/display.c:295
 msgid "Scaled (Bilinear)"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:309
+#: fw/apps/system/settings/display.c:308
 msgid "Legacy App Display"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:414
+#: fw/apps/system/settings/display.c:413
 #, c-format
 msgid "On - %d%%"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:417 fw/apps/system/settings/display.c:420
+#: fw/apps/system/settings/display.c:416 fw/apps/system/settings/display.c:419
 msgctxt "DeviceState"
 msgid "On"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:423 fw/apps/system/settings/display.c:444
-#: fw/apps/system/settings/display.c:651
+#: fw/apps/system/settings/display.c:422 fw/apps/system/settings/display.c:443
+#: fw/apps/system/settings/display.c:650
 msgctxt "DeviceState"
 msgid "Off"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:427
+#: fw/apps/system/settings/display.c:426
 msgid "Wake on motion"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:428 fw/apps/system/settings/display.c:659
-#: fw/apps/system/settings/display.c:663 fw/apps/system/settings/health.c:149
+#: fw/apps/system/settings/display.c:427 fw/apps/system/settings/display.c:658
+#: fw/apps/system/settings/display.c:662 fw/apps/system/settings/health.c:149
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
 #: fw/apps/system/settings/health.c:194
 #: fw/apps/system/settings/notifications.c:379
@@ -1199,8 +1199,8 @@ msgid "On"
 msgstr ""
 
 #. / Shows up in the Timeline settings as the status under the "Quick View" toggle.
-#: fw/apps/system/settings/display.c:428 fw/apps/system/settings/display.c:659
-#: fw/apps/system/settings/display.c:663 fw/apps/system/settings/health.c:149
+#: fw/apps/system/settings/display.c:427 fw/apps/system/settings/display.c:658
+#: fw/apps/system/settings/display.c:662 fw/apps/system/settings/health.c:149
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
 #: fw/apps/system/settings/health.c:195
 #: fw/apps/system/settings/notifications.c:379
@@ -1215,41 +1215,41 @@ msgstr ""
 msgid "Off"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:437
+#: fw/apps/system/settings/display.c:436
 msgid "Ambient Sensor"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:440
+#: fw/apps/system/settings/display.c:439
 #, c-format
 msgid "On (%d)"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:455
+#: fw/apps/system/settings/display.c:454
 msgid "Max Intensity"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:544 fw/apps/system/settings/display.c:654
+#: fw/apps/system/settings/display.c:543 fw/apps/system/settings/display.c:653
 msgid "Backlight Settings"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:658
+#: fw/apps/system/settings/display.c:657
 #: fw/apps/system/settings/quiet_time.c:363
 msgid "Touch"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:662
+#: fw/apps/system/settings/display.c:661
 msgid "Touch Navigation"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:686
+#: fw/apps/system/settings/display.c:685
 msgid "Legacy Apps"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:728
+#: fw/apps/system/settings/display.c:727
 msgid "Display"
 msgstr ""
 
-#: fw/apps/system/settings/factory_reset.c:110
+#: fw/apps/system/settings/factory_reset.c:111
 msgid "Perform factory reset?"
 msgstr ""
 
@@ -1595,7 +1595,7 @@ msgid "Settings"
 msgstr ""
 
 #: fw/apps/system/settings/speaker_volume_window.c:56
-#: fw/apps/system/settings/vibe_patterns.c:74
+#: fw/apps/system/settings/vibe_patterns.c:75
 msgid "Volume"
 msgstr ""
 
@@ -1777,7 +1777,7 @@ msgstr ""
 
 #. / Refers to the class of all non-score vibes, e.g. 3rd party app vibes
 #: fw/apps/system/settings/system.c:1361
-#: fw/apps/system/settings/vibe_patterns.c:108
+#: fw/apps/system/settings/vibe_patterns.c:109
 msgid "System"
 msgstr ""
 
@@ -1903,23 +1903,23 @@ msgstr ""
 msgid "Timeline"
 msgstr ""
 
-#: fw/apps/system/settings/vibe_patterns.c:87
+#: fw/apps/system/settings/vibe_patterns.c:88
 msgid "Incoming Calls"
 msgstr ""
 
-#: fw/apps/system/settings/vibe_patterns.c:97
+#: fw/apps/system/settings/vibe_patterns.c:98
 msgid "Hourly Notice"
 msgstr ""
 
-#: fw/apps/system/settings/vibe_patterns.c:102
+#: fw/apps/system/settings/vibe_patterns.c:103
 msgid "On Disconnect"
 msgstr ""
 
-#: fw/apps/system/settings/vibe_patterns.c:284
+#: fw/apps/system/settings/vibe_patterns.c:285
 msgid "Sounds & Haptics"
 msgstr ""
 
-#: fw/apps/system/settings/vibe_patterns.c:286
+#: fw/apps/system/settings/vibe_patterns.c:287
 msgid "Vibrations"
 msgstr ""
 
@@ -2123,7 +2123,7 @@ msgstr ""
 #: fw/apps/system/weather/globe_view.c:2172
 #: fw/apps/system/weather/globe_view.c:3700
 #: fw/apps/system/weather/globe_view.c:3754
-#: fw/apps/system/weather/saved_locations.c:161
+#: fw/apps/system/weather/saved_locations.c:162
 msgid "Current Location"
 msgstr ""
 
@@ -2141,11 +2141,11 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
-#: fw/apps/system/weather/saved_locations.c:242
+#: fw/apps/system/weather/saved_locations.c:243
 msgid "No Locations"
 msgstr ""
 
-#: fw/apps/system/weather/saved_locations.c:243
+#: fw/apps/system/weather/saved_locations.c:244
 msgid "Add them in the app"
 msgstr ""
 
@@ -2182,7 +2182,7 @@ msgid "Rain & Snow"
 msgstr ""
 
 #: fw/apps/system/weather/weather.c:139 fw/services/clock/service.c:723
-#: fw/services/timeline/timeline_actions.c:1056
+#: fw/services/timeline/timeline_actions.c:1057
 msgid "Tomorrow"
 msgstr ""
 
@@ -2723,7 +2723,7 @@ msgstr ""
 msgid "While your Pebble was off wakeup events occurred for:\n"
 msgstr ""
 
-#: fw/process_management/app_manager.c:491
+#: fw/process_management/app_manager.c:490
 #, c-format
 msgid "%.*s is not responding"
 msgstr ""
@@ -3562,11 +3562,11 @@ msgid ""
 "System Notifications."
 msgstr ""
 
-#: fw/services/notifications/do_not_disturb.c:115
+#: fw/services/notifications/do_not_disturb.c:113
 msgid "Calendar Aware enables Quiet Time automatically during calendar events."
 msgstr ""
 
-#: fw/services/notifications/do_not_disturb.c:123
+#: fw/services/notifications/do_not_disturb.c:121
 msgid ""
 "Press and hold the Back button from a notification to turn Quiet Time on or "
 "off."
@@ -3644,53 +3644,53 @@ msgstr ""
 msgid "Intercom"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:713
+#: fw/services/timeline/timeline_actions.c:714
 msgid ""
 "Quickly dismiss all notifications by holding the Select button for 2 seconds "
 "from any incoming notification."
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:801
+#: fw/services/timeline/timeline_actions.c:802
 msgid "Ok"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:802
+#: fw/services/timeline/timeline_actions.c:803
 msgid "Yes"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:803
+#: fw/services/timeline/timeline_actions.c:804
 msgid "No"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:804
+#: fw/services/timeline/timeline_actions.c:805
 msgid "Call me"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:805
+#: fw/services/timeline/timeline_actions.c:806
 msgid "Call you later"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:930
+#: fw/services/timeline/timeline_actions.c:931
 msgid "Reply with Voice"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:930
+#: fw/services/timeline/timeline_actions.c:931
 msgid "Voice"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:940
+#: fw/services/timeline/timeline_actions.c:941
 msgid "Canned messages"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:944
+#: fw/services/timeline/timeline_actions.c:945
 msgid "Emoji"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:1048
+#: fw/services/timeline/timeline_actions.c:1049
 msgid "In 15 minutes"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:1052
+#: fw/services/timeline/timeline_actions.c:1053
 msgid "Later today"
 msgstr ""
 
