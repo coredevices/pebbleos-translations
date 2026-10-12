@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-10-12 14:08+0000\n"
+"PO-Revision-Date: 2026-10-12 18:18+0000\n"
 "Last-Translator: Rhialto <rhialto@gmail.com>\n"
 "Language-Team: French (Canada) <https://translate.repebble.com/projects/"
 "pebbleos/watch/fr_CA/>\n"
@@ -41,7 +41,7 @@ msgstr "Avr"
 #: fw/applib/pbl_std/timelocal.c:40
 msgctxt "MonthAbbr"
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 #: fw/applib/pbl_std/timelocal.c:40
 msgctxt "MonthAbbr"
@@ -462,7 +462,7 @@ msgstr " ans"
 
 #: fw/applib/ui/day_picker.c:235
 msgid "Check something first."
-msgstr ""
+msgstr "Sélectionnez d’abord quelque chose."
 
 #: fw/applib/ui/dialogs/bt_conn_dialog.c:96
 msgid "Check bluetooth connection"
@@ -521,11 +521,11 @@ msgstr ""
 #: fw/apps/system/alarms/alarm_detail.c:62
 #, c-format
 msgid "Snooze delay set to %d minutes"
-msgstr ""
+msgstr "Délai de répétition réglé sur %d minutes"
 
 #: fw/apps/system/alarms/alarm_detail.c:273
 msgid "Delete"
-msgstr ""
+msgstr "Supprimer"
 
 #: fw/apps/system/alarms/alarm_detail.c:278
 #: fw/apps/system/settings/quiet_time.c:205
@@ -540,11 +540,11 @@ msgstr ""
 #: fw/apps/system/alarms/alarm_detail.c:283
 #: fw/apps/system/alarms/alarm_editor.c:163
 msgid "Change Time"
-msgstr ""
+msgstr "Modifier l'heure"
 
 #: fw/apps/system/alarms/alarm_detail.c:288
 msgid "Change Days"
-msgstr ""
+msgstr "Modifier le jour"
 
 #: fw/apps/system/alarms/alarm_detail.c:293
 msgid "Convert to Basic Alarm"
@@ -556,7 +556,7 @@ msgstr "Convertir en alarme intelligente"
 
 #: fw/apps/system/alarms/alarm_detail.c:300
 msgid "Sound"
-msgstr ""
+msgstr "Sonnerie"
 
 #: fw/apps/system/alarms/alarm_detail.c:306
 msgid "Vibration: On"
@@ -623,11 +623,11 @@ msgstr "Alarme intelligente"
 
 #: fw/apps/system/alarms/alarms.c:115
 msgid "Alarm Deleted"
-msgstr ""
+msgstr "Alarme supprimée"
 
 #: fw/apps/system/alarms/alarms.c:230
 msgid "Limit reached."
-msgstr ""
+msgstr "Limite atteinte."
 
 #: fw/apps/system/alarms/alarms.c:273
 msgid "ON"
@@ -642,6 +642,8 @@ msgid ""
 "Let us wake you in your lightest sleep so you're fully refreshed! Smart "
 "Alarm wakes you up to 30min before your alarm."
 msgstr ""
+"Le Réveil Intelligent vous réveille jusqu'à 30 minutes avant votre heure "
+"d'alarme, soit pendant votre sommeil le plus léger."
 
 #: fw/apps/system/alarms/alarms.c:473
 #: fw/apps/system/settings/vibe_patterns.c:92
@@ -651,17 +653,19 @@ msgstr "Réveil-matin"
 
 #: fw/apps/system/app_fetch_ui.c:110
 msgid "Not connected"
-msgstr ""
+msgstr "Non connecté"
 
 #: fw/apps/system/app_fetch_ui.c:122
 msgid ""
 "No internet\n"
 "connection"
 msgstr ""
+"Aucune connexion\n"
+"à internet"
 
 #: fw/apps/system/app_fetch_ui.c:130
 msgid "Incompatible JS"
-msgstr ""
+msgstr "JS incompatible"
 
 #: fw/apps/system/app_fetch_ui.c:139
 #: fw/services/timeline/timeline_actions.c:265
@@ -670,7 +674,7 @@ msgstr ""
 
 #: fw/apps/system/health/activity_detail_card.c:36
 msgid "kcal"
-msgstr ""
+msgstr "kcal"
 
 #: fw/apps/system/health/activity_detail_card.c:46
 #: fw/services/activity/activity_insights.c:1624
@@ -685,7 +689,7 @@ msgstr "km"
 #: fw/apps/system/health/activity_detail_card.c:59
 #: fw/apps/system/health/sleep_detail_card.c:68
 msgid "30 DAY AVG"
-msgstr ""
+msgstr "MOY 30 JOURS"
 
 #: fw/apps/system/health/activity_detail_card.c:86
 msgid "CALORIES"
@@ -748,22 +752,22 @@ msgstr "Bien-Être"
 #: fw/apps/system/health/hr_detail_card.c:68
 #: fw/services/activity/activity_insights.c:1729
 msgid "Fat Burn"
-msgstr ""
+msgstr "Perte de gras"
 
 #: fw/apps/system/health/hr_detail_card.c:71
 #: fw/services/activity/activity_insights.c:1736
 msgid "Endurance"
-msgstr ""
+msgstr "Endurence"
 
 #: fw/apps/system/health/hr_detail_card.c:74
 #: fw/services/activity/activity_insights.c:1743
 msgid "Performance"
-msgstr ""
+msgstr "Performance"
 
 #. / Resting HR
 #: fw/apps/system/health/hr_detail_card.c:80
 msgid "TIME IN ZONES"
-msgstr ""
+msgstr "Temps en zone"
 
 #: fw/apps/system/health/hr_summary_card.c:113
 msgid "BPM"
@@ -823,8 +827,7 @@ msgid ""
 "START PLAYBACK\n"
 "ON YOUR PHONE"
 msgstr ""
-"COMMENCER\n"
-"LA LECTURE\n"
+"COMMENCER LA LECTURE\n"
 "SUR LE TÉLÉPHONE"
 
 #: fw/apps/system/music.c:1804
@@ -833,7 +836,7 @@ msgstr "Musique"
 
 #: fw/apps/system/notifications.c:406
 msgid "Done"
-msgstr ""
+msgstr "Fait"
 
 #: fw/apps/system/notifications.c:432
 msgid "Clear history?"
@@ -843,7 +846,7 @@ msgstr "Effacer l'historique?"
 #: fw/apps/system/notifications.c:692
 #, c-format
 msgid "%s (%u)"
-msgstr ""
+msgstr "%s (%u)"
 
 #: fw/apps/system/notifications.c:731 fw/apps/system/notifications.c:738
 msgid "Clear All"
@@ -876,7 +879,7 @@ msgstr "Fait"
 
 #: fw/apps/system/reminders/reminder.c:59
 msgid "Postpone"
-msgstr ""
+msgstr "Remettre à plus tard"
 
 #: fw/apps/system/reminders/reminder.c:63
 #: fw/services/activity/activity_insights.c:442
@@ -886,7 +889,7 @@ msgstr ""
 
 #: fw/apps/system/reminders/reminder.c:113
 msgid "Added"
-msgstr ""
+msgstr "Ajouté"
 
 #: fw/apps/system/reminders/reminder.c:299
 msgid "Reminder"
@@ -900,17 +903,19 @@ msgstr ""
 #: fw/apps/system/send_text/send_text.c:253
 #: fw/apps/system/send_text/send_text.c:335
 msgid "Select Contact"
-msgstr ""
+msgstr "Sélectionner un contact"
 
 #: fw/apps/system/send_text/send_text.c:349
 msgid ""
 "Add contacts in\n"
 "mobile app"
 msgstr ""
+"Ajouter des contacts\n"
+"dans l'application mobile"
 
 #: fw/apps/system/send_text/send_text.c:383
 msgid "Send Text"
-msgstr ""
+msgstr "Envoyer texto"
 
 #: fw/apps/system/settings/activity_tracker.c:156
 msgid "No background apps"
@@ -989,6 +994,8 @@ msgstr "Bluetooth"
 msgid ""
 "Remember to also forget your Pebble's Bluetooth connection from your phone."
 msgstr ""
+"N'oubliez pas d'effacer aussi la connexion Bluetooth de votre Pebble sur "
+"votre téléphone."
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / on a custom choice of days. Respect capitalization!
@@ -1010,7 +1017,7 @@ msgstr "Petit"
 #: fw/apps/system/settings/notifications.c:109
 msgctxt "TextSize"
 msgid "Default"
-msgstr ""
+msgstr "Original"
 
 #: fw/apps/system/settings/display.c:66
 #: fw/apps/system/settings/notifications.c:110
@@ -1276,7 +1283,7 @@ msgstr "Miles"
 
 #: fw/apps/system/settings/health.c:35
 msgid "5 Minutes"
-msgstr ""
+msgstr "5 minutes"
 
 #. / 10 Minute Notification Window Timeout
 #: fw/apps/system/settings/health.c:35 fw/apps/system/settings/health.c:56
@@ -1304,7 +1311,7 @@ msgstr "Suivi fréq. card. (FC)"
 
 #: fw/apps/system/settings/health.c:122 fw/apps/system/settings/health.c:177
 msgid "Blood Oxygen"
-msgstr ""
+msgstr "Oxygène sanguin"
 
 #: fw/apps/system/settings/health.c:148
 msgid "Health Tracking"
@@ -1320,15 +1327,15 @@ msgstr "FC durant activité"
 
 #: fw/apps/system/settings/health.c:182
 msgid "SpO2 Monitoring"
-msgstr ""
+msgstr "Suivi SpO2"
 
 #: fw/apps/system/settings/health.c:189
 msgid "Blood O2 During Activity"
-msgstr ""
+msgstr "Oxygène sanguin durant l'activité"
 
 #: fw/apps/system/settings/health.c:192
 msgid "Needs HR During Activity"
-msgstr ""
+msgstr "Nécessite la FC durant l'activité"
 
 #: fw/apps/system/settings/notifications.c:60
 msgid "Allow All Notifications"
@@ -1351,7 +1358,7 @@ msgstr "Filtre"
 #. / Notification text size option that follows the system Text Size setting
 #: fw/apps/system/settings/notifications.c:112
 msgid "Same as System"
-msgstr ""
+msgstr "Même que système"
 
 #. / 15 Second Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:151
@@ -1388,12 +1395,12 @@ msgstr "Noir uni"
 #: fw/apps/system/settings/notifications.c:225
 #: fw/apps/system/settings/notifications.c:364
 msgid "Banner Style"
-msgstr ""
+msgstr "Style de bannière"
 
 #. / Vibrate at the beginning of notification animation (immediate)
 #: fw/apps/system/settings/notifications.c:237
 msgid "Beginning"
-msgstr ""
+msgstr "Au début"
 
 #. / Status bar title for the Notification Vibe Timing settings screen
 #. / String within Settings->Notifications that describes when vibration happens
@@ -1409,43 +1416,43 @@ msgstr ""
 
 #: fw/apps/system/settings/notifications.c:268
 msgid "Bold"
-msgstr ""
+msgstr "Gras"
 
 #: fw/apps/system/settings/notifications.c:269
 msgid "Big & Bold"
-msgstr ""
+msgstr "Grand et gras"
 
 #. / Status bar title for the Notification Status Bar Style settings screen
 #: fw/apps/system/settings/notifications.c:291
 msgid "Clock Style"
-msgstr ""
+msgstr "Style du cadran"
 
 #. / Disable notification grouping
 #: fw/apps/system/settings/notifications.c:302
 msgid "Never"
-msgstr ""
+msgstr "Jamais"
 
 #. / Group notifications received within one day
 #: fw/apps/system/settings/notifications.c:304
 msgid "1 Day"
-msgstr ""
+msgstr "1 journée"
 
 #. / Group notifications received within one week
 #: fw/apps/system/settings/notifications.c:306
 msgid "1 Week"
-msgstr ""
+msgstr "1 semaine"
 
 #. / Group all notifications
 #: fw/apps/system/settings/notifications.c:308
 msgid "All"
-msgstr ""
+msgstr "Toutes"
 
 #. / Title for the notification sender grouping settings screen
 #. / Notification settings item for grouping notifications by sender
 #: fw/apps/system/settings/notifications.c:325
 #: fw/apps/system/settings/notifications.c:384
 msgid "Group by Sender"
-msgstr ""
+msgstr "Grouper par expéditeur"
 
 #. / String within Settings->Notifications that selects the notification status bar style
 #: fw/apps/system/settings/notifications.c:391
@@ -1500,7 +1507,7 @@ msgstr ""
 #: fw/apps/system/settings/quick_launch.c:82
 #: fw/apps/system/settings/quick_launch_app_menu.c:111
 msgid "Unassigned"
-msgstr ""
+msgstr "Non assigné"
 
 #. / Title of the Quick Launch Settings submenu in Settings
 #. / Title for the Quick Launch first use dialog.
@@ -1519,19 +1526,19 @@ msgstr ""
 
 #: fw/apps/system/settings/quiet_time.c:96
 msgid "Quiet All Notifications"
-msgstr ""
+msgstr "Sourdine pour toutes les notifs"
 
 #: fw/apps/system/settings/quiet_time.c:99
 msgid "Allow Phone Calls"
-msgstr ""
+msgstr "Permettre les appels"
 
 #: fw/apps/system/settings/quiet_time.c:221
 msgid "Change Schedule"
-msgstr ""
+msgstr "Modifier l'horaire"
 
 #: fw/apps/system/settings/quiet_time.c:257
 msgid "Calendar Aware"
-msgstr ""
+msgstr "Synchronisé avec le calendrier"
 
 #: fw/apps/system/settings/quiet_time.c:259
 msgctxt "QuietTime"
@@ -1560,37 +1567,37 @@ msgstr "Fins de semaine"
 #: fw/apps/system/settings/quiet_time.c:320
 #: fw/apps/system/settings/quiet_time.c:434
 msgid "Schedule"
-msgstr ""
+msgstr "Horaire"
 
 #: fw/apps/system/settings/quiet_time.c:329
 msgid "On - Auto Dismiss"
-msgstr ""
+msgstr "Activé - Fermeture auto"
 
 #: fw/apps/system/settings/quiet_time.c:331
 msgid "On - Persistent"
-msgstr ""
+msgstr "Activé - Persistant"
 
 #: fw/apps/system/settings/quiet_time.c:364
 msgid "Motion"
-msgstr ""
+msgstr "Mouvement"
 
 #: fw/apps/system/settings/quiet_time.c:429 fw/apps/system/settings/time.c:361
 #: fw/apps/system/settings/time.c:388
 msgid "Manual"
-msgstr ""
+msgstr "Manuel"
 
 #: fw/apps/system/settings/quiet_time.c:437
 msgid "Interruptions"
-msgstr ""
+msgstr "Interruptions"
 
 #: fw/apps/system/settings/quiet_time.c:450
 msgid "Motion Backlight"
-msgstr ""
+msgstr "Rétroéclairage par mouvement"
 
 #: fw/apps/system/settings/quiet_time.c:457
 #: fw/apps/system/settings/vibe_patterns.c:68
 msgid "Mute Speaker"
-msgstr ""
+msgstr "Couper le haut-parleur"
 
 #: fw/apps/system/settings/quiet_time.c:521
 msgid "Quiet Time"
@@ -1598,7 +1605,7 @@ msgstr "Tranquillité"
 
 #: fw/apps/system/settings/remote.c:55
 msgid "You're all set"
-msgstr ""
+msgstr "C'est configuré!"
 
 #: fw/apps/system/settings/remote.c:124
 msgid "Forget"
@@ -1724,15 +1731,15 @@ msgstr ""
 
 #: fw/apps/system/settings/system.c:501
 msgid "SpO2 Test"
-msgstr ""
+msgstr "Test SpO2"
 
 #: fw/apps/system/settings/system.c:521
 msgid "10 back-button presses"
-msgstr ""
+msgstr "10 pressions bouton arrière"
 
 #: fw/apps/system/settings/system.c:537 fw/apps/system/settings/system.c:540
 msgid "Enabled"
-msgstr ""
+msgstr "En fonction"
 
 #: fw/apps/system/settings/system.c:681
 msgid "PebbleOS developers only!"
@@ -1879,17 +1886,17 @@ msgstr "30 min. avant"
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
 #: fw/apps/system/settings/timeline.c:88
 msgid "Overlay"
-msgstr ""
+msgstr "Superposé"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
 #: fw/apps/system/settings/timeline.c:90
 msgid "Shift up"
-msgstr ""
+msgstr "Décaler vers le haut"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
 #: fw/apps/system/settings/timeline.c:92
 msgid "Squish up"
-msgstr ""
+msgstr "Compressé"
 
 #. / Shows up in the Timeline settings as the title for the "Timing" submenu window.
 #. / Shows up in the Timeline settings as the title for the menu item that controls the
@@ -1904,14 +1911,14 @@ msgstr ""
 #: fw/apps/system/settings/timeline.c:154
 #: fw/apps/system/settings/timeline.c:204
 msgid "Unsupported Faces"
-msgstr ""
+msgstr "Cadrans non pris en charge"
 
 #. / Shows up in the Timeline settings as a toggle-able "Quick View" item.
 #. / Title for the Timeline Quick View first use dialog.
 #: fw/apps/system/settings/timeline.c:185
 #: fw/apps/system/settings/timeline.c:266
 msgid "Quick View"
-msgstr ""
+msgstr "Aperçu rapide"
 
 #: fw/apps/system/settings/timeline.c:269
 msgid "Appears on your watchface when an event is about to start."
@@ -1968,18 +1975,22 @@ msgstr "Désactiver mode avion?"
 msgid ""
 "Airplane\n"
 "Mode On"
-msgstr "Mode avion activé"
+msgstr ""
+"Mode avion\n"
+"activé"
 
 #: fw/apps/system/toggle/airplane_mode.c:29
 msgid ""
 "Airplane\n"
 "Mode Off"
-msgstr "Mode avion désactivé"
+msgstr ""
+"Mode avion\n"
+"désactivé"
 
 #. / The Quick Launch action that toggles Airplane Mode.
 #: fw/apps/system/toggle/airplane_mode.c:53
 msgid "Toggle Airplane Mode"
-msgstr ""
+msgstr "Activer/désactiver le mode avion"
 
 #: fw/apps/system/toggle/backlight_state.c:27
 msgid "Turn On Backlight?"
@@ -2000,7 +2011,7 @@ msgstr "Rétroéclairage désactivé"
 #. / The Quick Launch action that toggles the backlight.
 #: fw/apps/system/toggle/backlight_state.c:54
 msgid "Toggle Backlight"
-msgstr ""
+msgstr "Activer/désactiver rétroéclairage"
 
 #: fw/apps/system/toggle/motion_backlight.c:24
 msgid "Turn On Motion Backlight?"
@@ -2014,48 +2025,52 @@ msgstr "Désactiver le rétroéclairage par geste?"
 msgid ""
 "Motion\n"
 "Backlight On"
-msgstr "Rétro-éclairage par geste activé"
+msgstr ""
+"Rétro-éclairage par geste\n"
+"activé"
 
 #: fw/apps/system/toggle/motion_backlight.c:27
 msgid ""
 "Motion\n"
 "Backlight Off"
-msgstr "Rétro-éclairage sur geste désactivé"
+msgstr ""
+"Rétro-éclairage sur geste\n"
+"désactivé"
 
 #. / The Quick Launch action that toggles the motion backlight.
 #: fw/apps/system/toggle/motion_backlight.c:51
 msgid "Toggle Motion Backlight"
-msgstr ""
+msgstr "Activer/désactiver le rétroéclairage par mouvement"
 
 #. / The Quick Launch action that toggles Quiet Time.
 #: fw/apps/system/toggle/quiet_time.c:26
 msgid "Toggle Quiet Time"
-msgstr ""
+msgstr "Activer/désactiver Tranquillité"
 
 #: fw/apps/system/toggle/touch.c:24
 msgid "Turn On Touch?"
-msgstr ""
+msgstr "Activer le tactile?"
 
 #: fw/apps/system/toggle/touch.c:25
 msgid "Turn Off Touch?"
-msgstr ""
+msgstr "Désctiver le tactile?"
 
 #: fw/apps/system/toggle/touch.c:26
 msgid "Touch On"
-msgstr ""
+msgstr "Tactile activé"
 
 #: fw/apps/system/toggle/touch.c:27
 msgid "Touch Off"
-msgstr ""
+msgstr "Tactile déactivé"
 
 #. / The Quick Launch action that turns the touchscreen on or off.
 #: fw/apps/system/toggle/touch.c:51
 msgid "Toggle Touch"
-msgstr ""
+msgstr "Activer/désactiver tactile"
 
 #: fw/apps/system/watchfaces.c:99
 msgid "Active"
-msgstr ""
+msgstr "Activé"
 
 #: fw/apps/system/watchfaces.c:220
 msgid "Watchfaces"
@@ -2133,7 +2148,7 @@ msgstr "PRÉCIPITATIONS"
 #: fw/apps/system/weather/forecast_list.c:2220
 #, no-c-format
 msgid "%a, %b %d"
-msgstr ""
+msgstr "%a, %b %d"
 
 #: fw/apps/system/weather/globe_view.c:2168
 msgid "Saved Location"
@@ -2412,17 +2427,17 @@ msgstr "INDICE UV"
 #. / Zone 1 HR Label
 #: fw/apps/system/workout/active.c:104
 msgid "FAT BURN"
-msgstr ""
+msgstr "PERTE DE GRAS"
 
 #. / Zone 2 HR Label
 #: fw/apps/system/workout/active.c:107
 msgid "ENDURANCE"
-msgstr ""
+msgstr "ENDURANCE"
 
 #. / Zone 3 HR Label
 #: fw/apps/system/workout/active.c:110
 msgid "PERFORMANCE"
-msgstr ""
+msgstr "PERFORMANCE"
 
 #. / Default/Zone 0 HR Label
 #: fw/apps/system/workout/active.c:113
@@ -2535,7 +2550,7 @@ msgstr "Fin de l'exercice"
 
 #: fw/apps/system/workout/utils.c:40
 msgid "Open Workout"
-msgstr ""
+msgstr "Débuter l'exercice"
 
 #. / Workout Label
 #: fw/apps/system/workout/utils.c:93 fw/apps/system/workout/workout.c:258
@@ -2932,7 +2947,7 @@ msgstr "%l:%M%p"
 #: fw/services/activity/activity_insights.c:851
 #, c-format
 msgid "%uH %uM Sleep"
-msgstr ""
+msgstr "Sommeil de %uH %uM"
 
 #: fw/services/activity/activity_insights.c:879
 msgid "Nap Time"
@@ -2945,7 +2960,7 @@ msgstr "%s de sommeil"
 
 #: fw/services/activity/activity_insights.c:892
 msgid "YOU NAPPED"
-msgstr ""
+msgstr "SIESTE"
 
 #: fw/services/activity/activity_insights.c:892
 msgid "Of napping"
@@ -2958,7 +2973,7 @@ msgstr "%s - %s"
 
 #: fw/services/activity/activity_insights.c:921
 msgid "I need more"
-msgstr ""
+msgstr "J'en veux plus"
 
 #: fw/services/activity/activity_insights.c:951
 #, c-format
@@ -3047,7 +3062,7 @@ msgid ""
 "You keep moving, we'll keep counting! You've clocked in %d steps today. Keep "
 "it rolling, hot stuff."
 msgstr ""
-"Vous continuez de bouger, on continue de compter! Vous avez accumulé %d pas "
+"Vous continuez de bouger, je continue de compter! Vous avez accumulé %d pas "
 "aujourd'hui. Ne lâchez pas!"
 
 #: fw/services/activity/activity_insights.c:1320
@@ -3257,7 +3272,7 @@ msgid ""
 "You slept for %dH %dM which is %d%% below your typical. We know stuff "
 "happens; take another crack at it tonight."
 msgstr ""
-"Sommeil de %dH %dM, soit %d%% en dessous de votre moyenne. Ça arrive; on "
+"Sommeil de %dH %dM, soit %d%% en dessous de votre moyenne. Ça arrive, on "
 "reprend ça ce soir!"
 
 #: fw/services/activity/activity_insights.c:1495
@@ -3283,7 +3298,7 @@ msgstr ""
 
 #: fw/services/activity/activity_insights.c:1590
 msgid "Feelin' hot? Cause you're on 🔥"
-msgstr ""
+msgstr "Avez-vous chaud? Car vous êtes en feu 🔥!"
 
 #: fw/services/activity/activity_insights.c:1591
 msgid "Hey lightning bolt, way to go!"
@@ -3291,7 +3306,7 @@ msgstr ""
 
 #: fw/services/activity/activity_insights.c:1592
 msgid "You're a machine!"
-msgstr ""
+msgstr "Vous ête sune machine!"
 
 #: fw/services/activity/activity_insights.c:1593
 msgid "Hey speedster, we can barely keep up!"
@@ -3311,7 +3326,7 @@ msgstr "Bien joué 💪"
 
 #: fw/services/activity/activity_insights.c:1606
 msgid "Endorphin rush?"
-msgstr ""
+msgstr "Un rush d’endorphines?"
 
 #: fw/services/activity/activity_insights.c:1607
 msgid "Can't stop, won't stop 👊"
@@ -3347,7 +3362,7 @@ msgstr ""
 
 #: fw/services/activity/activity_insights.c:1720
 msgid "Avg HR"
-msgstr ""
+msgstr "FC moy"
 
 #: fw/services/activity/health_util.c:30
 #, c-format
@@ -3461,19 +3476,19 @@ msgstr "Modifier"
 
 #: fw/services/alarms/alarm_tones.c:187
 msgid "Reveille"
-msgstr ""
+msgstr "Réveuille"
 
 #: fw/services/alarms/alarm_tones.c:190
 msgid "Beacon"
-msgstr ""
+msgstr "Balise"
 
 #: fw/services/alarms/alarm_tones.c:192
 msgid "Bell"
-msgstr ""
+msgstr "Cloche"
 
 #: fw/services/alarms/alarm_tones.c:194
 msgid "Chime"
-msgstr ""
+msgstr "Carillon"
 
 #: fw/services/clock/service.c:508 fw/services/clock/service.c:793
 msgid "%R"
@@ -3499,7 +3514,7 @@ msgstr "Maintenant"
 
 #: fw/services/clock/service.c:553
 msgid " MIN. TO"
-msgstr ""
+msgstr " MIN. À"
 
 #: fw/services/clock/service.c:721 fw/services/clock/service.c:803
 #: fw/services/clock/service.c:811
@@ -3671,11 +3686,11 @@ msgstr "a envoyé un fichier joint"
 
 #: fw/services/notifications/ancs/ancs_item.c:159
 msgid "Call Back"
-msgstr ""
+msgstr "Rappeler"
 
 #: fw/services/notifications/ancs/ancs_notifications.c:411
 msgid "iPhone Notifications Blocked"
-msgstr ""
+msgstr "Notifications iPhone bloquées"
 
 #: fw/services/notifications/ancs/ancs_notifications.c:414
 msgid ""
@@ -3683,16 +3698,21 @@ msgid ""
 "open Settings > Bluetooth, tap the (i) next to your Pebble and turn on Share "
 "System Notifications."
 msgstr ""
+"Votre iPhone ne partage pas les notifications avec cette montre. Sur votre "
+"iPhone, allez dans Réglages > Bluetooth, appuyez sur le (i) à côté de votre "
+"Pebble et activez Partager les notifications système."
 
 #: fw/services/notifications/do_not_disturb.c:115
 msgid "Calendar Aware enables Quiet Time automatically during calendar events."
-msgstr ""
+msgstr "Active automatiquement le Mode Tranquilité selon le calendrier."
 
 #: fw/services/notifications/do_not_disturb.c:123
 msgid ""
 "Press and hold the Back button from a notification to turn Quiet Time on or "
 "off."
 msgstr ""
+"Maintenez le bouton Retour enfoncé à partir d'une notification pour activer "
+"ou désactiver le Mode Tranquilité."
 
 #: fw/services/notifications/do_not_disturb_toggle.c:29
 msgid "Start Quiet Time?"
@@ -3720,19 +3740,19 @@ msgstr ""
 
 #: fw/services/timeline/calendar_layout.c:171
 msgid " - "
-msgstr ""
+msgstr " - "
 
 #: fw/services/timeline/calendar_layout.c:339
 msgid "All Day"
-msgstr ""
+msgstr "Tous les jours"
 
 #: fw/services/timeline/calendar_layout.c:383
 msgid "Recurring"
-msgstr ""
+msgstr "Périodique"
 
 #: fw/services/timeline/sports_layout.c:61
 msgid "STARTS "
-msgstr ""
+msgstr "DÉBUT "
 
 #: fw/services/timeline/sports_layout.c:149
 msgid "Broadcaster"
@@ -3741,18 +3761,19 @@ msgstr ""
 #: fw/services/timeline/timeline.c:697
 msgid "Can't connect. Relaunch Pebble Time app on phone."
 msgstr ""
+"Connexion impossible. Relancez l'application Pebble Time sur votre téléphone."
 
 #: fw/services/timeline/timeline.c:711
 msgid "Removed"
-msgstr ""
+msgstr "Retiré"
 
 #: fw/services/timeline/timeline.c:723 fw/services/timeline/timeline.c:744
 msgid "Dismissed"
-msgstr ""
+msgstr "Ignoré"
 
 #: fw/services/timeline/timeline.c:748
 msgid "Deleted"
-msgstr ""
+msgstr "Supprimé"
 
 #: fw/services/timeline/timeline.c:777
 msgid "Thanks!"
@@ -3828,28 +3849,28 @@ msgstr ""
 
 #: fw/services/timeline/weather_layout.c:51
 msgid "Sunrise"
-msgstr ""
+msgstr "Lever du soleil"
 
 #: fw/services/timeline/weather_layout.c:53
 msgid "Sunset"
-msgstr ""
+msgstr "Coucher du soleil"
 
 #. / Standard vibration pattern option that has a low intensity
 #: fw/services/vibes/vibe_intensity.c:38 fw/services/vibes/vibes.def:5
 #: fw/services/vibes/vibes.def:6
 msgid "Standard - Low"
-msgstr ""
+msgstr "Standard - Faible"
 
 #. / Standard vibration pattern option that has a medium intensity
 #: fw/services/vibes/vibe_intensity.c:42
 msgid "Standard - Medium"
-msgstr ""
+msgstr "Standard - Moyen"
 
 #. / Standard vibration pattern option that has a high intensity
 #: fw/services/vibes/vibe_intensity.c:46 fw/services/vibes/vibes.def:7
 #: fw/services/vibes/vibes.def:8
 msgid "Standard - High"
-msgstr ""
+msgstr "Standard - Élevé"
 
 #: fw/services/vibes/vibes.def:4
 msgctxt "NotifVibe"
@@ -3858,27 +3879,27 @@ msgstr ""
 
 #: fw/services/vibes/vibes.def:9
 msgid "Pulse"
-msgstr ""
+msgstr "Pulsation"
 
 #: fw/services/vibes/vibes.def:10
 msgid "Nudge Nudge"
-msgstr ""
+msgstr "Toc-Toc"
 
 #: fw/services/vibes/vibes.def:11
 msgid "Jackhammer"
-msgstr ""
+msgstr "Marteau-piqueur"
 
 #: fw/services/vibes/vibes.def:15
 msgid "Gentle"
-msgstr ""
+msgstr "Douce"
 
 #: fw/services/vibes/vibes.def:16
 msgid "Double Pulse Medium"
-msgstr ""
+msgstr "Double pulsation moyenne"
 
 #: fw/services/vibes/vibes.def:17
 msgid "Pebble Morse"
-msgstr ""
+msgstr "Pebble en morse"
 
 #: fw/services/vibes/vibes.def:18
 msgid "Heartbeat"
