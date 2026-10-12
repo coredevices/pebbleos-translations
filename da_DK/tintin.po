@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-26 22:44+0200\n"
-"PO-Revision-Date: 2026-10-11 13:26+0000\n"
+"PO-Revision-Date: 2026-10-12 13:38+0000\n"
 "Last-Translator: Hans Henrik Juhl <hans@kopula.dk>\n"
 "Language-Team: Danish <https://translate.repebble.com/projects/pebbleos/"
 "watch/da/>\n"
@@ -20,85 +20,61 @@ msgstr ""
 "X-Generator: Weblate 2026.9.1\n"
 
 #: fw/applib/pbl_std/timelocal.c:38
-#, fuzzy
-#| msgid "Jan"
 msgctxt "MonthAbbr"
 msgid "Jan"
 msgstr "Jan"
 
 #: fw/applib/pbl_std/timelocal.c:38
-#, fuzzy
-#| msgid "Feb"
 msgctxt "MonthAbbr"
 msgid "Feb"
 msgstr "Feb"
 
 #: fw/applib/pbl_std/timelocal.c:39
-#, fuzzy
-#| msgid "Mar"
 msgctxt "MonthAbbr"
 msgid "Mar"
 msgstr "Mar"
 
 #: fw/applib/pbl_std/timelocal.c:39
-#, fuzzy
-#| msgid "Apr"
 msgctxt "MonthAbbr"
 msgid "Apr"
 msgstr "Apr"
 
 #: fw/applib/pbl_std/timelocal.c:40
-#, fuzzy
-#| msgid "May"
 msgctxt "MonthAbbr"
 msgid "May"
 msgstr "Maj"
 
 #: fw/applib/pbl_std/timelocal.c:40
-#, fuzzy
-#| msgid "Jun"
 msgctxt "MonthAbbr"
 msgid "Jun"
 msgstr "Jun"
 
 #: fw/applib/pbl_std/timelocal.c:41
-#, fuzzy
-#| msgid "Jul"
 msgctxt "MonthAbbr"
 msgid "Jul"
 msgstr "Jul"
 
 #: fw/applib/pbl_std/timelocal.c:41
-#, fuzzy
-#| msgid "Aug"
 msgctxt "MonthAbbr"
 msgid "Aug"
 msgstr "Aug"
 
 #: fw/applib/pbl_std/timelocal.c:42
-#, fuzzy
-#| msgid "Sep"
 msgctxt "MonthAbbr"
 msgid "Sep"
 msgstr "Sep"
 
 #: fw/applib/pbl_std/timelocal.c:42
-#, fuzzy
-#| msgid "Oct"
 msgctxt "MonthAbbr"
 msgid "Oct"
 msgstr "Okt"
 
 #: fw/applib/pbl_std/timelocal.c:43
-#, fuzzy
-#| msgid "Nov"
 msgctxt "MonthAbbr"
 msgid "Nov"
 msgstr "Nov"
 
 #: fw/applib/pbl_std/timelocal.c:43
-#, fuzzy
-#| msgid "Dec"
 msgctxt "MonthAbbr"
 msgid "Dec"
 msgstr "Dec"
@@ -699,7 +675,7 @@ msgstr "Mislykkedes"
 
 #: fw/apps/system/health/activity_detail_card.c:36
 msgid "kcal"
-msgstr ""
+msgstr "kcal"
 
 #: fw/apps/system/health/activity_detail_card.c:46
 #: fw/services/activity/activity_insights.c:1624
@@ -1300,10 +1276,8 @@ msgid "Miles"
 msgstr "Mil"
 
 #: fw/apps/system/settings/health.c:35
-#, fuzzy
-#| msgid "3 Minutes"
 msgid "5 Minutes"
-msgstr "3 minutter"
+msgstr "5 minutter"
 
 #. / 10 Minute Notification Window Timeout
 #: fw/apps/system/settings/health.c:35 fw/apps/system/settings/health.c:56
@@ -2060,35 +2034,25 @@ msgid "Toggle Quiet Time"
 msgstr "Stilletid"
 
 #: fw/apps/system/toggle/touch.c:24
-#, fuzzy
-#| msgid "Turn On Backlight?"
 msgid "Turn On Touch?"
-msgstr "Tænd baggrundslys?"
+msgstr "Slå berøring til?"
 
 #: fw/apps/system/toggle/touch.c:25
-#, fuzzy
-#| msgid "Turn Off Backlight?"
 msgid "Turn Off Touch?"
-msgstr "Sluk baggrundslys?"
+msgstr "Slå berøring fra?"
 
 #: fw/apps/system/toggle/touch.c:26
-#, fuzzy
-#| msgid "Touch"
 msgid "Touch On"
-msgstr "Berøring"
+msgstr "Berøring til"
 
 #: fw/apps/system/toggle/touch.c:27
-#, fuzzy
-#| msgid "Touch"
 msgid "Touch Off"
-msgstr "Berøring"
+msgstr "Berøring fra"
 
 #. / The Quick Launch action that turns the touchscreen on or off.
 #: fw/apps/system/toggle/touch.c:51
-#, fuzzy
-#| msgid "Backlight"
 msgid "Toggle Touch"
-msgstr "Baggrundslys"
+msgstr "Berøring"
 
 #: fw/apps/system/watchfaces.c:99
 msgid "Active"
@@ -2779,19 +2743,19 @@ msgstr "Afslut stilletid"
 msgid "Start Quiet Time"
 msgstr "Start stilletid"
 
-#: fw/popups/phone_ui.c:563
+#: fw/popups/phone_ui.c:577
 msgid "Call Accepted"
 msgstr "Opkald besvaret"
 
-#: fw/popups/phone_ui.c:566
+#: fw/popups/phone_ui.c:580
 msgid "Disconnected"
 msgstr "Ikke forbundet"
 
-#: fw/popups/phone_ui.c:569
+#: fw/popups/phone_ui.c:583
 msgid "Call Ended"
 msgstr "Opkald afsluttet"
 
-#: fw/popups/phone_ui.c:572
+#: fw/popups/phone_ui.c:586
 msgid "Call Declined"
 msgstr "Opkald afvist"
 
@@ -3524,7 +3488,7 @@ msgstr "%l:%M"
 msgid "%p"
 msgstr "%p"
 
-#: fw/services/clock/service.c:536 fw/services/timeline/timeline_layout.c:373
+#: fw/services/clock/service.c:536 fw/services/timeline/timeline_layout.c:424
 msgid "All day"
 msgstr "Hele dagen"
 
@@ -3719,8 +3683,8 @@ msgid ""
 "open Settings > Bluetooth, tap the (i) next to your Pebble and turn on Share "
 "System Notifications."
 msgstr ""
-"Din iPhone deler ikke meddelelser med uret. Gå til »Indstillinger > Bluetooth"
-"« på din iPhone, tryk på (i) ud for dit Pebble-ur og slå »Del "
+"Din iPhone deler ikke meddelelser med uret. Gå til »Indstillinger > "
+"Bluetooth« på din iPhone, tryk på (i) ud for dit Pebble-ur og slå »Del "
 "systemmeddelelser« til."
 
 #: fw/services/notifications/do_not_disturb.c:115
@@ -3864,7 +3828,7 @@ msgstr "Om 15 minutter"
 msgid "Later today"
 msgstr "Senere i dag"
 
-#: fw/services/timeline/timeline_layout.c:735
+#: fw/services/timeline/timeline_layout.c:796
 msgid "Last updated"
 msgstr "Senest opdateret"
 
