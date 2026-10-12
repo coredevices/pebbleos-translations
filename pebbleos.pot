@@ -3369,7 +3369,7 @@ msgstr ""
 msgid "%p"
 msgstr ""
 
-#: fw/services/clock/service.c:536 fw/services/timeline/timeline_layout.c:373
+#: fw/services/clock/service.c:536 fw/services/timeline/timeline_layout.c:424
 msgid "All day"
 msgstr ""
 
@@ -3697,7 +3697,7 @@ msgstr ""
 msgid "Later today"
 msgstr ""
 
-#: fw/services/timeline/timeline_layout.c:735
+#: fw/services/timeline/timeline_layout.c:796
 msgid "Last updated"
 msgstr ""
 
