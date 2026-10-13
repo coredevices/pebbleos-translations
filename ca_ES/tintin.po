@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: 38.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-07 18:50+0200\n"
-"PO-Revision-Date: 2026-10-22 15:23+0000\n"
-"Last-Translator: Gerard Marull Paretas <gerard@teslabs.com>\n"
+"PO-Revision-Date: 2026-10-22 15:36+0000\n"
+"Last-Translator: Gerard Marull-Paretas <gerard@repebble.com>\n"
 "Language-Team: Catalan <https://translate.repebble.com/projects/pebbleos/"
 "watch/ca/>\n"
 "Language: ca_ES\n"
@@ -895,7 +895,7 @@ msgstr "Vols esborrar l'historial?"
 #: fw/apps/system/notifications.c:703
 #, c-format
 msgid "%s (%u)"
-msgstr ""
+msgstr "%s (%u)"
 
 #: fw/apps/system/notifications.c:742 fw/apps/system/notifications.c:749
 msgid "Clear All"
@@ -921,7 +921,7 @@ msgstr "Esborra l'historial de notificacions"
 #. / Quick Launch action that makes the button do nothing at all.
 #: fw/apps/system/quick_launch_nothing.c:24
 msgid "Nothing"
-msgstr ""
+msgstr "Cap acció"
 
 #: fw/apps/system/reminders/reminder.c:57
 msgid "Completed"
@@ -1353,10 +1353,8 @@ msgid "HR Monitoring"
 msgstr "Monitoratge de FC"
 
 #: fw/apps/system/settings/health.c:122 fw/apps/system/settings/health.c:182
-#, fuzzy
-#| msgid "HR Monitoring"
 msgid "SpO2 Monitoring"
-msgstr "Monitoratge de FC"
+msgstr "Monitorització de SpO2"
 
 #: fw/apps/system/settings/health.c:148
 msgid "Health Tracking"
@@ -1379,10 +1377,8 @@ msgid "SpO2 During Activity"
 msgstr "SpO2 durant l'activitat"
 
 #: fw/apps/system/settings/health.c:192
-#, fuzzy
-#| msgid "HR During Activity"
 msgid "Needs HR During Activity"
-msgstr "FC durant l'activitat"
+msgstr "Necessita la FC durant l'activitat"
 
 #: fw/apps/system/settings/notifications.c:61
 msgid "Allow All Notifications"
@@ -1404,10 +1400,8 @@ msgstr "Filtre"
 
 #. / Notification text size option that follows the system Text Size setting
 #: fw/apps/system/settings/notifications.c:112
-#, fuzzy
-#| msgid "System"
 msgid "Same as System"
-msgstr "Sistema"
+msgstr "Mateix que el sistema"
 
 #. / 15 Second Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:151
@@ -1479,33 +1473,29 @@ msgstr "Estil del rellotge"
 #. / Disable notification grouping
 #: fw/apps/system/settings/notifications.c:302
 msgid "Never"
-msgstr ""
+msgstr "Mai"
 
 #. / Group notifications received within one day
 #: fw/apps/system/settings/notifications.c:304
-#, fuzzy
-#| msgid "All Day"
 msgid "1 Day"
-msgstr "Tot el dia"
+msgstr "1 dia"
 
 #. / Group notifications received within one week
 #: fw/apps/system/settings/notifications.c:306
 msgid "1 Week"
-msgstr ""
+msgstr "1 setmana"
 
 #. / Group all notifications
 #: fw/apps/system/settings/notifications.c:308
-#, fuzzy
-#| msgid "All day"
 msgid "All"
-msgstr "Tot el dia"
+msgstr "Totes"
 
 #. / Title for the notification sender grouping settings screen
 #. / Notification settings item for grouping notifications by sender
 #: fw/apps/system/settings/notifications.c:325
 #: fw/apps/system/settings/notifications.c:384
 msgid "Group by Sender"
-msgstr ""
+msgstr "Agrupar per remitent"
 
 #. / String within Settings->Notifications that selects the notification status bar style
 #: fw/apps/system/settings/notifications.c:391
@@ -1546,25 +1536,21 @@ msgstr "Mantén enrere"
 #. / Title of the Quick Launch menu listing the available actions.
 #: fw/apps/system/settings/quick_launch.c:73
 #: fw/apps/system/settings/quick_launch_app_menu.c:37
-#, fuzzy
-#| msgid "Options"
 msgid "Actions"
-msgstr "Opciones"
+msgstr "Accions"
 
 #. / Shown in Quick Launch Settings as the title of the list of apps.
 #. / Title of the Quick Launch menu listing the installed apps.
 #: fw/apps/system/settings/quick_launch.c:75
 #: fw/apps/system/settings/quick_launch_app_menu.c:39
-#, fuzzy
-#| msgid "Apps Only"
 msgid "Apps"
-msgstr "Sólo aplicaciones"
+msgstr "Aplicacions"
 
 #. / Shown in Quick Launch Settings when no action or app is bound to the button.
 #: fw/apps/system/settings/quick_launch.c:82
 #: fw/apps/system/settings/quick_launch_app_menu.c:111
 msgid "Unassigned"
-msgstr ""
+msgstr "Sense assignar"
 
 #. / Title of the Quick Launch Settings submenu in Settings
 #. / Title for the Quick Launch first use dialog.
@@ -1772,7 +1758,7 @@ msgstr "Compacta BD de configuració"
 
 #: fw/apps/system/settings/system.c:502
 msgid "SpO2 Test"
-msgstr ""
+msgstr "Test SpO2"
 
 #: fw/apps/system/settings/system.c:522
 msgid "10 back-button presses"
@@ -2030,10 +2016,8 @@ msgstr ""
 
 #. / The Quick Launch action that toggles Airplane Mode.
 #: fw/apps/system/toggle/airplane_mode.c:53
-#, fuzzy
-#| msgid "Airplane Mode"
 msgid "Toggle Airplane Mode"
-msgstr "Mode avió"
+msgstr "Commutar mode avió"
 
 #: fw/apps/system/toggle/backlight_state.c:27
 msgid "Turn On Backlight?"
@@ -2053,10 +2037,8 @@ msgstr "Retroil·luminació desactivada"
 
 #. / The Quick Launch action that toggles the backlight.
 #: fw/apps/system/toggle/backlight_state.c:54
-#, fuzzy
-#| msgid "Backlight"
 msgid "Toggle Backlight"
-msgstr "Retroil·luminació"
+msgstr "Commutar Retroil·luminació"
 
 #: fw/apps/system/toggle/motion_backlight.c:24
 msgid "Turn On Motion Backlight?"
@@ -2084,17 +2066,13 @@ msgstr ""
 
 #. / The Quick Launch action that toggles the motion backlight.
 #: fw/apps/system/toggle/motion_backlight.c:51
-#, fuzzy
-#| msgid "Motion Backlight"
 msgid "Toggle Motion Backlight"
-msgstr "Llum per moviment"
+msgstr "Commutar llum per moviment"
 
 #. / The Quick Launch action that toggles Quiet Time.
 #: fw/apps/system/toggle/quiet_time.c:26
-#, fuzzy
-#| msgid "Quiet Time"
 msgid "Toggle Quiet Time"
-msgstr "Mode silenci"
+msgstr "Commutar mode silenci"
 
 #: fw/apps/system/toggle/touch.c:24
 msgid "Turn On Touch?"
@@ -3830,10 +3808,8 @@ msgid "Call Back"
 msgstr "Torna la trucada"
 
 #: fw/services/notifications/ancs/ancs_notifications.c:407
-#, fuzzy
-#| msgid "Notifications On"
 msgid "iPhone Notifications Blocked"
-msgstr "Notificaciones On"
+msgstr "Notificacions de l'iPhone bloquejades"
 
 #: fw/services/notifications/ancs/ancs_notifications.c:410
 msgid ""
@@ -3841,6 +3817,9 @@ msgid ""
 "open Settings > Bluetooth, tap the (i) next to your Pebble and turn on Share "
 "System Notifications."
 msgstr ""
+"El teu iPhone no comparteix les notificacions amb aquest rellotge. En el teu "
+"iPhone, obre Configuració > Bluetooth, toca la (i) junt al teu Pebble i "
+"activa la opció Comparteix Notificacions."
 
 #: fw/services/notifications/do_not_disturb.c:112
 msgid "Calendar Aware enables Quiet Time automatically during calendar events."
@@ -3990,13 +3969,11 @@ msgstr "Última actualització"
 
 #: fw/services/timeline/weather_layout.c:51
 msgid "Sunrise"
-msgstr ""
+msgstr "Sortida del sol"
 
 #: fw/services/timeline/weather_layout.c:53
-#, fuzzy
-#| msgid "Sunset %s"
 msgid "Sunset"
-msgstr "Posta de sol %s"
+msgstr "Posta de sol"
 
 #. / Standard vibration pattern option that has a low intensity
 #: fw/services/vibes/vibe_intensity.c:38 fw/services/vibes/vibes.def:5
@@ -4038,11 +4015,11 @@ msgstr "Suau"
 
 #: fw/services/vibes/vibes.def:16
 msgid "Double Pulse Medium"
-msgstr ""
+msgstr "Doble Pols Mitjà"
 
 #: fw/services/vibes/vibes.def:17
 msgid "Pebble Morse"
-msgstr ""
+msgstr "Pebble Morse"
 
 #: fw/services/vibes/vibes.def:18
 msgid "Heartbeat"
@@ -4050,7 +4027,7 @@ msgstr "Batec"
 
 #: fw/services/vibes/vibes.def:20
 msgid "Wave"
-msgstr ""
+msgstr "Onada"
 
 #: fw/shell/normal/battery_ui.c:141
 msgid "Fully Charged"
