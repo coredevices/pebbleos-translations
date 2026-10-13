@@ -807,13 +807,13 @@ msgstr ""
 msgid "%i°"
 msgstr ""
 
-#: fw/apps/system/music.c:887
+#: fw/apps/system/music.c:897
 msgid ""
 "START PLAYBACK\n"
 "ON YOUR PHONE"
 msgstr ""
 
-#: fw/apps/system/music.c:1809
+#: fw/apps/system/music.c:1823
 msgid "Music"
 msgstr ""
 
