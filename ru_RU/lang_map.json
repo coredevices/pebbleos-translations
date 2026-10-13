@@ -47,10 +47,10 @@
     },
     {
       "name": "GOTHIC_24_EXTENDED",
-      "file": "4c8b2bb4932934738bf013d79cc7ee1badb2294048a3339c3c6af5a0c41d5b4b.ttf",
+      "file": "0f076eef86987fc4839b2774c975d1bb14d86f51a596fb7f4294304a35f5babc.ttf",
       "license": "be2f3f8727ac2e18b714ad1c4336d4ddb3f3adbeb9a7f70bfab74d21f4d2b3fb.license",
       "extended": true,
-      "original_name": "NotoSans_Condensed-Thin.ttf",
+      "original_name": "NotoSans_Condensed-Light.ttf",
       "license_original_name": "OFL.txt"
     },
     {
