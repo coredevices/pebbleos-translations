@@ -84,6 +84,22 @@
       "extended": true,
       "original_name": "SofiaSansCondensed-Light.ttf",
       "license_original_name": "OFL.txt"
+    },
+    {
+      "name": "LECO_20_BOLD_NUMBERS_EXTENDED",
+      "file": "4d3c70b8e6a6b1b9c74b61ec02892416c127033e2791ab41808b5fc65e71a261.ttf",
+      "license": "8472fd9eb5f772f2704a19a610f70ef3158a505cea304e83c1255f54eb913c2b.license",
+      "extended": true,
+      "original_name": "SofiaSansCondensed-SemiBold.ttf",
+      "license_original_name": "OFL.txt"
+    },
+    {
+      "name": "LECO_26_BOLD_NUMBERS_AM_PM_EXTENDED",
+      "file": "4d3c70b8e6a6b1b9c74b61ec02892416c127033e2791ab41808b5fc65e71a261.ttf",
+      "license": "8472fd9eb5f772f2704a19a610f70ef3158a505cea304e83c1255f54eb913c2b.license",
+      "extended": true,
+      "original_name": "SofiaSansCondensed-SemiBold.ttf",
+      "license_original_name": "OFL.txt"
     }
   ],
   "images": []
