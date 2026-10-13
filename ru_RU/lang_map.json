@@ -39,10 +39,10 @@
     },
     {
       "name": "GOTHIC_24_BOLD_EXTENDED",
-      "file": "bold.ttf",
-      "license": "license.txt",
+      "file": "025641032e53d52f6c59fc03e2dab293bab5f6838e4b1595aaab1141897c290f.ttf",
+      "license": "be2f3f8727ac2e18b714ad1c4336d4ddb3f3adbeb9a7f70bfab74d21f4d2b3fb.license",
       "extended": true,
-      "original_name": "SofiaSansCondensed-SemiBold.ttf",
+      "original_name": "NotoSans_ExtraCondensed-SemiBold.ttf",
       "license_original_name": "OFL.txt"
     },
     {
