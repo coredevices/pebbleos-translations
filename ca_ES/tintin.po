@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: 38.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-07 18:50+0200\n"
-"PO-Revision-Date: 2026-10-22 15:15+0000\n"
-"Last-Translator: Gerard Marull Paretas <gerard@teslabs.com>\n"
+"PO-Revision-Date: 2026-10-22 15:23+0000\n"
+"Last-Translator: Gerard Marull-Paretas <gerard@repebble.com>\n"
 "Language-Team: Catalan <https://translate.repebble.com/projects/pebbleos/"
 "watch/ca/>\n"
 "Language: ca_ES\n"
@@ -4104,7 +4104,7 @@ msgstr ""
 
 #: fw/services/vibes/vibes.def:18
 msgid "Heartbeat"
-msgstr ""
+msgstr "Pols"
 
 #: fw/services/vibes/vibes.def:20
 msgid "Wave"
