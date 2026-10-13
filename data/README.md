@@ -1,7 +1,7 @@
 # Built-in font coverage
 
 `builtin_font_coverage.json` records usable codepoints for the base fonts behind
-all 20 language-pack slots in normal PebbleOS firmware. It includes the source
+all language-pack slots in normal PebbleOS firmware. It includes the source
 commit and SHA-256 hashes of inputs; no font binaries are copied here.
 
 PBF coverage comes from compiled glyph tables, excluding missing-glyph mappings.
@@ -15,7 +15,7 @@ recorded as absent, matching the firmware resource lookup.
 This is reference data, not a guarantee of shaping or layout. Numeric and unit
 slots intentionally have limited coverage. `check_lang` combines this snapshot
 with each built extension and reports remaining alphabet gaps in text styles,
-including aliases. The five numeric and unit-only subset styles are marked
+including aliases. The numeric and unit-only subset styles are marked
 `specialized` and excluded from full-alphabet checks. They still compile, but
 their actual screen text needs watch testing. Emoji are excluded. String-to-slot
 usage and layout are not checked.

@@ -28,6 +28,15 @@ FONT_SLOTS = (
     "ROBOTO_CONDENSED_21_EXTENDED",
     "ROBOTO_BOLD_SUBSET_49_EXTENDED",
     "DROID_SERIF_28_BOLD_EXTENDED",
+    "LECO_20_BOLD_NUMBERS_EXTENDED",
+    "LECO_26_BOLD_NUMBERS_AM_PM_EXTENDED",
+    "LECO_32_BOLD_NUMBERS_EXTENDED",
+    "LECO_36_BOLD_NUMBERS_EXTENDED",
+    "LECO_38_BOLD_NUMBERS_EXTENDED",
+    "LECO_42_NUMBERS_EXTENDED",
+    "LECO_28_LIGHT_NUMBERS_EXTENDED",
+    "LECO_60_NUMBERS_AM_PM_EXTENDED",
+    "LECO_60_BOLD_NUMBERS_AM_PM_EXTENDED",
 )
 # Firmware uses these for digits or short units, rather than arbitrary text.
 SPECIALIZED_FONT_SLOTS = frozenset(
@@ -56,7 +65,9 @@ def crc32(data):
 
 def serialize(resources):
     if len(resources) != 1 + len(FONT_SLOTS):
-        raise ValueError("A language pack must contain strings and all 20 font slots")
+        raise ValueError(
+            f"A language pack must contain strings and all {len(FONT_SLOTS)} font slots"
+        )
     # Assign duplicate data at its last occurrence: the loader derives total
     # length from the final table entry, which must end at the end of the pack.
     contents = list(dict.fromkeys(reversed(resources)))[::-1]

@@ -24,7 +24,7 @@ BODY_START = 12 + 256 * 16
 
 def unpack(data):
     count, checksum, timestamp = struct.unpack_from("<III", data)
-    assert count == 21 and timestamp == 0
+    assert count == 1 + len(FONT_SLOTS) and timestamp == 0
     assert checksum == crc32(data[BODY_START:])
     contents = []
     for index in range(count):
@@ -46,18 +46,21 @@ class PackFormatTest(unittest.TestCase):
         self.assertEqual(crc32(b""), 0xFFFFFFFF)
 
     def test_roundtrip_and_last_resource_deduplication(self):
-        resources = [b"catalog", b"font", b"other"] + [b""] * 17 + [b"font"]
+        resources = [b"catalog", b"font", b"other"] + [b""] * 26 + [b"font"]
         data = serialize(resources)
         self.assertEqual(unpack(data), resources)
         self.assertEqual(data[BODY_START:], b"catalogotherfont")
         # Captured from PebbleOS's ResourcePack(False) serializer.
         self.assertEqual(
             hashlib.sha256(data).hexdigest(),
-            "be9baad64350c80c8f8b3c3f99cfe366e93ac4b228eebdbe56e797d0dc976ecb",
+            "f444ecb2d57938b9a2613a4b561581539f47c2418fce6b7cd2761a4860a688bd",
         )
 
     def test_empty_pack(self):
-        self.assertEqual(unpack(serialize([b""] * 21)), [b""] * 21)
+        self.assertEqual(
+            unpack(serialize([b""] * (1 + len(FONT_SLOTS)))),
+            [b""] * (1 + len(FONT_SLOTS)),
+        )
 
     def test_invalid_slots_rejected(self):
         with self.assertRaises(ValueError):
@@ -221,7 +224,7 @@ class LanguageTest(unittest.TestCase):
                 patch.object(commands, "build_font", return_value=b"font"),
             ):
                 contents = unpack(commands.pack_lang("test", root / "out").read_bytes())
-            self.assertEqual(contents, [b""] * 20 + [b"font"])
+            self.assertEqual(contents, [b""] * len(FONT_SLOTS) + [b"font"])
 
     def test_cyclic_alias_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -256,7 +259,7 @@ class LanguageTest(unittest.TestCase):
                     len(
                         json.loads((root / "fr_FR/lang_map.json").read_text())["fonts"]
                     ),
-                    20,
+                    len(FONT_SLOTS),
                 )
 
     def test_universal_font_limit_has_actionable_error(self):

@@ -255,7 +255,7 @@ class CheckLanguageTest(unittest.TestCase):
         report = check_lang("test")
         self.assertTrue(report["ok"], report)
         fonts = {font["slot"]: font for font in report["fonts"]}
-        self.assertEqual(len(SPECIALIZED_FONT_SLOTS), 5)
+        self.assertEqual(len(SPECIALIZED_FONT_SLOTS), 14)
         for slot in SPECIALIZED_FONT_SLOTS:
             self.assertEqual(fonts[slot]["coverage_scope"], "specialized")
             self.assertEqual(fonts[slot]["uncovered_characters"], [])
