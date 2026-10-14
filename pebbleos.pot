@@ -2353,51 +2353,59 @@ msgstr ""
 msgid "NW"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:547
+#: fw/apps/system/weather/weather_app_layout.c:535
 msgid "mph"
+msgstr ""
+
+#: fw/apps/system/weather/weather_app_layout.c:539
+msgid "m/s"
+msgstr ""
+
+#: fw/apps/system/weather/weather_app_layout.c:543
+msgid "kn"
 msgstr ""
 
 #: fw/apps/system/weather/weather_app_layout.c:547
 msgid "km/h"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:549
+#: fw/apps/system/weather/weather_app_layout.c:570
 #, c-format
 msgid "%s at %d%s."
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:549
+#: fw/apps/system/weather/weather_app_layout.c:570
 #, c-format
 msgid "Winds %s at %d%s."
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:554
+#: fw/apps/system/weather/weather_app_layout.c:575
 #, c-format
 msgid "At %d%s."
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:554
+#: fw/apps/system/weather/weather_app_layout.c:575
 #, c-format
 msgid "Winds at %d%s."
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:563
+#: fw/apps/system/weather/weather_app_layout.c:584
 #, c-format
 msgid "Precipitation %d%%."
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:838
-#: fw/apps/system/weather/weather_app_layout.c:1126
+#: fw/apps/system/weather/weather_app_layout.c:859
+#: fw/apps/system/weather/weather_app_layout.c:1147
 msgid "TODAY"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:869
-#: fw/apps/system/weather/weather_app_layout.c:1212
+#: fw/apps/system/weather/weather_app_layout.c:890
+#: fw/apps/system/weather/weather_app_layout.c:1233
 msgid "TOMORROW"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:966
-#: fw/apps/system/weather/weather_app_layout.c:1062
+#: fw/apps/system/weather/weather_app_layout.c:987
+#: fw/apps/system/weather/weather_app_layout.c:1083
 msgid "UV INDEX"
 msgstr ""
 
