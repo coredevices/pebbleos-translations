@@ -3607,15 +3607,15 @@ msgid ""
 "Ended"
 msgstr ""
 
-#: fw/services/timeline/calendar_layout.c:171
+#: fw/services/timeline/calendar_layout.c:172
 msgid " - "
 msgstr ""
 
-#: fw/services/timeline/calendar_layout.c:339
+#: fw/services/timeline/calendar_layout.c:340
 msgid "All Day"
 msgstr ""
 
-#: fw/services/timeline/calendar_layout.c:383
+#: fw/services/timeline/calendar_layout.c:384
 msgid "Recurring"
 msgstr ""
 
