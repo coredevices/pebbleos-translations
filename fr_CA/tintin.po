@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-10-13 04:26+0000\n"
+"PO-Revision-Date: 2026-10-14 22:26+0000\n"
 "Last-Translator: Rhialto <rhialto@gmail.com>\n"
 "Language-Team: French (Canada) <https://translate.repebble.com/projects/"
 "pebbleos/watch/fr_CA/>\n"
@@ -460,6 +460,37 @@ msgctxt "TmplStringMany"
 msgid " years"
 msgstr " ans"
 
+#. / A frequency option for alarms, i.e. the alarm would go off every
+#. / day. Respect capitalization!
+#: fw/applib/ui/day_picker.c:47 fw/services/alarms/alarm.c:1419
+msgid "Every Day"
+msgstr "Tous les jours"
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / every weekday. Respect capitalization!
+#: fw/applib/ui/day_picker.c:47 fw/apps/system/settings/quiet_time.c:259
+#: fw/services/alarms/alarm.c:1429
+msgid "Weekdays"
+msgstr "Semaine"
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / each day on the weekend. Respect capitalization!
+#: fw/applib/ui/day_picker.c:48 fw/apps/system/settings/quiet_time.c:267
+#: fw/services/alarms/alarm.c:1439
+msgid "Weekends"
+msgstr "Fins de semaine"
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / on a custom choice of days. Respect capitalization!
+#: fw/applib/ui/day_picker.c:48 fw/apps/system/settings/display.c:41
+#: fw/services/alarms/alarm.c:1461
+msgid "Custom"
+msgstr "Personnalisée"
+
+#: fw/applib/ui/day_picker.c:49
+msgid "Just Once"
+msgstr "Une seule fois"
+
 #: fw/applib/ui/day_picker.c:235
 msgid "Check something first."
 msgstr "Sélectionnez d’abord quelque chose."
@@ -593,7 +624,7 @@ msgstr "1 heure"
 #: fw/apps/system/alarms/alarm_detail.c:350
 msgctxt "AlarmSound"
 msgid "Off"
-msgstr ""
+msgstr "Non"
 
 #: fw/apps/system/alarms/alarm_editor.c:164
 msgid "New Smart Alarm"
@@ -631,11 +662,11 @@ msgstr "Limite atteinte."
 
 #: fw/apps/system/alarms/alarms.c:274
 msgid "ON"
-msgstr ""
+msgstr "OUI"
 
 #: fw/apps/system/alarms/alarms.c:274
 msgid "OFF"
-msgstr ""
+msgstr "NON"
 
 #: fw/apps/system/alarms/alarms.c:346
 msgid ""
@@ -668,7 +699,7 @@ msgid "Incompatible JS"
 msgstr "JS incompatible"
 
 #: fw/apps/system/app_fetch_ui.c:139
-#: fw/services/timeline/timeline_actions.c:265
+#: fw/services/timeline/timeline_actions.c:266
 msgid "Failed"
 msgstr ""
 
@@ -822,7 +853,7 @@ msgstr "%i° - %s"
 msgid "%i°"
 msgstr "%i°"
 
-#: fw/apps/system/music.c:887
+#: fw/apps/system/music.c:897
 msgid ""
 "START PLAYBACK\n"
 "ON YOUR PHONE"
@@ -830,7 +861,7 @@ msgstr ""
 "COMMENCER LA LECTURE\n"
 "SUR LE TÉLÉPHONE"
 
-#: fw/apps/system/music.c:1809
+#: fw/apps/system/music.c:1823
 msgid "Music"
 msgstr "Musique"
 
@@ -998,12 +1029,6 @@ msgstr ""
 "N'oubliez pas d'effacer aussi la connexion Bluetooth de votre Pebble sur "
 "votre téléphone."
 
-#. / A frequency option for alarms, i.e. the alarm would only go off
-#. / on a custom choice of days. Respect capitalization!
-#: fw/apps/system/settings/display.c:41 fw/services/alarms/alarm.c:1461
-msgid "Custom"
-msgstr "Personnalisée"
-
 #: fw/apps/system/settings/display.c:54 fw/apps/system/settings/display.c:680
 #: fw/apps/system/settings/system.c:209
 msgid "Language"
@@ -1063,7 +1088,7 @@ msgstr "Luminosité"
 #: fw/apps/system/settings/display.c:137
 msgctxt "Orientation"
 msgid "Default"
-msgstr ""
+msgstr "Par défaut"
 
 #: fw/apps/system/settings/display.c:138
 msgid "Left-Handed"
@@ -1108,7 +1133,7 @@ msgstr "Toucher simple"
 #: fw/apps/system/settings/display.c:211
 msgctxt "TouchWake"
 msgid "Off"
-msgstr ""
+msgstr "Non"
 
 #: fw/apps/system/settings/display.c:224
 msgid "WAKE ON TOUCH"
@@ -1121,7 +1146,7 @@ msgstr "Activé au toucher"
 #: fw/apps/system/settings/display.c:235
 msgctxt "DynBacklight"
 msgid "Off"
-msgstr ""
+msgstr "Non"
 
 #: fw/apps/system/settings/display.c:236
 msgid "Bright"
@@ -1552,18 +1577,6 @@ msgstr ""
 msgctxt "QuietTime"
 msgid "Disabled"
 msgstr ""
-
-#. / A frequency option for alarms, i.e. the alarm would only go off
-#. / every weekday. Respect capitalization!
-#: fw/apps/system/settings/quiet_time.c:259 fw/services/alarms/alarm.c:1429
-msgid "Weekdays"
-msgstr "Semaine"
-
-#. / A frequency option for alarms, i.e. the alarm would only go off
-#. / each day on the weekend. Respect capitalization!
-#: fw/apps/system/settings/quiet_time.c:267 fw/services/alarms/alarm.c:1439
-msgid "Weekends"
-msgstr "Fins de semaine"
 
 #: fw/apps/system/settings/quiet_time.c:315
 #: fw/apps/system/settings/quiet_time.c:440
@@ -2180,40 +2193,40 @@ msgstr "Aucun lieu"
 msgid "Add them in the app"
 msgstr "Ajoutez-en dans l'application"
 
-#: fw/apps/system/weather/weather.c:99
+#: fw/apps/system/weather/weather.c:99 fw/services/weather/weather_types.c:49
 msgid "Sunny"
 msgstr "Ensoleillé"
 
-#: fw/apps/system/weather/weather.c:101
+#: fw/apps/system/weather/weather.c:101 fw/services/weather/weather_types.c:51
 msgid "Partly Cloudy"
 msgstr "Partiellement nuageux"
 
-#: fw/apps/system/weather/weather.c:103
+#: fw/apps/system/weather/weather.c:103 fw/services/weather/weather_types.c:53
 msgid "Cloudy"
 msgstr "Nuageux"
 
-#: fw/apps/system/weather/weather.c:105
+#: fw/apps/system/weather/weather.c:105 fw/services/weather/weather_types.c:55
 msgid "Light Rain"
 msgstr "Pluie légère"
 
-#: fw/apps/system/weather/weather.c:107
+#: fw/apps/system/weather/weather.c:107 fw/services/weather/weather_types.c:57
 msgid "Rain"
 msgstr "Pluie"
 
-#: fw/apps/system/weather/weather.c:109
+#: fw/apps/system/weather/weather.c:109 fw/services/weather/weather_types.c:59
 msgid "Light Snow"
 msgstr "Neige légère"
 
-#: fw/apps/system/weather/weather.c:111
+#: fw/apps/system/weather/weather.c:111 fw/services/weather/weather_types.c:61
 msgid "Snow"
 msgstr "Neige"
 
-#: fw/apps/system/weather/weather.c:113
+#: fw/apps/system/weather/weather.c:113 fw/services/weather/weather_types.c:63
 msgid "Rain & Snow"
 msgstr "Pluie et neige"
 
 #: fw/apps/system/weather/weather.c:139 fw/services/clock/service.c:723
-#: fw/services/timeline/timeline_actions.c:1057
+#: fw/services/timeline/timeline_actions.c:1062
 msgid "Tomorrow"
 msgstr "Demain"
 
@@ -2373,51 +2386,59 @@ msgstr "O"
 msgid "NW"
 msgstr "NO"
 
-#: fw/apps/system/weather/weather_app_layout.c:547
+#: fw/apps/system/weather/weather_app_layout.c:535
 msgid "mph"
 msgstr "mph"
+
+#: fw/apps/system/weather/weather_app_layout.c:539
+msgid "m/s"
+msgstr "m/s"
+
+#: fw/apps/system/weather/weather_app_layout.c:543
+msgid "kn"
+msgstr "nœud"
 
 #: fw/apps/system/weather/weather_app_layout.c:547
 msgid "km/h"
 msgstr "km/h"
 
-#: fw/apps/system/weather/weather_app_layout.c:549
+#: fw/apps/system/weather/weather_app_layout.c:570
 #, c-format
 msgid "%s at %d%s."
 msgstr "%s à %d%s."
 
-#: fw/apps/system/weather/weather_app_layout.c:549
+#: fw/apps/system/weather/weather_app_layout.c:570
 #, c-format
 msgid "Winds %s at %d%s."
 msgstr "Vent %s à %d%s."
 
-#: fw/apps/system/weather/weather_app_layout.c:554
+#: fw/apps/system/weather/weather_app_layout.c:575
 #, c-format
 msgid "At %d%s."
 msgstr "À %d%s."
 
-#: fw/apps/system/weather/weather_app_layout.c:554
+#: fw/apps/system/weather/weather_app_layout.c:575
 #, c-format
 msgid "Winds at %d%s."
 msgstr "Vent à %d%s."
 
-#: fw/apps/system/weather/weather_app_layout.c:563
+#: fw/apps/system/weather/weather_app_layout.c:584
 #, c-format
 msgid "Precipitation %d%%."
-msgstr ""
+msgstr "Précipitation %d%%."
 
-#: fw/apps/system/weather/weather_app_layout.c:838
-#: fw/apps/system/weather/weather_app_layout.c:1126
+#: fw/apps/system/weather/weather_app_layout.c:859
+#: fw/apps/system/weather/weather_app_layout.c:1147
 msgid "TODAY"
 msgstr "AUJOURD'HUI"
 
-#: fw/apps/system/weather/weather_app_layout.c:869
-#: fw/apps/system/weather/weather_app_layout.c:1212
+#: fw/apps/system/weather/weather_app_layout.c:890
+#: fw/apps/system/weather/weather_app_layout.c:1233
 msgid "TOMORROW"
 msgstr "DEMAIN"
 
-#: fw/apps/system/weather/weather_app_layout.c:966
-#: fw/apps/system/weather/weather_app_layout.c:1062
+#: fw/apps/system/weather/weather_app_layout.c:987
+#: fw/apps/system/weather/weather_app_layout.c:1083
 msgid "UV INDEX"
 msgstr "INDICE UV"
 
@@ -2712,7 +2733,7 @@ msgstr "Reportée"
 
 #: fw/popups/notifications/notification_window.c:762
 msgid "Muted"
-msgstr ""
+msgstr "Désactivée"
 
 #: fw/popups/notifications/notification_window.c:932
 msgid "Snooze"
@@ -2721,27 +2742,27 @@ msgstr "Reporter"
 #: fw/popups/notifications/notification_window.c:950
 #, c-format
 msgid "Mute %s"
-msgstr ""
+msgstr "Désactiver %s"
 
 #: fw/popups/notifications/notification_window.c:968
 msgid "Mute 1 Hour"
-msgstr ""
+msgstr "Désactiver 1 heure"
 
 #: fw/popups/notifications/notification_window.c:971
 msgid "Mute Today"
-msgstr ""
+msgstr "Désactiver aujourd'hui"
 
 #: fw/popups/notifications/notification_window.c:974
 msgid "Mute Always"
-msgstr ""
+msgstr "Désactiver pour toujours"
 
 #: fw/popups/notifications/notification_window.c:977
 msgid "Mute Weekends"
-msgstr ""
+msgstr "Désactiver fin de semaine"
 
 #: fw/popups/notifications/notification_window.c:980
 msgid "Mute Weekdays"
-msgstr ""
+msgstr "Désactiver jours de semaine"
 
 #: fw/popups/notifications/notification_window.c:988
 msgid "Dismiss All"
@@ -2871,7 +2892,7 @@ msgstr "Vous êtes constant(e) et c'est le plus important, continuez!"
 
 #: fw/services/activity/activity_insights.c:236
 msgid "CONSISTENT!"
-msgstr ""
+msgstr "CONSTANCE!"
 
 #: fw/services/activity/activity_insights.c:240
 #: fw/services/activity/activity_insights.c:245
@@ -2905,33 +2926,33 @@ msgstr ""
 
 #: fw/services/activity/activity_insights.c:424
 msgid "Open App"
-msgstr ""
+msgstr "Ouvrir l'application"
 
 #: fw/services/activity/activity_insights.c:529
 #: fw/services/activity/activity_insights.c:535
 msgid "BELOW AVG"
-msgstr ""
+msgstr "SOUS LA MOY"
 
 #: fw/services/activity/activity_insights.c:529
 #: fw/services/activity/activity_insights.c:535
 msgid "Below avg"
-msgstr ""
+msgstr "Sous la moy"
 
 #: fw/services/activity/activity_insights.c:541
 msgid "ON AVG"
-msgstr ""
+msgstr "DANS LA MOY"
 
 #: fw/services/activity/activity_insights.c:541
 msgid "On avg"
-msgstr ""
+msgstr "Dans la moy"
 
 #: fw/services/activity/activity_insights.c:546
 msgid "ABOVE AVG"
-msgstr ""
+msgstr "AU-DESSUS DE LA MOY"
 
 #: fw/services/activity/activity_insights.c:546
 msgid "Above avg"
-msgstr ""
+msgstr "Au-dessus de la moy"
 
 #: fw/services/activity/activity_insights.c:827
 msgid "%H:%M"
@@ -3283,15 +3304,15 @@ msgstr "Cette marche n’a‑t‑elle pas fait du bien?"
 
 #: fw/services/activity/activity_insights.c:1578
 msgid "Way to keep it active!"
-msgstr ""
+msgstr "Bravo d'être actif!"
 
 #: fw/services/activity/activity_insights.c:1579
 msgid "You got the moves!"
-msgstr ""
+msgstr "T'as du rythme!"
 
 #: fw/services/activity/activity_insights.c:1580
 msgid "Gettin' your step on?"
-msgstr ""
+msgstr "On accumule les pas?"
 
 #: fw/services/activity/activity_insights.c:1590
 msgid "Feelin' hot? Cause you're on 🔥"
@@ -3299,7 +3320,7 @@ msgstr "Avez-vous chaud? Car vous êtes en feu 🔥!"
 
 #: fw/services/activity/activity_insights.c:1591
 msgid "Hey lightning bolt, way to go!"
-msgstr ""
+msgstr "Rapide comme l'éclair!"
 
 #: fw/services/activity/activity_insights.c:1592
 msgid "You're a machine!"
@@ -3307,7 +3328,7 @@ msgstr "Vous ête sune machine!"
 
 #: fw/services/activity/activity_insights.c:1593
 msgid "Hey speedster, we can barely keep up!"
-msgstr ""
+msgstr "Hé le rapide, on a peine à te suivre!"
 
 #: fw/services/activity/activity_insights.c:1594
 msgid "Way to show us what you're made of 👊"
@@ -3315,7 +3336,7 @@ msgstr "Continuez à montrer de quoi vous êtes capable 👊"
 
 #: fw/services/activity/activity_insights.c:1604
 msgid "Workin' up a sweat?"
-msgstr ""
+msgstr "On transpire?"
 
 #: fw/services/activity/activity_insights.c:1605
 msgid "Well done 💪"
@@ -3355,7 +3376,7 @@ msgstr "Pas"
 
 #: fw/services/activity/activity_insights.c:1707
 msgid "Active Calories"
-msgstr ""
+msgstr "Calories"
 
 #: fw/services/activity/activity_insights.c:1720
 msgid "Avg HR"
@@ -3402,12 +3423,6 @@ msgstr "Alarme"
 #: fw/services/alarms/alarm.c:1415
 msgid "EVERY DAY"
 msgstr "TOUS LES JOURS"
-
-#. / A frequency option for alarms, i.e. the alarm would go off every
-#. / day. Respect capitalization!
-#: fw/services/alarms/alarm.c:1419
-msgid "Every Day"
-msgstr "Tous les jours"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / every weekday. Respect capitalization!
@@ -3735,15 +3750,15 @@ msgstr ""
 "Mode tranquillité\n"
 "désactivé"
 
-#: fw/services/timeline/calendar_layout.c:171
+#: fw/services/timeline/calendar_layout.c:172
 msgid " - "
 msgstr " - "
 
-#: fw/services/timeline/calendar_layout.c:339
+#: fw/services/timeline/calendar_layout.c:340
 msgid "All Day"
 msgstr "Tous les jours"
 
-#: fw/services/timeline/calendar_layout.c:383
+#: fw/services/timeline/calendar_layout.c:384
 msgid "Recurring"
 msgstr "Périodique"
 
@@ -3788,7 +3803,7 @@ msgstr "Rappels"
 msgid "Intercom"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:714
+#: fw/services/timeline/timeline_actions.c:719
 msgid ""
 "Quickly dismiss all notifications by holding the Select button for 2 seconds "
 "from any incoming notification."
@@ -3796,47 +3811,47 @@ msgstr ""
 "Faîtes disparaître toutes les notifications en appuyant sur le bouton "
 "Sélectionner pendant deux secondes depuis n'importe quelle notification."
 
-#: fw/services/timeline/timeline_actions.c:802
+#: fw/services/timeline/timeline_actions.c:807
 msgid "Ok"
 msgstr "Ok"
 
-#: fw/services/timeline/timeline_actions.c:803
+#: fw/services/timeline/timeline_actions.c:808
 msgid "Yes"
 msgstr "Oui"
 
-#: fw/services/timeline/timeline_actions.c:804
+#: fw/services/timeline/timeline_actions.c:809
 msgid "No"
 msgstr "Non"
 
-#: fw/services/timeline/timeline_actions.c:805
+#: fw/services/timeline/timeline_actions.c:810
 msgid "Call me"
 msgstr "Appelle-moi"
 
-#: fw/services/timeline/timeline_actions.c:806
+#: fw/services/timeline/timeline_actions.c:811
 msgid "Call you later"
 msgstr "Je t'appelle plus tard"
 
-#: fw/services/timeline/timeline_actions.c:931
+#: fw/services/timeline/timeline_actions.c:936
 msgid "Reply with Voice"
 msgstr "Dicter une réponse"
 
-#: fw/services/timeline/timeline_actions.c:931
+#: fw/services/timeline/timeline_actions.c:936
 msgid "Voice"
 msgstr "Dicter"
 
-#: fw/services/timeline/timeline_actions.c:941
+#: fw/services/timeline/timeline_actions.c:946
 msgid "Canned messages"
 msgstr "Messages préenregistrés"
 
-#: fw/services/timeline/timeline_actions.c:945
+#: fw/services/timeline/timeline_actions.c:950
 msgid "Emoji"
 msgstr "Emoji"
 
-#: fw/services/timeline/timeline_actions.c:1049
+#: fw/services/timeline/timeline_actions.c:1054
 msgid "In 15 minutes"
 msgstr "Dans 15 minutes"
 
-#: fw/services/timeline/timeline_actions.c:1053
+#: fw/services/timeline/timeline_actions.c:1058
 msgid "Later today"
 msgstr "Plus tard aujourd'hui"
 
@@ -3900,11 +3915,11 @@ msgstr "Pebble en morse"
 
 #: fw/services/vibes/vibes.def:18
 msgid "Heartbeat"
-msgstr ""
+msgstr "Battement de coeur"
 
 #: fw/services/vibes/vibes.def:20
 msgid "Wave"
-msgstr ""
+msgstr "Vague"
 
 #: fw/shell/normal/battery_ui.c:43
 msgid "Fully Charged"
