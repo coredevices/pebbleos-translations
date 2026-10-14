@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-26 22:44+0200\n"
-"PO-Revision-Date: 2026-10-14 08:14+0000\n"
+"PO-Revision-Date: 2026-10-14 18:12+0000\n"
 "Last-Translator: Hans Henrik Juhl <hans@kopula.dk>\n"
 "Language-Team: Danish <https://translate.repebble.com/projects/pebbleos/"
 "watch/da/>\n"
@@ -460,6 +460,37 @@ msgstr " år"
 msgctxt "TmplStringMany"
 msgid " years"
 msgstr " år"
+
+#. / A frequency option for alarms, i.e. the alarm would go off every
+#. / day. Respect capitalization!
+#: fw/applib/ui/day_picker.c:47 fw/services/alarms/alarm.c:1419
+msgid "Every Day"
+msgstr "Hver dag"
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / every weekday. Respect capitalization!
+#: fw/applib/ui/day_picker.c:47 fw/apps/system/settings/quiet_time.c:259
+#: fw/services/alarms/alarm.c:1429
+msgid "Weekdays"
+msgstr "Hverdage"
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / each day on the weekend. Respect capitalization!
+#: fw/applib/ui/day_picker.c:48 fw/apps/system/settings/quiet_time.c:267
+#: fw/services/alarms/alarm.c:1439
+msgid "Weekends"
+msgstr "Weekender"
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / on a custom choice of days. Respect capitalization!
+#: fw/applib/ui/day_picker.c:48 fw/apps/system/settings/display.c:41
+#: fw/services/alarms/alarm.c:1461
+msgid "Custom"
+msgstr "Tilpasset"
+
+#: fw/applib/ui/day_picker.c:49
+msgid "Just Once"
+msgstr "Én gang"
 
 #: fw/applib/ui/day_picker.c:235
 msgid "Check something first."
@@ -993,12 +1024,6 @@ msgstr "Bluetooth"
 msgid ""
 "Remember to also forget your Pebble's Bluetooth connection from your phone."
 msgstr "Husk også at glemme din Pebbles Bluetooth-forbindelse på din telefon."
-
-#. / A frequency option for alarms, i.e. the alarm would only go off
-#. / on a custom choice of days. Respect capitalization!
-#: fw/apps/system/settings/display.c:41 fw/services/alarms/alarm.c:1461
-msgid "Custom"
-msgstr "Tilpasset"
 
 #: fw/apps/system/settings/display.c:54 fw/apps/system/settings/display.c:680
 #: fw/apps/system/settings/system.c:209
@@ -1548,18 +1573,6 @@ msgstr "Slået til"
 msgctxt "QuietTime"
 msgid "Disabled"
 msgstr "Slået fra"
-
-#. / A frequency option for alarms, i.e. the alarm would only go off
-#. / every weekday. Respect capitalization!
-#: fw/apps/system/settings/quiet_time.c:259 fw/services/alarms/alarm.c:1429
-msgid "Weekdays"
-msgstr "Hverdage"
-
-#. / A frequency option for alarms, i.e. the alarm would only go off
-#. / each day on the weekend. Respect capitalization!
-#: fw/apps/system/settings/quiet_time.c:267 fw/services/alarms/alarm.c:1439
-msgid "Weekends"
-msgstr "Weekender"
 
 #: fw/apps/system/settings/quiet_time.c:315
 #: fw/apps/system/settings/quiet_time.c:440
@@ -2168,35 +2181,35 @@ msgstr "Ingen placeringer"
 msgid "Add them in the app"
 msgstr "Tilføj dem i mobilappen"
 
-#: fw/apps/system/weather/weather.c:99
+#: fw/apps/system/weather/weather.c:99 fw/services/weather/weather_types.c:49
 msgid "Sunny"
 msgstr "Solrigt"
 
-#: fw/apps/system/weather/weather.c:101
+#: fw/apps/system/weather/weather.c:101 fw/services/weather/weather_types.c:51
 msgid "Partly Cloudy"
 msgstr "Delvis skyet"
 
-#: fw/apps/system/weather/weather.c:103
+#: fw/apps/system/weather/weather.c:103 fw/services/weather/weather_types.c:53
 msgid "Cloudy"
 msgstr "Skyet"
 
-#: fw/apps/system/weather/weather.c:105
+#: fw/apps/system/weather/weather.c:105 fw/services/weather/weather_types.c:55
 msgid "Light Rain"
 msgstr "Let regn"
 
-#: fw/apps/system/weather/weather.c:107
+#: fw/apps/system/weather/weather.c:107 fw/services/weather/weather_types.c:57
 msgid "Rain"
 msgstr "Regn"
 
-#: fw/apps/system/weather/weather.c:109
+#: fw/apps/system/weather/weather.c:109 fw/services/weather/weather_types.c:59
 msgid "Light Snow"
 msgstr "Let sne"
 
-#: fw/apps/system/weather/weather.c:111
+#: fw/apps/system/weather/weather.c:111 fw/services/weather/weather_types.c:61
 msgid "Snow"
 msgstr "Sne"
 
-#: fw/apps/system/weather/weather.c:113
+#: fw/apps/system/weather/weather.c:113 fw/services/weather/weather_types.c:63
 msgid "Rain & Snow"
 msgstr "Regn og sne"
 
@@ -2361,51 +2374,59 @@ msgstr "V"
 msgid "NW"
 msgstr "NV"
 
-#: fw/apps/system/weather/weather_app_layout.c:547
+#: fw/apps/system/weather/weather_app_layout.c:535
 msgid "mph"
 msgstr "mph"
+
+#: fw/apps/system/weather/weather_app_layout.c:539
+msgid "m/s"
+msgstr "m/s"
+
+#: fw/apps/system/weather/weather_app_layout.c:543
+msgid "kn"
+msgstr "kn"
 
 #: fw/apps/system/weather/weather_app_layout.c:547
 msgid "km/h"
 msgstr "km/t"
 
-#: fw/apps/system/weather/weather_app_layout.c:549
+#: fw/apps/system/weather/weather_app_layout.c:570
 #, c-format
 msgid "%s at %d%s."
 msgstr "%s-lig ved %d %s."
 
-#: fw/apps/system/weather/weather_app_layout.c:549
+#: fw/apps/system/weather/weather_app_layout.c:570
 #, c-format
 msgid "Winds %s at %d%s."
 msgstr "Vind %s-lig ved %d %s."
 
-#: fw/apps/system/weather/weather_app_layout.c:554
+#: fw/apps/system/weather/weather_app_layout.c:575
 #, c-format
 msgid "At %d%s."
 msgstr "ved %d %s."
 
-#: fw/apps/system/weather/weather_app_layout.c:554
+#: fw/apps/system/weather/weather_app_layout.c:575
 #, c-format
 msgid "Winds at %d%s."
 msgstr "Vind ved %d %s."
 
-#: fw/apps/system/weather/weather_app_layout.c:563
+#: fw/apps/system/weather/weather_app_layout.c:584
 #, c-format
 msgid "Precipitation %d%%."
 msgstr "Nedbør %d%%."
 
-#: fw/apps/system/weather/weather_app_layout.c:838
-#: fw/apps/system/weather/weather_app_layout.c:1126
+#: fw/apps/system/weather/weather_app_layout.c:859
+#: fw/apps/system/weather/weather_app_layout.c:1147
 msgid "TODAY"
 msgstr "I DAG"
 
-#: fw/apps/system/weather/weather_app_layout.c:869
-#: fw/apps/system/weather/weather_app_layout.c:1212
+#: fw/apps/system/weather/weather_app_layout.c:890
+#: fw/apps/system/weather/weather_app_layout.c:1233
 msgid "TOMORROW"
 msgstr "I MORGEN"
 
-#: fw/apps/system/weather/weather_app_layout.c:966
-#: fw/apps/system/weather/weather_app_layout.c:1062
+#: fw/apps/system/weather/weather_app_layout.c:987
+#: fw/apps/system/weather/weather_app_layout.c:1083
 msgid "UV INDEX"
 msgstr "UV-INDEKS"
 
@@ -3390,12 +3411,6 @@ msgstr "Vækkeur"
 msgid "EVERY DAY"
 msgstr "HVER DAG"
 
-#. / A frequency option for alarms, i.e. the alarm would go off every
-#. / day. Respect capitalization!
-#: fw/services/alarms/alarm.c:1419
-msgid "Every Day"
-msgstr "Hver dag"
-
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / every weekday. Respect capitalization!
 #: fw/services/alarms/alarm.c:1425
@@ -3936,9 +3951,6 @@ msgstr "Strøm indtil %s"
 #~ msgstr ""
 #~ "Kan ikke forbinde. Dine vejrdata kan være forældede – prøv at tjekke "
 #~ "forbindelsen på din telefon."
-
-#~ msgid "Just Once"
-#~ msgstr "Én gang"
 
 #~ msgid ""
 #~ "This app requires Pebble Health to work. Enable Health in the Pebble "
