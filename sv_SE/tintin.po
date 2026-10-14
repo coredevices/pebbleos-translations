@@ -7,237 +7,239 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: sv\n"
+"PO-Revision-Date: 2026-10-20 23:26+0000\n"
+"Last-Translator: Martin <martin@norlin.at>\n"
+"Language-Team: Swedish <https://translate.repebble.com/projects/pebbleos/"
+"watch/sv/>\n"
+"Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: fw/applib/pbl_std/timelocal.c:38
 msgctxt "MonthAbbr"
 msgid "Jan"
-msgstr ""
+msgstr "Jan"
 
 #: fw/applib/pbl_std/timelocal.c:38
 msgctxt "MonthAbbr"
 msgid "Feb"
-msgstr ""
+msgstr "Feb"
 
 #: fw/applib/pbl_std/timelocal.c:39
 msgctxt "MonthAbbr"
 msgid "Mar"
-msgstr ""
+msgstr "Mar"
 
 #: fw/applib/pbl_std/timelocal.c:39
 msgctxt "MonthAbbr"
 msgid "Apr"
-msgstr ""
+msgstr "Apr"
 
 #: fw/applib/pbl_std/timelocal.c:40
 msgctxt "MonthAbbr"
 msgid "May"
-msgstr ""
+msgstr "Maj"
 
 #: fw/applib/pbl_std/timelocal.c:40
 msgctxt "MonthAbbr"
 msgid "Jun"
-msgstr ""
+msgstr "Jun"
 
 #: fw/applib/pbl_std/timelocal.c:41
 msgctxt "MonthAbbr"
 msgid "Jul"
-msgstr ""
+msgstr "Jul"
 
 #: fw/applib/pbl_std/timelocal.c:41
 msgctxt "MonthAbbr"
 msgid "Aug"
-msgstr ""
+msgstr "Aug"
 
 #: fw/applib/pbl_std/timelocal.c:42
 msgctxt "MonthAbbr"
 msgid "Sep"
-msgstr ""
+msgstr "Sep"
 
 #: fw/applib/pbl_std/timelocal.c:42
 msgctxt "MonthAbbr"
 msgid "Oct"
-msgstr ""
+msgstr "Okt"
 
 #: fw/applib/pbl_std/timelocal.c:43
 msgctxt "MonthAbbr"
 msgid "Nov"
-msgstr ""
+msgstr "Nov"
 
 #: fw/applib/pbl_std/timelocal.c:43
 msgctxt "MonthAbbr"
 msgid "Dec"
-msgstr ""
+msgstr "Dec"
 
 #: fw/applib/pbl_std/timelocal.c:45
 msgid "January"
-msgstr ""
+msgstr "Januari"
 
 #: fw/applib/pbl_std/timelocal.c:45
 msgid "February"
-msgstr ""
+msgstr "Februari"
 
 #: fw/applib/pbl_std/timelocal.c:45
 msgid "March"
-msgstr ""
+msgstr "Mars"
 
 #: fw/applib/pbl_std/timelocal.c:45
 msgid "April"
-msgstr ""
+msgstr "April"
 
 #: fw/applib/pbl_std/timelocal.c:46
 msgid "May"
-msgstr ""
+msgstr "Maj"
 
 #: fw/applib/pbl_std/timelocal.c:46
 msgid "June"
-msgstr ""
+msgstr "Juni"
 
 #: fw/applib/pbl_std/timelocal.c:46
 msgid "July"
-msgstr ""
+msgstr "Juli"
 
 #: fw/applib/pbl_std/timelocal.c:46
 msgid "August"
-msgstr ""
+msgstr "Augusti"
 
 #: fw/applib/pbl_std/timelocal.c:47
 msgid "September"
-msgstr ""
+msgstr "September"
 
 #: fw/applib/pbl_std/timelocal.c:47
 msgid "October"
-msgstr ""
+msgstr "Oktober"
 
 #: fw/applib/pbl_std/timelocal.c:47
 msgid "November"
-msgstr ""
+msgstr "November"
 
 #: fw/applib/pbl_std/timelocal.c:47
 msgid "December"
-msgstr ""
+msgstr "December"
 
-#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1474
+#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1475
 msgid "Sun"
-msgstr ""
+msgstr "Sön"
 
-#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1474
+#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1475
 msgid "Mon"
-msgstr ""
+msgstr "Mån"
 
-#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1474
+#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1475
 msgid "Tue"
-msgstr ""
+msgstr "Tis"
 
-#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1475
+#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1476
 msgid "Wed"
-msgstr ""
+msgstr "Ons"
 
-#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1475
+#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1476
 msgid "Thu"
-msgstr ""
-
-#: fw/applib/pbl_std/timelocal.c:50 fw/services/alarms/alarm.c:1475
-msgid "Fri"
-msgstr ""
+msgstr "Tor"
 
 #: fw/applib/pbl_std/timelocal.c:50 fw/services/alarms/alarm.c:1476
+msgid "Fri"
+msgstr "Fre"
+
+#: fw/applib/pbl_std/timelocal.c:50 fw/services/alarms/alarm.c:1477
 msgid "Sat"
-msgstr ""
+msgstr "Lör"
 
 #: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:142
 msgid "Sunday"
-msgstr ""
+msgstr "Söndag"
 
 #: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:142
 msgid "Monday"
-msgstr ""
+msgstr "Måndag"
 
 #: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:142
 msgid "Tuesday"
-msgstr ""
+msgstr "Tisdag"
 
 #: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:142
 msgid "Wednesday"
-msgstr ""
+msgstr "Onsdag"
 
 #: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:143
 msgid "Thursday"
-msgstr ""
+msgstr "Torsdag"
 
 #: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:143
 msgid "Friday"
-msgstr ""
+msgstr "Fredag"
 
 #: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:143
 msgid "Saturday"
-msgstr ""
+msgstr "Lördag"
 
 #: fw/applib/pbl_std/timelocal.c:55
 msgid "%H:%M:%S"
-msgstr ""
+msgstr "%H:%M:%S"
 
 #: fw/applib/pbl_std/timelocal.c:56
 msgid "%m/%d/%y"
-msgstr ""
+msgstr "%d/%m/%y"
 
 #: fw/applib/pbl_std/timelocal.c:57
 msgid "%a %b %e %H:%M:%S %Y"
-msgstr ""
+msgstr "%a %e %b %H:%M:%S %Y"
 
 #: fw/applib/pbl_std/timelocal.c:58
 msgid "%I:%M:%S %p"
-msgstr ""
+msgstr "%I:%M:%S %p"
 
 #: fw/applib/pbl_std/timelocal.c:62
 #: fw/applib/ui/date_time_selection_window_private.c:74
 #: fw/apps/system/weather/expanded_view.c:161
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: fw/applib/pbl_std/timelocal.c:63
 #: fw/applib/ui/date_time_selection_window_private.c:76
 #: fw/apps/system/weather/expanded_view.c:161
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: fw/applib/pbl_std/timelocal.c:66
 msgid "am"
-msgstr ""
+msgstr "am"
 
 #: fw/applib/pbl_std/timelocal.c:67
 msgid "pm"
-msgstr ""
+msgstr "pm"
 
 #. / The second separator in `<hour>:<minute>:<second>`
-#: fw/applib/template_string.c:219 fw/applib/template_string.c:221
+#: fw/applib/template_string.c:217 fw/applib/template_string.c:219
 msgctxt "TmplStringSep"
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #. / The second separator in `<hour> hr <minute> min <second> sec`
-#: fw/applib/template_string.c:225 fw/applib/template_string.c:227
+#: fw/applib/template_string.c:223 fw/applib/template_string.c:225
 msgctxt "TmplStringSep"
 msgid " "
-msgstr ""
+msgstr " "
 
-#: fw/applib/template_string.c:231
+#: fw/applib/template_string.c:229
 msgctxt "TmplStringSep"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #. / The second separator in `<hour> hours, <minute> minutes, and <second> seconds`
-#: fw/applib/template_string.c:233
+#: fw/applib/template_string.c:231
 msgctxt "TmplStringSep"
 msgid ", and "
-msgstr ""
+msgstr " och "
 
 #. / Suffixes for seconds with no units
 #. / Suffixes for minutes with no units
@@ -245,1248 +247,1309 @@ msgstr ""
 #. / Suffixes for days with no units
 #. / Suffixes for months with no units
 #. / Suffixes for years with no units
-#: fw/applib/template_string.c:306 fw/applib/template_string.c:318
-#: fw/applib/template_string.c:330 fw/applib/template_string.c:342
-#: fw/applib/template_string.c:355 fw/applib/template_string.c:369
+#: fw/applib/template_string.c:304 fw/applib/template_string.c:316
+#: fw/applib/template_string.c:328 fw/applib/template_string.c:340
+#: fw/applib/template_string.c:353 fw/applib/template_string.c:367
 msgctxt "TmplStringSing"
 msgid ""
 msgstr ""
 
-#: fw/applib/template_string.c:306 fw/applib/template_string.c:318
-#: fw/applib/template_string.c:330 fw/applib/template_string.c:342
-#: fw/applib/template_string.c:355 fw/applib/template_string.c:369
+#: fw/applib/template_string.c:304 fw/applib/template_string.c:316
+#: fw/applib/template_string.c:328 fw/applib/template_string.c:340
+#: fw/applib/template_string.c:353 fw/applib/template_string.c:367
 msgctxt "TmplStringPlur"
 msgid ""
 msgstr ""
 
-#: fw/applib/template_string.c:307 fw/applib/template_string.c:319
-#: fw/applib/template_string.c:331 fw/applib/template_string.c:343
-#: fw/applib/template_string.c:356 fw/applib/template_string.c:370
+#: fw/applib/template_string.c:305 fw/applib/template_string.c:317
+#: fw/applib/template_string.c:329 fw/applib/template_string.c:341
+#: fw/applib/template_string.c:354 fw/applib/template_string.c:368
 msgctxt "TmplStringMany"
 msgid ""
 msgstr ""
 
 #. / Suffixes for seconds with abbreviated units
-#: fw/applib/template_string.c:309
+#: fw/applib/template_string.c:307
 msgctxt "TmplStringSing"
 msgid " sec"
-msgstr ""
+msgstr " sek"
 
-#: fw/applib/template_string.c:309
+#: fw/applib/template_string.c:307
 msgctxt "TmplStringPlur"
 msgid " sec"
-msgstr ""
+msgstr " sek"
 
-#: fw/applib/template_string.c:310
+#: fw/applib/template_string.c:308
 msgctxt "TmplStringMany"
 msgid " sec"
-msgstr ""
+msgstr " sek"
 
 #. / Suffixes for seconds with full units
-#: fw/applib/template_string.c:312
+#: fw/applib/template_string.c:310
 msgctxt "TmplStringSing"
 msgid " second"
-msgstr ""
+msgstr " sekund"
 
-#: fw/applib/template_string.c:312
+#: fw/applib/template_string.c:310
 msgctxt "TmplStringPlur"
 msgid " seconds"
-msgstr ""
+msgstr " sekunder"
 
-#: fw/applib/template_string.c:313
+#: fw/applib/template_string.c:311
 msgctxt "TmplStringMany"
 msgid " seconds"
-msgstr ""
+msgstr " sekunder"
 
 #. / Suffixes for minutes with abbreviated units
-#: fw/applib/template_string.c:321
+#: fw/applib/template_string.c:319
 msgctxt "TmplStringSing"
 msgid " min"
-msgstr ""
+msgstr " min"
 
-#: fw/applib/template_string.c:321
+#: fw/applib/template_string.c:319
 msgctxt "TmplStringPlur"
 msgid " min"
-msgstr ""
+msgstr " min"
 
-#: fw/applib/template_string.c:322
+#: fw/applib/template_string.c:320
 msgctxt "TmplStringMany"
 msgid " min"
-msgstr ""
+msgstr " min"
 
 #. / Suffixes for minutes with full units
-#: fw/applib/template_string.c:324
+#: fw/applib/template_string.c:322
 msgctxt "TmplStringSing"
 msgid " minute"
-msgstr ""
+msgstr " minut"
 
-#: fw/applib/template_string.c:324
+#: fw/applib/template_string.c:322
 msgctxt "TmplStringPlur"
 msgid " minutes"
-msgstr ""
+msgstr " minuter"
 
-#: fw/applib/template_string.c:325
+#: fw/applib/template_string.c:323
 msgctxt "TmplStringMany"
 msgid " minutes"
-msgstr ""
+msgstr " minuter"
 
 #. / Suffixes for hours with abbreviated units
-#: fw/applib/template_string.c:333
+#: fw/applib/template_string.c:331
 msgctxt "TmplStringSing"
 msgid " hr"
-msgstr ""
+msgstr " t"
 
-#: fw/applib/template_string.c:333
+#: fw/applib/template_string.c:331
 msgctxt "TmplStringPlur"
 msgid " hr"
-msgstr ""
+msgstr " t"
 
-#: fw/applib/template_string.c:334
+#: fw/applib/template_string.c:332
 msgctxt "TmplStringMany"
 msgid " hr"
-msgstr ""
+msgstr " t"
 
 #. / Suffixes for hours with full units
-#: fw/applib/template_string.c:336
+#: fw/applib/template_string.c:334
 msgctxt "TmplStringSing"
 msgid " hour"
-msgstr ""
+msgstr " timme"
 
-#: fw/applib/template_string.c:336
+#: fw/applib/template_string.c:334
 msgctxt "TmplStringPlur"
 msgid " hours"
-msgstr ""
+msgstr " timmar"
 
-#: fw/applib/template_string.c:337
+#: fw/applib/template_string.c:335
 msgctxt "TmplStringMany"
 msgid " hours"
-msgstr ""
+msgstr " timmar"
 
 #. / Suffixes for days with abbreviated units
-#: fw/applib/template_string.c:345
+#: fw/applib/template_string.c:343
 msgctxt "TmplStringSing"
 msgid " d"
-msgstr ""
+msgstr " d"
 
-#: fw/applib/template_string.c:345
+#: fw/applib/template_string.c:343
 msgctxt "TmplStringPlur"
 msgid " d"
-msgstr ""
+msgstr " d"
 
-#: fw/applib/template_string.c:346
+#: fw/applib/template_string.c:344
 msgctxt "TmplStringMany"
 msgid " d"
-msgstr ""
+msgstr " d"
 
 #. / Suffixes for days with full units
-#: fw/applib/template_string.c:348
+#: fw/applib/template_string.c:346
 msgctxt "TmplStringSing"
 msgid " day"
-msgstr ""
+msgstr " dag"
 
-#: fw/applib/template_string.c:348
+#: fw/applib/template_string.c:346
 msgctxt "TmplStringPlur"
 msgid " days"
-msgstr ""
+msgstr " dagar"
 
-#: fw/applib/template_string.c:349
+#: fw/applib/template_string.c:347
 msgctxt "TmplStringMany"
 msgid " days"
-msgstr ""
+msgstr " dagar"
 
 #. / Suffixes for months with abbreviated units
-#: fw/applib/template_string.c:358
+#: fw/applib/template_string.c:356
 msgctxt "TmplStringSing"
 msgid " mo"
-msgstr ""
+msgstr " m"
 
-#: fw/applib/template_string.c:358
+#: fw/applib/template_string.c:356
 msgctxt "TmplStringPlur"
 msgid " mo"
-msgstr ""
+msgstr " m"
 
-#: fw/applib/template_string.c:359
+#: fw/applib/template_string.c:357
 msgctxt "TmplStringMany"
 msgid " mo"
-msgstr ""
+msgstr " m"
 
 #. / Suffixes for months with full units
-#: fw/applib/template_string.c:361
+#: fw/applib/template_string.c:359
 msgctxt "TmplStringSing"
 msgid " month"
-msgstr ""
+msgstr " månad"
 
-#: fw/applib/template_string.c:361
+#: fw/applib/template_string.c:359
 msgctxt "TmplStringPlur"
 msgid " months"
-msgstr ""
+msgstr " månader"
 
-#: fw/applib/template_string.c:362
+#: fw/applib/template_string.c:360
 msgctxt "TmplStringMany"
 msgid " months"
-msgstr ""
+msgstr " månader"
 
 #. / Suffixes for years with abbreviated units
-#: fw/applib/template_string.c:372
+#: fw/applib/template_string.c:370
 msgctxt "TmplStringSing"
 msgid " yr"
-msgstr ""
+msgstr " å"
 
-#: fw/applib/template_string.c:372
+#: fw/applib/template_string.c:370
 msgctxt "TmplStringPlur"
 msgid " yr"
-msgstr ""
+msgstr " å"
 
-#: fw/applib/template_string.c:373
+#: fw/applib/template_string.c:371
 msgctxt "TmplStringMany"
 msgid " yr"
-msgstr ""
+msgstr " å"
 
 #. / Suffixes for years with full units
-#: fw/applib/template_string.c:375
+#: fw/applib/template_string.c:373
 msgctxt "TmplStringSing"
 msgid " year"
-msgstr ""
+msgstr " år"
 
-#: fw/applib/template_string.c:375
+#: fw/applib/template_string.c:373
 msgctxt "TmplStringPlur"
 msgid " years"
-msgstr ""
+msgstr " år"
 
-#: fw/applib/template_string.c:376
+#: fw/applib/template_string.c:374
 msgctxt "TmplStringMany"
 msgid " years"
+msgstr " år"
+
+#. / A frequency option for alarms, i.e. the alarm would go off every
+#. / day. Respect capitalization!
+#: fw/applib/ui/day_picker.c:46 fw/services/alarms/alarm.c:1420
+msgid "Every Day"
+msgstr "Varje dag"
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / every weekday. Respect capitalization!
+#: fw/applib/ui/day_picker.c:46 fw/apps/system/settings/quiet_time.c:259
+#: fw/services/alarms/alarm.c:1430
+msgid "Weekdays"
+msgstr "Vardagar"
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / each day on the weekend. Respect capitalization!
+#: fw/applib/ui/day_picker.c:47 fw/apps/system/settings/quiet_time.c:267
+#: fw/services/alarms/alarm.c:1440
+msgid "Weekends"
+msgstr "Helger"
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / on a custom choice of days. Respect capitalization!
+#: fw/applib/ui/day_picker.c:47 fw/services/alarms/alarm.c:1462
+msgid "Custom"
+msgstr "Anpassad"
+
+#: fw/applib/ui/day_picker.c:48
+msgid "Just Once"
 msgstr ""
 
-#: fw/applib/ui/day_picker.c:235
+#: fw/applib/ui/day_picker.c:234
 msgid "Check something first."
-msgstr ""
+msgstr "Kontrollera något först."
 
-#: fw/applib/ui/dialogs/bt_conn_dialog.c:96
+#: fw/applib/ui/dialogs/bt_conn_dialog.c:97
 msgid "Check bluetooth connection"
-msgstr ""
+msgstr "Kontrollera bluetoothanslutningen"
 
 #: fw/applib/ui/time_range_selection_window.c:179
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #. / Vibrate at the end of notification animation (delayed)
 #: fw/applib/ui/time_range_selection_window.c:183
 #: fw/apps/system/settings/notifications.c:239
 msgid "End"
-msgstr ""
+msgstr "Slut"
 
-#: fw/applib/voice/voice_window.c:192
+#: fw/applib/voice/voice_window.c:183
 msgid "Dictation is not available."
-msgstr ""
+msgstr "Diktering är inte tillgänglig."
 
-#: fw/applib/voice/voice_window.c:211
+#: fw/applib/voice/voice_window.c:202
 msgid "Error occurred. Try again."
-msgstr ""
+msgstr "Fel uppstod. Försök igen."
 
-#: fw/applib/voice/voice_window.c:218 fw/apps/system/app_fetch_ui.c:124
+#: fw/applib/voice/voice_window.c:209 fw/apps/system/app_fetch_ui.c:124
 msgid "No internet connection"
-msgstr ""
+msgstr "Ingen internetanslutning"
 
-#: fw/applib/voice/voice_window.c:230
+#: fw/applib/voice/voice_window.c:221
 msgid "Enable voice in the settings page of the Pebble app."
-msgstr ""
+msgstr "Aktivera röstigenkänning i Pebble appens inställningar."
 
-#: fw/applib/voice/voice_window.c:366
+#: fw/applib/voice/voice_window.c:383
 msgid "Missed that. Try again."
-msgstr ""
+msgstr "Hörde inte. Försök igen."
 
-#: fw/applib/voice/voice_window.c:1108
+#: fw/applib/voice/voice_window.c:1110
 msgid "Listening"
-msgstr ""
+msgstr "Lyssnar"
 
 #: fw/apps/core/progress_ui.c:63
 msgid "Update Complete"
-msgstr ""
+msgstr "Uppdatering slutförd"
 
 #: fw/apps/core/progress_ui.c:63
 msgid "Update Failed"
-msgstr ""
+msgstr "Uppatering misslyckades"
 
-#: fw/apps/core/progress_ui.c:175 fw/apps/system/settings/factory_reset.c:58
+#: fw/apps/core/progress_ui.c:175 fw/apps/system/settings/factory_reset.c:59
 msgid "Resetting..."
-msgstr ""
+msgstr "Nollställer..."
 
 #: fw/apps/demo/dialogs/dialogs_demo.c:105
 msgid "Decline dialog."
-msgstr ""
+msgstr "Avvisningsdialog."
 
-#: fw/apps/system/alarms/alarm_detail.c:62
+#: fw/apps/system/alarms/alarm_detail.c:63
 #, c-format
 msgid "Snooze delay set to %d minutes"
-msgstr ""
+msgstr "Snoozelängd inställd på %d minuter"
 
-#: fw/apps/system/alarms/alarm_detail.c:273
+#: fw/apps/system/alarms/alarm_detail.c:274
 msgid "Delete"
-msgstr ""
+msgstr "Radera"
 
-#: fw/apps/system/alarms/alarm_detail.c:278
-#: fw/apps/system/settings/quiet_time.c:205
+#: fw/apps/system/alarms/alarm_detail.c:279
+#: fw/apps/system/settings/quiet_time.c:200
 msgid "Disable"
-msgstr ""
+msgstr "Avaktivera"
 
-#: fw/apps/system/alarms/alarm_detail.c:278
-#: fw/apps/system/settings/quiet_time.c:207
+#: fw/apps/system/alarms/alarm_detail.c:279
+#: fw/apps/system/settings/quiet_time.c:202
 msgid "Enable"
-msgstr ""
+msgstr "Aktivera"
 
-#: fw/apps/system/alarms/alarm_detail.c:283
+#: fw/apps/system/alarms/alarm_detail.c:284
 #: fw/apps/system/alarms/alarm_editor.c:163
 msgid "Change Time"
-msgstr ""
+msgstr "Ändra tid"
 
-#: fw/apps/system/alarms/alarm_detail.c:288
+#: fw/apps/system/alarms/alarm_detail.c:289
 msgid "Change Days"
-msgstr ""
-
-#: fw/apps/system/alarms/alarm_detail.c:293
-msgid "Convert to Basic Alarm"
-msgstr ""
+msgstr "Ändra dagar"
 
 #: fw/apps/system/alarms/alarm_detail.c:294
+msgid "Convert to Basic Alarm"
+msgstr "Konvertera till enkelt alarm"
+
+#: fw/apps/system/alarms/alarm_detail.c:295
 msgid "Convert to Smart Alarm"
-msgstr ""
+msgstr "Konvertera till smart alarm"
 
-#: fw/apps/system/alarms/alarm_detail.c:300
+#: fw/apps/system/alarms/alarm_detail.c:301
 msgid "Sound"
-msgstr ""
-
-#: fw/apps/system/alarms/alarm_detail.c:306
-msgid "Vibration: On"
-msgstr ""
+msgstr "Ljud"
 
 #: fw/apps/system/alarms/alarm_detail.c:307
+msgid "Vibration: On"
+msgstr "Vibration: av"
+
+#: fw/apps/system/alarms/alarm_detail.c:308
 msgid "Vibration: Off"
-msgstr ""
+msgstr "Vibration: på"
 
-#: fw/apps/system/alarms/alarm_detail.c:312
+#: fw/apps/system/alarms/alarm_detail.c:313
 msgid "Snooze Delay"
-msgstr ""
+msgstr "Snoozelängd"
 
-#: fw/apps/system/alarms/alarm_detail.c:323
+#: fw/apps/system/alarms/alarm_detail.c:324
 msgid "5 minutes"
-msgstr ""
+msgstr "5 minuter"
 
-#: fw/apps/system/alarms/alarm_detail.c:323
+#: fw/apps/system/alarms/alarm_detail.c:324
 msgid "10 minutes"
-msgstr ""
+msgstr "10 minuter"
 
-#: fw/apps/system/alarms/alarm_detail.c:323
+#: fw/apps/system/alarms/alarm_detail.c:324
 msgid "15 minutes"
-msgstr ""
+msgstr "15 minuter"
 
-#: fw/apps/system/alarms/alarm_detail.c:324
+#: fw/apps/system/alarms/alarm_detail.c:325
 msgid "30 minutes"
-msgstr ""
+msgstr "30 minuter"
 
-#: fw/apps/system/alarms/alarm_detail.c:324
+#: fw/apps/system/alarms/alarm_detail.c:325
 msgid "1 hour"
-msgstr ""
+msgstr "1 timme"
 
-#: fw/apps/system/alarms/alarm_detail.c:350
+#: fw/apps/system/alarms/alarm_detail.c:351
 msgctxt "AlarmSound"
 msgid "Off"
-msgstr ""
+msgstr "Av"
 
 #: fw/apps/system/alarms/alarm_editor.c:164
 msgid "New Smart Alarm"
-msgstr ""
+msgstr "Nytt smart alarm"
 
 #: fw/apps/system/alarms/alarm_editor.c:165
 #: fw/apps/system/alarms/alarm_editor.c:263
 msgid "New Alarm"
-msgstr ""
+msgstr "Nytt alarm"
 
 #: fw/apps/system/alarms/alarm_editor.c:167
 msgid "Wake up between"
-msgstr ""
+msgstr "Väckning mellan"
 
 #: fw/apps/system/alarms/alarm_editor.c:167
 msgid "Wake up interval"
-msgstr ""
+msgstr "Väckningsintervall"
 
 #: fw/apps/system/alarms/alarm_editor.c:260
 msgid "Basic Alarm"
-msgstr ""
+msgstr "Enkelt alarm"
 
-#: fw/apps/system/alarms/alarm_editor.c:261 fw/apps/system/alarms/alarms.c:348
-#: fw/services/alarms/alarm.c:459 fw/services/alarms/alarm_pin.c:75
+#: fw/apps/system/alarms/alarm_editor.c:261 fw/apps/system/alarms/alarms.c:350
+#: fw/services/alarms/alarm.c:460 fw/services/alarms/alarm_pin.c:75
 msgid "Smart Alarm"
-msgstr ""
+msgstr "Smart alarm"
 
-#: fw/apps/system/alarms/alarms.c:115
+#: fw/apps/system/alarms/alarms.c:116
 msgid "Alarm Deleted"
-msgstr ""
+msgstr "Alarm raderat"
 
-#: fw/apps/system/alarms/alarms.c:230
+#: fw/apps/system/alarms/alarms.c:231
 msgid "Limit reached."
-msgstr ""
+msgstr "Gräns uppnådd."
 
-#: fw/apps/system/alarms/alarms.c:273
+#: fw/apps/system/alarms/alarms.c:275
 msgid "ON"
-msgstr ""
+msgstr "PÅ"
 
-#: fw/apps/system/alarms/alarms.c:273
+#: fw/apps/system/alarms/alarms.c:275
 msgid "OFF"
-msgstr ""
+msgstr "AV"
 
-#: fw/apps/system/alarms/alarms.c:345
+#: fw/apps/system/alarms/alarms.c:347
 msgid ""
 "Let us wake you in your lightest sleep so you're fully refreshed! Smart "
 "Alarm wakes you up to 30min before your alarm."
 msgstr ""
+"Låt oss väcka dig när du sover som ytligast, så du vaknar pigg! Smart alarm "
+"väcker dig upp till 30 min före din alarmtid."
 
-#: fw/apps/system/alarms/alarms.c:473
-#: fw/apps/system/settings/vibe_patterns.c:92
-#: fw/services/timeline/timeline.c:939
+#: fw/apps/system/alarms/alarms.c:475
+#: fw/apps/system/settings/vibe_patterns.c:93
+#: fw/services/timeline/timeline.c:929
 msgid "Alarms"
-msgstr ""
+msgstr "Alarm"
 
 #: fw/apps/system/app_fetch_ui.c:110
 msgid "Not connected"
-msgstr ""
+msgstr "Inte ansluten"
 
 #: fw/apps/system/app_fetch_ui.c:122
 msgid ""
 "No internet\n"
 "connection"
 msgstr ""
+"Ingen\n"
+"internetanslutning"
 
-#: fw/apps/system/app_fetch_ui.c:130
+#: fw/apps/system/app_fetch_ui.c:129
 msgid "Incompatible JS"
-msgstr ""
+msgstr "Inkompatibel JS"
 
-#: fw/apps/system/app_fetch_ui.c:139
-#: fw/services/timeline/timeline_actions.c:265
+#: fw/apps/system/app_fetch_ui.c:138
+#: fw/services/timeline/timeline_actions.c:268
 msgid "Failed"
-msgstr ""
+msgstr "Misslyckades"
 
 #: fw/apps/system/health/activity_detail_card.c:36
 msgid "kcal"
-msgstr ""
+msgstr "kcal"
 
 #: fw/apps/system/health/activity_detail_card.c:46
 #: fw/services/activity/activity_insights.c:1624
 msgid "mi"
-msgstr ""
+msgstr "mil"
 
 #: fw/apps/system/health/activity_detail_card.c:46
 #: fw/services/activity/activity_insights.c:1624
 msgid "km"
-msgstr ""
+msgstr "km"
 
 #: fw/apps/system/health/activity_detail_card.c:59
-#: fw/apps/system/health/sleep_detail_card.c:68
+#: fw/apps/system/health/sleep_detail_card.c:67
 msgid "30 DAY AVG"
-msgstr ""
+msgstr "30 DAGARS SNITT"
 
 #: fw/apps/system/health/activity_detail_card.c:86
 msgid "CALORIES"
-msgstr ""
+msgstr "KALORIER"
 
 #. / Distance Label
 #: fw/apps/system/health/activity_detail_card.c:88
 #: fw/apps/system/workout/active.c:161
 msgid "DISTANCE"
-msgstr ""
+msgstr "DISTANS"
 
 #: fw/apps/system/health/activity_summary_card.c:144
 msgid "TOTAL"
-msgstr ""
+msgstr "TOTALT"
 
-#: fw/apps/system/health/detail_card.c:540 fw/apps/system/weather/weather.c:137
-#: fw/services/clock/service.c:534 fw/services/clock/service.c:719
+#: fw/apps/system/health/detail_card.c:644 fw/apps/system/weather/weather.c:137
+#: fw/services/clock/service.c:533 fw/services/clock/service.c:718
 msgid "Today"
-msgstr ""
+msgstr "Idag"
 
 #: fw/apps/system/health/graph_card.c:310
 msgid ": "
-msgstr ""
+msgstr ": "
 
 #: fw/apps/system/health/graph_card.c:316
 #, c-format
 msgid "%a: "
-msgstr ""
+msgstr "%a: "
 
 #: fw/apps/system/health/graph_card.c:399
 msgid "SMTWTFS"
-msgstr ""
+msgstr "SMTOTFL"
 
 #: fw/apps/system/health/health.c:78
 msgid ""
 "Psst! Want smart tips about your activity and sleep? You can enable Insights "
 "in the mobile app."
 msgstr ""
+"Psst! Vill du få smarta tips om aktivitet och sömn? Du kan aktivera Insikter "
+"i mobilappen."
 
 #: fw/apps/system/health/health.c:108
 msgid ""
 "Track your steps, sleep, and more! Enable Pebble Health in the mobile app."
-msgstr ""
+msgstr "Spåra dina steg, sömn och mer! Aktivera Pebble Hälsa i mobilappen."
 
 #: fw/apps/system/health/health.c:117
 msgid "Health requires the time to be synced. Please connect your phone."
-msgstr ""
+msgstr "Hälsa kräver att tiden är synkad. Anslut till din telefon."
 
 #: fw/apps/system/health/health.c:184 fw/apps/system/settings/health.c:289
-#: fw/services/timeline/timeline.c:943
+#: fw/services/timeline/timeline.c:933
 msgid "Health"
+msgstr "Hälsa"
+
+#: fw/apps/system/health/hr_chart.c:112
+msgid "%k"
 msgstr ""
 
-#: fw/apps/system/health/hr_detail_card.c:68
+#: fw/apps/system/health/hr_chart.c:112
+msgid "%l%p"
+msgstr ""
+
+#: fw/apps/system/health/hr_chart.c:112
+msgid "%l"
+msgstr ""
+
+#. / Range of heart rate readings, e.g. "52–104 BPM"
+#: fw/apps/system/health/hr_detail_card.c:44
+#, c-format
+msgid "%d–%d BPM"
+msgstr ""
+
+#: fw/apps/system/health/hr_detail_card.c:89
 #: fw/services/activity/activity_insights.c:1729
 msgid "Fat Burn"
-msgstr ""
+msgstr "Fettförbränning"
 
-#: fw/apps/system/health/hr_detail_card.c:71
+#: fw/apps/system/health/hr_detail_card.c:92
 #: fw/services/activity/activity_insights.c:1736
 msgid "Endurance"
-msgstr ""
+msgstr "Uthållighet"
 
-#: fw/apps/system/health/hr_detail_card.c:74
+#: fw/apps/system/health/hr_detail_card.c:95
 #: fw/services/activity/activity_insights.c:1743
 msgid "Performance"
+msgstr "Prestation"
+
+#. / Heading above a chart of today's heart rate and its lowest to highest reading
+#: fw/apps/system/health/hr_detail_card.c:102
+msgid "TODAY'S RANGE"
 msgstr ""
 
-#. / Resting HR
-#: fw/apps/system/health/hr_detail_card.c:80
+#. / Heading above the time spent in each heart rate zone today
+#: fw/apps/system/health/hr_detail_card.c:114
 msgid "TIME IN ZONES"
-msgstr ""
+msgstr "TID I ZONER"
 
-#: fw/apps/system/health/hr_summary_card.c:113
+#: fw/apps/system/health/hr_summary_card.c:114
 msgid "BPM"
-msgstr ""
+msgstr "BPM"
 
 #. / HRM disabled
-#: fw/apps/system/health/hr_summary_card.c:158
+#: fw/apps/system/health/hr_summary_card.c:159
 msgid "Enable heart rate monitoring in the mobile app"
-msgstr ""
+msgstr "Aktivera pulsmätning i mobilappen"
 
-#: fw/apps/system/health/sleep_detail_card.c:70
+#: fw/apps/system/health/sleep_detail_card.c:69
 msgid "30 DAY"
-msgstr ""
+msgstr "30 DAGAR"
 
-#: fw/apps/system/health/sleep_detail_card.c:99
+#: fw/apps/system/health/sleep_detail_card.c:98
 msgid "SLEEP SESSION"
-msgstr ""
+msgstr "SÖMNSESSION"
 
-#: fw/apps/system/health/sleep_detail_card.c:112
+#: fw/apps/system/health/sleep_detail_card.c:111
 msgid "DEEP SLEEP"
-msgstr ""
+msgstr "DJUPSÖMN"
 
-#: fw/apps/system/health/sleep_summary_card.c:213
+#: fw/apps/system/health/sleep_summary_card.c:214
 msgid ""
 "No sleep data,\n"
 "wear your watch\n"
 "to sleep"
 msgstr ""
+"Ingen sömndata,\n"
+"bär klockan\n"
+"när du sover"
 
 #: fw/apps/system/health/ui.c:67
 #, c-format
 msgid "TYPICAL %s"
-msgstr ""
+msgstr "GENOMSNITT %s"
 
 #. / Shown when the current temperature is unknown
 #: fw/apps/system/launcher/default/app_glance_weather.c:118
 msgid "--°"
-msgstr ""
+msgstr "--°"
 
 #. / Shown when today's temperature and conditions phrase is known (e.g. "52° - Fair")
 #: fw/apps/system/launcher/default/app_glance_weather.c:124
 #, c-format
 msgid "%i° - %s"
-msgstr ""
+msgstr "%i° - %s"
 
 #. / Today's current temperature (e.g. "68°")
 #: fw/apps/system/launcher/default/app_glance_weather.c:126
 #, c-format
 msgid "%i°"
-msgstr ""
+msgstr "%i°"
 
-#: fw/apps/system/music.c:885
+#: fw/apps/system/music.c:905
 msgid ""
 "START PLAYBACK\n"
 "ON YOUR PHONE"
 msgstr ""
+"STARTA UPPSPELNING\n"
+"PÅ DIN TELEFON"
 
-#: fw/apps/system/music.c:1804
+#: fw/apps/system/music.c:1831
 msgid "Music"
-msgstr ""
+msgstr "Musik"
 
-#: fw/apps/system/notifications.c:406
+#: fw/apps/system/notifications.c:417
 msgid "Done"
-msgstr ""
+msgstr "Färdig"
 
-#: fw/apps/system/notifications.c:432
+#: fw/apps/system/notifications.c:443
 msgid "Clear history?"
-msgstr ""
+msgstr "Rensa historik?"
 
 #. / Notification sender followed by the number of grouped notifications
-#: fw/apps/system/notifications.c:692
+#: fw/apps/system/notifications.c:703
 #, c-format
 msgid "%s (%u)"
-msgstr ""
+msgstr "%s (%u)"
 
-#: fw/apps/system/notifications.c:731 fw/apps/system/notifications.c:738
+#: fw/apps/system/notifications.c:742 fw/apps/system/notifications.c:749
 msgid "Clear All"
-msgstr ""
+msgstr "Rensa allt"
 
-#: fw/apps/system/notifications.c:989
+#: fw/apps/system/notifications.c:1000
 msgid "No notifications"
-msgstr ""
+msgstr "Inga notiser"
 
-#: fw/apps/system/notifications.c:1098
+#: fw/apps/system/notifications.c:1109
 #: fw/apps/system/settings/notifications.c:491
-#: fw/apps/system/settings/quiet_time.c:441
-#: fw/apps/system/settings/vibe_patterns.c:82
-#: fw/services/timeline/timeline.c:923
+#: fw/apps/system/settings/quiet_time.c:368
+#: fw/apps/system/settings/quiet_time.c:447
+#: fw/apps/system/settings/vibe_patterns.c:83
+#: fw/services/timeline/timeline.c:913
 msgid "Notifications"
-msgstr ""
+msgstr "Notiser"
 
-#: fw/apps/system/notifications.c:1112
+#: fw/apps/system/notifications.c:1123
 msgid "Clear Notification History"
-msgstr ""
+msgstr "Rensa notishistorik"
 
 #. / Quick Launch action that makes the button do nothing at all.
 #: fw/apps/system/quick_launch_nothing.c:24
 msgid "Nothing"
-msgstr ""
+msgstr "Inget"
 
-#: fw/apps/system/reminders/reminder.c:55
+#: fw/apps/system/reminders/reminder.c:57
 msgid "Completed"
-msgstr ""
+msgstr "Slutförd"
 
-#: fw/apps/system/reminders/reminder.c:59
+#: fw/apps/system/reminders/reminder.c:61
 msgid "Postpone"
-msgstr ""
+msgstr "Skjut upp"
 
-#: fw/apps/system/reminders/reminder.c:63
+#: fw/apps/system/reminders/reminder.c:65
 #: fw/services/activity/activity_insights.c:442
-#: fw/services/timeline/timeline.c:657
+#: fw/services/timeline/timeline.c:655
 msgid "Remove"
-msgstr ""
+msgstr "Ta bort"
 
-#: fw/apps/system/reminders/reminder.c:113
+#: fw/apps/system/reminders/reminder.c:115
 msgid "Added"
-msgstr ""
+msgstr "Lägg till"
 
-#: fw/apps/system/reminders/reminder.c:299
+#: fw/apps/system/reminders/reminder.c:301
 msgid "Reminder"
-msgstr ""
+msgstr "Påminnelse"
 
 #: fw/apps/system/send_text/send_text.c:195
 #: fw/apps/system/settings/health.c:156 fw/services/phone_call/util.c:18
 msgid "Unknown"
-msgstr ""
+msgstr "Okänd"
 
 #: fw/apps/system/send_text/send_text.c:253
 #: fw/apps/system/send_text/send_text.c:335
 msgid "Select Contact"
-msgstr ""
+msgstr "Välj kontakt"
 
 #: fw/apps/system/send_text/send_text.c:349
 msgid ""
 "Add contacts in\n"
 "mobile app"
 msgstr ""
+"Lägg till kontakter\n"
+"i mobilappen"
 
 #: fw/apps/system/send_text/send_text.c:383
 msgid "Send Text"
-msgstr ""
+msgstr "Sänd meddelande"
 
 #: fw/apps/system/settings/activity_tracker.c:156
 msgid "No background apps"
-msgstr ""
+msgstr "Inga bakgrundsappar"
 
 #. / No Notification Window Timeout
 #: fw/apps/system/settings/activity_tracker.c:164
 #: fw/apps/system/settings/notifications.c:161
 msgid "None"
-msgstr ""
+msgstr "Inga"
 
 #: fw/apps/system/settings/activity_tracker.c:240
 #: fw/apps/system/settings/activity_tracker.c:257
 msgid "Background App"
-msgstr ""
+msgstr "Bakgrundsapp"
 
-#: fw/apps/system/settings/bluetooth.c:128
+#: fw/apps/system/settings/bluetooth.c:130
 msgid "<Untitled>"
-msgstr ""
+msgstr "<Namnlös>"
 
-#: fw/apps/system/settings/bluetooth.c:188
+#: fw/apps/system/settings/bluetooth.c:190
 msgid "Pairing Instructions"
-msgstr ""
+msgstr "Parkopplingsinstruktioner"
 
-#: fw/apps/system/settings/bluetooth.c:193
+#: fw/apps/system/settings/bluetooth.c:195
 #, c-format
 msgid "%u Paired Phones"
-msgstr ""
+msgstr "%u parkopplade telefoner"
 
-#: fw/apps/system/settings/bluetooth.c:193
+#: fw/apps/system/settings/bluetooth.c:195
 #, c-format
 msgid "%u Paired Phone"
-msgstr ""
+msgstr "%u parkopplad telefon"
 
-#: fw/apps/system/settings/bluetooth.c:344
+#: fw/apps/system/settings/bluetooth.c:346
 msgid "Connected"
-msgstr ""
+msgstr "Ansluten"
 
-#: fw/apps/system/settings/bluetooth.c:359
+#: fw/apps/system/settings/bluetooth.c:361
 msgid "Sharing Heart Rate ❤"
-msgstr ""
+msgstr "Delar pulsmätning ❤"
 
-#: fw/apps/system/settings/bluetooth.c:384
+#: fw/apps/system/settings/bluetooth.c:386
 msgid "Forget this device to pair a new device."
-msgstr ""
-
-#: fw/apps/system/settings/bluetooth.c:387
-msgid "Disable Airplane Mode to connect."
-msgstr ""
+msgstr "Glöm denna enhet för att parkoppla en ny enhet."
 
 #: fw/apps/system/settings/bluetooth.c:389
+msgid "Disable Airplane Mode to connect."
+msgstr "Inaktivera flygplansläge för att ansluta."
+
+#: fw/apps/system/settings/bluetooth.c:391
 msgid "Open the Pebble app on your phone to connect."
-msgstr ""
+msgstr "Öppna Pebble-appen på telefonen för att ansluta."
 
-#: fw/apps/system/settings/bluetooth.c:464
+#: fw/apps/system/settings/bluetooth.c:466
 msgid "Connection"
-msgstr ""
+msgstr "Anslutning"
 
-#: fw/apps/system/settings/bluetooth.c:468
+#: fw/apps/system/settings/bluetooth.c:470
 msgid "Airplane Mode"
-msgstr ""
+msgstr "Flygplansläge"
 
-#: fw/apps/system/settings/bluetooth.c:478
+#: fw/apps/system/settings/bluetooth.c:480
 msgid "Disabling..."
-msgstr ""
+msgstr "Inaktiverar..."
 
-#: fw/apps/system/settings/bluetooth.c:479
+#: fw/apps/system/settings/bluetooth.c:481
 msgid "Enabling..."
-msgstr ""
+msgstr "Aktiverar..."
 
-#: fw/apps/system/settings/bluetooth.c:632
+#: fw/apps/system/settings/bluetooth.c:634
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: fw/apps/system/settings/bluetooth.h:38
 msgid ""
 "Remember to also forget your Pebble's Bluetooth connection from your phone."
-msgstr ""
+msgstr "Komihåg att också radera Pebbles bluetooth-anslutning på din telefon."
 
-#. / A frequency option for alarms, i.e. the alarm would only go off
-#. / on a custom choice of days. Respect capitalization!
-#: fw/apps/system/settings/display.c:42 fw/services/alarms/alarm.c:1461
-msgid "Custom"
-msgstr ""
-
-#: fw/apps/system/settings/display.c:55 fw/apps/system/settings/display.c:681
-#: fw/apps/system/settings/system.c:209
+#: fw/apps/system/settings/display.c:86 fw/apps/system/settings/display.c:709
+#: fw/apps/system/settings/system.c:210
 msgid "Language"
-msgstr ""
+msgstr "Språk"
 
-#: fw/apps/system/settings/display.c:64
+#: fw/apps/system/settings/display.c:95
 #: fw/apps/system/settings/notifications.c:108
 msgid "Smaller"
-msgstr ""
+msgstr "Mindre"
 
-#: fw/apps/system/settings/display.c:65
+#: fw/apps/system/settings/display.c:96
 #: fw/apps/system/settings/notifications.c:109
 msgctxt "TextSize"
 msgid "Default"
-msgstr ""
+msgstr "Standard"
 
-#: fw/apps/system/settings/display.c:66
+#: fw/apps/system/settings/display.c:97
 #: fw/apps/system/settings/notifications.c:110
 msgid "Larger"
-msgstr ""
+msgstr "Större"
 
 #. / The option in the Settings app for choosing the text size of the system UI.
 #. / String within Settings->Display that describes the text font size
 #. / The option in the Settings app for choosing the text size of notifications.
 #. / String within Settings->Notifications that describes the text font size
-#: fw/apps/system/settings/display.c:79 fw/apps/system/settings/display.c:674
+#: fw/apps/system/settings/display.c:110 fw/apps/system/settings/display.c:702
 #: fw/apps/system/settings/notifications.c:134
 #: fw/apps/system/settings/notifications.c:352
 msgid "Text Size"
-msgstr ""
+msgstr "Textstorlek"
 
-#: fw/apps/system/settings/display.c:93 fw/apps/system/settings/system.c:441
+#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:442
 msgid "Low"
-msgstr ""
+msgstr "Låg"
 
-#: fw/apps/system/settings/display.c:93 fw/apps/system/settings/system.c:442
+#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:443
 msgid "Medium"
-msgstr ""
+msgstr "Mellan"
 
-#: fw/apps/system/settings/display.c:93 fw/apps/system/settings/system.c:443
+#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:444
 msgid "High"
-msgstr ""
+msgstr "Hög"
 
-#: fw/apps/system/settings/display.c:93
+#: fw/apps/system/settings/display.c:124
 msgid "Blinding"
-msgstr ""
+msgstr "Bländande"
 
-#: fw/apps/system/settings/display.c:128
+#: fw/apps/system/settings/display.c:156
 msgid "INTENSITY"
-msgstr ""
+msgstr "INTENSITET"
 
-#: fw/apps/system/settings/display.c:128 fw/apps/system/settings/display.c:456
-#: fw/apps/system/settings/display.c:458
+#: fw/apps/system/settings/display.c:156 fw/apps/system/settings/display.c:484
+#: fw/apps/system/settings/display.c:486
 msgid "Intensity"
-msgstr ""
+msgstr "Intensitet"
 
-#: fw/apps/system/settings/display.c:138
+#: fw/apps/system/settings/display.c:166
 msgctxt "Orientation"
 msgid "Default"
-msgstr ""
+msgstr "Standard"
 
-#: fw/apps/system/settings/display.c:139
+#: fw/apps/system/settings/display.c:167
 msgid "Left-Handed"
-msgstr ""
+msgstr "Vänsterhänt"
 
-#: fw/apps/system/settings/display.c:164 fw/apps/system/settings/display.c:668
+#: fw/apps/system/settings/display.c:192 fw/apps/system/settings/display.c:696
 msgid "Orientation"
-msgstr ""
+msgstr "Riktning"
 
-#: fw/apps/system/settings/display.c:177
+#: fw/apps/system/settings/display.c:205
 msgid "3 Seconds"
-msgstr ""
+msgstr "3 sekunder"
 
-#: fw/apps/system/settings/display.c:177
+#: fw/apps/system/settings/display.c:205
 msgid "5 Seconds"
-msgstr ""
+msgstr "5 sekunder"
 
-#: fw/apps/system/settings/display.c:177
+#: fw/apps/system/settings/display.c:205
 msgid "8 Seconds"
-msgstr ""
+msgstr "8 sekunder"
 
-#: fw/apps/system/settings/display.c:200
+#: fw/apps/system/settings/display.c:228
 msgid "TIMEOUT"
-msgstr ""
+msgstr "STÄNG AV SKÄRM"
 
 #. / Status bar title for the Notification Window Timeout settings screen
 #. / String within Settings->Notifications that describes the window timeout setting
-#: fw/apps/system/settings/display.c:200 fw/apps/system/settings/display.c:463
+#: fw/apps/system/settings/display.c:228 fw/apps/system/settings/display.c:491
 #: fw/apps/system/settings/notifications.c:193
 #: fw/apps/system/settings/notifications.c:357
 msgid "Timeout"
-msgstr ""
+msgstr "Stäng av skärm"
 
-#: fw/apps/system/settings/display.c:210 fw/services/vibes/vibes.def:19
+#: fw/apps/system/settings/display.c:238 fw/services/vibes/vibes.def:19
 msgid "Double Tap"
-msgstr ""
-
-#: fw/apps/system/settings/display.c:211
-msgid "Tap"
-msgstr ""
-
-#: fw/apps/system/settings/display.c:212
-msgctxt "TouchWake"
-msgid "Off"
-msgstr ""
-
-#: fw/apps/system/settings/display.c:225
-msgid "WAKE ON TOUCH"
-msgstr ""
-
-#: fw/apps/system/settings/display.c:225 fw/apps/system/settings/display.c:432
-msgid "Wake on touch"
-msgstr ""
-
-#: fw/apps/system/settings/display.c:236
-msgctxt "DynBacklight"
-msgid "Off"
-msgstr ""
-
-#: fw/apps/system/settings/display.c:237
-msgid "Bright"
-msgstr ""
-
-#: fw/apps/system/settings/display.c:238 fw/apps/system/settings/display.c:264
-msgid "Standard"
-msgstr ""
+msgstr "Dubbeltryck"
 
 #: fw/apps/system/settings/display.c:239
-msgid "Dim"
-msgstr ""
+msgid "Tap"
+msgstr "Tryckkänslig"
+
+#: fw/apps/system/settings/display.c:240
+msgctxt "TouchWake"
+msgid "Off"
+msgstr "Av"
 
 #: fw/apps/system/settings/display.c:253
-msgid "DYNAMIC BACKLIGHT"
-msgstr ""
+msgid "WAKE ON TOUCH"
+msgstr "VÄCK VID TRYCK"
 
-#: fw/apps/system/settings/display.c:253 fw/apps/system/settings/display.c:449
-msgid "Dynamic Backlight"
-msgstr ""
+#: fw/apps/system/settings/display.c:253 fw/apps/system/settings/display.c:460
+msgid "Wake on touch"
+msgstr "Väck vid tryck"
 
-#: fw/apps/system/settings/display.c:263
-msgid "Max Brightness"
-msgstr ""
+#: fw/apps/system/settings/display.c:264
+msgctxt "DynBacklight"
+msgid "Off"
+msgstr "Av"
 
 #: fw/apps/system/settings/display.c:265
+msgid "Bright"
+msgstr "Ljus"
+
+#: fw/apps/system/settings/display.c:266 fw/apps/system/settings/display.c:292
+msgid "Standard"
+msgstr "Standard"
+
+#: fw/apps/system/settings/display.c:267
+msgid "Dim"
+msgstr "Dämpad"
+
+#: fw/apps/system/settings/display.c:281
+msgid "DYNAMIC BACKLIGHT"
+msgstr "DYNAMISK BELYSNING"
+
+#: fw/apps/system/settings/display.c:281 fw/apps/system/settings/display.c:477
+msgid "Dynamic Backlight"
+msgstr "Dynamisk belysning"
+
+#: fw/apps/system/settings/display.c:291
+msgid "Max Brightness"
+msgstr "Max ljusstyrka"
+
+#: fw/apps/system/settings/display.c:293
 msgid "Battery Saver"
-msgstr ""
+msgstr "Batterispar"
 
-#: fw/apps/system/settings/display.c:266
+#: fw/apps/system/settings/display.c:294
 msgid "Advanced"
-msgstr ""
+msgstr "Avancerat"
 
-#: fw/apps/system/settings/display.c:286
+#: fw/apps/system/settings/display.c:314
 msgid "BACKLIGHT"
-msgstr ""
+msgstr "BELYSNING"
 
 #. / String within Settings->Notifications that describes backlight setting
-#: fw/apps/system/settings/display.c:286 fw/apps/system/settings/display.c:408
-#: fw/apps/system/settings/display.c:649
+#: fw/apps/system/settings/display.c:314 fw/apps/system/settings/display.c:436
+#: fw/apps/system/settings/display.c:677
 #: fw/apps/system/settings/notifications.c:377
-#: fw/apps/system/settings/quiet_time.c:406
-#: fw/apps/system/settings/quiet_time.c:446
+#: fw/apps/system/settings/quiet_time.c:413
+#: fw/apps/system/settings/quiet_time.c:451
 msgid "Backlight"
-msgstr ""
+msgstr "Belysning"
 
-#: fw/apps/system/settings/display.c:296
+#: fw/apps/system/settings/display.c:324
 msgid "Centered"
-msgstr ""
+msgstr "Centrerad"
 
-#: fw/apps/system/settings/display.c:296
+#: fw/apps/system/settings/display.c:324
 msgid "Scaled (Nearest)"
-msgstr ""
+msgstr "Skalad (närmast)"
 
-#: fw/apps/system/settings/display.c:296
+#: fw/apps/system/settings/display.c:324
 msgid "Scaled (Bilinear)"
-msgstr ""
+msgstr "Skalad (bilinjär)"
 
-#: fw/apps/system/settings/display.c:309
+#: fw/apps/system/settings/display.c:337
 msgid "Legacy App Display"
-msgstr ""
+msgstr "Äldre appskärmar"
 
-#: fw/apps/system/settings/display.c:414
+#: fw/apps/system/settings/display.c:442
 #, c-format
 msgid "On - %d%%"
-msgstr ""
+msgstr "På - %d%%"
 
-#: fw/apps/system/settings/display.c:417 fw/apps/system/settings/display.c:420
+#: fw/apps/system/settings/display.c:445 fw/apps/system/settings/display.c:448
 msgctxt "DeviceState"
 msgid "On"
-msgstr ""
+msgstr "På"
 
-#: fw/apps/system/settings/display.c:423 fw/apps/system/settings/display.c:444
-#: fw/apps/system/settings/display.c:651
+#: fw/apps/system/settings/display.c:451 fw/apps/system/settings/display.c:472
+#: fw/apps/system/settings/display.c:679
 msgctxt "DeviceState"
 msgid "Off"
-msgstr ""
+msgstr "Av"
 
-#: fw/apps/system/settings/display.c:427
+#: fw/apps/system/settings/display.c:455
 msgid "Wake on motion"
-msgstr ""
+msgstr "Väck vid rörelse"
 
-#: fw/apps/system/settings/display.c:428 fw/apps/system/settings/display.c:659
-#: fw/apps/system/settings/display.c:663 fw/apps/system/settings/health.c:149
+#: fw/apps/system/settings/display.c:456 fw/apps/system/settings/display.c:687
+#: fw/apps/system/settings/display.c:691 fw/apps/system/settings/health.c:149
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
 #: fw/apps/system/settings/health.c:194
 #: fw/apps/system/settings/notifications.c:379
-#: fw/apps/system/settings/quiet_time.c:365
-#: fw/apps/system/settings/quiet_time.c:369
-#: fw/apps/system/settings/quiet_time.c:431
-#: fw/apps/system/settings/quiet_time.c:451
-#: fw/apps/system/settings/quiet_time.c:459
-#: fw/apps/system/settings/system.c:1294 fw/apps/system/settings/timeline.c:189
+#: fw/apps/system/settings/quiet_time.c:359
+#: fw/apps/system/settings/quiet_time.c:364
+#: fw/apps/system/settings/quiet_time.c:370
+#: fw/apps/system/settings/quiet_time.c:437
+#: fw/apps/system/settings/quiet_time.c:457
+#: fw/apps/system/settings/system.c:1295 fw/apps/system/settings/timeline.c:190
 #: fw/apps/system/settings/vibe_patterns.c:69
 msgid "On"
-msgstr ""
+msgstr "På"
 
 #. / Shows up in the Timeline settings as the status under the "Quick View" toggle.
-#: fw/apps/system/settings/display.c:428 fw/apps/system/settings/display.c:659
-#: fw/apps/system/settings/display.c:663 fw/apps/system/settings/health.c:149
+#: fw/apps/system/settings/display.c:456 fw/apps/system/settings/display.c:687
+#: fw/apps/system/settings/display.c:691 fw/apps/system/settings/health.c:149
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
 #: fw/apps/system/settings/health.c:195
 #: fw/apps/system/settings/notifications.c:379
-#: fw/apps/system/settings/quiet_time.c:326
-#: fw/apps/system/settings/quiet_time.c:365
-#: fw/apps/system/settings/quiet_time.c:369
-#: fw/apps/system/settings/quiet_time.c:431
-#: fw/apps/system/settings/quiet_time.c:452
-#: fw/apps/system/settings/quiet_time.c:459
-#: fw/apps/system/settings/system.c:1294 fw/apps/system/settings/timeline.c:192
+#: fw/apps/system/settings/quiet_time.c:321
+#: fw/apps/system/settings/quiet_time.c:359
+#: fw/apps/system/settings/quiet_time.c:364
+#: fw/apps/system/settings/quiet_time.c:370
+#: fw/apps/system/settings/quiet_time.c:437
+#: fw/apps/system/settings/quiet_time.c:457
+#: fw/apps/system/settings/system.c:1295 fw/apps/system/settings/timeline.c:193
 #: fw/apps/system/settings/vibe_patterns.c:69
 msgid "Off"
-msgstr ""
+msgstr "Av"
 
-#: fw/apps/system/settings/display.c:437
+#: fw/apps/system/settings/display.c:465
 msgid "Ambient Sensor"
-msgstr ""
+msgstr "Ljussensor"
 
-#: fw/apps/system/settings/display.c:440
+#: fw/apps/system/settings/display.c:468
 #, c-format
 msgid "On (%d)"
-msgstr ""
+msgstr "På (%d)"
 
-#: fw/apps/system/settings/display.c:455
+#: fw/apps/system/settings/display.c:483
 msgid "Max Intensity"
-msgstr ""
+msgstr "Max intentistet"
 
-#: fw/apps/system/settings/display.c:544 fw/apps/system/settings/display.c:654
+#: fw/apps/system/settings/display.c:572 fw/apps/system/settings/display.c:682
 msgid "Backlight Settings"
-msgstr ""
-
-#: fw/apps/system/settings/display.c:658
-#: fw/apps/system/settings/quiet_time.c:368
-msgid "Touch"
-msgstr ""
-
-#: fw/apps/system/settings/display.c:662
-msgid "Touch Navigation"
-msgstr ""
+msgstr "Belysningsinställningar"
 
 #: fw/apps/system/settings/display.c:686
+#: fw/apps/system/settings/quiet_time.c:363
+msgid "Touch"
+msgstr "Tryck"
+
+#: fw/apps/system/settings/display.c:690
+msgid "Touch Navigation"
+msgstr "Pekskärmsnavigering"
+
+#: fw/apps/system/settings/display.c:714
 msgid "Legacy Apps"
-msgstr ""
+msgstr "Äldre appar"
 
-#: fw/apps/system/settings/display.c:728
+#: fw/apps/system/settings/display.c:756
 msgid "Display"
-msgstr ""
+msgstr "Skärm"
 
-#: fw/apps/system/settings/factory_reset.c:110
+#: fw/apps/system/settings/factory_reset.c:112
 msgid "Perform factory reset?"
-msgstr ""
+msgstr "Utför fabriksåterställning?"
 
 #: fw/apps/system/settings/health.c:24
 msgid "Kilometers"
-msgstr ""
+msgstr "Kilometer"
 
 #: fw/apps/system/settings/health.c:25
 msgid "Miles"
-msgstr ""
+msgstr "Mil"
 
 #: fw/apps/system/settings/health.c:35
 msgid "5 Minutes"
-msgstr ""
+msgstr "4 minuter"
 
 #. / 10 Minute Notification Window Timeout
 #: fw/apps/system/settings/health.c:35 fw/apps/system/settings/health.c:56
 #: fw/apps/system/settings/notifications.c:159
 msgid "10 Minutes"
-msgstr ""
+msgstr "10 minuter"
 
 #: fw/apps/system/settings/health.c:35 fw/apps/system/settings/health.c:57
 msgid "30 Minutes"
-msgstr ""
+msgstr "30 minuter"
 
 #: fw/apps/system/settings/health.c:36 fw/apps/system/settings/health.c:58
 msgid "1 Hour"
-msgstr ""
+msgstr "1 timme"
 
 #: fw/apps/system/settings/health.c:36 fw/apps/system/settings/health.c:59
-#: fw/apps/system/settings/system.c:522 fw/apps/system/settings/system.c:538
-#: fw/apps/system/settings/system.c:541
+#: fw/apps/system/settings/system.c:523 fw/apps/system/settings/system.c:539
+#: fw/apps/system/settings/system.c:542
 msgid "Disabled"
-msgstr ""
+msgstr "Inaktiverad"
 
 #: fw/apps/system/settings/health.c:101 fw/apps/system/settings/health.c:164
 msgid "HR Monitoring"
-msgstr ""
+msgstr "Pulsmätning"
 
 #: fw/apps/system/settings/health.c:122 fw/apps/system/settings/health.c:177
 msgid "Blood Oxygen"
-msgstr ""
+msgstr "Syrenivå i blodet"
 
 #: fw/apps/system/settings/health.c:148
 msgid "Health Tracking"
-msgstr ""
+msgstr "Hälsoövervakning"
 
 #: fw/apps/system/settings/health.c:153
 msgid "Distance Unit"
-msgstr ""
+msgstr "Enhet för avstånd"
 
 #: fw/apps/system/settings/health.c:171
 msgid "HR During Activity"
-msgstr ""
+msgstr "Pulsmätning vid träning"
 
 #: fw/apps/system/settings/health.c:182
 msgid "SpO2 Monitoring"
-msgstr ""
+msgstr "Blodsyremätning"
 
 #: fw/apps/system/settings/health.c:189
 msgid "Blood O2 During Activity"
-msgstr ""
+msgstr "Syremätning vid träning"
 
 #: fw/apps/system/settings/health.c:192
 msgid "Needs HR During Activity"
-msgstr ""
-
-#: fw/apps/system/settings/notifications.c:60
-msgid "Allow All Notifications"
-msgstr ""
+msgstr "Kräver pulsmätning vid träning"
 
 #: fw/apps/system/settings/notifications.c:61
-msgid "Allow Phone Calls Only"
-msgstr ""
+msgid "Allow All Notifications"
+msgstr "Tillåt notiser"
 
 #: fw/apps/system/settings/notifications.c:62
+msgid "Allow Phone Calls Only"
+msgstr "Tillåt endast telefonsamtal"
+
+#: fw/apps/system/settings/notifications.c:63
 msgid "Mute All Notifications"
-msgstr ""
+msgstr "Tysta alla notiser"
 
 #. / The option in the Settings app for filtering notifications by type.
 #: fw/apps/system/settings/notifications.c:94
 #: fw/apps/system/settings/notifications.c:347
 msgid "Filter"
-msgstr ""
+msgstr "Filter"
 
 #. / Notification text size option that follows the system Text Size setting
 #: fw/apps/system/settings/notifications.c:112
 msgid "Same as System"
-msgstr ""
+msgstr "Samma som i systemet"
 
 #. / 15 Second Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:151
 msgid "15 Seconds"
-msgstr ""
+msgstr "15 sekunder"
 
 #. / 30 Second Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:153
 msgid "30 Seconds"
-msgstr ""
+msgstr "30 sekunder"
 
 #. / 1 Minute Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:155
 msgid "1 Minute"
-msgstr ""
+msgstr "1 minut"
 
 #. / 3 Minute Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:157
 msgid "3 Minutes"
-msgstr ""
+msgstr "3 minuter"
 
 #. / Standard notification design option (default)
 #: fw/apps/system/settings/notifications.c:205
 msgid "Classic"
-msgstr ""
+msgstr "Klassisk"
 
 #. / Alternative notification design option
 #: fw/apps/system/settings/notifications.c:207
 msgid "Flat Black"
-msgstr ""
+msgstr "Svart"
 
 #. / Status bar title for the Notification Design Style settings screen
 #. / String within Settings->Notifications that describes the notification design style
 #: fw/apps/system/settings/notifications.c:225
 #: fw/apps/system/settings/notifications.c:364
 msgid "Banner Style"
-msgstr ""
+msgstr "Banderollstil"
 
 #. / Vibrate at the beginning of notification animation (immediate)
 #: fw/apps/system/settings/notifications.c:237
 msgid "Beginning"
-msgstr ""
+msgstr "Början"
 
 #. / Status bar title for the Notification Vibe Timing settings screen
 #. / String within Settings->Notifications that describes when vibration happens
 #: fw/apps/system/settings/notifications.c:257
 #: fw/apps/system/settings/notifications.c:371
 msgid "Vibe Timing"
-msgstr ""
+msgstr "Vibrationstillfälle"
 
 #: fw/apps/system/settings/notifications.c:267
 msgctxt "StatusBar"
 msgid "Default"
-msgstr ""
+msgstr "Standard"
 
 #: fw/apps/system/settings/notifications.c:268
 msgid "Bold"
-msgstr ""
+msgstr "Fet"
 
 #: fw/apps/system/settings/notifications.c:269
 msgid "Big & Bold"
-msgstr ""
+msgstr "Stor & fet"
 
 #. / Status bar title for the Notification Status Bar Style settings screen
 #: fw/apps/system/settings/notifications.c:291
 msgid "Clock Style"
-msgstr ""
+msgstr "Klockstil"
 
 #. / Disable notification grouping
 #: fw/apps/system/settings/notifications.c:302
 msgid "Never"
-msgstr ""
+msgstr "Aldrig"
 
 #. / Group notifications received within one day
 #: fw/apps/system/settings/notifications.c:304
 msgid "1 Day"
-msgstr ""
+msgstr "1 dag"
 
 #. / Group notifications received within one week
 #: fw/apps/system/settings/notifications.c:306
 msgid "1 Week"
-msgstr ""
+msgstr "1 vecka"
 
 #. / Group all notifications
 #: fw/apps/system/settings/notifications.c:308
 msgid "All"
-msgstr ""
+msgstr "Alla"
 
 #. / Title for the notification sender grouping settings screen
 #. / Notification settings item for grouping notifications by sender
 #: fw/apps/system/settings/notifications.c:325
 #: fw/apps/system/settings/notifications.c:384
 msgid "Group by Sender"
-msgstr ""
+msgstr "Gruppera på avsändare"
 
 #. / String within Settings->Notifications that selects the notification status bar style
 #: fw/apps/system/settings/notifications.c:391
 msgid "Status Bar"
-msgstr ""
+msgstr "Statusfält"
 
 #. / Shown in Quick Launch Settings as the title of the tap up button option.
 #: fw/apps/system/settings/quick_launch.c:58
 msgid "Tap Up"
-msgstr ""
+msgstr "Tryck upp"
 
 #. / Shown in Quick Launch Settings as the title of the tap down button option.
 #: fw/apps/system/settings/quick_launch.c:60
 msgid "Tap Down"
-msgstr ""
+msgstr "Tryck ner"
 
 #. / Shown in Quick Launch Settings as the title of the hold up button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:62
 msgid "Hold Up"
-msgstr ""
+msgstr "Håll upp"
 
 #. / Shown in Quick Launch Settings as the title of the hold center button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:64
 msgid "Hold Center"
-msgstr ""
+msgstr "Håll mitten"
 
 #. / Shown in Quick Launch Settings as the title of the hold down button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:66
 msgid "Hold Down"
-msgstr ""
+msgstr "Håll ner"
 
 #. / Shown in Quick Launch Settings as the title of the hold back button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:68
 msgid "Hold Back"
-msgstr ""
+msgstr "Håll bakåt"
 
 #. / Shown in Quick Launch Settings as the title of the list of actions.
 #. / Title of the Quick Launch menu listing the available actions.
 #: fw/apps/system/settings/quick_launch.c:73
 #: fw/apps/system/settings/quick_launch_app_menu.c:37
 msgid "Actions"
-msgstr ""
+msgstr "Åtgärd"
 
 #. / Shown in Quick Launch Settings as the title of the list of apps.
 #. / Title of the Quick Launch menu listing the installed apps.
 #: fw/apps/system/settings/quick_launch.c:75
 #: fw/apps/system/settings/quick_launch_app_menu.c:39
 msgid "Apps"
-msgstr ""
+msgstr "Appar"
 
 #. / Shown in Quick Launch Settings when no action or app is bound to the button.
 #: fw/apps/system/settings/quick_launch.c:82
 #: fw/apps/system/settings/quick_launch_app_menu.c:111
 msgid "Unassigned"
-msgstr ""
+msgstr "Oanvänd"
 
 #. / Title of the Quick Launch Settings submenu in Settings
 #. / Title for the Quick Launch first use dialog.
@@ -1494,617 +1557,609 @@ msgstr ""
 #: fw/apps/system/settings/quick_launch.c:250
 #: fw/apps/system/settings/quick_launch_setup_menu.c:46
 msgid "Quick Launch"
-msgstr ""
+msgstr "Snabbstart"
 
 #: fw/apps/system/settings/quick_launch_setup_menu.c:49
 msgid ""
 "Open favorite apps quickly with a long button press from your watchface."
-msgstr ""
+msgstr "Öppna favoritappar genom ett långt knapptryck på urtavlan."
 
-#: fw/apps/system/settings/quiet_time.c:96
+#: fw/apps/system/settings/quiet_time.c:91
 msgid "Quiet All Notifications"
-msgstr ""
+msgstr "Tysta alla notiser"
 
-#: fw/apps/system/settings/quiet_time.c:99
+#: fw/apps/system/settings/quiet_time.c:94
 msgid "Allow Phone Calls"
-msgstr ""
+msgstr "Tillåt telefonsamtal"
 
-#: fw/apps/system/settings/quiet_time.c:221
+#: fw/apps/system/settings/quiet_time.c:216
 msgid "Change Schedule"
-msgstr ""
+msgstr "Ändra schema"
 
-#: fw/apps/system/settings/quiet_time.c:257
+#: fw/apps/system/settings/quiet_time.c:252
 msgid "Calendar Aware"
-msgstr ""
+msgstr "Kalenderanpassad"
 
-#: fw/apps/system/settings/quiet_time.c:259
+#: fw/apps/system/settings/quiet_time.c:254
 msgctxt "QuietTime"
 msgid "Enabled"
-msgstr ""
+msgstr "Aktiverad"
 
-#: fw/apps/system/settings/quiet_time.c:260
-#: fw/apps/system/settings/quiet_time.c:268
-#: fw/apps/system/settings/quiet_time.c:276
+#: fw/apps/system/settings/quiet_time.c:255
+#: fw/apps/system/settings/quiet_time.c:263
+#: fw/apps/system/settings/quiet_time.c:271
 msgctxt "QuietTime"
 msgid "Disabled"
-msgstr ""
+msgstr "Inaktiverad"
 
-#. / A frequency option for alarms, i.e. the alarm would only go off
-#. / every weekday. Respect capitalization!
-#: fw/apps/system/settings/quiet_time.c:264 fw/services/alarms/alarm.c:1429
-msgid "Weekdays"
-msgstr ""
-
-#. / A frequency option for alarms, i.e. the alarm would only go off
-#. / each day on the weekend. Respect capitalization!
-#: fw/apps/system/settings/quiet_time.c:272 fw/services/alarms/alarm.c:1439
-msgid "Weekends"
-msgstr ""
-
-#: fw/apps/system/settings/quiet_time.c:320
-#: fw/apps/system/settings/quiet_time.c:434
+#: fw/apps/system/settings/quiet_time.c:315
+#: fw/apps/system/settings/quiet_time.c:440
 msgid "Schedule"
-msgstr ""
+msgstr "Schema"
 
-#: fw/apps/system/settings/quiet_time.c:329
+#: fw/apps/system/settings/quiet_time.c:324
 msgid "On - Auto Dismiss"
-msgstr ""
+msgstr "På - avfärda automatiskt"
 
-#: fw/apps/system/settings/quiet_time.c:331
+#: fw/apps/system/settings/quiet_time.c:326
 msgid "On - Persistent"
-msgstr ""
+msgstr "På - bestående"
 
-#: fw/apps/system/settings/quiet_time.c:364
+#: fw/apps/system/settings/quiet_time.c:358
 msgid "Motion"
-msgstr ""
+msgstr "Rörelse"
 
-#: fw/apps/system/settings/quiet_time.c:429 fw/apps/system/settings/time.c:361
+#: fw/apps/system/settings/quiet_time.c:435 fw/apps/system/settings/time.c:361
 #: fw/apps/system/settings/time.c:388
 msgid "Manual"
-msgstr ""
+msgstr "Manuell"
 
-#: fw/apps/system/settings/quiet_time.c:437
+#: fw/apps/system/settings/quiet_time.c:443
 msgid "Interruptions"
-msgstr ""
+msgstr "Avbrott"
 
-#: fw/apps/system/settings/quiet_time.c:450
-msgid "Motion Backlight"
-msgstr ""
-
-#: fw/apps/system/settings/quiet_time.c:457
+#: fw/apps/system/settings/quiet_time.c:455
 #: fw/apps/system/settings/vibe_patterns.c:68
 msgid "Mute Speaker"
-msgstr ""
+msgstr "Tysta högtalare"
 
-#: fw/apps/system/settings/quiet_time.c:521
+#: fw/apps/system/settings/quiet_time.c:513
 msgid "Quiet Time"
-msgstr ""
+msgstr "Tyst stund"
 
 #: fw/apps/system/settings/remote.c:55
 msgid "You're all set"
-msgstr ""
+msgstr "Du är redo"
 
 #: fw/apps/system/settings/remote.c:124
 msgid "Forget"
-msgstr ""
+msgstr "Glöm"
 
 #: fw/apps/system/settings/remote.c:132
 #: fw/popups/ble_hrm/ble_hrm_reminder_popup.c:28
 msgid "Stop Sharing Heart Rate"
-msgstr ""
+msgstr "Sluta dela pulsmätning"
 
 #: fw/apps/system/settings/settings.c:232
 msgid "Settings"
-msgstr ""
+msgstr "Inställningar"
 
-#: fw/apps/system/settings/speaker_volume_window.c:56
-#: fw/apps/system/settings/vibe_patterns.c:74
+#: fw/apps/system/settings/speaker_volume_window.c:55
+#: fw/apps/system/settings/vibe_patterns.c:75
 msgid "Volume"
-msgstr ""
+msgstr "Volym"
 
-#: fw/apps/system/settings/system.c:161 fw/apps/system/settings/system.c:256
+#: fw/apps/system/settings/system.c:162 fw/apps/system/settings/system.c:257
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
-#: fw/apps/system/settings/system.c:162 fw/apps/system/settings/system.c:962
+#: fw/apps/system/settings/system.c:163 fw/apps/system/settings/system.c:963
 msgid "Certification"
-msgstr ""
+msgstr "Certifiering"
 
-#: fw/apps/system/settings/system.c:163
+#: fw/apps/system/settings/system.c:164
 msgid "Stand-By Mode"
-msgstr ""
+msgstr "Reservläge"
 
-#: fw/apps/system/settings/system.c:164 fw/apps/system/settings/system.c:604
+#: fw/apps/system/settings/system.c:165 fw/apps/system/settings/system.c:605
 msgid "Debugging"
-msgstr ""
-
-#: fw/apps/system/settings/system.c:165
-msgid "Shut Down"
-msgstr ""
+msgstr "Felsökning"
 
 #: fw/apps/system/settings/system.c:166
-msgid "Factory Reset"
-msgstr ""
+msgid "Shut Down"
+msgstr "Stäng av"
 
-#: fw/apps/system/settings/system.c:207
-msgid "BT Address"
-msgstr ""
+#: fw/apps/system/settings/system.c:167
+msgid "Factory Reset"
+msgstr "Fabriksåterställning"
 
 #: fw/apps/system/settings/system.c:208
-msgid "Firmware"
-msgstr ""
+msgid "BT Address"
+msgstr "BT-adress"
 
-#: fw/apps/system/settings/system.c:210
-msgid "Recovery"
-msgstr ""
+#: fw/apps/system/settings/system.c:209
+msgid "Firmware"
+msgstr "Inbyggd programvara"
 
 #: fw/apps/system/settings/system.c:211
-msgid "Bootloader"
-msgstr ""
+msgid "Recovery"
+msgstr "Återställning"
 
 #: fw/apps/system/settings/system.c:212
-msgid "Hardware"
-msgstr ""
+msgid "Bootloader"
+msgstr "Bootloader"
 
 #: fw/apps/system/settings/system.c:213
-msgid "Serial"
-msgstr ""
+msgid "Hardware"
+msgstr "Hårdvara"
 
 #: fw/apps/system/settings/system.c:214
-msgid "Uptime"
-msgstr ""
+msgid "Serial"
+msgstr "Serienummer"
 
 #: fw/apps/system/settings/system.c:215
+msgid "Uptime"
+msgstr "Drifttid"
+
+#: fw/apps/system/settings/system.c:216
 msgid "Legal"
-msgstr ""
+msgstr "Juridiskt"
 
-#: fw/apps/system/settings/system.c:354
+#: fw/apps/system/settings/system.c:355
 msgid "Core dump and reboot?"
-msgstr ""
-
-#: fw/apps/system/settings/system.c:441
-msgid "Very Low"
-msgstr ""
+msgstr "Core dump and reboot?"
 
 #: fw/apps/system/settings/system.c:442
-msgid "Medium-Low"
-msgstr ""
+msgid "Very Low"
+msgstr "Very Low"
 
 #: fw/apps/system/settings/system.c:443
-msgid "Medium-High"
-msgstr ""
+msgid "Medium-Low"
+msgstr "Medium-Low"
 
 #: fw/apps/system/settings/system.c:444
+msgid "Medium-High"
+msgstr "Medium-High"
+
+#: fw/apps/system/settings/system.c:445
 msgid "Very High"
-msgstr ""
+msgstr "Very High"
 
-#: fw/apps/system/settings/system.c:469 fw/apps/system/settings/system.c:495
+#: fw/apps/system/settings/system.c:470 fw/apps/system/settings/system.c:496
 msgid "Motion Sensitivity"
-msgstr ""
-
-#: fw/apps/system/settings/system.c:491
-msgid "CoreDump now"
-msgstr ""
+msgstr "Motion Sensitivity"
 
 #: fw/apps/system/settings/system.c:492
-msgid "CoreDump shortcut"
-msgstr ""
+msgid "CoreDump now"
+msgstr "CoreDump now"
 
 #: fw/apps/system/settings/system.c:493
-msgid "ALS Threshold"
-msgstr ""
+msgid "CoreDump shortcut"
+msgstr "CoreDump shortcut"
 
-#: fw/apps/system/settings/system.c:497
-msgid "Shake Log Info"
-msgstr ""
+#: fw/apps/system/settings/system.c:494
+msgid "ALS Threshold"
+msgstr "ALS Threshold"
 
 #: fw/apps/system/settings/system.c:498
-msgid "Vibe Log Info"
-msgstr ""
+msgid "Shake Log Info"
+msgstr "Shake Log Info"
 
 #: fw/apps/system/settings/system.c:499
+msgid "Vibe Log Info"
+msgstr "Vibe Log Info"
+
+#: fw/apps/system/settings/system.c:500
 msgid "Compact Settings DBs"
-msgstr ""
+msgstr "Compact Settings DBs"
 
-#: fw/apps/system/settings/system.c:501
+#: fw/apps/system/settings/system.c:502
 msgid "SpO2 Test"
-msgstr ""
+msgstr "SpO2 Test"
 
-#: fw/apps/system/settings/system.c:521
+#: fw/apps/system/settings/system.c:522
 msgid "10 back-button presses"
-msgstr ""
+msgstr "10 bakåt-knapp tryck"
 
-#: fw/apps/system/settings/system.c:537 fw/apps/system/settings/system.c:540
+#: fw/apps/system/settings/system.c:538 fw/apps/system/settings/system.c:541
 msgid "Enabled"
-msgstr ""
+msgstr "Aktiverad"
 
-#: fw/apps/system/settings/system.c:681
+#: fw/apps/system/settings/system.c:682
 msgid "PebbleOS developers only!"
-msgstr ""
+msgstr "Endast för PebbleOS utvecklare!"
 
-#: fw/apps/system/settings/system.c:926
+#: fw/apps/system/settings/system.c:927
 msgid "See details..."
-msgstr ""
+msgstr "Se detaljer..."
 
-#: fw/apps/system/settings/system.c:984
+#: fw/apps/system/settings/system.c:985
 msgid "Company"
-msgstr ""
+msgstr "Företag"
 
-#: fw/apps/system/settings/system.c:992
+#: fw/apps/system/settings/system.c:993
 msgid "Product Model"
-msgstr ""
+msgstr "Produktmodell"
 
-#: fw/apps/system/settings/system.c:999
+#: fw/apps/system/settings/system.c:1000
 msgid "Product Type"
-msgstr ""
+msgstr "Produkttyp"
 
-#: fw/apps/system/settings/system.c:1006
+#: fw/apps/system/settings/system.c:1007
 msgid "Trademark"
-msgstr ""
+msgstr "Varumärke"
 
-#: fw/apps/system/settings/system.c:1013
+#: fw/apps/system/settings/system.c:1014
 msgid "Place of Origin"
-msgstr ""
+msgstr "Ursprungsort"
 
-#: fw/apps/system/settings/system.c:1020
+#: fw/apps/system/settings/system.c:1021
 msgid "DC Input"
-msgstr ""
+msgstr "DC ingång"
 
-#: fw/apps/system/settings/system.c:1027
+#: fw/apps/system/settings/system.c:1028
 msgid "Rated Voltage"
-msgstr ""
+msgstr "Märkspänning"
 
-#: fw/apps/system/settings/system.c:1034
+#: fw/apps/system/settings/system.c:1035
 msgid "Milliampere-hour"
-msgstr ""
+msgstr "Milliamperetimme"
 
-#: fw/apps/system/settings/system.c:1041
+#: fw/apps/system/settings/system.c:1042
 msgid "Watt-hour"
-msgstr ""
+msgstr "Wattimme"
 
-#: fw/apps/system/settings/system.c:1055
+#: fw/apps/system/settings/system.c:1056
 msgid "Canada IC"
-msgstr ""
+msgstr "Canada IC"
 
-#: fw/apps/system/settings/system.c:1062
+#: fw/apps/system/settings/system.c:1063
 msgid "Canada ISED"
-msgstr ""
+msgstr "Kanada ISED"
 
-#: fw/apps/system/settings/system.c:1076 fw/apps/system/settings/system.c:1186
+#: fw/apps/system/settings/system.c:1077 fw/apps/system/settings/system.c:1187
 msgid "South Korea KCC"
-msgstr ""
+msgstr "Sydkorea KCC"
 
-#: fw/apps/system/settings/system.c:1274
+#: fw/apps/system/settings/system.c:1275
 msgid "Do you want to shut down?"
-msgstr ""
+msgstr "Vill du stänga av?"
 
 #. / Refers to the class of all non-score vibes, e.g. 3rd party app vibes
-#: fw/apps/system/settings/system.c:1361
-#: fw/apps/system/settings/vibe_patterns.c:108
+#: fw/apps/system/settings/system.c:1362
+#: fw/apps/system/settings/vibe_patterns.c:109
 msgid "System"
-msgstr ""
+msgstr "System"
 
-#: fw/apps/system/settings/themes.c:100
+#: fw/apps/system/settings/themes.c:101
 msgid "Accent Color"
-msgstr ""
+msgstr "Accentfärg"
 
 #. / Title of the Themes Settings submenu in Settings
-#: fw/apps/system/settings/themes.c:149
+#: fw/apps/system/settings/themes.c:150
 msgid "Themes"
-msgstr ""
+msgstr "Teman"
 
 #. / Title of the menu for changing the watch's timezone.
 #: fw/apps/system/settings/time.c:162 fw/apps/system/settings/time.c:401
 msgid "Timezone"
-msgstr ""
+msgstr "Tidszon"
 
 #: fw/apps/system/settings/time.c:262 fw/apps/system/settings/time.c:365
 msgid "Set Time"
-msgstr ""
+msgstr "Ställ in tid"
 
 #: fw/apps/system/settings/time.c:301 fw/apps/system/settings/time.c:373
 msgid "Set Date"
-msgstr ""
+msgstr "Ställ in datum"
 
 #: fw/apps/system/settings/time.c:360
 msgid "Time Source"
-msgstr ""
+msgstr "Tidskälla"
 
 #: fw/apps/system/settings/time.c:361 fw/apps/system/settings/time.c:392
 #: fw/apps/system/settings/time.c:396
 msgid "Automatic"
-msgstr ""
+msgstr "Automatisk"
 
 #: fw/apps/system/settings/time.c:381
 msgid "Time Format"
-msgstr ""
+msgstr "Tidsformat"
 
 #: fw/apps/system/settings/time.c:382
 msgid "24h"
-msgstr ""
+msgstr "24t"
 
 #: fw/apps/system/settings/time.c:382
 msgid "12h"
-msgstr ""
+msgstr "12t"
 
 #: fw/apps/system/settings/time.c:386
 msgid "Timezone Source"
-msgstr ""
+msgstr "Tidszonskälla"
 
 #: fw/apps/system/settings/time.c:446
 msgid "Date & Time"
-msgstr ""
+msgstr "Datum & tid"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
-#: fw/apps/system/settings/timeline.c:70
+#: fw/apps/system/settings/timeline.c:71
 msgid "Start Time"
-msgstr ""
+msgstr "Starttid"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
-#: fw/apps/system/settings/timeline.c:72
+#: fw/apps/system/settings/timeline.c:73
 msgid "5 Min Before"
-msgstr ""
+msgstr "5 min före"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
-#: fw/apps/system/settings/timeline.c:74
+#: fw/apps/system/settings/timeline.c:75
 msgid "10 Min Before"
-msgstr ""
+msgstr "10 min före"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
-#: fw/apps/system/settings/timeline.c:76
+#: fw/apps/system/settings/timeline.c:77
 msgid "15 Min Before"
-msgstr ""
+msgstr "15 min före"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
-#: fw/apps/system/settings/timeline.c:78
+#: fw/apps/system/settings/timeline.c:79
 msgid "30 Min Before"
-msgstr ""
+msgstr "30 min före"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
-#: fw/apps/system/settings/timeline.c:88
+#: fw/apps/system/settings/timeline.c:89
 msgid "Overlay"
-msgstr ""
+msgstr "Ovanpå"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
-#: fw/apps/system/settings/timeline.c:90
+#: fw/apps/system/settings/timeline.c:91
 msgid "Shift up"
-msgstr ""
+msgstr "Flytta upp"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
-#: fw/apps/system/settings/timeline.c:92
+#: fw/apps/system/settings/timeline.c:93
 msgid "Squish up"
-msgstr ""
+msgstr "Mosa upp"
 
 #. / Shows up in the Timeline settings as the title for the "Timing" submenu window.
 #. / Shows up in the Timeline settings as the title for the menu item that controls the
 #. / timing for when to begin showing the peek for an event.
-#: fw/apps/system/settings/timeline.c:125
-#: fw/apps/system/settings/timeline.c:197
+#: fw/apps/system/settings/timeline.c:126
+#: fw/apps/system/settings/timeline.c:198
 msgid "Timing"
-msgstr ""
+msgstr "Tidpunkt"
 
 #. / Shows up in the Timeline settings as the title for unsupported watchface behavior.
 #. / Shows up in the Timeline settings for watchfaces that do not support Quick View.
-#: fw/apps/system/settings/timeline.c:154
-#: fw/apps/system/settings/timeline.c:204
+#: fw/apps/system/settings/timeline.c:155
+#: fw/apps/system/settings/timeline.c:205
 msgid "Unsupported Faces"
-msgstr ""
+msgstr "Urtavlor utan stöd"
 
 #. / Shows up in the Timeline settings as a toggle-able "Quick View" item.
 #. / Title for the Timeline Quick View first use dialog.
-#: fw/apps/system/settings/timeline.c:185
-#: fw/apps/system/settings/timeline.c:266
+#: fw/apps/system/settings/timeline.c:186
+#: fw/apps/system/settings/timeline.c:267
 msgid "Quick View"
-msgstr ""
+msgstr "Snabbtitt"
 
-#: fw/apps/system/settings/timeline.c:269
+#: fw/apps/system/settings/timeline.c:270
 msgid "Appears on your watchface when an event is about to start."
-msgstr ""
+msgstr "Visas på urtavlan när en händelse snart börjar."
 
-#: fw/apps/system/settings/timeline.c:295
+#: fw/apps/system/settings/timeline.c:296
 #: fw/apps/system/timeline/timeline.c:1313
 msgid "Timeline"
-msgstr ""
+msgstr "Tidslinje"
 
-#: fw/apps/system/settings/vibe_patterns.c:87
+#: fw/apps/system/settings/vibe_patterns.c:88
 msgid "Incoming Calls"
-msgstr ""
+msgstr "Inkommande samtal"
 
-#: fw/apps/system/settings/vibe_patterns.c:97
+#: fw/apps/system/settings/vibe_patterns.c:98
 msgid "Hourly Notice"
-msgstr ""
+msgstr "Timvis vibrering"
 
-#: fw/apps/system/settings/vibe_patterns.c:102
+#: fw/apps/system/settings/vibe_patterns.c:103
 msgid "On Disconnect"
-msgstr ""
+msgstr "Vid frånkoppling"
 
-#: fw/apps/system/settings/vibe_patterns.c:284
+#: fw/apps/system/settings/vibe_patterns.c:285
 msgid "Sounds & Haptics"
-msgstr ""
+msgstr "Ljud & haptik"
 
-#: fw/apps/system/settings/vibe_patterns.c:286
+#: fw/apps/system/settings/vibe_patterns.c:287
 msgid "Vibrations"
-msgstr ""
+msgstr "Vibrationer"
 
-#: fw/apps/system/timeline/timeline.c:908
+#: fw/apps/system/timeline/timeline.c:909
 msgid "No events"
-msgstr ""
+msgstr "Inga händelser"
 
 #: fw/apps/system/timeline/timeline.c:1285
 msgid "Timeline Future"
-msgstr ""
+msgstr "Tidslinje framtid"
 
 #. / The title of Timeline Past in Quick Launch. If the translation is too long, cut out
 #. / Timeline and only translate "Past".
 #: fw/apps/system/timeline/timeline.c:1300
 msgid "Timeline Past"
-msgstr ""
+msgstr "Tidslinje dåtid"
 
 #: fw/apps/system/toggle/airplane_mode.c:26
 msgid "Turn On Airplane Mode?"
-msgstr ""
+msgstr "Aktivera flygplansläge?"
 
 #: fw/apps/system/toggle/airplane_mode.c:27
 msgid "Turn Off Airplane Mode?"
-msgstr ""
+msgstr "Inaktivera flygplansläge?"
 
 #: fw/apps/system/toggle/airplane_mode.c:28
 msgid ""
 "Airplane\n"
 "Mode On"
 msgstr ""
+"Flygplansläge\n"
+"aktivt"
 
 #: fw/apps/system/toggle/airplane_mode.c:29
 msgid ""
 "Airplane\n"
 "Mode Off"
 msgstr ""
+"Flyplansläge\n"
+"inaktivt"
 
 #. / The Quick Launch action that toggles Airplane Mode.
 #: fw/apps/system/toggle/airplane_mode.c:53
 msgid "Toggle Airplane Mode"
-msgstr ""
+msgstr "Växla flygplansläge"
 
 #: fw/apps/system/toggle/backlight_state.c:27
 msgid "Turn On Backlight?"
-msgstr ""
+msgstr "Aktivera belysning?"
 
 #: fw/apps/system/toggle/backlight_state.c:28
 msgid "Turn Off Backlight?"
-msgstr ""
+msgstr "Inaktivera belysning?"
 
 #: fw/apps/system/toggle/backlight_state.c:29
 msgid "Backlight On"
-msgstr ""
+msgstr "Belysning aktiverad"
 
 #: fw/apps/system/toggle/backlight_state.c:30
 msgid "Backlight Off"
-msgstr ""
+msgstr "Belysning inaktiverad"
 
 #. / The Quick Launch action that toggles the backlight.
 #: fw/apps/system/toggle/backlight_state.c:54
 msgid "Toggle Backlight"
-msgstr ""
+msgstr "Växla belysning"
 
 #: fw/apps/system/toggle/motion_backlight.c:24
 msgid "Turn On Motion Backlight?"
-msgstr ""
+msgstr "Aktivera rörelsebaserad belysning?"
 
 #: fw/apps/system/toggle/motion_backlight.c:25
 msgid "Turn Off Motion Backlight?"
-msgstr ""
+msgstr "Inaktivera rörelsebaserad belysning?"
 
 #: fw/apps/system/toggle/motion_backlight.c:26
 msgid ""
 "Motion\n"
 "Backlight On"
 msgstr ""
+"Rörelse-\n"
+"belysning på"
 
 #: fw/apps/system/toggle/motion_backlight.c:27
 msgid ""
 "Motion\n"
 "Backlight Off"
 msgstr ""
+"Rörelse-\n"
+"belysning av"
 
 #. / The Quick Launch action that toggles the motion backlight.
 #: fw/apps/system/toggle/motion_backlight.c:51
 msgid "Toggle Motion Backlight"
-msgstr ""
+msgstr "Växla rörelsebelysning"
 
 #. / The Quick Launch action that toggles Quiet Time.
 #: fw/apps/system/toggle/quiet_time.c:26
 msgid "Toggle Quiet Time"
-msgstr ""
+msgstr "Växla tyst stund"
 
 #: fw/apps/system/toggle/touch.c:24
 msgid "Turn On Touch?"
-msgstr ""
+msgstr "Aktivera pekskärm?"
 
 #: fw/apps/system/toggle/touch.c:25
 msgid "Turn Off Touch?"
-msgstr ""
+msgstr "Inaktivera pekskärm?"
 
 #: fw/apps/system/toggle/touch.c:26
 msgid "Touch On"
-msgstr ""
+msgstr "Pekskärm på"
 
 #: fw/apps/system/toggle/touch.c:27
 msgid "Touch Off"
-msgstr ""
+msgstr "Pekskärm av"
 
 #. / The Quick Launch action that turns the touchscreen on or off.
 #: fw/apps/system/toggle/touch.c:51
 msgid "Toggle Touch"
-msgstr ""
+msgstr "Växla pekskärm"
 
-#: fw/apps/system/watchfaces.c:99
+#: fw/apps/system/watchfaces.c:101
 msgid "Active"
-msgstr ""
+msgstr "Aktiv"
 
-#: fw/apps/system/watchfaces.c:220
+#: fw/apps/system/watchfaces.c:221
 msgid "Watchfaces"
-msgstr ""
+msgstr "Urtavlor"
 
 #: fw/apps/system/weather/expanded_view.c:179
 msgid "Sunset --:--"
-msgstr ""
+msgstr "Solnedgång --:--"
 
 #: fw/apps/system/weather/expanded_view.c:182
 #, c-format
 msgid "Sunset %s"
-msgstr ""
+msgstr "Solnedgång %s"
 
 #: fw/apps/system/weather/expanded_view.c:207
 msgid "Last updated --:--"
-msgstr ""
+msgstr "Senast uppdaterad --:--"
 
 #: fw/apps/system/weather/expanded_view.c:210
 #, c-format
 msgid "Last updated %s"
-msgstr ""
+msgstr "Senast uppdaterad %s"
 
 #: fw/apps/system/weather/expanded_view.c:394
 msgid "PRECIPITATION: --"
-msgstr ""
+msgstr "NEDERBÖRD: --"
 
 #: fw/apps/system/weather/expanded_view.c:396
 #, c-format
 msgid "PRECIPITATION: %d%%"
-msgstr ""
+msgstr "NEDERBÖRD: %d%%"
 
 #: fw/apps/system/weather/expanded_view.c:479
 msgid "CURRENT UV"
-msgstr ""
+msgstr "NUVARANDE UV"
 
 #: fw/apps/system/weather/expanded_view.c:488
 #, c-format
 msgid "UV %d"
-msgstr ""
+msgstr "UV %d"
 
 #: fw/apps/system/weather/expanded_view.c:490
 msgid "UV --"
-msgstr ""
+msgstr "UV --"
 
 #: fw/apps/system/weather/expanded_view.c:492
 #, c-format
 msgid "RAIN %d%%"
-msgstr ""
+msgstr "REGN %d%%"
 
 #: fw/apps/system/weather/expanded_view.c:494
 msgid "RAIN --"
-msgstr ""
+msgstr "REGN --"
 
 #: fw/apps/system/weather/expanded_view.c:502
 msgid "UV"
-msgstr ""
+msgstr "UV"
 
 #: fw/apps/system/weather/expanded_view.c:504
 msgid "RAIN"
-msgstr ""
+msgstr "REGN"
 
 #: fw/apps/system/weather/forecast_list.c:1281
 msgid "WEATHER REPORT"
-msgstr ""
+msgstr "VÄDERRAPPORT"
 
 #. / row at 164: with the deeper section lift (EXTRA_LIFT 19) the
 #. scrolled column's air splits evenly — solved for disc->graph = graph->pill =
@@ -2112,428 +2167,440 @@ msgstr ""
 #. holds for any temp spread).
 #: fw/apps/system/weather/forecast_list.c:1602
 msgid "PRECIPITATION"
-msgstr ""
+msgstr "NEDERBÖRD"
 
 #: fw/apps/system/weather/forecast_list.c:2220
 #, no-c-format
 msgid "%a, %b %d"
-msgstr ""
+msgstr "%a, %d %b"
 
 #: fw/apps/system/weather/globe_view.c:2168
 msgid "Saved Location"
-msgstr ""
+msgstr "Sparad plats"
 
 #: fw/apps/system/weather/globe_view.c:2172
 #: fw/apps/system/weather/globe_view.c:3700
 #: fw/apps/system/weather/globe_view.c:3754
-#: fw/apps/system/weather/saved_locations.c:161
+#: fw/apps/system/weather/saved_locations.c:162
 msgid "Current Location"
-msgstr ""
+msgstr "Nuvarande plats"
 
 #: fw/apps/system/weather/globe_view.c:3102
 #: fw/apps/system/weather/globe_view.c:3109
 msgid "CITY SELECT"
-msgstr ""
+msgstr "VÄLJ STAD"
 
 #: fw/apps/system/weather/globe_view.c:3170
 #: fw/apps/system/weather/globe_view.c:3202
 msgid "SAVED LOCATIONS"
-msgstr ""
+msgstr "SPARADE PLATSER"
 
 #: fw/apps/system/weather/saved_locations.c:160
 msgid "Location"
-msgstr ""
-
-#: fw/apps/system/weather/saved_locations.c:242
-msgid "No Locations"
-msgstr ""
+msgstr "Plats"
 
 #: fw/apps/system/weather/saved_locations.c:243
+msgid "No Locations"
+msgstr "Inga platser"
+
+#: fw/apps/system/weather/saved_locations.c:244
 msgid "Add them in the app"
-msgstr ""
+msgstr "Lägg till dem i appen"
 
-#: fw/apps/system/weather/weather.c:99
+#: fw/apps/system/weather/weather.c:99 fw/services/weather/weather_types.c:49
 msgid "Sunny"
-msgstr ""
+msgstr "Klart"
 
-#: fw/apps/system/weather/weather.c:101
+#: fw/apps/system/weather/weather.c:101 fw/services/weather/weather_types.c:51
 msgid "Partly Cloudy"
-msgstr ""
+msgstr "Växlande molnighet"
 
-#: fw/apps/system/weather/weather.c:103
+#: fw/apps/system/weather/weather.c:103 fw/services/weather/weather_types.c:53
 msgid "Cloudy"
-msgstr ""
+msgstr "Mulet"
 
-#: fw/apps/system/weather/weather.c:105
+#: fw/apps/system/weather/weather.c:105 fw/services/weather/weather_types.c:55
 msgid "Light Rain"
-msgstr ""
+msgstr "Lätt regn"
 
-#: fw/apps/system/weather/weather.c:107
+#: fw/apps/system/weather/weather.c:107 fw/services/weather/weather_types.c:57
 msgid "Rain"
-msgstr ""
+msgstr "Regn"
 
-#: fw/apps/system/weather/weather.c:109
+#: fw/apps/system/weather/weather.c:109 fw/services/weather/weather_types.c:59
 msgid "Light Snow"
-msgstr ""
+msgstr "Lätt snöfall"
 
-#: fw/apps/system/weather/weather.c:111
+#: fw/apps/system/weather/weather.c:111 fw/services/weather/weather_types.c:61
 msgid "Snow"
-msgstr ""
+msgstr "Snöfall"
 
-#: fw/apps/system/weather/weather.c:113
+#: fw/apps/system/weather/weather.c:113 fw/services/weather/weather_types.c:63
 msgid "Rain & Snow"
-msgstr ""
+msgstr "Snöblandat regn"
 
-#: fw/apps/system/weather/weather.c:139 fw/services/clock/service.c:723
-#: fw/services/timeline/timeline_actions.c:1056
+#: fw/apps/system/weather/weather.c:139 fw/services/clock/service.c:722
+#: fw/services/timeline/timeline_actions.c:1064
 msgid "Tomorrow"
-msgstr ""
+msgstr "Imorgon"
 
 #: fw/apps/system/weather/weather.c:379
 msgid ""
 "No location information available. To see weather, add locations in your "
 "Pebble mobile app."
 msgstr ""
+"Ingen platsdata tillgänglig. För att se väder, lägg till platser i Pebble-"
+"appen."
 
-#: fw/apps/system/weather/weather.c:796 fw/services/timeline/timeline.c:931
+#: fw/apps/system/weather/weather.c:770 fw/services/timeline/timeline.c:921
 msgid "Weather"
-msgstr ""
+msgstr "Väder"
 
 #: fw/apps/system/weather/weather_app_layout.c:404
 msgid "Snow likely"
-msgstr ""
+msgstr "Sannolikt snöfall"
 
 #: fw/apps/system/weather/weather_app_layout.c:406
 msgid "Sleet likely"
-msgstr ""
+msgstr "Sannolikt snöblandat regn"
 
 #: fw/apps/system/weather/weather_app_layout.c:408
 msgid "Rain likely"
-msgstr ""
+msgstr "Sannolikt regn"
 
 #: fw/apps/system/weather/weather_app_layout.c:416
 msgid "Chance of snow"
-msgstr ""
+msgstr "Risk för snö"
 
 #: fw/apps/system/weather/weather_app_layout.c:418
 msgid "Chance of sleet"
-msgstr ""
+msgstr "Risk för snöblandat regn"
 
 #: fw/apps/system/weather/weather_app_layout.c:420
 msgid "Chance of rain"
-msgstr ""
+msgstr "Risk för regn"
 
 #: fw/apps/system/weather/weather_app_layout.c:458
 msgid "Hail"
-msgstr ""
+msgstr "Hagel"
 
 #: fw/apps/system/weather/weather_app_layout.c:460
 msgid "Chance of storms"
-msgstr ""
+msgstr "Risk för åska"
 
 #: fw/apps/system/weather/weather_app_layout.c:462
 msgid "Heavy snow"
-msgstr ""
+msgstr "Ymnigt snöfall"
 
 #: fw/apps/system/weather/weather_app_layout.c:464
 msgid "Heavy rain"
-msgstr ""
+msgstr "Kraftigt regn"
 
 #: fw/apps/system/weather/weather_app_layout.c:466
 msgid "Wintry mix"
-msgstr ""
+msgstr "Snöblandat regn"
 
 #: fw/apps/system/weather/weather_app_layout.c:468
 msgid "Flood risk"
-msgstr ""
+msgstr "Risk för översvämning"
 
 #: fw/apps/system/weather/weather_app_layout.c:470
 msgid "Strong winds"
-msgstr ""
+msgstr "Hård vind"
 
 #: fw/apps/system/weather/weather_app_layout.c:473
 msgid "Below freezing"
-msgstr ""
+msgstr "Minusgrader"
 
 #: fw/apps/system/weather/weather_app_layout.c:475
 msgid "Hard frost"
-msgstr ""
+msgstr "Minusgrader"
 
 #: fw/apps/system/weather/weather_app_layout.c:478
 msgid "Feels below freezing"
-msgstr ""
+msgstr "Känns som minusgrader"
 
 #: fw/apps/system/weather/weather_app_layout.c:480
 msgid "Heatwave"
-msgstr ""
+msgstr "Värmebölja"
 
 #: fw/apps/system/weather/weather_app_layout.c:482
 msgid "Very high UV"
-msgstr ""
+msgstr "Väldigt hög UV"
 
 #: fw/apps/system/weather/weather_app_layout.c:484
 msgid "High UV"
-msgstr ""
+msgstr "Hög UV"
 
 #: fw/apps/system/weather/weather_app_layout.c:487
 msgid "Poor visibility"
-msgstr ""
+msgstr "Dålig sikt"
 
 #: fw/apps/system/weather/weather_app_layout.c:489
 msgid "High humidity"
-msgstr ""
+msgstr "Hög fuktighet"
 
 #: fw/apps/system/weather/weather_app_layout.c:495
 msgid "Windy"
-msgstr ""
+msgstr "Frisk vind"
 
 #: fw/apps/system/weather/weather_app_layout.c:500
 msgid "Clear skies"
-msgstr ""
+msgstr "Klar himmel"
 
 #: fw/apps/system/weather/weather_app_layout.c:502
 msgid "Light winds"
-msgstr ""
+msgstr "Måttlig vind"
 
 #: fw/apps/system/weather/weather_app_layout.c:505
 msgid "Calm breeze"
-msgstr ""
+msgstr "Svag vind"
 
 #: fw/apps/system/weather/weather_app_layout.c:508
 msgid "Fair conditions"
-msgstr ""
+msgstr "Växlande molnighet"
 
 #: fw/apps/system/weather/weather_app_layout.c:510
 msgid "Mild conditions"
-msgstr ""
+msgstr "Milt väder"
 
 #: fw/apps/system/weather/weather_app_layout.c:512
 msgid "All clear"
-msgstr ""
+msgstr "Klart"
 
 #: fw/apps/system/weather/weather_app_layout.c:522
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: fw/apps/system/weather/weather_app_layout.c:522
 msgid "NE"
-msgstr ""
+msgstr "NO"
 
 #: fw/apps/system/weather/weather_app_layout.c:522
 msgid "E"
-msgstr ""
+msgstr "Ö"
 
 #: fw/apps/system/weather/weather_app_layout.c:522
 msgid "SE"
-msgstr ""
+msgstr "SO"
 
 #: fw/apps/system/weather/weather_app_layout.c:523
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #: fw/apps/system/weather/weather_app_layout.c:523
 msgid "SW"
-msgstr ""
+msgstr "SV"
 
 #: fw/apps/system/weather/weather_app_layout.c:523
 msgid "W"
-msgstr ""
+msgstr "V"
 
 #: fw/apps/system/weather/weather_app_layout.c:523
 msgid "NW"
+msgstr "NV"
+
+#: fw/apps/system/weather/weather_app_layout.c:535
+msgid "mph"
+msgstr "mph"
+
+#: fw/apps/system/weather/weather_app_layout.c:539
+msgid "m/s"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:547
-msgid "mph"
+#: fw/apps/system/weather/weather_app_layout.c:543
+msgid "kn"
 msgstr ""
 
 #: fw/apps/system/weather/weather_app_layout.c:547
 msgid "km/h"
-msgstr ""
+msgstr "km/h"
 
-#: fw/apps/system/weather/weather_app_layout.c:549
+#: fw/apps/system/weather/weather_app_layout.c:570
 #, c-format
 msgid "%s at %d%s."
-msgstr ""
+msgstr "%s, %d%s."
 
-#: fw/apps/system/weather/weather_app_layout.c:549
+#: fw/apps/system/weather/weather_app_layout.c:570
 #, c-format
 msgid "Winds %s at %d%s."
-msgstr ""
+msgstr "Vindar %s, %d%s."
 
-#: fw/apps/system/weather/weather_app_layout.c:554
+#: fw/apps/system/weather/weather_app_layout.c:575
 #, c-format
 msgid "At %d%s."
-msgstr ""
+msgstr "%d%s."
 
-#: fw/apps/system/weather/weather_app_layout.c:554
+#: fw/apps/system/weather/weather_app_layout.c:575
 #, c-format
 msgid "Winds at %d%s."
-msgstr ""
+msgstr "Vindar %d%s."
 
-#: fw/apps/system/weather/weather_app_layout.c:563
+#: fw/apps/system/weather/weather_app_layout.c:584
 #, c-format
 msgid "Precipitation %d%%."
-msgstr ""
+msgstr "Nederbörd %d%%."
 
-#: fw/apps/system/weather/weather_app_layout.c:838
-#: fw/apps/system/weather/weather_app_layout.c:1126
+#: fw/apps/system/weather/weather_app_layout.c:859
+#: fw/apps/system/weather/weather_app_layout.c:1147
 msgid "TODAY"
-msgstr ""
+msgstr "IDAG"
 
-#: fw/apps/system/weather/weather_app_layout.c:869
-#: fw/apps/system/weather/weather_app_layout.c:1212
+#: fw/apps/system/weather/weather_app_layout.c:890
+#: fw/apps/system/weather/weather_app_layout.c:1233
 msgid "TOMORROW"
-msgstr ""
+msgstr "IMORGON"
 
-#: fw/apps/system/weather/weather_app_layout.c:966
-#: fw/apps/system/weather/weather_app_layout.c:1062
+#: fw/apps/system/weather/weather_app_layout.c:987
+#: fw/apps/system/weather/weather_app_layout.c:1083
 msgid "UV INDEX"
-msgstr ""
+msgstr "UV-INDEX"
 
 #. / Zone 1 HR Label
 #: fw/apps/system/workout/active.c:104
 msgid "FAT BURN"
-msgstr ""
+msgstr "FETTFÖRBRÄNNING"
 
 #. / Zone 2 HR Label
 #: fw/apps/system/workout/active.c:107
 msgid "ENDURANCE"
-msgstr ""
+msgstr "UTHÅLLIGHET"
 
 #. / Zone 3 HR Label
 #: fw/apps/system/workout/active.c:110
 msgid "PERFORMANCE"
-msgstr ""
+msgstr "PRESTATION"
 
 #. / Default/Zone 0 HR Label
 #: fw/apps/system/workout/active.c:113
 msgid "HEART RATE"
-msgstr ""
+msgstr "PULS"
 
 #. / Duration Label
 #: fw/apps/system/workout/active.c:130
 msgid "DURATION"
-msgstr ""
+msgstr "VARAKTIGHET"
 
 #. / Average Pace Label
 #: fw/apps/system/workout/active.c:134
 msgid "AVG PACE"
-msgstr ""
+msgstr "SNITTEMPO"
 
 #. / Average Pace Label with units
 #: fw/apps/system/workout/active.c:137
 msgid "AVG PACE (/MI)"
-msgstr ""
+msgstr "SNITTEMPO (/MIN)"
 
 #: fw/apps/system/workout/active.c:138
 msgid "AVG PACE (/KM)"
-msgstr ""
+msgstr "SNITTEMPO (/KM)"
 
 #. / Pace Label
 #: fw/apps/system/workout/active.c:143
 msgid "PACE"
-msgstr ""
+msgstr "TEMPO"
 
 #. / Pace Label with units
 #: fw/apps/system/workout/active.c:146
 msgid "PACE (/MI)"
-msgstr ""
+msgstr "TEMPO (/MIN)"
 
 #: fw/apps/system/workout/active.c:147
 msgid "PACE (/KM)"
-msgstr ""
+msgstr "TEMPO (/KM)"
 
 #. / Speed Label
 #: fw/apps/system/workout/active.c:152
 msgid "SPEED"
-msgstr ""
+msgstr "FART"
 
 #. / Speed Label with units
 #: fw/apps/system/workout/active.c:155
 msgid "SPEED (MPH)"
-msgstr ""
+msgstr "FART (MPH)"
 
 #: fw/apps/system/workout/active.c:156
 msgid "SPEED (KM/H)"
-msgstr ""
+msgstr "FART (KM/TIM)"
 
 #. / Distance Label with units
 #: fw/apps/system/workout/active.c:164
 msgid "DISTANCE (MI)"
-msgstr ""
+msgstr "DISTANS (MIN)"
 
 #: fw/apps/system/workout/active.c:165
 msgid "DISTANCE (KM)"
-msgstr ""
+msgstr "DISTANS (KM)"
 
 #. / Steps Label
 #: fw/apps/system/workout/active.c:169
 msgid "STEPS"
-msgstr ""
+msgstr "STEG"
 
 #: fw/apps/system/workout/active.c:277 fw/apps/system/workout/active.c:334
 msgid "MI"
-msgstr ""
+msgstr "MIN"
 
 #: fw/apps/system/workout/active.c:277 fw/apps/system/workout/active.c:334
 msgid "KM"
-msgstr ""
+msgstr "KM"
 
 #: fw/apps/system/workout/active.c:353
 msgid "MPH"
-msgstr ""
+msgstr "MPH"
 
 #: fw/apps/system/workout/active.c:353
 msgid "KM/H"
-msgstr ""
+msgstr "KM/TIM"
 
 #: fw/apps/system/workout/active.c:673
 msgid "End Workout?"
-msgstr ""
+msgstr "Avsluta träningspass?"
 
 #: fw/apps/system/workout/sports.c:345
 msgid "Sports"
-msgstr ""
+msgstr "Sport"
 
 #: fw/apps/system/workout/utils.c:19
 msgid ""
 "Still sweating? Your workout is active and will be ended soon. Open the "
 "workout to keep it going."
 msgstr ""
+"Fortfarande svettig? Ditt träningspass är aktivt men avslutas snart. Öppna "
+"träningspasset för att fortsätta."
 
 #: fw/apps/system/workout/utils.c:30
 #: fw/popups/ble_hrm/ble_hrm_reminder_popup.c:24
 #: fw/services/activity/activity_insights.c:1192
-#: fw/services/notifications/ancs/ancs_item.c:151
+#: fw/services/notifications/ancs/ancs_item.c:150
 msgid "Dismiss"
-msgstr ""
+msgstr "Avfärda"
 
 #: fw/apps/system/workout/utils.c:34
 msgid "End Workout"
-msgstr ""
+msgstr "Avsluta träningspass"
 
 #: fw/apps/system/workout/utils.c:40
 msgid "Open Workout"
-msgstr ""
+msgstr "Öppna träningspass"
 
 #. / Workout Label
-#: fw/apps/system/workout/utils.c:93 fw/apps/system/workout/workout.c:258
+#: fw/apps/system/workout/utils.c:93 fw/apps/system/workout/workout.c:259
 #: fw/services/activity/activity_insights.c:1647
 msgid "Workout"
-msgstr ""
+msgstr "Träning"
 
 #. / Walk Label
 #: fw/apps/system/workout/utils.c:96
 #: fw/services/activity/activity_insights.c:1645
 msgid "Walk"
-msgstr ""
+msgstr "Gång"
 
 #. / Run Label
 #: fw/apps/system/workout/utils.c:99
 #: fw/services/activity/activity_insights.c:1643
 msgid "Run"
-msgstr ""
+msgstr "Löpning"
 
 #. / Workout automatically detected dialog text
 #: fw/apps/system/workout/utils.c:117
@@ -2541,6 +2608,8 @@ msgid ""
 "Workout\n"
 "Detected"
 msgstr ""
+"Träningspass\n"
+"detekterad"
 
 #. / Walk automatically detected dialog text
 #: fw/apps/system/workout/utils.c:120
@@ -2548,6 +2617,8 @@ msgid ""
 "Walk\n"
 "Detected"
 msgstr ""
+"Gång\n"
+"detekterad"
 
 #. / Run automatically detected dialog text
 #: fw/apps/system/workout/utils.c:123
@@ -2555,82 +2626,90 @@ msgid ""
 "Run\n"
 "Detected"
 msgstr ""
+"Löpning\n"
+"detekterad"
 
-#: fw/apps/system/workout/workout.c:158
+#: fw/apps/system/workout/workout.c:159
 msgid ""
 "Workout\n"
 "Ended"
 msgstr ""
+"Träning\n"
+"detekterad"
 
-#: fw/apps/system/workout/workout.c:184
+#: fw/apps/system/workout/workout.c:185
 msgid "Workout requires the time to be synced. Please connect your phone."
-msgstr ""
+msgstr "Träning kräver att tiden synkas. Anslut din telefon."
 
 #. / Health disabled text
-#: fw/apps/system/workout/workout.c:192
+#: fw/apps/system/workout/workout.c:193
 msgid "Enable Pebble Health in the mobile app to track workouts"
-msgstr ""
+msgstr "Aktivera Pebble Hälsa i mobilappen för att spåra träningspass"
 
-#: fw/apps/system/workout/workout.c:200
+#: fw/apps/system/workout/workout.c:201
 msgid ""
 "Wear your watch snug and 2 fingers' width above your wrist bone for best "
 "results."
 msgstr ""
+"Bär klockan åtsittande med 2 fingrars bredd ovanför handledsbenet för bästa "
+"resultat."
 
 #: fw/apps/watch/kickstart/kickstart.c:364
 #, c-format
 msgid "%d BPM"
-msgstr ""
+msgstr "%d slag/min"
 
 #. / Step count greater than 1000 with a thousands separator
 #: fw/apps/watch/kickstart/kickstart.c:474
 #, c-format
 msgid "%d,%03d"
-msgstr ""
+msgstr "%d %03d"
 
 #. / Step count less than 1000
 #: fw/apps/watch/kickstart/kickstart.c:478
 #: fw/services/activity/health_util.c:93 fw/services/activity/health_util.c:109
-#: fw/services/clock/service.c:944
+#: fw/services/clock/service.c:943
 #, c-format
 msgid "%d"
-msgstr ""
+msgstr "%d"
 
-#: fw/apps/watch/tictoc/bw/tictoc_bw.c:76 fw/services/clock/service.c:822
-#: fw/services/clock/service.c:830
+#: fw/apps/watch/tictoc/bw/tictoc_bw.c:76 fw/services/clock/service.c:821
+#: fw/services/clock/service.c:829
 msgid "%B %e"
-msgstr ""
+msgstr "%e %B"
 
 #: fw/popups/alarm_popup.c:57
 #, c-format
 msgid "Snooze for %d minutes"
-msgstr ""
+msgstr "Snooza i %d minuter"
 
 #: fw/popups/alarm_popup.c:74
 msgid "Alarm dismissed"
-msgstr ""
+msgstr "Alarmet stoppat"
 
 #: fw/popups/ble_hrm/ble_hrm_reminder_popup.c:15
 msgid ""
 "Your heart rate has been shared with an app on your phone for several hours. "
 "This could affect your battery. Stop sharing now?"
 msgstr ""
+"Din pulsmätning har delats med en app på din telefon under flera timmar. "
+"Detta kan påverka batteritiden. Vill du sluta dela?"
 
 #: fw/popups/ble_hrm/ble_hrm_sharing_popup.c:28
 msgid "Sharing Heart Rate"
-msgstr ""
+msgstr "Delar pulsmätning"
 
 #: fw/popups/ble_hrm/ble_hrm_sharing_popup.c:65
 msgid "Share heart rate?"
-msgstr ""
+msgstr "Dela pulsmätning?"
 
 #: fw/popups/ble_hrm/ble_hrm_stop_sharing_popup.c:18
 msgid "Heart Rate Not Shared"
-msgstr ""
+msgstr "Pulsmätning delas inte"
 
-#: fw/popups/bluetooth_pairing_ui.c:226
+#: fw/popups/bluetooth_pairing_ui.c:228
 msgid "Pair?"
-msgstr ""
+msgstr "Parkoppla?"
 
 #: fw/popups/crashed_ui.c:92
 #, c-format
@@ -2639,286 +2718,299 @@ msgid ""
 "\n"
 "Open app?"
 msgstr ""
+"%s%.*s svarar inte.\n"
+"\n"
+"Öppna appen?"
 
 #: fw/popups/crashed_ui.c:148
 msgid ""
 "A bug report has been captured. Please finish uploading the bug report using "
 "the Pebble phone app."
 msgstr ""
+"En buggrapport har skapats. Slutför uppladdningen av buggrapporten via "
+"Pebble-appen på din telefon."
 
-#: fw/popups/health_tracking_ui.c:76
+#: fw/popups/health_tracking_ui.c:74
 msgid ""
 "This feature requires Pebble Health to work. Enable Health in the Pebble "
 "mobile app to continue."
 msgstr ""
+"Denna funktion kräver Pebble Hälsa. Aktivera Hälsa i Pebble-appen för att "
+"fortsätta."
 
-#: fw/popups/notifications/notification_window.c:729
+#: fw/popups/notifications/notification_window.c:730
 msgid "Snoozed"
-msgstr ""
+msgstr "Snoozad"
 
-#: fw/popups/notifications/notification_window.c:762
+#: fw/popups/notifications/notification_window.c:763
 msgid "Muted"
-msgstr ""
+msgstr "Tystad"
 
-#: fw/popups/notifications/notification_window.c:932
+#: fw/popups/notifications/notification_window.c:933
 msgid "Snooze"
-msgstr ""
+msgstr "Snooza"
 
-#: fw/popups/notifications/notification_window.c:950
+#: fw/popups/notifications/notification_window.c:951
 #, c-format
 msgid "Mute %s"
-msgstr ""
+msgstr "Tysta %s"
 
-#: fw/popups/notifications/notification_window.c:968
+#: fw/popups/notifications/notification_window.c:969
 msgid "Mute 1 Hour"
-msgstr ""
+msgstr "Tysta 1 timme"
 
-#: fw/popups/notifications/notification_window.c:971
+#: fw/popups/notifications/notification_window.c:972
 msgid "Mute Today"
-msgstr ""
+msgstr "Tysta idag"
 
-#: fw/popups/notifications/notification_window.c:974
+#: fw/popups/notifications/notification_window.c:975
 msgid "Mute Always"
-msgstr ""
+msgstr "Tysta permanent"
 
-#: fw/popups/notifications/notification_window.c:977
+#: fw/popups/notifications/notification_window.c:978
 msgid "Mute Weekends"
-msgstr ""
+msgstr "Tysta helger"
 
-#: fw/popups/notifications/notification_window.c:980
+#: fw/popups/notifications/notification_window.c:981
 msgid "Mute Weekdays"
-msgstr ""
+msgstr "Tysta vardagar"
 
-#: fw/popups/notifications/notification_window.c:988
+#: fw/popups/notifications/notification_window.c:989
 msgid "Dismiss All"
-msgstr ""
-
-#: fw/popups/notifications/notification_window.c:994
-msgid "End Quiet Time"
-msgstr ""
+msgstr "Avfärda alla"
 
 #: fw/popups/notifications/notification_window.c:995
+msgid "End Quiet Time"
+msgstr "Avsluta tyst stund"
+
+#: fw/popups/notifications/notification_window.c:996
 msgid "Start Quiet Time"
-msgstr ""
+msgstr "Starta Tyst stund"
 
-#: fw/popups/phone_ui.c:577
+#: fw/popups/phone_ui.c:576
 msgid "Call Accepted"
-msgstr ""
+msgstr "Samtal accepterat"
 
-#: fw/popups/phone_ui.c:580
+#: fw/popups/phone_ui.c:579
 msgid "Disconnected"
-msgstr ""
+msgstr "Frånkopplad"
 
-#: fw/popups/phone_ui.c:583
+#: fw/popups/phone_ui.c:582
 msgid "Call Ended"
-msgstr ""
+msgstr "Samtal avslutat"
 
-#: fw/popups/phone_ui.c:586
+#: fw/popups/phone_ui.c:585
 msgid "Call Declined"
-msgstr ""
+msgstr "Samtal avböjt"
 
 #: fw/popups/switch_worker_ui.c:94
 #, c-format
 msgid "Run %s instead of %s as the background app?"
-msgstr ""
+msgstr "Kör %s istället för %s som bakgrundsapp?"
 
 #: fw/popups/wakeup_ui.c:53
 msgid "While your Pebble was off wakeup events occurred for:\n"
-msgstr ""
+msgstr "Medan din Pebble var avstängd skedde följande väckningsevent:\n"
 
-#: fw/process_management/app_manager.c:491
+#: fw/process_management/app_manager.c:503
 #, c-format
 msgid "%.*s is not responding"
-msgstr ""
+msgstr "%.*s svarar inte"
 
-#: fw/process_management/process_manager.c:192
+#: fw/process_management/process_manager.c:196
 msgid "This app requires a newer version of the Pebble firmware."
-msgstr ""
+msgstr "Denna app kräver en nyare version av Pebbles fasta programvara."
 
-#: fw/process_management/process_manager.c:337
+#: fw/process_management/process_manager.c:341
 msgid "This app uses RockyJS which is no longer supported."
-msgstr ""
+msgstr "Denna app använder RockyJS som inte längre stöds."
 
 #: fw/services/activity/activity_insights.c:170
 msgid ""
 "How are you feeling? Have you noticed extra focus, better mood or extra "
 "energy? You have been sleeping great this week! Keep it up!"
 msgstr ""
+"Hur känner du dig? Har du känt dig mer fokuserad, muntrare eller haft mer "
+"energi? Du har sovit utmärkt den här veckan! Fortsätt kämpa!"
 
 #: fw/services/activity/activity_insights.c:172
 msgid "I feel fabulous!"
-msgstr ""
+msgstr "Jag mår toppen!"
 
 #: fw/services/activity/activity_insights.c:173
 msgid "About average"
-msgstr ""
+msgstr "Ganska medelmåttigt"
 
 #: fw/services/activity/activity_insights.c:174
 msgid "I'm still tired"
-msgstr ""
+msgstr "Fortfarande trött"
 
 #: fw/services/activity/activity_insights.c:175
 #: fw/services/activity/activity_insights.c:193
 msgid "Awesome!"
-msgstr ""
+msgstr "Fantastiskt!"
 
 #: fw/services/activity/activity_insights.c:176
 #: fw/services/activity/activity_insights.c:194
 msgid "Keep it up!"
-msgstr ""
+msgstr "Fortsätt kämpa!"
 
 #: fw/services/activity/activity_insights.c:177
 #: fw/services/activity/activity_insights.c:195
 msgid "We'll get there!"
-msgstr ""
+msgstr "Vi kommer dit så småningom!"
 
 #: fw/services/activity/activity_insights.c:188
 msgid ""
 "Congratulations - you're having a super active day! Activity makes you more "
 "focused and creative. How do you feel?"
 msgstr ""
+"Grattis - du har haft en riktigt aktiv dag! Att vara aktiv hjälper dig att "
+"bli mer fokuserad och kreativ. Hur känner du dig?"
 
 #: fw/services/activity/activity_insights.c:190
 #: fw/services/activity/activity_insights.c:917
 msgid "I feel great!"
-msgstr ""
+msgstr "Jag mår toppen!"
 
 #: fw/services/activity/activity_insights.c:191
 msgid "About the same"
-msgstr ""
+msgstr "Ungefär som vanligt"
 
 #: fw/services/activity/activity_insights.c:192
 msgid "Not feeling it"
-msgstr ""
+msgstr "Jag märker inte av det"
 
 #: fw/services/activity/activity_insights.c:222
 msgid "Activity Summary"
-msgstr ""
+msgstr "Träningssammanfattning"
 
 #: fw/services/activity/activity_insights.c:230
 msgid "Do you feel more energetic, sharper or optimistic? Being active helps!"
 msgstr ""
+"Känner du dig piggare, skarpare eller mer optimistisk? Att vara aktiv "
+"hjälper!"
 
 #: fw/services/activity/activity_insights.c:231
 msgid "GREAT DAY TODAY"
-msgstr ""
+msgstr "STRÅLANDE DAG IDAG"
 
 #: fw/services/activity/activity_insights.c:235
 msgid "You're being consistent and that's important, keep at it!"
-msgstr ""
+msgstr "Du är konsekvent och det är det viktigaste, fortsätt så!"
 
 #: fw/services/activity/activity_insights.c:236
 msgid "CONSISTENT!"
-msgstr ""
+msgstr "KONSEKVENT!"
 
 #: fw/services/activity/activity_insights.c:240
 #: fw/services/activity/activity_insights.c:245
 msgid "Resting is fine, but try to recover and step it up tomorrow!"
-msgstr ""
+msgstr "Vila är okej, men försök att återhämta dig och öka tempot imorgon!"
 
 #: fw/services/activity/activity_insights.c:241
 #: fw/services/activity/activity_insights.c:246
 msgid "NOT VERY ACTIVE"
-msgstr ""
+msgstr "INTE SÄRSKILT AKTIV"
 
 #: fw/services/activity/activity_insights.c:254
 msgid "Sleep Summary"
-msgstr ""
+msgstr "Sömnsammanfattning"
 
 #: fw/services/activity/activity_insights.c:263
 msgid "You had a good night! Feel the energy 😃"
-msgstr ""
+msgstr "Du hade en bra natt! Känn energin 😃"
 
 #: fw/services/activity/activity_insights.c:267
 msgid "It's great that you're keeping a consistent sleep routine!"
-msgstr ""
+msgstr "Bra att du håller en regelbunden dygnsrytm!"
 
 #: fw/services/activity/activity_insights.c:271
 #: fw/services/activity/activity_insights.c:275
 msgid "A good night's sleep goes a long way! Try to get more hours tonight."
-msgstr ""
+msgstr "En god natts sömn räcker långt! Försök sova några fler timmar inatt."
 
 #: fw/services/activity/activity_insights.c:424
 msgid "Open App"
-msgstr ""
+msgstr "Öppna app"
 
 #: fw/services/activity/activity_insights.c:529
 #: fw/services/activity/activity_insights.c:535
 msgid "BELOW AVG"
-msgstr ""
+msgstr "UNDER SNITTET"
 
 #: fw/services/activity/activity_insights.c:529
 #: fw/services/activity/activity_insights.c:535
 msgid "Below avg"
-msgstr ""
+msgstr "Under snittet"
 
 #: fw/services/activity/activity_insights.c:541
 msgid "ON AVG"
-msgstr ""
+msgstr "SNITTET"
 
 #: fw/services/activity/activity_insights.c:541
 msgid "On avg"
-msgstr ""
+msgstr "Snittet"
 
 #: fw/services/activity/activity_insights.c:546
 msgid "ABOVE AVG"
-msgstr ""
+msgstr "ÖVER SNITTET"
 
 #: fw/services/activity/activity_insights.c:546
 msgid "Above avg"
-msgstr ""
+msgstr "Över snittet"
 
 #: fw/services/activity/activity_insights.c:827
 msgid "%H:%M"
-msgstr ""
+msgstr "%H:%M"
 
 #: fw/services/activity/activity_insights.c:827
 msgid "%l:%M%p"
-msgstr ""
+msgstr "%l:%M%p"
 
 #: fw/services/activity/activity_insights.c:851
 #, c-format
 msgid "%uH %uM Sleep"
-msgstr ""
+msgstr "%ut %um sömn"
 
 #: fw/services/activity/activity_insights.c:879
 msgid "Nap Time"
-msgstr ""
+msgstr "Tupplur"
 
 #: fw/services/activity/activity_insights.c:887
 #, c-format
 msgid "%s of sleep"
-msgstr ""
+msgstr "%s sömn"
 
 #: fw/services/activity/activity_insights.c:892
 msgid "YOU NAPPED"
-msgstr ""
+msgstr "DU TUPPLURADE"
 
 #: fw/services/activity/activity_insights.c:892
 msgid "Of napping"
-msgstr ""
+msgstr "tupplur"
 
 #: fw/services/activity/activity_insights.c:900
 #, c-format
 msgid "%s - %s"
-msgstr ""
+msgstr "%s - %s"
 
 #: fw/services/activity/activity_insights.c:921
 msgid "I need more"
-msgstr ""
+msgstr "Jag behöver mer"
 
 #: fw/services/activity/activity_insights.c:951
 #, c-format
 msgid "Aren't naps great? You knocked out for %dH %dM!"
-msgstr ""
+msgstr "Är inte tupplurar toppen? Du slumrade i %dt %dm!"
 
 #: fw/services/activity/activity_insights.c:967
 msgid "I didn't nap!?"
-msgstr ""
+msgstr "Jag tog ingen tupplur!?"
 
 #: fw/services/activity/activity_insights.c:1200
 msgid "Open Pin"
-msgstr ""
+msgstr "Öppna händelse"
 
 #: fw/services/activity/activity_insights.c:1286
 #, c-format
@@ -2926,6 +3018,8 @@ msgid ""
 "Killer job! You've walked %d steps today which is %d%% above your typical. "
 "Do it again tomorrow and you'll be on top of the world!"
 msgstr ""
+"Grymt jobbat! Du har gått %d steg idag, vilket är %d%% fler steg än du "
+"brukar. Gör om den prestationen imorgon och du kommer känna dig på topp!"
 
 #: fw/services/activity/activity_insights.c:1289
 #, c-format
@@ -2933,6 +3027,8 @@ msgid ""
 "Nice moves! You've walked %d steps today which is %d%% above your typical. "
 "Crush it again tomorrow 😀"
 msgstr ""
+"Snyggt! Du gick %d steg idag, vilket är %d%% fler än du brukar. Fortsätt "
+"prestera imorgon 😀"
 
 #: fw/services/activity/activity_insights.c:1291
 #, c-format
@@ -2940,6 +3036,8 @@ msgid ""
 "Hey rockstar 🎤 You've walked %d steps today which is %d%% above your "
 "typical. Nothing can stop you!"
 msgstr ""
+"Vilken stjärna ⭐ Du har gått %d steg idag, vilket är %d%% fler än du "
+"brukar. Du är ostoppbar!"
 
 #: fw/services/activity/activity_insights.c:1293
 #, c-format
@@ -2947,6 +3045,8 @@ msgid ""
 "We can barely keep up! You walked %d steps today which is %d%% above your "
 "typical. You're on 🔥"
 msgstr ""
+"Vi hänger knappt med! Du gick %d steg idag, vilket är %d%% fler än du "
+"brukar. Du är 💪"
 
 #: fw/services/activity/activity_insights.c:1296
 #, c-format
@@ -2954,6 +3054,8 @@ msgid ""
 "You walked %d steps today which is %d%% above your typical. You just "
 "outstepped YOURSELF. Mic drop."
 msgstr ""
+"Du gick %d steg idag, vilket är %d%% fler än du brukar. Du gick precis om "
+"dig själv! 🚶💨"
 
 #: fw/services/activity/activity_insights.c:1305
 #, c-format
@@ -2961,18 +3063,20 @@ msgid ""
 "You walked %d steps today; keep it up! Being active is the key to feeling "
 "like a million bucks. Try to beat your typical tomorrow."
 msgstr ""
+"Du gick %d steg idag, fortsätt så! Att vara aktiv är nyckeln till att må "
+"bra. Försök att gå fler steg än du brukar imorgon."
 
 #: fw/services/activity/activity_insights.c:1308
 #, c-format
 msgid "Good job! You walked %d steps today–do it again tomorrow."
-msgstr ""
+msgstr "Bra jobbat! Du gick %d steg idag, upprepa det imorgon."
 
 #: fw/services/activity/activity_insights.c:1309
 #, c-format
 msgid ""
 "Someone's on the move 👊 You walked %d steps today; keep doing what you're "
 "doing!"
-msgstr ""
+msgstr "Någon är i farten 👊 Du gick %d steg idag, fortsätt så!"
 
 #: fw/services/activity/activity_insights.c:1311
 #, c-format
@@ -2980,6 +3084,8 @@ msgid ""
 "You keep moving, we'll keep counting! You've clocked in %d steps today. Keep "
 "it rolling, hot stuff."
 msgstr ""
+"Du knallar på, vi fortsätter räkna! Du klockade in på %d steg idag. Forsätt "
+"så tuffing!"
 
 #: fw/services/activity/activity_insights.c:1320
 #, c-format
@@ -2987,6 +3093,8 @@ msgid ""
 "You walked %d steps today which is %d%% below your typical. Try to be more "
 "active tomorrow–you can do it!"
 msgstr ""
+"Du gick %d steg idag, vilket är %d%% färre det du brukar. Försök vara mer "
+"aktiv imorgon, du fixar det!"
 
 #: fw/services/activity/activity_insights.c:1323
 #, c-format
@@ -2994,6 +3102,8 @@ msgid ""
 "You walked %d steps which is %d%% below your typical. Being active makes you "
 "feel amaaaazing–try to get back on track tomorrow."
 msgstr ""
+"Du gick %d steg vilket är %d%% färre än du brukar. Att vara aktiv gör att "
+"man mår tipp topp, försök komma igång igen imorgon."
 
 #: fw/services/activity/activity_insights.c:1325
 #, c-format
@@ -3001,6 +3111,8 @@ msgid ""
 "You walked %d steps today which is %d%% below your typical. Don't worry, "
 "tomorrow is just around the corner 😀"
 msgstr ""
+"Du gick %d steg idag, vilket är %d%% färre än du brukar. Oroa dig inte, "
+"imorgon är en ny dag 😀"
 
 #: fw/services/activity/activity_insights.c:1327
 #, c-format
@@ -3008,6 +3120,8 @@ msgid ""
 "You walked %d steps which is %d%% below your typical, but don't stress. "
 "You'll crush it tomorrow 😉"
 msgstr ""
+"Du gick %d steg, vilket är %d%% färre än du brukar, men känn ingen stress. "
+"Du kommer fixa det imorgon 😉"
 
 #: fw/services/activity/activity_insights.c:1334
 #, c-format
@@ -3015,11 +3129,13 @@ msgid ""
 "You walked %d steps today. Don't fret, you can get back on track in no time "
 "😉"
 msgstr ""
+"Du gick %d steg idag. Misströsta inte, du är tillbaka på rätt spår på "
+"nolltid 😉"
 
 #: fw/services/activity/activity_insights.c:1336
 #, c-format
 msgid "You walked %d steps today. Good news is the sky's the limit!"
-msgstr ""
+msgstr "Du gick %d steg idag. De goda nyheterna är att ingenting är omöjligt!"
 
 #: fw/services/activity/activity_insights.c:1337
 #, c-format
@@ -3027,6 +3143,8 @@ msgid ""
 "You walked %d steps today. Try to take even more steps tomorrow–show us what "
 "you're made of!"
 msgstr ""
+"Du gick %d steg idag. Försök gå ännu fler steg imorgon, visa vad du är "
+"kapabel till!"
 
 #. / Sleep notification on wake up, slept above their typical sleep duration
 #: fw/services/activity/activity_insights.c:1389
@@ -3035,6 +3153,8 @@ msgid ""
 "Refreshed? You slept for %dH %dM which is %d%% above your typical. Go tackle "
 "your day 😃."
 msgstr ""
+"Utvilad? Du sov i %dt %dm, vilket är %d%% mer än du brukar. Dags att fånga "
+"dagen 😃."
 
 #: fw/services/activity/activity_insights.c:1391
 #, c-format
@@ -3042,6 +3162,8 @@ msgid ""
 "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above your "
 "typical. Keep it up."
 msgstr ""
+"Du sov som en stock! Du sov i %dt %dm, vilket är %d%% mer än du brukar. "
+"Fortsätt så."
 
 #: fw/services/activity/activity_insights.c:1393
 #, c-format
@@ -3049,6 +3171,8 @@ msgid ""
 "Rise and shine! You slept for %dH %dM which is %d%% above your typical. Do "
 "it again tonight, sleep master."
 msgstr ""
+"Upp och hoppa! Du slov i %dt %dm, vilket är %d%% mer än du brukar. Upprepa "
+"det inatt, din sjusovare."
 
 #: fw/services/activity/activity_insights.c:1396
 #, c-format
@@ -3056,6 +3180,8 @@ msgid ""
 "Mmmm...what a night. You slept for %dH %dM which is %d%% above your typical. "
 "That's gotta feel good!"
 msgstr ""
+"Mmm... vilken natt. Du sov i %dt %dm, vilket är %d%% mer än du brukar. Det "
+"måste kännas skönt!"
 
 #: fw/services/activity/activity_insights.c:1399
 #, c-format
@@ -3063,6 +3189,8 @@ msgid ""
 "That's a lot of sheep you just counted! You slept for %dH %dM which is %d%% "
 "above your typical. Boom shakalaka."
 msgstr ""
+"Det var många får du räknade! Du sov i %dt %dm vilket är %d%% mer än du "
+"brukar. Snitsigt!"
 
 #. / Sleep notification on wake up, slept similar to their typical sleep duration
 #: fw/services/activity/activity_insights.c:1409
@@ -3071,6 +3199,8 @@ msgid ""
 "Good mornin’. You slept for %dH %dM. Every good day begins with a solid "
 "night’s sleep...kinda like that one 😉 Keep it up!"
 msgstr ""
+"Go'morron! Du sov i %dt %dm. En bra dag börjar med en god natts sömn... Den "
+"här natten är ett bra exempel på det 😉. Fortsätt så!"
 
 #: fw/services/activity/activity_insights.c:1412
 #, c-format
@@ -3078,6 +3208,8 @@ msgid ""
 "Good morning! You slept for %dH %dM. Consistency is key; keep doing what "
 "you're doing 😃."
 msgstr ""
+"God morgon! Du sov i %dt %dm. Regelbundenhet är nyckeln till att lyckas, "
+"fortsätt så 😃."
 
 #: fw/services/activity/activity_insights.c:1415
 #, c-format
@@ -3085,11 +3217,13 @@ msgid ""
 "You're rockin' the shut eye! You slept for %dH %dM. Make it a nightly "
 "ritual. You deserve it."
 msgstr ""
+"Vilken sömntuta! Du sov i %dt %dm. Gör det till din nya rutin, du förtjänar "
+"att sova gott."
 
 #: fw/services/activity/activity_insights.c:1417
 #, c-format
 msgid "Feelin' good? You slept for %dH %dM. Nothing can stop you now 👊"
-msgstr ""
+msgstr "Känner du dig pigg? Du sov i %dt %dm. Inget kan stopp dig nu 👊"
 
 #. / Sleep notification on wake up, slept below their typical sleep duration
 #: fw/services/activity/activity_insights.c:1426
@@ -3098,6 +3232,8 @@ msgid ""
 "Hey sleepy head. You slept for %dH %dM which is %d%% below your typical. Try "
 "to get more tonight!"
 msgstr ""
+"Hej trötter. Du sov i %dt %dm, vilket är %d%% mindre än du brukar. Försök "
+"sova lite mer inatt."
 
 #: fw/services/activity/activity_insights.c:1428
 #, c-format
@@ -3105,6 +3241,8 @@ msgid ""
 "Groggy? You slept for %dH %dM which is %d%% below your typical. Sleep is "
 "important for everything you do-try getting more shut eye tonight!"
 msgstr ""
+"Groggy? Du sov i %dt %dm vilket är %d%% mindre än du brukar. Sömn är viktigt "
+"för kropp och själ, försök få lite mer sömn inatt!"
 
 #: fw/services/activity/activity_insights.c:1430
 #, c-format
@@ -3112,6 +3250,8 @@ msgid ""
 "It's a new day! You slept for %dH %dM which is %d%% below your typical. It's "
 "not your best, but there's always tonight."
 msgstr ""
+"En ny dag! Du sov i %dt %dm vilket är %d%% mindre än du brukar. Det kunde "
+"varit bättre, men du har en ny chans inatt!"
 
 #: fw/services/activity/activity_insights.c:1433
 #, c-format
@@ -3119,6 +3259,8 @@ msgid ""
 "Goooood morning! You slept for %dH %dM which is %d%% below your typical. Go "
 "crush your day and then get back in bed 😉"
 msgstr ""
+"Goooood morgon! Du sov i %dt %dm vilket är %d%% mindre än du brukar. Ta och "
+"äg den här dagen, sen kryper du i säng 😉"
 
 #: fw/services/activity/activity_insights.c:1440
 #, c-format
@@ -3126,6 +3268,8 @@ msgid ""
 "You slept for %dH %dM which is %d%% below your typical. Sleep is vital for "
 "all your great ideas–how 'bout getting more tonight?"
 msgstr ""
+"Du sov i %dt %dm vilket är %d%% mindre än du brukar. Sömn är nödvändig för "
+"kreativiteten, försök klämma in lite mer sömn inatt."
 
 #: fw/services/activity/activity_insights.c:1442
 #, c-format
@@ -3133,6 +3277,8 @@ msgid ""
 "You only slept for %dH %dM which is %d%% below your typical. We know you're "
 "busy, but try getting more tonight. We believe in you 😉"
 msgstr ""
+"Du sov endas %dt %dm vilket är %d%% mindre än du brukar. Vi förstår att du "
+"kan ha mycket att stå i, men försök sova lite mer inatt, du fixar det 😉"
 
 #: fw/services/activity/activity_insights.c:1444
 #, c-format
@@ -3140,67 +3286,69 @@ msgid ""
 "You slept for %dH %dM which is %d%% below your typical. We know stuff "
 "happens; take another crack at it tonight."
 msgstr ""
+"Du sov i %dt %dm vilket är %d%% mindre än du brukar. Vi förstår att livet "
+"kan komma ivägen, gör ett nytt försök inatt."
 
 #: fw/services/activity/activity_insights.c:1495
 #, c-format
 msgid "%u Steps"
-msgstr ""
+msgstr "%u steg"
 
 #: fw/services/activity/activity_insights.c:1577
 msgid "Didn’t that walk feel good?"
-msgstr ""
+msgstr "Kändes inte den promenaden bra?"
 
 #: fw/services/activity/activity_insights.c:1578
 msgid "Way to keep it active!"
-msgstr ""
+msgstr "Bra att du håller dig aktiv!"
 
 #: fw/services/activity/activity_insights.c:1579
 msgid "You got the moves!"
-msgstr ""
+msgstr "Du glider fram!"
 
 #: fw/services/activity/activity_insights.c:1580
 msgid "Gettin' your step on?"
-msgstr ""
+msgstr "Värst vad du knallar på!"
 
 #: fw/services/activity/activity_insights.c:1590
 msgid "Feelin' hot? Cause you're on 🔥"
-msgstr ""
+msgstr "Känner du hettan? För du är glödhet 🔥"
 
 #: fw/services/activity/activity_insights.c:1591
 msgid "Hey lightning bolt, way to go!"
-msgstr ""
+msgstr "Som en oljad blixt!"
 
 #: fw/services/activity/activity_insights.c:1592
 msgid "You're a machine!"
-msgstr ""
+msgstr "Du bara tuggar på!"
 
 #: fw/services/activity/activity_insights.c:1593
 msgid "Hey speedster, we can barely keep up!"
-msgstr ""
+msgstr "Kvick som Lille Skutt, vi hänger knappt med!"
 
 #: fw/services/activity/activity_insights.c:1594
 msgid "Way to show us what you're made of 👊"
-msgstr ""
+msgstr "Jösses vad du pallrar med 👊"
 
 #: fw/services/activity/activity_insights.c:1604
 msgid "Workin' up a sweat?"
-msgstr ""
+msgstr "Jobbar du upp pulsen?"
 
 #: fw/services/activity/activity_insights.c:1605
 msgid "Well done 💪"
-msgstr ""
+msgstr "Bra jobbat 💪"
 
 #: fw/services/activity/activity_insights.c:1606
 msgid "Endorphin rush?"
-msgstr ""
+msgstr "Endorfin-kick?"
 
 #: fw/services/activity/activity_insights.c:1607
 msgid "Can't stop, won't stop 👊"
-msgstr ""
+msgstr "Likt en ångvält, du är ostoppbar 👊"
 
 #: fw/services/activity/activity_insights.c:1608
 msgid "Keepin' that heart healthy! ❤"
-msgstr ""
+msgstr "Håller hjärtat i trim! ❤"
 
 #: fw/services/activity/activity_insights.c:1636
 #: fw/services/activity/activity_insights.c:1728
@@ -3208,570 +3356,576 @@ msgstr ""
 #: fw/services/activity/activity_insights.c:1742
 #, c-format
 msgid "%d Min"
-msgstr ""
+msgstr "%d min"
 
 #: fw/services/activity/activity_insights.c:1665
 msgid "Avg Pace"
-msgstr ""
+msgstr "Snittempo"
 
 #: fw/services/activity/activity_insights.c:1681
 msgid "Distance"
-msgstr ""
+msgstr "Distans"
 
 #: fw/services/activity/activity_insights.c:1693
 msgid "Steps"
-msgstr ""
+msgstr "Steg"
 
 #: fw/services/activity/activity_insights.c:1707
 msgid "Active Calories"
-msgstr ""
+msgstr "Aktiva kalorier"
 
 #: fw/services/activity/activity_insights.c:1720
 msgid "Avg HR"
-msgstr ""
+msgstr "Snittpuls"
 
 #: fw/services/activity/health_util.c:30
 #, c-format
 msgid "%dH"
-msgstr ""
+msgstr "%dt"
 
 #: fw/services/activity/health_util.c:36
 #, c-format
 msgid "%dM"
-msgstr ""
+msgstr "%dm"
 
 #: fw/services/activity/health_util.c:59
 #, c-format
 msgid "%d:%d"
-msgstr ""
+msgstr "%d:%d"
 
 #: fw/services/activity/health_util.c:96
 msgid "h"
-msgstr ""
+msgstr "t"
 
 #: fw/services/activity/health_util.c:102
 msgid " "
-msgstr ""
+msgstr " "
 
 #: fw/services/activity/health_util.c:112
 msgid "min"
-msgstr ""
+msgstr "min"
 
 #: fw/services/activity/health_util.c:130
 #, c-format
 msgid "%d.%d"
-msgstr ""
+msgstr "%d,%d"
 
-#: fw/services/alarms/alarm.c:459 fw/services/alarms/alarm_pin.c:75
+#: fw/services/alarms/alarm.c:460 fw/services/alarms/alarm_pin.c:75
 msgid "Alarm"
-msgstr ""
+msgstr "Alarm"
 
 #. / A frequency option for alarms, i.e. the alarm would go off every
 #. / day. Respect capitalization!
-#: fw/services/alarms/alarm.c:1415
+#: fw/services/alarms/alarm.c:1416
 msgid "EVERY DAY"
-msgstr ""
-
-#. / A frequency option for alarms, i.e. the alarm would go off every
-#. / day. Respect capitalization!
-#: fw/services/alarms/alarm.c:1419
-msgid "Every Day"
-msgstr ""
+msgstr "VARJE DAG"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / every weekday. Respect capitalization!
-#: fw/services/alarms/alarm.c:1425
+#: fw/services/alarms/alarm.c:1426
 msgid "WEEKDAYS"
-msgstr ""
+msgstr "VARDAGAR"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / each day on the weekend. Respect capitalization!
-#: fw/services/alarms/alarm.c:1435
+#: fw/services/alarms/alarm.c:1436
 msgid "WEEKENDS"
-msgstr ""
+msgstr "HELGER"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / one time ever. Respect capitalization!
-#: fw/services/alarms/alarm.c:1446
+#: fw/services/alarms/alarm.c:1447
 msgid "ONCE"
-msgstr ""
+msgstr "EN GÅNG"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / one time ever. Respect capitalization!
-#: fw/services/alarms/alarm.c:1450
+#: fw/services/alarms/alarm.c:1451
 msgid "Once"
-msgstr ""
+msgstr "En gång"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / on a custom choice of days. Respect capitalization!
-#: fw/services/alarms/alarm.c:1457
+#: fw/services/alarms/alarm.c:1458
 msgid "CUSTOM"
-msgstr ""
+msgstr "ANPASSAD"
 
-#: fw/services/alarms/alarm.c:1477
+#: fw/services/alarms/alarm.c:1478
 msgid "Sundays"
-msgstr ""
+msgstr "Söndagar"
 
-#: fw/services/alarms/alarm.c:1477
+#: fw/services/alarms/alarm.c:1478
 msgid "Mondays"
-msgstr ""
+msgstr "Måndagar"
 
-#: fw/services/alarms/alarm.c:1478
+#: fw/services/alarms/alarm.c:1479
 msgid "Tuesdays"
-msgstr ""
+msgstr "Tisdagar"
 
-#: fw/services/alarms/alarm.c:1478
+#: fw/services/alarms/alarm.c:1479
 msgid "Wednesdays"
-msgstr ""
-
-#: fw/services/alarms/alarm.c:1479
-msgid "Thursdays"
-msgstr ""
-
-#: fw/services/alarms/alarm.c:1479
-msgid "Fridays"
-msgstr ""
+msgstr "Onsdagar"
 
 #: fw/services/alarms/alarm.c:1480
+msgid "Thursdays"
+msgstr "Torsdagar"
+
+#: fw/services/alarms/alarm.c:1480
+msgid "Fridays"
+msgstr "Fredagar"
+
+#: fw/services/alarms/alarm.c:1481
 msgid "Saturdays"
-msgstr ""
+msgstr "Lördagar"
 
 #: fw/services/alarms/alarm_pin.c:88
 msgid "Edit"
-msgstr ""
+msgstr "Redigera"
 
 #: fw/services/alarms/alarm_tones.c:187
 msgid "Reveille"
-msgstr ""
+msgstr "Revelj"
 
 #: fw/services/alarms/alarm_tones.c:190
 msgid "Beacon"
-msgstr ""
+msgstr "Fyr"
 
 #: fw/services/alarms/alarm_tones.c:192
 msgid "Bell"
-msgstr ""
+msgstr "Klocka"
 
 #: fw/services/alarms/alarm_tones.c:194
 msgid "Chime"
-msgstr ""
+msgstr "Klockspel"
 
-#: fw/services/clock/service.c:508 fw/services/clock/service.c:793
+#: fw/services/clock/service.c:507 fw/services/clock/service.c:792
 msgid "%R"
-msgstr ""
+msgstr "%R"
 
-#: fw/services/clock/service.c:508
+#: fw/services/clock/service.c:507
 msgid "%l:%M"
-msgstr ""
+msgstr "%l:%M"
 
-#: fw/services/clock/service.c:520
+#: fw/services/clock/service.c:519
 #, c-format
 msgid "%p"
-msgstr ""
+msgstr "%p"
 
-#: fw/services/clock/service.c:536 fw/services/timeline/timeline_layout.c:424
+#: fw/services/clock/service.c:535 fw/services/timeline/timeline_layout.c:423
 msgid "All day"
-msgstr ""
+msgstr "Hela dagen"
 
-#: fw/services/clock/service.c:549 fw/services/clock/service.c:561
-#: fw/services/clock/service.c:899
+#: fw/services/clock/service.c:548 fw/services/clock/service.c:560
+#: fw/services/clock/service.c:898
 msgid "Now"
-msgstr ""
+msgstr "Nu"
 
-#: fw/services/clock/service.c:553
+#: fw/services/clock/service.c:552
 msgid " MIN. TO"
-msgstr ""
+msgstr " MIN. TILL"
 
-#: fw/services/clock/service.c:721 fw/services/clock/service.c:803
-#: fw/services/clock/service.c:811
+#: fw/services/clock/service.c:720 fw/services/clock/service.c:802
+#: fw/services/clock/service.c:810
 msgid "Yesterday"
-msgstr ""
+msgstr "Igår"
 
-#: fw/services/clock/service.c:726 fw/services/clock/service.c:841
-#: fw/services/clock/service.c:849
+#: fw/services/clock/service.c:725 fw/services/clock/service.c:840
+#: fw/services/clock/service.c:848
 #, c-format
 msgid "%A"
-msgstr ""
+msgstr "%A"
 
-#: fw/services/clock/service.c:729
+#: fw/services/clock/service.c:728
 msgid "%B %d"
-msgstr ""
+msgstr "%e %B"
 
-#: fw/services/clock/service.c:789
+#: fw/services/clock/service.c:788
 msgid "%l:%M %p"
-msgstr ""
+msgstr "%l:%M %p"
 
-#: fw/services/clock/service.c:801
+#: fw/services/clock/service.c:800
 msgid "Yesterday, %l:%M %p"
-msgstr ""
+msgstr "Igår, %l:%M %p"
 
-#: fw/services/clock/service.c:809
+#: fw/services/clock/service.c:808
 msgid "Yesterday, %R"
-msgstr ""
+msgstr "Igår, %R"
 
-#: fw/services/clock/service.c:820
+#: fw/services/clock/service.c:819
 msgid "%b %e, %l:%M %p"
-msgstr ""
+msgstr "%e %b, %l:%M %p"
 
-#: fw/services/clock/service.c:828
+#: fw/services/clock/service.c:827
 msgid "%b %e, %R"
-msgstr ""
+msgstr "%e %b, %R"
 
-#: fw/services/clock/service.c:839
+#: fw/services/clock/service.c:838
 msgid "%a, %l:%M %p"
-msgstr ""
+msgstr "%a, %l:%M %p"
 
-#: fw/services/clock/service.c:847
+#: fw/services/clock/service.c:846
 msgid "%a, %R"
-msgstr ""
+msgstr "%a, %R"
 
-#: fw/services/clock/service.c:876
+#: fw/services/clock/service.c:875
 #, c-format
 msgid "%lu H AGO"
-msgstr ""
+msgstr "%lu TIM SEDAN"
 
-#: fw/services/clock/service.c:878
+#: fw/services/clock/service.c:877
 msgid "An hour ago"
-msgstr ""
+msgstr "För en timme sedan"
 
-#: fw/services/clock/service.c:880
+#: fw/services/clock/service.c:879
 #, c-format
 msgid "%lu hours ago"
-msgstr ""
+msgstr "För %lu timmar sedan"
 
-#: fw/services/clock/service.c:890
+#: fw/services/clock/service.c:889
 #, c-format
 msgid "%lu MIN AGO"
-msgstr ""
+msgstr "%lu MIN SEDAN"
 
-#: fw/services/clock/service.c:892
+#: fw/services/clock/service.c:891
 #, c-format
 msgid "%lu minute ago"
-msgstr ""
+msgstr "För %lu minut sedan"
 
-#: fw/services/clock/service.c:894
+#: fw/services/clock/service.c:893
 #, c-format
 msgid "%lu minutes ago"
-msgstr ""
+msgstr "För %lu minuter sedan"
 
-#: fw/services/clock/service.c:899
+#: fw/services/clock/service.c:898
 msgid "NOW"
-msgstr ""
+msgstr "NU"
 
-#: fw/services/clock/service.c:907
+#: fw/services/clock/service.c:906
 #, c-format
 msgid "IN %lu MIN"
-msgstr ""
+msgstr "OM %lu MIN"
 
-#: fw/services/clock/service.c:909
+#: fw/services/clock/service.c:908
 #, c-format
 msgid "In %lu minute"
-msgstr ""
+msgstr "Om %lu minut"
 
-#: fw/services/clock/service.c:911
+#: fw/services/clock/service.c:910
 #, c-format
 msgid "In %lu minutes"
-msgstr ""
+msgstr "Om %lu minuter"
 
-#: fw/services/clock/service.c:921
+#: fw/services/clock/service.c:920
 #, c-format
 msgid "IN %lu H"
-msgstr ""
+msgstr "OM %lu TIM"
 
-#: fw/services/clock/service.c:923
+#: fw/services/clock/service.c:922
 #, c-format
 msgid "In %lu hour"
-msgstr ""
+msgstr "Om %lu timme"
 
-#: fw/services/clock/service.c:925
+#: fw/services/clock/service.c:924
 #, c-format
 msgid "In %lu hours"
-msgstr ""
+msgstr "Om %lu timmar"
 
-#: fw/services/clock/service.c:936 fw/services/clock/service.c:940
+#: fw/services/clock/service.c:935 fw/services/clock/service.c:939
 #, c-format
 msgid "%m/%d"
-msgstr ""
+msgstr "%d/%m"
 
-#: fw/services/clock/service.c:949
+#: fw/services/clock/service.c:948
 msgid "%b "
-msgstr ""
+msgstr "%b "
 
-#: fw/services/clock/service.c:949
+#: fw/services/clock/service.c:948
 msgid "%B "
-msgstr ""
+msgstr "%B "
 
-#: fw/services/clock/service.c:953
+#: fw/services/clock/service.c:952
 #, c-format
 msgid "%e"
-msgstr ""
+msgstr "%e"
 
 #: fw/services/clock/service.c:1003
 msgid "this morning"
-msgstr ""
+msgstr "i morse"
 
 #: fw/services/clock/service.c:1004
 msgid "this afternoon"
-msgstr ""
+msgstr "i eftermiddag"
 
 #: fw/services/clock/service.c:1005
 msgid "this evening"
-msgstr ""
+msgstr "i kväll"
 
 #: fw/services/clock/service.c:1006
 msgid "tonight"
-msgstr ""
+msgstr "i natt"
 
 #: fw/services/clock/service.c:1007
 msgid "tomorrow morning"
-msgstr ""
+msgstr "i morgon bitti"
 
 #: fw/services/clock/service.c:1008
 msgid "tomorrow afternoon"
-msgstr ""
+msgstr "i morgon eftermiddag"
 
 #: fw/services/clock/service.c:1009
 msgid "tomorrow evening"
-msgstr ""
+msgstr "i morgon kväll"
 
 #: fw/services/clock/service.c:1010
 msgid "tomorrow night"
-msgstr ""
+msgstr "i morgon natt"
 
 #: fw/services/clock/service.c:1011 fw/services/clock/service.c:1012
 msgid "the day after tomorrow"
-msgstr ""
+msgstr "i övermorgon"
 
 #: fw/services/clock/service.c:1013
 msgid "the foreseeable future"
-msgstr ""
+msgstr "i närmaste framtiden"
 
 #: fw/services/notifications/ancs/ancs_item.c:111
 msgid "sent an attachment"
-msgstr ""
+msgstr "skickade en bilaga"
 
-#: fw/services/notifications/ancs/ancs_item.c:159
+#: fw/services/notifications/ancs/ancs_item.c:157
 msgid "Call Back"
-msgstr ""
+msgstr "Ring upp"
 
-#: fw/services/notifications/ancs/ancs_notifications.c:411
+#: fw/services/notifications/ancs/ancs_notifications.c:407
 msgid "iPhone Notifications Blocked"
-msgstr ""
+msgstr "iPhone notiser blockerade"
 
-#: fw/services/notifications/ancs/ancs_notifications.c:414
+#: fw/services/notifications/ancs/ancs_notifications.c:410
 msgid ""
 "Your iPhone is not sharing notifications with this watch. On your iPhone, "
 "open Settings > Bluetooth, tap the (i) next to your Pebble and turn on Share "
 "System Notifications."
 msgstr ""
+"Din iPhone delar inte notiser med din klocka. På din iPhone, öppna "
+"Inställningar > Bluetooth, i listan tryck på (i) vid din Pebble och aktivera "
+"Dela systemnotiser."
 
-#: fw/services/notifications/do_not_disturb.c:115
+#: fw/services/notifications/do_not_disturb.c:112
 msgid "Calendar Aware enables Quiet Time automatically during calendar events."
 msgstr ""
+"Kalenderanpassad möjliggör Tyst tid automatiskt under kalenderhändelser."
 
-#: fw/services/notifications/do_not_disturb.c:123
+#: fw/services/notifications/do_not_disturb.c:120
 msgid ""
 "Press and hold the Back button from a notification to turn Quiet Time on or "
 "off."
 msgstr ""
+"Tryck och håll in bakåt-knappen på en notis för att aktivera/inaktivera Tyst "
+"stund."
 
 #: fw/services/notifications/do_not_disturb_toggle.c:29
 msgid "Start Quiet Time?"
-msgstr ""
+msgstr "Påbörja Tyst stund?"
 
 #: fw/services/notifications/do_not_disturb_toggle.c:30
 msgid "End Quiet Time?"
-msgstr ""
+msgstr "Avsluta Tyst stund?"
 
 #: fw/services/notifications/do_not_disturb_toggle.c:31
 msgid ""
 "Quiet Time\n"
 "Started"
 msgstr ""
+"Tyst stund\n"
+"påbörjad"
 
 #: fw/services/notifications/do_not_disturb_toggle.c:32
 msgid ""
 "Quiet Time\n"
 "Ended"
 msgstr ""
+"Tyst stund\n"
+"avslutad"
 
-#: fw/services/timeline/calendar_layout.c:171
+#: fw/services/timeline/calendar_layout.c:172
 msgid " - "
-msgstr ""
+msgstr " - "
 
-#: fw/services/timeline/calendar_layout.c:339
+#: fw/services/timeline/calendar_layout.c:340
 msgid "All Day"
-msgstr ""
+msgstr "Hela dagen"
 
-#: fw/services/timeline/calendar_layout.c:383
+#: fw/services/timeline/calendar_layout.c:384
 msgid "Recurring"
-msgstr ""
+msgstr "Återkommande"
 
 #: fw/services/timeline/sports_layout.c:61
 msgid "STARTS "
-msgstr ""
+msgstr "BÖRJAR "
 
 #: fw/services/timeline/sports_layout.c:149
 msgid "Broadcaster"
-msgstr ""
+msgstr "Distributör"
 
-#: fw/services/timeline/timeline.c:697
+#: fw/services/timeline/timeline.c:695
 msgid "Can't connect. Relaunch Pebble Time app on phone."
-msgstr ""
+msgstr "Kan inte ansluta. Öppnna Pebble-appen på telefonen."
 
-#: fw/services/timeline/timeline.c:711
+#: fw/services/timeline/timeline.c:707
 msgid "Removed"
-msgstr ""
+msgstr "Borttagen"
 
-#: fw/services/timeline/timeline.c:723 fw/services/timeline/timeline.c:744
+#: fw/services/timeline/timeline.c:717 fw/services/timeline/timeline.c:736
 msgid "Dismissed"
-msgstr ""
+msgstr "Avvisad"
 
-#: fw/services/timeline/timeline.c:748
+#: fw/services/timeline/timeline.c:740
 msgid "Deleted"
-msgstr ""
+msgstr "Raderad"
 
-#: fw/services/timeline/timeline.c:777
+#: fw/services/timeline/timeline.c:767
 msgid "Thanks!"
-msgstr ""
+msgstr "Tack!"
 
-#: fw/services/timeline/timeline.c:927
+#: fw/services/timeline/timeline.c:917
 msgid "Calendar"
-msgstr ""
+msgstr "Kalender"
 
-#: fw/services/timeline/timeline.c:935
+#: fw/services/timeline/timeline.c:925
 msgid "Reminders"
-msgstr ""
+msgstr "Påminnelser"
 
-#: fw/services/timeline/timeline.c:947
+#: fw/services/timeline/timeline.c:937
 msgid "Intercom"
-msgstr ""
+msgstr "Interkom"
 
-#: fw/services/timeline/timeline_actions.c:713
+#: fw/services/timeline/timeline_actions.c:721
 msgid ""
 "Quickly dismiss all notifications by holding the Select button for 2 seconds "
 "from any incoming notification."
 msgstr ""
+"Rensa alla notiser genom att hålla in mitten-knappen i 2 sekunder på en "
+"notis."
 
-#: fw/services/timeline/timeline_actions.c:801
+#: fw/services/timeline/timeline_actions.c:809
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
-#: fw/services/timeline/timeline_actions.c:802
+#: fw/services/timeline/timeline_actions.c:810
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
-#: fw/services/timeline/timeline_actions.c:803
+#: fw/services/timeline/timeline_actions.c:811
 msgid "No"
-msgstr ""
+msgstr "Nej"
 
-#: fw/services/timeline/timeline_actions.c:804
+#: fw/services/timeline/timeline_actions.c:812
 msgid "Call me"
-msgstr ""
+msgstr "Ring mig"
 
-#: fw/services/timeline/timeline_actions.c:805
+#: fw/services/timeline/timeline_actions.c:813
 msgid "Call you later"
-msgstr ""
+msgstr "Jag ringer upp"
 
-#: fw/services/timeline/timeline_actions.c:930
+#: fw/services/timeline/timeline_actions.c:938
 msgid "Reply with Voice"
-msgstr ""
+msgstr "Svara med röst"
 
-#: fw/services/timeline/timeline_actions.c:930
+#: fw/services/timeline/timeline_actions.c:938
 msgid "Voice"
-msgstr ""
+msgstr "Röst"
 
-#: fw/services/timeline/timeline_actions.c:940
+#: fw/services/timeline/timeline_actions.c:948
 msgid "Canned messages"
-msgstr ""
+msgstr "Kastade meddelanden"
 
-#: fw/services/timeline/timeline_actions.c:944
+#: fw/services/timeline/timeline_actions.c:952
 msgid "Emoji"
-msgstr ""
+msgstr "Emoji"
 
-#: fw/services/timeline/timeline_actions.c:1048
+#: fw/services/timeline/timeline_actions.c:1056
 msgid "In 15 minutes"
-msgstr ""
+msgstr "Om 15 minuter"
 
-#: fw/services/timeline/timeline_actions.c:1052
+#: fw/services/timeline/timeline_actions.c:1060
 msgid "Later today"
-msgstr ""
+msgstr "Senare idag"
 
-#: fw/services/timeline/timeline_layout.c:796
+#: fw/services/timeline/timeline_layout.c:799
 msgid "Last updated"
-msgstr ""
+msgstr "Senast uppdaterad"
 
 #: fw/services/timeline/weather_layout.c:51
 msgid "Sunrise"
-msgstr ""
+msgstr "Soluppgång"
 
 #: fw/services/timeline/weather_layout.c:53
 msgid "Sunset"
-msgstr ""
+msgstr "Solnedgång"
 
 #. / Standard vibration pattern option that has a low intensity
 #: fw/services/vibes/vibe_intensity.c:38 fw/services/vibes/vibes.def:5
 #: fw/services/vibes/vibes.def:6
 msgid "Standard - Low"
-msgstr ""
+msgstr "Standard - Låg"
 
 #. / Standard vibration pattern option that has a medium intensity
 #: fw/services/vibes/vibe_intensity.c:42
 msgid "Standard - Medium"
-msgstr ""
+msgstr "Standard - Medel"
 
 #. / Standard vibration pattern option that has a high intensity
 #: fw/services/vibes/vibe_intensity.c:46 fw/services/vibes/vibes.def:7
 #: fw/services/vibes/vibes.def:8
 msgid "Standard - High"
-msgstr ""
+msgstr "Standard - Hög"
 
 #: fw/services/vibes/vibes.def:4
 msgctxt "NotifVibe"
 msgid "Disabled"
-msgstr ""
+msgstr "Inaktiverad"
 
 #: fw/services/vibes/vibes.def:9
 msgid "Pulse"
-msgstr ""
+msgstr "Pulserande"
 
 #: fw/services/vibes/vibes.def:10
 msgid "Nudge Nudge"
-msgstr ""
+msgstr "Pet pet"
 
 #: fw/services/vibes/vibes.def:11
 msgid "Jackhammer"
-msgstr ""
+msgstr "Slagborr"
 
 #: fw/services/vibes/vibes.def:15
 msgid "Gentle"
-msgstr ""
+msgstr "Mild"
 
 #: fw/services/vibes/vibes.def:16
 msgid "Double Pulse Medium"
-msgstr ""
+msgstr "Dubbelpuls mellan"
 
 #: fw/services/vibes/vibes.def:17
 msgid "Pebble Morse"
-msgstr ""
+msgstr "Morsesignal"
 
 #: fw/services/vibes/vibes.def:18
 msgid "Heartbeat"
-msgstr ""
+msgstr "Hjärtslag"
 
 #: fw/services/vibes/vibes.def:20
 msgid "Wave"
-msgstr ""
+msgstr "Våg"
 
-#: fw/shell/normal/battery_ui.c:43
+#: fw/shell/normal/battery_ui.c:141
 msgid "Fully Charged"
-msgstr ""
+msgstr "Fulladdad"
 
-#: fw/shell/normal/battery_ui.c:49
+#: fw/shell/normal/battery_ui.c:148
 msgid "Charging"
-msgstr ""
+msgstr "Laddar"
 
-#: fw/shell/normal/battery_ui.c:64
+#: fw/shell/normal/battery_ui.c:164
 #, c-format
 msgid "Powered 'til %s"
-msgstr ""
+msgstr "Ström till %s"
