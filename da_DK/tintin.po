@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-26 22:44+0200\n"
-"PO-Revision-Date: 2026-10-13 23:26+0000\n"
+"PO-Revision-Date: 2026-10-14 08:14+0000\n"
 "Last-Translator: Hans Henrik Juhl <hans@kopula.dk>\n"
 "Language-Team: Danish <https://translate.repebble.com/projects/pebbleos/"
 "watch/da/>\n"
@@ -739,12 +739,14 @@ msgstr "Spor dine skridt, søvn og mere! Aktivér Pebble Health i mobilappen."
 
 #: fw/apps/system/health/health.c:117
 msgid "Health requires the time to be synced. Please connect your phone."
-msgstr "Health kræver, at tiden bliver synkroniseret. Forbind til din telefon."
+msgstr ""
+"Velvære-funktionen kræver, at tiden bliver synkroniseret. Forbind til din "
+"telefon."
 
 #: fw/apps/system/health/health.c:184 fw/apps/system/settings/health.c:289
 #: fw/services/timeline/timeline.c:943
 msgid "Health"
-msgstr "Health"
+msgstr "Velvære"
 
 #: fw/apps/system/health/hr_detail_card.c:68
 #: fw/services/activity/activity_insights.c:1729
@@ -2176,7 +2178,7 @@ msgstr "Delvis skyet"
 
 #: fw/apps/system/weather/weather.c:103
 msgid "Cloudy"
-msgstr "Skyer"
+msgstr "Skyet"
 
 #: fw/apps/system/weather/weather.c:105
 msgid "Light Rain"
@@ -2846,8 +2848,8 @@ msgstr "Aktivitetsoversigt"
 #: fw/services/activity/activity_insights.c:230
 msgid "Do you feel more energetic, sharper or optimistic? Being active helps!"
 msgstr ""
-"Mere frisk i hovedet og klar på dagen? Det gør en verden til forskel at røre "
-"sig."
+"Mere frisk i hovedet og klar på dagen? Det gør en verden til forskel at få "
+"rørt sig."
 
 #: fw/services/activity/activity_insights.c:231
 msgid "GREAT DAY TODAY"
