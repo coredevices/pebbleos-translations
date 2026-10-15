@@ -1607,7 +1607,7 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: fw/apps/system/settings/speaker_volume_window.c:56
+#: fw/apps/system/settings/speaker_volume_window.c:55
 #: fw/apps/system/settings/vibe_patterns.c:75
 msgid "Volume"
 msgstr ""
@@ -2744,16 +2744,16 @@ msgstr ""
 msgid "While your Pebble was off wakeup events occurred for:\n"
 msgstr ""
 
-#: fw/process_management/app_manager.c:490
+#: fw/process_management/app_manager.c:492
 #, c-format
 msgid "%.*s is not responding"
 msgstr ""
 
-#: fw/process_management/process_manager.c:192
+#: fw/process_management/process_manager.c:193
 msgid "This app requires a newer version of the Pebble firmware."
 msgstr ""
 
-#: fw/process_management/process_manager.c:337
+#: fw/process_management/process_manager.c:338
 msgid "This app uses RockyJS which is no longer supported."
 msgstr ""
 
@@ -3518,43 +3518,43 @@ msgstr ""
 msgid "%e"
 msgstr ""
 
-#: fw/services/clock/service.c:1003
+#: fw/services/clock/service.c:1004
 msgid "this morning"
 msgstr ""
 
-#: fw/services/clock/service.c:1004
+#: fw/services/clock/service.c:1005
 msgid "this afternoon"
 msgstr ""
 
-#: fw/services/clock/service.c:1005
+#: fw/services/clock/service.c:1006
 msgid "this evening"
 msgstr ""
 
-#: fw/services/clock/service.c:1006
+#: fw/services/clock/service.c:1007
 msgid "tonight"
 msgstr ""
 
-#: fw/services/clock/service.c:1007
+#: fw/services/clock/service.c:1008
 msgid "tomorrow morning"
 msgstr ""
 
-#: fw/services/clock/service.c:1008
+#: fw/services/clock/service.c:1009
 msgid "tomorrow afternoon"
 msgstr ""
 
-#: fw/services/clock/service.c:1009
+#: fw/services/clock/service.c:1010
 msgid "tomorrow evening"
 msgstr ""
 
-#: fw/services/clock/service.c:1010
+#: fw/services/clock/service.c:1011
 msgid "tomorrow night"
 msgstr ""
 
-#: fw/services/clock/service.c:1011 fw/services/clock/service.c:1012
+#: fw/services/clock/service.c:1012 fw/services/clock/service.c:1013
 msgid "the day after tomorrow"
 msgstr ""
 
-#: fw/services/clock/service.c:1013
+#: fw/services/clock/service.c:1014
 msgid "the foreseeable future"
 msgstr ""
 
