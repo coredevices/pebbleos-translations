@@ -848,29 +848,29 @@ msgstr ""
 msgid "Music"
 msgstr ""
 
-#: fw/apps/system/notifications.c:407
+#: fw/apps/system/notifications.c:417
 msgid "Done"
 msgstr ""
 
-#: fw/apps/system/notifications.c:433
+#: fw/apps/system/notifications.c:443
 msgid "Clear history?"
 msgstr ""
 
 #. / Notification sender followed by the number of grouped notifications
-#: fw/apps/system/notifications.c:693
+#: fw/apps/system/notifications.c:703
 #, c-format
 msgid "%s (%u)"
 msgstr ""
 
-#: fw/apps/system/notifications.c:732 fw/apps/system/notifications.c:739
+#: fw/apps/system/notifications.c:742 fw/apps/system/notifications.c:749
 msgid "Clear All"
 msgstr ""
 
-#: fw/apps/system/notifications.c:990
+#: fw/apps/system/notifications.c:1000
 msgid "No notifications"
 msgstr ""
 
-#: fw/apps/system/notifications.c:1099
+#: fw/apps/system/notifications.c:1109
 #: fw/apps/system/settings/notifications.c:491
 #: fw/apps/system/settings/quiet_time.c:368
 #: fw/apps/system/settings/quiet_time.c:447
@@ -879,7 +879,7 @@ msgstr ""
 msgid "Notifications"
 msgstr ""
 
-#: fw/apps/system/notifications.c:1113
+#: fw/apps/system/notifications.c:1123
 msgid "Clear Notification History"
 msgstr ""
 
