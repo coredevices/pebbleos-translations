@@ -523,11 +523,11 @@ msgstr ""
 msgid "Enable voice in the settings page of the Pebble app."
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:366
+#: fw/applib/voice/voice_window.c:392
 msgid "Missed that. Try again."
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:1108
+#: fw/applib/voice/voice_window.c:1134
 msgid "Listening"
 msgstr ""
 
