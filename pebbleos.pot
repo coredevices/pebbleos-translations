@@ -3775,15 +3775,15 @@ msgstr ""
 msgid "Wave"
 msgstr ""
 
-#: fw/shell/normal/battery_ui.c:43
+#: fw/shell/normal/battery_ui.c:141
 msgid "Fully Charged"
 msgstr ""
 
-#: fw/shell/normal/battery_ui.c:49
+#: fw/shell/normal/battery_ui.c:148
 msgid "Charging"
 msgstr ""
 
-#: fw/shell/normal/battery_ui.c:64
+#: fw/shell/normal/battery_ui.c:164
 #, c-format
 msgid "Powered 'til %s"
 msgstr ""
