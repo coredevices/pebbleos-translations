@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2026-10-20 23:26+0000\n"
-"Last-Translator: Hans Henrik Juhl <hans@kopula.dk>\n"
+"Last-Translator: fulaapan <fulaapan@pm.me>\n"
 "Language-Team: Swedish <https://translate.repebble.com/projects/pebbleos/"
 "watch/sv/>\n"
 "Language: sv_SE\n"
@@ -497,7 +497,7 @@ msgstr "Kontrollera något först."
 
 #: fw/applib/ui/dialogs/bt_conn_dialog.c:97
 msgid "Check bluetooth connection"
-msgstr "Kontrollera bluetoothanslutningen"
+msgstr "Kontrollera blåtandsanslutningen"
 
 #: fw/applib/ui/time_range_selection_window.c:179
 msgid "Start"
@@ -904,7 +904,7 @@ msgstr "Rensa allt"
 
 #: fw/apps/system/notifications.c:1000
 msgid "No notifications"
-msgstr "Inga notiser"
+msgstr "Inga aviseringar"
 
 #: fw/apps/system/notifications.c:1109
 #: fw/apps/system/settings/notifications.c:491
@@ -913,11 +913,11 @@ msgstr "Inga notiser"
 #: fw/apps/system/settings/vibe_patterns.c:83
 #: fw/services/timeline/timeline.c:913
 msgid "Notifications"
-msgstr "Notiser"
+msgstr "Aviseringar"
 
 #: fw/apps/system/notifications.c:1123
 msgid "Clear Notification History"
-msgstr "Rensa notishistorik"
+msgstr "Rensa aviseringshistorik"
 
 #. / Quick Launch action that makes the button do nothing at all.
 #: fw/apps/system/quick_launch_nothing.c:24
@@ -1039,12 +1039,12 @@ msgstr "Aktiverar..."
 
 #: fw/apps/system/settings/bluetooth.c:634
 msgid "Bluetooth"
-msgstr "Bluetooth"
+msgstr "Blåtand"
 
 #: fw/apps/system/settings/bluetooth.h:38
 msgid ""
 "Remember to also forget your Pebble's Bluetooth connection from your phone."
-msgstr "Komihåg att också radera Pebbles bluetooth-anslutning på din telefon."
+msgstr "Kom ihåg att också radera Pebbles blåtands-anslutning på din telefon."
 
 #: fw/apps/system/settings/display.c:86 fw/apps/system/settings/display.c:709
 #: fw/apps/system/settings/system.c:210
@@ -1354,11 +1354,11 @@ msgstr "Pulsmätning"
 
 #: fw/apps/system/settings/health.c:122 fw/apps/system/settings/health.c:177
 msgid "Blood Oxygen"
-msgstr "Syrenivå i blodet"
+msgstr "Blodsyrenivå"
 
 #: fw/apps/system/settings/health.c:148
 msgid "Health Tracking"
-msgstr "Hälsoövervakning"
+msgstr "Hälsobevakning"
 
 #: fw/apps/system/settings/health.c:153
 msgid "Distance Unit"
@@ -1382,7 +1382,7 @@ msgstr "Kräver pulsmätning vid träning"
 
 #: fw/apps/system/settings/notifications.c:61
 msgid "Allow All Notifications"
-msgstr "Tillåt notiser"
+msgstr "Tillåt aviseringar"
 
 #: fw/apps/system/settings/notifications.c:62
 msgid "Allow Phone Calls Only"
@@ -1390,7 +1390,7 @@ msgstr "Tillåt endast telefonsamtal"
 
 #: fw/apps/system/settings/notifications.c:63
 msgid "Mute All Notifications"
-msgstr "Tysta alla notiser"
+msgstr "Tysta alla aviseringar"
 
 #. / The option in the Settings app for filtering notifications by type.
 #: fw/apps/system/settings/notifications.c:94
@@ -1567,7 +1567,7 @@ msgstr "Öppna favoritappar genom ett långt knapptryck på urtavlan."
 
 #: fw/apps/system/settings/quiet_time.c:91
 msgid "Quiet All Notifications"
-msgstr "Tysta alla notiser"
+msgstr "Tysta alla aviseringar"
 
 #: fw/apps/system/settings/quiet_time.c:94
 msgid "Allow Phone Calls"
@@ -1712,19 +1712,19 @@ msgstr "Core dump and reboot?"
 
 #: fw/apps/system/settings/system.c:442
 msgid "Very Low"
-msgstr "Very Low"
+msgstr "Mycket Låg"
 
 #: fw/apps/system/settings/system.c:443
 msgid "Medium-Low"
-msgstr "Medium-Low"
+msgstr "Medellåg"
 
 #: fw/apps/system/settings/system.c:444
 msgid "Medium-High"
-msgstr "Medium-High"
+msgstr "Medelhög"
 
 #: fw/apps/system/settings/system.c:445
 msgid "Very High"
-msgstr "Very High"
+msgstr "Mycket Hög"
 
 #: fw/apps/system/settings/system.c:470 fw/apps/system/settings/system.c:496
 msgid "Motion Sensitivity"
@@ -1756,7 +1756,7 @@ msgstr "Compact Settings DBs"
 
 #: fw/apps/system/settings/system.c:502
 msgid "SpO2 Test"
-msgstr "SpO2 Test"
+msgstr "SpO2-Test"
 
 #: fw/apps/system/settings/system.c:522
 msgid "10 back-button presses"
@@ -1796,7 +1796,7 @@ msgstr "Ursprungsort"
 
 #: fw/apps/system/settings/system.c:1021
 msgid "DC Input"
-msgstr "DC ingång"
+msgstr "DC-ingång"
 
 #: fw/apps/system/settings/system.c:1028
 msgid "Rated Voltage"
@@ -1943,7 +1943,7 @@ msgstr "Urtavlor utan stöd"
 #: fw/apps/system/settings/timeline.c:186
 #: fw/apps/system/settings/timeline.c:267
 msgid "Quick View"
-msgstr "Snabbtitt"
+msgstr "Snabbvy"
 
 #: fw/apps/system/settings/timeline.c:270
 msgid "Appears on your watchface when an event is about to start."
@@ -2214,7 +2214,7 @@ msgstr "Klart"
 
 #: fw/apps/system/weather/weather.c:101 fw/services/weather/weather_types.c:51
 msgid "Partly Cloudy"
-msgstr "Växlande molnighet"
+msgstr "Halvklart"
 
 #: fw/apps/system/weather/weather.c:103 fw/services/weather/weather_types.c:53
 msgid "Cloudy"
@@ -2786,7 +2786,7 @@ msgstr "Avsluta tyst stund"
 
 #: fw/popups/notifications/notification_window.c:996
 msgid "Start Quiet Time"
-msgstr "Starta Tyst stund"
+msgstr "Starta tyst stund"
 
 #: fw/popups/phone_ui.c:576
 msgid "Call Accepted"
@@ -3699,7 +3699,7 @@ msgstr "Ring upp"
 
 #: fw/services/notifications/ancs/ancs_notifications.c:407
 msgid "iPhone Notifications Blocked"
-msgstr "iPhone notiser blockerade"
+msgstr "iPhone-aviseringar blockerade"
 
 #: fw/services/notifications/ancs/ancs_notifications.c:410
 msgid ""
@@ -3707,9 +3707,9 @@ msgid ""
 "open Settings > Bluetooth, tap the (i) next to your Pebble and turn on Share "
 "System Notifications."
 msgstr ""
-"Din iPhone delar inte notiser med din klocka. På din iPhone, öppna "
-"Inställningar > Bluetooth, i listan tryck på (i) vid din Pebble och aktivera "
-"Dela systemnotiser."
+"Din iPhone delar inte aviseringar med din klocka. På din iPhone, öppna "
+"Inställningar > Blåtand i listan tryck på (i) vid din Pebble och aktivera "
+"Dela systemaviseringar."
 
 #: fw/services/notifications/do_not_disturb.c:112
 msgid "Calendar Aware enables Quiet Time automatically during calendar events."
@@ -3721,8 +3721,8 @@ msgid ""
 "Press and hold the Back button from a notification to turn Quiet Time on or "
 "off."
 msgstr ""
-"Tryck och håll in bakåt-knappen på en notis för att aktivera/inaktivera Tyst "
-"stund."
+"Tryck och håll in bakåt-knappen på en avisering för att aktivera/inaktivera "
+"Tyst stund."
 
 #: fw/services/notifications/do_not_disturb_toggle.c:29
 msgid "Start Quiet Time?"
@@ -3770,7 +3770,7 @@ msgstr "Distributör"
 
 #: fw/services/timeline/timeline.c:695
 msgid "Can't connect. Relaunch Pebble Time app on phone."
-msgstr "Kan inte ansluta. Öppnna Pebble-appen på telefonen."
+msgstr "Kan inte ansluta. Öppna Pebble-appen på telefonen."
 
 #: fw/services/timeline/timeline.c:707
 msgid "Removed"
@@ -3805,8 +3805,8 @@ msgid ""
 "Quickly dismiss all notifications by holding the Select button for 2 seconds "
 "from any incoming notification."
 msgstr ""
-"Rensa alla notiser genom att hålla in mitten-knappen i 2 sekunder på en "
-"notis."
+"Rensa alla aviseringar genom att hålla in mitten-knappen i 2 sekunder på en "
+"aviseringar."
 
 #: fw/services/timeline/timeline_actions.c:809
 msgid "Ok"
