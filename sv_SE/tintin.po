@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2026-10-20 23:26+0000\n"
-"Last-Translator: Martin <martin@norlin.at>\n"
+"Last-Translator: Hans Henrik Juhl <hans@kopula.dk>\n"
 "Language-Team: Swedish <https://translate.repebble.com/projects/pebbleos/"
 "watch/sv/>\n"
 "Language: sv_SE\n"
@@ -195,6 +195,7 @@ msgid "%a %b %e %H:%M:%S %Y"
 msgstr "%a %e %b %H:%M:%S %Y"
 
 #: fw/applib/pbl_std/timelocal.c:58
+#, fuzzy
 msgid "%I:%M:%S %p"
 msgstr "%I:%M:%S %p"
 
