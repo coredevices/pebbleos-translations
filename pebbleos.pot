@@ -460,40 +460,40 @@ msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would go off every
 #. / day. Respect capitalization!
-#: fw/applib/ui/day_picker.c:47 fw/services/alarms/alarm.c:1419
+#: fw/applib/ui/day_picker.c:46 fw/services/alarms/alarm.c:1419
 msgid "Every Day"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / every weekday. Respect capitalization!
-#: fw/applib/ui/day_picker.c:47 fw/apps/system/settings/quiet_time.c:259
+#: fw/applib/ui/day_picker.c:46 fw/apps/system/settings/quiet_time.c:259
 #: fw/services/alarms/alarm.c:1429
 msgid "Weekdays"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / each day on the weekend. Respect capitalization!
-#: fw/applib/ui/day_picker.c:48 fw/apps/system/settings/quiet_time.c:267
+#: fw/applib/ui/day_picker.c:47 fw/apps/system/settings/quiet_time.c:267
 #: fw/services/alarms/alarm.c:1439
 msgid "Weekends"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / on a custom choice of days. Respect capitalization!
-#: fw/applib/ui/day_picker.c:48 fw/apps/system/settings/display.c:41
+#: fw/applib/ui/day_picker.c:47 fw/apps/system/settings/display.c:41
 #: fw/services/alarms/alarm.c:1461
 msgid "Custom"
 msgstr ""
 
-#: fw/applib/ui/day_picker.c:49
+#: fw/applib/ui/day_picker.c:48
 msgid "Just Once"
 msgstr ""
 
-#: fw/applib/ui/day_picker.c:235
+#: fw/applib/ui/day_picker.c:234
 msgid "Check something first."
 msgstr ""
 
-#: fw/applib/ui/dialogs/bt_conn_dialog.c:96
+#: fw/applib/ui/dialogs/bt_conn_dialog.c:97
 msgid "Check bluetooth connection"
 msgstr ""
 
@@ -503,31 +503,31 @@ msgstr ""
 
 #. / Vibrate at the end of notification animation (delayed)
 #: fw/applib/ui/time_range_selection_window.c:183
-#: fw/apps/system/settings/notifications.c:239
+#: fw/apps/system/settings/notifications.c:240
 msgid "End"
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:192
+#: fw/applib/voice/voice_window.c:193
 msgid "Dictation is not available."
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:211
+#: fw/applib/voice/voice_window.c:212
 msgid "Error occurred. Try again."
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:218 fw/apps/system/app_fetch_ui.c:124
+#: fw/applib/voice/voice_window.c:219 fw/apps/system/app_fetch_ui.c:124
 msgid "No internet connection"
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:230
+#: fw/applib/voice/voice_window.c:231
 msgid "Enable voice in the settings page of the Pebble app."
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:392
+#: fw/applib/voice/voice_window.c:393
 msgid "Missed that. Try again."
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:1134
+#: fw/applib/voice/voice_window.c:1135
 msgid "Listening"
 msgstr ""
 
@@ -543,7 +543,7 @@ msgstr ""
 msgid "Resetting..."
 msgstr ""
 
-#: fw/apps/demo/dialogs/dialogs_demo.c:105
+#: fw/apps/demo/dialogs/dialogs_demo.c:104
 msgid "Decline dialog."
 msgstr ""
 
@@ -693,7 +693,7 @@ msgid "Incompatible JS"
 msgstr ""
 
 #: fw/apps/system/app_fetch_ui.c:139
-#: fw/services/timeline/timeline_actions.c:266
+#: fw/services/timeline/timeline_actions.c:267
 msgid "Failed"
 msgstr ""
 
@@ -871,7 +871,7 @@ msgid "No notifications"
 msgstr ""
 
 #: fw/apps/system/notifications.c:1109
-#: fw/apps/system/settings/notifications.c:491
+#: fw/apps/system/settings/notifications.c:492
 #: fw/apps/system/settings/quiet_time.c:368
 #: fw/apps/system/settings/quiet_time.c:447
 #: fw/apps/system/settings/vibe_patterns.c:83
@@ -888,25 +888,25 @@ msgstr ""
 msgid "Nothing"
 msgstr ""
 
-#: fw/apps/system/reminders/reminder.c:55
+#: fw/apps/system/reminders/reminder.c:56
 msgid "Completed"
 msgstr ""
 
-#: fw/apps/system/reminders/reminder.c:59
+#: fw/apps/system/reminders/reminder.c:60
 msgid "Postpone"
 msgstr ""
 
-#: fw/apps/system/reminders/reminder.c:63
+#: fw/apps/system/reminders/reminder.c:64
 #: fw/services/activity/activity_insights.c:442
 #: fw/services/timeline/timeline.c:657
 msgid "Remove"
 msgstr ""
 
-#: fw/apps/system/reminders/reminder.c:113
+#: fw/apps/system/reminders/reminder.c:114
 msgid "Added"
 msgstr ""
 
-#: fw/apps/system/reminders/reminder.c:299
+#: fw/apps/system/reminders/reminder.c:300
 msgid "Reminder"
 msgstr ""
 
@@ -936,7 +936,7 @@ msgstr ""
 
 #. / No Notification Window Timeout
 #: fw/apps/system/settings/activity_tracker.c:164
-#: fw/apps/system/settings/notifications.c:161
+#: fw/apps/system/settings/notifications.c:162
 msgid "None"
 msgstr ""
 
@@ -1009,23 +1009,23 @@ msgid ""
 msgstr ""
 
 #: fw/apps/system/settings/display.c:54 fw/apps/system/settings/display.c:680
-#: fw/apps/system/settings/system.c:209
+#: fw/apps/system/settings/system.c:210
 msgid "Language"
 msgstr ""
 
 #: fw/apps/system/settings/display.c:63
-#: fw/apps/system/settings/notifications.c:108
+#: fw/apps/system/settings/notifications.c:109
 msgid "Smaller"
 msgstr ""
 
 #: fw/apps/system/settings/display.c:64
-#: fw/apps/system/settings/notifications.c:109
+#: fw/apps/system/settings/notifications.c:110
 msgctxt "TextSize"
 msgid "Default"
 msgstr ""
 
 #: fw/apps/system/settings/display.c:65
-#: fw/apps/system/settings/notifications.c:110
+#: fw/apps/system/settings/notifications.c:111
 msgid "Larger"
 msgstr ""
 
@@ -1034,20 +1034,20 @@ msgstr ""
 #. / The option in the Settings app for choosing the text size of notifications.
 #. / String within Settings->Notifications that describes the text font size
 #: fw/apps/system/settings/display.c:78 fw/apps/system/settings/display.c:673
-#: fw/apps/system/settings/notifications.c:134
-#: fw/apps/system/settings/notifications.c:352
+#: fw/apps/system/settings/notifications.c:135
+#: fw/apps/system/settings/notifications.c:353
 msgid "Text Size"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:92 fw/apps/system/settings/system.c:441
+#: fw/apps/system/settings/display.c:92 fw/apps/system/settings/system.c:442
 msgid "Low"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:92 fw/apps/system/settings/system.c:442
+#: fw/apps/system/settings/display.c:92 fw/apps/system/settings/system.c:443
 msgid "Medium"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:92 fw/apps/system/settings/system.c:443
+#: fw/apps/system/settings/display.c:92 fw/apps/system/settings/system.c:444
 msgid "High"
 msgstr ""
 
@@ -1096,8 +1096,8 @@ msgstr ""
 #. / Status bar title for the Notification Window Timeout settings screen
 #. / String within Settings->Notifications that describes the window timeout setting
 #: fw/apps/system/settings/display.c:199 fw/apps/system/settings/display.c:462
-#: fw/apps/system/settings/notifications.c:193
-#: fw/apps/system/settings/notifications.c:357
+#: fw/apps/system/settings/notifications.c:194
+#: fw/apps/system/settings/notifications.c:358
 msgid "Timeout"
 msgstr ""
 
@@ -1166,7 +1166,7 @@ msgstr ""
 #. / String within Settings->Notifications that describes backlight setting
 #: fw/apps/system/settings/display.c:285 fw/apps/system/settings/display.c:407
 #: fw/apps/system/settings/display.c:648
-#: fw/apps/system/settings/notifications.c:377
+#: fw/apps/system/settings/notifications.c:378
 #: fw/apps/system/settings/quiet_time.c:413
 #: fw/apps/system/settings/quiet_time.c:451
 msgid "Backlight"
@@ -1212,13 +1212,13 @@ msgstr ""
 #: fw/apps/system/settings/display.c:662 fw/apps/system/settings/health.c:149
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
 #: fw/apps/system/settings/health.c:194
-#: fw/apps/system/settings/notifications.c:379
+#: fw/apps/system/settings/notifications.c:380
 #: fw/apps/system/settings/quiet_time.c:359
 #: fw/apps/system/settings/quiet_time.c:364
 #: fw/apps/system/settings/quiet_time.c:370
 #: fw/apps/system/settings/quiet_time.c:437
 #: fw/apps/system/settings/quiet_time.c:457
-#: fw/apps/system/settings/system.c:1294 fw/apps/system/settings/timeline.c:189
+#: fw/apps/system/settings/system.c:1295 fw/apps/system/settings/timeline.c:190
 #: fw/apps/system/settings/vibe_patterns.c:69
 msgid "On"
 msgstr ""
@@ -1228,14 +1228,14 @@ msgstr ""
 #: fw/apps/system/settings/display.c:662 fw/apps/system/settings/health.c:149
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
 #: fw/apps/system/settings/health.c:195
-#: fw/apps/system/settings/notifications.c:379
+#: fw/apps/system/settings/notifications.c:380
 #: fw/apps/system/settings/quiet_time.c:321
 #: fw/apps/system/settings/quiet_time.c:359
 #: fw/apps/system/settings/quiet_time.c:364
 #: fw/apps/system/settings/quiet_time.c:370
 #: fw/apps/system/settings/quiet_time.c:437
 #: fw/apps/system/settings/quiet_time.c:457
-#: fw/apps/system/settings/system.c:1294 fw/apps/system/settings/timeline.c:192
+#: fw/apps/system/settings/system.c:1295 fw/apps/system/settings/timeline.c:193
 #: fw/apps/system/settings/vibe_patterns.c:69
 msgid "Off"
 msgstr ""
@@ -1292,7 +1292,7 @@ msgstr ""
 
 #. / 10 Minute Notification Window Timeout
 #: fw/apps/system/settings/health.c:35 fw/apps/system/settings/health.c:56
-#: fw/apps/system/settings/notifications.c:159
+#: fw/apps/system/settings/notifications.c:160
 msgid "10 Minutes"
 msgstr ""
 
@@ -1305,8 +1305,8 @@ msgid "1 Hour"
 msgstr ""
 
 #: fw/apps/system/settings/health.c:36 fw/apps/system/settings/health.c:59
-#: fw/apps/system/settings/system.c:522 fw/apps/system/settings/system.c:538
-#: fw/apps/system/settings/system.c:541
+#: fw/apps/system/settings/system.c:523 fw/apps/system/settings/system.c:539
+#: fw/apps/system/settings/system.c:542
 msgid "Disabled"
 msgstr ""
 
@@ -1342,125 +1342,125 @@ msgstr ""
 msgid "Needs HR During Activity"
 msgstr ""
 
-#: fw/apps/system/settings/notifications.c:60
+#: fw/apps/system/settings/notifications.c:61
 msgid "Allow All Notifications"
 msgstr ""
 
-#: fw/apps/system/settings/notifications.c:61
+#: fw/apps/system/settings/notifications.c:62
 msgid "Allow Phone Calls Only"
 msgstr ""
 
-#: fw/apps/system/settings/notifications.c:62
+#: fw/apps/system/settings/notifications.c:63
 msgid "Mute All Notifications"
 msgstr ""
 
 #. / The option in the Settings app for filtering notifications by type.
-#: fw/apps/system/settings/notifications.c:94
-#: fw/apps/system/settings/notifications.c:347
+#: fw/apps/system/settings/notifications.c:95
+#: fw/apps/system/settings/notifications.c:348
 msgid "Filter"
 msgstr ""
 
 #. / Notification text size option that follows the system Text Size setting
-#: fw/apps/system/settings/notifications.c:112
+#: fw/apps/system/settings/notifications.c:113
 msgid "Same as System"
 msgstr ""
 
 #. / 15 Second Notification Window Timeout
-#: fw/apps/system/settings/notifications.c:151
+#: fw/apps/system/settings/notifications.c:152
 msgid "15 Seconds"
 msgstr ""
 
 #. / 30 Second Notification Window Timeout
-#: fw/apps/system/settings/notifications.c:153
+#: fw/apps/system/settings/notifications.c:154
 msgid "30 Seconds"
 msgstr ""
 
 #. / 1 Minute Notification Window Timeout
-#: fw/apps/system/settings/notifications.c:155
+#: fw/apps/system/settings/notifications.c:156
 msgid "1 Minute"
 msgstr ""
 
 #. / 3 Minute Notification Window Timeout
-#: fw/apps/system/settings/notifications.c:157
+#: fw/apps/system/settings/notifications.c:158
 msgid "3 Minutes"
 msgstr ""
 
 #. / Standard notification design option (default)
-#: fw/apps/system/settings/notifications.c:205
+#: fw/apps/system/settings/notifications.c:206
 msgid "Classic"
 msgstr ""
 
 #. / Alternative notification design option
-#: fw/apps/system/settings/notifications.c:207
+#: fw/apps/system/settings/notifications.c:208
 msgid "Flat Black"
 msgstr ""
 
 #. / Status bar title for the Notification Design Style settings screen
 #. / String within Settings->Notifications that describes the notification design style
-#: fw/apps/system/settings/notifications.c:225
-#: fw/apps/system/settings/notifications.c:364
+#: fw/apps/system/settings/notifications.c:226
+#: fw/apps/system/settings/notifications.c:365
 msgid "Banner Style"
 msgstr ""
 
 #. / Vibrate at the beginning of notification animation (immediate)
-#: fw/apps/system/settings/notifications.c:237
+#: fw/apps/system/settings/notifications.c:238
 msgid "Beginning"
 msgstr ""
 
 #. / Status bar title for the Notification Vibe Timing settings screen
 #. / String within Settings->Notifications that describes when vibration happens
-#: fw/apps/system/settings/notifications.c:257
-#: fw/apps/system/settings/notifications.c:371
+#: fw/apps/system/settings/notifications.c:258
+#: fw/apps/system/settings/notifications.c:372
 msgid "Vibe Timing"
 msgstr ""
 
-#: fw/apps/system/settings/notifications.c:267
+#: fw/apps/system/settings/notifications.c:268
 msgctxt "StatusBar"
 msgid "Default"
 msgstr ""
 
-#: fw/apps/system/settings/notifications.c:268
+#: fw/apps/system/settings/notifications.c:269
 msgid "Bold"
 msgstr ""
 
-#: fw/apps/system/settings/notifications.c:269
+#: fw/apps/system/settings/notifications.c:270
 msgid "Big & Bold"
 msgstr ""
 
 #. / Status bar title for the Notification Status Bar Style settings screen
-#: fw/apps/system/settings/notifications.c:291
+#: fw/apps/system/settings/notifications.c:292
 msgid "Clock Style"
 msgstr ""
 
 #. / Disable notification grouping
-#: fw/apps/system/settings/notifications.c:302
+#: fw/apps/system/settings/notifications.c:303
 msgid "Never"
 msgstr ""
 
 #. / Group notifications received within one day
-#: fw/apps/system/settings/notifications.c:304
+#: fw/apps/system/settings/notifications.c:305
 msgid "1 Day"
 msgstr ""
 
 #. / Group notifications received within one week
-#: fw/apps/system/settings/notifications.c:306
+#: fw/apps/system/settings/notifications.c:307
 msgid "1 Week"
 msgstr ""
 
 #. / Group all notifications
-#: fw/apps/system/settings/notifications.c:308
+#: fw/apps/system/settings/notifications.c:309
 msgid "All"
 msgstr ""
 
 #. / Title for the notification sender grouping settings screen
 #. / Notification settings item for grouping notifications by sender
-#: fw/apps/system/settings/notifications.c:325
-#: fw/apps/system/settings/notifications.c:384
+#: fw/apps/system/settings/notifications.c:326
+#: fw/apps/system/settings/notifications.c:385
 msgid "Group by Sender"
 msgstr ""
 
 #. / String within Settings->Notifications that selects the notification status bar style
-#: fw/apps/system/settings/notifications.c:391
+#: fw/apps/system/settings/notifications.c:392
 msgid "Status Bar"
 msgstr ""
 
@@ -1612,194 +1612,194 @@ msgstr ""
 msgid "Volume"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:161 fw/apps/system/settings/system.c:256
+#: fw/apps/system/settings/system.c:162 fw/apps/system/settings/system.c:257
 msgid "Information"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:162 fw/apps/system/settings/system.c:962
+#: fw/apps/system/settings/system.c:163 fw/apps/system/settings/system.c:963
 msgid "Certification"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:163
+#: fw/apps/system/settings/system.c:164
 msgid "Stand-By Mode"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:164 fw/apps/system/settings/system.c:604
+#: fw/apps/system/settings/system.c:165 fw/apps/system/settings/system.c:605
 msgid "Debugging"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:165
+#: fw/apps/system/settings/system.c:166
 msgid "Shut Down"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:166
+#: fw/apps/system/settings/system.c:167
 msgid "Factory Reset"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:207
+#: fw/apps/system/settings/system.c:208
 msgid "BT Address"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:208
+#: fw/apps/system/settings/system.c:209
 msgid "Firmware"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:210
+#: fw/apps/system/settings/system.c:211
 msgid "Recovery"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:211
+#: fw/apps/system/settings/system.c:212
 msgid "Bootloader"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:212
+#: fw/apps/system/settings/system.c:213
 msgid "Hardware"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:213
+#: fw/apps/system/settings/system.c:214
 msgid "Serial"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:214
+#: fw/apps/system/settings/system.c:215
 msgid "Uptime"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:215
+#: fw/apps/system/settings/system.c:216
 msgid "Legal"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:354
+#: fw/apps/system/settings/system.c:355
 msgid "Core dump and reboot?"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:441
+#: fw/apps/system/settings/system.c:442
 msgid "Very Low"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:442
+#: fw/apps/system/settings/system.c:443
 msgid "Medium-Low"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:443
+#: fw/apps/system/settings/system.c:444
 msgid "Medium-High"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:444
+#: fw/apps/system/settings/system.c:445
 msgid "Very High"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:469 fw/apps/system/settings/system.c:495
+#: fw/apps/system/settings/system.c:470 fw/apps/system/settings/system.c:496
 msgid "Motion Sensitivity"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:491
+#: fw/apps/system/settings/system.c:492
 msgid "CoreDump now"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:492
+#: fw/apps/system/settings/system.c:493
 msgid "CoreDump shortcut"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:493
+#: fw/apps/system/settings/system.c:494
 msgid "ALS Threshold"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:497
+#: fw/apps/system/settings/system.c:498
 msgid "Shake Log Info"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:498
+#: fw/apps/system/settings/system.c:499
 msgid "Vibe Log Info"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:499
+#: fw/apps/system/settings/system.c:500
 msgid "Compact Settings DBs"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:501
+#: fw/apps/system/settings/system.c:502
 msgid "SpO2 Test"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:521
+#: fw/apps/system/settings/system.c:522
 msgid "10 back-button presses"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:537 fw/apps/system/settings/system.c:540
+#: fw/apps/system/settings/system.c:538 fw/apps/system/settings/system.c:541
 msgid "Enabled"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:681
+#: fw/apps/system/settings/system.c:682
 msgid "PebbleOS developers only!"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:926
+#: fw/apps/system/settings/system.c:927
 msgid "See details..."
 msgstr ""
 
-#: fw/apps/system/settings/system.c:984
+#: fw/apps/system/settings/system.c:985
 msgid "Company"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:992
+#: fw/apps/system/settings/system.c:993
 msgid "Product Model"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:999
+#: fw/apps/system/settings/system.c:1000
 msgid "Product Type"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1006
+#: fw/apps/system/settings/system.c:1007
 msgid "Trademark"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1013
+#: fw/apps/system/settings/system.c:1014
 msgid "Place of Origin"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1020
+#: fw/apps/system/settings/system.c:1021
 msgid "DC Input"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1027
+#: fw/apps/system/settings/system.c:1028
 msgid "Rated Voltage"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1034
+#: fw/apps/system/settings/system.c:1035
 msgid "Milliampere-hour"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1041
+#: fw/apps/system/settings/system.c:1042
 msgid "Watt-hour"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1055
+#: fw/apps/system/settings/system.c:1056
 msgid "Canada IC"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1062
+#: fw/apps/system/settings/system.c:1063
 msgid "Canada ISED"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1076 fw/apps/system/settings/system.c:1186
+#: fw/apps/system/settings/system.c:1077 fw/apps/system/settings/system.c:1187
 msgid "South Korea KCC"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1274
+#: fw/apps/system/settings/system.c:1275
 msgid "Do you want to shut down?"
 msgstr ""
 
 #. / Refers to the class of all non-score vibes, e.g. 3rd party app vibes
-#: fw/apps/system/settings/system.c:1361
+#: fw/apps/system/settings/system.c:1362
 #: fw/apps/system/settings/vibe_patterns.c:109
 msgid "System"
 msgstr ""
 
-#: fw/apps/system/settings/themes.c:100
+#: fw/apps/system/settings/themes.c:101
 msgid "Accent Color"
 msgstr ""
 
 #. / Title of the Themes Settings submenu in Settings
-#: fw/apps/system/settings/themes.c:149
+#: fw/apps/system/settings/themes.c:150
 msgid "Themes"
 msgstr ""
 
@@ -1846,73 +1846,73 @@ msgid "Date & Time"
 msgstr ""
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
-#: fw/apps/system/settings/timeline.c:70
+#: fw/apps/system/settings/timeline.c:71
 msgid "Start Time"
 msgstr ""
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
-#: fw/apps/system/settings/timeline.c:72
+#: fw/apps/system/settings/timeline.c:73
 msgid "5 Min Before"
 msgstr ""
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
-#: fw/apps/system/settings/timeline.c:74
+#: fw/apps/system/settings/timeline.c:75
 msgid "10 Min Before"
 msgstr ""
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
-#: fw/apps/system/settings/timeline.c:76
+#: fw/apps/system/settings/timeline.c:77
 msgid "15 Min Before"
 msgstr ""
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
-#: fw/apps/system/settings/timeline.c:78
+#: fw/apps/system/settings/timeline.c:79
 msgid "30 Min Before"
 msgstr ""
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
-#: fw/apps/system/settings/timeline.c:88
+#: fw/apps/system/settings/timeline.c:89
 msgid "Overlay"
 msgstr ""
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
-#: fw/apps/system/settings/timeline.c:90
+#: fw/apps/system/settings/timeline.c:91
 msgid "Shift up"
 msgstr ""
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
-#: fw/apps/system/settings/timeline.c:92
+#: fw/apps/system/settings/timeline.c:93
 msgid "Squish up"
 msgstr ""
 
 #. / Shows up in the Timeline settings as the title for the "Timing" submenu window.
 #. / Shows up in the Timeline settings as the title for the menu item that controls the
 #. / timing for when to begin showing the peek for an event.
-#: fw/apps/system/settings/timeline.c:125
-#: fw/apps/system/settings/timeline.c:197
+#: fw/apps/system/settings/timeline.c:126
+#: fw/apps/system/settings/timeline.c:198
 msgid "Timing"
 msgstr ""
 
 #. / Shows up in the Timeline settings as the title for unsupported watchface behavior.
 #. / Shows up in the Timeline settings for watchfaces that do not support Quick View.
-#: fw/apps/system/settings/timeline.c:154
-#: fw/apps/system/settings/timeline.c:204
+#: fw/apps/system/settings/timeline.c:155
+#: fw/apps/system/settings/timeline.c:205
 msgid "Unsupported Faces"
 msgstr ""
 
 #. / Shows up in the Timeline settings as a toggle-able "Quick View" item.
 #. / Title for the Timeline Quick View first use dialog.
-#: fw/apps/system/settings/timeline.c:185
-#: fw/apps/system/settings/timeline.c:266
+#: fw/apps/system/settings/timeline.c:186
+#: fw/apps/system/settings/timeline.c:267
 msgid "Quick View"
 msgstr ""
 
-#: fw/apps/system/settings/timeline.c:269
+#: fw/apps/system/settings/timeline.c:270
 msgid "Appears on your watchface when an event is about to start."
 msgstr ""
 
-#: fw/apps/system/settings/timeline.c:295
-#: fw/apps/system/timeline/timeline.c:1313
+#: fw/apps/system/settings/timeline.c:296
+#: fw/apps/system/timeline/timeline.c:1314
 msgid "Timeline"
 msgstr ""
 
@@ -1936,17 +1936,17 @@ msgstr ""
 msgid "Vibrations"
 msgstr ""
 
-#: fw/apps/system/timeline/timeline.c:908
+#: fw/apps/system/timeline/timeline.c:909
 msgid "No events"
 msgstr ""
 
-#: fw/apps/system/timeline/timeline.c:1285
+#: fw/apps/system/timeline/timeline.c:1286
 msgid "Timeline Future"
 msgstr ""
 
 #. / The title of Timeline Past in Quick Launch. If the translation is too long, cut out
 #. / Timeline and only translate "Past".
-#: fw/apps/system/timeline/timeline.c:1300
+#: fw/apps/system/timeline/timeline.c:1301
 msgid "Timeline Past"
 msgstr ""
 
@@ -2195,7 +2195,7 @@ msgid "Rain & Snow"
 msgstr ""
 
 #: fw/apps/system/weather/weather.c:139 fw/services/clock/service.c:723
-#: fw/services/timeline/timeline_actions.c:1062
+#: fw/services/timeline/timeline_actions.c:1063
 msgid "Tomorrow"
 msgstr ""
 
@@ -2646,7 +2646,7 @@ msgstr ""
 msgid "Heart Rate Not Shared"
 msgstr ""
 
-#: fw/popups/bluetooth_pairing_ui.c:226
+#: fw/popups/bluetooth_pairing_ui.c:228
 msgid "Pair?"
 msgstr ""
 
@@ -2744,16 +2744,16 @@ msgstr ""
 msgid "While your Pebble was off wakeup events occurred for:\n"
 msgstr ""
 
-#: fw/process_management/app_manager.c:491
+#: fw/process_management/app_manager.c:493
 #, c-format
 msgid "%.*s is not responding"
 msgstr ""
 
-#: fw/process_management/process_manager.c:193
+#: fw/process_management/process_manager.c:194
 msgid "This app requires a newer version of the Pebble firmware."
 msgstr ""
 
-#: fw/process_management/process_manager.c:338
+#: fw/process_management/process_manager.c:339
 msgid "This app uses RockyJS which is no longer supported."
 msgstr ""
 
@@ -3577,11 +3577,11 @@ msgid ""
 "System Notifications."
 msgstr ""
 
-#: fw/services/notifications/do_not_disturb.c:113
+#: fw/services/notifications/do_not_disturb.c:112
 msgid "Calendar Aware enables Quiet Time automatically during calendar events."
 msgstr ""
 
-#: fw/services/notifications/do_not_disturb.c:121
+#: fw/services/notifications/do_not_disturb.c:120
 msgid ""
 "Press and hold the Back button from a notification to turn Quiet Time on or "
 "off."
@@ -3659,53 +3659,53 @@ msgstr ""
 msgid "Intercom"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:719
+#: fw/services/timeline/timeline_actions.c:720
 msgid ""
 "Quickly dismiss all notifications by holding the Select button for 2 seconds "
 "from any incoming notification."
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:807
+#: fw/services/timeline/timeline_actions.c:808
 msgid "Ok"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:808
+#: fw/services/timeline/timeline_actions.c:809
 msgid "Yes"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:809
+#: fw/services/timeline/timeline_actions.c:810
 msgid "No"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:810
+#: fw/services/timeline/timeline_actions.c:811
 msgid "Call me"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:811
+#: fw/services/timeline/timeline_actions.c:812
 msgid "Call you later"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:936
+#: fw/services/timeline/timeline_actions.c:937
 msgid "Reply with Voice"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:936
+#: fw/services/timeline/timeline_actions.c:937
 msgid "Voice"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:946
+#: fw/services/timeline/timeline_actions.c:947
 msgid "Canned messages"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:950
+#: fw/services/timeline/timeline_actions.c:951
 msgid "Emoji"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:1054
+#: fw/services/timeline/timeline_actions.c:1055
 msgid "In 15 minutes"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:1058
+#: fw/services/timeline/timeline_actions.c:1059
 msgid "Later today"
 msgstr ""
 
