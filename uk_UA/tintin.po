@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2026-11-07 21:07+0000\n"
-"Last-Translator: Denys Vasylenko <dinja.ostrovskiy@gmail.com>\n"
+"Last-Translator: osikovsky8 <osikovsky8@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.repebble.com/projects/pebbleos/"
 "watch/uk/>\n"
 "Language: uk_UA\n"
@@ -726,9 +726,8 @@ msgstr "км"
 
 #: fw/apps/system/health/activity_detail_card.c:59
 #: fw/apps/system/health/sleep_detail_card.c:67
-#, fuzzy
 msgid "30 DAY AVG"
-msgstr "СЕР. ЗА 30 ДН."
+msgstr "30 ДН СЕРЕДН"
 
 #: fw/apps/system/health/activity_detail_card.c:86
 msgid "CALORIES"
@@ -1716,9 +1715,8 @@ msgid "Quiet Time"
 msgstr "Режим тиші"
 
 #: fw/apps/system/settings/remote.c:55
-#, fuzzy
 msgid "You're all set"
-msgstr "Готово!"
+msgstr "Готово"
 
 #: fw/apps/system/settings/remote.c:124
 #, fuzzy
@@ -1921,14 +1919,12 @@ msgid "Canada IC"
 msgstr "Canada IC"
 
 #: fw/apps/system/settings/system.c:1063
-#, fuzzy
 msgid "Canada ISED"
-msgstr "Canada ISED"
+msgstr "ISED Канади"
 
 #: fw/apps/system/settings/system.c:1077 fw/apps/system/settings/system.c:1185
-#, fuzzy
 msgid "South Korea KCC"
-msgstr "South Korea KCC"
+msgstr "KCC Кореї"
 
 #: fw/apps/system/settings/system.c:1256
 msgid "Disconnect the charger to shut down."
@@ -2156,14 +2152,12 @@ msgid "Turn Off Backlight?"
 msgstr "Вимкнути Підсвічення?"
 
 #: fw/apps/system/toggle/backlight_state.c:29
-#, fuzzy
 msgid "Backlight On"
-msgstr "Підсвічення ввім."
+msgstr "Підсвічування Увім"
 
 #: fw/apps/system/toggle/backlight_state.c:30
-#, fuzzy
 msgid "Backlight Off"
-msgstr "Підсвічення вим."
+msgstr "Підсвічування Вим"
 
 #. / The Quick Launch action that toggles the backlight.
 #: fw/apps/system/toggle/backlight_state.c:54
@@ -2179,22 +2173,20 @@ msgid "Turn Off Motion Backlight?"
 msgstr "Вимкнути Підсвічення рухом?"
 
 #: fw/apps/system/toggle/motion_backlight.c:26
-#, fuzzy
 msgid ""
 "Motion\n"
 "Backlight On"
 msgstr ""
 "Підсвічення\n"
-"рухом ввім."
+"Рухом Увім"
 
 #: fw/apps/system/toggle/motion_backlight.c:27
-#, fuzzy
 msgid ""
 "Motion\n"
 "Backlight Off"
 msgstr ""
 "Підсвічення\n"
-"рухом вим."
+"Рухом Вим"
 
 #. / The Quick Launch action that toggles the motion backlight.
 #: fw/apps/system/toggle/motion_backlight.c:51
@@ -2217,11 +2209,11 @@ msgstr "Вимкнути Дотики?"
 
 #: fw/apps/system/toggle/touch.c:26
 msgid "Touch On"
-msgstr "Дотики ввім."
+msgstr "Дотики Увім"
 
 #: fw/apps/system/toggle/touch.c:27
 msgid "Touch Off"
-msgstr "Дотики вим."
+msgstr "Дотики Вим"
 
 #. / The Quick Launch action that turns the touchscreen on or off.
 #: fw/apps/system/toggle/touch.c:51
@@ -2909,7 +2901,7 @@ msgstr ""
 #: fw/apps/watch/kickstart/kickstart.c:365
 #, c-format
 msgid "%d BPM"
-msgstr "%d уд./хв."
+msgstr "%d уд/хв"
 
 #. / Step count greater than 1000 with a thousands separator
 #: fw/apps/watch/kickstart/kickstart.c:475
@@ -3201,15 +3193,13 @@ msgstr "Відкрити застосунок"
 
 #: fw/services/activity/activity_insights.c:554
 #: fw/services/activity/activity_insights.c:560
-#, fuzzy
 msgid "BELOW AVG"
-msgstr "НИЖЧЕ СЕР."
+msgstr "НИЖЧЕ СЕРЕДН"
 
 #: fw/services/activity/activity_insights.c:554
 #: fw/services/activity/activity_insights.c:560
-#, fuzzy
 msgid "Below avg"
-msgstr "Нижче сер."
+msgstr "Нижче середн"
 
 #: fw/services/activity/activity_insights.c:566
 #, fuzzy
@@ -3222,14 +3212,12 @@ msgid "On avg"
 msgstr "Середнє"
 
 #: fw/services/activity/activity_insights.c:571
-#, fuzzy
 msgid "ABOVE AVG"
-msgstr "ВИЩЕ СЕР."
+msgstr "ВИЩЕ СЕРЕДН"
 
 #: fw/services/activity/activity_insights.c:571
-#, fuzzy
 msgid "Above avg"
-msgstr "Вище сер."
+msgstr "Вище середн"
 
 #: fw/services/activity/activity_insights.c:853
 msgid "%H:%M"
@@ -3259,9 +3247,8 @@ msgstr ""
 "цьому найкраще."
 
 #: fw/services/activity/activity_insights.c:945
-#, fuzzy
 msgid "Nap Time"
-msgstr "Час дрімоти"
+msgstr "Денний сон"
 
 #: fw/services/activity/activity_insights.c:953
 #, c-format
@@ -3340,13 +3327,13 @@ msgstr ""
 "більше, ніж зазвичай. Ви просто 🔥"
 
 #: fw/services/activity/activity_insights.c:1370
-#, c-format, fuzzy
+#, c-format
 msgid ""
 "You walked %d steps today which is %d%% above your typical. You just "
 "outstepped YOURSELF. Mic drop."
 msgstr ""
 "Сьогодні ви пройшли %d кроків, що на %d%% більше, ніж зазвичай. Ви "
-"перевершили СЕБЕ! Оце так!"
+"перевершили СЕБЕ. Оце так."
 
 #: fw/services/activity/activity_insights.c:1379
 #, c-format
