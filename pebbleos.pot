@@ -730,7 +730,7 @@ msgstr ""
 msgid "TOTAL"
 msgstr ""
 
-#: fw/apps/system/health/detail_card.c:540 fw/apps/system/weather/weather.c:137
+#: fw/apps/system/health/detail_card.c:644 fw/apps/system/weather/weather.c:137
 #: fw/services/clock/service.c:534 fw/services/clock/service.c:719
 msgid "Today"
 msgstr ""
@@ -768,32 +768,55 @@ msgstr ""
 msgid "Health"
 msgstr ""
 
-#: fw/apps/system/health/hr_detail_card.c:68
+#: fw/apps/system/health/hr_chart.c:112
+msgid "%k"
+msgstr ""
+
+#: fw/apps/system/health/hr_chart.c:112
+msgid "%l%p"
+msgstr ""
+
+#: fw/apps/system/health/hr_chart.c:112
+msgid "%l"
+msgstr ""
+
+#. / Range of heart rate readings, e.g. "52–104 BPM"
+#: fw/apps/system/health/hr_detail_card.c:44
+#, c-format
+msgid "%d–%d BPM"
+msgstr ""
+
+#: fw/apps/system/health/hr_detail_card.c:89
 #: fw/services/activity/activity_insights.c:1729
 msgid "Fat Burn"
 msgstr ""
 
-#: fw/apps/system/health/hr_detail_card.c:71
+#: fw/apps/system/health/hr_detail_card.c:92
 #: fw/services/activity/activity_insights.c:1736
 msgid "Endurance"
 msgstr ""
 
-#: fw/apps/system/health/hr_detail_card.c:74
+#: fw/apps/system/health/hr_detail_card.c:95
 #: fw/services/activity/activity_insights.c:1743
 msgid "Performance"
 msgstr ""
 
-#. / Resting HR
-#: fw/apps/system/health/hr_detail_card.c:80
+#. / Heading above a chart of today's heart rate and its lowest to highest reading
+#: fw/apps/system/health/hr_detail_card.c:102
+msgid "TODAY'S RANGE"
+msgstr ""
+
+#. / Heading above the time spent in each heart rate zone today
+#: fw/apps/system/health/hr_detail_card.c:114
 msgid "TIME IN ZONES"
 msgstr ""
 
-#: fw/apps/system/health/hr_summary_card.c:113
+#: fw/apps/system/health/hr_summary_card.c:114
 msgid "BPM"
 msgstr ""
 
 #. / HRM disabled
-#: fw/apps/system/health/hr_summary_card.c:158
+#: fw/apps/system/health/hr_summary_card.c:159
 msgid "Enable heart rate monitoring in the mobile app"
 msgstr ""
 
