@@ -38,6 +38,11 @@ def uses_emoji_font(cp):
     )
 
 
+def requires_font_glyph(cp):
+    # codepoint_is_formatting_indicator() skips these presentation selectors.
+    return not uses_emoji_font(cp) and cp not in {0xFE0E, 0xFE0F}
+
+
 def generate_codepoint_requirements(
     path, encoding="utf-8", controlchars=False, language=None
 ):
@@ -56,7 +61,7 @@ def generate_codepoint_requirements(
         "codepoints": sorted(
             cp
             for cp in with_shaping_forms(codepoints)
-            if not uses_emoji_font(cp)
+            if requires_font_glyph(cp)
             and (chr(cp).isprintable() or (cp < 0x20 and controlchars))
         ),
     }

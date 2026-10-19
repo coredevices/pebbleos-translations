@@ -415,6 +415,46 @@ class ReleaseTest(unittest.TestCase):
         _, _, changed = self.build(first)
         self.assertFalse(changed)
 
+    def test_approved_hyphens_and_emoji_selectors_publish_with_builtin_fonts(self):
+        (self.locale / "lang_map.json").write_text(
+            json.dumps(commands.new_map("fr_FR"))
+        )
+        self.evidence["fontApproval"] = None
+        self.catalog[0].msgstr = "Cette marche n’a‑t‑elle pas fait du bien? ❤\ufe0e"
+        self.template.append(
+            polib.POEntry(msgid="One‑item", msgid_plural="Many‑items", msgctxt="count")
+        )
+        self.catalog.append(
+            polib.POEntry(
+                msgid="One‑item",
+                msgid_plural="Many‑items",
+                msgctxt="count",
+                msgstr_plural={0: "Un‑élément", 1: "Des‑éléments"},
+            )
+        )
+        self.template.save(str(self.root / "pebbleos.pot"))
+        self.catalog.save(str(self.locale / "tintin.po"))
+        original = (self.locale / "tintin.po").read_bytes()
+        self.commit()
+        directory, manifest, changed = self.build()
+        self.assertTrue(changed)
+        self.assertEqual(manifest["languages"][0]["translatedStrings"], 2)
+        pack = (directory / "fr_FR.pbl").read_bytes()
+        mo = gettext.GNUTranslations(io.BytesIO(unpack(pack)[0]))
+        self.assertEqual(
+            mo.gettext("Hello"), "Cette marche n’a-t-elle pas fait du bien? ❤\ufe0e"
+        )
+        self.assertEqual(
+            mo.npgettext("count", "One‑item", "Many‑items", 1), "Un-élément"
+        )
+        self.assertEqual(
+            mo.npgettext("count", "One‑item", "Many‑items", 2), "Des-éléments"
+        )
+        self.assertEqual((self.locale / "tintin.po").read_bytes(), original)
+        self.assertIn("‑", self.catalog[0].msgstr)
+        status = json.loads((directory / "readiness.json").read_text())["languages"][0]
+        self.assertEqual(status["status"], "ready")
+
     def test_custom_font_detection_uses_git_mapping_not_api_claim(self):
         self.evidence["customFonts"] = False
         self.evidence["fontApproval"] = None

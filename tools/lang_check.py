@@ -18,7 +18,7 @@ if __package__:
     from .extract_builtin_coverage import pbf_codepoints
     from .generate_codepoint_requirements import (
         generate_codepoint_requirements,
-        uses_emoji_font,
+        requires_font_glyph,
     )
     from .pack_format import FONT_SLOTS, SPECIALIZED_FONT_SLOTS, serialize
 else:
@@ -26,7 +26,7 @@ else:
     from extract_builtin_coverage import pbf_codepoints
     from generate_codepoint_requirements import (
         generate_codepoint_requirements,
-        uses_emoji_font,
+        requires_font_glyph,
     )
     from pack_format import FONT_SLOTS, SPECIALIZED_FONT_SLOTS, serialize
 
@@ -115,6 +115,21 @@ def check_lang(lang):
                     "needs_review": fuzzy,
                     "untranslated": len(active) - translated - fuzzy,
                 }
+                builtin_fonts = not any(
+                    entry["file"]
+                    for entry in commands.resolve_font_entries(resource_map).values()
+                )
+                if builtin_fonts and any(
+                    "\u2011" in text for _, text in translated_texts(catalog)
+                ):
+                    issue(
+                        "warning",
+                        "font_character_fallback",
+                        "Built-in fonts render nonbreaking hyphens (U+2011) as ordinary hyphens (-).",
+                    )
+                catalog = commands.firmware_catalog(
+                    catalog, locale=lang, builtin_fonts=builtin_fonts
+                )
                 for entry, text in translated_texts(catalog):
                     for character in text:
                         if character.isprintable():
@@ -137,16 +152,15 @@ def check_lang(lang):
                 # Validate the original syntax before polib rewrites the headers.
                 warnings = commands.compile_catalog(po, mo)
                 compilation_source = temp / "firmware.po"
-                commands.firmware_catalog(catalog, locale=lang).save(
-                    str(compilation_source)
-                )
+                catalog.save(str(compilation_source))
                 commands.compile_catalog(compilation_source, mo)
                 if warnings:
                     issue("warning", "catalog_warning", warnings)
                 resources["STRINGS"] = mo.read_bytes()
                 codepoints = temp / "codepoints.json"
                 requirements = generate_codepoint_requirements(
-                    po, language=resource_map["strings"].get("lang") or lang
+                    compilation_source,
+                    language=resource_map["strings"].get("lang") or lang,
                 )
                 report["character_requirements"] = {
                     "language": requirements["language"],
@@ -220,7 +234,7 @@ def check_lang(lang):
                     for cp in sorted(codepoints)
                 ]
 
-            required = {cp for cp in examples if not uses_emoji_font(cp)}
+            required = {cp for cp in examples if requires_font_glyph(cp)}
             specialized = slot in SPECIALIZED_FONT_SLOTS
             if specialized:
                 # No catalog-to-screen mapping exists for these digit/unit styles.

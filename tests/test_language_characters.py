@@ -42,3 +42,11 @@ class LanguageCharactersTest(unittest.TestCase):
         result = self.requirements("xx-Unknown", "Ä")
         self.assertIsNone(result["baseline_locale"])
         self.assertIn(ord("Ä"), result["codepoints"])
+
+    def test_emoji_presentation_selectors_do_not_require_glyphs(self):
+        result = set(self.requirements("fr", "❤\ufe0e❤\ufe0f漢\ufe0d")["codepoints"])
+        self.assertNotIn(0xFE0E, result)
+        self.assertNotIn(0xFE0F, result)
+        self.assertIn(ord("漢"), result)
+        # Other combining marks are not silently waived.
+        self.assertIn(0xFE0D, result)

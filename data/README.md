@@ -20,6 +20,13 @@ including aliases. The numeric and unit-only subset styles are marked
 their actual screen text needs watch testing. Emoji are excluded. String-to-slot
 usage and layout are not checked.
 
+Emoji presentation selectors U+FE0E/U+FE0F are skipped by firmware text layout
+and need no font glyph. For packs using only built-in fonts, the builder renders
+nonbreaking hyphens (U+2011) as ordinary hyphens, which those fonts support.
+Checks use this same compiled text and report the substitution as a warning.
+The source catalog and lookup keys remain unchanged; the compiled hyphens can
+wrap at line boundaries. Custom-font packs preserve their original hyphens.
+
 For built-in-only packs, publication gates on body and heading (`GOTHIC_*`)
 coverage. Other display-style gaps remain warnings because strings are not mapped
 to their actual screen styles. Every style must still compile. Custom-font packs

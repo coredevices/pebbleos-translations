@@ -3,6 +3,7 @@
 
 """Catalog maintenance and universal language-pack builds."""
 
+import copy
 import json
 import re
 import struct
@@ -164,10 +165,19 @@ class FirmwareCatalog(polib.POFile):
         ]
 
 
-def firmware_catalog(catalog, *, locale=None, version=None):
-    """Prepare binary-pack headers without changing the source PO or its strings."""
+def firmware_catalog(catalog, *, locale=None, version=None, builtin_fonts=False):
+    """Prepare watch headers and text without changing the source PO."""
     result = FirmwareCatalog()
-    result.extend(catalog)
+    result.extend(copy.deepcopy(catalog))
+    if builtin_fonts:
+        # Built-in text fonts lack U+2011. Use their ordinary hyphen glyph in
+        # translated text only; source keys must still match firmware lookups.
+        for entry in result:
+            entry.msgstr = entry.msgstr.replace("\u2011", "-")
+            entry.msgstr_plural = {
+                index: text.replace("\u2011", "-")
+                for index, text in entry.msgstr_plural.items()
+            }
     result.metadata = dict(catalog.metadata)
     raw_version = result.metadata.get("Project-Id-Version", "").strip()
     numeric = re.fullmatch(r"([1-9][0-9]*)(?:\.[0-9]+)?", raw_version)
@@ -213,7 +223,13 @@ def pack_lang(lang, output, *, version=None):
             # Do not let reserialization conceal malformed source syntax.
             compile_catalog(po, mo)
             catalog = firmware_catalog(
-                polib.pofile(str(po)), locale=lang, version=version
+                polib.pofile(str(po)),
+                locale=lang,
+                version=version,
+                builtin_fonts=not any(
+                    entry["file"]
+                    for entry in resolve_font_entries(resource_map).values()
+                ),
             )
             compilation_source = temp / "firmware.po"
             catalog.save(str(compilation_source))
@@ -223,7 +239,8 @@ def pack_lang(lang, output, *, version=None):
             codepoints.write_text(
                 json.dumps(
                     generate_codepoint_requirements(
-                        po, language=resource_map["strings"].get("lang") or lang
+                        compilation_source,
+                        language=resource_map["strings"].get("lang") or lang,
                     )
                 )
             )

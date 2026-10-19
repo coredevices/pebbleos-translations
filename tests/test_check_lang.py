@@ -293,7 +293,7 @@ class CheckLanguageTest(unittest.TestCase):
                 )
 
     def test_emoji_is_silently_excluded(self):
-        self.catalog.append(polib.POEntry(msgid="Test", msgstr="é❤"))
+        self.catalog.append(polib.POEntry(msgid="Test", msgstr="é❤\ufe0e❤\ufe0f"))
         self.save()
         report = check_lang("test")
         self.assertEqual(report["fonts"][0]["uncovered_characters"], [])
@@ -306,4 +306,40 @@ class CheckLanguageTest(unittest.TestCase):
                 for font in report["fonts"]
                 for d in font["uncovered_characters"]
             ],
+        )
+
+    def test_builtin_hyphen_fallback_is_checked_without_changing_source(self):
+        self.mapping["strings"]["lang"] = "fr_CA"
+        self.catalog.append(
+            polib.POEntry(
+                msgid="Walk", msgstr="Cette marche n’a‑t‑elle pas fait du bien?"
+            )
+        )
+        self.save()
+        original = (self.source / commands.CATALOG).read_bytes()
+        report = check_lang("test")
+        self.assertTrue(report["ok"], report)
+        self.assertIn("font_character_fallback", [i["code"] for i in report["issues"]])
+        for font in report["fonts"]:
+            self.assertNotIn(
+                "U+2011", [d["codepoint"] for d in font["uncovered_characters"]]
+            )
+            if font["slot"].startswith("GOTHIC_"):
+                self.assertEqual(font["uncovered_characters"], [])
+        self.assertEqual((self.source / commands.CATALOG).read_bytes(), original)
+        with tempfile.TemporaryDirectory() as output:
+            pack = commands.pack_lang("test", output)
+            self.assertEqual(report["pack_size_bytes"], pack.stat().st_size)
+
+    def test_custom_fonts_keep_nonbreaking_hyphens_in_coverage_checks(self):
+        self.font()
+        self.catalog.append(polib.POEntry(msgid="Test", msgstr="a‑b"))
+        self.save()
+        report = check_lang("test")
+        self.assertNotIn(
+            "font_character_fallback", [i["code"] for i in report["issues"]]
+        )
+        self.assertIn(
+            "U+2011",
+            [d["codepoint"] for d in report["fonts"][1]["uncovered_characters"]],
         )
