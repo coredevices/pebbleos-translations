@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2026-11-07 19:26+0000\n"
-"Last-Translator: Denys Vasylenko <dinja.ostrovskiy@gmail.com>\n"
+"Last-Translator: osikovsky8 <osikovsky8@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.repebble.com/projects/pebbleos/"
 "watch/uk/>\n"
 "Language: uk_UA\n"
@@ -229,13 +229,11 @@ msgstr ":"
 
 #. / The second separator in `<hour> hr <minute> min <second> sec`
 #: fw/applib/template_string.c:223 fw/applib/template_string.c:225
-#, fuzzy
 msgctxt "TmplStringSep"
 msgid " "
 msgstr " "
 
 #: fw/applib/template_string.c:229
-#, fuzzy
 msgctxt "TmplStringSep"
 msgid ", "
 msgstr ", "
@@ -469,7 +467,7 @@ msgstr " років"
 #. / day. Respect capitalization!
 #: fw/applib/ui/day_picker.c:46 fw/services/alarms/alarm.c:1430
 msgid "Every Day"
-msgstr ""
+msgstr "Щоденно"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / every weekday. Respect capitalization!
@@ -524,10 +522,8 @@ msgid "No internet connection"
 msgstr "Відсутнє інтернет-з'єднання"
 
 #: fw/applib/voice/voice_window.c:225
-#, fuzzy
 msgid "Enable voice in the settings page of the Pebble app."
-msgstr ""
-"Активуйте розпізнавання мовлення у вкладці параметрів у застосунку Pebble."
+msgstr "Увімкніть голос в налаштуваннях застосунку Pebble."
 
 #: fw/applib/voice/voice_window.c:388
 msgid "Missed that. Try again."
@@ -550,9 +546,8 @@ msgid "Resetting..."
 msgstr "Скидання..."
 
 #: fw/apps/demo/dialogs/dialogs_demo.c:105
-#, fuzzy
 msgid "Decline dialog."
-msgstr "Вікно відхилення."
+msgstr "Діалогове вікно відхилення."
 
 #: fw/apps/system/alarms/alarm_detail.c:63
 #, c-format
@@ -599,14 +594,12 @@ msgid "Sound"
 msgstr "Звук"
 
 #: fw/apps/system/alarms/alarm_detail.c:307
-#, fuzzy
 msgid "Vibration: On"
-msgstr "Вібрація: Ввім."
+msgstr "Вібрація: Увім"
 
 #: fw/apps/system/alarms/alarm_detail.c:308
-#, fuzzy
 msgid "Vibration: Off"
-msgstr "Вібрація: Вим."
+msgstr "Вібрація: Вим"
 
 #: fw/apps/system/alarms/alarm_detail.c:313
 #, fuzzy
