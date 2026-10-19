@@ -480,8 +480,7 @@ msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / on a custom choice of days. Respect capitalization!
-#: fw/applib/ui/day_picker.c:47 fw/apps/system/settings/display.c:41
-#: fw/services/alarms/alarm.c:1461
+#: fw/applib/ui/day_picker.c:47 fw/services/alarms/alarm.c:1461
 msgid "Custom"
 msgstr ""
 
@@ -1031,23 +1030,23 @@ msgid ""
 "Remember to also forget your Pebble's Bluetooth connection from your phone."
 msgstr ""
 
-#: fw/apps/system/settings/display.c:54 fw/apps/system/settings/display.c:680
+#: fw/apps/system/settings/display.c:86 fw/apps/system/settings/display.c:712
 #: fw/apps/system/settings/system.c:210
 msgid "Language"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:63
+#: fw/apps/system/settings/display.c:95
 #: fw/apps/system/settings/notifications.c:109
 msgid "Smaller"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:64
+#: fw/apps/system/settings/display.c:96
 #: fw/apps/system/settings/notifications.c:110
 msgctxt "TextSize"
 msgid "Default"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:65
+#: fw/apps/system/settings/display.c:97
 #: fw/apps/system/settings/notifications.c:111
 msgid "Larger"
 msgstr ""
@@ -1056,183 +1055,183 @@ msgstr ""
 #. / String within Settings->Display that describes the text font size
 #. / The option in the Settings app for choosing the text size of notifications.
 #. / String within Settings->Notifications that describes the text font size
-#: fw/apps/system/settings/display.c:78 fw/apps/system/settings/display.c:673
+#: fw/apps/system/settings/display.c:110 fw/apps/system/settings/display.c:705
 #: fw/apps/system/settings/notifications.c:135
 #: fw/apps/system/settings/notifications.c:353
 msgid "Text Size"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:92 fw/apps/system/settings/system.c:442
+#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:442
 msgid "Low"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:92 fw/apps/system/settings/system.c:443
+#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:443
 msgid "Medium"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:92 fw/apps/system/settings/system.c:444
+#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:444
 msgid "High"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:92
+#: fw/apps/system/settings/display.c:124
 msgid "Blinding"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:127
+#: fw/apps/system/settings/display.c:159
 msgid "INTENSITY"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:127 fw/apps/system/settings/display.c:455
-#: fw/apps/system/settings/display.c:457
+#: fw/apps/system/settings/display.c:159 fw/apps/system/settings/display.c:487
+#: fw/apps/system/settings/display.c:489
 msgid "Intensity"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:137
+#: fw/apps/system/settings/display.c:169
 msgctxt "Orientation"
 msgid "Default"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:138
+#: fw/apps/system/settings/display.c:170
 msgid "Left-Handed"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:163 fw/apps/system/settings/display.c:667
+#: fw/apps/system/settings/display.c:195 fw/apps/system/settings/display.c:699
 msgid "Orientation"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:176
+#: fw/apps/system/settings/display.c:208
 msgid "3 Seconds"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:176
+#: fw/apps/system/settings/display.c:208
 msgid "5 Seconds"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:176
+#: fw/apps/system/settings/display.c:208
 msgid "8 Seconds"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:199
+#: fw/apps/system/settings/display.c:231
 msgid "TIMEOUT"
 msgstr ""
 
 #. / Status bar title for the Notification Window Timeout settings screen
 #. / String within Settings->Notifications that describes the window timeout setting
-#: fw/apps/system/settings/display.c:199 fw/apps/system/settings/display.c:462
+#: fw/apps/system/settings/display.c:231 fw/apps/system/settings/display.c:494
 #: fw/apps/system/settings/notifications.c:194
 #: fw/apps/system/settings/notifications.c:358
 msgid "Timeout"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:209 fw/services/vibes/vibes.def:19
+#: fw/apps/system/settings/display.c:241 fw/services/vibes/vibes.def:19
 msgid "Double Tap"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:210
+#: fw/apps/system/settings/display.c:242
 msgid "Tap"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:211
+#: fw/apps/system/settings/display.c:243
 msgctxt "TouchWake"
 msgid "Off"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:224
+#: fw/apps/system/settings/display.c:256
 msgid "WAKE ON TOUCH"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:224 fw/apps/system/settings/display.c:431
+#: fw/apps/system/settings/display.c:256 fw/apps/system/settings/display.c:463
 msgid "Wake on touch"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:235
+#: fw/apps/system/settings/display.c:267
 msgctxt "DynBacklight"
 msgid "Off"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:236
+#: fw/apps/system/settings/display.c:268
 msgid "Bright"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:237 fw/apps/system/settings/display.c:263
+#: fw/apps/system/settings/display.c:269 fw/apps/system/settings/display.c:295
 msgid "Standard"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:238
+#: fw/apps/system/settings/display.c:270
 msgid "Dim"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:252
+#: fw/apps/system/settings/display.c:284
 msgid "DYNAMIC BACKLIGHT"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:252 fw/apps/system/settings/display.c:448
+#: fw/apps/system/settings/display.c:284 fw/apps/system/settings/display.c:480
 msgid "Dynamic Backlight"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:262
+#: fw/apps/system/settings/display.c:294
 msgid "Max Brightness"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:264
+#: fw/apps/system/settings/display.c:296
 msgid "Battery Saver"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:265
+#: fw/apps/system/settings/display.c:297
 msgid "Advanced"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:285
+#: fw/apps/system/settings/display.c:317
 msgid "BACKLIGHT"
 msgstr ""
 
 #. / String within Settings->Notifications that describes backlight setting
-#: fw/apps/system/settings/display.c:285 fw/apps/system/settings/display.c:407
-#: fw/apps/system/settings/display.c:648
+#: fw/apps/system/settings/display.c:317 fw/apps/system/settings/display.c:439
+#: fw/apps/system/settings/display.c:680
 #: fw/apps/system/settings/notifications.c:378
 #: fw/apps/system/settings/quiet_time.c:413
 #: fw/apps/system/settings/quiet_time.c:451
 msgid "Backlight"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:295
+#: fw/apps/system/settings/display.c:327
 msgid "Centered"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:295
+#: fw/apps/system/settings/display.c:327
 msgid "Scaled (Nearest)"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:295
+#: fw/apps/system/settings/display.c:327
 msgid "Scaled (Bilinear)"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:308
+#: fw/apps/system/settings/display.c:340
 msgid "Legacy App Display"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:413
+#: fw/apps/system/settings/display.c:445
 #, c-format
 msgid "On - %d%%"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:416 fw/apps/system/settings/display.c:419
+#: fw/apps/system/settings/display.c:448 fw/apps/system/settings/display.c:451
 msgctxt "DeviceState"
 msgid "On"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:422 fw/apps/system/settings/display.c:443
-#: fw/apps/system/settings/display.c:650
+#: fw/apps/system/settings/display.c:454 fw/apps/system/settings/display.c:475
+#: fw/apps/system/settings/display.c:682
 msgctxt "DeviceState"
 msgid "Off"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:426
+#: fw/apps/system/settings/display.c:458
 msgid "Wake on motion"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:427 fw/apps/system/settings/display.c:658
-#: fw/apps/system/settings/display.c:662 fw/apps/system/settings/health.c:149
+#: fw/apps/system/settings/display.c:459 fw/apps/system/settings/display.c:690
+#: fw/apps/system/settings/display.c:694 fw/apps/system/settings/health.c:149
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
 #: fw/apps/system/settings/health.c:194
 #: fw/apps/system/settings/notifications.c:380
@@ -1247,8 +1246,8 @@ msgid "On"
 msgstr ""
 
 #. / Shows up in the Timeline settings as the status under the "Quick View" toggle.
-#: fw/apps/system/settings/display.c:427 fw/apps/system/settings/display.c:658
-#: fw/apps/system/settings/display.c:662 fw/apps/system/settings/health.c:149
+#: fw/apps/system/settings/display.c:459 fw/apps/system/settings/display.c:690
+#: fw/apps/system/settings/display.c:694 fw/apps/system/settings/health.c:149
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
 #: fw/apps/system/settings/health.c:195
 #: fw/apps/system/settings/notifications.c:380
@@ -1263,37 +1262,37 @@ msgstr ""
 msgid "Off"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:436
+#: fw/apps/system/settings/display.c:468
 msgid "Ambient Sensor"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:439
+#: fw/apps/system/settings/display.c:471
 #, c-format
 msgid "On (%d)"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:454
+#: fw/apps/system/settings/display.c:486
 msgid "Max Intensity"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:543 fw/apps/system/settings/display.c:653
+#: fw/apps/system/settings/display.c:575 fw/apps/system/settings/display.c:685
 msgid "Backlight Settings"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:657
+#: fw/apps/system/settings/display.c:689
 #: fw/apps/system/settings/quiet_time.c:363
 msgid "Touch"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:661
+#: fw/apps/system/settings/display.c:693
 msgid "Touch Navigation"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:685
+#: fw/apps/system/settings/display.c:717
 msgid "Legacy Apps"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:727
+#: fw/apps/system/settings/display.c:759
 msgid "Display"
 msgstr ""
 
