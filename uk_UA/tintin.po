@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-07 19:26+0000\n"
+"PO-Revision-Date: 2026-11-07 21:07+0000\n"
 "Last-Translator: Denys Vasylenko <dinja.ostrovskiy@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.repebble.com/projects/pebbleos/"
 "watch/uk/>\n"
@@ -607,168 +607,186 @@ msgstr "5 хвилин"
 
 #: fw/apps/system/alarms/alarm_detail.c:324
 msgid "10 minutes"
-msgstr ""
+msgstr "10 хвилин"
 
 #: fw/apps/system/alarms/alarm_detail.c:324
 msgid "15 minutes"
-msgstr ""
+msgstr "15 хвилин"
 
 #: fw/apps/system/alarms/alarm_detail.c:325
 msgid "30 minutes"
-msgstr ""
+msgstr "30 хвилин"
 
 #: fw/apps/system/alarms/alarm_detail.c:325
 msgid "1 hour"
-msgstr ""
+msgstr "1 година"
 
 #: fw/apps/system/alarms/alarm_detail.c:351
+#, fuzzy
 msgctxt "AlarmSound"
 msgid "Off"
-msgstr ""
+msgstr "Вимкнуто"
 
 #: fw/apps/system/alarms/alarm_editor.c:164
 msgid "New Smart Alarm"
-msgstr ""
+msgstr "Новий розумний будильник"
 
 #: fw/apps/system/alarms/alarm_editor.c:165
 #: fw/apps/system/alarms/alarm_editor.c:263
 msgid "New Alarm"
-msgstr ""
+msgstr "Новий будильник"
 
 #: fw/apps/system/alarms/alarm_editor.c:167
+#, fuzzy
 msgid "Wake up between"
-msgstr ""
+msgstr "Пробудження між"
 
 #: fw/apps/system/alarms/alarm_editor.c:167
 msgid "Wake up interval"
-msgstr ""
+msgstr "Інтервал пробудження"
 
 #: fw/apps/system/alarms/alarm_editor.c:260
 msgid "Basic Alarm"
-msgstr ""
+msgstr "Звичайний будильник"
 
 #: fw/apps/system/alarms/alarm_editor.c:261 fw/apps/system/alarms/alarms.c:351
 #: fw/services/alarms/alarm.c:465 fw/services/alarms/alarm_pin.c:74
 msgid "Smart Alarm"
-msgstr ""
+msgstr "Розумний будильник"
 
 #: fw/apps/system/alarms/alarms.c:115
 msgid "Alarm Deleted"
-msgstr ""
+msgstr "Будильник видалено"
 
 #: fw/apps/system/alarms/alarms.c:230 fw/apps/system/settings/quiet_time.c:384
 msgid "Limit reached."
-msgstr ""
+msgstr "Ліміт вичерпано."
 
 #: fw/apps/system/alarms/alarms.c:274 fw/apps/system/settings/quiet_time.c:427
+#, fuzzy
 msgid "ON"
-msgstr ""
+msgstr "ВВІМ."
 
 #: fw/apps/system/alarms/alarms.c:274 fw/apps/system/settings/quiet_time.c:427
+#, fuzzy
 msgid "OFF"
-msgstr ""
+msgstr "ВИМ."
 
 #: fw/apps/system/alarms/alarms.c:348
+#, fuzzy
 msgid ""
 "Let us wake you in your lightest sleep so you're fully refreshed! Smart "
 "Alarm wakes you up to 30min before your alarm."
 msgstr ""
+"Розбудимо вас під час найлегшої фази сну для гарного самопочуття! Розумний "
+"будильник спрацює у межах 30 хвилин до встановленого часу."
 
 #: fw/apps/system/alarms/alarms.c:480
 #: fw/apps/system/settings/vibe_patterns.c:93
 #: fw/services/timeline/timeline.c:932
 msgid "Alarms"
-msgstr ""
+msgstr "Будильники"
 
 #: fw/apps/system/app_fetch_ui.c:111
 msgid "Not connected"
-msgstr ""
+msgstr "З'єднання відсутнє"
 
 #: fw/apps/system/app_fetch_ui.c:123
+#, fuzzy
 msgid ""
 "No internet\n"
 "connection"
 msgstr ""
+"Відсутнє з'єднання\n"
+"з інтернетом"
 
 #: fw/apps/system/app_fetch_ui.c:130
 msgid "Incompatible JS"
-msgstr ""
+msgstr "Несумісний JS"
 
 #: fw/apps/system/app_fetch_ui.c:139
 #: fw/services/timeline/timeline_actions.c:270
+#, fuzzy
 msgid "Failed"
-msgstr ""
+msgstr "Не вдалося"
 
 #: fw/apps/system/health/activity_detail_card.c:36
 msgid "kcal"
-msgstr ""
+msgstr "ккал"
 
 #: fw/apps/system/health/activity_detail_card.c:46
 #: fw/services/activity/activity_insights.c:1766
 msgid "mi"
-msgstr ""
+msgstr "ми"
 
 #: fw/apps/system/health/activity_detail_card.c:46
 #: fw/services/activity/activity_insights.c:1766
 msgid "km"
-msgstr ""
+msgstr "км"
 
 #: fw/apps/system/health/activity_detail_card.c:59
 #: fw/apps/system/health/sleep_detail_card.c:67
+#, fuzzy
 msgid "30 DAY AVG"
-msgstr ""
+msgstr "СЕР. ЗА 30 ДН."
 
 #: fw/apps/system/health/activity_detail_card.c:86
 msgid "CALORIES"
-msgstr ""
+msgstr "КАЛОРІЇ"
 
 #. / Distance Label
 #: fw/apps/system/health/activity_detail_card.c:88
 #: fw/apps/system/workout/active.c:193
 msgid "DISTANCE"
-msgstr ""
+msgstr "ДИСТАНЦІЯ"
 
 #: fw/apps/system/health/activity_summary_card.c:144
+#, fuzzy
 msgid "TOTAL"
-msgstr ""
+msgstr "РАЗОМ"
 
 #: fw/apps/system/health/detail_card.c:679 fw/apps/system/weather/weather.c:141
 #: fw/services/clock/service.c:578 fw/services/clock/service.c:780
 msgid "Today"
-msgstr ""
+msgstr "Сьогодні"
 
 #: fw/apps/system/health/graph_card.c:309
 msgid ": "
-msgstr ""
+msgstr ": "
 
 #: fw/apps/system/health/graph_card.c:315
 #, c-format
 msgid "%a: "
-msgstr ""
+msgstr "%a: "
 
 #: fw/apps/system/health/graph_card.c:398
 msgid "SMTWTFS"
-msgstr ""
+msgstr "НПВСЧПС"
 
 #: fw/apps/system/health/health.c:79
+#, fuzzy
 msgid ""
 "Psst! Want smart tips about your activity and sleep? You can enable Insights "
 "in the mobile app."
 msgstr ""
+"Бажаєте розумних підказок про активність та сон? Активуйте їх у мобільному "
+"застосунку."
 
 #: fw/apps/system/health/health.c:111
+#, fuzzy
 msgid ""
 "Track your steps, sleep, and more! Enable Pebble Health in the mobile app."
 msgstr ""
+"Відстежуйте сон, кроки тощо! Ввімкніть Pebble Health у мобільному застосунку."
 
 #: fw/apps/system/health/health.c:120
 msgid "Health requires the time to be synced. Please connect your phone."
-msgstr ""
+msgstr "Для роботи Health треба синхронізувати час. Під'єднайте телефон."
 
 #: fw/apps/system/health/health.c:187 fw/apps/system/settings/health.c:265
 #: fw/services/timeline/timeline.c:936
 msgid "Health"
-msgstr ""
+msgstr "Здоров'я"
 
 #: fw/apps/system/health/hr_chart.c:112
 msgid "%k"
@@ -790,18 +808,20 @@ msgstr ""
 
 #: fw/apps/system/health/hr_detail_card.c:90
 #: fw/services/activity/activity_insights.c:1871
+#, fuzzy
 msgid "Fat Burn"
-msgstr ""
+msgstr "Спалення жиру"
 
 #: fw/apps/system/health/hr_detail_card.c:93
 #: fw/services/activity/activity_insights.c:1878
 msgid "Endurance"
-msgstr ""
+msgstr "Витривалість"
 
 #: fw/apps/system/health/hr_detail_card.c:96
 #: fw/services/activity/activity_insights.c:1885
+#, fuzzy
 msgid "Performance"
-msgstr ""
+msgstr "Ефективність"
 
 #. / Heading above a chart of today's heart rate and its lowest to highest reading
 #: fw/apps/system/health/hr_detail_card.c:103
@@ -811,90 +831,98 @@ msgstr ""
 #. / Heading above the time spent in each heart rate zone today
 #: fw/apps/system/health/hr_detail_card.c:115
 msgid "TIME IN ZONES"
-msgstr ""
+msgstr "ЧАС У ЗОНАХ ЧСС"
 
 #: fw/apps/system/health/hr_summary_card.c:135
 #: fw/apps/system/workout/active.c:1114
 msgid "BPM"
-msgstr ""
+msgstr "уд./хв."
 
 #. / HRM disabled
 #: fw/apps/system/health/hr_summary_card.c:180
 msgid "Enable heart rate monitoring in the mobile app"
-msgstr ""
+msgstr "Активуйте відстеження пульсу у мобільному застосунку"
 
 #: fw/apps/system/health/sleep_detail_card.c:69
 msgid "30 DAY"
-msgstr ""
+msgstr "30 ДНІВ"
 
 #: fw/apps/system/health/sleep_detail_card.c:98
 msgid "SLEEP SESSION"
-msgstr ""
+msgstr "СЕАНС СНУ"
 
 #: fw/apps/system/health/sleep_detail_card.c:111
 msgid "DEEP SLEEP"
-msgstr ""
+msgstr "ГЛИБОКИЙ СОН"
 
 #: fw/apps/system/health/sleep_summary_card.c:215
+#, fuzzy
 msgid ""
 "No sleep data,\n"
 "wear your watch\n"
 "to sleep"
 msgstr ""
+"Брак даних про сон,\n"
+"вдягніть годинник\n"
+"під час сну"
 
 #: fw/apps/system/health/ui.c:69
-#, c-format
+#, c-format, fuzzy
 msgid "TYPICAL %s"
-msgstr ""
+msgstr "ЗАЗВИЧАЙ %s"
 
 #. / Shown when the current temperature is unknown
 #: fw/apps/system/launcher/default/app_glance_weather.c:118
 msgid "--°"
-msgstr ""
+msgstr "--°"
 
 #. / Shown when today's temperature and conditions phrase is known (e.g. "52° - Fair")
 #: fw/apps/system/launcher/default/app_glance_weather.c:124
 #, c-format
 msgid "%i° - %s"
-msgstr ""
+msgstr "%i° - %s"
 
 #. / Today's current temperature (e.g. "68°")
 #: fw/apps/system/launcher/default/app_glance_weather.c:126
 #, c-format
 msgid "%i°"
-msgstr ""
+msgstr "%i°"
 
 #: fw/apps/system/music.c:909
+#, fuzzy
 msgid ""
 "START PLAYBACK\n"
 "ON YOUR PHONE"
 msgstr ""
+"ПОЧАТИ ВІДТВОРЕННЯ\n"
+"НА ТЕЛЕФОНІ"
 
 #: fw/apps/system/music.c:1853
 msgid "Music"
-msgstr ""
+msgstr "Музика"
 
 #: fw/apps/system/notifications.c:418
+#, fuzzy
 msgid "Done"
-msgstr ""
+msgstr "Виконано"
 
 #: fw/apps/system/notifications.c:444
 msgid "Clear history?"
-msgstr ""
+msgstr "Очистити історію?"
 
 #. / Notification sender followed by the number of grouped notifications
 #: fw/apps/system/notifications.c:713
 #, c-format
 msgid "%s (%u)"
-msgstr ""
+msgstr "%s (%u)"
 
 #: fw/apps/system/notifications.c:752 fw/apps/system/notifications.c:759
 msgid "Clear All"
-msgstr ""
+msgstr "Очистити все"
 
 #: fw/apps/system/notifications.c:1010
 msgid "No notifications"
-msgstr ""
+msgstr "Сповіщення відсутні"
 
 #: fw/apps/system/notifications.c:1117
 #: fw/apps/system/settings/notifications.c:491
@@ -903,136 +931,152 @@ msgstr ""
 #: fw/apps/system/settings/vibe_patterns.c:83
 #: fw/services/timeline/timeline.c:916
 msgid "Notifications"
-msgstr ""
+msgstr "Сповіщення"
 
 #: fw/apps/system/notifications.c:1131
 msgid "Clear Notification History"
-msgstr ""
+msgstr "Очистити Історію Сповіщень"
 
 #. / Quick Launch action that makes the button do nothing at all.
 #: fw/apps/system/quick_launch_nothing.c:24
 msgid "Nothing"
-msgstr ""
+msgstr "Нічого"
 
 #: fw/apps/system/reminders/reminder.c:60
 msgid "Completed"
-msgstr ""
+msgstr "Завершено"
 
 #: fw/apps/system/reminders/reminder.c:64
+#, fuzzy
 msgid "Postpone"
-msgstr ""
+msgstr "Відкласти"
 
 #: fw/apps/system/reminders/reminder.c:68
 #: fw/services/activity/activity_insights.c:466
 #: fw/services/timeline/timeline.c:657
+#, fuzzy
 msgid "Remove"
-msgstr ""
+msgstr "Прибрати"
 
 #: fw/apps/system/reminders/reminder.c:118
 msgid "Added"
-msgstr ""
+msgstr "Додано"
 
 #: fw/apps/system/reminders/reminder.c:304
 msgid "Reminder"
-msgstr ""
+msgstr "Нагадування"
 
 #: fw/apps/system/send_text/send_text.c:197
 #: fw/apps/system/settings/health.c:155 fw/services/phone_call/util.c:17
+#, fuzzy
 msgid "Unknown"
-msgstr ""
+msgstr "Невідомо"
 
 #: fw/apps/system/send_text/send_text.c:256
 #: fw/apps/system/send_text/send_text.c:340
 msgid "Select Contact"
-msgstr ""
+msgstr "Обрати контакт"
 
 #: fw/apps/system/send_text/send_text.c:354
+#, fuzzy
 msgid ""
 "Add contacts in\n"
 "mobile app"
 msgstr ""
+"Додайте контакти у\n"
+"мобільному застосунку"
 
 #: fw/apps/system/send_text/send_text.c:388
 msgid "Send Text"
-msgstr ""
+msgstr "Надіслати текст"
 
 #: fw/apps/system/settings/activity_tracker.c:156
 msgid "No background apps"
-msgstr ""
+msgstr "Фонові застосунки відсутні"
 
 #. / No Notification Window Timeout
 #: fw/apps/system/settings/activity_tracker.c:164
 #: fw/apps/system/settings/notifications.c:161
+#, fuzzy
 msgid "None"
-msgstr ""
+msgstr "Відсутні"
 
 #: fw/apps/system/settings/activity_tracker.c:237
 #: fw/apps/system/settings/activity_tracker.c:254
+#, fuzzy
 msgid "Background App"
-msgstr ""
+msgstr "Фоновий застосунок"
 
 #: fw/apps/system/settings/bluetooth.c:130
 msgid "<Untitled>"
-msgstr ""
+msgstr "<Без назви>"
 
 #: fw/apps/system/settings/bluetooth.c:190
+#, fuzzy
 msgid "Pairing Instructions"
-msgstr ""
+msgstr "Інструкції зі сполучення"
 
 #: fw/apps/system/settings/bluetooth.c:195
-#, c-format
+#, c-format, fuzzy
 msgid "%u Paired Phones"
-msgstr ""
+msgstr "%u спарених телефонів"
 
 #: fw/apps/system/settings/bluetooth.c:195
 #, c-format
 msgid "%u Paired Phone"
-msgstr ""
+msgstr "%u спарений телефон"
 
 #: fw/apps/system/settings/bluetooth.c:346
 msgid "Connected"
-msgstr ""
+msgstr "Підключено"
 
 #: fw/apps/system/settings/bluetooth.c:361
+#, fuzzy
 msgid "Sharing Heart Rate ❤"
-msgstr ""
+msgstr "Передати пульс ❤"
 
 #: fw/apps/system/settings/bluetooth.c:386
+#, fuzzy
 msgid "Forget this device to pair a new device."
-msgstr ""
+msgstr "Видаліть цей пристрій, щоб спарити з новим."
 
 #: fw/apps/system/settings/bluetooth.c:389
 msgid "Disable Airplane Mode to connect."
-msgstr ""
+msgstr "Скасуйте Авіарежим для підключення."
 
 #: fw/apps/system/settings/bluetooth.c:391
 msgid "Open the Pebble app on your phone to connect."
-msgstr ""
+msgstr "Відкрийте застосунок Pebble на телефоні для підключення."
 
 #: fw/apps/system/settings/bluetooth.c:466
+#, fuzzy
 msgid "Connection"
-msgstr ""
+msgstr "З'єднання"
 
 #: fw/apps/system/settings/bluetooth.c:470
 msgid "Airplane Mode"
-msgstr ""
+msgstr "Авіарежим"
 
 #: fw/apps/system/settings/bluetooth.c:480
+#, fuzzy
 msgid "Disabling..."
-msgstr ""
+msgstr "Відключення..."
 
 #: fw/apps/system/settings/bluetooth.c:481
+#, fuzzy
 msgid "Enabling..."
-msgstr ""
+msgstr "Активація..."
 
 #: fw/apps/system/settings/bluetooth.c:634
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: fw/apps/system/settings/bluetooth.h:38
+#, fuzzy
 msgid ""
 "Remember to also forget your Pebble's Bluetooth connection from your phone."
 msgstr ""
+"Також видаліть годинник зі списку спарених Bluetooth-пристроїв на телефоні."
 
 #. / Shows up in the Timeline settings as the status under the "Quick View" toggle.
 #: fw/apps/system/settings/dark_mode_menu.c:18
@@ -1049,8 +1093,9 @@ msgstr ""
 #: fw/apps/system/settings/quiet_time.c:633
 #: fw/apps/system/settings/system.c:1310 fw/apps/system/settings/timeline.c:193
 #: fw/apps/system/settings/vibe_patterns.c:69
+#, fuzzy
 msgid "Off"
-msgstr ""
+msgstr "Вимкнуто"
 
 #: fw/apps/system/settings/dark_mode_menu.c:19
 #: fw/apps/system/settings/display.c:456 fw/apps/system/settings/display.c:687
@@ -1065,14 +1110,15 @@ msgstr ""
 #: fw/apps/system/settings/quiet_time.c:633
 #: fw/apps/system/settings/system.c:1310 fw/apps/system/settings/timeline.c:190
 #: fw/apps/system/settings/vibe_patterns.c:69
+#, fuzzy
 msgid "On"
-msgstr ""
+msgstr "Ввімкнуто"
 
 #: fw/apps/system/settings/dark_mode_menu.c:20
 #: fw/apps/system/settings/quiet_time.c:485
 #: fw/apps/system/settings/quiet_time.c:616
 msgid "Schedule"
-msgstr ""
+msgstr "Розклад"
 
 #: fw/apps/system/settings/dark_mode_menu.c:77
 msgid "DARK MODE"
@@ -1086,23 +1132,23 @@ msgstr ""
 #: fw/apps/system/settings/display.c:86 fw/apps/system/settings/display.c:709
 #: fw/apps/system/settings/system.c:212
 msgid "Language"
-msgstr ""
+msgstr "Мова"
 
 #: fw/apps/system/settings/display.c:95
 #: fw/apps/system/settings/notifications.c:108
 msgid "Smaller"
-msgstr ""
+msgstr "Менший"
 
 #: fw/apps/system/settings/display.c:96
 #: fw/apps/system/settings/notifications.c:109
 msgctxt "TextSize"
 msgid "Default"
-msgstr ""
+msgstr "Стандартний"
 
 #: fw/apps/system/settings/display.c:97
 #: fw/apps/system/settings/notifications.c:110
 msgid "Larger"
-msgstr ""
+msgstr "Більший"
 
 #. / The option in the Settings app for choosing the text size of the system UI.
 #. / String within Settings->Display that describes the text font size
@@ -1112,131 +1158,149 @@ msgstr ""
 #: fw/apps/system/settings/notifications.c:134
 #: fw/apps/system/settings/notifications.c:352
 msgid "Text Size"
-msgstr ""
+msgstr "Розмір тексту"
 
 #: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:442
 msgid "Low"
-msgstr ""
+msgstr "Низька"
 
 #: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:443
 msgid "Medium"
-msgstr ""
+msgstr "Середня"
 
 #: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:444
 msgid "High"
-msgstr ""
+msgstr "Висока"
 
 #: fw/apps/system/settings/display.c:124
 msgid "Blinding"
-msgstr ""
+msgstr "Сліпуча"
 
 #: fw/apps/system/settings/display.c:156
 msgid "INTENSITY"
-msgstr ""
+msgstr "ЯСКРАВІСТЬ"
 
 #: fw/apps/system/settings/display.c:156 fw/apps/system/settings/display.c:484
 #: fw/apps/system/settings/display.c:486
 msgid "Intensity"
-msgstr ""
+msgstr "Яскравість"
 
 #: fw/apps/system/settings/display.c:166
+#, fuzzy
 msgctxt "Orientation"
 msgid "Default"
-msgstr ""
+msgstr "Стандартна"
 
 #: fw/apps/system/settings/display.c:167
 msgid "Left-Handed"
-msgstr ""
+msgstr "Для шульги"
 
 #: fw/apps/system/settings/display.c:192 fw/apps/system/settings/display.c:696
 msgid "Orientation"
-msgstr ""
+msgstr "Орієнтація"
 
 #: fw/apps/system/settings/display.c:205
 msgid "3 Seconds"
-msgstr ""
+msgstr "3 секунди"
 
 #: fw/apps/system/settings/display.c:205
 msgid "5 Seconds"
-msgstr ""
+msgstr "5 секунд"
 
 #: fw/apps/system/settings/display.c:205
 msgid "8 Seconds"
-msgstr ""
+msgstr "8 секунд"
 
 #: fw/apps/system/settings/display.c:228
+#, fuzzy
 msgid "TIMEOUT"
-msgstr ""
+msgstr "ЧАС ОЧІКУВАННЯ"
 
 #. / Status bar title for the Notification Window Timeout settings screen
 #. / String within Settings->Notifications that describes the window timeout setting
 #: fw/apps/system/settings/display.c:228 fw/apps/system/settings/display.c:491
 #: fw/apps/system/settings/notifications.c:193
 #: fw/apps/system/settings/notifications.c:357
+#, fuzzy
 msgid "Timeout"
-msgstr ""
+msgstr "Час очікування"
 
 #: fw/apps/system/settings/display.c:238 fw/services/vibes/vibes.def:19
+#, fuzzy
 msgid "Double Tap"
-msgstr ""
+msgstr "Подвійний дотик"
 
 #: fw/apps/system/settings/display.c:239
+#, fuzzy
 msgid "Tap"
-msgstr ""
+msgstr "Дотик"
 
 #: fw/apps/system/settings/display.c:240
+#, fuzzy
 msgctxt "TouchWake"
 msgid "Off"
-msgstr ""
+msgstr "Вимкнуто"
 
 #: fw/apps/system/settings/display.c:253
+#, fuzzy
 msgid "WAKE ON TOUCH"
-msgstr ""
+msgstr "ПРОБУДИТИ ДОТИКОМ"
 
 #: fw/apps/system/settings/display.c:253 fw/apps/system/settings/display.c:460
+#, fuzzy
 msgid "Wake on touch"
-msgstr ""
+msgstr "Пробудження дотиком"
 
 #: fw/apps/system/settings/display.c:264
+#, fuzzy
 msgctxt "DynBacklight"
 msgid "Off"
-msgstr ""
+msgstr "Вимкнуто"
 
 #: fw/apps/system/settings/display.c:265
+#, fuzzy
 msgid "Bright"
-msgstr ""
+msgstr "Яскраве"
 
 #: fw/apps/system/settings/display.c:266 fw/apps/system/settings/display.c:292
+#, fuzzy
 msgid "Standard"
-msgstr ""
+msgstr "Стандартне"
 
 #: fw/apps/system/settings/display.c:267
+#, fuzzy
 msgid "Dim"
-msgstr ""
+msgstr "Тьмяне"
 
 #: fw/apps/system/settings/display.c:281
+#, fuzzy
 msgid "DYNAMIC BACKLIGHT"
-msgstr ""
+msgstr "ДИНАМІЧНЕ ПІДСВІЧЕННЯ"
 
 #: fw/apps/system/settings/display.c:281 fw/apps/system/settings/display.c:477
+#, fuzzy
 msgid "Dynamic Backlight"
-msgstr ""
+msgstr "Динамічне підсвічення"
 
 #: fw/apps/system/settings/display.c:291
+#, fuzzy
 msgid "Max Brightness"
-msgstr ""
+msgstr "Максимальна яскравість"
 
 #: fw/apps/system/settings/display.c:293
+#, fuzzy
 msgid "Battery Saver"
-msgstr ""
+msgstr "Заощадження заряду батареї"
 
 #: fw/apps/system/settings/display.c:294
+#, fuzzy
 msgid "Advanced"
-msgstr ""
+msgstr "Розширене"
 
 #: fw/apps/system/settings/display.c:314
+#, fuzzy
 msgid "BACKLIGHT"
-msgstr ""
+msgstr "ПІДСВІЧЕННЯ"
 
 #. / String within Settings->Notifications that describes backlight setting
 #: fw/apps/system/settings/display.c:314 fw/apps/system/settings/display.c:436
@@ -1244,563 +1308,627 @@ msgstr ""
 #: fw/apps/system/settings/notifications.c:377
 #: fw/apps/system/settings/quiet_time.c:584
 #: fw/apps/system/settings/quiet_time.c:627
+#, fuzzy
 msgid "Backlight"
-msgstr ""
+msgstr "Підсвічення"
 
 #: fw/apps/system/settings/display.c:324
+#, fuzzy
 msgid "Centered"
-msgstr ""
+msgstr "Центроване"
 
 #: fw/apps/system/settings/display.c:324
+#, fuzzy
 msgid "Scaled (Nearest)"
-msgstr ""
+msgstr "Маштабоване (найближче)"
 
 #: fw/apps/system/settings/display.c:324
+#, fuzzy
 msgid "Scaled (Bilinear)"
-msgstr ""
+msgstr "Маштабоване (білінійне)"
 
 #: fw/apps/system/settings/display.c:337
+#, fuzzy
 msgid "Legacy App Display"
-msgstr ""
+msgstr "Відображення застарілих застосунків"
 
 #: fw/apps/system/settings/display.c:442
-#, c-format
+#, c-format, fuzzy
 msgid "On - %d%%"
-msgstr ""
+msgstr "Ввімкнено - %d%%"
 
 #: fw/apps/system/settings/display.c:445 fw/apps/system/settings/display.c:448
+#, fuzzy
 msgctxt "DeviceState"
 msgid "On"
-msgstr ""
+msgstr "Ввімкнено"
 
 #: fw/apps/system/settings/display.c:451 fw/apps/system/settings/display.c:472
 #: fw/apps/system/settings/display.c:679
+#, fuzzy
 msgctxt "DeviceState"
 msgid "Off"
-msgstr ""
+msgstr "Вимкнуто"
 
 #: fw/apps/system/settings/display.c:455
+#, fuzzy
 msgid "Wake on motion"
-msgstr ""
+msgstr "Пробудження рухом"
 
 #: fw/apps/system/settings/display.c:465
+#, fuzzy
 msgid "Ambient Sensor"
-msgstr ""
+msgstr "Датчик освітлення"
 
 #: fw/apps/system/settings/display.c:468
-#, c-format
+#, c-format, fuzzy
 msgid "On (%d)"
-msgstr ""
+msgstr "Ввімкнуто (%d)"
 
 #: fw/apps/system/settings/display.c:483
+#, fuzzy
 msgid "Max Intensity"
-msgstr ""
+msgstr "Максимальна інтенсивність"
 
 #: fw/apps/system/settings/display.c:572 fw/apps/system/settings/display.c:682
 msgid "Backlight Settings"
-msgstr ""
+msgstr "Параметри Підсвічення"
 
 #: fw/apps/system/settings/display.c:686
 #: fw/apps/system/settings/quiet_time.c:534
 msgid "Touch"
-msgstr ""
+msgstr "Дотик"
 
 #: fw/apps/system/settings/display.c:690
+#, fuzzy
 msgid "Touch Navigation"
-msgstr ""
+msgstr "Навігація дотиком"
 
 #: fw/apps/system/settings/display.c:714
 msgid "Legacy Apps"
-msgstr ""
+msgstr "Застарілі застосунки"
 
 #: fw/apps/system/settings/display.c:756
 msgid "Display"
-msgstr ""
+msgstr "Екран"
 
 #: fw/apps/system/settings/factory_reset.c:112
+#, fuzzy
 msgid "Perform factory reset?"
-msgstr ""
+msgstr "Скинути до заводських налаштувань?"
 
 #: fw/apps/system/settings/health.c:24
 msgid "Kilometers"
-msgstr ""
+msgstr "Кілометри"
 
 #: fw/apps/system/settings/health.c:25
 msgid "Miles"
-msgstr ""
+msgstr "Милі"
 
 #: fw/apps/system/settings/health.c:35
 msgid "5 Minutes"
-msgstr ""
+msgstr "5 хвилин"
 
 #. / 10 Minute Notification Window Timeout
 #: fw/apps/system/settings/health.c:35 fw/apps/system/settings/health.c:56
 #: fw/apps/system/settings/notifications.c:159
 msgid "10 Minutes"
-msgstr ""
+msgstr "10 хвилин"
 
 #: fw/apps/system/settings/health.c:35 fw/apps/system/settings/health.c:57
 msgid "30 Minutes"
-msgstr ""
+msgstr "30 хвилин"
 
 #: fw/apps/system/settings/health.c:36 fw/apps/system/settings/health.c:58
 msgid "1 Hour"
-msgstr ""
+msgstr "1 година"
 
 #: fw/apps/system/settings/health.c:36 fw/apps/system/settings/health.c:59
 #: fw/apps/system/settings/system.c:523 fw/apps/system/settings/system.c:539
 #: fw/apps/system/settings/system.c:542
 msgid "Disabled"
-msgstr ""
+msgstr "Припинено"
 
 #: fw/apps/system/settings/health.c:100 fw/apps/system/settings/health.c:163
 msgid "HR Monitoring"
-msgstr ""
+msgstr "Моніторинг ЧСС"
 
 #: fw/apps/system/settings/health.c:121 fw/apps/system/settings/health.c:181
 msgid "SpO2 Monitoring"
-msgstr ""
+msgstr "Відстеження SpO2"
 
 #: fw/apps/system/settings/health.c:147
 msgid "Health Tracking"
-msgstr ""
+msgstr "Відстеження здоров'я"
 
 #: fw/apps/system/settings/health.c:152
 msgid "Distance Unit"
-msgstr ""
+msgstr "Одиниця відстані"
 
 #: fw/apps/system/settings/health.c:170
 msgid "HR During Activity"
-msgstr ""
+msgstr "ЧСС під час активності"
 
 #: fw/apps/system/settings/health.c:176
 msgid "SpO2"
 msgstr ""
 
 #: fw/apps/system/settings/notifications.c:61
+#, fuzzy
 msgid "Allow All Notifications"
-msgstr ""
+msgstr "Дозволити всі сповіщення"
 
 #: fw/apps/system/settings/notifications.c:62
 msgid "Allow Phone Calls Only"
-msgstr ""
+msgstr "Дозволити лише тедефонні виклики"
 
 #: fw/apps/system/settings/notifications.c:63
+#, fuzzy
 msgid "Mute All Notifications"
-msgstr ""
+msgstr "Приховати всі сповіщення"
 
 #. / The option in the Settings app for filtering notifications by type.
 #: fw/apps/system/settings/notifications.c:94
 #: fw/apps/system/settings/notifications.c:347
+#, fuzzy
 msgid "Filter"
-msgstr ""
+msgstr "Фільтрувати"
 
 #. / Notification text size option that follows the system Text Size setting
 #: fw/apps/system/settings/notifications.c:112
+#, fuzzy
 msgid "Same as System"
-msgstr ""
+msgstr "Як і системний"
 
 #. / 15 Second Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:151
 msgid "15 Seconds"
-msgstr ""
+msgstr "15 секунд"
 
 #. / 30 Second Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:153
 msgid "30 Seconds"
-msgstr ""
+msgstr "30 секунд"
 
 #. / 1 Minute Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:155
 msgid "1 Minute"
-msgstr ""
+msgstr "1 хвилина"
 
 #. / 3 Minute Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:157
 msgid "3 Minutes"
-msgstr ""
+msgstr "3 хвилини"
 
 #. / Standard notification design option (default)
 #: fw/apps/system/settings/notifications.c:205
+#, fuzzy
 msgid "Classic"
-msgstr ""
+msgstr "Класичний"
 
 #. / Alternative notification design option
 #: fw/apps/system/settings/notifications.c:207
+#, fuzzy
 msgid "Flat Black"
-msgstr ""
+msgstr "Суцільний чорний"
 
 #. / Status bar title for the Notification Design Style settings screen
 #. / String within Settings->Notifications that describes the notification design style
 #: fw/apps/system/settings/notifications.c:225
 #: fw/apps/system/settings/notifications.c:364
 msgid "Banner Style"
-msgstr ""
+msgstr "Стиль банера"
 
 #. / Vibrate at the beginning of notification animation (immediate)
 #: fw/apps/system/settings/notifications.c:237
+#, fuzzy
 msgid "Beginning"
-msgstr ""
+msgstr "Негайно"
 
 #. / Status bar title for the Notification Vibe Timing settings screen
 #. / String within Settings->Notifications that describes when vibration happens
 #: fw/apps/system/settings/notifications.c:257
 #: fw/apps/system/settings/notifications.c:371
+#, fuzzy
 msgid "Vibe Timing"
-msgstr ""
+msgstr "Момент вібрації"
 
 #: fw/apps/system/settings/notifications.c:267
+#, fuzzy
 msgctxt "StatusBar"
 msgid "Default"
-msgstr ""
+msgstr "Стандартні"
 
 #: fw/apps/system/settings/notifications.c:268
+#, fuzzy
 msgid "Bold"
-msgstr ""
+msgstr "Жирні"
 
 #: fw/apps/system/settings/notifications.c:269
+#, fuzzy
 msgid "Big & Bold"
-msgstr ""
+msgstr "Великі та жирні"
 
 #. / Status bar title for the Notification Status Bar Style settings screen
 #: fw/apps/system/settings/notifications.c:291
 msgid "Clock Style"
-msgstr ""
+msgstr "Стиль годинника"
 
 #. / Disable notification grouping
 #: fw/apps/system/settings/notifications.c:302
 msgid "Never"
-msgstr ""
+msgstr "Ніколи"
 
 #. / Group notifications received within one day
 #: fw/apps/system/settings/notifications.c:304
 msgid "1 Day"
-msgstr ""
+msgstr "1 день"
 
 #. / Group notifications received within one week
 #: fw/apps/system/settings/notifications.c:306
 msgid "1 Week"
-msgstr ""
+msgstr "1 тиждень"
 
 #. / Group all notifications
 #: fw/apps/system/settings/notifications.c:308
 msgid "All"
-msgstr ""
+msgstr "Всі"
 
 #. / Title for the notification sender grouping settings screen
 #. / Notification settings item for grouping notifications by sender
 #: fw/apps/system/settings/notifications.c:325
 #: fw/apps/system/settings/notifications.c:384
+#, fuzzy
 msgid "Group by Sender"
-msgstr ""
+msgstr "Сортувати за відправником"
 
 #. / String within Settings->Notifications that selects the notification status bar style
 #: fw/apps/system/settings/notifications.c:391
 msgid "Status Bar"
-msgstr ""
+msgstr "Рядок стану"
 
 #. / Shown in Quick Launch Settings as the title of the tap up button option.
 #: fw/apps/system/settings/quick_launch.c:58
+#, fuzzy
 msgid "Tap Up"
-msgstr ""
+msgstr "Натискання кнопки Вгору"
 
 #. / Shown in Quick Launch Settings as the title of the tap down button option.
 #: fw/apps/system/settings/quick_launch.c:60
+#, fuzzy
 msgid "Tap Down"
-msgstr ""
+msgstr "Натискання кнопки Вниз"
 
 #. / Shown in Quick Launch Settings as the title of the hold up button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:62
+#, fuzzy
 msgid "Hold Up"
-msgstr ""
+msgstr "Утримання кнопки Вгору"
 
 #. / Shown in Quick Launch Settings as the title of the hold center button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:64
+#, fuzzy
 msgid "Hold Center"
-msgstr ""
+msgstr "Утримання Центральної кнопки"
 
 #. / Shown in Quick Launch Settings as the title of the hold down button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:66
+#, fuzzy
 msgid "Hold Down"
-msgstr ""
+msgstr "Утримання кнопки Вниз"
 
 #. / Shown in Quick Launch Settings as the title of the hold back button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:68
+#, fuzzy
 msgid "Hold Back"
-msgstr ""
+msgstr "Утримання кнопки Назад"
 
 #. / Shown in Quick Launch Settings as the title of the list of actions.
 #. / Title of the Quick Launch menu listing the available actions.
 #: fw/apps/system/settings/quick_launch.c:73
 #: fw/apps/system/settings/quick_launch_app_menu.c:37
 msgid "Actions"
-msgstr ""
+msgstr "Дії"
 
 #. / Shown in Quick Launch Settings as the title of the list of apps.
 #. / Title of the Quick Launch menu listing the installed apps.
 #: fw/apps/system/settings/quick_launch.c:75
 #: fw/apps/system/settings/quick_launch_app_menu.c:39
 msgid "Apps"
-msgstr ""
+msgstr "Застосунки"
 
 #. / Shown in Quick Launch Settings when no action or app is bound to the button.
 #: fw/apps/system/settings/quick_launch.c:82
 #: fw/apps/system/settings/quick_launch_app_menu.c:111
+#, fuzzy
 msgid "Unassigned"
-msgstr ""
+msgstr "Не призначено"
 
 #. / Title of the Quick Launch Settings submenu in Settings
 #. / Title for the Quick Launch first use dialog.
 #: fw/apps/system/settings/quick_launch.c:176
 #: fw/apps/system/settings/quick_launch.c:250
 #: fw/apps/system/settings/quick_launch_setup_menu.c:46
+#, fuzzy
 msgid "Quick Launch"
-msgstr ""
+msgstr "Швидкий запуск"
 
 #: fw/apps/system/settings/quick_launch_setup_menu.c:49
+#, fuzzy
 msgid ""
 "Open favorite apps quickly with a long button press from your watchface."
 msgstr ""
+"Відкривайте обрані застосунки утриманням кнопки з екрану циферблату "
+"годинника."
 
 #: fw/apps/system/settings/quiet_time.c:106
+#, fuzzy
 msgid "Quiet All Notifications"
-msgstr ""
+msgstr "Приглушити всі сповіщення"
 
 #: fw/apps/system/settings/quiet_time.c:109
 msgid "Allow Phone Calls"
-msgstr ""
+msgstr "Дозволити телефонні виклики"
 
 #: fw/apps/system/settings/quiet_time.c:327
 msgid "Change Schedule"
-msgstr ""
+msgstr "Змінити розклад"
 
 #: fw/apps/system/settings/quiet_time.c:495
+#, fuzzy
 msgid "On - Auto Dismiss"
-msgstr ""
+msgstr "Автоматичне відхилення - Ввімкнено"
 
 #: fw/apps/system/settings/quiet_time.c:497
+#, fuzzy
 msgid "On - Persistent"
-msgstr ""
+msgstr "Постійно - Ввімкнено"
 
 #: fw/apps/system/settings/quiet_time.c:529
+#, fuzzy
 msgid "Motion"
-msgstr ""
+msgstr "Рух"
 
 #: fw/apps/system/settings/quiet_time.c:606 fw/apps/system/settings/time.c:361
 #: fw/apps/system/settings/time.c:388
 msgid "Manual"
-msgstr ""
+msgstr "Вручну"
 
 #: fw/apps/system/settings/quiet_time.c:611
+#, fuzzy
 msgid "Calendar Aware"
-msgstr ""
+msgstr "Урахування календаря"
 
 #: fw/apps/system/settings/quiet_time.c:619
+#, fuzzy
 msgid "Interruptions"
-msgstr ""
+msgstr "Винятки"
 
 #: fw/apps/system/settings/quiet_time.c:631
 #: fw/apps/system/settings/vibe_patterns.c:68
+#, fuzzy
 msgid "Mute Speaker"
-msgstr ""
+msgstr "Вимкнути звук динаміка"
 
 #: fw/apps/system/settings/quiet_time.c:692
+#, fuzzy
 msgid "Quiet Time"
-msgstr ""
+msgstr "Режим тиші"
 
 #: fw/apps/system/settings/remote.c:55
+#, fuzzy
 msgid "You're all set"
-msgstr ""
+msgstr "Готово!"
 
 #: fw/apps/system/settings/remote.c:124
+#, fuzzy
 msgid "Forget"
-msgstr ""
+msgstr "Забути"
 
 #: fw/apps/system/settings/remote.c:132
 #: fw/popups/ble_hrm/ble_hrm_reminder_popup.c:28
 msgid "Stop Sharing Heart Rate"
-msgstr ""
+msgstr "Припинити передавання пульсу"
 
 #: fw/apps/system/settings/settings.c:225
+#, fuzzy
 msgid "Settings"
-msgstr ""
+msgstr "Параметри"
 
 #: fw/apps/system/settings/speaker_volume_window.c:56
 #: fw/apps/system/settings/vibe_patterns.c:75
 msgid "Volume"
-msgstr ""
+msgstr "Гучність"
 
 #: fw/apps/system/settings/system.c:164 fw/apps/system/settings/system.c:259
 msgid "Information"
-msgstr ""
+msgstr "Інформація"
 
 #: fw/apps/system/settings/system.c:165 fw/apps/system/settings/system.c:963
 msgid "Certification"
-msgstr ""
+msgstr "Сертифікація"
 
 #: fw/apps/system/settings/system.c:166
 msgid "Stand-By Mode"
-msgstr ""
+msgstr "Режим очікування"
 
 #: fw/apps/system/settings/system.c:167 fw/apps/system/settings/system.c:605
+#, fuzzy
 msgid "Debugging"
-msgstr ""
+msgstr "Діагностика"
 
 #: fw/apps/system/settings/system.c:168
+#, fuzzy
 msgid "Shut Down"
-msgstr ""
+msgstr "Вимкнути"
 
 #: fw/apps/system/settings/system.c:169
 msgid "Factory Reset"
-msgstr ""
+msgstr "Скидання параметрів"
 
 #: fw/apps/system/settings/system.c:210
 msgid "BT Address"
-msgstr ""
+msgstr "Адреса BT"
 
 #: fw/apps/system/settings/system.c:211
 msgid "Firmware"
-msgstr ""
+msgstr "Прошивка"
 
 #: fw/apps/system/settings/system.c:213
 msgid "Recovery"
-msgstr ""
+msgstr "Відновлення"
 
 #: fw/apps/system/settings/system.c:214
 msgid "Bootloader"
-msgstr ""
+msgstr "Завантажувач"
 
 #: fw/apps/system/settings/system.c:215
+#, fuzzy
 msgid "Hardware"
-msgstr ""
+msgstr "Апаратне забезпечення"
 
 #: fw/apps/system/settings/system.c:216
 msgid "Serial"
-msgstr ""
+msgstr "Серійний номер"
 
 #: fw/apps/system/settings/system.c:217
 msgid "Uptime"
-msgstr ""
+msgstr "Час роботи"
 
 #: fw/apps/system/settings/system.c:218
 msgid "Legal"
-msgstr ""
+msgstr "Правова інформація"
 
 #: fw/apps/system/settings/system.c:355
+#, fuzzy
 msgid "Core dump and reboot?"
-msgstr ""
+msgstr "Дамп ядра та перезапуск?"
 
 #: fw/apps/system/settings/system.c:442
+#, fuzzy
 msgid "Very Low"
-msgstr ""
+msgstr "Дуже низька"
 
 #: fw/apps/system/settings/system.c:443
 msgid "Medium-Low"
-msgstr ""
+msgstr "Помірно низька"
 
 #: fw/apps/system/settings/system.c:444
 msgid "Medium-High"
-msgstr ""
+msgstr "Помірно висока"
 
 #: fw/apps/system/settings/system.c:445
 msgid "Very High"
-msgstr ""
+msgstr "Дуже висока"
 
 #: fw/apps/system/settings/system.c:470 fw/apps/system/settings/system.c:496
 msgid "Motion Sensitivity"
-msgstr ""
+msgstr "Чутливість до руху"
 
 #: fw/apps/system/settings/system.c:492
+#, fuzzy
 msgid "CoreDump now"
-msgstr ""
+msgstr "Створити дамп ядра"
 
 #: fw/apps/system/settings/system.c:493
+#, fuzzy
 msgid "CoreDump shortcut"
-msgstr ""
+msgstr "Швидкий дамп ядра"
 
 #: fw/apps/system/settings/system.c:494
+#, fuzzy
 msgid "ALS Threshold"
-msgstr ""
+msgstr "Поріг ALS"
 
 #: fw/apps/system/settings/system.c:498
+#, fuzzy
 msgid "Shake Log Info"
-msgstr ""
+msgstr "Дані журналу струшуваннь"
 
 #: fw/apps/system/settings/system.c:499
+#, fuzzy
 msgid "Vibe Log Info"
-msgstr ""
+msgstr "Дані журналу вібрацій"
 
 #: fw/apps/system/settings/system.c:500
+#, fuzzy
 msgid "Compact Settings DBs"
-msgstr ""
+msgstr "Стиснути бази параметрів"
 
 #: fw/apps/system/settings/system.c:502
+#, fuzzy
 msgid "SpO2 Test"
-msgstr ""
+msgstr "Тест SpO2"
 
 #: fw/apps/system/settings/system.c:522
 msgid "10 back-button presses"
-msgstr ""
+msgstr "10 натискань кнопки Назад"
 
 #: fw/apps/system/settings/system.c:538 fw/apps/system/settings/system.c:541
+#, fuzzy
 msgid "Enabled"
-msgstr ""
+msgstr "Активовано"
 
 #: fw/apps/system/settings/system.c:680
 msgid "PebbleOS developers only!"
-msgstr ""
+msgstr "Лише для розробників PebbleOS!"
 
 #: fw/apps/system/settings/system.c:927
 msgid "See details..."
-msgstr ""
+msgstr "Докладніше..."
 
 #: fw/apps/system/settings/system.c:985
 msgid "Company"
-msgstr ""
+msgstr "Компанія"
 
 #: fw/apps/system/settings/system.c:993
 msgid "Product Model"
-msgstr ""
+msgstr "Модель виробу"
 
 #: fw/apps/system/settings/system.c:1000
 msgid "Product Type"
-msgstr ""
+msgstr "Тип виробу"
 
 #: fw/apps/system/settings/system.c:1007
 msgid "Trademark"
-msgstr ""
+msgstr "Торговельна марка"
 
 #: fw/apps/system/settings/system.c:1014
+#, fuzzy
 msgid "Place of Origin"
-msgstr ""
+msgstr "Місце походження"
 
 #: fw/apps/system/settings/system.c:1021
+#, fuzzy
 msgid "DC Input"
-msgstr ""
+msgstr "Вхід постійного струму"
 
 #: fw/apps/system/settings/system.c:1028
 msgid "Rated Voltage"
-msgstr ""
+msgstr "Номінальна напруга"
 
 #: fw/apps/system/settings/system.c:1035
 msgid "Milliampere-hour"
-msgstr ""
+msgstr "Міліампер-година"
 
 #: fw/apps/system/settings/system.c:1042
 msgid "Watt-hour"
-msgstr ""
+msgstr "Ват-година"
 
 #: fw/apps/system/settings/system.c:1056
+#, fuzzy
 msgid "Canada IC"
-msgstr ""
+msgstr "Canada IC"
 
 #: fw/apps/system/settings/system.c:1063
+#, fuzzy
 msgid "Canada ISED"
-msgstr ""
+msgstr "Canada ISED"
 
 #: fw/apps/system/settings/system.c:1077 fw/apps/system/settings/system.c:1185
+#, fuzzy
 msgid "South Korea KCC"
-msgstr ""
+msgstr "South Korea KCC"
 
 #: fw/apps/system/settings/system.c:1256
 msgid "Disconnect the charger to shut down."
@@ -1808,17 +1936,18 @@ msgstr ""
 
 #: fw/apps/system/settings/system.c:1290
 msgid "Do you want to shut down?"
-msgstr ""
+msgstr "Бажаєте вимкнути годинник?"
 
 #. / Refers to the class of all non-score vibes, e.g. 3rd party app vibes
 #: fw/apps/system/settings/system.c:1377
 #: fw/apps/system/settings/vibe_patterns.c:109
 msgid "System"
-msgstr ""
+msgstr "Система"
 
 #: fw/apps/system/settings/themes.c:108 fw/apps/system/settings/themes.c:167
+#, fuzzy
 msgid "Accent Color"
-msgstr ""
+msgstr "Основний колір"
 
 #: fw/apps/system/settings/themes.c:161
 msgid "Schedule Time"
@@ -1827,320 +1956,352 @@ msgstr ""
 #. / Title of the Themes Settings submenu in Settings
 #: fw/apps/system/settings/themes.c:209
 msgid "Themes"
-msgstr ""
+msgstr "Теми"
 
 #. / Title of the menu for changing the watch's timezone.
 #: fw/apps/system/settings/time.c:162 fw/apps/system/settings/time.c:401
 msgid "Timezone"
-msgstr ""
+msgstr "Часовий пояс"
 
 #: fw/apps/system/settings/time.c:262 fw/apps/system/settings/time.c:365
+#, fuzzy
 msgid "Set Time"
-msgstr ""
+msgstr "Встановити час"
 
 #: fw/apps/system/settings/time.c:301 fw/apps/system/settings/time.c:373
+#, fuzzy
 msgid "Set Date"
-msgstr ""
+msgstr "Встановити дату"
 
 #: fw/apps/system/settings/time.c:360
+#, fuzzy
 msgid "Time Source"
-msgstr ""
+msgstr "Джерело часу"
 
 #: fw/apps/system/settings/time.c:361 fw/apps/system/settings/time.c:392
 #: fw/apps/system/settings/time.c:396
+#, fuzzy
 msgid "Automatic"
-msgstr ""
+msgstr "Автоматично"
 
 #: fw/apps/system/settings/time.c:381
 msgid "Time Format"
-msgstr ""
+msgstr "Формат часу"
 
 #: fw/apps/system/settings/time.c:382
+#, fuzzy
 msgid "24h"
-msgstr ""
+msgstr "24 год"
 
 #: fw/apps/system/settings/time.c:382
+#, fuzzy
 msgid "12h"
-msgstr ""
+msgstr "12 год"
 
 #: fw/apps/system/settings/time.c:386
+#, fuzzy
 msgid "Timezone Source"
-msgstr ""
+msgstr "Джерело часового поясу"
 
 #: fw/apps/system/settings/time.c:446
 msgid "Date & Time"
-msgstr ""
+msgstr "Дата та час"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
 #: fw/apps/system/settings/timeline.c:71
+#, fuzzy
 msgid "Start Time"
-msgstr ""
+msgstr "У момент початку"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
 #: fw/apps/system/settings/timeline.c:73
 msgid "5 Min Before"
-msgstr ""
+msgstr "за 5 хвилин"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
 #: fw/apps/system/settings/timeline.c:75
 msgid "10 Min Before"
-msgstr ""
+msgstr "за 10 хвилин"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
 #: fw/apps/system/settings/timeline.c:77
 msgid "15 Min Before"
-msgstr ""
+msgstr "за 15 хвилин"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
 #: fw/apps/system/settings/timeline.c:79
 msgid "30 Min Before"
-msgstr ""
+msgstr "за 30 хвилин"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
 #: fw/apps/system/settings/timeline.c:89
+#, fuzzy
 msgid "Overlay"
-msgstr ""
+msgstr "Накладання"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
 #: fw/apps/system/settings/timeline.c:91
+#, fuzzy
 msgid "Shift up"
-msgstr ""
+msgstr "Зсунути вгору"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
 #: fw/apps/system/settings/timeline.c:93
+#, fuzzy
 msgid "Squish up"
-msgstr ""
+msgstr "Стиснути й підняти"
 
 #. / Shows up in the Timeline settings as the title for the "Timing" submenu window.
 #. / Shows up in the Timeline settings as the title for the menu item that controls the
 #. / timing for when to begin showing the peek for an event.
 #: fw/apps/system/settings/timeline.c:126
 #: fw/apps/system/settings/timeline.c:198
+#, fuzzy
 msgid "Timing"
-msgstr ""
+msgstr "Поява"
 
 #. / Shows up in the Timeline settings as the title for unsupported watchface behavior.
 #. / Shows up in the Timeline settings for watchfaces that do not support Quick View.
 #: fw/apps/system/settings/timeline.c:155
 #: fw/apps/system/settings/timeline.c:205
 msgid "Unsupported Faces"
-msgstr ""
+msgstr "Несумісні циферблати"
 
 #. / Shows up in the Timeline settings as a toggle-able "Quick View" item.
 #. / Title for the Timeline Quick View first use dialog.
 #: fw/apps/system/settings/timeline.c:186
 #: fw/apps/system/settings/timeline.c:267
 msgid "Quick View"
-msgstr ""
+msgstr "Швидкий перегляд"
 
 #: fw/apps/system/settings/timeline.c:270
 msgid "Appears on your watchface when an event is about to start."
-msgstr ""
+msgstr "З'являється на циферблаті за мить до події."
 
 #: fw/apps/system/settings/timeline.c:296
 #: fw/apps/system/timeline/timeline.c:1313
 msgid "Timeline"
-msgstr ""
+msgstr "Хронологія"
 
 #: fw/apps/system/settings/vibe_patterns.c:88
 msgid "Incoming Calls"
-msgstr ""
+msgstr "Вхідні виклики"
 
 #: fw/apps/system/settings/vibe_patterns.c:98
 msgid "Hourly Notice"
-msgstr ""
+msgstr "Щогодинні сповіщення"
 
 #: fw/apps/system/settings/vibe_patterns.c:103
+#, fuzzy
 msgid "On Disconnect"
-msgstr ""
+msgstr "У разі від'єднання"
 
 #: fw/apps/system/settings/vibe_patterns.c:285
 msgid "Sounds & Haptics"
-msgstr ""
+msgstr "Звук та вібрація"
 
 #: fw/apps/system/settings/vibe_patterns.c:287
 msgid "Vibrations"
-msgstr ""
+msgstr "Вібрація"
 
 #: fw/apps/system/timeline/timeline.c:909
 msgid "No events"
-msgstr ""
+msgstr "Події відсутні"
 
 #: fw/apps/system/timeline/timeline.c:1285
 msgid "Timeline Future"
-msgstr ""
+msgstr "Хронологія: Майбутнє"
 
 #. / The title of Timeline Past in Quick Launch. If the translation is too long, cut out
 #. / Timeline and only translate "Past".
 #: fw/apps/system/timeline/timeline.c:1300
 msgid "Timeline Past"
-msgstr ""
+msgstr "Хронологія: Минуле"
 
 #: fw/apps/system/toggle/airplane_mode.c:26
 msgid "Turn On Airplane Mode?"
-msgstr ""
+msgstr "Ввімкнути Авіарежим?"
 
 #: fw/apps/system/toggle/airplane_mode.c:27
 msgid "Turn Off Airplane Mode?"
-msgstr ""
+msgstr "Вимкнути Авіарежим?"
 
 #: fw/apps/system/toggle/airplane_mode.c:28
 msgid ""
 "Airplane\n"
 "Mode On"
 msgstr ""
+"Авіарежим\n"
+"Ввімкнуто"
 
 #: fw/apps/system/toggle/airplane_mode.c:29
 msgid ""
 "Airplane\n"
 "Mode Off"
 msgstr ""
+"Авіарежим\n"
+"вимкнуто"
 
 #. / The Quick Launch action that toggles Airplane Mode.
 #: fw/apps/system/toggle/airplane_mode.c:53
 msgid "Toggle Airplane Mode"
-msgstr ""
+msgstr "Керування Авіарежимом"
 
 #: fw/apps/system/toggle/backlight_state.c:27
 msgid "Turn On Backlight?"
-msgstr ""
+msgstr "Ввімкнути Підсвічення?"
 
 #: fw/apps/system/toggle/backlight_state.c:28
 msgid "Turn Off Backlight?"
-msgstr ""
+msgstr "Вимкнути Підсвічення?"
 
 #: fw/apps/system/toggle/backlight_state.c:29
+#, fuzzy
 msgid "Backlight On"
-msgstr ""
+msgstr "Підсвічення ввім."
 
 #: fw/apps/system/toggle/backlight_state.c:30
+#, fuzzy
 msgid "Backlight Off"
-msgstr ""
+msgstr "Підсвічення вим."
 
 #. / The Quick Launch action that toggles the backlight.
 #: fw/apps/system/toggle/backlight_state.c:54
 msgid "Toggle Backlight"
-msgstr ""
+msgstr "Керування Підсвіченням"
 
 #: fw/apps/system/toggle/motion_backlight.c:24
 msgid "Turn On Motion Backlight?"
-msgstr ""
+msgstr "Ввімкнути Підсвічення рухом?"
 
 #: fw/apps/system/toggle/motion_backlight.c:25
 msgid "Turn Off Motion Backlight?"
-msgstr ""
+msgstr "Вимкнути Підсвічення рухом?"
 
 #: fw/apps/system/toggle/motion_backlight.c:26
+#, fuzzy
 msgid ""
 "Motion\n"
 "Backlight On"
 msgstr ""
+"Підсвічення\n"
+"рухом ввім."
 
 #: fw/apps/system/toggle/motion_backlight.c:27
+#, fuzzy
 msgid ""
 "Motion\n"
 "Backlight Off"
 msgstr ""
+"Підсвічення\n"
+"рухом вим."
 
 #. / The Quick Launch action that toggles the motion backlight.
 #: fw/apps/system/toggle/motion_backlight.c:51
 msgid "Toggle Motion Backlight"
-msgstr ""
+msgstr "Керування Підсвіченням рухом"
 
 #. / The Quick Launch action that toggles Quiet Time.
 #: fw/apps/system/toggle/quiet_time.c:26
+#, fuzzy
 msgid "Toggle Quiet Time"
-msgstr ""
+msgstr "Керування Режимом тиші"
 
 #: fw/apps/system/toggle/touch.c:24
 msgid "Turn On Touch?"
-msgstr ""
+msgstr "Ввімкнути Дотики?"
 
 #: fw/apps/system/toggle/touch.c:25
 msgid "Turn Off Touch?"
-msgstr ""
+msgstr "Вимкнути Дотики?"
 
 #: fw/apps/system/toggle/touch.c:26
 msgid "Touch On"
-msgstr ""
+msgstr "Дотики ввім."
 
 #: fw/apps/system/toggle/touch.c:27
 msgid "Touch Off"
-msgstr ""
+msgstr "Дотики вим."
 
 #. / The Quick Launch action that turns the touchscreen on or off.
 #: fw/apps/system/toggle/touch.c:51
+#, fuzzy
 msgid "Toggle Touch"
-msgstr ""
+msgstr "Керування Дотиками"
 
 #: fw/apps/system/watchfaces.c:101
 msgid "Active"
-msgstr ""
+msgstr "Активний"
 
 #: fw/apps/system/watchfaces.c:222
 msgid "Watchfaces"
-msgstr ""
+msgstr "Циферблати"
 
 #: fw/apps/system/weather/expanded_view.c:180
 msgid "Sunset --:--"
-msgstr ""
+msgstr "Захід сонця --:--"
 
 #: fw/apps/system/weather/expanded_view.c:183
 #, c-format
 msgid "Sunset %s"
-msgstr ""
+msgstr "Захід сонця %s"
 
 #: fw/apps/system/weather/expanded_view.c:208
+#, fuzzy
 msgid "Last updated --:--"
-msgstr ""
+msgstr "Оновлено --:--"
 
 #: fw/apps/system/weather/expanded_view.c:211
-#, c-format
+#, c-format, fuzzy
 msgid "Last updated %s"
-msgstr ""
+msgstr "Оновлено %s"
 
 #: fw/apps/system/weather/expanded_view.c:397
 msgid "PRECIPITATION: --"
-msgstr ""
+msgstr "ОПАДИ: --"
 
 #: fw/apps/system/weather/expanded_view.c:399
 #, c-format
 msgid "PRECIPITATION: %d%%"
-msgstr ""
+msgstr "ОПАДИ: %d%%"
 
 #: fw/apps/system/weather/expanded_view.c:482
+#, fuzzy
 msgid "CURRENT UV"
-msgstr ""
+msgstr "ПОТОЧНИЙ УФ"
 
 #: fw/apps/system/weather/expanded_view.c:491
-#, c-format
+#, c-format, fuzzy
 msgid "UV %d"
-msgstr ""
+msgstr "УФ %d"
 
 #: fw/apps/system/weather/expanded_view.c:493
+#, fuzzy
 msgid "UV --"
-msgstr ""
+msgstr "УФ --"
 
 #: fw/apps/system/weather/expanded_view.c:495
 #, c-format
 msgid "RAIN %d%%"
-msgstr ""
+msgstr "ДОЩ %d%%"
 
 #: fw/apps/system/weather/expanded_view.c:497
 msgid "RAIN --"
-msgstr ""
+msgstr "ДОЩ --"
 
 #: fw/apps/system/weather/expanded_view.c:505
+#, fuzzy
 msgid "UV"
-msgstr ""
+msgstr "УФ"
 
 #: fw/apps/system/weather/expanded_view.c:507
 msgid "RAIN"
-msgstr ""
+msgstr "ДОЩ"
 
 #: fw/apps/system/weather/forecast_list.c:1288
+#, fuzzy
 msgid "WEATHER REPORT"
-msgstr ""
+msgstr "ПРОГНОЗ ПОГОДИ"
 
 #. / row at 164: with the deeper section lift (EXTRA_LIFT 19) the
 #. scrolled column's air splits evenly — solved for disc->graph = graph->pill =
@@ -2148,240 +2309,254 @@ msgstr ""
 #. holds for any temp spread).
 #: fw/apps/system/weather/forecast_list.c:1609
 msgid "PRECIPITATION"
-msgstr ""
+msgstr "ОПАДИ"
 
 #: fw/apps/system/weather/forecast_list.c:2227
-#, no-c-format
+#, fuzzy, no-c-format
 msgid "%a, %b %d"
-msgstr ""
+msgstr "%a, %b %d"
 
 #: fw/apps/system/weather/globe_view.c:2168
+#, fuzzy
 msgid "Saved Location"
-msgstr ""
+msgstr "Збережені місця"
 
 #: fw/apps/system/weather/globe_view.c:2172
 #: fw/apps/system/weather/globe_view.c:3700
 #: fw/apps/system/weather/globe_view.c:3754
 #: fw/apps/system/weather/saved_locations.c:162
+#, fuzzy
 msgid "Current Location"
-msgstr ""
+msgstr "Поточне місце"
 
 #: fw/apps/system/weather/globe_view.c:3102
 #: fw/apps/system/weather/globe_view.c:3109
 msgid "CITY SELECT"
-msgstr ""
+msgstr "ВИБІР МІСТА"
 
 #: fw/apps/system/weather/globe_view.c:3170
 #: fw/apps/system/weather/globe_view.c:3202
+#, fuzzy
 msgid "SAVED LOCATIONS"
-msgstr ""
+msgstr "ЗБЕРЕЖЕНІ МІСЦЯ"
 
 #: fw/apps/system/weather/saved_locations.c:160
+#, fuzzy
 msgid "Location"
-msgstr ""
+msgstr "Місце"
 
 #: fw/apps/system/weather/saved_locations.c:247
+#, fuzzy
 msgid "No Locations"
-msgstr ""
+msgstr "Місця відсутні"
 
 #: fw/apps/system/weather/saved_locations.c:248
 msgid "Add them in the app"
-msgstr ""
+msgstr "Додайте їх у застосунку"
 
 #: fw/apps/system/weather/weather.c:103 fw/services/weather/weather_types.c:49
 msgid "Sunny"
-msgstr ""
+msgstr "Сонячно"
 
 #: fw/apps/system/weather/weather.c:105 fw/services/weather/weather_types.c:51
 msgid "Partly Cloudy"
-msgstr ""
+msgstr "Мінлива хмарність"
 
 #: fw/apps/system/weather/weather.c:107 fw/services/weather/weather_types.c:53
 msgid "Cloudy"
-msgstr ""
+msgstr "Хмарно"
 
 #: fw/apps/system/weather/weather.c:109 fw/services/weather/weather_types.c:55
 msgid "Light Rain"
-msgstr ""
+msgstr "Слабкий дощ"
 
 #: fw/apps/system/weather/weather.c:111 fw/services/weather/weather_types.c:57
 msgid "Rain"
-msgstr ""
+msgstr "Дощ"
 
 #: fw/apps/system/weather/weather.c:113 fw/services/weather/weather_types.c:59
 msgid "Light Snow"
-msgstr ""
+msgstr "Слабкий сніг"
 
 #: fw/apps/system/weather/weather.c:115 fw/services/weather/weather_types.c:61
 msgid "Snow"
-msgstr ""
+msgstr "Сніг"
 
 #: fw/apps/system/weather/weather.c:117 fw/services/weather/weather_types.c:63
 msgid "Rain & Snow"
-msgstr ""
+msgstr "Дощ зі снігом"
 
 #: fw/apps/system/weather/weather.c:143 fw/services/clock/service.c:784
 #: fw/services/timeline/timeline_actions.c:1066
 msgid "Tomorrow"
-msgstr ""
+msgstr "Завтра"
 
 #: fw/apps/system/weather/weather.c:383
+#, fuzzy
 msgid ""
 "No location information available. To see weather, add locations in your "
 "Pebble mobile app."
 msgstr ""
+"Нема даних про місце. Щоб переглядати погоду, додайте місця у мобільному "
+"застосунку."
 
 #: fw/apps/system/weather/weather.c:794 fw/services/timeline/timeline.c:924
 msgid "Weather"
-msgstr ""
+msgstr "Погода"
 
 #: fw/apps/system/weather/weather_app_layout.c:404
 msgid "Snow likely"
-msgstr ""
+msgstr "Ймовірний сніг"
 
 #: fw/apps/system/weather/weather_app_layout.c:406
 msgid "Sleet likely"
-msgstr ""
+msgstr "Ймовірний мокрий сніг"
 
 #: fw/apps/system/weather/weather_app_layout.c:408
 msgid "Rain likely"
-msgstr ""
+msgstr "Ймовірний дощ"
 
 #: fw/apps/system/weather/weather_app_layout.c:416
 msgid "Chance of snow"
-msgstr ""
+msgstr "Можливий сніг"
 
 #: fw/apps/system/weather/weather_app_layout.c:418
 msgid "Chance of sleet"
-msgstr ""
+msgstr "Можливий мокрий сніг"
 
 #: fw/apps/system/weather/weather_app_layout.c:420
 msgid "Chance of rain"
-msgstr ""
+msgstr "Можливий дощ"
 
 #: fw/apps/system/weather/weather_app_layout.c:458
 msgid "Hail"
-msgstr ""
+msgstr "Град"
 
 #: fw/apps/system/weather/weather_app_layout.c:460
 msgid "Chance of storms"
-msgstr ""
+msgstr "Можливі грози"
 
 #: fw/apps/system/weather/weather_app_layout.c:462
 msgid "Heavy snow"
-msgstr ""
+msgstr "Сильний сніг"
 
 #: fw/apps/system/weather/weather_app_layout.c:464
 msgid "Heavy rain"
-msgstr ""
+msgstr "Сильний дощ"
 
 #: fw/apps/system/weather/weather_app_layout.c:466
+#, fuzzy
 msgid "Wintry mix"
-msgstr ""
+msgstr "Змішані зимові опади"
 
 #: fw/apps/system/weather/weather_app_layout.c:468
 msgid "Flood risk"
-msgstr ""
+msgstr "Ризик повені"
 
 #: fw/apps/system/weather/weather_app_layout.c:470
 msgid "Strong winds"
-msgstr ""
+msgstr "Сильний вітер"
 
 #: fw/apps/system/weather/weather_app_layout.c:473
 msgid "Below freezing"
-msgstr ""
+msgstr "Нижче нуля"
 
 #: fw/apps/system/weather/weather_app_layout.c:475
 msgid "Hard frost"
-msgstr ""
+msgstr "Сильний мороз"
 
 #: fw/apps/system/weather/weather_app_layout.c:478
+#, fuzzy
 msgid "Feels below freezing"
-msgstr ""
+msgstr "За відчуттями нижче нуля"
 
 #: fw/apps/system/weather/weather_app_layout.c:480
 msgid "Heatwave"
-msgstr ""
+msgstr "Спека"
 
 #: fw/apps/system/weather/weather_app_layout.c:482
 msgid "Very high UV"
-msgstr ""
+msgstr "Дуже високий УФ"
 
 #: fw/apps/system/weather/weather_app_layout.c:484
 msgid "High UV"
-msgstr ""
+msgstr "Високий УФ"
 
 #: fw/apps/system/weather/weather_app_layout.c:487
 msgid "Poor visibility"
-msgstr ""
+msgstr "Погана видимість"
 
 #: fw/apps/system/weather/weather_app_layout.c:489
 msgid "High humidity"
-msgstr ""
+msgstr "Висока вологість"
 
 #: fw/apps/system/weather/weather_app_layout.c:495
 msgid "Windy"
-msgstr ""
+msgstr "Вітряно"
 
 #: fw/apps/system/weather/weather_app_layout.c:504
 msgid "Clear skies"
-msgstr ""
+msgstr "Безхмарно"
 
 #: fw/apps/system/weather/weather_app_layout.c:506
 msgid "Light winds"
-msgstr ""
+msgstr "Слабкий вітер"
 
 #: fw/apps/system/weather/weather_app_layout.c:509
+#, fuzzy
 msgid "Calm breeze"
-msgstr ""
+msgstr "Тихий бриз"
 
 #: fw/apps/system/weather/weather_app_layout.c:512
+#, fuzzy
 msgid "Fair conditions"
-msgstr ""
+msgstr "Переважно ясно"
 
 #: fw/apps/system/weather/weather_app_layout.c:514
+#, fuzzy
 msgid "Mild conditions"
-msgstr ""
+msgstr "Лагідна погода"
 
 #: fw/apps/system/weather/weather_app_layout.c:516
+#, fuzzy
 msgid "All clear"
-msgstr ""
+msgstr "Спокійна погода"
 
 #: fw/apps/system/weather/weather_app_layout.c:526
 msgid "N"
-msgstr ""
+msgstr "Пн"
 
 #: fw/apps/system/weather/weather_app_layout.c:526
 msgid "NE"
-msgstr ""
+msgstr "ПнСх"
 
 #: fw/apps/system/weather/weather_app_layout.c:526
 msgid "E"
-msgstr ""
+msgstr "Сх"
 
 #: fw/apps/system/weather/weather_app_layout.c:526
 msgid "SE"
-msgstr ""
+msgstr "ПдСх"
 
 #: fw/apps/system/weather/weather_app_layout.c:527
 msgid "S"
-msgstr ""
+msgstr "Пд"
 
 #: fw/apps/system/weather/weather_app_layout.c:527
 msgid "SW"
-msgstr ""
+msgstr "ПдЗх"
 
 #: fw/apps/system/weather/weather_app_layout.c:527
 msgid "W"
-msgstr ""
+msgstr "Зх"
 
 #: fw/apps/system/weather/weather_app_layout.c:527
 msgid "NW"
-msgstr ""
+msgstr "ПнЗх"
 
 #: fw/apps/system/weather/weather_app_layout.c:539
 msgid "mph"
-msgstr ""
+msgstr "миль/год"
 
 #: fw/apps/system/weather/weather_app_layout.c:543
 msgid "m/s"
@@ -2393,145 +2568,148 @@ msgstr ""
 
 #: fw/apps/system/weather/weather_app_layout.c:551
 msgid "km/h"
-msgstr ""
+msgstr "км/год"
 
 #: fw/apps/system/weather/weather_app_layout.c:574
-#, c-format
+#, c-format, fuzzy
 msgid "%s at %d%s."
-msgstr ""
+msgstr "%s, %d%s."
 
 #: fw/apps/system/weather/weather_app_layout.c:574
 #, c-format
 msgid "Winds %s at %d%s."
-msgstr ""
+msgstr "Вітер %s, %d%s."
 
 #: fw/apps/system/weather/weather_app_layout.c:579
-#, c-format
+#, c-format, fuzzy
 msgid "At %d%s."
-msgstr ""
+msgstr "%d%s."
 
 #: fw/apps/system/weather/weather_app_layout.c:579
 #, c-format
 msgid "Winds at %d%s."
-msgstr ""
+msgstr "Вітер %d%s."
 
 #: fw/apps/system/weather/weather_app_layout.c:588
 #, c-format
 msgid "Precipitation %d%%."
-msgstr ""
+msgstr "Опади %d%%."
 
 #: fw/apps/system/weather/weather_app_layout.c:863
 #: fw/apps/system/weather/weather_app_layout.c:1152
 msgid "TODAY"
-msgstr ""
+msgstr "СЬОГОДНІ"
 
 #: fw/apps/system/weather/weather_app_layout.c:894
 #: fw/apps/system/weather/weather_app_layout.c:1238
 msgid "TOMORROW"
-msgstr ""
+msgstr "ЗАВТРА"
 
 #: fw/apps/system/weather/weather_app_layout.c:991
 #: fw/apps/system/weather/weather_app_layout.c:1088
 msgid "UV INDEX"
-msgstr ""
+msgstr "ІНДЕКС УФ"
 
 #. / Zone 1 HR Label
 #: fw/apps/system/workout/active.c:136
 msgid "FAT BURN"
-msgstr ""
+msgstr "СПАЛЕННЯ ЖИРУ"
 
 #. / Zone 2 HR Label
 #: fw/apps/system/workout/active.c:139
+#, fuzzy
 msgid "ENDURANCE"
-msgstr ""
+msgstr "ВИТРИМКА"
 
 #. / Zone 3 HR Label
 #: fw/apps/system/workout/active.c:142
+#, fuzzy
 msgid "PERFORMANCE"
-msgstr ""
+msgstr "ЕФЕКТ"
 
 #. / Default/Zone 0 HR Label
 #: fw/apps/system/workout/active.c:145
 msgid "HEART RATE"
-msgstr ""
+msgstr "ПУЛЬС"
 
 #. / Duration Label
 #: fw/apps/system/workout/active.c:162
 msgid "DURATION"
-msgstr ""
+msgstr "ТРИВАЛІСТЬ"
 
 #. / Average Pace Label
 #: fw/apps/system/workout/active.c:166
 msgid "AVG PACE"
-msgstr ""
+msgstr "СЕР. ТЕМП"
 
 #. / Average Pace Label with units
 #: fw/apps/system/workout/active.c:169
+#, fuzzy
 msgid "AVG PACE (/MI)"
-msgstr ""
+msgstr "СЕР. ТЕМП (/МИ)"
 
 #: fw/apps/system/workout/active.c:170
 msgid "AVG PACE (/KM)"
-msgstr ""
+msgstr "СЕР. ТЕМП (/КМ)"
 
 #. / Pace Label
 #: fw/apps/system/workout/active.c:175
 msgid "PACE"
-msgstr ""
+msgstr "ТЕМП"
 
 #. / Pace Label with units
 #: fw/apps/system/workout/active.c:178
 msgid "PACE (/MI)"
-msgstr ""
+msgstr "ТЕМП (/МИ)"
 
 #: fw/apps/system/workout/active.c:179
 msgid "PACE (/KM)"
-msgstr ""
+msgstr "ТЕМП (/КМ)"
 
 #. / Speed Label
 #: fw/apps/system/workout/active.c:184
 msgid "SPEED"
-msgstr ""
+msgstr "ШВИДКІСТЬ"
 
 #. / Speed Label with units
 #: fw/apps/system/workout/active.c:187
 msgid "SPEED (MPH)"
-msgstr ""
+msgstr "ШВИДКІСТЬ (МИ/ГОД)"
 
 #: fw/apps/system/workout/active.c:188
 msgid "SPEED (KM/H)"
-msgstr ""
+msgstr "ШВИДКІСТЬ (КМ/ГОД)"
 
 #. / Distance Label with units
 #: fw/apps/system/workout/active.c:196
 msgid "DISTANCE (MI)"
-msgstr ""
+msgstr "ВІДСТАНЬ (МИ)"
 
 #: fw/apps/system/workout/active.c:197
 msgid "DISTANCE (KM)"
-msgstr ""
+msgstr "ВІДСТАНЬ (КМ)"
 
 #. / Steps Label
 #: fw/apps/system/workout/active.c:201 fw/apps/system/workout/active.c:1185
 #: fw/apps/system/workout/active.c:1203 fw/apps/system/workout/active.c:1227
 msgid "STEPS"
-msgstr ""
+msgstr "КРОКИ"
 
 #: fw/apps/system/workout/active.c:306 fw/apps/system/workout/active.c:363
 msgid "MI"
-msgstr ""
+msgstr "МИ"
 
 #: fw/apps/system/workout/active.c:306 fw/apps/system/workout/active.c:363
 msgid "KM"
-msgstr ""
+msgstr "КМ"
 
 #: fw/apps/system/workout/active.c:382
 msgid "MPH"
-msgstr ""
+msgstr "МИ/ГОД"
 
 #: fw/apps/system/workout/active.c:382
 msgid "KM/H"
-msgstr ""
+msgstr "КМ/ГОД"
 
 #: fw/apps/system/workout/active.c:1053
 msgid "COMPLETE"
@@ -2632,46 +2810,49 @@ msgstr "ГАЙДА!"
 
 #: fw/apps/system/workout/sports.c:353
 msgid "Sports"
-msgstr ""
+msgstr "Спорт"
 
 #: fw/apps/system/workout/utils.c:20
 msgid ""
 "Still sweating? Your workout is active and will be ended soon. Open the "
 "workout to keep it going."
 msgstr ""
+"Ще тренуєтеся? Ваше тренування скоро завершиться. Відкрийте його, щоб "
+"продовжити."
 
 #: fw/apps/system/workout/utils.c:31
 #: fw/popups/ble_hrm/ble_hrm_reminder_popup.c:24
 #: fw/services/activity/activity_insights.c:1266
 #: fw/services/notifications/ancs/ancs_item.c:150
 msgid "Dismiss"
-msgstr ""
+msgstr "Відхилити"
 
 #: fw/apps/system/workout/utils.c:35
 msgid "End Workout"
-msgstr ""
+msgstr "Закінчити тренування"
 
 #: fw/apps/system/workout/utils.c:41
 msgid "Open Workout"
-msgstr ""
+msgstr "Відкрити тренування"
 
 #. / Workout Label
 #: fw/apps/system/workout/utils.c:94 fw/apps/system/workout/workout.c:268
 #: fw/services/activity/activity_insights.c:1789
 msgid "Workout"
-msgstr ""
+msgstr "Тренування"
 
 #. / Walk Label
 #: fw/apps/system/workout/utils.c:97
 #: fw/services/activity/activity_insights.c:1787
+#, fuzzy
 msgid "Walk"
-msgstr ""
+msgstr "Ходьба"
 
 #. / Run Label
 #: fw/apps/system/workout/utils.c:100
 #: fw/services/activity/activity_insights.c:1785
 msgid "Run"
-msgstr ""
+msgstr "Біг"
 
 #. / Workout automatically detected dialog text
 #: fw/apps/system/workout/utils.c:118
@@ -2679,6 +2860,8 @@ msgid ""
 "Workout\n"
 "Detected"
 msgstr ""
+"Виявлено\n"
+"тренування"
 
 #. / Walk automatically detected dialog text
 #: fw/apps/system/workout/utils.c:121
@@ -2686,6 +2869,8 @@ msgid ""
 "Walk\n"
 "Detected"
 msgstr ""
+"Виявлено\n"
+"ходьбу"
 
 #. / Run automatically detected dialog text
 #: fw/apps/system/workout/utils.c:124
@@ -2693,38 +2878,44 @@ msgid ""
 "Run\n"
 "Detected"
 msgstr ""
+"Виявлено\n"
+"біг"
 
 #: fw/apps/system/workout/workout.c:167
 msgid ""
 "Workout\n"
 "Ended"
 msgstr ""
+"Тренування\n"
+"закінчено"
 
 #: fw/apps/system/workout/workout.c:193
 msgid "Workout requires the time to be synced. Please connect your phone."
-msgstr ""
+msgstr "Для тренувань потрібна синхронізація часу. Під'єднайте телефон."
 
 #. / Health disabled text
 #: fw/apps/system/workout/workout.c:201
 msgid "Enable Pebble Health in the mobile app to track workouts"
 msgstr ""
+"Ввімкніть Pebble Health у мобільному застосунку для відстеження тренувань"
 
 #: fw/apps/system/workout/workout.c:210
 msgid ""
 "Wear your watch snug and 2 fingers' width above your wrist bone for best "
 "results."
 msgstr ""
+"Для точних результатів носіть годинник щільно, на два пальці вище зап'ястя."
 
 #: fw/apps/watch/kickstart/kickstart.c:365
 #, c-format
 msgid "%d BPM"
-msgstr ""
+msgstr "%d уд./хв."
 
 #. / Step count greater than 1000 with a thousands separator
 #: fw/apps/watch/kickstart/kickstart.c:475
-#, c-format
+#, c-format, fuzzy
 msgid "%d,%03d"
-msgstr ""
+msgstr "%d,%03d"
 
 #. / Step count less than 1000
 #: fw/apps/watch/kickstart/kickstart.c:479
@@ -2732,43 +2923,48 @@ msgstr ""
 #: fw/services/clock/service.c:1005
 #, c-format
 msgid "%d"
-msgstr ""
+msgstr "%d"
 
 #: fw/apps/watch/tictoc/bw/tictoc_bw.c:77 fw/services/clock/service.c:883
 #: fw/services/clock/service.c:891
+#, fuzzy
 msgid "%B %e"
-msgstr ""
+msgstr "%e %B"
 
 #: fw/popups/alarm_popup.c:60
 #, c-format
 msgid "Snooze for %d minutes"
-msgstr ""
+msgstr "Відкладено на %d хвилин"
 
 #: fw/popups/alarm_popup.c:77
+#, fuzzy
 msgid "Alarm dismissed"
-msgstr ""
+msgstr "Будильник відхилено"
 
 #: fw/popups/ble_hrm/ble_hrm_reminder_popup.c:15
 msgid ""
 "Your heart rate has been shared with an app on your phone for several hours. "
 "This could affect your battery. Stop sharing now?"
 msgstr ""
+"Дані про пульс кілька годин надходять до застосунку на телефоні. Це впливає "
+"на час роботи пристрою. Вимкнути передавання?"
 
 #: fw/popups/ble_hrm/ble_hrm_sharing_popup.c:28
 msgid "Sharing Heart Rate"
-msgstr ""
+msgstr "Передавання пульсу"
 
 #: fw/popups/ble_hrm/ble_hrm_sharing_popup.c:65
 msgid "Share heart rate?"
-msgstr ""
+msgstr "Передати пульс?"
 
 #: fw/popups/ble_hrm/ble_hrm_stop_sharing_popup.c:18
+#, fuzzy
 msgid "Heart Rate Not Shared"
-msgstr ""
+msgstr "Пульс не передається"
 
 #: fw/popups/bluetooth_pairing_ui.c:228
 msgid "Pair?"
-msgstr ""
+msgstr "Зпарити?"
 
 #: fw/popups/crashed_ui.c:92
 #, c-format
@@ -2777,18 +2973,25 @@ msgid ""
 "\n"
 "Open app?"
 msgstr ""
+"%s%.*s не відповідає.\n"
+"\n"
+"Відкрити застосунок?"
 
 #: fw/popups/crashed_ui.c:148
 msgid ""
 "A bug report has been captured. Please finish uploading the bug report using "
 "the Pebble phone app."
 msgstr ""
+"Звіт про помилку створено. Завершіть його публікацію у застосунку на "
+"телефоні."
 
 #: fw/popups/health_tracking_ui.c:74
 msgid ""
 "This feature requires Pebble Health to work. Enable Health in the Pebble "
 "mobile app to continue."
 msgstr ""
+"Для роботи потрібна функція Pebble Health. Увімкніть її у мобільному "
+"застосунку."
 
 #: fw/popups/mic_banner.c:115
 msgid "Listening..."
@@ -2796,232 +2999,250 @@ msgstr "Слухаю..."
 
 #: fw/popups/notifications/notification_window.c:734
 msgid "Snoozed"
-msgstr ""
+msgstr "Відкладено"
 
 #: fw/popups/notifications/notification_window.c:767
 msgid "Muted"
-msgstr ""
+msgstr "Приглушено"
 
 #: fw/popups/notifications/notification_window.c:937
+#, fuzzy
 msgid "Snooze"
-msgstr ""
+msgstr "Відкласти"
 
 #: fw/popups/notifications/notification_window.c:955
-#, c-format
+#, c-format, fuzzy
 msgid "Mute %s"
-msgstr ""
+msgstr "Приглушити %s"
 
 #: fw/popups/notifications/notification_window.c:973
+#, fuzzy
 msgid "Mute 1 Hour"
-msgstr ""
+msgstr "Приглушити на 1 годину"
 
 #: fw/popups/notifications/notification_window.c:976
+#, fuzzy
 msgid "Mute Today"
-msgstr ""
+msgstr "Приглушити на сьогодні"
 
 #: fw/popups/notifications/notification_window.c:979
 msgid "Mute Always"
-msgstr ""
+msgstr "Приглушити назавжди"
 
 #: fw/popups/notifications/notification_window.c:982
 msgid "Mute Weekends"
-msgstr ""
+msgstr "Приглушити у вихідні"
 
 #: fw/popups/notifications/notification_window.c:985
 msgid "Mute Weekdays"
-msgstr ""
+msgstr "Приглушити у будні"
 
 #: fw/popups/notifications/notification_window.c:993
 msgid "Dismiss All"
-msgstr ""
+msgstr "Відхилити все"
 
 #: fw/popups/notifications/notification_window.c:999
 msgid "End Quiet Time"
-msgstr ""
+msgstr "Завершити Режим тиші"
 
 #: fw/popups/notifications/notification_window.c:1000
 msgid "Start Quiet Time"
-msgstr ""
+msgstr "Розпочати режим тиші"
 
 #: fw/popups/phone_ui.c:581
 msgid "Call Accepted"
-msgstr ""
+msgstr "Виклик прийнято"
 
 #: fw/popups/phone_ui.c:584
+#, fuzzy
 msgid "Disconnected"
-msgstr ""
+msgstr "Роз'єднано"
 
 #: fw/popups/phone_ui.c:587
 msgid "Call Ended"
-msgstr ""
+msgstr "Виклик завершено"
 
 #: fw/popups/phone_ui.c:590
 msgid "Call Declined"
-msgstr ""
+msgstr "Виклик відхилено"
 
 #: fw/popups/switch_worker_ui.c:94
 #, c-format
 msgid "Run %s instead of %s as the background app?"
-msgstr ""
+msgstr "Запустити %s замість %s як фоновий застосунок?"
 
 #: fw/popups/wakeup_ui.c:53
 msgid "While your Pebble was off wakeup events occurred for:\n"
-msgstr ""
+msgstr "Поки годинник було вимкнено, відбулись події пробудження для::\n"
 
 #: fw/process_management/app_manager.c:530
 #, c-format
 msgid "%.*s is not responding"
-msgstr ""
+msgstr "%.*s не відповідає"
 
 #: fw/process_management/process_manager.c:197
 msgid "This app requires a newer version of the Pebble firmware."
-msgstr ""
+msgstr "Цей застосунок вимагає новішої версії прошивки Pebble."
 
 #: fw/process_management/process_manager.c:342
 msgid "This app uses RockyJS which is no longer supported."
-msgstr ""
+msgstr "Цей застосунок використовує RockyJS, що більше не підтримується."
 
 #: fw/services/activity/activity_insights.c:194
 msgid ""
 "How are you feeling? Have you noticed extra focus, better mood or extra "
 "energy? You have been sleeping great this week! Keep it up!"
 msgstr ""
+"Як ви почуваєтеся? Помітили, що краще зосереджуєтеся, маєте кращий настрій "
+"або більше енергії? Цього тижня ви чудово спали! Так тримати!"
 
 #: fw/services/activity/activity_insights.c:196
 msgid "I feel fabulous!"
-msgstr ""
+msgstr "Почуваюся чудово!"
 
 #: fw/services/activity/activity_insights.c:197
 msgid "About average"
-msgstr ""
+msgstr "Близько до середнього"
 
 #: fw/services/activity/activity_insights.c:198
 msgid "I'm still tired"
-msgstr ""
+msgstr "Втома ще не минула"
 
 #: fw/services/activity/activity_insights.c:199
 #: fw/services/activity/activity_insights.c:217
 msgid "Awesome!"
-msgstr ""
+msgstr "Чудово!"
 
 #: fw/services/activity/activity_insights.c:200
 #: fw/services/activity/activity_insights.c:218
 msgid "Keep it up!"
-msgstr ""
+msgstr "Так тримати!"
 
 #: fw/services/activity/activity_insights.c:201
 #: fw/services/activity/activity_insights.c:219
 msgid "We'll get there!"
-msgstr ""
+msgstr "Ми впораємося!"
 
 #: fw/services/activity/activity_insights.c:212
 msgid ""
 "Congratulations - you're having a super active day! Activity makes you more "
 "focused and creative. How do you feel?"
 msgstr ""
+"Вітаю! Сьогодні ви надзвичайно активні! Активність покращує увагу й розвиває "
+"творчість. Як почуваєтеся?"
 
 #: fw/services/activity/activity_insights.c:214
 #: fw/services/activity/activity_insights.c:983
 msgid "I feel great!"
-msgstr ""
+msgstr "Почуваюся добре!"
 
 #: fw/services/activity/activity_insights.c:215
 msgid "About the same"
-msgstr ""
+msgstr "Приблизно так само"
 
 #: fw/services/activity/activity_insights.c:216
 msgid "Not feeling it"
-msgstr ""
+msgstr "Не дуже добре"
 
 #: fw/services/activity/activity_insights.c:246
 msgid "Activity Summary"
-msgstr ""
+msgstr "Зведення активності"
 
 #: fw/services/activity/activity_insights.c:254
 msgid "Do you feel more energetic, sharper or optimistic? Being active helps!"
 msgstr ""
+"Маєте більше енергії, ясніше мислите або відчуваєте оптимізм? Активність "
+"допомагає!"
 
 #: fw/services/activity/activity_insights.c:255
 msgid "GREAT DAY TODAY"
-msgstr ""
+msgstr "ЧУДОВИЙ ДЕНЬ"
 
 #: fw/services/activity/activity_insights.c:259
 msgid "You're being consistent and that's important, keep at it!"
-msgstr ""
+msgstr "Ви дотримуєтеся режиму, і це важливо. Так тримати!"
 
 #: fw/services/activity/activity_insights.c:260
 msgid "CONSISTENT!"
-msgstr ""
+msgstr "СТАЛІСТЬ!"
 
 #: fw/services/activity/activity_insights.c:264
 #: fw/services/activity/activity_insights.c:269
 msgid "Resting is fine, but try to recover and step it up tomorrow!"
 msgstr ""
+"Відпочинок — це добре, та спробуйте відновити сили й завтра бути активнішими!"
 
 #: fw/services/activity/activity_insights.c:265
 #: fw/services/activity/activity_insights.c:270
 msgid "NOT VERY ACTIVE"
-msgstr ""
+msgstr "НИЗЬКА АКТИВНІСТЬ"
 
 #: fw/services/activity/activity_insights.c:278
 msgid "Sleep Summary"
-msgstr ""
+msgstr "Підсумок сну"
 
 #: fw/services/activity/activity_insights.c:287
+#, fuzzy
 msgid "You had a good night! Feel the energy 😃"
-msgstr ""
+msgstr "Ви добре виспалися! Відчуйте приплив енергії 😃"
 
 #: fw/services/activity/activity_insights.c:291
 msgid "It's great that you're keeping a consistent sleep routine!"
-msgstr ""
+msgstr "Чудово, що ви дотримуєтесь режиму сну!"
 
 #: fw/services/activity/activity_insights.c:295
 #: fw/services/activity/activity_insights.c:299
 msgid "A good night's sleep goes a long way! Try to get more hours tonight."
-msgstr ""
+msgstr "Гарний сон має значення! Поспіть сьогодні довше."
 
 #: fw/services/activity/activity_insights.c:448
 msgid "Open App"
-msgstr ""
+msgstr "Відкрити застосунок"
 
 #: fw/services/activity/activity_insights.c:554
 #: fw/services/activity/activity_insights.c:560
+#, fuzzy
 msgid "BELOW AVG"
-msgstr ""
+msgstr "НИЖЧЕ СЕР."
 
 #: fw/services/activity/activity_insights.c:554
 #: fw/services/activity/activity_insights.c:560
+#, fuzzy
 msgid "Below avg"
-msgstr ""
+msgstr "Нижче сер."
 
 #: fw/services/activity/activity_insights.c:566
+#, fuzzy
 msgid "ON AVG"
-msgstr ""
+msgstr "СЕРЕДНЄ"
 
 #: fw/services/activity/activity_insights.c:566
+#, fuzzy
 msgid "On avg"
-msgstr ""
+msgstr "Середнє"
 
 #: fw/services/activity/activity_insights.c:571
+#, fuzzy
 msgid "ABOVE AVG"
-msgstr ""
+msgstr "ВИЩЕ СЕР."
 
 #: fw/services/activity/activity_insights.c:571
+#, fuzzy
 msgid "Above avg"
-msgstr ""
+msgstr "Вище сер."
 
 #: fw/services/activity/activity_insights.c:853
 msgid "%H:%M"
-msgstr ""
+msgstr "%H:%M"
 
 #: fw/services/activity/activity_insights.c:853
 msgid "%l:%M%p"
-msgstr ""
+msgstr "%l:%M%p"
 
 #: fw/services/activity/activity_insights.c:877
-#, c-format
+#, c-format, fuzzy
 msgid "%uH %uM Sleep"
-msgstr ""
+msgstr "%uгод %uхв сну"
 
 #: fw/services/activity/activity_insights.c:906
 msgid "Short night! Try going to bed a little earlier tonight."
@@ -3038,35 +3259,39 @@ msgstr ""
 "цьому найкраще."
 
 #: fw/services/activity/activity_insights.c:945
+#, fuzzy
 msgid "Nap Time"
-msgstr ""
+msgstr "Час дрімоти"
 
 #: fw/services/activity/activity_insights.c:953
 #, c-format
 msgid "%s of sleep"
-msgstr ""
+msgstr "%s сну"
 
 #: fw/services/activity/activity_insights.c:958
+#, fuzzy
 msgid "YOU NAPPED"
-msgstr ""
+msgstr "ВИ ДРІМАЛИ"
 
 #: fw/services/activity/activity_insights.c:958
+#, fuzzy
 msgid "Of napping"
-msgstr ""
+msgstr "дрімання"
 
 #: fw/services/activity/activity_insights.c:966
 #, c-format
 msgid "%s - %s"
-msgstr ""
+msgstr "%s - %s"
 
 #: fw/services/activity/activity_insights.c:987
+#, fuzzy
 msgid "I need more"
-msgstr ""
+msgstr "Треба більше"
 
 #: fw/services/activity/activity_insights.c:1017
-#, c-format
+#, c-format, fuzzy
 msgid "Aren't naps great? You knocked out for %dH %dM!"
-msgstr ""
+msgstr "Як добре подрімати! Ви спали %dгод %dхв!"
 
 #: fw/services/activity/activity_insights.c:1033
 msgid "I didn't nap!?"
