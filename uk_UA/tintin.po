@@ -3294,47 +3294,59 @@ msgid "Aren't naps great? You knocked out for %dH %dM!"
 msgstr "Як добре подрімати! Ви спали %dгод %dхв!"
 
 #: fw/services/activity/activity_insights.c:1033
+#, fuzzy
 msgid "I didn't nap!?"
-msgstr ""
+msgstr "Я не дрімав!?"
 
 #: fw/services/activity/activity_insights.c:1274
+#, fuzzy
 msgid "Open Pin"
-msgstr ""
+msgstr "Відкрити пін"
 
 #: fw/services/activity/activity_insights.c:1360
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "Killer job! You've walked %d steps today which is %d%% above your typical. "
 "Do it again tomorrow and you'll be on top of the world!"
 msgstr ""
+"Чудово! Сьогодні ви пройшли %d кроків, що на %d%% більше, ніж зазвичай. "
+"Повторіть це завтра — і світ буде біля ваших ніг!"
 
 #: fw/services/activity/activity_insights.c:1363
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "Nice moves! You've walked %d steps today which is %d%% above your typical. "
 "Crush it again tomorrow 😀"
 msgstr ""
+"Чудово! Сьогодні ви пройшли %d кроків, що на %d%% більше, ніж зазвичай. Так "
+"тримати! 😀"
 
 #: fw/services/activity/activity_insights.c:1365
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "Hey rockstar 🎤 You've walked %d steps today which is %d%% above your "
 "typical. Nothing can stop you!"
 msgstr ""
+"Гей, рокзірко! 🎤 Сьогодні ви пройшли %d кроків, що на %d%% більше, ніж "
+"зазвичай. Вас не зупинити!"
 
 #: fw/services/activity/activity_insights.c:1367
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "We can barely keep up! You walked %d steps today which is %d%% above your "
 "typical. You're on 🔥"
 msgstr ""
+"Ми ледве встигаємо за вами! Сьогодні ви пройшли %d кроків, що на %d%% "
+"більше, ніж зазвичай. Ви просто 🔥"
 
 #: fw/services/activity/activity_insights.c:1370
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "You walked %d steps today which is %d%% above your typical. You just "
 "outstepped YOURSELF. Mic drop."
 msgstr ""
+"Сьогодні ви пройшли %d кроків, що на %d%% більше, ніж зазвичай. Ви "
+"перевершили СЕБЕ! Оце так!"
 
 #: fw/services/activity/activity_insights.c:1379
 #, c-format
