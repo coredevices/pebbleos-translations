@@ -2766,16 +2766,16 @@ msgstr ""
 msgid "While your Pebble was off wakeup events occurred for:\n"
 msgstr ""
 
-#: fw/process_management/app_manager.c:493
+#: fw/process_management/app_manager.c:499
 #, c-format
 msgid "%.*s is not responding"
 msgstr ""
 
-#: fw/process_management/process_manager.c:194
+#: fw/process_management/process_manager.c:196
 msgid "This app requires a newer version of the Pebble firmware."
 msgstr ""
 
-#: fw/process_management/process_manager.c:339
+#: fw/process_management/process_manager.c:341
 msgid "This app uses RockyJS which is no longer supported."
 msgstr ""
 
