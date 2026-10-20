@@ -3731,7 +3731,7 @@ msgstr ""
 msgid "Later today"
 msgstr ""
 
-#: fw/services/timeline/timeline_layout.c:793
+#: fw/services/timeline/timeline_layout.c:799
 msgid "Last updated"
 msgstr ""
 
