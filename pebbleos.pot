@@ -124,31 +124,31 @@ msgstr ""
 msgid "December"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1474
+#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1475
 msgid "Sun"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1474
+#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1475
 msgid "Mon"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1474
+#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1475
 msgid "Tue"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1475
+#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1476
 msgid "Wed"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1475
+#: fw/applib/pbl_std/timelocal.c:49 fw/services/alarms/alarm.c:1476
 msgid "Thu"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:50 fw/services/alarms/alarm.c:1475
+#: fw/applib/pbl_std/timelocal.c:50 fw/services/alarms/alarm.c:1476
 msgid "Fri"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:50 fw/services/alarms/alarm.c:1476
+#: fw/applib/pbl_std/timelocal.c:50 fw/services/alarms/alarm.c:1477
 msgid "Sat"
 msgstr ""
 
@@ -460,27 +460,27 @@ msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would go off every
 #. / day. Respect capitalization!
-#: fw/applib/ui/day_picker.c:46 fw/services/alarms/alarm.c:1419
+#: fw/applib/ui/day_picker.c:46 fw/services/alarms/alarm.c:1420
 msgid "Every Day"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / every weekday. Respect capitalization!
 #: fw/applib/ui/day_picker.c:46 fw/apps/system/settings/quiet_time.c:259
-#: fw/services/alarms/alarm.c:1429
+#: fw/services/alarms/alarm.c:1430
 msgid "Weekdays"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / each day on the weekend. Respect capitalization!
 #: fw/applib/ui/day_picker.c:47 fw/apps/system/settings/quiet_time.c:267
-#: fw/services/alarms/alarm.c:1439
+#: fw/services/alarms/alarm.c:1440
 msgid "Weekends"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / on a custom choice of days. Respect capitalization!
-#: fw/applib/ui/day_picker.c:47 fw/services/alarms/alarm.c:1461
+#: fw/applib/ui/day_picker.c:47 fw/services/alarms/alarm.c:1462
 msgid "Custom"
 msgstr ""
 
@@ -645,7 +645,7 @@ msgid "Basic Alarm"
 msgstr ""
 
 #: fw/apps/system/alarms/alarm_editor.c:261 fw/apps/system/alarms/alarms.c:350
-#: fw/services/alarms/alarm.c:459 fw/services/alarms/alarm_pin.c:75
+#: fw/services/alarms/alarm.c:460 fw/services/alarms/alarm_pin.c:75
 msgid "Smart Alarm"
 msgstr ""
 
@@ -2227,7 +2227,7 @@ msgid ""
 "Pebble mobile app."
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:796 fw/services/timeline/timeline.c:921
+#: fw/apps/system/weather/weather.c:770 fw/services/timeline/timeline.c:921
 msgid "Weather"
 msgstr ""
 
@@ -2686,7 +2686,7 @@ msgid ""
 "the Pebble phone app."
 msgstr ""
 
-#: fw/popups/health_tracking_ui.c:76
+#: fw/popups/health_tracking_ui.c:74
 msgid ""
 "This feature requires Pebble Health to work. Enable Health in the Pebble "
 "mobile app to continue."
@@ -2766,7 +2766,7 @@ msgstr ""
 msgid "While your Pebble was off wakeup events occurred for:\n"
 msgstr ""
 
-#: fw/process_management/app_manager.c:499
+#: fw/process_management/app_manager.c:494
 #, c-format
 msgid "%.*s is not responding"
 msgstr ""
@@ -3302,71 +3302,71 @@ msgstr ""
 msgid "%d.%d"
 msgstr ""
 
-#: fw/services/alarms/alarm.c:459 fw/services/alarms/alarm_pin.c:75
+#: fw/services/alarms/alarm.c:460 fw/services/alarms/alarm_pin.c:75
 msgid "Alarm"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would go off every
 #. / day. Respect capitalization!
-#: fw/services/alarms/alarm.c:1415
+#: fw/services/alarms/alarm.c:1416
 msgid "EVERY DAY"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / every weekday. Respect capitalization!
-#: fw/services/alarms/alarm.c:1425
+#: fw/services/alarms/alarm.c:1426
 msgid "WEEKDAYS"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / each day on the weekend. Respect capitalization!
-#: fw/services/alarms/alarm.c:1435
+#: fw/services/alarms/alarm.c:1436
 msgid "WEEKENDS"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / one time ever. Respect capitalization!
-#: fw/services/alarms/alarm.c:1446
+#: fw/services/alarms/alarm.c:1447
 msgid "ONCE"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / one time ever. Respect capitalization!
-#: fw/services/alarms/alarm.c:1450
+#: fw/services/alarms/alarm.c:1451
 msgid "Once"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / on a custom choice of days. Respect capitalization!
-#: fw/services/alarms/alarm.c:1457
+#: fw/services/alarms/alarm.c:1458
 msgid "CUSTOM"
 msgstr ""
 
-#: fw/services/alarms/alarm.c:1477
+#: fw/services/alarms/alarm.c:1478
 msgid "Sundays"
 msgstr ""
 
-#: fw/services/alarms/alarm.c:1477
+#: fw/services/alarms/alarm.c:1478
 msgid "Mondays"
 msgstr ""
 
-#: fw/services/alarms/alarm.c:1478
+#: fw/services/alarms/alarm.c:1479
 msgid "Tuesdays"
 msgstr ""
 
-#: fw/services/alarms/alarm.c:1478
+#: fw/services/alarms/alarm.c:1479
 msgid "Wednesdays"
 msgstr ""
 
-#: fw/services/alarms/alarm.c:1479
+#: fw/services/alarms/alarm.c:1480
 msgid "Thursdays"
 msgstr ""
 
-#: fw/services/alarms/alarm.c:1479
+#: fw/services/alarms/alarm.c:1480
 msgid "Fridays"
 msgstr ""
 
-#: fw/services/alarms/alarm.c:1480
+#: fw/services/alarms/alarm.c:1481
 msgid "Saturdays"
 msgstr ""
 
