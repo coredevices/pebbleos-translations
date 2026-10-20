@@ -538,7 +538,7 @@ msgstr ""
 msgid "Update Failed"
 msgstr ""
 
-#: fw/apps/core/progress_ui.c:175 fw/apps/system/settings/factory_reset.c:58
+#: fw/apps/core/progress_ui.c:175 fw/apps/system/settings/factory_reset.c:59
 msgid "Resetting..."
 msgstr ""
 
@@ -860,13 +860,13 @@ msgstr ""
 msgid "%i°"
 msgstr ""
 
-#: fw/apps/system/music.c:897
+#: fw/apps/system/music.c:905
 msgid ""
 "START PLAYBACK\n"
 "ON YOUR PHONE"
 msgstr ""
 
-#: fw/apps/system/music.c:1823
+#: fw/apps/system/music.c:1831
 msgid "Music"
 msgstr ""
 
@@ -967,61 +967,61 @@ msgstr ""
 msgid "Background App"
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:128
+#: fw/apps/system/settings/bluetooth.c:130
 msgid "<Untitled>"
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:188
+#: fw/apps/system/settings/bluetooth.c:190
 msgid "Pairing Instructions"
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:193
+#: fw/apps/system/settings/bluetooth.c:195
 #, c-format
 msgid "%u Paired Phones"
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:193
+#: fw/apps/system/settings/bluetooth.c:195
 #, c-format
 msgid "%u Paired Phone"
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:344
+#: fw/apps/system/settings/bluetooth.c:346
 msgid "Connected"
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:359
+#: fw/apps/system/settings/bluetooth.c:361
 msgid "Sharing Heart Rate ❤"
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:384
+#: fw/apps/system/settings/bluetooth.c:386
 msgid "Forget this device to pair a new device."
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:387
+#: fw/apps/system/settings/bluetooth.c:389
 msgid "Disable Airplane Mode to connect."
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:389
+#: fw/apps/system/settings/bluetooth.c:391
 msgid "Open the Pebble app on your phone to connect."
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:464
+#: fw/apps/system/settings/bluetooth.c:466
 msgid "Connection"
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:468
+#: fw/apps/system/settings/bluetooth.c:470
 msgid "Airplane Mode"
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:478
+#: fw/apps/system/settings/bluetooth.c:480
 msgid "Disabling..."
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:479
+#: fw/apps/system/settings/bluetooth.c:481
 msgid "Enabling..."
 msgstr ""
 
-#: fw/apps/system/settings/bluetooth.c:632
+#: fw/apps/system/settings/bluetooth.c:634
 msgid "Bluetooth"
 msgstr ""
 
@@ -1296,7 +1296,7 @@ msgstr ""
 msgid "Display"
 msgstr ""
 
-#: fw/apps/system/settings/factory_reset.c:111
+#: fw/apps/system/settings/factory_reset.c:112
 msgid "Perform factory reset?"
 msgstr ""
 
@@ -2069,11 +2069,11 @@ msgstr ""
 msgid "Toggle Touch"
 msgstr ""
 
-#: fw/apps/system/watchfaces.c:99
+#: fw/apps/system/watchfaces.c:101
 msgid "Active"
 msgstr ""
 
-#: fw/apps/system/watchfaces.c:220
+#: fw/apps/system/watchfaces.c:221
 msgid "Watchfaces"
 msgstr ""
 
