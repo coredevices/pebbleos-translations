@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2026-10-20 23:26+0000\n"
-"Last-Translator: fulaapan <fulaapan@pm.me>\n"
+"Last-Translator: Martin <martin@norlin.at>\n"
 "Language-Team: Swedish <https://translate.repebble.com/projects/pebbleos/"
 "watch/sv/>\n"
 "Language: sv_SE\n"
@@ -195,7 +195,6 @@ msgid "%a %b %e %H:%M:%S %Y"
 msgstr "%a %e %b %H:%M:%S %Y"
 
 #: fw/applib/pbl_std/timelocal.c:58
-#, fuzzy
 msgid "%I:%M:%S %p"
 msgstr "%I:%M:%S %p"
 
@@ -489,7 +488,7 @@ msgstr "Anpassad"
 
 #: fw/applib/ui/day_picker.c:48
 msgid "Just Once"
-msgstr ""
+msgstr "En gång"
 
 #: fw/applib/ui/day_picker.c:234
 msgid "Check something first."
@@ -778,21 +777,21 @@ msgstr "Hälsa"
 
 #: fw/apps/system/health/hr_chart.c:112
 msgid "%k"
-msgstr ""
+msgstr "%k"
 
 #: fw/apps/system/health/hr_chart.c:112
 msgid "%l%p"
-msgstr ""
+msgstr "%l%p"
 
 #: fw/apps/system/health/hr_chart.c:112
 msgid "%l"
-msgstr ""
+msgstr "%l"
 
 #. / Range of heart rate readings, e.g. "52–104 BPM"
 #: fw/apps/system/health/hr_detail_card.c:44
 #, c-format
 msgid "%d–%d BPM"
-msgstr ""
+msgstr "%d-%d slag/min"
 
 #: fw/apps/system/health/hr_detail_card.c:89
 #: fw/services/activity/activity_insights.c:1729
@@ -812,7 +811,7 @@ msgstr "Prestation"
 #. / Heading above a chart of today's heart rate and its lowest to highest reading
 #: fw/apps/system/health/hr_detail_card.c:102
 msgid "TODAY'S RANGE"
-msgstr ""
+msgstr "DAGENS INTERVALL"
 
 #. / Heading above the time spent in each heart rate zone today
 #: fw/apps/system/health/hr_detail_card.c:114
@@ -1390,7 +1389,7 @@ msgstr "Tillåt endast telefonsamtal"
 
 #: fw/apps/system/settings/notifications.c:63
 msgid "Mute All Notifications"
-msgstr "Tysta alla aviseringar"
+msgstr "Tysta alla notiser"
 
 #. / The option in the Settings app for filtering notifications by type.
 #: fw/apps/system/settings/notifications.c:94
@@ -1567,7 +1566,7 @@ msgstr "Öppna favoritappar genom ett långt knapptryck på urtavlan."
 
 #: fw/apps/system/settings/quiet_time.c:91
 msgid "Quiet All Notifications"
-msgstr "Tysta alla aviseringar"
+msgstr "Tysta alla notiser"
 
 #: fw/apps/system/settings/quiet_time.c:94
 msgid "Allow Phone Calls"
@@ -2407,11 +2406,11 @@ msgstr "mph"
 
 #: fw/apps/system/weather/weather_app_layout.c:539
 msgid "m/s"
-msgstr ""
+msgstr "m/s"
 
 #: fw/apps/system/weather/weather_app_layout.c:543
 msgid "kn"
-msgstr ""
+msgstr "kn"
 
 #: fw/apps/system/weather/weather_app_layout.c:547
 msgid "km/h"
