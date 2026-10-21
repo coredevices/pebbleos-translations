@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-10-21 02:26+0000\n"
+"PO-Revision-Date: 2026-10-21 14:26+0000\n"
 "Last-Translator: Rhialto <rhialto@gmail.com>\n"
 "Language-Team: French (Canada) <https://translate.repebble.com/projects/"
 "pebbleos/watch/fr_CA/>\n"
@@ -632,7 +632,7 @@ msgstr "Ajout alarme intelligente"
 #: fw/apps/system/alarms/alarm_editor.c:165
 #: fw/apps/system/alarms/alarm_editor.c:263
 msgid "New Alarm"
-msgstr "Ajout alarme classique"
+msgstr "Ajout d'une alarme"
 
 #: fw/apps/system/alarms/alarm_editor.c:167
 msgid "Wake up between"
@@ -1460,7 +1460,7 @@ msgstr "Quand vibrer?"
 #: fw/apps/system/settings/notifications.c:267
 msgctxt "StatusBar"
 msgid "Default"
-msgstr ""
+msgstr "Normal"
 
 #: fw/apps/system/settings/notifications.c:268
 msgid "Bold"
@@ -1468,12 +1468,12 @@ msgstr "Gras"
 
 #: fw/apps/system/settings/notifications.c:269
 msgid "Big & Bold"
-msgstr "Grand et gras"
+msgstr "Gras et grand"
 
 #. / Status bar title for the Notification Status Bar Style settings screen
 #: fw/apps/system/settings/notifications.c:291
 msgid "Clock Style"
-msgstr "Style du cadran"
+msgstr "Style de la barre d'état"
 
 #. / Disable notification grouping
 #: fw/apps/system/settings/notifications.c:302
@@ -1505,7 +1505,7 @@ msgstr "Grouper par expéditeur"
 #. / String within Settings->Notifications that selects the notification status bar style
 #: fw/apps/system/settings/notifications.c:391
 msgid "Status Bar"
-msgstr "Barre d'état"
+msgstr "Style de la barre d'état"
 
 #. / Shown in Quick Launch Settings as the title of the tap up button option.
 #: fw/apps/system/settings/quick_launch.c:58
@@ -1959,7 +1959,7 @@ msgstr "Apparaît à l'écran lorsqu'un évènement est sur le point de débuter
 #: fw/apps/system/settings/timeline.c:296
 #: fw/apps/system/timeline/timeline.c:1313
 msgid "Timeline"
-msgstr "Fil du temps"
+msgstr "Agenda"
 
 #: fw/apps/system/settings/vibe_patterns.c:88
 msgid "Incoming Calls"
