@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-26 22:44+0200\n"
-"PO-Revision-Date: 2026-10-21 09:41+0000\n"
+"PO-Revision-Date: 2026-10-21 21:26+0000\n"
 "Last-Translator: Hans Henrik Juhl <hans@kopula.dk>\n"
 "Language-Team: Danish <https://translate.repebble.com/projects/pebbleos/"
 "watch/da/>\n"
@@ -1250,7 +1250,7 @@ msgstr "Vågn ved bevægelse"
 #: fw/apps/system/settings/display.c:456 fw/apps/system/settings/display.c:687
 #: fw/apps/system/settings/display.c:691 fw/apps/system/settings/health.c:149
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
-#: fw/apps/system/settings/health.c:194
+#: fw/apps/system/settings/health.c:195
 #: fw/apps/system/settings/notifications.c:379
 #: fw/apps/system/settings/quiet_time.c:359
 #: fw/apps/system/settings/quiet_time.c:364
@@ -1353,9 +1353,9 @@ msgstr "Slået fra"
 msgid "HR Monitoring"
 msgstr "Pulsovervågning"
 
-#: fw/apps/system/settings/health.c:122 fw/apps/system/settings/health.c:177
-msgid "Blood Oxygen"
-msgstr "Iltmætning"
+#: fw/apps/system/settings/health.c:122 fw/apps/system/settings/health.c:182
+msgid "SpO2 Monitoring"
+msgstr "Overvågning af iltmætning"
 
 #: fw/apps/system/settings/health.c:148
 msgid "Health Tracking"
@@ -1369,12 +1369,12 @@ msgstr "Længdeenhed"
 msgid "HR During Activity"
 msgstr "Puls under aktivitet"
 
-#: fw/apps/system/settings/health.c:182
-msgid "SpO2 Monitoring"
-msgstr "Overvågning af iltmætning"
+#: fw/apps/system/settings/health.c:177
+msgid "SpO2"
+msgstr "Iltmætning"
 
 #: fw/apps/system/settings/health.c:189
-msgid "Blood O2 During Activity"
+msgid "SpO2 During Activity"
 msgstr "Iltmætning under aktivitet"
 
 #: fw/apps/system/settings/health.c:192
@@ -2405,7 +2405,7 @@ msgid "m/s"
 msgstr "m/s"
 
 #: fw/apps/system/weather/weather_app_layout.c:543
-msgid "kn"
+msgid "kt"
 msgstr "kn"
 
 #: fw/apps/system/weather/weather_app_layout.c:547
@@ -3760,15 +3760,15 @@ msgstr ""
 "Stilletid\n"
 "afsluttet"
 
-#: fw/services/timeline/calendar_layout.c:172
+#: fw/services/timeline/calendar_layout.c:171
 msgid " - "
 msgstr " - "
 
-#: fw/services/timeline/calendar_layout.c:340
+#: fw/services/timeline/calendar_layout.c:339
 msgid "All Day"
 msgstr "Hele dagen"
 
-#: fw/services/timeline/calendar_layout.c:384
+#: fw/services/timeline/calendar_layout.c:383
 msgid "Recurring"
 msgstr "Tilbagevendende"
 
@@ -3864,7 +3864,7 @@ msgstr "Om 15 minutter"
 msgid "Later today"
 msgstr "Senere i dag"
 
-#: fw/services/timeline/timeline_layout.c:799
+#: fw/services/timeline/timeline_layout.c:800
 msgid "Last updated"
 msgstr "Senest opdateret"
 
@@ -3942,6 +3942,15 @@ msgstr "Lader op"
 #, c-format
 msgid "Powered 'til %s"
 msgstr "Strøm indtil %s"
+
+#~ msgid "kn"
+#~ msgstr "kn"
+
+#~ msgid "Blood Oxygen"
+#~ msgstr "Iltmætning"
+
+#~ msgid "Blood O2 During Activity"
+#~ msgstr "Iltmætning under aktivitet"
 
 #~ msgid "Motion Backlight"
 #~ msgstr "Baggrundslys ved bevægelse"
