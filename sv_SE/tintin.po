@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-10-20 23:26+0000\n"
+"PO-Revision-Date: 2026-10-21 07:26+0000\n"
 "Last-Translator: Martin <martin@norlin.at>\n"
 "Language-Team: Swedish <https://translate.repebble.com/projects/pebbleos/"
 "watch/sv/>\n"
@@ -496,7 +496,7 @@ msgstr "Kontrollera något först."
 
 #: fw/applib/ui/dialogs/bt_conn_dialog.c:97
 msgid "Check bluetooth connection"
-msgstr "Kontrollera blåtandsanslutningen"
+msgstr "Kontrollera Bluetooth-anslutningen"
 
 #: fw/applib/ui/time_range_selection_window.c:179
 msgid "Start"
@@ -1038,12 +1038,12 @@ msgstr "Aktiverar..."
 
 #: fw/apps/system/settings/bluetooth.c:634
 msgid "Bluetooth"
-msgstr "Blåtand"
+msgstr "Bluetooth"
 
 #: fw/apps/system/settings/bluetooth.h:38
 msgid ""
 "Remember to also forget your Pebble's Bluetooth connection from your phone."
-msgstr "Kom ihåg att också radera Pebbles blåtandsanslutning på din telefon."
+msgstr "Kom ihåg att också radera Pebbles Bluetooth-anslutning på din telefon."
 
 #: fw/apps/system/settings/display.c:86 fw/apps/system/settings/display.c:709
 #: fw/apps/system/settings/system.c:210
@@ -3707,7 +3707,7 @@ msgid ""
 "System Notifications."
 msgstr ""
 "Din iPhone delar inte aviseringar med din klocka. På din iPhone, öppna "
-"Inställningar > Blåtand i listan tryck på (i) vid din Pebble och aktivera "
+"Inställningar > Bluetooth, i listan tryck på (i) vid din Pebble och aktivera "
 "Dela systemaviseringar."
 
 #: fw/services/notifications/do_not_disturb.c:112
