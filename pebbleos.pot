@@ -3629,15 +3629,15 @@ msgid ""
 "Ended"
 msgstr ""
 
-#: fw/services/timeline/calendar_layout.c:172
+#: fw/services/timeline/calendar_layout.c:171
 msgid " - "
 msgstr ""
 
-#: fw/services/timeline/calendar_layout.c:340
+#: fw/services/timeline/calendar_layout.c:339
 msgid "All Day"
 msgstr ""
 
-#: fw/services/timeline/calendar_layout.c:384
+#: fw/services/timeline/calendar_layout.c:383
 msgid "Recurring"
 msgstr ""
 
