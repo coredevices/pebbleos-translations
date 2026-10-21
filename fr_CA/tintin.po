@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-10-20 23:53+0000\n"
+"PO-Revision-Date: 2026-10-21 02:26+0000\n"
 "Last-Translator: Rhialto <rhialto@gmail.com>\n"
 "Language-Team: French (Canada) <https://translate.repebble.com/projects/"
 "pebbleos/watch/fr_CA/>\n"
@@ -560,12 +560,12 @@ msgstr "Supprimer"
 #: fw/apps/system/alarms/alarm_detail.c:279
 #: fw/apps/system/settings/quiet_time.c:200
 msgid "Disable"
-msgstr ""
+msgstr "Activé(e)"
 
 #: fw/apps/system/alarms/alarm_detail.c:279
 #: fw/apps/system/settings/quiet_time.c:202
 msgid "Enable"
-msgstr ""
+msgstr "Désactivé(e)"
 
 #: fw/apps/system/alarms/alarm_detail.c:284
 #: fw/apps/system/alarms/alarm_editor.c:163
@@ -700,7 +700,7 @@ msgstr "JS incompatible"
 #: fw/apps/system/app_fetch_ui.c:138
 #: fw/services/timeline/timeline_actions.c:268
 msgid "Failed"
-msgstr ""
+msgstr "Échec"
 
 #: fw/apps/system/health/activity_detail_card.c:36
 msgid "kcal"
@@ -781,15 +781,15 @@ msgstr "Bien-Être"
 
 #: fw/apps/system/health/hr_chart.c:112
 msgid "%k"
-msgstr ""
+msgstr "%k"
 
 #: fw/apps/system/health/hr_chart.c:112
 msgid "%l%p"
-msgstr ""
+msgstr "%l%p"
 
 #: fw/apps/system/health/hr_chart.c:112
 msgid "%l"
-msgstr ""
+msgstr "%l"
 
 #. / Range of heart rate readings, e.g. "52–104 BPM"
 #: fw/apps/system/health/hr_detail_card.c:44
@@ -815,7 +815,7 @@ msgstr "Performance"
 #. / Heading above a chart of today's heart rate and its lowest to highest reading
 #: fw/apps/system/health/hr_detail_card.c:102
 msgid "TODAY'S RANGE"
-msgstr ""
+msgstr "PLAGE DU JOUR"
 
 #. / Heading above the time spent in each heart rate zone today
 #: fw/apps/system/health/hr_detail_card.c:114
@@ -925,7 +925,7 @@ msgstr "Effacer l'historique de notifications"
 #. / Quick Launch action that makes the button do nothing at all.
 #: fw/apps/system/quick_launch_nothing.c:24
 msgid "Nothing"
-msgstr ""
+msgstr "Rien"
 
 #: fw/apps/system/reminders/reminder.c:57
 msgid "Completed"
@@ -979,7 +979,7 @@ msgstr "Aucune tâche de fond"
 #: fw/apps/system/settings/activity_tracker.c:164
 #: fw/apps/system/settings/notifications.c:161
 msgid "None"
-msgstr ""
+msgstr "Vide"
 
 #: fw/apps/system/settings/activity_tracker.c:240
 #: fw/apps/system/settings/activity_tracker.c:257
@@ -1239,13 +1239,13 @@ msgstr "Activé - %d%%"
 #: fw/apps/system/settings/display.c:445 fw/apps/system/settings/display.c:448
 msgctxt "DeviceState"
 msgid "On"
-msgstr ""
+msgstr "Oui"
 
 #: fw/apps/system/settings/display.c:451 fw/apps/system/settings/display.c:472
 #: fw/apps/system/settings/display.c:679
 msgctxt "DeviceState"
 msgid "Off"
-msgstr ""
+msgstr "Non"
 
 #: fw/apps/system/settings/display.c:455
 msgid "Wake on motion"
@@ -1455,7 +1455,7 @@ msgstr "Au début"
 #: fw/apps/system/settings/notifications.c:257
 #: fw/apps/system/settings/notifications.c:371
 msgid "Vibe Timing"
-msgstr ""
+msgstr "Quand vibrer?"
 
 #: fw/apps/system/settings/notifications.c:267
 msgctxt "StatusBar"
@@ -1591,14 +1591,14 @@ msgstr "Synchronisé avec le calendrier"
 #: fw/apps/system/settings/quiet_time.c:254
 msgctxt "QuietTime"
 msgid "Enabled"
-msgstr ""
+msgstr "Activé"
 
 #: fw/apps/system/settings/quiet_time.c:255
 #: fw/apps/system/settings/quiet_time.c:263
 #: fw/apps/system/settings/quiet_time.c:271
 msgctxt "QuietTime"
 msgid "Disabled"
-msgstr ""
+msgstr "Désactivé"
 
 #: fw/apps/system/settings/quiet_time.c:315
 #: fw/apps/system/settings/quiet_time.c:440
@@ -1751,15 +1751,15 @@ msgstr ""
 
 #: fw/apps/system/settings/system.c:498
 msgid "Shake Log Info"
-msgstr ""
+msgstr "Consigner secousses"
 
 #: fw/apps/system/settings/system.c:499
 msgid "Vibe Log Info"
-msgstr ""
+msgstr "Consigner vibrations"
 
 #: fw/apps/system/settings/system.c:500
 msgid "Compact Settings DBs"
-msgstr ""
+msgstr "Compacter BD paramètres"
 
 #: fw/apps/system/settings/system.c:502
 msgid "SpO2 Test"
@@ -1936,7 +1936,7 @@ msgstr "Compressé"
 #: fw/apps/system/settings/timeline.c:126
 #: fw/apps/system/settings/timeline.c:198
 msgid "Timing"
-msgstr ""
+msgstr "Délai"
 
 #. / Shows up in the Timeline settings as the title for unsupported watchface behavior.
 #. / Shows up in the Timeline settings for watchfaces that do not support Quick View.
@@ -3879,7 +3879,7 @@ msgstr "Plus tard aujourd'hui"
 
 #: fw/services/timeline/timeline_layout.c:799
 msgid "Last updated"
-msgstr ""
+msgstr "Dernière màj"
 
 #: fw/services/timeline/weather_layout.c:51
 msgid "Sunrise"
@@ -3909,7 +3909,7 @@ msgstr "Standard - Élevé"
 #: fw/services/vibes/vibes.def:4
 msgctxt "NotifVibe"
 msgid "Disabled"
-msgstr ""
+msgstr "Non"
 
 #: fw/services/vibes/vibes.def:9
 msgid "Pulse"
@@ -3954,7 +3954,7 @@ msgstr "Recharge en cours…"
 #: fw/shell/normal/battery_ui.c:164
 #, c-format
 msgid "Powered 'til %s"
-msgstr ""
+msgstr "Autonomie jusqu'à %s"
 
 #~ msgid "Motion Backlight"
 #~ msgstr "Rétroéclairage par mouvement"
