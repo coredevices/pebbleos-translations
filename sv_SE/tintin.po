@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-10-21 07:26+0000\n"
+"PO-Revision-Date: 2026-10-21 17:26+0000\n"
 "Last-Translator: Martin <martin@norlin.at>\n"
 "Language-Team: Swedish <https://translate.repebble.com/projects/pebbleos/"
 "watch/sv/>\n"
@@ -1248,7 +1248,7 @@ msgstr "Väck vid rörelse"
 #: fw/apps/system/settings/display.c:456 fw/apps/system/settings/display.c:687
 #: fw/apps/system/settings/display.c:691 fw/apps/system/settings/health.c:149
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
-#: fw/apps/system/settings/health.c:194
+#: fw/apps/system/settings/health.c:195
 #: fw/apps/system/settings/notifications.c:379
 #: fw/apps/system/settings/quiet_time.c:359
 #: fw/apps/system/settings/quiet_time.c:364
@@ -1351,9 +1351,9 @@ msgstr "Inaktiverad"
 msgid "HR Monitoring"
 msgstr "Pulsmätning"
 
-#: fw/apps/system/settings/health.c:122 fw/apps/system/settings/health.c:177
-msgid "Blood Oxygen"
-msgstr "Blodsyrenivå"
+#: fw/apps/system/settings/health.c:122 fw/apps/system/settings/health.c:182
+msgid "SpO2 Monitoring"
+msgstr "Blodsyremätning"
 
 #: fw/apps/system/settings/health.c:148
 msgid "Health Tracking"
@@ -1367,13 +1367,13 @@ msgstr "Enhet för avstånd"
 msgid "HR During Activity"
 msgstr "Pulsmätning vid träning"
 
-#: fw/apps/system/settings/health.c:182
-msgid "SpO2 Monitoring"
-msgstr "Blodsyremätning"
+#: fw/apps/system/settings/health.c:177
+msgid "SpO2"
+msgstr "SpO2"
 
 #: fw/apps/system/settings/health.c:189
-msgid "Blood O2 During Activity"
-msgstr "Syremätning vid träning"
+msgid "SpO2 During Activity"
+msgstr "SpO2 vid träning"
 
 #: fw/apps/system/settings/health.c:192
 msgid "Needs HR During Activity"
@@ -1711,19 +1711,19 @@ msgstr "Core dump and reboot?"
 
 #: fw/apps/system/settings/system.c:442
 msgid "Very Low"
-msgstr "Mycket Låg"
+msgstr "Very Low"
 
 #: fw/apps/system/settings/system.c:443
 msgid "Medium-Low"
-msgstr "Medellåg"
+msgstr "Medium-Low"
 
 #: fw/apps/system/settings/system.c:444
 msgid "Medium-High"
-msgstr "Medelhög"
+msgstr "Medium-High"
 
 #: fw/apps/system/settings/system.c:445
 msgid "Very High"
-msgstr "Mycket Hög"
+msgstr "Very High"
 
 #: fw/apps/system/settings/system.c:470 fw/apps/system/settings/system.c:496
 msgid "Motion Sensitivity"
@@ -1755,7 +1755,7 @@ msgstr "Compact Settings DBs"
 
 #: fw/apps/system/settings/system.c:502
 msgid "SpO2 Test"
-msgstr "SpO2-Test"
+msgstr "SpO2-test"
 
 #: fw/apps/system/settings/system.c:522
 msgid "10 back-button presses"
@@ -2409,7 +2409,7 @@ msgid "m/s"
 msgstr "m/s"
 
 #: fw/apps/system/weather/weather_app_layout.c:543
-msgid "kn"
+msgid "kt"
 msgstr "kn"
 
 #: fw/apps/system/weather/weather_app_layout.c:547
@@ -3747,15 +3747,15 @@ msgstr ""
 "Tyst stund\n"
 "avslutad"
 
-#: fw/services/timeline/calendar_layout.c:172
+#: fw/services/timeline/calendar_layout.c:171
 msgid " - "
 msgstr " - "
 
-#: fw/services/timeline/calendar_layout.c:340
+#: fw/services/timeline/calendar_layout.c:339
 msgid "All Day"
 msgstr "Hela dagen"
 
-#: fw/services/timeline/calendar_layout.c:384
+#: fw/services/timeline/calendar_layout.c:383
 msgid "Recurring"
 msgstr "Återkommande"
 
@@ -3929,3 +3929,12 @@ msgstr "Laddar"
 #, c-format
 msgid "Powered 'til %s"
 msgstr "Ström till %s"
+
+#~ msgid "kn"
+#~ msgstr "kn"
+
+#~ msgid "Blood Oxygen"
+#~ msgstr "Blodsyrenivå"
+
+#~ msgid "Blood O2 During Activity"
+#~ msgstr "Syremätning vid träning"
