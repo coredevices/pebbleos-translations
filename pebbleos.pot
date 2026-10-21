@@ -2384,7 +2384,7 @@ msgid "m/s"
 msgstr ""
 
 #: fw/apps/system/weather/weather_app_layout.c:543
-msgid "kn"
+msgid "kt"
 msgstr ""
 
 #: fw/apps/system/weather/weather_app_layout.c:547
