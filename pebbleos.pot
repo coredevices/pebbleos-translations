@@ -1233,7 +1233,7 @@ msgstr ""
 #: fw/apps/system/settings/display.c:456 fw/apps/system/settings/display.c:687
 #: fw/apps/system/settings/display.c:691 fw/apps/system/settings/health.c:149
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
-#: fw/apps/system/settings/health.c:194
+#: fw/apps/system/settings/health.c:195
 #: fw/apps/system/settings/notifications.c:379
 #: fw/apps/system/settings/quiet_time.c:359
 #: fw/apps/system/settings/quiet_time.c:364
@@ -1336,8 +1336,8 @@ msgstr ""
 msgid "HR Monitoring"
 msgstr ""
 
-#: fw/apps/system/settings/health.c:122 fw/apps/system/settings/health.c:177
-msgid "Blood Oxygen"
+#: fw/apps/system/settings/health.c:122 fw/apps/system/settings/health.c:182
+msgid "SpO2 Monitoring"
 msgstr ""
 
 #: fw/apps/system/settings/health.c:148
@@ -1352,12 +1352,12 @@ msgstr ""
 msgid "HR During Activity"
 msgstr ""
 
-#: fw/apps/system/settings/health.c:182
-msgid "SpO2 Monitoring"
+#: fw/apps/system/settings/health.c:177
+msgid "SpO2"
 msgstr ""
 
 #: fw/apps/system/settings/health.c:189
-msgid "Blood O2 During Activity"
+msgid "SpO2 During Activity"
 msgstr ""
 
 #: fw/apps/system/settings/health.c:192
