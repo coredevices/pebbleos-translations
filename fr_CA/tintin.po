@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-10-21 14:26+0000\n"
+"PO-Revision-Date: 2026-10-22 02:26+0000\n"
 "Last-Translator: Rhialto <rhialto@gmail.com>\n"
 "Language-Team: French (Canada) <https://translate.repebble.com/projects/"
 "pebbleos/watch/fr_CA/>\n"
@@ -1254,7 +1254,7 @@ msgstr "Activé au mouvement"
 #: fw/apps/system/settings/display.c:456 fw/apps/system/settings/display.c:687
 #: fw/apps/system/settings/display.c:691 fw/apps/system/settings/health.c:149
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
-#: fw/apps/system/settings/health.c:194
+#: fw/apps/system/settings/health.c:195
 #: fw/apps/system/settings/notifications.c:379
 #: fw/apps/system/settings/quiet_time.c:359
 #: fw/apps/system/settings/quiet_time.c:364
@@ -1357,9 +1357,9 @@ msgstr "Désactivé"
 msgid "HR Monitoring"
 msgstr "Suivi fréq. card. (FC)"
 
-#: fw/apps/system/settings/health.c:122 fw/apps/system/settings/health.c:177
-msgid "Blood Oxygen"
-msgstr "Oxygène sanguin"
+#: fw/apps/system/settings/health.c:122 fw/apps/system/settings/health.c:182
+msgid "SpO2 Monitoring"
+msgstr "Suivi SpO2"
 
 #: fw/apps/system/settings/health.c:148
 msgid "Health Tracking"
@@ -1373,13 +1373,13 @@ msgstr "Unité de distance"
 msgid "HR During Activity"
 msgstr "FC durant activité"
 
-#: fw/apps/system/settings/health.c:182
-msgid "SpO2 Monitoring"
-msgstr "Suivi SpO2"
+#: fw/apps/system/settings/health.c:177
+msgid "SpO2"
+msgstr "SpO2"
 
 #: fw/apps/system/settings/health.c:189
-msgid "Blood O2 During Activity"
-msgstr "Oxygène sanguin durant l'activité"
+msgid "SpO2 During Activity"
+msgstr "SpO2 durant activité"
 
 #: fw/apps/system/settings/health.c:192
 msgid "Needs HR During Activity"
@@ -2417,8 +2417,8 @@ msgid "m/s"
 msgstr "m/s"
 
 #: fw/apps/system/weather/weather_app_layout.c:543
-msgid "kn"
-msgstr "nœud"
+msgid "kt"
+msgstr "kt"
 
 #: fw/apps/system/weather/weather_app_layout.c:547
 msgid "km/h"
@@ -3034,7 +3034,7 @@ msgid ""
 "Killer job! You've walked %d steps today which is %d%% above your typical. "
 "Do it again tomorrow and you'll be on top of the world!"
 msgstr ""
-"Bien joué ! Vous avez fait %d pas aujourd'hui, soit %d%% de plus que votre "
+"Bien joué! Vous avez fait %d pas aujourd'hui, soit %d%% de plus que votre "
 "moyenne. Continuez comme ça!"
 
 #: fw/services/activity/activity_insights.c:1289
@@ -3130,8 +3130,8 @@ msgid ""
 "tomorrow is just around the corner 😀"
 msgstr ""
 "Vous avez fait %d pas aujourd'hui ce qui est %d%% de moins que d'habitude. "
-"Il n'y a rien de mal à prendre un peu de repos. Et demain est un nouveau "
-"jour 😃"
+"Il n'y a rien de mal à prendre un peu de repos. Et demain sera une nouvelle "
+"journée. 😃"
 
 #: fw/services/activity/activity_insights.c:1327
 #, c-format
@@ -3140,7 +3140,7 @@ msgid ""
 "You'll crush it tomorrow 😉"
 msgstr ""
 "Vous avez fait %d pas ce qui est %d%% de moins que d'habitude, mais vous "
-"allez être super en forme demain 😃"
+"allez être super en forme demain. 😃"
 
 #: fw/services/activity/activity_insights.c:1334
 #, c-format
@@ -3149,7 +3149,7 @@ msgid ""
 "😉"
 msgstr ""
 "Vous avez fait %d pas aujourd'hui. Ne vous en faites pas, vous allez "
-"reprendre le rythme en un rien de temps 😉"
+"reprendre le rythme en un rien de temps. 😉"
 
 #: fw/services/activity/activity_insights.c:1336
 #, c-format
@@ -3175,7 +3175,7 @@ msgid ""
 "your day 😃."
 msgstr ""
 "Ressourcé? Vous avez dormi %dH %dM, ce qui est %d%% au-dessus de votre "
-"moyenne. Allez attaquer votre journée 😃."
+"moyenne. Allez attaquer votre journée. 😃"
 
 #: fw/services/activity/activity_insights.c:1391
 #, c-format
@@ -3230,7 +3230,7 @@ msgid ""
 "you're doing 😃."
 msgstr ""
 "Bon matin! Vous avez dormi %d h %d min. La constance est la clé, continuez "
-"comme ça 😃."
+"comme ça. 😃"
 
 #: fw/services/activity/activity_insights.c:1415
 #, c-format
@@ -3246,7 +3246,7 @@ msgstr ""
 msgid "Feelin' good? You slept for %dH %dM. Nothing can stop you now 👊"
 msgstr ""
 "Vous vous sentez bien? Vous avez dormi %dH %dM. Plus rien ne peut vous "
-"arrêter maintenant 👊"
+"arrêter maintenant. 👊"
 
 #. / Sleep notification on wake up, slept below their typical sleep duration
 #: fw/services/activity/activity_insights.c:1426
@@ -3284,7 +3284,7 @@ msgid ""
 "crush your day and then get back in bed 😉"
 msgstr ""
 "Booooon matin! Sommeil de %dH %dM, soit %d%% sous votre moyenne. Allez tout "
-"donner aujourd'hui et retournez vous coucher après 😉"
+"donner aujourd'hui et retournez vous coucher après. 😉"
 
 #: fw/services/activity/activity_insights.c:1440
 #, c-format
@@ -3304,7 +3304,7 @@ msgid ""
 msgstr ""
 "Vous n'avez dormi que %d h %d min, soit %d%% de moins que d'habitude. On "
 "comprend que vous êtes occupé(e) mais essayez de dormir plus ce soir. On "
-"croit en vous 😉"
+"croit en vous. 😉"
 
 #: fw/services/activity/activity_insights.c:1444
 #, c-format
@@ -3338,7 +3338,7 @@ msgstr "On accumule les pas?"
 
 #: fw/services/activity/activity_insights.c:1590
 msgid "Feelin' hot? Cause you're on 🔥"
-msgstr "Avez-vous chaud? Car vous êtes en feu 🔥!"
+msgstr "Avez-vous chaud? Car vous êtes en feu! 🔥"
 
 #: fw/services/activity/activity_insights.c:1591
 msgid "Hey lightning bolt, way to go!"
@@ -3354,7 +3354,7 @@ msgstr "Hé le rapide, on a peine à te suivre!"
 
 #: fw/services/activity/activity_insights.c:1594
 msgid "Way to show us what you're made of 👊"
-msgstr "Continuez à montrer de quoi vous êtes capable 👊"
+msgstr "Continuez à montrer de quoi vous êtes capable. 👊"
 
 #: fw/services/activity/activity_insights.c:1604
 msgid "Workin' up a sweat?"
@@ -3362,7 +3362,7 @@ msgstr "On transpire?"
 
 #: fw/services/activity/activity_insights.c:1605
 msgid "Well done 💪"
-msgstr "Bien joué 💪"
+msgstr "Bien joué! 💪"
 
 #: fw/services/activity/activity_insights.c:1606
 msgid "Endorphin rush?"
@@ -3370,7 +3370,7 @@ msgstr "Un rush d’endorphines?"
 
 #: fw/services/activity/activity_insights.c:1607
 msgid "Can't stop, won't stop 👊"
-msgstr "Toujours plus loin 👊"
+msgstr "Toujours plus loin. 👊"
 
 #: fw/services/activity/activity_insights.c:1608
 msgid "Keepin' that heart healthy! ❤"
@@ -3382,7 +3382,7 @@ msgstr "Vous gardez un coeur sain! ❤"
 #: fw/services/activity/activity_insights.c:1742
 #, c-format
 msgid "%d Min"
-msgstr "%d Min"
+msgstr "%d min"
 
 #: fw/services/activity/activity_insights.c:1665
 msgid "Avg Pace"
@@ -3772,15 +3772,15 @@ msgstr ""
 "Mode tranquillité\n"
 "désactivé"
 
-#: fw/services/timeline/calendar_layout.c:172
+#: fw/services/timeline/calendar_layout.c:171
 msgid " - "
 msgstr " - "
 
-#: fw/services/timeline/calendar_layout.c:340
+#: fw/services/timeline/calendar_layout.c:339
 msgid "All Day"
 msgstr "Tous les jours"
 
-#: fw/services/timeline/calendar_layout.c:384
+#: fw/services/timeline/calendar_layout.c:383
 msgid "Recurring"
 msgstr "Périodique"
 
@@ -3877,7 +3877,7 @@ msgstr "Dans 15 minutes"
 msgid "Later today"
 msgstr "Plus tard aujourd'hui"
 
-#: fw/services/timeline/timeline_layout.c:799
+#: fw/services/timeline/timeline_layout.c:800
 msgid "Last updated"
 msgstr "Dernière màj"
 
@@ -3955,6 +3955,15 @@ msgstr "Recharge en cours…"
 #, c-format
 msgid "Powered 'til %s"
 msgstr "Autonomie jusqu'à %s"
+
+#~ msgid "kn"
+#~ msgstr "nœud"
+
+#~ msgid "Blood Oxygen"
+#~ msgstr "Oxygène sanguin"
+
+#~ msgid "Blood O2 During Activity"
+#~ msgstr "Oxygène sanguin durant l'activité"
 
 #~ msgid "Motion Backlight"
 #~ msgstr "Rétroéclairage par mouvement"
