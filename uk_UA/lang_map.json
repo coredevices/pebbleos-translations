@@ -7,11 +7,11 @@
   "fonts": [
     {
       "name": "GOTHIC_14_BOLD_EXTENDED",
-      "file": "172f548715156c318750e7378ec8e6caef46d2c07a3a88476c708de0c717f570.ttf",
-      "license": "ead1f2c3253ee6502f6b336f3a94a3146469c58d28993119d5adb6cf1b983c18.license",
+      "file": "3d77ebb1e496ddf072704e61b6c9f82768a4c60a0f063936eb1964f93237d2b5.ttf",
+      "license": "7d96701533d059cfd4191a85ecfd159e262527abd737eae6d9fb533844c70410.license",
       "extended": true,
-      "original_name": "e-Ukraine-Light.otf",
-      "license_original_name": "LICENSE.txt"
+      "original_name": "RobotoCondensed-Regular.ttf",
+      "license_original_name": "OFL.txt"
     },
     {
       "name": "GOTHIC_14_EXTENDED",
