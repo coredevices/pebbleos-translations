@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-07 18:50+0200\n"
 "PO-Revision-Date: 2026-10-22 15:36+0000\n"
-"Last-Translator: Gerard Marull-Paretas <gerard@repebble.com>\n"
+"Last-Translator: Gerard Marull Paretas <gerard@teslabs.com>\n"
 "Language-Team: Catalan <https://translate.repebble.com/projects/pebbleos/"
 "watch/ca/>\n"
 "Language: ca_ES\n"
@@ -1495,7 +1495,7 @@ msgstr "Totes"
 #: fw/apps/system/settings/notifications.c:325
 #: fw/apps/system/settings/notifications.c:384
 msgid "Group by Sender"
-msgstr "Agrupar per remitent"
+msgstr "Agrupa per remitent"
 
 #. / String within Settings->Notifications that selects the notification status bar style
 #: fw/apps/system/settings/notifications.c:391
@@ -2038,7 +2038,7 @@ msgstr "Retroil·luminació desactivada"
 #. / The Quick Launch action that toggles the backlight.
 #: fw/apps/system/toggle/backlight_state.c:54
 msgid "Toggle Backlight"
-msgstr "Commutar Retroil·luminació"
+msgstr "Commutar retroil·luminació"
 
 #: fw/apps/system/toggle/motion_backlight.c:24
 msgid "Turn On Motion Backlight?"
@@ -3817,9 +3817,9 @@ msgid ""
 "open Settings > Bluetooth, tap the (i) next to your Pebble and turn on Share "
 "System Notifications."
 msgstr ""
-"El teu iPhone no comparteix les notificacions amb aquest rellotge. En el teu "
-"iPhone, obre Configuració > Bluetooth, toca la (i) junt al teu Pebble i "
-"activa la opció Comparteix Notificacions."
+"El teu iPhone no comparteix les notificacions amb aquest rellotge. A "
+"l'iPhone, obre Configuració > Bluetooth, toca la (i) al costat del teu "
+"Pebble i activa Compartir notificacions del sistema."
 
 #: fw/services/notifications/do_not_disturb.c:112
 msgid "Calendar Aware enables Quiet Time automatically during calendar events."
@@ -4015,7 +4015,7 @@ msgstr "Suau"
 
 #: fw/services/vibes/vibes.def:16
 msgid "Double Pulse Medium"
-msgstr "Doble Pols Mitjà"
+msgstr "Doble pols mitjà"
 
 #: fw/services/vibes/vibes.def:17
 msgid "Pebble Morse"
