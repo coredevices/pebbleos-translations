@@ -39,11 +39,11 @@
     },
     {
       "name": "GOTHIC_24_BOLD_EXTENDED",
-      "file": "bold.ttf",
-      "license": "license.txt",
+      "file": "3d77ebb1e496ddf072704e61b6c9f82768a4c60a0f063936eb1964f93237d2b5.ttf",
+      "license": "7d96701533d059cfd4191a85ecfd159e262527abd737eae6d9fb533844c70410.license",
       "extended": true,
-      "original_name": "NotoSans-Bold.ttf",
-      "license_original_name": "LICENSE.txt"
+      "original_name": "RobotoCondensed-Regular.ttf",
+      "license_original_name": "OFL.txt"
     },
     {
       "name": "GOTHIC_24_EXTENDED",
