@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-07 18:50+0200\n"
 "PO-Revision-Date: 2026-10-22 15:23+0000\n"
-"Last-Translator: Gerard Marull-Paretas <gerard@repebble.com>\n"
+"Last-Translator: Gerard Marull Paretas <gerard@teslabs.com>\n"
 "Language-Team: Catalan <https://translate.repebble.com/projects/pebbleos/"
 "watch/ca/>\n"
 "Language: ca_ES\n"
@@ -32,64 +32,46 @@ msgid "Mar"
 msgstr "Març"
 
 #: fw/applib/pbl_std/timelocal.c:39
-#, fuzzy
-#| msgid "Apr"
 msgctxt "MonthAbbr"
 msgid "Apr"
 msgstr "Abr"
 
 #: fw/applib/pbl_std/timelocal.c:40
-#, fuzzy
-#| msgid "May"
 msgctxt "MonthAbbr"
 msgid "May"
 msgstr "Maig"
 
 #: fw/applib/pbl_std/timelocal.c:40
-#, fuzzy
-#| msgid "Jun"
 msgctxt "MonthAbbr"
 msgid "Jun"
 msgstr "Juny"
 
 #: fw/applib/pbl_std/timelocal.c:41
-#, fuzzy
-#| msgid "Jul"
 msgctxt "MonthAbbr"
 msgid "Jul"
 msgstr "Jul"
 
 #: fw/applib/pbl_std/timelocal.c:41
-#, fuzzy
-#| msgid "Aug"
 msgctxt "MonthAbbr"
 msgid "Aug"
 msgstr "Ag"
 
 #: fw/applib/pbl_std/timelocal.c:42
-#, fuzzy
-#| msgid "Sep"
 msgctxt "MonthAbbr"
 msgid "Sep"
 msgstr "Set"
 
 #: fw/applib/pbl_std/timelocal.c:42
-#, fuzzy
-#| msgid "Oct"
 msgctxt "MonthAbbr"
 msgid "Oct"
 msgstr "Oct"
 
 #: fw/applib/pbl_std/timelocal.c:43
-#, fuzzy
-#| msgid "Nov"
 msgctxt "MonthAbbr"
 msgid "Nov"
 msgstr "Nov"
 
 #: fw/applib/pbl_std/timelocal.c:43
-#, fuzzy
-#| msgid "Dec"
 msgctxt "MonthAbbr"
 msgid "Dec"
 msgstr "Des"
@@ -503,10 +485,8 @@ msgid "Custom"
 msgstr "Personalitzat"
 
 #: fw/applib/ui/day_picker.c:48
-#, fuzzy
-#| msgid "Just now"
 msgid "Just Once"
-msgstr "Ahora mismo"
+msgstr "Només un cop"
 
 #: fw/applib/ui/day_picker.c:234
 msgid "Check something first."
@@ -722,7 +702,7 @@ msgstr "Ha fallat"
 
 #: fw/apps/system/health/activity_detail_card.c:36
 msgid "kcal"
-msgstr ""
+msgstr "kcal"
 
 #: fw/apps/system/health/activity_detail_card.c:46
 #: fw/services/activity/activity_insights.c:1624
@@ -796,22 +776,21 @@ msgstr "Salut"
 
 #: fw/apps/system/health/hr_chart.c:112
 msgid "%k"
-msgstr ""
+msgstr "%k"
 
 #: fw/apps/system/health/hr_chart.c:112
 msgid "%l%p"
-msgstr ""
+msgstr "%l%p"
 
 #: fw/apps/system/health/hr_chart.c:112
 msgid "%l"
-msgstr ""
+msgstr "%l"
 
 #. / Range of heart rate readings, e.g. "52–104 BPM"
 #: fw/apps/system/health/hr_detail_card.c:44
-#, fuzzy, c-format
-#| msgid "%d BPM"
+#, c-format
 msgid "%d–%d BPM"
-msgstr "%d BPM"
+msgstr "%d–%d BPM"
 
 #: fw/apps/system/health/hr_detail_card.c:89
 #: fw/services/activity/activity_insights.c:1729
@@ -831,7 +810,7 @@ msgstr "Rendiment"
 #. / Heading above a chart of today's heart rate and its lowest to highest reading
 #: fw/apps/system/health/hr_detail_card.c:102
 msgid "TODAY'S RANGE"
-msgstr ""
+msgstr "RANG D'AVUI"
 
 #. / Heading above the time spent in each heart rate zone today
 #: fw/apps/system/health/hr_detail_card.c:114
@@ -1346,10 +1325,8 @@ msgid "Miles"
 msgstr "Milles"
 
 #: fw/apps/system/settings/health.c:35
-#, fuzzy
-#| msgid "3 Minutes"
 msgid "5 Minutes"
-msgstr "3 minuts"
+msgstr "5 minuts"
 
 #. / 10 Minute Notification Window Timeout
 #: fw/apps/system/settings/health.c:35 fw/apps/system/settings/health.c:56
@@ -1395,13 +1372,11 @@ msgstr "FC durant l'activitat"
 
 #: fw/apps/system/settings/health.c:177
 msgid "SpO2"
-msgstr ""
+msgstr "SpO2"
 
 #: fw/apps/system/settings/health.c:189
-#, fuzzy
-#| msgid "HR During Activity"
 msgid "SpO2 During Activity"
-msgstr "FC durant l'activitat"
+msgstr "SpO2 durant l'activitat"
 
 #: fw/apps/system/settings/health.c:192
 #, fuzzy
@@ -1649,7 +1624,7 @@ msgstr "Activat - Persistent"
 
 #: fw/apps/system/settings/quiet_time.c:358
 msgid "Motion"
-msgstr "Movimiento"
+msgstr "Moviment"
 
 #: fw/apps/system/settings/quiet_time.c:435 fw/apps/system/settings/time.c:361
 #: fw/apps/system/settings/time.c:388
@@ -2122,35 +2097,25 @@ msgid "Toggle Quiet Time"
 msgstr "Mode silenci"
 
 #: fw/apps/system/toggle/touch.c:24
-#, fuzzy
-#| msgid "Turn On Backlight?"
 msgid "Turn On Touch?"
-msgstr "Vols activar la retroil·luminació?"
+msgstr "Vols activar el tàctil?"
 
 #: fw/apps/system/toggle/touch.c:25
-#, fuzzy
-#| msgid "Turn Off Backlight?"
 msgid "Turn Off Touch?"
-msgstr "Vols desactivar la retroil·luminació?"
+msgstr "Vols desactivar el tàctil?"
 
 #: fw/apps/system/toggle/touch.c:26
-#, fuzzy
-#| msgid "Touch"
 msgid "Touch On"
-msgstr "Toc"
+msgstr "Tàctil activat"
 
 #: fw/apps/system/toggle/touch.c:27
-#, fuzzy
-#| msgid "Touch"
 msgid "Touch Off"
-msgstr "Toc"
+msgstr "Tàctil desactivat"
 
 #. / The Quick Launch action that turns the touchscreen on or off.
 #: fw/apps/system/toggle/touch.c:51
-#, fuzzy
-#| msgid "Backlight"
 msgid "Toggle Touch"
-msgstr "Retroil·luminació"
+msgstr "Pantalla tàctil"
 
 #: fw/apps/system/watchfaces.c:101
 msgid "Active"
@@ -2466,11 +2431,11 @@ msgstr "mph"
 
 #: fw/apps/system/weather/weather_app_layout.c:539
 msgid "m/s"
-msgstr ""
+msgstr "m/s"
 
 #: fw/apps/system/weather/weather_app_layout.c:543
 msgid "kt"
-msgstr ""
+msgstr "kt"
 
 #: fw/apps/system/weather/weather_app_layout.c:547
 msgid "km/h"
@@ -2616,135 +2581,112 @@ msgstr "KM/H"
 
 #: fw/apps/system/workout/active.c:1059
 msgid "COMPLETE"
-msgstr ""
+msgstr "COMPLETAT"
 
 #: fw/apps/system/workout/active.c:1062
 msgid "END WORKOUT?"
-msgstr ""
+msgstr "ACABAR L'ENTRENAMENT?"
 
 #: fw/apps/system/workout/active.c:1066
 msgid "PAUSED"
-msgstr ""
+msgstr "EN PAUSA"
 
 #: fw/apps/system/workout/active.c:1120
-#, fuzzy
-#| msgid "AVG "
 msgid "AVG"
-msgstr "MEDIA "
+msgstr "MITJ."
 
 #: fw/apps/system/workout/active.c:1123 fw/apps/system/workout/active.c:1276
-#, fuzzy, c-format
-#| msgid "%d"
+#, c-format
 msgid "Z%d"
-msgstr "%d"
+msgstr "Z%d"
 
 #: fw/apps/system/workout/active.c:1179 fw/apps/system/workout/active.c:1224
 #: fw/apps/system/workout/active.c:1474
-#, fuzzy
-#| msgid "TOTAL"
 msgid "TOTAL TIME"
-msgstr "TOTAL"
+msgstr "TEMPS TOTAL"
 
 #: fw/apps/system/workout/active.c:1179 fw/apps/system/workout/active.c:1224
-#, fuzzy
-#| msgid "TIMEOUT"
 msgid "TIMER"
-msgstr "TEMPS D'ESPERA"
+msgstr "TEMPORITZADOR"
 
 #: fw/apps/system/workout/active.c:1187
-#, fuzzy
-#| msgid "DISTANCE (MI)"
 msgid "DIST MI"
-msgstr "DISTÀNCIA (MI)"
+msgstr "DIST MI"
 
 #: fw/apps/system/workout/active.c:1187
-#, fuzzy
-#| msgid "DISTANCE (KM)"
 msgid "DIST KM"
-msgstr "DISTÀNCIA (KM)"
+msgstr "DIST KM"
 
 #: fw/apps/system/workout/active.c:1189 fw/apps/system/workout/active.c:1222
-#, fuzzy
-#| msgid "PACE (/MI)"
 msgid "PACE /MI"
-msgstr "RITME (/MI)"
+msgstr "RITME /MI"
 
 #: fw/apps/system/workout/active.c:1189 fw/apps/system/workout/active.c:1222
-#, fuzzy
-#| msgid "PACE (/KM)"
 msgid "PACE /KM"
-msgstr "RITME (/KM)"
+msgstr "RITME /KM"
 
 #: fw/apps/system/workout/active.c:1193 fw/apps/system/workout/active.c:1210
 #: fw/apps/system/workout/active.c:1236 fw/apps/system/workout/active.c:1478
 msgid "KCAL"
-msgstr ""
+msgstr "KCAL"
 
 #: fw/apps/system/workout/active.c:1208 fw/apps/system/workout/active.c:1234
 msgid "CADENCE"
-msgstr ""
+msgstr "CADÈNCIA"
 
 #: fw/apps/system/workout/active.c:1219
-#, fuzzy
-#| msgid "SPEED (MPH)"
 msgid "SPEED MPH"
-msgstr "VELOCITAT (MPH)"
+msgstr "VEL. MPH"
 
 #: fw/apps/system/workout/active.c:1220
-#, fuzzy
-#| msgid "SPEED (KM/H)"
 msgid "SPEED KM/H"
-msgstr "VELOCITAT (KM/H)"
+msgstr "VEL. KM/H"
 
 #: fw/apps/system/workout/active.c:1227 fw/apps/system/workout/active.c:1477
 msgid "LOW SPO2 %"
-msgstr ""
+msgstr "SPO2 MÍN. %"
 
 #: fw/apps/system/workout/active.c:1229 fw/apps/system/workout/active.c:1436
 #: fw/apps/system/workout/active.c:1475
-#, fuzzy
-#| msgid "AVG "
 msgid "AVG BPM"
-msgstr "MEDIA "
+msgstr "FC MITJANA"
 
 #: fw/apps/system/workout/active.c:1253
-#, fuzzy
-#| msgid "TIME IN ZONES"
 msgid "TIME IN ZONE"
-msgstr "TEMPS EN ZONES"
+msgstr "TEMPS EN ZONA"
 
 #: fw/apps/system/workout/active.c:1400
 msgid "LAST MINUTE"
-msgstr ""
+msgstr "ÚLTIM MINUT"
 
 #: fw/apps/system/workout/active.c:1403
 msgid "WAITING FOR HR"
-msgstr ""
+msgstr "ESPERANT FC"
 
 #: fw/apps/system/workout/active.c:1430
 msgid "READING SPO2"
-msgstr ""
+msgstr "LLEGINT SPO2"
 
 #: fw/apps/system/workout/active.c:1433
 #, c-format
 msgid "ZONE %d"
-msgstr ""
+msgstr "ZONA %d"
 
 #: fw/apps/system/workout/active.c:1436
 msgid "MEASURING"
-msgstr ""
+msgstr "MESURANT"
 
 #: fw/apps/system/workout/active.c:1477
 msgid "SPO2 %"
-msgstr ""
+msgstr "SPO2 %"
 
 #: fw/apps/system/workout/countdown.c:85 fw/apps/system/workout/summary.c:61
 msgid "WORKOUT"
-msgstr ""
+msgstr "ENTRENAMENT"
 
 #: fw/apps/system/workout/countdown.c:107
 msgid "GO!"
-msgstr ""
+msgstr "SOM-HI!"
 
 #: fw/apps/system/workout/sports.c:355
 msgid "Sports"
@@ -4104,7 +4046,7 @@ msgstr ""
 
 #: fw/services/vibes/vibes.def:18
 msgid "Heartbeat"
-msgstr "Pols"
+msgstr "Batec"
 
 #: fw/services/vibes/vibes.def:20
 msgid "Wave"
