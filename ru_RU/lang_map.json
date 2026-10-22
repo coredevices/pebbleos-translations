@@ -63,11 +63,11 @@
     },
     {
       "name": "GOTHIC_28_EXTENDED",
-      "file": "a1cf8e8cd4aa7e27a0d945d1ac27cb52c40362a7576a5d8e3152226c5d88f978.ttf",
-      "license": "e0e493edae714ad5bb243a346f3fd45ecdd94a00584118297f2d05e0f6187d38.license",
+      "file": "11947b91dff4875107810f4a9c25f9cf49cf58cf0170d826e75cf06916395892.ttf",
+      "license": "8472fd9eb5f772f2704a19a610f70ef3158a505cea304e83c1255f54eb913c2b.license",
       "extended": true,
-      "original_name": "NordwandMono-Thin.otf",
-      "license_original_name": "LICENSE-FONT.txt"
+      "original_name": "SofiaSansCondensed-Light.ttf",
+      "license_original_name": "OFL.txt"
     },
     {
       "name": "GOTHIC_36_BOLD_EXTENDED",
