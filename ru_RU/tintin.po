@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-10-21 04:26+0000\n"
+"PO-Revision-Date: 2026-10-22 02:26+0000\n"
 "Last-Translator: dx3756 <dx3756@gmail.com>\n"
 "Language-Team: Russian <https://translate.repebble.com/projects/pebbleos/"
 "watch/ru/>\n"
@@ -1254,7 +1254,7 @@ msgstr "Вкл по движению"
 #: fw/apps/system/settings/display.c:456 fw/apps/system/settings/display.c:687
 #: fw/apps/system/settings/display.c:691 fw/apps/system/settings/health.c:149
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
-#: fw/apps/system/settings/health.c:194
+#: fw/apps/system/settings/health.c:195
 #: fw/apps/system/settings/notifications.c:379
 #: fw/apps/system/settings/quiet_time.c:359
 #: fw/apps/system/settings/quiet_time.c:364
@@ -1357,9 +1357,9 @@ msgstr "Отключено"
 msgid "HR Monitoring"
 msgstr "Мониторинг ЧСС"
 
-#: fw/apps/system/settings/health.c:122 fw/apps/system/settings/health.c:177
-msgid "Blood Oxygen"
-msgstr "Кислород в крови"
+#: fw/apps/system/settings/health.c:122 fw/apps/system/settings/health.c:182
+msgid "SpO2 Monitoring"
+msgstr "Мониторинг SpO2"
 
 #: fw/apps/system/settings/health.c:148
 msgid "Health Tracking"
@@ -1373,13 +1373,13 @@ msgstr "Единицы расстояния"
 msgid "HR During Activity"
 msgstr "ЧСС в активностях"
 
-#: fw/apps/system/settings/health.c:182
-msgid "SpO2 Monitoring"
-msgstr "Мониторинг SpO2"
+#: fw/apps/system/settings/health.c:177
+msgid "SpO2"
+msgstr "SpO2"
 
 #: fw/apps/system/settings/health.c:189
-msgid "Blood O2 During Activity"
-msgstr "Кислород в крови в активностях"
+msgid "SpO2 During Activity"
+msgstr "SpO2 в активностях"
 
 #: fw/apps/system/settings/health.c:192
 msgid "Needs HR During Activity"
@@ -2409,7 +2409,7 @@ msgid "m/s"
 msgstr "м/с"
 
 #: fw/apps/system/weather/weather_app_layout.c:543
-msgid "kn"
+msgid "kt"
 msgstr "уз"
 
 #: fw/apps/system/weather/weather_app_layout.c:547
@@ -3747,15 +3747,15 @@ msgstr ""
 "Тихий режим\n"
 "выключен"
 
-#: fw/services/timeline/calendar_layout.c:172
+#: fw/services/timeline/calendar_layout.c:171
 msgid " - "
 msgstr " - "
 
-#: fw/services/timeline/calendar_layout.c:340
+#: fw/services/timeline/calendar_layout.c:339
 msgid "All Day"
 msgstr "Весь день"
 
-#: fw/services/timeline/calendar_layout.c:384
+#: fw/services/timeline/calendar_layout.c:383
 msgid "Recurring"
 msgstr "Повторяющееся"
 
@@ -3852,7 +3852,7 @@ msgstr "Через 15 минут"
 msgid "Later today"
 msgstr "Позже сегодня"
 
-#: fw/services/timeline/timeline_layout.c:799
+#: fw/services/timeline/timeline_layout.c:800
 msgid "Last updated"
 msgstr "Последнее обновление"
 
@@ -3930,6 +3930,15 @@ msgstr "Зарядка"
 #, c-format
 msgid "Powered 'til %s"
 msgstr "Заряда до %s"
+
+#~ msgid "kn"
+#~ msgstr "уз"
+
+#~ msgid "Blood Oxygen"
+#~ msgstr "Кислород в крови"
+
+#~ msgid "Blood O2 During Activity"
+#~ msgstr "Кислород в крови в активностях"
 
 #~ msgid "Motion Backlight"
 #~ msgstr "Подсветка по движению"
