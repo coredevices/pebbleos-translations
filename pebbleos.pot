@@ -506,27 +506,27 @@ msgstr ""
 msgid "End"
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:183
+#: fw/applib/voice/voice_window.c:187
 msgid "Dictation is not available."
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:202
+#: fw/applib/voice/voice_window.c:206
 msgid "Error occurred. Try again."
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:209 fw/apps/system/app_fetch_ui.c:124
+#: fw/applib/voice/voice_window.c:213 fw/apps/system/app_fetch_ui.c:124
 msgid "No internet connection"
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:221
+#: fw/applib/voice/voice_window.c:225
 msgid "Enable voice in the settings page of the Pebble app."
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:383
+#: fw/applib/voice/voice_window.c:388
 msgid "Missed that. Try again."
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:1110
+#: fw/applib/voice/voice_window.c:1115
 msgid "Listening"
 msgstr ""
 
