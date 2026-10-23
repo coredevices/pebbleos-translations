@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-10-22 02:26+0000\n"
+"PO-Revision-Date: 2026-10-23 03:26+0000\n"
 "Last-Translator: Rhialto <rhialto@gmail.com>\n"
 "Language-Team: French (Canada) <https://translate.repebble.com/projects/"
 "pebbleos/watch/fr_CA/>\n"
@@ -508,27 +508,27 @@ msgstr "Début"
 msgid "End"
 msgstr "Fin"
 
-#: fw/applib/voice/voice_window.c:183
+#: fw/applib/voice/voice_window.c:187
 msgid "Dictation is not available."
 msgstr "Dictation vocale indisponible."
 
-#: fw/applib/voice/voice_window.c:202
+#: fw/applib/voice/voice_window.c:206
 msgid "Error occurred. Try again."
 msgstr "Erreur. Veuillez réessayer."
 
-#: fw/applib/voice/voice_window.c:209 fw/apps/system/app_fetch_ui.c:124
+#: fw/applib/voice/voice_window.c:213 fw/apps/system/app_fetch_ui.c:124
 msgid "No internet connection"
 msgstr "Pas de connexion à internet"
 
-#: fw/applib/voice/voice_window.c:221
+#: fw/applib/voice/voice_window.c:225
 msgid "Enable voice in the settings page of the Pebble app."
 msgstr "Activez la voix dans les réglages de l’application mobile."
 
-#: fw/applib/voice/voice_window.c:383
+#: fw/applib/voice/voice_window.c:388
 msgid "Missed that. Try again."
 msgstr "Je n'ai pas bien compris. Essayez de nouveau."
 
-#: fw/applib/voice/voice_window.c:1110
+#: fw/applib/voice/voice_window.c:1115
 msgid "Listening"
 msgstr "J'écoute..."
 
@@ -727,7 +727,7 @@ msgstr "CALORIES"
 
 #. / Distance Label
 #: fw/apps/system/health/activity_detail_card.c:88
-#: fw/apps/system/workout/active.c:161
+#: fw/apps/system/workout/active.c:194
 msgid "DISTANCE"
 msgstr "DISTANCE"
 
@@ -820,9 +820,10 @@ msgstr "PLAGE DU JOUR"
 #. / Heading above the time spent in each heart rate zone today
 #: fw/apps/system/health/hr_detail_card.c:114
 msgid "TIME IN ZONES"
-msgstr "Temps en zone"
+msgstr "Temps selon zones"
 
 #: fw/apps/system/health/hr_summary_card.c:114
+#: fw/apps/system/workout/active.c:1120
 msgid "BPM"
 msgstr "BPM"
 
@@ -947,7 +948,7 @@ msgstr "Ajouté"
 
 #: fw/apps/system/reminders/reminder.c:301
 msgid "Reminder"
-msgstr ""
+msgstr "Rappel"
 
 #: fw/apps/system/send_text/send_text.c:195
 #: fw/apps/system/settings/health.c:156 fw/services/phone_call/util.c:18
@@ -2465,107 +2466,213 @@ msgid "UV INDEX"
 msgstr "INDICE UV"
 
 #. / Zone 1 HR Label
-#: fw/apps/system/workout/active.c:104
+#: fw/apps/system/workout/active.c:137
 msgid "FAT BURN"
 msgstr "PERTE DE GRAS"
 
 #. / Zone 2 HR Label
-#: fw/apps/system/workout/active.c:107
+#: fw/apps/system/workout/active.c:140
 msgid "ENDURANCE"
 msgstr "ENDURANCE"
 
 #. / Zone 3 HR Label
-#: fw/apps/system/workout/active.c:110
+#: fw/apps/system/workout/active.c:143
 msgid "PERFORMANCE"
 msgstr "PERFORMANCE"
 
 #. / Default/Zone 0 HR Label
-#: fw/apps/system/workout/active.c:113
+#: fw/apps/system/workout/active.c:146
 msgid "HEART RATE"
 msgstr "RYTHME CARDIAQUE"
 
 #. / Duration Label
-#: fw/apps/system/workout/active.c:130
+#: fw/apps/system/workout/active.c:163
 msgid "DURATION"
 msgstr "DURÉE"
 
 #. / Average Pace Label
-#: fw/apps/system/workout/active.c:134
+#: fw/apps/system/workout/active.c:167
 msgid "AVG PACE"
 msgstr "CADENCE MOY"
 
 #. / Average Pace Label with units
-#: fw/apps/system/workout/active.c:137
+#: fw/apps/system/workout/active.c:170
 msgid "AVG PACE (/MI)"
 msgstr "CADENCE MOY. (/MI)"
 
-#: fw/apps/system/workout/active.c:138
+#: fw/apps/system/workout/active.c:171
 msgid "AVG PACE (/KM)"
 msgstr "CADENCE MOY. (/KM)"
 
 #. / Pace Label
-#: fw/apps/system/workout/active.c:143
+#: fw/apps/system/workout/active.c:176
 msgid "PACE"
 msgstr "CADENCE"
 
 #. / Pace Label with units
-#: fw/apps/system/workout/active.c:146
+#: fw/apps/system/workout/active.c:179
 msgid "PACE (/MI)"
 msgstr "CADENCE (/MI)"
 
-#: fw/apps/system/workout/active.c:147
+#: fw/apps/system/workout/active.c:180
 msgid "PACE (/KM)"
 msgstr "CADENCE (/KM)"
 
 #. / Speed Label
-#: fw/apps/system/workout/active.c:152
+#: fw/apps/system/workout/active.c:185
 msgid "SPEED"
 msgstr "VITESSE"
 
 #. / Speed Label with units
-#: fw/apps/system/workout/active.c:155
+#: fw/apps/system/workout/active.c:188
 msgid "SPEED (MPH)"
 msgstr "VITESSE (MPH)"
 
-#: fw/apps/system/workout/active.c:156
+#: fw/apps/system/workout/active.c:189
 msgid "SPEED (KM/H)"
 msgstr "VITESSE (KM/H)"
 
 #. / Distance Label with units
-#: fw/apps/system/workout/active.c:164
+#: fw/apps/system/workout/active.c:197
 msgid "DISTANCE (MI)"
 msgstr "DISTANCE (MI)"
 
-#: fw/apps/system/workout/active.c:165
+#: fw/apps/system/workout/active.c:198
 msgid "DISTANCE (KM)"
 msgstr "DISTANCE (KM)"
 
 #. / Steps Label
-#: fw/apps/system/workout/active.c:169
+#: fw/apps/system/workout/active.c:202 fw/apps/system/workout/active.c:1191
+#: fw/apps/system/workout/active.c:1209 fw/apps/system/workout/active.c:1235
 msgid "STEPS"
 msgstr "PAS"
 
-#: fw/apps/system/workout/active.c:277 fw/apps/system/workout/active.c:334
+#: fw/apps/system/workout/active.c:307 fw/apps/system/workout/active.c:364
 msgid "MI"
 msgstr "MI"
 
-#: fw/apps/system/workout/active.c:277 fw/apps/system/workout/active.c:334
+#: fw/apps/system/workout/active.c:307 fw/apps/system/workout/active.c:364
 msgid "KM"
 msgstr "KM"
 
-#: fw/apps/system/workout/active.c:353
+#: fw/apps/system/workout/active.c:383
 msgid "MPH"
 msgstr "MPH"
 
-#: fw/apps/system/workout/active.c:353
+#: fw/apps/system/workout/active.c:383
 msgid "KM/H"
 msgstr "KM/H"
 
-#: fw/apps/system/workout/active.c:673
-msgid "End Workout?"
-msgstr "Terminer l'exercice?"
+#: fw/apps/system/workout/active.c:1059
+msgid "COMPLETE"
+msgstr ""
 
-#: fw/apps/system/workout/sports.c:345
+#: fw/apps/system/workout/active.c:1062
+msgid "END WORKOUT?"
+msgstr "FIN DE L'ACTIVITÉ?"
+
+#: fw/apps/system/workout/active.c:1066
+msgid "PAUSED"
+msgstr "EN PAUSE"
+
+#: fw/apps/system/workout/active.c:1120
+msgid "AVG"
+msgstr "DANS LA MOY"
+
+#: fw/apps/system/workout/active.c:1123 fw/apps/system/workout/active.c:1276
+#, c-format
+msgid "Z%d"
+msgstr "Z%d"
+
+#: fw/apps/system/workout/active.c:1179 fw/apps/system/workout/active.c:1224
+#: fw/apps/system/workout/active.c:1474
+msgid "TOTAL TIME"
+msgstr "TEMPS TOTAL"
+
+#: fw/apps/system/workout/active.c:1179 fw/apps/system/workout/active.c:1224
+msgid "TIMER"
+msgstr "CHRONO"
+
+#: fw/apps/system/workout/active.c:1187
+msgid "DIST MI"
+msgstr "DISTANCE (MI)"
+
+#: fw/apps/system/workout/active.c:1187
+msgid "DIST KM"
+msgstr "DISTANCE (KM)"
+
+#: fw/apps/system/workout/active.c:1189 fw/apps/system/workout/active.c:1222
+msgid "PACE /MI"
+msgstr "CADENCE (/MI)"
+
+#: fw/apps/system/workout/active.c:1189 fw/apps/system/workout/active.c:1222
+msgid "PACE /KM"
+msgstr "CADENCE (/KM)"
+
+#: fw/apps/system/workout/active.c:1193 fw/apps/system/workout/active.c:1210
+#: fw/apps/system/workout/active.c:1236 fw/apps/system/workout/active.c:1478
+msgid "KCAL"
+msgstr "KCAL"
+
+#: fw/apps/system/workout/active.c:1208 fw/apps/system/workout/active.c:1234
+msgid "CADENCE"
+msgstr "CADENCE"
+
+#: fw/apps/system/workout/active.c:1219
+msgid "SPEED MPH"
+msgstr "VITESSE (MPH)"
+
+#: fw/apps/system/workout/active.c:1220
+msgid "SPEED KM/H"
+msgstr "VITESSE (KM/H)"
+
+#: fw/apps/system/workout/active.c:1227 fw/apps/system/workout/active.c:1477
+msgid "LOW SPO2 %"
+msgstr ""
+
+#: fw/apps/system/workout/active.c:1229 fw/apps/system/workout/active.c:1436
+#: fw/apps/system/workout/active.c:1475
+msgid "AVG BPM"
+msgstr "BPM MOY"
+
+#: fw/apps/system/workout/active.c:1253
+msgid "TIME IN ZONE"
+msgstr "Temps en zone"
+
+#: fw/apps/system/workout/active.c:1400
+msgid "LAST MINUTE"
+msgstr ""
+
+#: fw/apps/system/workout/active.c:1403
+msgid "WAITING FOR HR"
+msgstr "EN ATTENDE DE FC"
+
+#: fw/apps/system/workout/active.c:1430
+msgid "READING SPO2"
+msgstr "LECTURE SPO2"
+
+#: fw/apps/system/workout/active.c:1433
+#, c-format
+msgid "ZONE %d"
+msgstr "ZONE %d"
+
+#: fw/apps/system/workout/active.c:1436
+msgid "MEASURING"
+msgstr "MESURE EN COURS"
+
+#: fw/apps/system/workout/active.c:1477
+msgid "SPO2 %"
+msgstr "SPO2 %"
+
+#: fw/apps/system/workout/countdown.c:85 fw/apps/system/workout/summary.c:61
+msgid "WORKOUT"
+msgstr "EXERCICE"
+
+#: fw/apps/system/workout/countdown.c:107
+msgid "GO!"
+msgstr "GO!"
+
+#: fw/apps/system/workout/sports.c:355
 msgid "Sports"
 msgstr "Sports"
 
@@ -2593,7 +2700,7 @@ msgid "Open Workout"
 msgstr "Débuter l'exercice"
 
 #. / Workout Label
-#: fw/apps/system/workout/utils.c:93 fw/apps/system/workout/workout.c:259
+#: fw/apps/system/workout/utils.c:93 fw/apps/system/workout/workout.c:267
 #: fw/services/activity/activity_insights.c:1647
 msgid "Workout"
 msgstr "Exercice"
@@ -2637,7 +2744,7 @@ msgstr ""
 "Course\n"
 "détectée"
 
-#: fw/apps/system/workout/workout.c:159
+#: fw/apps/system/workout/workout.c:166
 msgid ""
 "Workout\n"
 "Ended"
@@ -2645,18 +2752,18 @@ msgstr ""
 "Fin de\n"
 "l'exercice"
 
-#: fw/apps/system/workout/workout.c:185
+#: fw/apps/system/workout/workout.c:192
 msgid "Workout requires the time to be synced. Please connect your phone."
 msgstr ""
 "L'exercice nécessite la synchronisation de l’heure. Connectez votre "
 "téléphone."
 
 #. / Health disabled text
-#: fw/apps/system/workout/workout.c:193
+#: fw/apps/system/workout/workout.c:200
 msgid "Enable Pebble Health in the mobile app to track workouts"
 msgstr "Activez Pebble Bien-Être sur votre téléphone pour suivre vos activités"
 
-#: fw/apps/system/workout/workout.c:201
+#: fw/apps/system/workout/workout.c:209
 msgid ""
 "Wear your watch snug and 2 fingers' width above your wrist bone for best "
 "results."
@@ -2825,7 +2932,7 @@ msgstr ""
 "Pendant que votre Pebble était éteinte, des événements de réveil se sont "
 "produits pour:\n"
 
-#: fw/process_management/app_manager.c:503
+#: fw/process_management/app_manager.c:507
 #, c-format
 msgid "%.*s is not responding"
 msgstr "%.*s ne répond pas"
@@ -3955,6 +4062,9 @@ msgstr "Recharge en cours…"
 #, c-format
 msgid "Powered 'til %s"
 msgstr "Autonomie jusqu'à %s"
+
+#~ msgid "End Workout?"
+#~ msgstr "Terminer l'exercice?"
 
 #~ msgid "kn"
 #~ msgstr "nœud"
