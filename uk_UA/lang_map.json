@@ -79,11 +79,11 @@
     },
     {
       "name": "GOTHIC_36_EXTENDED",
-      "file": "regular.ttf",
-      "license": "license.txt",
+      "file": "33a15e6a0f3476bece9e73f67f317d9f530ac8d148f4ebd234e4285e19ff04d6.ttf",
+      "license": "7d96701533d059cfd4191a85ecfd159e262527abd737eae6d9fb533844c70410.license",
       "extended": true,
-      "original_name": "NotoSans-Regular.ttf",
-      "license_original_name": "LICENSE.txt"
+      "original_name": "RobotoCondensed-Light.ttf",
+      "license_original_name": "OFL.txt"
     }
   ],
   "images": []
