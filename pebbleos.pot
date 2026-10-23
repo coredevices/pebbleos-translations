@@ -1032,7 +1032,7 @@ msgid ""
 msgstr ""
 
 #: fw/apps/system/settings/display.c:86 fw/apps/system/settings/display.c:709
-#: fw/apps/system/settings/system.c:210
+#: fw/apps/system/settings/system.c:212
 msgid "Language"
 msgstr ""
 
@@ -1062,15 +1062,15 @@ msgstr ""
 msgid "Text Size"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:442
+#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:444
 msgid "Low"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:443
+#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:445
 msgid "Medium"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:444
+#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:446
 msgid "High"
 msgstr ""
 
@@ -1241,7 +1241,7 @@ msgstr ""
 #: fw/apps/system/settings/quiet_time.c:370
 #: fw/apps/system/settings/quiet_time.c:437
 #: fw/apps/system/settings/quiet_time.c:457
-#: fw/apps/system/settings/system.c:1295 fw/apps/system/settings/timeline.c:190
+#: fw/apps/system/settings/system.c:1312 fw/apps/system/settings/timeline.c:190
 #: fw/apps/system/settings/vibe_patterns.c:69
 msgid "On"
 msgstr ""
@@ -1258,7 +1258,7 @@ msgstr ""
 #: fw/apps/system/settings/quiet_time.c:370
 #: fw/apps/system/settings/quiet_time.c:437
 #: fw/apps/system/settings/quiet_time.c:457
-#: fw/apps/system/settings/system.c:1295 fw/apps/system/settings/timeline.c:193
+#: fw/apps/system/settings/system.c:1312 fw/apps/system/settings/timeline.c:193
 #: fw/apps/system/settings/vibe_patterns.c:69
 msgid "Off"
 msgstr ""
@@ -1328,8 +1328,8 @@ msgid "1 Hour"
 msgstr ""
 
 #: fw/apps/system/settings/health.c:36 fw/apps/system/settings/health.c:59
-#: fw/apps/system/settings/system.c:523 fw/apps/system/settings/system.c:539
-#: fw/apps/system/settings/system.c:542
+#: fw/apps/system/settings/system.c:525 fw/apps/system/settings/system.c:541
+#: fw/apps/system/settings/system.c:544
 msgid "Disabled"
 msgstr ""
 
@@ -1635,184 +1635,188 @@ msgstr ""
 msgid "Volume"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:162 fw/apps/system/settings/system.c:257
+#: fw/apps/system/settings/system.c:164 fw/apps/system/settings/system.c:259
 msgid "Information"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:163 fw/apps/system/settings/system.c:963
+#: fw/apps/system/settings/system.c:165 fw/apps/system/settings/system.c:965
 msgid "Certification"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:164
+#: fw/apps/system/settings/system.c:166
 msgid "Stand-By Mode"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:165 fw/apps/system/settings/system.c:605
+#: fw/apps/system/settings/system.c:167 fw/apps/system/settings/system.c:607
 msgid "Debugging"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:166
+#: fw/apps/system/settings/system.c:168
 msgid "Shut Down"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:167
+#: fw/apps/system/settings/system.c:169
 msgid "Factory Reset"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:208
+#: fw/apps/system/settings/system.c:210
 msgid "BT Address"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:209
+#: fw/apps/system/settings/system.c:211
 msgid "Firmware"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:211
+#: fw/apps/system/settings/system.c:213
 msgid "Recovery"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:212
+#: fw/apps/system/settings/system.c:214
 msgid "Bootloader"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:213
+#: fw/apps/system/settings/system.c:215
 msgid "Hardware"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:214
+#: fw/apps/system/settings/system.c:216
 msgid "Serial"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:215
+#: fw/apps/system/settings/system.c:217
 msgid "Uptime"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:216
+#: fw/apps/system/settings/system.c:218
 msgid "Legal"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:355
+#: fw/apps/system/settings/system.c:357
 msgid "Core dump and reboot?"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:442
+#: fw/apps/system/settings/system.c:444
 msgid "Very Low"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:443
+#: fw/apps/system/settings/system.c:445
 msgid "Medium-Low"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:444
+#: fw/apps/system/settings/system.c:446
 msgid "Medium-High"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:445
+#: fw/apps/system/settings/system.c:447
 msgid "Very High"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:470 fw/apps/system/settings/system.c:496
+#: fw/apps/system/settings/system.c:472 fw/apps/system/settings/system.c:498
 msgid "Motion Sensitivity"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:492
+#: fw/apps/system/settings/system.c:494
 msgid "CoreDump now"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:493
+#: fw/apps/system/settings/system.c:495
 msgid "CoreDump shortcut"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:494
+#: fw/apps/system/settings/system.c:496
 msgid "ALS Threshold"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:498
+#: fw/apps/system/settings/system.c:500
 msgid "Shake Log Info"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:499
+#: fw/apps/system/settings/system.c:501
 msgid "Vibe Log Info"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:500
+#: fw/apps/system/settings/system.c:502
 msgid "Compact Settings DBs"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:502
+#: fw/apps/system/settings/system.c:504
 msgid "SpO2 Test"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:522
+#: fw/apps/system/settings/system.c:524
 msgid "10 back-button presses"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:538 fw/apps/system/settings/system.c:541
+#: fw/apps/system/settings/system.c:540 fw/apps/system/settings/system.c:543
 msgid "Enabled"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:682
+#: fw/apps/system/settings/system.c:684
 msgid "PebbleOS developers only!"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:927
+#: fw/apps/system/settings/system.c:929
 msgid "See details..."
 msgstr ""
 
-#: fw/apps/system/settings/system.c:985
+#: fw/apps/system/settings/system.c:987
 msgid "Company"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:993
+#: fw/apps/system/settings/system.c:995
 msgid "Product Model"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1000
+#: fw/apps/system/settings/system.c:1002
 msgid "Product Type"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1007
+#: fw/apps/system/settings/system.c:1009
 msgid "Trademark"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1014
+#: fw/apps/system/settings/system.c:1016
 msgid "Place of Origin"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1021
+#: fw/apps/system/settings/system.c:1023
 msgid "DC Input"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1028
+#: fw/apps/system/settings/system.c:1030
 msgid "Rated Voltage"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1035
+#: fw/apps/system/settings/system.c:1037
 msgid "Milliampere-hour"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1042
+#: fw/apps/system/settings/system.c:1044
 msgid "Watt-hour"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1056
+#: fw/apps/system/settings/system.c:1058
 msgid "Canada IC"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1063
+#: fw/apps/system/settings/system.c:1065
 msgid "Canada ISED"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1077 fw/apps/system/settings/system.c:1187
+#: fw/apps/system/settings/system.c:1079 fw/apps/system/settings/system.c:1189
 msgid "South Korea KCC"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1275
+#: fw/apps/system/settings/system.c:1258
+msgid "Disconnect the charger to shut down."
+msgstr ""
+
+#: fw/apps/system/settings/system.c:1292
 msgid "Do you want to shut down?"
 msgstr ""
 
 #. / Refers to the class of all non-score vibes, e.g. 3rd party app vibes
-#: fw/apps/system/settings/system.c:1362
+#: fw/apps/system/settings/system.c:1379
 #: fw/apps/system/settings/vibe_patterns.c:109
 msgid "System"
 msgstr ""
