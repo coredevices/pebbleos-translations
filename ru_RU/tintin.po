@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-10-22 02:26+0000\n"
+"PO-Revision-Date: 2026-10-23 06:26+0000\n"
 "Last-Translator: dx3756 <dx3756@gmail.com>\n"
 "Language-Team: Russian <https://translate.repebble.com/projects/pebbleos/"
 "watch/ru/>\n"
@@ -509,27 +509,27 @@ msgstr "Начало"
 msgid "End"
 msgstr "Конец"
 
-#: fw/applib/voice/voice_window.c:183
+#: fw/applib/voice/voice_window.c:187
 msgid "Dictation is not available."
 msgstr "Диктовка недоступна."
 
-#: fw/applib/voice/voice_window.c:202
+#: fw/applib/voice/voice_window.c:206
 msgid "Error occurred. Try again."
 msgstr "Ошибка. Попробуйте ещё раз."
 
-#: fw/applib/voice/voice_window.c:209 fw/apps/system/app_fetch_ui.c:124
+#: fw/applib/voice/voice_window.c:213 fw/apps/system/app_fetch_ui.c:124
 msgid "No internet connection"
 msgstr "Нет интернета"
 
-#: fw/applib/voice/voice_window.c:221
+#: fw/applib/voice/voice_window.c:225
 msgid "Enable voice in the settings page of the Pebble app."
 msgstr "Включите голос во вкладке настроек в приложении Pebble."
 
-#: fw/applib/voice/voice_window.c:383
+#: fw/applib/voice/voice_window.c:388
 msgid "Missed that. Try again."
 msgstr "Не распознано. Попробуйте ещё раз."
 
-#: fw/applib/voice/voice_window.c:1110
+#: fw/applib/voice/voice_window.c:1115
 msgid "Listening"
 msgstr "Слушаю"
 
@@ -728,7 +728,7 @@ msgstr "КАЛОРИИ"
 
 #. / Distance Label
 #: fw/apps/system/health/activity_detail_card.c:88
-#: fw/apps/system/workout/active.c:161
+#: fw/apps/system/workout/active.c:194
 msgid "DISTANCE"
 msgstr "ДИСТАНЦИЯ"
 
@@ -823,6 +823,7 @@ msgid "TIME IN ZONES"
 msgstr "ВРЕМЯ В ЗОНАХ ЧСС"
 
 #: fw/apps/system/health/hr_summary_card.c:114
+#: fw/apps/system/workout/active.c:1120
 msgid "BPM"
 msgstr "уд/мин"
 
@@ -2457,107 +2458,213 @@ msgid "UV INDEX"
 msgstr "ИНДЕКС УФ"
 
 #. / Zone 1 HR Label
-#: fw/apps/system/workout/active.c:104
+#: fw/apps/system/workout/active.c:137
 msgid "FAT BURN"
 msgstr "СЖИГАНИЕ ЖИРА"
 
 #. / Zone 2 HR Label
-#: fw/apps/system/workout/active.c:107
+#: fw/apps/system/workout/active.c:140
 msgid "ENDURANCE"
 msgstr "ВЫНОСЛИВОСТЬ"
 
 #. / Zone 3 HR Label
-#: fw/apps/system/workout/active.c:110
+#: fw/apps/system/workout/active.c:143
 msgid "PERFORMANCE"
 msgstr "ЭФФЕКТИВНОСТЬ"
 
 #. / Default/Zone 0 HR Label
-#: fw/apps/system/workout/active.c:113
+#: fw/apps/system/workout/active.c:146
 msgid "HEART RATE"
 msgstr "ПУЛЬС"
 
 #. / Duration Label
-#: fw/apps/system/workout/active.c:130
+#: fw/apps/system/workout/active.c:163
 msgid "DURATION"
 msgstr "ДЛИТЕЛЬНОСТЬ"
 
 #. / Average Pace Label
-#: fw/apps/system/workout/active.c:134
+#: fw/apps/system/workout/active.c:167
 msgid "AVG PACE"
 msgstr "СР ТЕМП"
 
 #. / Average Pace Label with units
-#: fw/apps/system/workout/active.c:137
+#: fw/apps/system/workout/active.c:170
 msgid "AVG PACE (/MI)"
 msgstr "СР ТЕМП (/МИ)"
 
-#: fw/apps/system/workout/active.c:138
+#: fw/apps/system/workout/active.c:171
 msgid "AVG PACE (/KM)"
 msgstr "СР ТЕМП (/КМ)"
 
 #. / Pace Label
-#: fw/apps/system/workout/active.c:143
+#: fw/apps/system/workout/active.c:176
 msgid "PACE"
 msgstr "ТЕМП"
 
 #. / Pace Label with units
-#: fw/apps/system/workout/active.c:146
+#: fw/apps/system/workout/active.c:179
 msgid "PACE (/MI)"
 msgstr "ТЕМП (/МИ)"
 
-#: fw/apps/system/workout/active.c:147
+#: fw/apps/system/workout/active.c:180
 msgid "PACE (/KM)"
 msgstr "ТЕМП (/КМ)"
 
 #. / Speed Label
-#: fw/apps/system/workout/active.c:152
+#: fw/apps/system/workout/active.c:185
 msgid "SPEED"
 msgstr "СКОРОСТЬ"
 
 #. / Speed Label with units
-#: fw/apps/system/workout/active.c:155
+#: fw/apps/system/workout/active.c:188
 msgid "SPEED (MPH)"
 msgstr "СКОРОСТЬ (МИ/Ч)"
 
-#: fw/apps/system/workout/active.c:156
+#: fw/apps/system/workout/active.c:189
 msgid "SPEED (KM/H)"
 msgstr "СКОРОСТЬ (КМ/Ч)"
 
 #. / Distance Label with units
-#: fw/apps/system/workout/active.c:164
+#: fw/apps/system/workout/active.c:197
 msgid "DISTANCE (MI)"
 msgstr "ДИСТАНЦИЯ (МИ)"
 
-#: fw/apps/system/workout/active.c:165
+#: fw/apps/system/workout/active.c:198
 msgid "DISTANCE (KM)"
 msgstr "ДИСТАНЦИЯ (КМ)"
 
 #. / Steps Label
-#: fw/apps/system/workout/active.c:169
+#: fw/apps/system/workout/active.c:202 fw/apps/system/workout/active.c:1191
+#: fw/apps/system/workout/active.c:1209 fw/apps/system/workout/active.c:1235
 msgid "STEPS"
 msgstr "ШАГИ"
 
-#: fw/apps/system/workout/active.c:277 fw/apps/system/workout/active.c:334
+#: fw/apps/system/workout/active.c:307 fw/apps/system/workout/active.c:364
 msgid "MI"
 msgstr "МИ"
 
-#: fw/apps/system/workout/active.c:277 fw/apps/system/workout/active.c:334
+#: fw/apps/system/workout/active.c:307 fw/apps/system/workout/active.c:364
 msgid "KM"
 msgstr "КМ"
 
-#: fw/apps/system/workout/active.c:353
+#: fw/apps/system/workout/active.c:383
 msgid "MPH"
 msgstr "МИ/Ч"
 
-#: fw/apps/system/workout/active.c:353
+#: fw/apps/system/workout/active.c:383
 msgid "KM/H"
 msgstr "КМ/Ч"
 
-#: fw/apps/system/workout/active.c:673
-msgid "End Workout?"
-msgstr "Закончить тренировку?"
+#: fw/apps/system/workout/active.c:1059
+msgid "COMPLETE"
+msgstr "ЗАВЕРШЕНА"
 
-#: fw/apps/system/workout/sports.c:345
+#: fw/apps/system/workout/active.c:1062
+msgid "END WORKOUT?"
+msgstr "ЗАВЕРШИТЬ ТРЕНИРОВКУ?"
+
+#: fw/apps/system/workout/active.c:1066
+msgid "PAUSED"
+msgstr "ПАУЗА"
+
+#: fw/apps/system/workout/active.c:1120
+msgid "AVG"
+msgstr "СРЕДН"
+
+#: fw/apps/system/workout/active.c:1123 fw/apps/system/workout/active.c:1276
+#, c-format
+msgid "Z%d"
+msgstr "З%d"
+
+#: fw/apps/system/workout/active.c:1179 fw/apps/system/workout/active.c:1224
+#: fw/apps/system/workout/active.c:1474
+msgid "TOTAL TIME"
+msgstr "ОБЩ ВРЕМЯ"
+
+#: fw/apps/system/workout/active.c:1179 fw/apps/system/workout/active.c:1224
+msgid "TIMER"
+msgstr "ТАЙМЕР"
+
+#: fw/apps/system/workout/active.c:1187
+msgid "DIST MI"
+msgstr "ДИСТ (МИ)"
+
+#: fw/apps/system/workout/active.c:1187
+msgid "DIST KM"
+msgstr "ДИСТ (КМ)"
+
+#: fw/apps/system/workout/active.c:1189 fw/apps/system/workout/active.c:1222
+msgid "PACE /MI"
+msgstr "ТЕМП /МИ"
+
+#: fw/apps/system/workout/active.c:1189 fw/apps/system/workout/active.c:1222
+msgid "PACE /KM"
+msgstr "ТЕМП /КМ"
+
+#: fw/apps/system/workout/active.c:1193 fw/apps/system/workout/active.c:1210
+#: fw/apps/system/workout/active.c:1236 fw/apps/system/workout/active.c:1478
+msgid "KCAL"
+msgstr "ККАЛ"
+
+#: fw/apps/system/workout/active.c:1208 fw/apps/system/workout/active.c:1234
+msgid "CADENCE"
+msgstr "КАДЕНС"
+
+#: fw/apps/system/workout/active.c:1219
+msgid "SPEED MPH"
+msgstr "СКОРОСТЬ МИ/Ч"
+
+#: fw/apps/system/workout/active.c:1220
+msgid "SPEED KM/H"
+msgstr "СКОРОСТЬ КМ/Ч"
+
+#: fw/apps/system/workout/active.c:1227 fw/apps/system/workout/active.c:1477
+msgid "LOW SPO2 %"
+msgstr "НИЗК SPO2 %"
+
+#: fw/apps/system/workout/active.c:1229 fw/apps/system/workout/active.c:1436
+#: fw/apps/system/workout/active.c:1475
+msgid "AVG BPM"
+msgstr "СР ЧСС"
+
+#: fw/apps/system/workout/active.c:1253
+msgid "TIME IN ZONE"
+msgstr "ВРЕМЯ В ЗОНЕ"
+
+#: fw/apps/system/workout/active.c:1400
+msgid "LAST MINUTE"
+msgstr "ПОСЛ МИНУТА"
+
+#: fw/apps/system/workout/active.c:1403
+msgid "WAITING FOR HR"
+msgstr "ОЖИДАНИЕ ЧСС"
+
+#: fw/apps/system/workout/active.c:1430
+msgid "READING SPO2"
+msgstr "ЧТЕНИЕ SPO2"
+
+#: fw/apps/system/workout/active.c:1433
+#, c-format
+msgid "ZONE %d"
+msgstr "ЗОНА %d"
+
+#: fw/apps/system/workout/active.c:1436
+msgid "MEASURING"
+msgstr "ИЗМЕРЕНИЕ"
+
+#: fw/apps/system/workout/active.c:1477
+msgid "SPO2 %"
+msgstr "SPO2 %"
+
+#: fw/apps/system/workout/countdown.c:85 fw/apps/system/workout/summary.c:61
+msgid "WORKOUT"
+msgstr "ТРЕНИРОВКА"
+
+#: fw/apps/system/workout/countdown.c:107
+msgid "GO!"
+msgstr "ПОЕХАЛИ!"
+
+#: fw/apps/system/workout/sports.c:355
 msgid "Sports"
 msgstr "Спорт"
 
@@ -2585,7 +2692,7 @@ msgid "Open Workout"
 msgstr "Открыть тренировку"
 
 #. / Workout Label
-#: fw/apps/system/workout/utils.c:93 fw/apps/system/workout/workout.c:259
+#: fw/apps/system/workout/utils.c:93 fw/apps/system/workout/workout.c:267
 #: fw/services/activity/activity_insights.c:1647
 msgid "Workout"
 msgstr "Тренировка"
@@ -2629,7 +2736,7 @@ msgstr ""
 "Обнаружен\n"
 "бег"
 
-#: fw/apps/system/workout/workout.c:159
+#: fw/apps/system/workout/workout.c:166
 msgid ""
 "Workout\n"
 "Ended"
@@ -2637,17 +2744,17 @@ msgstr ""
 "Тренировка\n"
 "окончена"
 
-#: fw/apps/system/workout/workout.c:185
+#: fw/apps/system/workout/workout.c:192
 msgid "Workout requires the time to be synced. Please connect your phone."
 msgstr ""
 "Для работы тренировок требуется синхронизировать время. Подключите телефон."
 
 #. / Health disabled text
-#: fw/apps/system/workout/workout.c:193
+#: fw/apps/system/workout/workout.c:200
 msgid "Enable Pebble Health in the mobile app to track workouts"
 msgstr "Включите Pebble Health в приложении для отслеживания тренировок"
 
-#: fw/apps/system/workout/workout.c:201
+#: fw/apps/system/workout/workout.c:209
 msgid ""
 "Wear your watch snug and 2 fingers' width above your wrist bone for best "
 "results."
@@ -2813,7 +2920,7 @@ msgstr "Запустить %s вместо %s в качестве приложе
 msgid "While your Pebble was off wakeup events occurred for:\n"
 msgstr "Пока ваши часы были выключены, события пробуждения случились для:\n"
 
-#: fw/process_management/app_manager.c:503
+#: fw/process_management/app_manager.c:507
 #, c-format
 msgid "%.*s is not responding"
 msgstr "%.*s не отвечает"
@@ -3930,6 +4037,9 @@ msgstr "Зарядка"
 #, c-format
 msgid "Powered 'til %s"
 msgstr "Заряда до %s"
+
+#~ msgid "End Workout?"
+#~ msgstr "Закончить тренировку?"
 
 #~ msgid "kn"
 #~ msgstr "уз"
