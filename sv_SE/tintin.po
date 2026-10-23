@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-10-22 18:32+0000\n"
-"Last-Translator: Martin <martin@norlin.at>\n"
+"PO-Revision-Date: 2026-10-24 08:26+0000\n"
+"Last-Translator: fulaapan <fulaapan@pm.me>\n"
 "Language-Team: Swedish <https://translate.repebble.com/projects/pebbleos/"
 "watch/sv/>\n"
 "Language: sv_SE\n"
@@ -468,15 +468,13 @@ msgstr "Varje dag"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / every weekday. Respect capitalization!
-#: fw/applib/ui/day_picker.c:46 fw/apps/system/settings/quiet_time.c:259
-#: fw/services/alarms/alarm.c:1430
+#: fw/applib/ui/day_picker.c:46 fw/services/alarms/alarm.c:1430
 msgid "Weekdays"
 msgstr "Vardagar"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / each day on the weekend. Respect capitalization!
-#: fw/applib/ui/day_picker.c:47 fw/apps/system/settings/quiet_time.c:267
-#: fw/services/alarms/alarm.c:1440
+#: fw/applib/ui/day_picker.c:47 fw/services/alarms/alarm.c:1440
 msgid "Weekends"
 msgstr "Helger"
 
@@ -528,7 +526,7 @@ msgstr "Aktivera röstigenkänning i Pebble appens inställningar."
 msgid "Missed that. Try again."
 msgstr "Hörde inte. Försök igen."
 
-#: fw/applib/voice/voice_window.c:1115
+#: fw/applib/voice/voice_window.c:1115 fw/popups/mic_banner.c:46
 msgid "Listening"
 msgstr "Lyssnar"
 
@@ -554,16 +552,17 @@ msgid "Snooze delay set to %d minutes"
 msgstr "Snoozelängd inställd på %d minuter"
 
 #: fw/apps/system/alarms/alarm_detail.c:274
+#: fw/apps/system/settings/quiet_time.c:337
 msgid "Delete"
 msgstr "Radera"
 
 #: fw/apps/system/alarms/alarm_detail.c:279
-#: fw/apps/system/settings/quiet_time.c:200
+#: fw/apps/system/settings/quiet_time.c:314
 msgid "Disable"
 msgstr "Avaktivera"
 
 #: fw/apps/system/alarms/alarm_detail.c:279
-#: fw/apps/system/settings/quiet_time.c:202
+#: fw/apps/system/settings/quiet_time.c:318
 msgid "Enable"
 msgstr "Aktivera"
 
@@ -573,6 +572,7 @@ msgid "Change Time"
 msgstr "Ändra tid"
 
 #: fw/apps/system/alarms/alarm_detail.c:289
+#: fw/apps/system/settings/quiet_time.c:332
 msgid "Change Days"
 msgstr "Ändra dagar"
 
@@ -655,15 +655,15 @@ msgstr "Smart alarm"
 msgid "Alarm Deleted"
 msgstr "Alarm raderat"
 
-#: fw/apps/system/alarms/alarms.c:231
+#: fw/apps/system/alarms/alarms.c:231 fw/apps/system/settings/quiet_time.c:384
 msgid "Limit reached."
 msgstr "Gräns uppnådd."
 
-#: fw/apps/system/alarms/alarms.c:275
+#: fw/apps/system/alarms/alarms.c:275 fw/apps/system/settings/quiet_time.c:427
 msgid "ON"
 msgstr "PÅ"
 
-#: fw/apps/system/alarms/alarms.c:275
+#: fw/apps/system/alarms/alarms.c:275 fw/apps/system/settings/quiet_time.c:427
 msgid "OFF"
 msgstr "AV"
 
@@ -908,8 +908,8 @@ msgstr "Inga aviseringar"
 
 #: fw/apps/system/notifications.c:1109
 #: fw/apps/system/settings/notifications.c:491
-#: fw/apps/system/settings/quiet_time.c:368
-#: fw/apps/system/settings/quiet_time.c:447
+#: fw/apps/system/settings/quiet_time.c:539
+#: fw/apps/system/settings/quiet_time.c:623
 #: fw/apps/system/settings/vibe_patterns.c:83
 #: fw/services/timeline/timeline.c:913
 msgid "Notifications"
@@ -1047,7 +1047,7 @@ msgid ""
 msgstr "Kom ihåg att också radera Pebbles Bluetooth-anslutning på din telefon."
 
 #: fw/apps/system/settings/display.c:86 fw/apps/system/settings/display.c:709
-#: fw/apps/system/settings/system.c:210
+#: fw/apps/system/settings/system.c:212
 msgid "Language"
 msgstr "Språk"
 
@@ -1077,15 +1077,15 @@ msgstr "Större"
 msgid "Text Size"
 msgstr "Textstorlek"
 
-#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:442
+#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:444
 msgid "Low"
 msgstr "Låg"
 
-#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:443
+#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:445
 msgid "Medium"
 msgstr "Mellan"
 
-#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:444
+#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:446
 msgid "High"
 msgstr "Hög"
 
@@ -1205,8 +1205,8 @@ msgstr "BELYSNING"
 #: fw/apps/system/settings/display.c:314 fw/apps/system/settings/display.c:436
 #: fw/apps/system/settings/display.c:677
 #: fw/apps/system/settings/notifications.c:377
-#: fw/apps/system/settings/quiet_time.c:413
-#: fw/apps/system/settings/quiet_time.c:451
+#: fw/apps/system/settings/quiet_time.c:584
+#: fw/apps/system/settings/quiet_time.c:627
 msgid "Backlight"
 msgstr "Belysning"
 
@@ -1251,12 +1251,13 @@ msgstr "Väck vid rörelse"
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
 #: fw/apps/system/settings/health.c:195
 #: fw/apps/system/settings/notifications.c:379
-#: fw/apps/system/settings/quiet_time.c:359
-#: fw/apps/system/settings/quiet_time.c:364
-#: fw/apps/system/settings/quiet_time.c:370
-#: fw/apps/system/settings/quiet_time.c:437
-#: fw/apps/system/settings/quiet_time.c:457
-#: fw/apps/system/settings/system.c:1295 fw/apps/system/settings/timeline.c:190
+#: fw/apps/system/settings/quiet_time.c:530
+#: fw/apps/system/settings/quiet_time.c:535
+#: fw/apps/system/settings/quiet_time.c:541
+#: fw/apps/system/settings/quiet_time.c:608
+#: fw/apps/system/settings/quiet_time.c:613
+#: fw/apps/system/settings/quiet_time.c:633
+#: fw/apps/system/settings/system.c:1312 fw/apps/system/settings/timeline.c:190
 #: fw/apps/system/settings/vibe_patterns.c:69
 msgid "On"
 msgstr "På"
@@ -1267,13 +1268,14 @@ msgstr "På"
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
 #: fw/apps/system/settings/health.c:195
 #: fw/apps/system/settings/notifications.c:379
-#: fw/apps/system/settings/quiet_time.c:321
-#: fw/apps/system/settings/quiet_time.c:359
-#: fw/apps/system/settings/quiet_time.c:364
-#: fw/apps/system/settings/quiet_time.c:370
-#: fw/apps/system/settings/quiet_time.c:437
-#: fw/apps/system/settings/quiet_time.c:457
-#: fw/apps/system/settings/system.c:1295 fw/apps/system/settings/timeline.c:193
+#: fw/apps/system/settings/quiet_time.c:492
+#: fw/apps/system/settings/quiet_time.c:530
+#: fw/apps/system/settings/quiet_time.c:535
+#: fw/apps/system/settings/quiet_time.c:541
+#: fw/apps/system/settings/quiet_time.c:608
+#: fw/apps/system/settings/quiet_time.c:613
+#: fw/apps/system/settings/quiet_time.c:633
+#: fw/apps/system/settings/system.c:1312 fw/apps/system/settings/timeline.c:193
 #: fw/apps/system/settings/vibe_patterns.c:69
 msgid "Off"
 msgstr "Av"
@@ -1296,7 +1298,7 @@ msgid "Backlight Settings"
 msgstr "Belysningsinställningar"
 
 #: fw/apps/system/settings/display.c:686
-#: fw/apps/system/settings/quiet_time.c:363
+#: fw/apps/system/settings/quiet_time.c:534
 msgid "Touch"
 msgstr "Tryck"
 
@@ -1343,8 +1345,8 @@ msgid "1 Hour"
 msgstr "1 timme"
 
 #: fw/apps/system/settings/health.c:36 fw/apps/system/settings/health.c:59
-#: fw/apps/system/settings/system.c:523 fw/apps/system/settings/system.c:539
-#: fw/apps/system/settings/system.c:542
+#: fw/apps/system/settings/system.c:525 fw/apps/system/settings/system.c:541
+#: fw/apps/system/settings/system.c:544
 msgid "Disabled"
 msgstr "Inaktiverad"
 
@@ -1565,66 +1567,54 @@ msgid ""
 "Open favorite apps quickly with a long button press from your watchface."
 msgstr "Öppna favoritappar genom ett långt knapptryck på urtavlan."
 
-#: fw/apps/system/settings/quiet_time.c:91
+#: fw/apps/system/settings/quiet_time.c:106
 msgid "Quiet All Notifications"
 msgstr "Tysta alla notiser"
 
-#: fw/apps/system/settings/quiet_time.c:94
+#: fw/apps/system/settings/quiet_time.c:109
 msgid "Allow Phone Calls"
 msgstr "Tillåt telefonsamtal"
 
-#: fw/apps/system/settings/quiet_time.c:216
+#: fw/apps/system/settings/quiet_time.c:327
 msgid "Change Schedule"
 msgstr "Ändra schema"
 
-#: fw/apps/system/settings/quiet_time.c:252
-msgid "Calendar Aware"
-msgstr "Kalenderanpassad"
-
-#: fw/apps/system/settings/quiet_time.c:254
-msgctxt "QuietTime"
-msgid "Enabled"
-msgstr "Aktiverad"
-
-#: fw/apps/system/settings/quiet_time.c:255
-#: fw/apps/system/settings/quiet_time.c:263
-#: fw/apps/system/settings/quiet_time.c:271
-msgctxt "QuietTime"
-msgid "Disabled"
-msgstr "Inaktiverad"
-
-#: fw/apps/system/settings/quiet_time.c:315
-#: fw/apps/system/settings/quiet_time.c:440
+#: fw/apps/system/settings/quiet_time.c:485
+#: fw/apps/system/settings/quiet_time.c:616
 msgid "Schedule"
 msgstr "Schema"
 
-#: fw/apps/system/settings/quiet_time.c:324
+#: fw/apps/system/settings/quiet_time.c:495
 msgid "On - Auto Dismiss"
 msgstr "På - avfärda automatiskt"
 
-#: fw/apps/system/settings/quiet_time.c:326
+#: fw/apps/system/settings/quiet_time.c:497
 msgid "On - Persistent"
 msgstr "På - bestående"
 
-#: fw/apps/system/settings/quiet_time.c:358
+#: fw/apps/system/settings/quiet_time.c:529
 msgid "Motion"
 msgstr "Rörelse"
 
-#: fw/apps/system/settings/quiet_time.c:435 fw/apps/system/settings/time.c:361
+#: fw/apps/system/settings/quiet_time.c:606 fw/apps/system/settings/time.c:361
 #: fw/apps/system/settings/time.c:388
 msgid "Manual"
 msgstr "Manuell"
 
-#: fw/apps/system/settings/quiet_time.c:443
+#: fw/apps/system/settings/quiet_time.c:611
+msgid "Calendar Aware"
+msgstr "Kalenderanpassad"
+
+#: fw/apps/system/settings/quiet_time.c:619
 msgid "Interruptions"
 msgstr "Avbrott"
 
-#: fw/apps/system/settings/quiet_time.c:455
+#: fw/apps/system/settings/quiet_time.c:631
 #: fw/apps/system/settings/vibe_patterns.c:68
 msgid "Mute Speaker"
 msgstr "Tysta högtalare"
 
-#: fw/apps/system/settings/quiet_time.c:513
+#: fw/apps/system/settings/quiet_time.c:692
 msgid "Quiet Time"
 msgstr "Tyst stund"
 
@@ -1650,184 +1640,188 @@ msgstr "Inställningar"
 msgid "Volume"
 msgstr "Volym"
 
-#: fw/apps/system/settings/system.c:162 fw/apps/system/settings/system.c:257
+#: fw/apps/system/settings/system.c:164 fw/apps/system/settings/system.c:259
 msgid "Information"
 msgstr "Information"
 
-#: fw/apps/system/settings/system.c:163 fw/apps/system/settings/system.c:963
+#: fw/apps/system/settings/system.c:165 fw/apps/system/settings/system.c:965
 msgid "Certification"
 msgstr "Certifiering"
 
-#: fw/apps/system/settings/system.c:164
+#: fw/apps/system/settings/system.c:166
 msgid "Stand-By Mode"
 msgstr "Reservläge"
 
-#: fw/apps/system/settings/system.c:165 fw/apps/system/settings/system.c:605
+#: fw/apps/system/settings/system.c:167 fw/apps/system/settings/system.c:607
 msgid "Debugging"
 msgstr "Felsökning"
 
-#: fw/apps/system/settings/system.c:166
+#: fw/apps/system/settings/system.c:168
 msgid "Shut Down"
 msgstr "Stäng av"
 
-#: fw/apps/system/settings/system.c:167
+#: fw/apps/system/settings/system.c:169
 msgid "Factory Reset"
 msgstr "Fabriksåterställning"
 
-#: fw/apps/system/settings/system.c:208
+#: fw/apps/system/settings/system.c:210
 msgid "BT Address"
 msgstr "BT-adress"
 
-#: fw/apps/system/settings/system.c:209
+#: fw/apps/system/settings/system.c:211
 msgid "Firmware"
 msgstr "Inbyggd programvara"
 
-#: fw/apps/system/settings/system.c:211
+#: fw/apps/system/settings/system.c:213
 msgid "Recovery"
 msgstr "Återställning"
 
-#: fw/apps/system/settings/system.c:212
+#: fw/apps/system/settings/system.c:214
 msgid "Bootloader"
 msgstr "Bootloader"
 
-#: fw/apps/system/settings/system.c:213
+#: fw/apps/system/settings/system.c:215
 msgid "Hardware"
 msgstr "Hårdvara"
 
-#: fw/apps/system/settings/system.c:214
+#: fw/apps/system/settings/system.c:216
 msgid "Serial"
 msgstr "Serienummer"
 
-#: fw/apps/system/settings/system.c:215
+#: fw/apps/system/settings/system.c:217
 msgid "Uptime"
 msgstr "Drifttid"
 
-#: fw/apps/system/settings/system.c:216
+#: fw/apps/system/settings/system.c:218
 msgid "Legal"
 msgstr "Juridiskt"
 
-#: fw/apps/system/settings/system.c:355
+#: fw/apps/system/settings/system.c:357
 msgid "Core dump and reboot?"
 msgstr "Core dump and reboot?"
 
-#: fw/apps/system/settings/system.c:442
+#: fw/apps/system/settings/system.c:444
 msgid "Very Low"
 msgstr "Very Low"
 
-#: fw/apps/system/settings/system.c:443
+#: fw/apps/system/settings/system.c:445
 msgid "Medium-Low"
 msgstr "Medium-Low"
 
-#: fw/apps/system/settings/system.c:444
+#: fw/apps/system/settings/system.c:446
 msgid "Medium-High"
 msgstr "Medium-High"
 
-#: fw/apps/system/settings/system.c:445
+#: fw/apps/system/settings/system.c:447
 msgid "Very High"
 msgstr "Very High"
 
-#: fw/apps/system/settings/system.c:470 fw/apps/system/settings/system.c:496
+#: fw/apps/system/settings/system.c:472 fw/apps/system/settings/system.c:498
 msgid "Motion Sensitivity"
 msgstr "Motion Sensitivity"
 
-#: fw/apps/system/settings/system.c:492
+#: fw/apps/system/settings/system.c:494
 msgid "CoreDump now"
 msgstr "CoreDump now"
 
-#: fw/apps/system/settings/system.c:493
+#: fw/apps/system/settings/system.c:495
 msgid "CoreDump shortcut"
 msgstr "CoreDump shortcut"
 
-#: fw/apps/system/settings/system.c:494
+#: fw/apps/system/settings/system.c:496
 msgid "ALS Threshold"
 msgstr "ALS Threshold"
 
-#: fw/apps/system/settings/system.c:498
+#: fw/apps/system/settings/system.c:500
 msgid "Shake Log Info"
 msgstr "Shake Log Info"
 
-#: fw/apps/system/settings/system.c:499
+#: fw/apps/system/settings/system.c:501
 msgid "Vibe Log Info"
 msgstr "Vibe Log Info"
 
-#: fw/apps/system/settings/system.c:500
+#: fw/apps/system/settings/system.c:502
 msgid "Compact Settings DBs"
 msgstr "Compact Settings DBs"
 
-#: fw/apps/system/settings/system.c:502
+#: fw/apps/system/settings/system.c:504
 msgid "SpO2 Test"
 msgstr "SpO2-test"
 
-#: fw/apps/system/settings/system.c:522
+#: fw/apps/system/settings/system.c:524
 msgid "10 back-button presses"
 msgstr "10 bakåt-knapp tryck"
 
-#: fw/apps/system/settings/system.c:538 fw/apps/system/settings/system.c:541
+#: fw/apps/system/settings/system.c:540 fw/apps/system/settings/system.c:543
 msgid "Enabled"
 msgstr "Aktiverad"
 
-#: fw/apps/system/settings/system.c:682
+#: fw/apps/system/settings/system.c:684
 msgid "PebbleOS developers only!"
 msgstr "Endast för PebbleOS utvecklare!"
 
-#: fw/apps/system/settings/system.c:927
+#: fw/apps/system/settings/system.c:929
 msgid "See details..."
 msgstr "Se detaljer..."
 
-#: fw/apps/system/settings/system.c:985
+#: fw/apps/system/settings/system.c:987
 msgid "Company"
 msgstr "Företag"
 
-#: fw/apps/system/settings/system.c:993
+#: fw/apps/system/settings/system.c:995
 msgid "Product Model"
 msgstr "Produktmodell"
 
-#: fw/apps/system/settings/system.c:1000
+#: fw/apps/system/settings/system.c:1002
 msgid "Product Type"
 msgstr "Produkttyp"
 
-#: fw/apps/system/settings/system.c:1007
+#: fw/apps/system/settings/system.c:1009
 msgid "Trademark"
 msgstr "Varumärke"
 
-#: fw/apps/system/settings/system.c:1014
+#: fw/apps/system/settings/system.c:1016
 msgid "Place of Origin"
 msgstr "Ursprungsort"
 
-#: fw/apps/system/settings/system.c:1021
+#: fw/apps/system/settings/system.c:1023
 msgid "DC Input"
 msgstr "DC-ingång"
 
-#: fw/apps/system/settings/system.c:1028
+#: fw/apps/system/settings/system.c:1030
 msgid "Rated Voltage"
 msgstr "Märkspänning"
 
-#: fw/apps/system/settings/system.c:1035
+#: fw/apps/system/settings/system.c:1037
 msgid "Milliampere-hour"
 msgstr "Milliamperetimme"
 
-#: fw/apps/system/settings/system.c:1042
+#: fw/apps/system/settings/system.c:1044
 msgid "Watt-hour"
 msgstr "Wattimme"
 
-#: fw/apps/system/settings/system.c:1056
+#: fw/apps/system/settings/system.c:1058
 msgid "Canada IC"
 msgstr "Canada IC"
 
-#: fw/apps/system/settings/system.c:1063
+#: fw/apps/system/settings/system.c:1065
 msgid "Canada ISED"
 msgstr "Kanada ISED"
 
-#: fw/apps/system/settings/system.c:1077 fw/apps/system/settings/system.c:1187
+#: fw/apps/system/settings/system.c:1079 fw/apps/system/settings/system.c:1189
 msgid "South Korea KCC"
 msgstr "Sydkorea KCC"
 
-#: fw/apps/system/settings/system.c:1275
+#: fw/apps/system/settings/system.c:1258
+msgid "Disconnect the charger to shut down."
+msgstr "Koppla från laddaren för att stänga av."
+
+#: fw/apps/system/settings/system.c:1292
 msgid "Do you want to shut down?"
 msgstr "Vill du stänga av?"
 
 #. / Refers to the class of all non-score vibes, e.g. 3rd party app vibes
-#: fw/apps/system/settings/system.c:1362
+#: fw/apps/system/settings/system.c:1379
 #: fw/apps/system/settings/vibe_patterns.c:109
 msgid "System"
 msgstr "System"
@@ -2919,7 +2913,7 @@ msgstr "Kör %s istället för %s som bakgrundsapp?"
 msgid "While your Pebble was off wakeup events occurred for:\n"
 msgstr "Medan din Pebble var avstängd skedde följande väckningsevent:\n"
 
-#: fw/process_management/app_manager.c:507
+#: fw/process_management/app_manager.c:522
 #, c-format
 msgid "%.*s is not responding"
 msgstr "%.*s svarar inte"
@@ -4036,6 +4030,14 @@ msgstr "Laddar"
 #, c-format
 msgid "Powered 'til %s"
 msgstr "Ström till %s"
+
+#~ msgctxt "QuietTime"
+#~ msgid "Enabled"
+#~ msgstr "Aktiverad"
+
+#~ msgctxt "QuietTime"
+#~ msgid "Disabled"
+#~ msgstr "Inaktiverad"
 
 #~ msgid "End Workout?"
 #~ msgstr "Avsluta träningspass?"
