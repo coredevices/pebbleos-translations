@@ -466,15 +466,13 @@ msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / every weekday. Respect capitalization!
-#: fw/applib/ui/day_picker.c:46 fw/apps/system/settings/quiet_time.c:259
-#: fw/services/alarms/alarm.c:1430
+#: fw/applib/ui/day_picker.c:46 fw/services/alarms/alarm.c:1430
 msgid "Weekdays"
 msgstr ""
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / each day on the weekend. Respect capitalization!
-#: fw/applib/ui/day_picker.c:47 fw/apps/system/settings/quiet_time.c:267
-#: fw/services/alarms/alarm.c:1440
+#: fw/applib/ui/day_picker.c:47 fw/services/alarms/alarm.c:1440
 msgid "Weekends"
 msgstr ""
 
@@ -552,16 +550,17 @@ msgid "Snooze delay set to %d minutes"
 msgstr ""
 
 #: fw/apps/system/alarms/alarm_detail.c:274
+#: fw/apps/system/settings/quiet_time.c:337
 msgid "Delete"
 msgstr ""
 
 #: fw/apps/system/alarms/alarm_detail.c:279
-#: fw/apps/system/settings/quiet_time.c:200
+#: fw/apps/system/settings/quiet_time.c:314
 msgid "Disable"
 msgstr ""
 
 #: fw/apps/system/alarms/alarm_detail.c:279
-#: fw/apps/system/settings/quiet_time.c:202
+#: fw/apps/system/settings/quiet_time.c:318
 msgid "Enable"
 msgstr ""
 
@@ -571,6 +570,7 @@ msgid "Change Time"
 msgstr ""
 
 #: fw/apps/system/alarms/alarm_detail.c:289
+#: fw/apps/system/settings/quiet_time.c:332
 msgid "Change Days"
 msgstr ""
 
@@ -653,15 +653,15 @@ msgstr ""
 msgid "Alarm Deleted"
 msgstr ""
 
-#: fw/apps/system/alarms/alarms.c:231
+#: fw/apps/system/alarms/alarms.c:231 fw/apps/system/settings/quiet_time.c:384
 msgid "Limit reached."
 msgstr ""
 
-#: fw/apps/system/alarms/alarms.c:275
+#: fw/apps/system/alarms/alarms.c:275 fw/apps/system/settings/quiet_time.c:427
 msgid "ON"
 msgstr ""
 
-#: fw/apps/system/alarms/alarms.c:275
+#: fw/apps/system/alarms/alarms.c:275 fw/apps/system/settings/quiet_time.c:427
 msgid "OFF"
 msgstr ""
 
@@ -895,8 +895,8 @@ msgstr ""
 
 #: fw/apps/system/notifications.c:1109
 #: fw/apps/system/settings/notifications.c:491
-#: fw/apps/system/settings/quiet_time.c:368
-#: fw/apps/system/settings/quiet_time.c:447
+#: fw/apps/system/settings/quiet_time.c:539
+#: fw/apps/system/settings/quiet_time.c:623
 #: fw/apps/system/settings/vibe_patterns.c:83
 #: fw/services/timeline/timeline.c:913
 msgid "Notifications"
@@ -1190,8 +1190,8 @@ msgstr ""
 #: fw/apps/system/settings/display.c:314 fw/apps/system/settings/display.c:436
 #: fw/apps/system/settings/display.c:677
 #: fw/apps/system/settings/notifications.c:377
-#: fw/apps/system/settings/quiet_time.c:413
-#: fw/apps/system/settings/quiet_time.c:451
+#: fw/apps/system/settings/quiet_time.c:584
+#: fw/apps/system/settings/quiet_time.c:627
 msgid "Backlight"
 msgstr ""
 
@@ -1236,11 +1236,12 @@ msgstr ""
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
 #: fw/apps/system/settings/health.c:195
 #: fw/apps/system/settings/notifications.c:379
-#: fw/apps/system/settings/quiet_time.c:359
-#: fw/apps/system/settings/quiet_time.c:364
-#: fw/apps/system/settings/quiet_time.c:370
-#: fw/apps/system/settings/quiet_time.c:437
-#: fw/apps/system/settings/quiet_time.c:457
+#: fw/apps/system/settings/quiet_time.c:530
+#: fw/apps/system/settings/quiet_time.c:535
+#: fw/apps/system/settings/quiet_time.c:541
+#: fw/apps/system/settings/quiet_time.c:608
+#: fw/apps/system/settings/quiet_time.c:613
+#: fw/apps/system/settings/quiet_time.c:633
 #: fw/apps/system/settings/system.c:1312 fw/apps/system/settings/timeline.c:190
 #: fw/apps/system/settings/vibe_patterns.c:69
 msgid "On"
@@ -1252,12 +1253,13 @@ msgstr ""
 #: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
 #: fw/apps/system/settings/health.c:195
 #: fw/apps/system/settings/notifications.c:379
-#: fw/apps/system/settings/quiet_time.c:321
-#: fw/apps/system/settings/quiet_time.c:359
-#: fw/apps/system/settings/quiet_time.c:364
-#: fw/apps/system/settings/quiet_time.c:370
-#: fw/apps/system/settings/quiet_time.c:437
-#: fw/apps/system/settings/quiet_time.c:457
+#: fw/apps/system/settings/quiet_time.c:492
+#: fw/apps/system/settings/quiet_time.c:530
+#: fw/apps/system/settings/quiet_time.c:535
+#: fw/apps/system/settings/quiet_time.c:541
+#: fw/apps/system/settings/quiet_time.c:608
+#: fw/apps/system/settings/quiet_time.c:613
+#: fw/apps/system/settings/quiet_time.c:633
 #: fw/apps/system/settings/system.c:1312 fw/apps/system/settings/timeline.c:193
 #: fw/apps/system/settings/vibe_patterns.c:69
 msgid "Off"
@@ -1281,7 +1283,7 @@ msgid "Backlight Settings"
 msgstr ""
 
 #: fw/apps/system/settings/display.c:686
-#: fw/apps/system/settings/quiet_time.c:363
+#: fw/apps/system/settings/quiet_time.c:534
 msgid "Touch"
 msgstr ""
 
@@ -1550,66 +1552,54 @@ msgid ""
 "Open favorite apps quickly with a long button press from your watchface."
 msgstr ""
 
-#: fw/apps/system/settings/quiet_time.c:91
+#: fw/apps/system/settings/quiet_time.c:106
 msgid "Quiet All Notifications"
 msgstr ""
 
-#: fw/apps/system/settings/quiet_time.c:94
+#: fw/apps/system/settings/quiet_time.c:109
 msgid "Allow Phone Calls"
 msgstr ""
 
-#: fw/apps/system/settings/quiet_time.c:216
+#: fw/apps/system/settings/quiet_time.c:327
 msgid "Change Schedule"
 msgstr ""
 
-#: fw/apps/system/settings/quiet_time.c:252
-msgid "Calendar Aware"
-msgstr ""
-
-#: fw/apps/system/settings/quiet_time.c:254
-msgctxt "QuietTime"
-msgid "Enabled"
-msgstr ""
-
-#: fw/apps/system/settings/quiet_time.c:255
-#: fw/apps/system/settings/quiet_time.c:263
-#: fw/apps/system/settings/quiet_time.c:271
-msgctxt "QuietTime"
-msgid "Disabled"
-msgstr ""
-
-#: fw/apps/system/settings/quiet_time.c:315
-#: fw/apps/system/settings/quiet_time.c:440
+#: fw/apps/system/settings/quiet_time.c:485
+#: fw/apps/system/settings/quiet_time.c:616
 msgid "Schedule"
 msgstr ""
 
-#: fw/apps/system/settings/quiet_time.c:324
+#: fw/apps/system/settings/quiet_time.c:495
 msgid "On - Auto Dismiss"
 msgstr ""
 
-#: fw/apps/system/settings/quiet_time.c:326
+#: fw/apps/system/settings/quiet_time.c:497
 msgid "On - Persistent"
 msgstr ""
 
-#: fw/apps/system/settings/quiet_time.c:358
+#: fw/apps/system/settings/quiet_time.c:529
 msgid "Motion"
 msgstr ""
 
-#: fw/apps/system/settings/quiet_time.c:435 fw/apps/system/settings/time.c:361
+#: fw/apps/system/settings/quiet_time.c:606 fw/apps/system/settings/time.c:361
 #: fw/apps/system/settings/time.c:388
 msgid "Manual"
 msgstr ""
 
-#: fw/apps/system/settings/quiet_time.c:443
+#: fw/apps/system/settings/quiet_time.c:611
+msgid "Calendar Aware"
+msgstr ""
+
+#: fw/apps/system/settings/quiet_time.c:619
 msgid "Interruptions"
 msgstr ""
 
-#: fw/apps/system/settings/quiet_time.c:455
+#: fw/apps/system/settings/quiet_time.c:631
 #: fw/apps/system/settings/vibe_patterns.c:68
 msgid "Mute Speaker"
 msgstr ""
 
-#: fw/apps/system/settings/quiet_time.c:513
+#: fw/apps/system/settings/quiet_time.c:692
 msgid "Quiet Time"
 msgstr ""
 
