@@ -100,6 +100,14 @@
       "extended": true,
       "original_name": "RobotoCondensed-Medium.ttf",
       "license_original_name": "OFL.txt"
+    },
+    {
+      "name": "LECO_32_BOLD_NUMBERS_EXTENDED",
+      "file": "39515c8739a51ad528532035ad9b6c0f1d74692d57108740fcfaef5f9fa84151.ttf",
+      "license": "7d96701533d059cfd4191a85ecfd159e262527abd737eae6d9fb533844c70410.license",
+      "extended": true,
+      "original_name": "RobotoCondensed-Medium.ttf",
+      "license_original_name": "OFL.txt"
     }
   ],
   "images": []
