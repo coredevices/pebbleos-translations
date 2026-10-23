@@ -524,7 +524,7 @@ msgstr ""
 msgid "Missed that. Try again."
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:1115
+#: fw/applib/voice/voice_window.c:1115 fw/popups/mic_banner.c:46
 msgid "Listening"
 msgstr ""
 
@@ -2867,7 +2867,7 @@ msgstr ""
 msgid "While your Pebble was off wakeup events occurred for:\n"
 msgstr ""
 
-#: fw/process_management/app_manager.c:507
+#: fw/process_management/app_manager.c:522
 #, c-format
 msgid "%.*s is not responding"
 msgstr ""
