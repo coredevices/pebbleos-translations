@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2026-10-24 08:26+0000\n"
-"Last-Translator: Martin <martin@norlin.at>\n"
+"Last-Translator: fulaapan <fulaapan@pm.me>\n"
 "Language-Team: Swedish <https://translate.repebble.com/projects/pebbleos/"
 "watch/sv/>\n"
 "Language: sv_SE\n"
@@ -540,7 +540,7 @@ msgstr "Uppatering misslyckades"
 
 #: fw/apps/core/progress_ui.c:175 fw/apps/system/settings/factory_reset.c:59
 msgid "Resetting..."
-msgstr "Nollställer..."
+msgstr "Återställer..."
 
 #: fw/apps/demo/dialogs/dialogs_demo.c:105
 msgid "Decline dialog."
@@ -1539,7 +1539,7 @@ msgstr "Håll bakåt"
 #: fw/apps/system/settings/quick_launch.c:73
 #: fw/apps/system/settings/quick_launch_app_menu.c:37
 msgid "Actions"
-msgstr "Åtgärd"
+msgstr "Åtgärder"
 
 #. / Shown in Quick Launch Settings as the title of the list of apps.
 #. / Title of the Quick Launch menu listing the installed apps.
@@ -2710,7 +2710,7 @@ msgid ""
 "Detected"
 msgstr ""
 "Träningspass\n"
-"detekterad"
+"upptäckt"
 
 #. / Walk automatically detected dialog text
 #: fw/apps/system/workout/utils.c:120
@@ -2719,7 +2719,7 @@ msgid ""
 "Detected"
 msgstr ""
 "Gång\n"
-"detekterad"
+"upptäckt"
 
 #. / Run automatically detected dialog text
 #: fw/apps/system/workout/utils.c:123
@@ -2728,7 +2728,7 @@ msgid ""
 "Detected"
 msgstr ""
 "Löpning\n"
-"detekterad"
+"upptäckt"
 
 #: fw/apps/system/workout/workout.c:166
 msgid ""
@@ -2736,7 +2736,7 @@ msgid ""
 "Ended"
 msgstr ""
 "Träning\n"
-"detekterad"
+"upptäckt"
 
 #: fw/apps/system/workout/workout.c:192
 msgid "Workout requires the time to be synced. Please connect your phone."
