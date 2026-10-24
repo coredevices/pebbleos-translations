@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-07 18:50+0200\n"
 "PO-Revision-Date: 2026-11-03 13:26+0000\n"
-"Last-Translator: adam <adam@devforce.de>\n"
+"Last-Translator: jannik30013 <jannik30013@gmail.com>\n"
 "Language-Team: German <https://translate.repebble.com/projects/pebbleos/"
 "watch/de/>\n"
 "Language: de_DE\n"
@@ -484,7 +484,7 @@ msgstr "Benutzerdefiniert"
 
 #: fw/applib/ui/day_picker.c:48
 msgid "Just Once"
-msgstr "Nur Einmal"
+msgstr "Nur einmal"
 
 #: fw/applib/ui/day_picker.c:234
 msgid "Check something first."
@@ -2568,7 +2568,7 @@ msgstr "Z%d"
 #: fw/apps/system/workout/active.c:1173 fw/apps/system/workout/active.c:1218
 #: fw/apps/system/workout/active.c:1460
 msgid "TOTAL TIME"
-msgstr "GESAMT ZEIT"
+msgstr "GESAMTZEIT"
 
 #: fw/apps/system/workout/active.c:1173 fw/apps/system/workout/active.c:1218
 msgid "TIMER"
