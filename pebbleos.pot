@@ -2842,19 +2842,19 @@ msgstr ""
 msgid "Start Quiet Time"
 msgstr ""
 
-#: fw/popups/phone_ui.c:576
+#: fw/popups/phone_ui.c:577
 msgid "Call Accepted"
 msgstr ""
 
-#: fw/popups/phone_ui.c:579
+#: fw/popups/phone_ui.c:580
 msgid "Disconnected"
 msgstr ""
 
-#: fw/popups/phone_ui.c:582
+#: fw/popups/phone_ui.c:583
 msgid "Call Ended"
 msgstr ""
 
-#: fw/popups/phone_ui.c:585
+#: fw/popups/phone_ui.c:586
 msgid "Call Declined"
 msgstr ""
 
