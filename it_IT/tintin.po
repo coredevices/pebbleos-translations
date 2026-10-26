@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 25.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-07 18:50+0200\n"
-"PO-Revision-Date: 2026-10-26 08:26+0000\n"
+"PO-Revision-Date: 2026-10-26 08:27+0000\n"
 "Last-Translator: \"miky.deirossi\" <miky.deirossi@gmail.com>\n"
 "Language-Team: Italian <https://translate.repebble.com/projects/pebbleos/"
 "watch/it/>\n"
@@ -2562,17 +2562,14 @@ msgid "AVG"
 msgstr "MEDIA"
 
 #: fw/apps/system/workout/active.c:1123 fw/apps/system/workout/active.c:1276
-#, fuzzy, c-format
-#| msgid "%d"
+#, c-format
 msgid "Z%d"
-msgstr "%d"
+msgstr "Z%d"
 
 #: fw/apps/system/workout/active.c:1179 fw/apps/system/workout/active.c:1224
 #: fw/apps/system/workout/active.c:1474
-#, fuzzy
-#| msgid "TOTAL"
 msgid "TOTAL TIME"
-msgstr "TOTALE"
+msgstr "TEMPO TOTALE"
 
 #: fw/apps/system/workout/active.c:1179 fw/apps/system/workout/active.c:1224
 #, fuzzy
