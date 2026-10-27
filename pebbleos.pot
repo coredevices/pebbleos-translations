@@ -673,7 +673,7 @@ msgstr ""
 
 #: fw/apps/system/alarms/alarms.c:475
 #: fw/apps/system/settings/vibe_patterns.c:93
-#: fw/services/timeline/timeline.c:929
+#: fw/services/timeline/timeline.c:930
 msgid "Alarms"
 msgstr ""
 
@@ -763,7 +763,7 @@ msgid "Health requires the time to be synced. Please connect your phone."
 msgstr ""
 
 #: fw/apps/system/health/health.c:184 fw/apps/system/settings/health.c:289
-#: fw/services/timeline/timeline.c:933
+#: fw/services/timeline/timeline.c:934
 msgid "Health"
 msgstr ""
 
@@ -898,7 +898,7 @@ msgstr ""
 #: fw/apps/system/settings/quiet_time.c:539
 #: fw/apps/system/settings/quiet_time.c:623
 #: fw/apps/system/settings/vibe_patterns.c:83
-#: fw/services/timeline/timeline.c:913
+#: fw/services/timeline/timeline.c:914
 msgid "Notifications"
 msgstr ""
 
@@ -2222,7 +2222,7 @@ msgid ""
 "Pebble mobile app."
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:770 fw/services/timeline/timeline.c:921
+#: fw/apps/system/weather/weather.c:770 fw/services/timeline/timeline.c:922
 msgid "Weather"
 msgstr ""
 
@@ -3750,35 +3750,35 @@ msgstr ""
 msgid "Broadcaster"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:695
+#: fw/services/timeline/timeline.c:696
 msgid "Can't connect. Relaunch Pebble Time app on phone."
 msgstr ""
 
-#: fw/services/timeline/timeline.c:707
+#: fw/services/timeline/timeline.c:708
 msgid "Removed"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:717 fw/services/timeline/timeline.c:736
+#: fw/services/timeline/timeline.c:718 fw/services/timeline/timeline.c:737
 msgid "Dismissed"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:740
+#: fw/services/timeline/timeline.c:741
 msgid "Deleted"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:767
+#: fw/services/timeline/timeline.c:768
 msgid "Thanks!"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:917
+#: fw/services/timeline/timeline.c:918
 msgid "Calendar"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:925
+#: fw/services/timeline/timeline.c:926
 msgid "Reminders"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:937
+#: fw/services/timeline/timeline.c:938
 msgid "Intercom"
 msgstr ""
 
