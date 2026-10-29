@@ -2742,12 +2742,12 @@ msgstr ""
 msgid "%B %e"
 msgstr ""
 
-#: fw/popups/alarm_popup.c:57
+#: fw/popups/alarm_popup.c:59
 #, c-format
 msgid "Snooze for %d minutes"
 msgstr ""
 
-#: fw/popups/alarm_popup.c:74
+#: fw/popups/alarm_popup.c:76
 msgid "Alarm dismissed"
 msgstr ""
 
