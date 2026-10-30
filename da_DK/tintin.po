@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-26 22:44+0200\n"
-"PO-Revision-Date: 2026-10-30 12:26+0000\n"
+"PO-Revision-Date: 2026-10-30 13:54+0000\n"
 "Last-Translator: Hans Henrik Juhl <hans@kopula.dk>\n"
 "Language-Team: Danish <https://translate.repebble.com/projects/pebbleos/"
 "watch/da/>\n"
@@ -2410,12 +2410,12 @@ msgstr "km/t"
 #: fw/apps/system/weather/weather_app_layout.c:570
 #, c-format
 msgid "%s at %d%s."
-msgstr "%2$d %3$s fra %1$s."
+msgstr "%s-lig med %d %s."
 
 #: fw/apps/system/weather/weather_app_layout.c:570
 #, c-format
 msgid "Winds %s at %d%s."
-msgstr "Vind %2$d %3$s fra %1$s."
+msgstr "Vind fra %s med %d %s."
 
 #: fw/apps/system/weather/weather_app_layout.c:575
 #, c-format
