@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-26 22:44+0200\n"
-"PO-Revision-Date: 2026-10-24 10:26+0000\n"
+"PO-Revision-Date: 2026-10-30 12:26+0000\n"
 "Last-Translator: Hans Henrik Juhl <hans@kopula.dk>\n"
 "Language-Team: Danish <https://translate.repebble.com/projects/pebbleos/"
 "watch/da/>\n"
@@ -678,7 +678,7 @@ msgstr ""
 
 #: fw/apps/system/alarms/alarms.c:475
 #: fw/apps/system/settings/vibe_patterns.c:93
-#: fw/services/timeline/timeline.c:929
+#: fw/services/timeline/timeline.c:930
 msgid "Alarms"
 msgstr "Vækkeure"
 
@@ -708,12 +708,12 @@ msgid "kcal"
 msgstr "kcal"
 
 #: fw/apps/system/health/activity_detail_card.c:46
-#: fw/services/activity/activity_insights.c:1624
+#: fw/services/activity/activity_insights.c:1636
 msgid "mi"
 msgstr "mi"
 
 #: fw/apps/system/health/activity_detail_card.c:46
-#: fw/services/activity/activity_insights.c:1624
+#: fw/services/activity/activity_insights.c:1636
 msgid "km"
 msgstr "km"
 
@@ -774,7 +774,7 @@ msgstr ""
 "telefon."
 
 #: fw/apps/system/health/health.c:184 fw/apps/system/settings/health.c:289
-#: fw/services/timeline/timeline.c:933
+#: fw/services/timeline/timeline.c:934
 msgid "Health"
 msgstr "Velvære"
 
@@ -797,17 +797,17 @@ msgid "%d–%d BPM"
 msgstr "%d–%d slag/min"
 
 #: fw/apps/system/health/hr_detail_card.c:89
-#: fw/services/activity/activity_insights.c:1729
+#: fw/services/activity/activity_insights.c:1741
 msgid "Fat Burn"
 msgstr "Fedtforbrænding"
 
 #: fw/apps/system/health/hr_detail_card.c:92
-#: fw/services/activity/activity_insights.c:1736
+#: fw/services/activity/activity_insights.c:1748
 msgid "Endurance"
 msgstr "Udholdenhed"
 
 #: fw/apps/system/health/hr_detail_card.c:95
-#: fw/services/activity/activity_insights.c:1743
+#: fw/services/activity/activity_insights.c:1755
 msgid "Performance"
 msgstr "Præstation"
 
@@ -913,7 +913,7 @@ msgstr "Ingen meddelelser"
 #: fw/apps/system/settings/quiet_time.c:539
 #: fw/apps/system/settings/quiet_time.c:623
 #: fw/apps/system/settings/vibe_patterns.c:83
-#: fw/services/timeline/timeline.c:913
+#: fw/services/timeline/timeline.c:914
 msgid "Notifications"
 msgstr "Meddelelser"
 
@@ -935,7 +935,7 @@ msgid "Postpone"
 msgstr "Udsæt"
 
 #: fw/apps/system/reminders/reminder.c:65
-#: fw/services/activity/activity_insights.c:442
+#: fw/services/activity/activity_insights.c:446
 #: fw/services/timeline/timeline.c:655
 msgid "Remove"
 msgstr "Fjern"
@@ -2243,7 +2243,7 @@ msgstr ""
 "Ingen placeringsoplysninger tilgængelige. Tilføj placeringer i Pebble-appen "
 "på din mobil for at se vejret."
 
-#: fw/apps/system/weather/weather.c:770 fw/services/timeline/timeline.c:921
+#: fw/apps/system/weather/weather.c:770 fw/services/timeline/timeline.c:922
 msgid "Weather"
 msgstr "Vejr"
 
@@ -2410,22 +2410,22 @@ msgstr "km/t"
 #: fw/apps/system/weather/weather_app_layout.c:570
 #, c-format
 msgid "%s at %d%s."
-msgstr "%s-lig ved %d %s."
+msgstr "%2$d %3$s fra %1$s."
 
 #: fw/apps/system/weather/weather_app_layout.c:570
 #, c-format
 msgid "Winds %s at %d%s."
-msgstr "Vind %s-lig ved %d %s."
+msgstr "Vind %2$d %3$s fra %1$s."
 
 #: fw/apps/system/weather/weather_app_layout.c:575
 #, c-format
 msgid "At %d%s."
-msgstr "ved %d %s."
+msgstr "med %d %s."
 
 #: fw/apps/system/weather/weather_app_layout.c:575
 #, c-format
 msgid "Winds at %d%s."
-msgstr "Vind ved %d %s."
+msgstr "Vind %d %s."
 
 #: fw/apps/system/weather/weather_app_layout.c:584
 #, c-format
@@ -2668,7 +2668,7 @@ msgstr ""
 
 #: fw/apps/system/workout/utils.c:30
 #: fw/popups/ble_hrm/ble_hrm_reminder_popup.c:24
-#: fw/services/activity/activity_insights.c:1192
+#: fw/services/activity/activity_insights.c:1204
 #: fw/services/notifications/ancs/ancs_item.c:150
 msgid "Dismiss"
 msgstr "Afvis"
@@ -2683,19 +2683,19 @@ msgstr "Åbn træning"
 
 #. / Workout Label
 #: fw/apps/system/workout/utils.c:93 fw/apps/system/workout/workout.c:267
-#: fw/services/activity/activity_insights.c:1647
+#: fw/services/activity/activity_insights.c:1659
 msgid "Workout"
 msgstr "Træning"
 
 #. / Walk Label
 #: fw/apps/system/workout/utils.c:96
-#: fw/services/activity/activity_insights.c:1645
+#: fw/services/activity/activity_insights.c:1657
 msgid "Walk"
 msgstr "Gåtur"
 
 #. / Run Label
 #: fw/apps/system/workout/utils.c:99
-#: fw/services/activity/activity_insights.c:1643
+#: fw/services/activity/activity_insights.c:1655
 msgid "Run"
 msgstr "Løbetur"
 
@@ -2777,12 +2777,12 @@ msgstr "%d"
 msgid "%B %e"
 msgstr "%e. %B"
 
-#: fw/popups/alarm_popup.c:57
+#: fw/popups/alarm_popup.c:59
 #, c-format
 msgid "Snooze for %d minutes"
 msgstr "Slumring i %d minutter"
 
-#: fw/popups/alarm_popup.c:74
+#: fw/popups/alarm_popup.c:76
 msgid "Alarm dismissed"
 msgstr "Vækkeur afvist"
 
@@ -2886,19 +2886,19 @@ msgstr "Afslut stilletid"
 msgid "Start Quiet Time"
 msgstr "Start stilletid"
 
-#: fw/popups/phone_ui.c:576
+#: fw/popups/phone_ui.c:577
 msgid "Call Accepted"
 msgstr "Opkald besvaret"
 
-#: fw/popups/phone_ui.c:579
+#: fw/popups/phone_ui.c:580
 msgid "Disconnected"
 msgstr "Ikke forbundet"
 
-#: fw/popups/phone_ui.c:582
+#: fw/popups/phone_ui.c:583
 msgid "Call Ended"
 msgstr "Opkald afsluttet"
 
-#: fw/popups/phone_ui.c:585
+#: fw/popups/phone_ui.c:586
 msgid "Call Declined"
 msgstr "Opkald afvist"
 
@@ -2929,7 +2929,7 @@ msgstr "Denne app kræver en nyere version af Pebble-firmwaren."
 msgid "This app uses RockyJS which is no longer supported."
 msgstr "Denne app bruger RockyJS, hvilket ikke længere understøttes."
 
-#: fw/services/activity/activity_insights.c:170
+#: fw/services/activity/activity_insights.c:174
 msgid ""
 "How are you feeling? Have you noticed extra focus, better mood or extra "
 "energy? You have been sleeping great this week! Keep it up!"
@@ -2937,34 +2937,34 @@ msgstr ""
 "Hvordan går det? Kan du mærke at du har mere overskud, bedre humør eller "
 "ekstra energi? Du har sovet rigtigt godt i denne uge. Hold fast i det."
 
-#: fw/services/activity/activity_insights.c:172
+#: fw/services/activity/activity_insights.c:176
 msgid "I feel fabulous!"
 msgstr "Jeg har det fabelagtigt!"
 
-#: fw/services/activity/activity_insights.c:173
+#: fw/services/activity/activity_insights.c:177
 msgid "About average"
 msgstr "Som det plejer"
 
-#: fw/services/activity/activity_insights.c:174
+#: fw/services/activity/activity_insights.c:178
 msgid "I'm still tired"
 msgstr "Jeg er stadig træt"
 
-#: fw/services/activity/activity_insights.c:175
-#: fw/services/activity/activity_insights.c:193
+#: fw/services/activity/activity_insights.c:179
+#: fw/services/activity/activity_insights.c:197
 msgid "Awesome!"
 msgstr "Storartet!"
 
-#: fw/services/activity/activity_insights.c:176
-#: fw/services/activity/activity_insights.c:194
+#: fw/services/activity/activity_insights.c:180
+#: fw/services/activity/activity_insights.c:198
 msgid "Keep it up!"
 msgstr "Du fortsætter bare!"
 
-#: fw/services/activity/activity_insights.c:177
-#: fw/services/activity/activity_insights.c:195
+#: fw/services/activity/activity_insights.c:181
+#: fw/services/activity/activity_insights.c:199
 msgid "We'll get there!"
 msgstr "Vi skal nok nå det!"
 
-#: fw/services/activity/activity_insights.c:188
+#: fw/services/activity/activity_insights.c:192
 msgid ""
 "Congratulations - you're having a super active day! Activity makes you more "
 "focused and creative. How do you feel?"
@@ -2972,154 +2972,154 @@ msgstr ""
 "Hurra! Der er gang i dig i dag! Motion giver dig mere overskud og spæder til "
 "de kreative safter. Hvordan har du det?"
 
-#: fw/services/activity/activity_insights.c:190
-#: fw/services/activity/activity_insights.c:917
+#: fw/services/activity/activity_insights.c:194
+#: fw/services/activity/activity_insights.c:921
 msgid "I feel great!"
 msgstr "Jeg har det storartet!"
 
-#: fw/services/activity/activity_insights.c:191
+#: fw/services/activity/activity_insights.c:195
 msgid "About the same"
 msgstr "Nogenlunde det samme"
 
-#: fw/services/activity/activity_insights.c:192
+#: fw/services/activity/activity_insights.c:196
 msgid "Not feeling it"
 msgstr "Ikke rigtigt i stødet"
 
-#: fw/services/activity/activity_insights.c:222
+#: fw/services/activity/activity_insights.c:226
 msgid "Activity Summary"
 msgstr "Aktivitetsoversigt"
 
-#: fw/services/activity/activity_insights.c:230
+#: fw/services/activity/activity_insights.c:234
 msgid "Do you feel more energetic, sharper or optimistic? Being active helps!"
 msgstr ""
 "Mere frisk i hovedet og klar på dagen? Det gør en verden til forskel at få "
 "rørt sig."
 
-#: fw/services/activity/activity_insights.c:231
+#: fw/services/activity/activity_insights.c:235
 msgid "GREAT DAY TODAY"
 msgstr "GLIMRENDE DAG I DAG"
 
-#: fw/services/activity/activity_insights.c:235
+#: fw/services/activity/activity_insights.c:239
 msgid "You're being consistent and that's important, keep at it!"
 msgstr "Du har en fast rytme. Godt at se. Det skal du bare holde fast i."
 
-#: fw/services/activity/activity_insights.c:236
+#: fw/services/activity/activity_insights.c:240
 msgid "CONSISTENT!"
 msgstr "LIGE EFTER BOGEN!"
 
-#: fw/services/activity/activity_insights.c:240
-#: fw/services/activity/activity_insights.c:245
+#: fw/services/activity/activity_insights.c:244
+#: fw/services/activity/activity_insights.c:249
 msgid "Resting is fine, but try to recover and step it up tomorrow!"
 msgstr ""
 "Hvile er fint, men prøv at lade kroppen komme sig og giv den gas i morgen!"
 
-#: fw/services/activity/activity_insights.c:241
-#: fw/services/activity/activity_insights.c:246
+#: fw/services/activity/activity_insights.c:245
+#: fw/services/activity/activity_insights.c:250
 msgid "NOT VERY ACTIVE"
 msgstr "IKKE UDPRÆGET AKTIV"
 
-#: fw/services/activity/activity_insights.c:254
+#: fw/services/activity/activity_insights.c:258
 msgid "Sleep Summary"
 msgstr "Søvnoversigt"
 
-#: fw/services/activity/activity_insights.c:263
+#: fw/services/activity/activity_insights.c:267
 msgid "You had a good night! Feel the energy 😃"
 msgstr "Du har haft en god nat. Kan du mærke energien brede sig? 😃"
 
-#: fw/services/activity/activity_insights.c:267
+#: fw/services/activity/activity_insights.c:271
 msgid "It's great that you're keeping a consistent sleep routine!"
 msgstr "Det er godt, at du holder en regelmæssig døgnrytme."
 
-#: fw/services/activity/activity_insights.c:271
 #: fw/services/activity/activity_insights.c:275
+#: fw/services/activity/activity_insights.c:279
 msgid "A good night's sleep goes a long way! Try to get more hours tonight."
 msgstr ""
 "Man kommer langt med en god nats søvn. Prøv at få sovet flere timer i nat."
 
-#: fw/services/activity/activity_insights.c:424
+#: fw/services/activity/activity_insights.c:428
 msgid "Open App"
 msgstr "Åbn app"
 
-#: fw/services/activity/activity_insights.c:529
-#: fw/services/activity/activity_insights.c:535
+#: fw/services/activity/activity_insights.c:533
+#: fw/services/activity/activity_insights.c:539
 msgid "BELOW AVG"
 msgstr "UNDER GNS"
 
-#: fw/services/activity/activity_insights.c:529
-#: fw/services/activity/activity_insights.c:535
+#: fw/services/activity/activity_insights.c:533
+#: fw/services/activity/activity_insights.c:539
 msgid "Below avg"
 msgstr "Under gns"
 
-#: fw/services/activity/activity_insights.c:541
+#: fw/services/activity/activity_insights.c:545
 msgid "ON AVG"
 msgstr "I GNS"
 
-#: fw/services/activity/activity_insights.c:541
+#: fw/services/activity/activity_insights.c:545
 msgid "On avg"
 msgstr "I gns"
 
-#: fw/services/activity/activity_insights.c:546
+#: fw/services/activity/activity_insights.c:550
 msgid "ABOVE AVG"
 msgstr "OVER GNS"
 
-#: fw/services/activity/activity_insights.c:546
+#: fw/services/activity/activity_insights.c:550
 msgid "Above avg"
 msgstr "Over gns"
 
-#: fw/services/activity/activity_insights.c:827
+#: fw/services/activity/activity_insights.c:831
 msgid "%H:%M"
 msgstr "%H:%M"
 
 # Tidsangivelse i aktivitetsapp. Skal oversættes
-#: fw/services/activity/activity_insights.c:827
+#: fw/services/activity/activity_insights.c:831
 msgid "%l:%M%p"
 msgstr "%H:%M"
 
-#: fw/services/activity/activity_insights.c:851
+#: fw/services/activity/activity_insights.c:855
 #, c-format
 msgid "%uH %uM Sleep"
 msgstr "%u t %u m søvn"
 
-#: fw/services/activity/activity_insights.c:879
+#: fw/services/activity/activity_insights.c:883
 msgid "Nap Time"
 msgstr "Lur"
 
-#: fw/services/activity/activity_insights.c:887
+#: fw/services/activity/activity_insights.c:891
 #, c-format
 msgid "%s of sleep"
 msgstr "%s søvn"
 
-#: fw/services/activity/activity_insights.c:892
+#: fw/services/activity/activity_insights.c:896
 msgid "YOU NAPPED"
 msgstr "DU FIK EN LUR"
 
-#: fw/services/activity/activity_insights.c:892
+#: fw/services/activity/activity_insights.c:896
 msgid "Of napping"
 msgstr "brugt på lur"
 
-#: fw/services/activity/activity_insights.c:900
+#: fw/services/activity/activity_insights.c:904
 #, c-format
 msgid "%s - %s"
 msgstr "%s - %s"
 
-#: fw/services/activity/activity_insights.c:921
+#: fw/services/activity/activity_insights.c:925
 msgid "I need more"
 msgstr "Jeg har brug for mere"
 
-#: fw/services/activity/activity_insights.c:951
+#: fw/services/activity/activity_insights.c:955
 #, c-format
 msgid "Aren't naps great? You knocked out for %dH %dM!"
 msgstr "Det er slet ikke tosset med sådan en lur. Du var væk i %dt og %dm!"
 
-#: fw/services/activity/activity_insights.c:967
+#: fw/services/activity/activity_insights.c:971
 msgid "I didn't nap!?"
 msgstr "Jeg fik ingen lur!?"
 
-#: fw/services/activity/activity_insights.c:1200
+#: fw/services/activity/activity_insights.c:1212
 msgid "Open Pin"
 msgstr "Åbn hændelse"
 
-#: fw/services/activity/activity_insights.c:1286
+#: fw/services/activity/activity_insights.c:1298
 #, c-format
 msgid ""
 "Killer job! You've walked %d steps today which is %d%% above your typical. "
@@ -3128,7 +3128,7 @@ msgstr ""
 "Fremragende. Du har gået %d skridt i dag, hvilket er %d%% mere end du "
 "plejer. Gør det igen i morgen, og du vil føle dig som dyrenes konge!"
 
-#: fw/services/activity/activity_insights.c:1289
+#: fw/services/activity/activity_insights.c:1301
 #, c-format
 msgid ""
 "Nice moves! You've walked %d steps today which is %d%% above your typical. "
@@ -3137,7 +3137,7 @@ msgstr ""
 "Flot klaret. Du har gået %d skridt i dag, og det er %d%% mere end du plejer. "
 "Du skal ikke høre ét ondt ord herfra, hvis du gør det samme i morgen. 😀"
 
-#: fw/services/activity/activity_insights.c:1291
+#: fw/services/activity/activity_insights.c:1303
 #, c-format
 msgid ""
 "Hey rockstar 🎤 You've walked %d steps today which is %d%% above your "
@@ -3146,7 +3146,7 @@ msgstr ""
 "Det går da meget godt med det der gåen rundt. Du har gået %d skridt i dag, "
 "hvilket er %d%% mere end du plejer. Ik' så ringe..."
 
-#: fw/services/activity/activity_insights.c:1293
+#: fw/services/activity/activity_insights.c:1305
 #, c-format
 msgid ""
 "We can barely keep up! You walked %d steps today which is %d%% above your "
@@ -3155,7 +3155,7 @@ msgstr ""
 "Jeg kan knap nok følge med! Du har gået %d skridt i dag, hvilket er %d%% "
 "mere end du plejer. Du har 🔥 i rumpetten"
 
-#: fw/services/activity/activity_insights.c:1296
+#: fw/services/activity/activity_insights.c:1308
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% above your typical. You just "
@@ -3164,7 +3164,7 @@ msgstr ""
 "Du har gået %d skridt i dag, hvilket er %d%% flere end du plejer. Du har "
 "overgået dig selv i dag. Slet ikke dumt."
 
-#: fw/services/activity/activity_insights.c:1305
+#: fw/services/activity/activity_insights.c:1317
 #, c-format
 msgid ""
 "You walked %d steps today; keep it up! Being active is the key to feeling "
@@ -3173,13 +3173,13 @@ msgstr ""
 "Du har gået %d skridt i dag – godt gået. At være aktiv giver mere overskud i "
 "hverdagen. Prøv at gøre det endnu bedre i morgen."
 
-#: fw/services/activity/activity_insights.c:1308
+#: fw/services/activity/activity_insights.c:1320
 #, c-format
 msgid "Good job! You walked %d steps today–do it again tomorrow."
 msgstr ""
 "Godt gået! Du har gået %d skridt i dag. Sådan gør du bare igen i morgen."
 
-#: fw/services/activity/activity_insights.c:1309
+#: fw/services/activity/activity_insights.c:1321
 #, c-format
 msgid ""
 "Someone's on the move 👊 You walked %d steps today; keep doing what you're "
@@ -3188,7 +3188,7 @@ msgstr ""
 "Du rigtigt nok på farten 👊 Du har gået %d skridt i dag. Fortsæt det gode "
 "arbejde!"
 
-#: fw/services/activity/activity_insights.c:1311
+#: fw/services/activity/activity_insights.c:1323
 #, c-format
 msgid ""
 "You keep moving, we'll keep counting! You've clocked in %d steps today. Keep "
@@ -3197,7 +3197,7 @@ msgstr ""
 "Bliv ved med at bevæge dig, så tæller jeg bare videre! Du har gået %d skridt "
 "i dag, og formen er i top."
 
-#: fw/services/activity/activity_insights.c:1320
+#: fw/services/activity/activity_insights.c:1332
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% below your typical. Try to be more "
@@ -3206,7 +3206,7 @@ msgstr ""
 "Du har gået %d skridt i dag, hvilket er %d%% mindre end du plejer. Prøv at "
 "være mere aktiv i morgen – jeg hepper på dig!"
 
-#: fw/services/activity/activity_insights.c:1323
+#: fw/services/activity/activity_insights.c:1335
 #, c-format
 msgid ""
 "You walked %d steps which is %d%% below your typical. Being active makes you "
@@ -3215,7 +3215,7 @@ msgstr ""
 "Du har gået %d skridt, hvilket er %d%% færre end du plejer. Man bliver så "
 "glad i låget når man er aktiv. Prøv at komme tilbage på sporet i morgen."
 
-#: fw/services/activity/activity_insights.c:1325
+#: fw/services/activity/activity_insights.c:1337
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% below your typical. Don't worry, "
@@ -3224,7 +3224,7 @@ msgstr ""
 "Du har gået %d skridt i dag, hvilket er %d%% færre end du plejer. Pyt med "
 "det. I morgen er der atter en dag 😀"
 
-#: fw/services/activity/activity_insights.c:1327
+#: fw/services/activity/activity_insights.c:1339
 #, c-format
 msgid ""
 "You walked %d steps which is %d%% below your typical, but don't stress. "
@@ -3233,7 +3233,7 @@ msgstr ""
 "Du har gået %d skridt, hvilket er %d%% færre end du plejer, men lad være med "
 "at stresse. Du giver den bare gas i morgen 😉"
 
-#: fw/services/activity/activity_insights.c:1334
+#: fw/services/activity/activity_insights.c:1346
 #, c-format
 msgid ""
 "You walked %d steps today. Don't fret, you can get back on track in no time "
@@ -3242,14 +3242,14 @@ msgstr ""
 "Du har gået %d skridt i dag. Men bare rolig, du kan hurtigt komme tilbage på "
 "sporet 😉"
 
-#: fw/services/activity/activity_insights.c:1336
+#: fw/services/activity/activity_insights.c:1348
 #, c-format
 msgid "You walked %d steps today. Good news is the sky's the limit!"
 msgstr ""
 "Det blev til %d skridt i dag, så det... I det mindste kan det da kun gå "
 "fremad herfra. 😉"
 
-#: fw/services/activity/activity_insights.c:1337
+#: fw/services/activity/activity_insights.c:1349
 #, c-format
 msgid ""
 "You walked %d steps today. Try to take even more steps tomorrow–show us what "
@@ -3259,7 +3259,7 @@ msgstr ""
 "tror på dig."
 
 #. / Sleep notification on wake up, slept above their typical sleep duration
-#: fw/services/activity/activity_insights.c:1389
+#: fw/services/activity/activity_insights.c:1401
 #, c-format
 msgid ""
 "Refreshed? You slept for %dH %dM which is %d%% above your typical. Go tackle "
@@ -3268,7 +3268,7 @@ msgstr ""
 "Udhvilet? Du sov i %dt og %dm, hvilket er %d%% flere end du plejer. Ud og "
 "erobr verden! 😃"
 
-#: fw/services/activity/activity_insights.c:1391
+#: fw/services/activity/activity_insights.c:1403
 #, c-format
 msgid ""
 "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above your "
@@ -3277,7 +3277,7 @@ msgstr ""
 "Du fik virkelig sovet igennem! Du sov i %dt og %dm, hvilket er %d%% mere end "
 "du plejer. Ingen klager herfra.."
 
-#: fw/services/activity/activity_insights.c:1393
+#: fw/services/activity/activity_insights.c:1405
 #, c-format
 msgid ""
 "Rise and shine! You slept for %dH %dM which is %d%% above your typical. Do "
@@ -3286,7 +3286,7 @@ msgstr ""
 "MØJN! Du har sovet i %dt og %dm, hvilket er %d%% mere end du plejer. Gør det "
 "igen i nat, o du dynernes betvinger."
 
-#: fw/services/activity/activity_insights.c:1396
+#: fw/services/activity/activity_insights.c:1408
 #, c-format
 msgid ""
 "Mmmm...what a night. You slept for %dH %dM which is %d%% above your typical. "
@@ -3295,7 +3295,7 @@ msgstr ""
 "Dejlig lang nattesøvn. Du sov i %dt og %dm, hvilket er %d%% mere end du "
 "plejer. Det kan helt sikkert mærkes!"
 
-#: fw/services/activity/activity_insights.c:1399
+#: fw/services/activity/activity_insights.c:1411
 #, c-format
 msgid ""
 "That's a lot of sheep you just counted! You slept for %dH %dM which is %d%% "
@@ -3305,7 +3305,7 @@ msgstr ""
 "hvilket er %d%% mere end du plejer. Bum, færdig, slut."
 
 #. / Sleep notification on wake up, slept similar to their typical sleep duration
-#: fw/services/activity/activity_insights.c:1409
+#: fw/services/activity/activity_insights.c:1421
 #, c-format
 msgid ""
 "Good mornin’. You slept for %dH %dM. Every good day begins with a solid "
@@ -3314,7 +3314,7 @@ msgstr ""
 "Godmorgen. Du sov i %dt og %dm. Enhver god dag starter med en god nats "
 "søvn... ligesom denne 😉. Fortsæt med det!"
 
-#: fw/services/activity/activity_insights.c:1412
+#: fw/services/activity/activity_insights.c:1424
 #, c-format
 msgid ""
 "Good morning! You slept for %dH %dM. Consistency is key; keep doing what "
@@ -3323,7 +3323,7 @@ msgstr ""
 "Godmorgen! Du har sovet i %dt og %dm. Din døgnrytme er god. Det er lige som "
 "det skal være. 😃"
 
-#: fw/services/activity/activity_insights.c:1415
+#: fw/services/activity/activity_insights.c:1427
 #, c-format
 msgid ""
 "You're rockin' the shut eye! You slept for %dH %dM. Make it a nightly "
@@ -3332,7 +3332,7 @@ msgstr ""
 "Godt gået med søvnen. Du sov i %dt og %dm. Prøv at holde fast i den gode "
 "rytme."
 
-#: fw/services/activity/activity_insights.c:1417
+#: fw/services/activity/activity_insights.c:1429
 #, c-format
 msgid "Feelin' good? You slept for %dH %dM. Nothing can stop you now 👊"
 msgstr ""
@@ -3340,7 +3340,7 @@ msgstr ""
 "god dag. 👊"
 
 #. / Sleep notification on wake up, slept below their typical sleep duration
-#: fw/services/activity/activity_insights.c:1426
+#: fw/services/activity/activity_insights.c:1438
 #, c-format
 msgid ""
 "Hey sleepy head. You slept for %dH %dM which is %d%% below your typical. Try "
@@ -3349,7 +3349,7 @@ msgstr ""
 "Hej sovetryne. Du fik kun sovet i %dt og %dm, hvilket er %d%% mindre end du "
 "plejer. Prøv at kravle lidt tidligere i seng i nat."
 
-#: fw/services/activity/activity_insights.c:1428
+#: fw/services/activity/activity_insights.c:1440
 #, c-format
 msgid ""
 "Groggy? You slept for %dH %dM which is %d%% below your typical. Sleep is "
@@ -3358,7 +3358,7 @@ msgstr ""
 "Lidt træt i dag? Du sov i %dt og %dm – det er %d%% mindre end du plejer. "
 "Husk, at kroppen har brug for søvn, så gå tidligt i seng i nat."
 
-#: fw/services/activity/activity_insights.c:1430
+#: fw/services/activity/activity_insights.c:1442
 #, c-format
 msgid ""
 "It's a new day! You slept for %dH %dM which is %d%% below your typical. It's "
@@ -3367,7 +3367,7 @@ msgstr ""
 "Det er en ny dag. Du sov i %dt og %dm, hvilket er %d%% mindre end du plejer. "
 "Det var ikke din bedste nat, men du kan indhente det i nat."
 
-#: fw/services/activity/activity_insights.c:1433
+#: fw/services/activity/activity_insights.c:1445
 #, c-format
 msgid ""
 "Goooood morning! You slept for %dH %dM which is %d%% below your typical. Go "
@@ -3376,7 +3376,7 @@ msgstr ""
 "Morgenstund har guld i mund! Du sov i %dt og %dm, hvilket er %d%% mindre end "
 "du plejer. Gør dit bedste i dag, og glæd dig så til at komme i seng igen 😉"
 
-#: fw/services/activity/activity_insights.c:1440
+#: fw/services/activity/activity_insights.c:1452
 #, c-format
 msgid ""
 "You slept for %dH %dM which is %d%% below your typical. Sleep is vital for "
@@ -3385,7 +3385,7 @@ msgstr ""
 "Du sov i %dt og %dm, hvilket er %d%% mindre end du plejer. Husk, at gode "
 "idéer kræver god søvn. Gå lidt tidligere i seng i nat."
 
-#: fw/services/activity/activity_insights.c:1442
+#: fw/services/activity/activity_insights.c:1454
 #, c-format
 msgid ""
 "You only slept for %dH %dM which is %d%% below your typical. We know you're "
@@ -3394,7 +3394,7 @@ msgstr ""
 "Du har kun sovet i %dt og %dm, hvilket er %d%% mindre end du plejer. Jeg ved "
 "godt, du har travlt, men prøv at sove lidt mere i nat. Hæng i! 😉"
 
-#: fw/services/activity/activity_insights.c:1444
+#: fw/services/activity/activity_insights.c:1456
 #, c-format
 msgid ""
 "You slept for %dH %dM which is %d%% below your typical. We know stuff "
@@ -3403,92 +3403,92 @@ msgstr ""
 "Du sov i %dt og %dm, hvilket er %d%% mindre end du plejer. Jeg ved godt, at "
 "der kan komme noget i vejen, men giv det et nyt forsøg i nat."
 
-#: fw/services/activity/activity_insights.c:1495
+#: fw/services/activity/activity_insights.c:1507
 #, c-format
 msgid "%u Steps"
 msgstr "%u skridt"
 
-#: fw/services/activity/activity_insights.c:1577
+#: fw/services/activity/activity_insights.c:1589
 msgid "Didn’t that walk feel good?"
 msgstr "Det var vel ikke så ringe med en bette gåtur?"
 
-#: fw/services/activity/activity_insights.c:1578
+#: fw/services/activity/activity_insights.c:1590
 msgid "Way to keep it active!"
 msgstr "Godt at få rørt sig lidt."
 
-#: fw/services/activity/activity_insights.c:1579
+#: fw/services/activity/activity_insights.c:1591
 msgid "You got the moves!"
 msgstr "Du kan da endnu!"
 
-#: fw/services/activity/activity_insights.c:1580
+#: fw/services/activity/activity_insights.c:1592
 msgid "Gettin' your step on?"
 msgstr "Du har flere trin end Vild med Dans!"
 
-#: fw/services/activity/activity_insights.c:1590
+#: fw/services/activity/activity_insights.c:1602
 msgid "Feelin' hot? Cause you're on 🔥"
 msgstr "Er du en and? For du er godt nok rap!"
 
-#: fw/services/activity/activity_insights.c:1591
+#: fw/services/activity/activity_insights.c:1603
 msgid "Hey lightning bolt, way to go!"
 msgstr "Sig mig, er du Jens Lyn i forklædning?!"
 
-#: fw/services/activity/activity_insights.c:1592
+#: fw/services/activity/activity_insights.c:1604
 msgid "You're a machine!"
 msgstr "Du er jo en maskine!"
 
-#: fw/services/activity/activity_insights.c:1593
+#: fw/services/activity/activity_insights.c:1605
 msgid "Hey speedster, we can barely keep up!"
 msgstr "Hallo fartbølle! Jeg kan knap nok følge med!"
 
-#: fw/services/activity/activity_insights.c:1594
+#: fw/services/activity/activity_insights.c:1606
 msgid "Way to show us what you're made of 👊"
 msgstr "Det må man sige, du gav den hele armen. 👊"
 
-#: fw/services/activity/activity_insights.c:1604
+#: fw/services/activity/activity_insights.c:1616
 msgid "Workin' up a sweat?"
 msgstr "Får du sved på panden?"
 
-#: fw/services/activity/activity_insights.c:1605
+#: fw/services/activity/activity_insights.c:1617
 msgid "Well done 💪"
 msgstr "Ikke tosset 💪"
 
-#: fw/services/activity/activity_insights.c:1606
+#: fw/services/activity/activity_insights.c:1618
 msgid "Endorphin rush?"
 msgstr "Har du fået varmen?"
 
-#: fw/services/activity/activity_insights.c:1607
+#: fw/services/activity/activity_insights.c:1619
 msgid "Can't stop, won't stop 👊"
 msgstr "Du bliver da bare ved og ved og ved og ved og..."
 
-#: fw/services/activity/activity_insights.c:1608
+#: fw/services/activity/activity_insights.c:1620
 msgid "Keepin' that heart healthy! ❤"
 msgstr "Hjertet fejler i hvert fald ikke noget. ❤"
 
-#: fw/services/activity/activity_insights.c:1636
-#: fw/services/activity/activity_insights.c:1728
-#: fw/services/activity/activity_insights.c:1735
-#: fw/services/activity/activity_insights.c:1742
+#: fw/services/activity/activity_insights.c:1648
+#: fw/services/activity/activity_insights.c:1740
+#: fw/services/activity/activity_insights.c:1747
+#: fw/services/activity/activity_insights.c:1754
 #, c-format
 msgid "%d Min"
 msgstr "%d min"
 
-#: fw/services/activity/activity_insights.c:1665
+#: fw/services/activity/activity_insights.c:1677
 msgid "Avg Pace"
 msgstr "Gns tempo"
 
-#: fw/services/activity/activity_insights.c:1681
+#: fw/services/activity/activity_insights.c:1693
 msgid "Distance"
 msgstr "Distance"
 
-#: fw/services/activity/activity_insights.c:1693
+#: fw/services/activity/activity_insights.c:1705
 msgid "Steps"
 msgstr "Skridt"
 
-#: fw/services/activity/activity_insights.c:1707
+#: fw/services/activity/activity_insights.c:1719
 msgid "Active Calories"
 msgstr "Aktive kalorier"
 
-#: fw/services/activity/activity_insights.c:1720
+#: fw/services/activity/activity_insights.c:1732
 msgid "Avg HR"
 msgstr "Gns puls"
 
@@ -3810,11 +3810,11 @@ msgstr "sendte en fil"
 msgid "Call Back"
 msgstr "Ring tilbage"
 
-#: fw/services/notifications/ancs/ancs_notifications.c:407
+#: fw/services/notifications/ancs/ancs_notifications.c:443
 msgid "iPhone Notifications Blocked"
 msgstr "iPhone-meddelelser er blokeret"
 
-#: fw/services/notifications/ancs/ancs_notifications.c:410
+#: fw/services/notifications/ancs/ancs_notifications.c:446
 msgid ""
 "Your iPhone is not sharing notifications with this watch. On your iPhone, "
 "open Settings > Bluetooth, tap the (i) next to your Pebble and turn on Share "
@@ -3881,35 +3881,35 @@ msgstr "STARTER "
 msgid "Broadcaster"
 msgstr "Vises på"
 
-#: fw/services/timeline/timeline.c:695
+#: fw/services/timeline/timeline.c:696
 msgid "Can't connect. Relaunch Pebble Time app on phone."
 msgstr "Kan ikke forbinde. Genstart Pebble-appen på telefonen."
 
-#: fw/services/timeline/timeline.c:707
+#: fw/services/timeline/timeline.c:708
 msgid "Removed"
 msgstr "Fjernet"
 
-#: fw/services/timeline/timeline.c:717 fw/services/timeline/timeline.c:736
+#: fw/services/timeline/timeline.c:718 fw/services/timeline/timeline.c:737
 msgid "Dismissed"
 msgstr "Afvist"
 
-#: fw/services/timeline/timeline.c:740
+#: fw/services/timeline/timeline.c:741
 msgid "Deleted"
 msgstr "Slettet"
 
-#: fw/services/timeline/timeline.c:767
+#: fw/services/timeline/timeline.c:768
 msgid "Thanks!"
 msgstr "Tak!"
 
-#: fw/services/timeline/timeline.c:917
+#: fw/services/timeline/timeline.c:918
 msgid "Calendar"
 msgstr "Kalender"
 
-#: fw/services/timeline/timeline.c:925
+#: fw/services/timeline/timeline.c:926
 msgid "Reminders"
 msgstr "Påmindelse"
 
-#: fw/services/timeline/timeline.c:937
+#: fw/services/timeline/timeline.c:938
 msgid "Intercom"
 msgstr "Systemmeddelelser"
 
