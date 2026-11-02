@@ -152,31 +152,31 @@ msgstr ""
 msgid "Sat"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:142
+#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:144
 msgid "Sunday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:142
+#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:144
 msgid "Monday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:142
+#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:144
 msgid "Tuesday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:142
+#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:144
 msgid "Wednesday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:143
+#: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:145
 msgid "Thursday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:143
+#: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:145
 msgid "Friday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:143
+#: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:145
 msgid "Saturday"
 msgstr ""
 
@@ -512,7 +512,7 @@ msgstr ""
 msgid "Error occurred. Try again."
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:213 fw/apps/system/app_fetch_ui.c:124
+#: fw/applib/voice/voice_window.c:213 fw/apps/system/app_fetch_ui.c:125
 msgid "No internet connection"
 msgstr ""
 
@@ -645,7 +645,7 @@ msgid "Basic Alarm"
 msgstr ""
 
 #: fw/apps/system/alarms/alarm_editor.c:261 fw/apps/system/alarms/alarms.c:350
-#: fw/services/alarms/alarm.c:460 fw/services/alarms/alarm_pin.c:75
+#: fw/services/alarms/alarm.c:460 fw/services/alarms/alarm_pin.c:74
 msgid "Smart Alarm"
 msgstr ""
 
@@ -673,25 +673,25 @@ msgstr ""
 
 #: fw/apps/system/alarms/alarms.c:475
 #: fw/apps/system/settings/vibe_patterns.c:93
-#: fw/services/timeline/timeline.c:930
+#: fw/services/timeline/timeline.c:931
 msgid "Alarms"
 msgstr ""
 
-#: fw/apps/system/app_fetch_ui.c:110
+#: fw/apps/system/app_fetch_ui.c:111
 msgid "Not connected"
 msgstr ""
 
-#: fw/apps/system/app_fetch_ui.c:122
+#: fw/apps/system/app_fetch_ui.c:123
 msgid ""
 "No internet\n"
 "connection"
 msgstr ""
 
-#: fw/apps/system/app_fetch_ui.c:129
+#: fw/apps/system/app_fetch_ui.c:130
 msgid "Incompatible JS"
 msgstr ""
 
-#: fw/apps/system/app_fetch_ui.c:138
+#: fw/apps/system/app_fetch_ui.c:139
 #: fw/services/timeline/timeline_actions.c:268
 msgid "Failed"
 msgstr ""
@@ -729,7 +729,7 @@ msgstr ""
 msgid "TOTAL"
 msgstr ""
 
-#: fw/apps/system/health/detail_card.c:644 fw/apps/system/weather/weather.c:137
+#: fw/apps/system/health/detail_card.c:644 fw/apps/system/weather/weather.c:139
 #: fw/services/clock/service.c:533 fw/services/clock/service.c:718
 msgid "Today"
 msgstr ""
@@ -763,7 +763,7 @@ msgid "Health requires the time to be synced. Please connect your phone."
 msgstr ""
 
 #: fw/apps/system/health/health.c:184 fw/apps/system/settings/health.c:265
-#: fw/services/timeline/timeline.c:934
+#: fw/services/timeline/timeline.c:935
 msgid "Health"
 msgstr ""
 
@@ -898,7 +898,7 @@ msgstr ""
 #: fw/apps/system/settings/quiet_time.c:539
 #: fw/apps/system/settings/quiet_time.c:623
 #: fw/apps/system/settings/vibe_patterns.c:83
-#: fw/services/timeline/timeline.c:914
+#: fw/services/timeline/timeline.c:915
 msgid "Notifications"
 msgstr ""
 
@@ -911,45 +911,45 @@ msgstr ""
 msgid "Nothing"
 msgstr ""
 
-#: fw/apps/system/reminders/reminder.c:57
+#: fw/apps/system/reminders/reminder.c:58
 msgid "Completed"
 msgstr ""
 
-#: fw/apps/system/reminders/reminder.c:61
+#: fw/apps/system/reminders/reminder.c:62
 msgid "Postpone"
 msgstr ""
 
-#: fw/apps/system/reminders/reminder.c:65
+#: fw/apps/system/reminders/reminder.c:66
 #: fw/services/activity/activity_insights.c:448
-#: fw/services/timeline/timeline.c:655
+#: fw/services/timeline/timeline.c:656
 msgid "Remove"
 msgstr ""
 
-#: fw/apps/system/reminders/reminder.c:115
+#: fw/apps/system/reminders/reminder.c:116
 msgid "Added"
 msgstr ""
 
-#: fw/apps/system/reminders/reminder.c:301
+#: fw/apps/system/reminders/reminder.c:302
 msgid "Reminder"
 msgstr ""
 
-#: fw/apps/system/send_text/send_text.c:195
-#: fw/apps/system/settings/health.c:155 fw/services/phone_call/util.c:18
+#: fw/apps/system/send_text/send_text.c:196
+#: fw/apps/system/settings/health.c:155 fw/services/phone_call/util.c:17
 msgid "Unknown"
 msgstr ""
 
-#: fw/apps/system/send_text/send_text.c:253
-#: fw/apps/system/send_text/send_text.c:335
+#: fw/apps/system/send_text/send_text.c:254
+#: fw/apps/system/send_text/send_text.c:336
 msgid "Select Contact"
 msgstr ""
 
-#: fw/apps/system/send_text/send_text.c:349
+#: fw/apps/system/send_text/send_text.c:350
 msgid ""
 "Add contacts in\n"
 "mobile app"
 msgstr ""
 
-#: fw/apps/system/send_text/send_text.c:383
+#: fw/apps/system/send_text/send_text.c:384
 msgid "Send Text"
 msgstr ""
 
@@ -2169,50 +2169,50 @@ msgstr ""
 msgid "Add them in the app"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:99 fw/services/weather/weather_types.c:49
+#: fw/apps/system/weather/weather.c:101 fw/services/weather/weather_types.c:49
 msgid "Sunny"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:101 fw/services/weather/weather_types.c:51
+#: fw/apps/system/weather/weather.c:103 fw/services/weather/weather_types.c:51
 msgid "Partly Cloudy"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:103 fw/services/weather/weather_types.c:53
+#: fw/apps/system/weather/weather.c:105 fw/services/weather/weather_types.c:53
 msgid "Cloudy"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:105 fw/services/weather/weather_types.c:55
+#: fw/apps/system/weather/weather.c:107 fw/services/weather/weather_types.c:55
 msgid "Light Rain"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:107 fw/services/weather/weather_types.c:57
+#: fw/apps/system/weather/weather.c:109 fw/services/weather/weather_types.c:57
 msgid "Rain"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:109 fw/services/weather/weather_types.c:59
+#: fw/apps/system/weather/weather.c:111 fw/services/weather/weather_types.c:59
 msgid "Light Snow"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:111 fw/services/weather/weather_types.c:61
+#: fw/apps/system/weather/weather.c:113 fw/services/weather/weather_types.c:61
 msgid "Snow"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:113 fw/services/weather/weather_types.c:63
+#: fw/apps/system/weather/weather.c:115 fw/services/weather/weather_types.c:63
 msgid "Rain & Snow"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:139 fw/services/clock/service.c:722
+#: fw/apps/system/weather/weather.c:141 fw/services/clock/service.c:722
 #: fw/services/timeline/timeline_actions.c:1064
 msgid "Tomorrow"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:379
+#: fw/apps/system/weather/weather.c:381
 msgid ""
 "No location information available. To see weather, add locations in your "
 "Pebble mobile app."
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:770 fw/services/timeline/timeline.c:922
+#: fw/apps/system/weather/weather.c:772 fw/services/timeline/timeline.c:923
 msgid "Weather"
 msgstr ""
 
@@ -2771,52 +2771,52 @@ msgid ""
 "mobile app to continue."
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:730
+#: fw/popups/notifications/notification_window.c:731
 msgid "Snoozed"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:763
+#: fw/popups/notifications/notification_window.c:764
 msgid "Muted"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:933
+#: fw/popups/notifications/notification_window.c:934
 msgid "Snooze"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:951
+#: fw/popups/notifications/notification_window.c:952
 #, c-format
 msgid "Mute %s"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:969
+#: fw/popups/notifications/notification_window.c:970
 msgid "Mute 1 Hour"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:972
+#: fw/popups/notifications/notification_window.c:973
 msgid "Mute Today"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:975
+#: fw/popups/notifications/notification_window.c:976
 msgid "Mute Always"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:978
+#: fw/popups/notifications/notification_window.c:979
 msgid "Mute Weekends"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:981
+#: fw/popups/notifications/notification_window.c:982
 msgid "Mute Weekdays"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:989
+#: fw/popups/notifications/notification_window.c:990
 msgid "Dismiss All"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:995
+#: fw/popups/notifications/notification_window.c:996
 msgid "End Quiet Time"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:996
+#: fw/popups/notifications/notification_window.c:997
 msgid "Start Quiet Time"
 msgstr ""
 
@@ -2845,7 +2845,7 @@ msgstr ""
 msgid "While your Pebble was off wakeup events occurred for:\n"
 msgstr ""
 
-#: fw/process_management/app_manager.c:522
+#: fw/process_management/app_manager.c:520
 #, c-format
 msgid "%.*s is not responding"
 msgstr ""
@@ -3381,7 +3381,7 @@ msgstr ""
 msgid "%d.%d"
 msgstr ""
 
-#: fw/services/alarms/alarm.c:460 fw/services/alarms/alarm_pin.c:75
+#: fw/services/alarms/alarm.c:460 fw/services/alarms/alarm_pin.c:74
 msgid "Alarm"
 msgstr ""
 
@@ -3449,7 +3449,7 @@ msgstr ""
 msgid "Saturdays"
 msgstr ""
 
-#: fw/services/alarms/alarm_pin.c:88
+#: fw/services/alarms/alarm_pin.c:87
 msgid "Edit"
 msgstr ""
 
@@ -3728,35 +3728,35 @@ msgstr ""
 msgid "Broadcaster"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:696
+#: fw/services/timeline/timeline.c:697
 msgid "Can't connect. Relaunch Pebble Time app on phone."
 msgstr ""
 
-#: fw/services/timeline/timeline.c:708
+#: fw/services/timeline/timeline.c:709
 msgid "Removed"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:718 fw/services/timeline/timeline.c:737
+#: fw/services/timeline/timeline.c:719 fw/services/timeline/timeline.c:738
 msgid "Dismissed"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:741
+#: fw/services/timeline/timeline.c:742
 msgid "Deleted"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:768
+#: fw/services/timeline/timeline.c:769
 msgid "Thanks!"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:918
+#: fw/services/timeline/timeline.c:919
 msgid "Calendar"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:926
+#: fw/services/timeline/timeline.c:927
 msgid "Reminders"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:938
+#: fw/services/timeline/timeline.c:939
 msgid "Intercom"
 msgstr ""
 
