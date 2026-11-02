@@ -721,7 +721,7 @@ msgstr ""
 
 #. / Distance Label
 #: fw/apps/system/health/activity_detail_card.c:88
-#: fw/apps/system/workout/active.c:194
+#: fw/apps/system/workout/active.c:193
 msgid "DISTANCE"
 msgstr ""
 
@@ -762,7 +762,7 @@ msgstr ""
 msgid "Health requires the time to be synced. Please connect your phone."
 msgstr ""
 
-#: fw/apps/system/health/health.c:184 fw/apps/system/settings/health.c:289
+#: fw/apps/system/health/health.c:184 fw/apps/system/settings/health.c:265
 #: fw/services/timeline/timeline.c:934
 msgid "Health"
 msgstr ""
@@ -811,7 +811,7 @@ msgid "TIME IN ZONES"
 msgstr ""
 
 #: fw/apps/system/health/hr_summary_card.c:114
-#: fw/apps/system/workout/active.c:1120
+#: fw/apps/system/workout/active.c:1114
 msgid "BPM"
 msgstr ""
 
@@ -934,7 +934,7 @@ msgid "Reminder"
 msgstr ""
 
 #: fw/apps/system/send_text/send_text.c:195
-#: fw/apps/system/settings/health.c:156 fw/services/phone_call/util.c:18
+#: fw/apps/system/settings/health.c:155 fw/services/phone_call/util.c:18
 msgid "Unknown"
 msgstr ""
 
@@ -1232,9 +1232,8 @@ msgid "Wake on motion"
 msgstr ""
 
 #: fw/apps/system/settings/display.c:456 fw/apps/system/settings/display.c:687
-#: fw/apps/system/settings/display.c:691 fw/apps/system/settings/health.c:149
-#: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
-#: fw/apps/system/settings/health.c:195
+#: fw/apps/system/settings/display.c:691 fw/apps/system/settings/health.c:148
+#: fw/apps/system/settings/health.c:172 fw/apps/system/settings/health.c:177
 #: fw/apps/system/settings/notifications.c:379
 #: fw/apps/system/settings/quiet_time.c:530
 #: fw/apps/system/settings/quiet_time.c:535
@@ -1249,9 +1248,8 @@ msgstr ""
 
 #. / Shows up in the Timeline settings as the status under the "Quick View" toggle.
 #: fw/apps/system/settings/display.c:456 fw/apps/system/settings/display.c:687
-#: fw/apps/system/settings/display.c:691 fw/apps/system/settings/health.c:149
-#: fw/apps/system/settings/health.c:173 fw/apps/system/settings/health.c:178
-#: fw/apps/system/settings/health.c:195
+#: fw/apps/system/settings/display.c:691 fw/apps/system/settings/health.c:148
+#: fw/apps/system/settings/health.c:172 fw/apps/system/settings/health.c:177
 #: fw/apps/system/settings/notifications.c:379
 #: fw/apps/system/settings/quiet_time.c:492
 #: fw/apps/system/settings/quiet_time.c:530
@@ -1335,36 +1333,28 @@ msgstr ""
 msgid "Disabled"
 msgstr ""
 
-#: fw/apps/system/settings/health.c:101 fw/apps/system/settings/health.c:164
+#: fw/apps/system/settings/health.c:100 fw/apps/system/settings/health.c:163
 msgid "HR Monitoring"
 msgstr ""
 
-#: fw/apps/system/settings/health.c:122 fw/apps/system/settings/health.c:182
+#: fw/apps/system/settings/health.c:121 fw/apps/system/settings/health.c:181
 msgid "SpO2 Monitoring"
 msgstr ""
 
-#: fw/apps/system/settings/health.c:148
+#: fw/apps/system/settings/health.c:147
 msgid "Health Tracking"
 msgstr ""
 
-#: fw/apps/system/settings/health.c:153
+#: fw/apps/system/settings/health.c:152
 msgid "Distance Unit"
 msgstr ""
 
-#: fw/apps/system/settings/health.c:171
+#: fw/apps/system/settings/health.c:170
 msgid "HR During Activity"
 msgstr ""
 
-#: fw/apps/system/settings/health.c:177
+#: fw/apps/system/settings/health.c:176
 msgid "SpO2"
-msgstr ""
-
-#: fw/apps/system/settings/health.c:189
-msgid "SpO2 During Activity"
-msgstr ""
-
-#: fw/apps/system/settings/health.c:192
-msgid "Needs HR During Activity"
 msgstr ""
 
 #: fw/apps/system/settings/notifications.c:61
@@ -2427,202 +2417,190 @@ msgid "UV INDEX"
 msgstr ""
 
 #. / Zone 1 HR Label
-#: fw/apps/system/workout/active.c:137
+#: fw/apps/system/workout/active.c:136
 msgid "FAT BURN"
 msgstr ""
 
 #. / Zone 2 HR Label
-#: fw/apps/system/workout/active.c:140
+#: fw/apps/system/workout/active.c:139
 msgid "ENDURANCE"
 msgstr ""
 
 #. / Zone 3 HR Label
-#: fw/apps/system/workout/active.c:143
+#: fw/apps/system/workout/active.c:142
 msgid "PERFORMANCE"
 msgstr ""
 
 #. / Default/Zone 0 HR Label
-#: fw/apps/system/workout/active.c:146
+#: fw/apps/system/workout/active.c:145
 msgid "HEART RATE"
 msgstr ""
 
 #. / Duration Label
-#: fw/apps/system/workout/active.c:163
+#: fw/apps/system/workout/active.c:162
 msgid "DURATION"
 msgstr ""
 
 #. / Average Pace Label
-#: fw/apps/system/workout/active.c:167
+#: fw/apps/system/workout/active.c:166
 msgid "AVG PACE"
 msgstr ""
 
 #. / Average Pace Label with units
-#: fw/apps/system/workout/active.c:170
+#: fw/apps/system/workout/active.c:169
 msgid "AVG PACE (/MI)"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:171
+#: fw/apps/system/workout/active.c:170
 msgid "AVG PACE (/KM)"
 msgstr ""
 
 #. / Pace Label
-#: fw/apps/system/workout/active.c:176
+#: fw/apps/system/workout/active.c:175
 msgid "PACE"
 msgstr ""
 
 #. / Pace Label with units
-#: fw/apps/system/workout/active.c:179
+#: fw/apps/system/workout/active.c:178
 msgid "PACE (/MI)"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:180
+#: fw/apps/system/workout/active.c:179
 msgid "PACE (/KM)"
 msgstr ""
 
 #. / Speed Label
-#: fw/apps/system/workout/active.c:185
+#: fw/apps/system/workout/active.c:184
 msgid "SPEED"
 msgstr ""
 
 #. / Speed Label with units
-#: fw/apps/system/workout/active.c:188
+#: fw/apps/system/workout/active.c:187
 msgid "SPEED (MPH)"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:189
+#: fw/apps/system/workout/active.c:188
 msgid "SPEED (KM/H)"
 msgstr ""
 
 #. / Distance Label with units
-#: fw/apps/system/workout/active.c:197
+#: fw/apps/system/workout/active.c:196
 msgid "DISTANCE (MI)"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:198
+#: fw/apps/system/workout/active.c:197
 msgid "DISTANCE (KM)"
 msgstr ""
 
 #. / Steps Label
-#: fw/apps/system/workout/active.c:202 fw/apps/system/workout/active.c:1191
-#: fw/apps/system/workout/active.c:1209 fw/apps/system/workout/active.c:1235
+#: fw/apps/system/workout/active.c:201 fw/apps/system/workout/active.c:1185
+#: fw/apps/system/workout/active.c:1203 fw/apps/system/workout/active.c:1227
 msgid "STEPS"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:307 fw/apps/system/workout/active.c:364
+#: fw/apps/system/workout/active.c:306 fw/apps/system/workout/active.c:363
 msgid "MI"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:307 fw/apps/system/workout/active.c:364
+#: fw/apps/system/workout/active.c:306 fw/apps/system/workout/active.c:363
 msgid "KM"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:383
+#: fw/apps/system/workout/active.c:382
 msgid "MPH"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:383
+#: fw/apps/system/workout/active.c:382
 msgid "KM/H"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1059
+#: fw/apps/system/workout/active.c:1053
 msgid "COMPLETE"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1062
+#: fw/apps/system/workout/active.c:1056
 msgid "END WORKOUT?"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1066
+#: fw/apps/system/workout/active.c:1060
 msgid "PAUSED"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1120
+#: fw/apps/system/workout/active.c:1114
 msgid "AVG"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1123 fw/apps/system/workout/active.c:1276
+#: fw/apps/system/workout/active.c:1117 fw/apps/system/workout/active.c:1268
 #, c-format
 msgid "Z%d"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1179 fw/apps/system/workout/active.c:1224
-#: fw/apps/system/workout/active.c:1474
+#: fw/apps/system/workout/active.c:1173 fw/apps/system/workout/active.c:1218
+#: fw/apps/system/workout/active.c:1460
 msgid "TOTAL TIME"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1179 fw/apps/system/workout/active.c:1224
+#: fw/apps/system/workout/active.c:1173 fw/apps/system/workout/active.c:1218
 msgid "TIMER"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1187
+#: fw/apps/system/workout/active.c:1181
 msgid "DIST MI"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1187
+#: fw/apps/system/workout/active.c:1181
 msgid "DIST KM"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1189 fw/apps/system/workout/active.c:1222
+#: fw/apps/system/workout/active.c:1183 fw/apps/system/workout/active.c:1216
 msgid "PACE /MI"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1189 fw/apps/system/workout/active.c:1222
+#: fw/apps/system/workout/active.c:1183 fw/apps/system/workout/active.c:1216
 msgid "PACE /KM"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1193 fw/apps/system/workout/active.c:1210
-#: fw/apps/system/workout/active.c:1236 fw/apps/system/workout/active.c:1478
+#: fw/apps/system/workout/active.c:1187 fw/apps/system/workout/active.c:1204
+#: fw/apps/system/workout/active.c:1228 fw/apps/system/workout/active.c:1462
 msgid "KCAL"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1208 fw/apps/system/workout/active.c:1234
+#: fw/apps/system/workout/active.c:1202 fw/apps/system/workout/active.c:1226
 msgid "CADENCE"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1219
+#: fw/apps/system/workout/active.c:1213
 msgid "SPEED MPH"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1220
+#: fw/apps/system/workout/active.c:1214
 msgid "SPEED KM/H"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1227 fw/apps/system/workout/active.c:1477
-msgid "LOW SPO2 %"
-msgstr ""
-
-#: fw/apps/system/workout/active.c:1229 fw/apps/system/workout/active.c:1436
-#: fw/apps/system/workout/active.c:1475
+#: fw/apps/system/workout/active.c:1221 fw/apps/system/workout/active.c:1422
+#: fw/apps/system/workout/active.c:1461
 msgid "AVG BPM"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1253
+#: fw/apps/system/workout/active.c:1245
 msgid "TIME IN ZONE"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1400
+#: fw/apps/system/workout/active.c:1392
 msgid "LAST MINUTE"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1403
+#: fw/apps/system/workout/active.c:1395
 msgid "WAITING FOR HR"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1430
-msgid "READING SPO2"
-msgstr ""
-
-#: fw/apps/system/workout/active.c:1433
+#: fw/apps/system/workout/active.c:1419
 #, c-format
 msgid "ZONE %d"
 msgstr ""
 
-#: fw/apps/system/workout/active.c:1436
+#: fw/apps/system/workout/active.c:1422
 msgid "MEASURING"
-msgstr ""
-
-#: fw/apps/system/workout/active.c:1477
-msgid "SPO2 %"
 msgstr ""
 
 #: fw/apps/system/workout/countdown.c:85 fw/apps/system/workout/summary.c:61
@@ -2633,7 +2611,7 @@ msgstr ""
 msgid "GO!"
 msgstr ""
 
-#: fw/apps/system/workout/sports.c:355
+#: fw/apps/system/workout/sports.c:353
 msgid "Sports"
 msgstr ""
 
