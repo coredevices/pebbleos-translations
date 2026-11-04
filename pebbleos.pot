@@ -152,31 +152,31 @@ msgstr ""
 msgid "Sat"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:144
+#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:145
 msgid "Sunday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:144
+#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:145
 msgid "Monday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:144
+#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:145
 msgid "Tuesday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:144
+#: fw/applib/pbl_std/timelocal.c:52 fw/apps/system/weather/weather.c:145
 msgid "Wednesday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:145
+#: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:146
 msgid "Thursday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:145
+#: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:146
 msgid "Friday"
 msgstr ""
 
-#: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:145
+#: fw/applib/pbl_std/timelocal.c:53 fw/apps/system/weather/weather.c:146
 msgid "Saturday"
 msgstr ""
 
@@ -486,7 +486,7 @@ msgstr ""
 msgid "Just Once"
 msgstr ""
 
-#: fw/applib/ui/day_picker.c:234
+#: fw/applib/ui/day_picker.c:236
 msgid "Check something first."
 msgstr ""
 
@@ -494,12 +494,12 @@ msgstr ""
 msgid "Check bluetooth connection"
 msgstr ""
 
-#: fw/applib/ui/time_range_selection_window.c:179
+#: fw/applib/ui/time_range_selection_window.c:180
 msgid "Start"
 msgstr ""
 
 #. / Vibrate at the end of notification animation (delayed)
-#: fw/applib/ui/time_range_selection_window.c:183
+#: fw/applib/ui/time_range_selection_window.c:184
 #: fw/apps/system/settings/notifications.c:239
 msgid "End"
 msgstr ""
@@ -644,34 +644,34 @@ msgstr ""
 msgid "Basic Alarm"
 msgstr ""
 
-#: fw/apps/system/alarms/alarm_editor.c:261 fw/apps/system/alarms/alarms.c:350
+#: fw/apps/system/alarms/alarm_editor.c:261 fw/apps/system/alarms/alarms.c:351
 #: fw/services/alarms/alarm.c:464 fw/services/alarms/alarm_pin.c:74
 msgid "Smart Alarm"
 msgstr ""
 
-#: fw/apps/system/alarms/alarms.c:116
+#: fw/apps/system/alarms/alarms.c:115
 msgid "Alarm Deleted"
 msgstr ""
 
-#: fw/apps/system/alarms/alarms.c:231 fw/apps/system/settings/quiet_time.c:384
+#: fw/apps/system/alarms/alarms.c:230 fw/apps/system/settings/quiet_time.c:384
 msgid "Limit reached."
 msgstr ""
 
-#: fw/apps/system/alarms/alarms.c:275 fw/apps/system/settings/quiet_time.c:427
+#: fw/apps/system/alarms/alarms.c:274 fw/apps/system/settings/quiet_time.c:427
 msgid "ON"
 msgstr ""
 
-#: fw/apps/system/alarms/alarms.c:275 fw/apps/system/settings/quiet_time.c:427
+#: fw/apps/system/alarms/alarms.c:274 fw/apps/system/settings/quiet_time.c:427
 msgid "OFF"
 msgstr ""
 
-#: fw/apps/system/alarms/alarms.c:347
+#: fw/apps/system/alarms/alarms.c:348
 msgid ""
 "Let us wake you in your lightest sleep so you're fully refreshed! Smart "
 "Alarm wakes you up to 30min before your alarm."
 msgstr ""
 
-#: fw/apps/system/alarms/alarms.c:475
+#: fw/apps/system/alarms/alarms.c:480
 #: fw/apps/system/settings/vibe_patterns.c:93
 #: fw/services/timeline/timeline.c:932
 msgid "Alarms"
@@ -729,7 +729,7 @@ msgstr ""
 msgid "TOTAL"
 msgstr ""
 
-#: fw/apps/system/health/detail_card.c:644 fw/apps/system/weather/weather.c:139
+#: fw/apps/system/health/detail_card.c:677 fw/apps/system/weather/weather.c:140
 #: fw/services/clock/service.c:580 fw/services/clock/service.c:765
 msgid "Today"
 msgstr ""
@@ -747,22 +747,22 @@ msgstr ""
 msgid "SMTWTFS"
 msgstr ""
 
-#: fw/apps/system/health/health.c:78
+#: fw/apps/system/health/health.c:79
 msgid ""
 "Psst! Want smart tips about your activity and sleep? You can enable Insights "
 "in the mobile app."
 msgstr ""
 
-#: fw/apps/system/health/health.c:108
+#: fw/apps/system/health/health.c:111
 msgid ""
 "Track your steps, sleep, and more! Enable Pebble Health in the mobile app."
 msgstr ""
 
-#: fw/apps/system/health/health.c:117
+#: fw/apps/system/health/health.c:120
 msgid "Health requires the time to be synced. Please connect your phone."
 msgstr ""
 
-#: fw/apps/system/health/health.c:184 fw/apps/system/settings/health.c:265
+#: fw/apps/system/health/health.c:187 fw/apps/system/settings/health.c:265
 #: fw/services/timeline/timeline.c:936
 msgid "Health"
 msgstr ""
@@ -780,43 +780,43 @@ msgid "%l"
 msgstr ""
 
 #. / Range of heart rate readings, e.g. "52–104 BPM"
-#: fw/apps/system/health/hr_detail_card.c:44
+#: fw/apps/system/health/hr_detail_card.c:45
 #, c-format
 msgid "%d–%d BPM"
 msgstr ""
 
-#: fw/apps/system/health/hr_detail_card.c:89
+#: fw/apps/system/health/hr_detail_card.c:90
 #: fw/services/activity/activity_insights.c:1745
 msgid "Fat Burn"
 msgstr ""
 
-#: fw/apps/system/health/hr_detail_card.c:92
+#: fw/apps/system/health/hr_detail_card.c:93
 #: fw/services/activity/activity_insights.c:1752
 msgid "Endurance"
 msgstr ""
 
-#: fw/apps/system/health/hr_detail_card.c:95
+#: fw/apps/system/health/hr_detail_card.c:96
 #: fw/services/activity/activity_insights.c:1759
 msgid "Performance"
 msgstr ""
 
 #. / Heading above a chart of today's heart rate and its lowest to highest reading
-#: fw/apps/system/health/hr_detail_card.c:102
+#: fw/apps/system/health/hr_detail_card.c:103
 msgid "TODAY'S RANGE"
 msgstr ""
 
 #. / Heading above the time spent in each heart rate zone today
-#: fw/apps/system/health/hr_detail_card.c:114
+#: fw/apps/system/health/hr_detail_card.c:115
 msgid "TIME IN ZONES"
 msgstr ""
 
-#: fw/apps/system/health/hr_summary_card.c:114
+#: fw/apps/system/health/hr_summary_card.c:135
 #: fw/apps/system/workout/active.c:1114
 msgid "BPM"
 msgstr ""
 
 #. / HRM disabled
-#: fw/apps/system/health/hr_summary_card.c:159
+#: fw/apps/system/health/hr_summary_card.c:180
 msgid "Enable heart rate monitoring in the mobile app"
 msgstr ""
 
@@ -861,13 +861,13 @@ msgstr ""
 msgid "%i°"
 msgstr ""
 
-#: fw/apps/system/music.c:905
+#: fw/apps/system/music.c:909
 msgid ""
 "START PLAYBACK\n"
 "ON YOUR PHONE"
 msgstr ""
 
-#: fw/apps/system/music.c:1831
+#: fw/apps/system/music.c:1852
 msgid "Music"
 msgstr ""
 
@@ -880,20 +880,20 @@ msgid "Clear history?"
 msgstr ""
 
 #. / Notification sender followed by the number of grouped notifications
-#: fw/apps/system/notifications.c:703
+#: fw/apps/system/notifications.c:712
 #, c-format
 msgid "%s (%u)"
 msgstr ""
 
-#: fw/apps/system/notifications.c:742 fw/apps/system/notifications.c:749
+#: fw/apps/system/notifications.c:751 fw/apps/system/notifications.c:758
 msgid "Clear All"
 msgstr ""
 
-#: fw/apps/system/notifications.c:1000
+#: fw/apps/system/notifications.c:1009
 msgid "No notifications"
 msgstr ""
 
-#: fw/apps/system/notifications.c:1109
+#: fw/apps/system/notifications.c:1116
 #: fw/apps/system/settings/notifications.c:491
 #: fw/apps/system/settings/quiet_time.c:539
 #: fw/apps/system/settings/quiet_time.c:623
@@ -902,7 +902,7 @@ msgstr ""
 msgid "Notifications"
 msgstr ""
 
-#: fw/apps/system/notifications.c:1123
+#: fw/apps/system/notifications.c:1130
 msgid "Clear Notification History"
 msgstr ""
 
@@ -933,23 +933,23 @@ msgstr ""
 msgid "Reminder"
 msgstr ""
 
-#: fw/apps/system/send_text/send_text.c:196
+#: fw/apps/system/send_text/send_text.c:197
 #: fw/apps/system/settings/health.c:155 fw/services/phone_call/util.c:17
 msgid "Unknown"
 msgstr ""
 
-#: fw/apps/system/send_text/send_text.c:254
-#: fw/apps/system/send_text/send_text.c:336
+#: fw/apps/system/send_text/send_text.c:256
+#: fw/apps/system/send_text/send_text.c:340
 msgid "Select Contact"
 msgstr ""
 
-#: fw/apps/system/send_text/send_text.c:350
+#: fw/apps/system/send_text/send_text.c:354
 msgid ""
 "Add contacts in\n"
 "mobile app"
 msgstr ""
 
-#: fw/apps/system/send_text/send_text.c:384
+#: fw/apps/system/send_text/send_text.c:388
 msgid "Send Text"
 msgstr ""
 
@@ -963,8 +963,8 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: fw/apps/system/settings/activity_tracker.c:240
-#: fw/apps/system/settings/activity_tracker.c:257
+#: fw/apps/system/settings/activity_tracker.c:237
+#: fw/apps/system/settings/activity_tracker.c:254
 msgid "Background App"
 msgstr ""
 
@@ -1031,6 +1031,55 @@ msgid ""
 "Remember to also forget your Pebble's Bluetooth connection from your phone."
 msgstr ""
 
+#. / Shows up in the Timeline settings as the status under the "Quick View" toggle.
+#: fw/apps/system/settings/dark_mode_menu.c:18
+#: fw/apps/system/settings/display.c:456 fw/apps/system/settings/display.c:687
+#: fw/apps/system/settings/display.c:691 fw/apps/system/settings/health.c:148
+#: fw/apps/system/settings/health.c:172 fw/apps/system/settings/health.c:177
+#: fw/apps/system/settings/notifications.c:379
+#: fw/apps/system/settings/quiet_time.c:492
+#: fw/apps/system/settings/quiet_time.c:530
+#: fw/apps/system/settings/quiet_time.c:535
+#: fw/apps/system/settings/quiet_time.c:541
+#: fw/apps/system/settings/quiet_time.c:608
+#: fw/apps/system/settings/quiet_time.c:613
+#: fw/apps/system/settings/quiet_time.c:633
+#: fw/apps/system/settings/system.c:1310 fw/apps/system/settings/timeline.c:193
+#: fw/apps/system/settings/vibe_patterns.c:69
+msgid "Off"
+msgstr ""
+
+#: fw/apps/system/settings/dark_mode_menu.c:19
+#: fw/apps/system/settings/display.c:456 fw/apps/system/settings/display.c:687
+#: fw/apps/system/settings/display.c:691 fw/apps/system/settings/health.c:148
+#: fw/apps/system/settings/health.c:172 fw/apps/system/settings/health.c:177
+#: fw/apps/system/settings/notifications.c:379
+#: fw/apps/system/settings/quiet_time.c:530
+#: fw/apps/system/settings/quiet_time.c:535
+#: fw/apps/system/settings/quiet_time.c:541
+#: fw/apps/system/settings/quiet_time.c:608
+#: fw/apps/system/settings/quiet_time.c:613
+#: fw/apps/system/settings/quiet_time.c:633
+#: fw/apps/system/settings/system.c:1310 fw/apps/system/settings/timeline.c:190
+#: fw/apps/system/settings/vibe_patterns.c:69
+msgid "On"
+msgstr ""
+
+#: fw/apps/system/settings/dark_mode_menu.c:20
+#: fw/apps/system/settings/quiet_time.c:485
+#: fw/apps/system/settings/quiet_time.c:616
+msgid "Schedule"
+msgstr ""
+
+#: fw/apps/system/settings/dark_mode_menu.c:77
+msgid "DARK MODE"
+msgstr ""
+
+#: fw/apps/system/settings/dark_mode_menu.c:77
+#: fw/apps/system/settings/themes.c:158
+msgid "Dark Mode"
+msgstr ""
+
 #: fw/apps/system/settings/display.c:86 fw/apps/system/settings/display.c:709
 #: fw/apps/system/settings/system.c:212
 msgid "Language"
@@ -1062,15 +1111,15 @@ msgstr ""
 msgid "Text Size"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:444
+#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:442
 msgid "Low"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:445
+#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:443
 msgid "Medium"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:446
+#: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:444
 msgid "High"
 msgstr ""
 
@@ -1231,38 +1280,6 @@ msgstr ""
 msgid "Wake on motion"
 msgstr ""
 
-#: fw/apps/system/settings/display.c:456 fw/apps/system/settings/display.c:687
-#: fw/apps/system/settings/display.c:691 fw/apps/system/settings/health.c:148
-#: fw/apps/system/settings/health.c:172 fw/apps/system/settings/health.c:177
-#: fw/apps/system/settings/notifications.c:379
-#: fw/apps/system/settings/quiet_time.c:530
-#: fw/apps/system/settings/quiet_time.c:535
-#: fw/apps/system/settings/quiet_time.c:541
-#: fw/apps/system/settings/quiet_time.c:608
-#: fw/apps/system/settings/quiet_time.c:613
-#: fw/apps/system/settings/quiet_time.c:633
-#: fw/apps/system/settings/system.c:1312 fw/apps/system/settings/timeline.c:190
-#: fw/apps/system/settings/vibe_patterns.c:69
-msgid "On"
-msgstr ""
-
-#. / Shows up in the Timeline settings as the status under the "Quick View" toggle.
-#: fw/apps/system/settings/display.c:456 fw/apps/system/settings/display.c:687
-#: fw/apps/system/settings/display.c:691 fw/apps/system/settings/health.c:148
-#: fw/apps/system/settings/health.c:172 fw/apps/system/settings/health.c:177
-#: fw/apps/system/settings/notifications.c:379
-#: fw/apps/system/settings/quiet_time.c:492
-#: fw/apps/system/settings/quiet_time.c:530
-#: fw/apps/system/settings/quiet_time.c:535
-#: fw/apps/system/settings/quiet_time.c:541
-#: fw/apps/system/settings/quiet_time.c:608
-#: fw/apps/system/settings/quiet_time.c:613
-#: fw/apps/system/settings/quiet_time.c:633
-#: fw/apps/system/settings/system.c:1312 fw/apps/system/settings/timeline.c:193
-#: fw/apps/system/settings/vibe_patterns.c:69
-msgid "Off"
-msgstr ""
-
 #: fw/apps/system/settings/display.c:465
 msgid "Ambient Sensor"
 msgstr ""
@@ -1328,8 +1345,8 @@ msgid "1 Hour"
 msgstr ""
 
 #: fw/apps/system/settings/health.c:36 fw/apps/system/settings/health.c:59
-#: fw/apps/system/settings/system.c:525 fw/apps/system/settings/system.c:541
-#: fw/apps/system/settings/system.c:544
+#: fw/apps/system/settings/system.c:523 fw/apps/system/settings/system.c:539
+#: fw/apps/system/settings/system.c:542
 msgid "Disabled"
 msgstr ""
 
@@ -1554,11 +1571,6 @@ msgstr ""
 msgid "Change Schedule"
 msgstr ""
 
-#: fw/apps/system/settings/quiet_time.c:485
-#: fw/apps/system/settings/quiet_time.c:616
-msgid "Schedule"
-msgstr ""
-
 #: fw/apps/system/settings/quiet_time.c:495
 msgid "On - Auto Dismiss"
 msgstr ""
@@ -1606,11 +1618,11 @@ msgstr ""
 msgid "Stop Sharing Heart Rate"
 msgstr ""
 
-#: fw/apps/system/settings/settings.c:232
+#: fw/apps/system/settings/settings.c:225
 msgid "Settings"
 msgstr ""
 
-#: fw/apps/system/settings/speaker_volume_window.c:55
+#: fw/apps/system/settings/speaker_volume_window.c:56
 #: fw/apps/system/settings/vibe_patterns.c:75
 msgid "Volume"
 msgstr ""
@@ -1619,7 +1631,7 @@ msgstr ""
 msgid "Information"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:165 fw/apps/system/settings/system.c:965
+#: fw/apps/system/settings/system.c:165 fw/apps/system/settings/system.c:963
 msgid "Certification"
 msgstr ""
 
@@ -1627,7 +1639,7 @@ msgstr ""
 msgid "Stand-By Mode"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:167 fw/apps/system/settings/system.c:607
+#: fw/apps/system/settings/system.c:167 fw/apps/system/settings/system.c:605
 msgid "Debugging"
 msgstr ""
 
@@ -1671,142 +1683,146 @@ msgstr ""
 msgid "Legal"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:357
+#: fw/apps/system/settings/system.c:355
 msgid "Core dump and reboot?"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:444
+#: fw/apps/system/settings/system.c:442
 msgid "Very Low"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:445
+#: fw/apps/system/settings/system.c:443
 msgid "Medium-Low"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:446
+#: fw/apps/system/settings/system.c:444
 msgid "Medium-High"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:447
+#: fw/apps/system/settings/system.c:445
 msgid "Very High"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:472 fw/apps/system/settings/system.c:498
+#: fw/apps/system/settings/system.c:470 fw/apps/system/settings/system.c:496
 msgid "Motion Sensitivity"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:494
+#: fw/apps/system/settings/system.c:492
 msgid "CoreDump now"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:495
+#: fw/apps/system/settings/system.c:493
 msgid "CoreDump shortcut"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:496
+#: fw/apps/system/settings/system.c:494
 msgid "ALS Threshold"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:500
+#: fw/apps/system/settings/system.c:498
 msgid "Shake Log Info"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:501
+#: fw/apps/system/settings/system.c:499
 msgid "Vibe Log Info"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:502
+#: fw/apps/system/settings/system.c:500
 msgid "Compact Settings DBs"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:504
+#: fw/apps/system/settings/system.c:502
 msgid "SpO2 Test"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:524
+#: fw/apps/system/settings/system.c:522
 msgid "10 back-button presses"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:540 fw/apps/system/settings/system.c:543
+#: fw/apps/system/settings/system.c:538 fw/apps/system/settings/system.c:541
 msgid "Enabled"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:684
+#: fw/apps/system/settings/system.c:680
 msgid "PebbleOS developers only!"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:929
+#: fw/apps/system/settings/system.c:927
 msgid "See details..."
 msgstr ""
 
-#: fw/apps/system/settings/system.c:987
+#: fw/apps/system/settings/system.c:985
 msgid "Company"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:995
+#: fw/apps/system/settings/system.c:993
 msgid "Product Model"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1002
+#: fw/apps/system/settings/system.c:1000
 msgid "Product Type"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1009
+#: fw/apps/system/settings/system.c:1007
 msgid "Trademark"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1016
+#: fw/apps/system/settings/system.c:1014
 msgid "Place of Origin"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1023
+#: fw/apps/system/settings/system.c:1021
 msgid "DC Input"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1030
+#: fw/apps/system/settings/system.c:1028
 msgid "Rated Voltage"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1037
+#: fw/apps/system/settings/system.c:1035
 msgid "Milliampere-hour"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1044
+#: fw/apps/system/settings/system.c:1042
 msgid "Watt-hour"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1058
+#: fw/apps/system/settings/system.c:1056
 msgid "Canada IC"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1065
+#: fw/apps/system/settings/system.c:1063
 msgid "Canada ISED"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1079 fw/apps/system/settings/system.c:1189
+#: fw/apps/system/settings/system.c:1077 fw/apps/system/settings/system.c:1185
 msgid "South Korea KCC"
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1258
+#: fw/apps/system/settings/system.c:1256
 msgid "Disconnect the charger to shut down."
 msgstr ""
 
-#: fw/apps/system/settings/system.c:1292
+#: fw/apps/system/settings/system.c:1290
 msgid "Do you want to shut down?"
 msgstr ""
 
 #. / Refers to the class of all non-score vibes, e.g. 3rd party app vibes
-#: fw/apps/system/settings/system.c:1379
+#: fw/apps/system/settings/system.c:1377
 #: fw/apps/system/settings/vibe_patterns.c:109
 msgid "System"
 msgstr ""
 
-#: fw/apps/system/settings/themes.c:101
+#: fw/apps/system/settings/themes.c:108 fw/apps/system/settings/themes.c:167
 msgid "Accent Color"
 msgstr ""
 
+#: fw/apps/system/settings/themes.c:161
+msgid "Schedule Time"
+msgstr ""
+
 #. / Title of the Themes Settings submenu in Settings
-#: fw/apps/system/settings/themes.c:150
+#: fw/apps/system/settings/themes.c:209
 msgid "Themes"
 msgstr ""
 
@@ -2058,7 +2074,7 @@ msgstr ""
 msgid "Active"
 msgstr ""
 
-#: fw/apps/system/watchfaces.c:221
+#: fw/apps/system/watchfaces.c:222
 msgid "Watchfaces"
 msgstr ""
 
@@ -2080,46 +2096,46 @@ msgstr ""
 msgid "Last updated %s"
 msgstr ""
 
-#: fw/apps/system/weather/expanded_view.c:394
+#: fw/apps/system/weather/expanded_view.c:396
 msgid "PRECIPITATION: --"
 msgstr ""
 
-#: fw/apps/system/weather/expanded_view.c:396
+#: fw/apps/system/weather/expanded_view.c:398
 #, c-format
 msgid "PRECIPITATION: %d%%"
 msgstr ""
 
-#: fw/apps/system/weather/expanded_view.c:479
+#: fw/apps/system/weather/expanded_view.c:481
 msgid "CURRENT UV"
 msgstr ""
 
-#: fw/apps/system/weather/expanded_view.c:488
+#: fw/apps/system/weather/expanded_view.c:490
 #, c-format
 msgid "UV %d"
 msgstr ""
 
-#: fw/apps/system/weather/expanded_view.c:490
+#: fw/apps/system/weather/expanded_view.c:492
 msgid "UV --"
 msgstr ""
 
-#: fw/apps/system/weather/expanded_view.c:492
+#: fw/apps/system/weather/expanded_view.c:494
 #, c-format
 msgid "RAIN %d%%"
 msgstr ""
 
-#: fw/apps/system/weather/expanded_view.c:494
+#: fw/apps/system/weather/expanded_view.c:496
 msgid "RAIN --"
 msgstr ""
 
-#: fw/apps/system/weather/expanded_view.c:502
+#: fw/apps/system/weather/expanded_view.c:504
 msgid "UV"
 msgstr ""
 
-#: fw/apps/system/weather/expanded_view.c:504
+#: fw/apps/system/weather/expanded_view.c:506
 msgid "RAIN"
 msgstr ""
 
-#: fw/apps/system/weather/forecast_list.c:1281
+#: fw/apps/system/weather/forecast_list.c:1286
 msgid "WEATHER REPORT"
 msgstr ""
 
@@ -2127,11 +2143,11 @@ msgstr ""
 #. scrolled column's air splits evenly — solved for disc->graph = graph->pill =
 #. %-row->dot (~10-11px each; the graph auto-centres in its band, so the split
 #. holds for any temp spread).
-#: fw/apps/system/weather/forecast_list.c:1602
+#: fw/apps/system/weather/forecast_list.c:1607
 msgid "PRECIPITATION"
 msgstr ""
 
-#: fw/apps/system/weather/forecast_list.c:2220
+#: fw/apps/system/weather/forecast_list.c:2225
 #, no-c-format
 msgid "%a, %b %d"
 msgstr ""
@@ -2161,58 +2177,58 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
-#: fw/apps/system/weather/saved_locations.c:243
+#: fw/apps/system/weather/saved_locations.c:247
 msgid "No Locations"
 msgstr ""
 
-#: fw/apps/system/weather/saved_locations.c:244
+#: fw/apps/system/weather/saved_locations.c:248
 msgid "Add them in the app"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:101 fw/services/weather/weather_types.c:49
+#: fw/apps/system/weather/weather.c:102 fw/services/weather/weather_types.c:49
 msgid "Sunny"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:103 fw/services/weather/weather_types.c:51
+#: fw/apps/system/weather/weather.c:104 fw/services/weather/weather_types.c:51
 msgid "Partly Cloudy"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:105 fw/services/weather/weather_types.c:53
+#: fw/apps/system/weather/weather.c:106 fw/services/weather/weather_types.c:53
 msgid "Cloudy"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:107 fw/services/weather/weather_types.c:55
+#: fw/apps/system/weather/weather.c:108 fw/services/weather/weather_types.c:55
 msgid "Light Rain"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:109 fw/services/weather/weather_types.c:57
+#: fw/apps/system/weather/weather.c:110 fw/services/weather/weather_types.c:57
 msgid "Rain"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:111 fw/services/weather/weather_types.c:59
+#: fw/apps/system/weather/weather.c:112 fw/services/weather/weather_types.c:59
 msgid "Light Snow"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:113 fw/services/weather/weather_types.c:61
+#: fw/apps/system/weather/weather.c:114 fw/services/weather/weather_types.c:61
 msgid "Snow"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:115 fw/services/weather/weather_types.c:63
+#: fw/apps/system/weather/weather.c:116 fw/services/weather/weather_types.c:63
 msgid "Rain & Snow"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:141 fw/services/clock/service.c:769
+#: fw/apps/system/weather/weather.c:142 fw/services/clock/service.c:769
 #: fw/services/timeline/timeline_actions.c:1064
 msgid "Tomorrow"
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:381
+#: fw/apps/system/weather/weather.c:382
 msgid ""
 "No location information available. To see weather, add locations in your "
 "Pebble mobile app."
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:772 fw/services/timeline/timeline.c:924
+#: fw/apps/system/weather/weather.c:793 fw/services/timeline/timeline.c:924
 msgid "Weather"
 msgstr ""
 
@@ -2402,17 +2418,17 @@ msgid "Precipitation %d%%."
 msgstr ""
 
 #: fw/apps/system/weather/weather_app_layout.c:859
-#: fw/apps/system/weather/weather_app_layout.c:1147
+#: fw/apps/system/weather/weather_app_layout.c:1148
 msgid "TODAY"
 msgstr ""
 
 #: fw/apps/system/weather/weather_app_layout.c:890
-#: fw/apps/system/weather/weather_app_layout.c:1233
+#: fw/apps/system/weather/weather_app_layout.c:1234
 msgid "TOMORROW"
 msgstr ""
 
 #: fw/apps/system/weather/weather_app_layout.c:987
-#: fw/apps/system/weather/weather_app_layout.c:1083
+#: fw/apps/system/weather/weather_app_layout.c:1084
 msgid "UV INDEX"
 msgstr ""
 
@@ -2775,52 +2791,52 @@ msgstr ""
 msgid "Listening..."
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:731
+#: fw/popups/notifications/notification_window.c:732
 msgid "Snoozed"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:764
+#: fw/popups/notifications/notification_window.c:765
 msgid "Muted"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:934
+#: fw/popups/notifications/notification_window.c:935
 msgid "Snooze"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:952
+#: fw/popups/notifications/notification_window.c:953
 #, c-format
 msgid "Mute %s"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:970
+#: fw/popups/notifications/notification_window.c:971
 msgid "Mute 1 Hour"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:973
+#: fw/popups/notifications/notification_window.c:974
 msgid "Mute Today"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:976
+#: fw/popups/notifications/notification_window.c:977
 msgid "Mute Always"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:979
+#: fw/popups/notifications/notification_window.c:980
 msgid "Mute Weekends"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:982
+#: fw/popups/notifications/notification_window.c:983
 msgid "Mute Weekdays"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:990
+#: fw/popups/notifications/notification_window.c:991
 msgid "Dismiss All"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:996
+#: fw/popups/notifications/notification_window.c:997
 msgid "End Quiet Time"
 msgstr ""
 
-#: fw/popups/notifications/notification_window.c:997
+#: fw/popups/notifications/notification_window.c:998
 msgid "Start Quiet Time"
 msgstr ""
 
@@ -3814,7 +3830,7 @@ msgstr ""
 msgid "Later today"
 msgstr ""
 
-#: fw/services/timeline/timeline_layout.c:800
+#: fw/services/timeline/timeline_layout.c:801
 msgid "Last updated"
 msgstr ""
 
