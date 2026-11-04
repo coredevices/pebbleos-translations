@@ -524,7 +524,7 @@ msgstr ""
 msgid "Missed that. Try again."
 msgstr ""
 
-#: fw/applib/voice/voice_window.c:1115 fw/popups/mic_banner.c:46
+#: fw/applib/voice/voice_window.c:1115
 msgid "Listening"
 msgstr ""
 
@@ -2769,6 +2769,10 @@ msgstr ""
 msgid ""
 "This feature requires Pebble Health to work. Enable Health in the Pebble "
 "mobile app to continue."
+msgstr ""
+
+#: fw/popups/mic_banner.c:114
+msgid "Listening..."
 msgstr ""
 
 #: fw/popups/notifications/notification_window.c:731
