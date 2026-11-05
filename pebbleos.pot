@@ -2320,115 +2320,115 @@ msgstr ""
 msgid "Windy"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:500
+#: fw/apps/system/weather/weather_app_layout.c:504
 msgid "Clear skies"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:502
+#: fw/apps/system/weather/weather_app_layout.c:506
 msgid "Light winds"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:505
+#: fw/apps/system/weather/weather_app_layout.c:509
 msgid "Calm breeze"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:508
+#: fw/apps/system/weather/weather_app_layout.c:512
 msgid "Fair conditions"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:510
+#: fw/apps/system/weather/weather_app_layout.c:514
 msgid "Mild conditions"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:512
+#: fw/apps/system/weather/weather_app_layout.c:516
 msgid "All clear"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:522
+#: fw/apps/system/weather/weather_app_layout.c:526
 msgid "N"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:522
+#: fw/apps/system/weather/weather_app_layout.c:526
 msgid "NE"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:522
+#: fw/apps/system/weather/weather_app_layout.c:526
 msgid "E"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:522
+#: fw/apps/system/weather/weather_app_layout.c:526
 msgid "SE"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:523
+#: fw/apps/system/weather/weather_app_layout.c:527
 msgid "S"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:523
+#: fw/apps/system/weather/weather_app_layout.c:527
 msgid "SW"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:523
+#: fw/apps/system/weather/weather_app_layout.c:527
 msgid "W"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:523
+#: fw/apps/system/weather/weather_app_layout.c:527
 msgid "NW"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:535
+#: fw/apps/system/weather/weather_app_layout.c:539
 msgid "mph"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:539
+#: fw/apps/system/weather/weather_app_layout.c:543
 msgid "m/s"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:543
+#: fw/apps/system/weather/weather_app_layout.c:547
 msgid "kt"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:547
+#: fw/apps/system/weather/weather_app_layout.c:551
 msgid "km/h"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:570
+#: fw/apps/system/weather/weather_app_layout.c:574
 #, c-format
 msgid "%s at %d%s."
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:570
+#: fw/apps/system/weather/weather_app_layout.c:574
 #, c-format
 msgid "Winds %s at %d%s."
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:575
+#: fw/apps/system/weather/weather_app_layout.c:579
 #, c-format
 msgid "At %d%s."
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:575
+#: fw/apps/system/weather/weather_app_layout.c:579
 #, c-format
 msgid "Winds at %d%s."
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:584
+#: fw/apps/system/weather/weather_app_layout.c:588
 #, c-format
 msgid "Precipitation %d%%."
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:859
-#: fw/apps/system/weather/weather_app_layout.c:1148
+#: fw/apps/system/weather/weather_app_layout.c:863
+#: fw/apps/system/weather/weather_app_layout.c:1152
 msgid "TODAY"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:890
-#: fw/apps/system/weather/weather_app_layout.c:1234
+#: fw/apps/system/weather/weather_app_layout.c:894
+#: fw/apps/system/weather/weather_app_layout.c:1238
 msgid "TOMORROW"
 msgstr ""
 
-#: fw/apps/system/weather/weather_app_layout.c:987
-#: fw/apps/system/weather/weather_app_layout.c:1084
+#: fw/apps/system/weather/weather_app_layout.c:991
+#: fw/apps/system/weather/weather_app_layout.c:1088
 msgid "UV INDEX"
 msgstr ""
 
