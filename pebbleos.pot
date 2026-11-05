@@ -867,7 +867,7 @@ msgid ""
 "ON YOUR PHONE"
 msgstr ""
 
-#: fw/apps/system/music.c:1852
+#: fw/apps/system/music.c:1853
 msgid "Music"
 msgstr ""
 
@@ -2787,7 +2787,7 @@ msgid ""
 "mobile app to continue."
 msgstr ""
 
-#: fw/popups/mic_banner.c:114
+#: fw/popups/mic_banner.c:115
 msgid "Listening..."
 msgstr ""
 
@@ -3901,7 +3901,7 @@ msgstr ""
 msgid "Later today"
 msgstr ""
 
-#: fw/services/timeline/timeline_layout.c:802
+#: fw/services/timeline/timeline_layout.c:803
 msgid "Last updated"
 msgstr ""
 
