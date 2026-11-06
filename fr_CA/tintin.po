@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-06 07:26+0000\n"
+"PO-Revision-Date: 2026-11-06 18:18+0000\n"
 "Last-Translator: Rhialto <rhialto@gmail.com>\n"
 "Language-Team: French (Canada) <https://translate.repebble.com/projects/"
 "pebbleos/watch/fr_CA/>\n"
@@ -3301,6 +3301,8 @@ msgstr ""
 msgid ""
 "You slept for %dH %dM. You're close! A little extra tonight goes a long way."
 msgstr ""
+"Vous avez dormi pendant %dH %dM. Vous y êtes presque! Quelques minutes de "
+"plus ce soir feront toute la différence."
 
 #: fw/services/activity/activity_insights.c:1472
 #, c-format
@@ -3318,6 +3320,8 @@ msgid ""
 "You slept for %dH %dM. A long night can help you catch up after short ones; "
 "a steady routine is what counts."
 msgstr ""
+"Vous avez dormi pendant %dH %dM. Une longue nuit peut vous aider à rattraper "
+"les nuits trop courtes, c'est la régularité de la routine qui compte."
 
 #: fw/services/activity/activity_insights.c:1482
 #, c-format
@@ -3325,6 +3329,9 @@ msgid ""
 "Well rested? You slept for %dH %dM. Extra sleep helps you recover, but most "
 "adults do best with 7 to 9 hours."
 msgstr ""
+"Bien reposé? Vous avez dormi pendant %dH %dM. Un sommeil prolongé aide à la "
+"récupération, mais la plupart des adultes se portent mieux avec 7 à 9 heures "
+"de sommeil."
 
 #. / Sleep notification on wake up, slept 10 hours or more
 #: fw/services/activity/activity_insights.c:1490
