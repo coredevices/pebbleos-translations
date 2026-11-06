@@ -13,6 +13,10 @@ on:
         description: Rebuild all packs (unchanged content keeps its version)
         type: boolean
         default: false
+      recover_from:
+        description: Restore held locales and version ledger from this older packs- release tag
+        type: string
+        default: ''
 
 permissions:
   contents: read
@@ -67,10 +71,12 @@ jobs:
         run: |
           args=()
           if [ "$REBUILD" = true ]; then args+=(--rebuild); fi
+          if [ -n "$RECOVER_FROM" ]; then args+=(--recover-from "$RECOVER_FROM"); fi
           uv run --locked python tools/publish_packs.py --publish "${args[@]}"
         env:
           GH_TOKEN: ${{ github.token }}
           REBUILD: ${{ inputs.rebuild }}
+          RECOVER_FROM: ${{ inputs.recover_from }}
           # Read-only Weblate identity with translation.download permission.
           WEBLATE_API_TOKEN: ${{ secrets.WEBLATE_API_TOKEN }}
       - name: Save release readiness report

@@ -110,6 +110,37 @@ def read_previous(directory):
     return manifest
 
 
+def merge_snapshot(current, recovered):
+    """Fold an older snapshot into the newest one after a lost version baseline.
+
+    Locales missing from the newest snapshot come back with their older pack, and
+    the version ledger takes the higher value per locale so versions never regress.
+    """
+    current, recovered = Path(current), Path(recovered)
+    manifest = read_previous(current)
+    older = read_previous(recovered)
+    present = {entry["locale"] for entry in manifest["languages"]}
+    restored = []
+    for entry in older["languages"]:
+        if entry["locale"] in present:
+            continue
+        name = f"{entry['locale']}.pbl"
+        data = (recovered / name).read_bytes()
+        if len(data) != entry["size"] or digest(data) != entry["sha256"]:
+            raise ValueError(f"Recovered {entry['locale']} pack failed verification")
+        (current / name).write_bytes(data)
+        manifest["languages"].append(entry)
+        restored.append(entry["locale"])
+    ledger = manifest.setdefault("versionHighWater", {})
+    for locale, version in older.get("versionHighWater", {}).items():
+        ledger[locale] = max(ledger.get(locale, 0), version)
+    for entry in manifest["languages"]:
+        ledger[entry["locale"]] = max(ledger.get(entry["locale"], 0), entry["version"])
+    manifest["languages"].sort(key=lambda entry: entry["locale"])
+    (current / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
+    return sorted(restored)
+
+
 def build(
     root,
     output,
@@ -274,6 +305,10 @@ def build(
                         + 1
                     )
                     path.write_bytes(stamp_version(normalized, version))
+            if version < versions.get(locale, 0):
+                # A lost baseline once restarted versions; never ship below the ledger.
+                version = versions[locale] + 1
+                path.write_bytes(stamp_version(path.read_bytes(), version))
             versions[locale] = max(versions.get(locale, 0), version)
             data = path.read_bytes()
             name = re.sub(

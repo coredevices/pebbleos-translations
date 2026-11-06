@@ -270,6 +270,64 @@ class ReleaseTest(unittest.TestCase):
         _, restored, _ = self.build(second)
         self.assertEqual(restored["languages"][0]["version"], 2)
 
+    def test_lost_baseline_recovery_restores_locales_and_raises_versions(self):
+        (self.root / "de_DE").mkdir()
+        shutil.copytree(self.locale, self.root / "de_DE", dirs_exist_ok=True)
+        self.commit()
+        first, _, _ = self.build()
+        # Simulate a history where both packs reached version 5.
+        manifest = json.loads((first / "manifest.json").read_text())
+        for entry in manifest["languages"]:
+            entry["version"] = 5
+            data = releases.stamp_version(
+                (first / f"{entry['locale']}.pbl").read_bytes(), 5
+            )
+            (first / f"{entry['locale']}.pbl").write_bytes(data)
+            entry.update(sha256=releases.digest(data), size=len(data))
+        manifest["versionHighWater"] = {"de_DE": 5, "fr_FR": 5}
+        (first / "manifest.json").write_text(json.dumps(manifest))
+        good = self.base / "good"
+        shutil.copytree(first, good)
+        # A run that lost its baseline: de_DE held and dropped, fr_FR back at version 1.
+        self.evidence["reviewers"] = []
+        lost, lost_manifest, _ = self.build()
+        self.evidence["reviewers"] = ["native-speaker"]
+        self.assertEqual(lost_manifest["languages"], [])
+        lost, lost_manifest, _ = self.build()
+        self.assertEqual(
+            [(e["locale"], e["version"]) for e in lost_manifest["languages"]],
+            [("de_DE", 1), ("fr_FR", 1)],
+        )
+        (lost / "de_DE.pbl").unlink()
+        lost_manifest["languages"] = [
+            e for e in lost_manifest["languages"] if e["locale"] == "fr_FR"
+        ]
+        lost_manifest["versionHighWater"] = {"fr_FR": 1}
+        (lost / "manifest.json").write_text(json.dumps(lost_manifest))
+
+        self.assertEqual(releases.merge_snapshot(lost, good), ["de_DE"])
+        merged = json.loads((lost / "manifest.json").read_text())
+        self.assertEqual(merged["versionHighWater"], {"de_DE": 5, "fr_FR": 5})
+
+        self.evidence["reviewers"] = []
+        # Unchanged relative to the merged baseline; publish_packs forces publication.
+        _, manifest, changed = self.build(lost)
+        self.assertFalse(changed)
+        self.assertEqual(
+            [(e["locale"], e["version"]) for e in manifest["languages"]],
+            [("de_DE", 5), ("fr_FR", 1)],
+        )
+        self.evidence["reviewers"] = ["native-speaker"]
+        _, manifest, changed = self.build(lost)
+        self.assertTrue(changed)
+        versions = {e["locale"]: e["version"] for e in manifest["languages"]}
+        self.assertEqual(versions, {"de_DE": 5, "fr_FR": 6})
+        output = self.base / str(self.sequence)
+        strings = gettext.GNUTranslations(
+            io.BytesIO(unpack((output / "fr_FR.pbl").read_bytes())[0])
+        )
+        self.assertEqual(strings.info()["project-id-version"], "6")
+
     def test_corrupt_previous_asset_fails_closed(self):
         first, _, _ = self.build()
         (first / "fr_FR.pbl").write_bytes(b"corrupt")
@@ -584,6 +642,25 @@ class PublicationTest(unittest.TestCase):
         ]
         with patch.object(publish_packs, "gh", return_value=json.dumps(releases_list)):
             self.assertEqual(publish_packs.newest_snapshot("example/repo")["id"], 2)
+
+    def test_publish_without_previous_snapshot_fails_closed(self):
+        environment = {
+            "GITHUB_REPOSITORY": "example/repo",
+            "GITHUB_REF": "refs/heads/main",
+            "GITHUB_RUN_ID": "1",
+            "GITHUB_RUN_ATTEMPT": "1",
+        }
+        with (
+            patch.dict(publish_packs.os.environ, environment),
+            patch.object(publish_packs, "git", return_value="sha"),
+            patch.object(publish_packs, "current_main", return_value=True),
+            patch.object(publish_packs, "newest_snapshot", return_value=None),
+            patch.object(publish_packs, "build") as build,
+            patch("sys.argv", ["publish_packs.py", "--publish"]),
+        ):
+            with self.assertRaisesRegex(ValueError, "No previous language pack"):
+                publish_packs.main()
+            build.assert_not_called()
 
     def test_stale_run_does_not_create_release(self):
         with (
