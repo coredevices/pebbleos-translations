@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-06 02:26+0000\n"
+"PO-Revision-Date: 2026-11-06 08:52+0000\n"
 "Last-Translator: おーの <nobb.hero@gmail.com>\n"
 "Language-Team: Japanese <https://translate.repebble.com/projects/pebbleos/"
 "watch/ja/>\n"
@@ -594,245 +594,255 @@ msgstr "振動：オン"
 
 #: fw/apps/system/alarms/alarm_detail.c:308
 msgid "Vibration: Off"
-msgstr ""
+msgstr "振動：オフ"
 
 #: fw/apps/system/alarms/alarm_detail.c:313
 msgid "Snooze Delay"
-msgstr ""
+msgstr "スヌーズの間隔"
 
 #: fw/apps/system/alarms/alarm_detail.c:324
 msgid "5 minutes"
-msgstr ""
+msgstr "5分"
 
 #: fw/apps/system/alarms/alarm_detail.c:324
 msgid "10 minutes"
-msgstr ""
+msgstr "10分"
 
 #: fw/apps/system/alarms/alarm_detail.c:324
 msgid "15 minutes"
-msgstr ""
+msgstr "15分"
 
 #: fw/apps/system/alarms/alarm_detail.c:325
 msgid "30 minutes"
-msgstr ""
+msgstr "30分"
 
 #: fw/apps/system/alarms/alarm_detail.c:325
 msgid "1 hour"
-msgstr ""
+msgstr "1時間"
 
 #: fw/apps/system/alarms/alarm_detail.c:351
 msgctxt "AlarmSound"
 msgid "Off"
-msgstr ""
+msgstr "オフ"
 
 #: fw/apps/system/alarms/alarm_editor.c:164
 msgid "New Smart Alarm"
-msgstr ""
+msgstr "スマートアラームの追加"
 
 #: fw/apps/system/alarms/alarm_editor.c:165
 #: fw/apps/system/alarms/alarm_editor.c:263
 msgid "New Alarm"
-msgstr ""
+msgstr "アラームの追加"
 
 #: fw/apps/system/alarms/alarm_editor.c:167
 msgid "Wake up between"
-msgstr ""
+msgstr "この時間帯に起床"
 
 #: fw/apps/system/alarms/alarm_editor.c:167
 msgid "Wake up interval"
-msgstr ""
+msgstr "この時間帯に起床"
 
 #: fw/apps/system/alarms/alarm_editor.c:260
 msgid "Basic Alarm"
-msgstr ""
+msgstr "通常のアラーム"
 
 #: fw/apps/system/alarms/alarm_editor.c:261 fw/apps/system/alarms/alarms.c:351
 #: fw/services/alarms/alarm.c:465 fw/services/alarms/alarm_pin.c:74
 msgid "Smart Alarm"
-msgstr ""
+msgstr "スマートアラーム"
 
 #: fw/apps/system/alarms/alarms.c:115
 msgid "Alarm Deleted"
-msgstr ""
+msgstr "アラームを削除しました"
 
 #: fw/apps/system/alarms/alarms.c:230 fw/apps/system/settings/quiet_time.c:384
 msgid "Limit reached."
-msgstr ""
+msgstr "これ以上追加できません。"
 
 #: fw/apps/system/alarms/alarms.c:274 fw/apps/system/settings/quiet_time.c:427
 msgid "ON"
-msgstr ""
+msgstr "オン"
 
 #: fw/apps/system/alarms/alarms.c:274 fw/apps/system/settings/quiet_time.c:427
 msgid "OFF"
-msgstr ""
+msgstr "オフ"
 
 #: fw/apps/system/alarms/alarms.c:348
 msgid ""
 "Let us wake you in your lightest sleep so you're fully refreshed! Smart "
 "Alarm wakes you up to 30min before your alarm."
 msgstr ""
+"眠りが浅いタイミングで、すっきり目覚めましょう！設定時刻より最大30分早く起こ"
+"します。"
 
 #: fw/apps/system/alarms/alarms.c:480
 #: fw/apps/system/settings/vibe_patterns.c:93
 #: fw/services/timeline/timeline.c:932
 msgid "Alarms"
-msgstr ""
+msgstr "アラーム"
 
 #: fw/apps/system/app_fetch_ui.c:111
 msgid "Not connected"
-msgstr ""
+msgstr "接続されていません"
 
 #: fw/apps/system/app_fetch_ui.c:123
 msgid ""
 "No internet\n"
 "connection"
 msgstr ""
+"インターネットに\n"
+"つながっていません"
 
 #: fw/apps/system/app_fetch_ui.c:130
 msgid "Incompatible JS"
-msgstr ""
+msgstr "アプリのJSが非対応です"
 
 #: fw/apps/system/app_fetch_ui.c:139
 #: fw/services/timeline/timeline_actions.c:270
 msgid "Failed"
-msgstr ""
+msgstr "失敗しました"
 
 #: fw/apps/system/health/activity_detail_card.c:36
 msgid "kcal"
-msgstr ""
+msgstr "kcal"
 
 #: fw/apps/system/health/activity_detail_card.c:46
 #: fw/services/activity/activity_insights.c:1766
 msgid "mi"
-msgstr ""
+msgstr "mi"
 
 #: fw/apps/system/health/activity_detail_card.c:46
 #: fw/services/activity/activity_insights.c:1766
 msgid "km"
-msgstr ""
+msgstr "km"
 
 #: fw/apps/system/health/activity_detail_card.c:59
 #: fw/apps/system/health/sleep_detail_card.c:67
 msgid "30 DAY AVG"
-msgstr ""
+msgstr "30日平均"
 
 #: fw/apps/system/health/activity_detail_card.c:86
 msgid "CALORIES"
-msgstr ""
+msgstr "消費カロリー"
 
 #. / Distance Label
 #: fw/apps/system/health/activity_detail_card.c:88
 #: fw/apps/system/workout/active.c:193
 msgid "DISTANCE"
-msgstr ""
+msgstr "距離"
 
 #: fw/apps/system/health/activity_summary_card.c:144
 msgid "TOTAL"
-msgstr ""
+msgstr "合計"
 
 #: fw/apps/system/health/detail_card.c:679 fw/apps/system/weather/weather.c:141
 #: fw/services/clock/service.c:578 fw/services/clock/service.c:780
 msgid "Today"
-msgstr ""
+msgstr "今日"
 
 #: fw/apps/system/health/graph_card.c:309
 msgid ": "
-msgstr ""
+msgstr ": "
 
 #: fw/apps/system/health/graph_card.c:315
 #, c-format
 msgid "%a: "
-msgstr ""
+msgstr "%a: "
 
 #: fw/apps/system/health/graph_card.c:398
 msgid "SMTWTFS"
-msgstr ""
+msgstr "SMTWTFS"
 
 #: fw/apps/system/health/health.c:79
 msgid ""
 "Psst! Want smart tips about your activity and sleep? You can enable Insights "
 "in the mobile app."
 msgstr ""
+"ちょっとお知らせ！活動や睡眠に役立つアドバイスを受け取りませんか？"
+"スマートフォンのPebbleアプリで「インサイト」をオンにできます。"
 
 #: fw/apps/system/health/health.c:111
 msgid ""
 "Track your steps, sleep, and more! Enable Pebble Health in the mobile app."
 msgstr ""
+"歩数や睡眠などを記録しましょう！スマートフォンのPebbleアプリで「Pebble ヘルス"
+"」をオンにしてください。"
 
 #: fw/apps/system/health/health.c:120
 msgid "Health requires the time to be synced. Please connect your phone."
 msgstr ""
+"Pebble ヘルスを使うには、時刻の同期が必要です。スマートフォンと接続してくださ"
+"い。"
 
 #: fw/apps/system/health/health.c:187 fw/apps/system/settings/health.c:265
 #: fw/services/timeline/timeline.c:936
 msgid "Health"
-msgstr ""
+msgstr "ヘルス"
 
 #: fw/apps/system/health/hr_chart.c:112
 msgid "%k"
-msgstr ""
+msgstr "%k"
 
 #: fw/apps/system/health/hr_chart.c:112
 msgid "%l%p"
-msgstr ""
+msgstr "%p%l"
 
 #: fw/apps/system/health/hr_chart.c:112
 msgid "%l"
-msgstr ""
+msgstr "%l"
 
 #. / Range of heart rate readings, e.g. "52–104 BPM"
 #: fw/apps/system/health/hr_detail_card.c:45
 #, c-format
 msgid "%d–%d BPM"
-msgstr ""
+msgstr "%d～%d回/分"
 
 #: fw/apps/system/health/hr_detail_card.c:90
 #: fw/services/activity/activity_insights.c:1871
 msgid "Fat Burn"
-msgstr ""
+msgstr "脂肪燃焼"
 
 #: fw/apps/system/health/hr_detail_card.c:93
 #: fw/services/activity/activity_insights.c:1878
 msgid "Endurance"
-msgstr ""
+msgstr "持久力"
 
 #: fw/apps/system/health/hr_detail_card.c:96
 #: fw/services/activity/activity_insights.c:1885
 msgid "Performance"
-msgstr ""
+msgstr "高強度"
 
 #. / Heading above a chart of today's heart rate and its lowest to highest reading
 #: fw/apps/system/health/hr_detail_card.c:103
 msgid "TODAY'S RANGE"
-msgstr ""
+msgstr "今日の心拍数"
 
 #. / Heading above the time spent in each heart rate zone today
 #: fw/apps/system/health/hr_detail_card.c:115
 msgid "TIME IN ZONES"
-msgstr ""
+msgstr "ゾーンの合計時間"
 
 #: fw/apps/system/health/hr_summary_card.c:135
 #: fw/apps/system/workout/active.c:1114
 msgid "BPM"
-msgstr ""
+msgstr "回/分"
 
 #. / HRM disabled
 #: fw/apps/system/health/hr_summary_card.c:180
 msgid "Enable heart rate monitoring in the mobile app"
-msgstr ""
+msgstr "Pebbleアプリで心拍数の測定をオンにしてください"
 
 #: fw/apps/system/health/sleep_detail_card.c:69
 msgid "30 DAY"
-msgstr ""
+msgstr "30日平均"
 
 #: fw/apps/system/health/sleep_detail_card.c:98
 msgid "SLEEP SESSION"
-msgstr ""
+msgstr "眠っていた時間"
 
 #: fw/apps/system/health/sleep_detail_card.c:111
 msgid "DEEP SLEEP"
-msgstr ""
+msgstr "深い眠り"
 
 #: fw/apps/system/health/sleep_summary_card.c:215
 msgid ""
@@ -840,60 +850,65 @@ msgid ""
 "wear your watch\n"
 "to sleep"
 msgstr ""
+"睡眠の記録なし\n"
+"Pebbleをつけて\n"
+"寝てみましょう"
 
 #: fw/apps/system/health/ui.c:69
 #, c-format
 msgid "TYPICAL %s"
-msgstr ""
+msgstr "%s曜の平均"
 
 #. / Shown when the current temperature is unknown
 #: fw/apps/system/launcher/default/app_glance_weather.c:118
 msgid "--°"
-msgstr ""
+msgstr "--°"
 
 #. / Shown when today's temperature and conditions phrase is known (e.g. "52° - Fair")
 #: fw/apps/system/launcher/default/app_glance_weather.c:124
 #, c-format
 msgid "%i° - %s"
-msgstr ""
+msgstr "%i° %s"
 
 #. / Today's current temperature (e.g. "68°")
 #: fw/apps/system/launcher/default/app_glance_weather.c:126
 #, c-format
 msgid "%i°"
-msgstr ""
+msgstr "%i°"
 
 #: fw/apps/system/music.c:909
 msgid ""
 "START PLAYBACK\n"
 "ON YOUR PHONE"
 msgstr ""
+"スマホで音楽を\n"
+"再生してください"
 
 #: fw/apps/system/music.c:1853
 msgid "Music"
-msgstr ""
+msgstr "音楽"
 
 #: fw/apps/system/notifications.c:418
 msgid "Done"
-msgstr ""
+msgstr "通知を削除しました"
 
 #: fw/apps/system/notifications.c:444
 msgid "Clear history?"
-msgstr ""
+msgstr "すべての通知を削除しますか？"
 
 #. / Notification sender followed by the number of grouped notifications
 #: fw/apps/system/notifications.c:713
 #, c-format
 msgid "%s (%u)"
-msgstr ""
+msgstr "%s (%u件)"
 
 #: fw/apps/system/notifications.c:752 fw/apps/system/notifications.c:759
 msgid "Clear All"
-msgstr ""
+msgstr "すべて削除"
 
 #: fw/apps/system/notifications.c:1010
 msgid "No notifications"
-msgstr ""
+msgstr "通知はありません"
 
 #: fw/apps/system/notifications.c:1117
 #: fw/apps/system/settings/notifications.c:491
@@ -902,136 +917,138 @@ msgstr ""
 #: fw/apps/system/settings/vibe_patterns.c:83
 #: fw/services/timeline/timeline.c:916
 msgid "Notifications"
-msgstr ""
+msgstr "通知"
 
 #: fw/apps/system/notifications.c:1131
 msgid "Clear Notification History"
-msgstr ""
+msgstr "通知をすべて削除"
 
 #. / Quick Launch action that makes the button do nothing at all.
 #: fw/apps/system/quick_launch_nothing.c:24
 msgid "Nothing"
-msgstr ""
+msgstr "何もしない"
 
 #: fw/apps/system/reminders/reminder.c:60
 msgid "Completed"
-msgstr ""
+msgstr "完了"
 
 #: fw/apps/system/reminders/reminder.c:64
 msgid "Postpone"
-msgstr ""
+msgstr "後で通知"
 
 #: fw/apps/system/reminders/reminder.c:68
 #: fw/services/activity/activity_insights.c:466
 #: fw/services/timeline/timeline.c:657
 msgid "Remove"
-msgstr ""
+msgstr "削除"
 
 #: fw/apps/system/reminders/reminder.c:118
 msgid "Added"
-msgstr ""
+msgstr "追加しました"
 
 #: fw/apps/system/reminders/reminder.c:304
 msgid "Reminder"
-msgstr ""
+msgstr "リマインダー"
 
 #: fw/apps/system/send_text/send_text.c:197
 #: fw/apps/system/settings/health.c:155 fw/services/phone_call/util.c:17
 msgid "Unknown"
-msgstr ""
+msgstr "不明"
 
 #: fw/apps/system/send_text/send_text.c:256
 #: fw/apps/system/send_text/send_text.c:340
 msgid "Select Contact"
-msgstr ""
+msgstr "連絡先を選択"
 
 #: fw/apps/system/send_text/send_text.c:354
 msgid ""
 "Add contacts in\n"
 "mobile app"
 msgstr ""
+"スマホアプリで\n"
+"連絡先を追加"
 
 #: fw/apps/system/send_text/send_text.c:388
 msgid "Send Text"
-msgstr ""
+msgstr "メッセージ送信"
 
 #: fw/apps/system/settings/activity_tracker.c:156
 msgid "No background apps"
-msgstr ""
+msgstr "バックグラウンドアプリがありません"
 
 #. / No Notification Window Timeout
 #: fw/apps/system/settings/activity_tracker.c:164
 #: fw/apps/system/settings/notifications.c:161
 msgid "None"
-msgstr ""
+msgstr "なし"
 
 #: fw/apps/system/settings/activity_tracker.c:237
 #: fw/apps/system/settings/activity_tracker.c:254
 msgid "Background App"
-msgstr ""
+msgstr "バックグラウンドアプリ"
 
 #: fw/apps/system/settings/bluetooth.c:130
 msgid "<Untitled>"
-msgstr ""
+msgstr "<名前なし>"
 
 #: fw/apps/system/settings/bluetooth.c:190
 msgid "Pairing Instructions"
-msgstr ""
+msgstr "接続の手順"
 
 #: fw/apps/system/settings/bluetooth.c:195
 #, c-format
 msgid "%u Paired Phones"
-msgstr ""
+msgstr "登録済み%u台"
 
 #: fw/apps/system/settings/bluetooth.c:195
 #, c-format
 msgid "%u Paired Phone"
-msgstr ""
+msgstr "登録済み%u台"
 
 #: fw/apps/system/settings/bluetooth.c:346
 msgid "Connected"
-msgstr ""
+msgstr "接続済み"
 
 #: fw/apps/system/settings/bluetooth.c:361
 msgid "Sharing Heart Rate ❤"
-msgstr ""
+msgstr "心拍数共有中"
 
 #: fw/apps/system/settings/bluetooth.c:386
 msgid "Forget this device to pair a new device."
-msgstr ""
+msgstr "別の機器を登録するには、今の機器の登録を解除してください。"
 
 #: fw/apps/system/settings/bluetooth.c:389
 msgid "Disable Airplane Mode to connect."
-msgstr ""
+msgstr "接続するには機内モードをオフにしてください。"
 
 #: fw/apps/system/settings/bluetooth.c:391
 msgid "Open the Pebble app on your phone to connect."
-msgstr ""
+msgstr "接続するにはスマホのPebbleアプリを開いてください。"
 
 #: fw/apps/system/settings/bluetooth.c:466
 msgid "Connection"
-msgstr ""
+msgstr "接続"
 
 #: fw/apps/system/settings/bluetooth.c:470
 msgid "Airplane Mode"
-msgstr ""
+msgstr "機内モード"
 
 #: fw/apps/system/settings/bluetooth.c:480
 msgid "Disabling..."
-msgstr ""
+msgstr "オフに切替中..."
 
 #: fw/apps/system/settings/bluetooth.c:481
 msgid "Enabling..."
-msgstr ""
+msgstr "オンに切替中..."
 
 #: fw/apps/system/settings/bluetooth.c:634
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: fw/apps/system/settings/bluetooth.h:38
 msgid ""
 "Remember to also forget your Pebble's Bluetooth connection from your phone."
-msgstr ""
+msgstr "スマホのBluetooth設定でもPebbleの登録を解除してください。"
 
 #. / Shows up in the Timeline settings as the status under the "Quick View" toggle.
 #: fw/apps/system/settings/dark_mode_menu.c:18
@@ -1049,7 +1066,7 @@ msgstr ""
 #: fw/apps/system/settings/system.c:1310 fw/apps/system/settings/timeline.c:193
 #: fw/apps/system/settings/vibe_patterns.c:69
 msgid "Off"
-msgstr ""
+msgstr "オフ"
 
 #: fw/apps/system/settings/dark_mode_menu.c:19
 #: fw/apps/system/settings/display.c:456 fw/apps/system/settings/display.c:687
@@ -1065,43 +1082,43 @@ msgstr ""
 #: fw/apps/system/settings/system.c:1310 fw/apps/system/settings/timeline.c:190
 #: fw/apps/system/settings/vibe_patterns.c:69
 msgid "On"
-msgstr ""
+msgstr "オン"
 
 #: fw/apps/system/settings/dark_mode_menu.c:20
 #: fw/apps/system/settings/quiet_time.c:485
 #: fw/apps/system/settings/quiet_time.c:616
 msgid "Schedule"
-msgstr ""
+msgstr "スケジュール"
 
 #: fw/apps/system/settings/dark_mode_menu.c:77
 msgid "DARK MODE"
-msgstr ""
+msgstr "ダークモード"
 
 #: fw/apps/system/settings/dark_mode_menu.c:77
 #: fw/apps/system/settings/themes.c:158
 msgid "Dark Mode"
-msgstr ""
+msgstr "ダークモード"
 
 #: fw/apps/system/settings/display.c:86 fw/apps/system/settings/display.c:709
 #: fw/apps/system/settings/system.c:212
 msgid "Language"
-msgstr ""
+msgstr "言語"
 
 #: fw/apps/system/settings/display.c:95
 #: fw/apps/system/settings/notifications.c:108
 msgid "Smaller"
-msgstr ""
+msgstr "小さめ"
 
 #: fw/apps/system/settings/display.c:96
 #: fw/apps/system/settings/notifications.c:109
 msgctxt "TextSize"
 msgid "Default"
-msgstr ""
+msgstr "標準"
 
 #: fw/apps/system/settings/display.c:97
 #: fw/apps/system/settings/notifications.c:110
 msgid "Larger"
-msgstr ""
+msgstr "大きめ"
 
 #. / The option in the Settings app for choosing the text size of the system UI.
 #. / String within Settings->Display that describes the text font size
@@ -1111,61 +1128,61 @@ msgstr ""
 #: fw/apps/system/settings/notifications.c:134
 #: fw/apps/system/settings/notifications.c:352
 msgid "Text Size"
-msgstr ""
+msgstr "文字サイズ"
 
 #: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:442
 msgid "Low"
-msgstr ""
+msgstr "低"
 
 #: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:443
 msgid "Medium"
-msgstr ""
+msgstr "中"
 
 #: fw/apps/system/settings/display.c:124 fw/apps/system/settings/system.c:444
 msgid "High"
-msgstr ""
+msgstr "高"
 
 #: fw/apps/system/settings/display.c:124
 msgid "Blinding"
-msgstr ""
+msgstr "最大"
 
 #: fw/apps/system/settings/display.c:156
 msgid "INTENSITY"
-msgstr ""
+msgstr "明るさ"
 
 #: fw/apps/system/settings/display.c:156 fw/apps/system/settings/display.c:484
 #: fw/apps/system/settings/display.c:486
 msgid "Intensity"
-msgstr ""
+msgstr "明るさ"
 
 #: fw/apps/system/settings/display.c:166
 msgctxt "Orientation"
 msgid "Default"
-msgstr ""
+msgstr "標準"
 
 #: fw/apps/system/settings/display.c:167
 msgid "Left-Handed"
-msgstr ""
+msgstr "左利き用"
 
 #: fw/apps/system/settings/display.c:192 fw/apps/system/settings/display.c:696
 msgid "Orientation"
-msgstr ""
+msgstr "画面の向き"
 
 #: fw/apps/system/settings/display.c:205
 msgid "3 Seconds"
-msgstr ""
+msgstr "3秒"
 
 #: fw/apps/system/settings/display.c:205
 msgid "5 Seconds"
-msgstr ""
+msgstr "5秒"
 
 #: fw/apps/system/settings/display.c:205
 msgid "8 Seconds"
-msgstr ""
+msgstr "8秒"
 
 #: fw/apps/system/settings/display.c:228
 msgid "TIMEOUT"
-msgstr ""
+msgstr "表示時間"
 
 #. / Status bar title for the Notification Window Timeout settings screen
 #. / String within Settings->Notifications that describes the window timeout setting
@@ -1173,69 +1190,69 @@ msgstr ""
 #: fw/apps/system/settings/notifications.c:193
 #: fw/apps/system/settings/notifications.c:357
 msgid "Timeout"
-msgstr ""
+msgstr "表示時間"
 
 #: fw/apps/system/settings/display.c:238 fw/services/vibes/vibes.def:19
 msgid "Double Tap"
-msgstr ""
+msgstr "2回タップ"
 
 #: fw/apps/system/settings/display.c:239
 msgid "Tap"
-msgstr ""
+msgstr "1回タップ"
 
 #: fw/apps/system/settings/display.c:240
 msgctxt "TouchWake"
 msgid "Off"
-msgstr ""
+msgstr "オフ"
 
 #: fw/apps/system/settings/display.c:253
 msgid "WAKE ON TOUCH"
-msgstr ""
+msgstr "タッチ点灯"
 
 #: fw/apps/system/settings/display.c:253 fw/apps/system/settings/display.c:460
 msgid "Wake on touch"
-msgstr ""
+msgstr "タッチ点灯"
 
 #: fw/apps/system/settings/display.c:264
 msgctxt "DynBacklight"
 msgid "Off"
-msgstr ""
+msgstr "オフ"
 
 #: fw/apps/system/settings/display.c:265
 msgid "Bright"
-msgstr ""
+msgstr "明るめ"
 
 #: fw/apps/system/settings/display.c:266 fw/apps/system/settings/display.c:292
 msgid "Standard"
-msgstr ""
+msgstr "標準"
 
 #: fw/apps/system/settings/display.c:267
 msgid "Dim"
-msgstr ""
+msgstr "暗め"
 
 #: fw/apps/system/settings/display.c:281
 msgid "DYNAMIC BACKLIGHT"
-msgstr ""
+msgstr "自動調光"
 
 #: fw/apps/system/settings/display.c:281 fw/apps/system/settings/display.c:477
 msgid "Dynamic Backlight"
-msgstr ""
+msgstr "自動調光"
 
 #: fw/apps/system/settings/display.c:291
 msgid "Max Brightness"
-msgstr ""
+msgstr "最大輝度"
 
 #: fw/apps/system/settings/display.c:293
 msgid "Battery Saver"
-msgstr ""
+msgstr "省電力"
 
 #: fw/apps/system/settings/display.c:294
 msgid "Advanced"
-msgstr ""
+msgstr "詳細設定"
 
 #: fw/apps/system/settings/display.c:314
 msgid "BACKLIGHT"
-msgstr ""
+msgstr "バックライト"
 
 #. / String within Settings->Notifications that describes backlight setting
 #: fw/apps/system/settings/display.c:314 fw/apps/system/settings/display.c:436
@@ -1244,264 +1261,264 @@ msgstr ""
 #: fw/apps/system/settings/quiet_time.c:584
 #: fw/apps/system/settings/quiet_time.c:627
 msgid "Backlight"
-msgstr ""
+msgstr "バックライト"
 
 #: fw/apps/system/settings/display.c:324
 msgid "Centered"
-msgstr ""
+msgstr "中央表示"
 
 #: fw/apps/system/settings/display.c:324
 msgid "Scaled (Nearest)"
-msgstr ""
+msgstr "ドット拡大"
 
 #: fw/apps/system/settings/display.c:324
 msgid "Scaled (Bilinear)"
-msgstr ""
+msgstr "滑らか拡大"
 
 #: fw/apps/system/settings/display.c:337
 msgid "Legacy App Display"
-msgstr ""
+msgstr "旧アプリ表示"
 
 #: fw/apps/system/settings/display.c:442
 #, c-format
 msgid "On - %d%%"
-msgstr ""
+msgstr "オン - %d%%"
 
 #: fw/apps/system/settings/display.c:445 fw/apps/system/settings/display.c:448
 msgctxt "DeviceState"
 msgid "On"
-msgstr ""
+msgstr "オン"
 
 #: fw/apps/system/settings/display.c:451 fw/apps/system/settings/display.c:472
 #: fw/apps/system/settings/display.c:679
 msgctxt "DeviceState"
 msgid "Off"
-msgstr ""
+msgstr "オフ"
 
 #: fw/apps/system/settings/display.c:455
 msgid "Wake on motion"
-msgstr ""
+msgstr "動きで点灯"
 
 #: fw/apps/system/settings/display.c:465
 msgid "Ambient Sensor"
-msgstr ""
+msgstr "環境光センサー"
 
 #: fw/apps/system/settings/display.c:468
 #, c-format
 msgid "On (%d)"
-msgstr ""
+msgstr "オン (%d)"
 
 #: fw/apps/system/settings/display.c:483
 msgid "Max Intensity"
-msgstr ""
+msgstr "明るさ上限"
 
 #: fw/apps/system/settings/display.c:572 fw/apps/system/settings/display.c:682
 msgid "Backlight Settings"
-msgstr ""
+msgstr "バックライト設定"
 
 #: fw/apps/system/settings/display.c:686
 #: fw/apps/system/settings/quiet_time.c:534
 msgid "Touch"
-msgstr ""
+msgstr "タッチ"
 
 #: fw/apps/system/settings/display.c:690
 msgid "Touch Navigation"
-msgstr ""
+msgstr "タッチ操作"
 
 #: fw/apps/system/settings/display.c:714
 msgid "Legacy Apps"
-msgstr ""
+msgstr "旧アプリ"
 
 #: fw/apps/system/settings/display.c:756
 msgid "Display"
-msgstr ""
+msgstr "表示"
 
 #: fw/apps/system/settings/factory_reset.c:112
 msgid "Perform factory reset?"
-msgstr ""
+msgstr "初期化しますか？"
 
 #: fw/apps/system/settings/health.c:24
 msgid "Kilometers"
-msgstr ""
+msgstr "km"
 
 #: fw/apps/system/settings/health.c:25
 msgid "Miles"
-msgstr ""
+msgstr "マイル"
 
 #: fw/apps/system/settings/health.c:35
 msgid "5 Minutes"
-msgstr ""
+msgstr "5分"
 
 #. / 10 Minute Notification Window Timeout
 #: fw/apps/system/settings/health.c:35 fw/apps/system/settings/health.c:56
 #: fw/apps/system/settings/notifications.c:159
 msgid "10 Minutes"
-msgstr ""
+msgstr "10分"
 
 #: fw/apps/system/settings/health.c:35 fw/apps/system/settings/health.c:57
 msgid "30 Minutes"
-msgstr ""
+msgstr "30分"
 
 #: fw/apps/system/settings/health.c:36 fw/apps/system/settings/health.c:58
 msgid "1 Hour"
-msgstr ""
+msgstr "1時間"
 
 #: fw/apps/system/settings/health.c:36 fw/apps/system/settings/health.c:59
 #: fw/apps/system/settings/system.c:523 fw/apps/system/settings/system.c:539
 #: fw/apps/system/settings/system.c:542
 msgid "Disabled"
-msgstr ""
+msgstr "無効"
 
 #: fw/apps/system/settings/health.c:100 fw/apps/system/settings/health.c:163
 msgid "HR Monitoring"
-msgstr ""
+msgstr "心拍測定"
 
 #: fw/apps/system/settings/health.c:121 fw/apps/system/settings/health.c:181
 msgid "SpO2 Monitoring"
-msgstr ""
+msgstr "SpO2測定"
 
 #: fw/apps/system/settings/health.c:147
 msgid "Health Tracking"
-msgstr ""
+msgstr "健康記録"
 
 #: fw/apps/system/settings/health.c:152
 msgid "Distance Unit"
-msgstr ""
+msgstr "距離単位"
 
 #: fw/apps/system/settings/health.c:170
 msgid "HR During Activity"
-msgstr ""
+msgstr "運動時心拍"
 
 #: fw/apps/system/settings/health.c:176
 msgid "SpO2"
-msgstr ""
+msgstr "SpO2"
 
 #: fw/apps/system/settings/notifications.c:61
 msgid "Allow All Notifications"
-msgstr ""
+msgstr "すべて通知"
 
 #: fw/apps/system/settings/notifications.c:62
 msgid "Allow Phone Calls Only"
-msgstr ""
+msgstr "電話のみ"
 
 #: fw/apps/system/settings/notifications.c:63
 msgid "Mute All Notifications"
-msgstr ""
+msgstr "通知しない"
 
 #. / The option in the Settings app for filtering notifications by type.
 #: fw/apps/system/settings/notifications.c:94
 #: fw/apps/system/settings/notifications.c:347
 msgid "Filter"
-msgstr ""
+msgstr "通知の範囲"
 
 #. / Notification text size option that follows the system Text Size setting
 #: fw/apps/system/settings/notifications.c:112
 msgid "Same as System"
-msgstr ""
+msgstr "本体に従う"
 
 #. / 15 Second Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:151
 msgid "15 Seconds"
-msgstr ""
+msgstr "15秒"
 
 #. / 30 Second Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:153
 msgid "30 Seconds"
-msgstr ""
+msgstr "30秒"
 
 #. / 1 Minute Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:155
 msgid "1 Minute"
-msgstr ""
+msgstr "1分"
 
 #. / 3 Minute Notification Window Timeout
 #: fw/apps/system/settings/notifications.c:157
 msgid "3 Minutes"
-msgstr ""
+msgstr "3分"
 
 #. / Standard notification design option (default)
 #: fw/apps/system/settings/notifications.c:205
 msgid "Classic"
-msgstr ""
+msgstr "クラシック"
 
 #. / Alternative notification design option
 #: fw/apps/system/settings/notifications.c:207
 msgid "Flat Black"
-msgstr ""
+msgstr "フラット黒"
 
 #. / Status bar title for the Notification Design Style settings screen
 #. / String within Settings->Notifications that describes the notification design style
 #: fw/apps/system/settings/notifications.c:225
 #: fw/apps/system/settings/notifications.c:364
 msgid "Banner Style"
-msgstr ""
+msgstr "通知の外観"
 
 #. / Vibrate at the beginning of notification animation (immediate)
 #: fw/apps/system/settings/notifications.c:237
 msgid "Beginning"
-msgstr ""
+msgstr "表示開始時"
 
 #. / Status bar title for the Notification Vibe Timing settings screen
 #. / String within Settings->Notifications that describes when vibration happens
 #: fw/apps/system/settings/notifications.c:257
 #: fw/apps/system/settings/notifications.c:371
 msgid "Vibe Timing"
-msgstr ""
+msgstr "振動のタイミング"
 
 #: fw/apps/system/settings/notifications.c:267
 msgctxt "StatusBar"
 msgid "Default"
-msgstr ""
+msgstr "標準"
 
 #: fw/apps/system/settings/notifications.c:268
 msgid "Bold"
-msgstr ""
+msgstr "太字"
 
 #: fw/apps/system/settings/notifications.c:269
 msgid "Big & Bold"
-msgstr ""
+msgstr "大きな太字"
 
 #. / Status bar title for the Notification Status Bar Style settings screen
 #: fw/apps/system/settings/notifications.c:291
 msgid "Clock Style"
-msgstr ""
+msgstr "時刻表示の書体"
 
 #. / Disable notification grouping
 #: fw/apps/system/settings/notifications.c:302
 msgid "Never"
-msgstr ""
+msgstr "まとめない"
 
 #. / Group notifications received within one day
 #: fw/apps/system/settings/notifications.c:304
 msgid "1 Day"
-msgstr ""
+msgstr "1日"
 
 #. / Group notifications received within one week
 #: fw/apps/system/settings/notifications.c:306
 msgid "1 Week"
-msgstr ""
+msgstr "1週間"
 
 #. / Group all notifications
 #: fw/apps/system/settings/notifications.c:308
 msgid "All"
-msgstr ""
+msgstr "すべて"
 
 #. / Title for the notification sender grouping settings screen
 #. / Notification settings item for grouping notifications by sender
 #: fw/apps/system/settings/notifications.c:325
 #: fw/apps/system/settings/notifications.c:384
 msgid "Group by Sender"
-msgstr ""
+msgstr "送信者別"
 
 #. / String within Settings->Notifications that selects the notification status bar style
 #: fw/apps/system/settings/notifications.c:391
 msgid "Status Bar"
-msgstr ""
+msgstr "ステータスバー"
 
 #. / Shown in Quick Launch Settings as the title of the tap up button option.
 #: fw/apps/system/settings/quick_launch.c:58
 msgid "Tap Up"
-msgstr ""
+msgstr "上短押し"
 
 #. / Shown in Quick Launch Settings as the title of the tap down button option.
 #: fw/apps/system/settings/quick_launch.c:60
@@ -1511,42 +1528,42 @@ msgstr ""
 #. / Shown in Quick Launch Settings as the title of the hold up button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:62
 msgid "Hold Up"
-msgstr ""
+msgstr "上長押し"
 
 #. / Shown in Quick Launch Settings as the title of the hold center button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:64
 msgid "Hold Center"
-msgstr ""
+msgstr "中央長押し"
 
 #. / Shown in Quick Launch Settings as the title of the hold down button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:66
 msgid "Hold Down"
-msgstr ""
+msgstr "下長押し"
 
 #. / Shown in Quick Launch Settings as the title of the hold back button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:68
 msgid "Hold Back"
-msgstr ""
+msgstr "戻る長押し"
 
 #. / Shown in Quick Launch Settings as the title of the list of actions.
 #. / Title of the Quick Launch menu listing the available actions.
 #: fw/apps/system/settings/quick_launch.c:73
 #: fw/apps/system/settings/quick_launch_app_menu.c:37
 msgid "Actions"
-msgstr ""
+msgstr "操作"
 
 #. / Shown in Quick Launch Settings as the title of the list of apps.
 #. / Title of the Quick Launch menu listing the installed apps.
 #: fw/apps/system/settings/quick_launch.c:75
 #: fw/apps/system/settings/quick_launch_app_menu.c:39
 msgid "Apps"
-msgstr ""
+msgstr "アプリ"
 
 #. / Shown in Quick Launch Settings when no action or app is bound to the button.
 #: fw/apps/system/settings/quick_launch.c:82
 #: fw/apps/system/settings/quick_launch_app_menu.c:111
 msgid "Unassigned"
-msgstr ""
+msgstr "未設定"
 
 #. / Title of the Quick Launch Settings submenu in Settings
 #. / Title for the Quick Launch first use dialog.
@@ -1554,361 +1571,361 @@ msgstr ""
 #: fw/apps/system/settings/quick_launch.c:250
 #: fw/apps/system/settings/quick_launch_setup_menu.c:46
 msgid "Quick Launch"
-msgstr ""
+msgstr "クイック起動"
 
 #: fw/apps/system/settings/quick_launch_setup_menu.c:49
 msgid ""
 "Open favorite apps quickly with a long button press from your watchface."
-msgstr ""
+msgstr "文字盤でボタンを長押しするとお気に入りのアプリをすぐに開けます。"
 
 #: fw/apps/system/settings/quiet_time.c:106
 msgid "Quiet All Notifications"
-msgstr ""
+msgstr "すべて抑制"
 
 #: fw/apps/system/settings/quiet_time.c:109
 msgid "Allow Phone Calls"
-msgstr ""
+msgstr "電話のみ許可"
 
 #: fw/apps/system/settings/quiet_time.c:327
 msgid "Change Schedule"
-msgstr ""
+msgstr "時間を変更"
 
 #: fw/apps/system/settings/quiet_time.c:495
 msgid "On - Auto Dismiss"
-msgstr ""
+msgstr "オン・自動で閉じる"
 
 #: fw/apps/system/settings/quiet_time.c:497
 msgid "On - Persistent"
-msgstr ""
+msgstr "オン・表示維持"
 
 #: fw/apps/system/settings/quiet_time.c:529
 msgid "Motion"
-msgstr ""
+msgstr "動きで点灯"
 
 #: fw/apps/system/settings/quiet_time.c:606 fw/apps/system/settings/time.c:361
 #: fw/apps/system/settings/time.c:388
 msgid "Manual"
-msgstr ""
+msgstr "手動"
 
 #: fw/apps/system/settings/quiet_time.c:611
 msgid "Calendar Aware"
-msgstr ""
+msgstr "予定と連動"
 
 #: fw/apps/system/settings/quiet_time.c:619
 msgid "Interruptions"
-msgstr ""
+msgstr "割り込み"
 
 #: fw/apps/system/settings/quiet_time.c:631
 #: fw/apps/system/settings/vibe_patterns.c:68
 msgid "Mute Speaker"
-msgstr ""
+msgstr "消音"
 
 #: fw/apps/system/settings/quiet_time.c:692
 msgid "Quiet Time"
-msgstr ""
+msgstr "集中モード"
 
 #: fw/apps/system/settings/remote.c:55
 msgid "You're all set"
-msgstr ""
+msgstr "完了"
 
 #: fw/apps/system/settings/remote.c:124
 msgid "Forget"
-msgstr ""
+msgstr "登録を削除"
 
 #: fw/apps/system/settings/remote.c:132
 #: fw/popups/ble_hrm/ble_hrm_reminder_popup.c:28
 msgid "Stop Sharing Heart Rate"
-msgstr ""
+msgstr "心拍数共有を停止"
 
 #: fw/apps/system/settings/settings.c:225
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: fw/apps/system/settings/speaker_volume_window.c:56
 #: fw/apps/system/settings/vibe_patterns.c:75
 msgid "Volume"
-msgstr ""
+msgstr "音量"
 
 #: fw/apps/system/settings/system.c:164 fw/apps/system/settings/system.c:259
 msgid "Information"
-msgstr ""
+msgstr "端末情報"
 
 #: fw/apps/system/settings/system.c:165 fw/apps/system/settings/system.c:963
 msgid "Certification"
-msgstr ""
+msgstr "認証情報"
 
 #: fw/apps/system/settings/system.c:166
 msgid "Stand-By Mode"
-msgstr ""
+msgstr "待機モード"
 
 #: fw/apps/system/settings/system.c:167 fw/apps/system/settings/system.c:605
 msgid "Debugging"
-msgstr ""
+msgstr "デバッグ"
 
 #: fw/apps/system/settings/system.c:168
 msgid "Shut Down"
-msgstr ""
+msgstr "電源オフ"
 
 #: fw/apps/system/settings/system.c:169
 msgid "Factory Reset"
-msgstr ""
+msgstr "初期化"
 
 #: fw/apps/system/settings/system.c:210
 msgid "BT Address"
-msgstr ""
+msgstr "BTアドレス"
 
 #: fw/apps/system/settings/system.c:211
 msgid "Firmware"
-msgstr ""
+msgstr "ファームウェア"
 
 #: fw/apps/system/settings/system.c:213
 msgid "Recovery"
-msgstr ""
+msgstr "復旧ソフト"
 
 #: fw/apps/system/settings/system.c:214
 msgid "Bootloader"
-msgstr ""
+msgstr "起動ソフト"
 
 #: fw/apps/system/settings/system.c:215
 msgid "Hardware"
-msgstr ""
+msgstr "ハード情報"
 
 #: fw/apps/system/settings/system.c:216
 msgid "Serial"
-msgstr ""
+msgstr "製造番号"
 
 #: fw/apps/system/settings/system.c:217
 msgid "Uptime"
-msgstr ""
+msgstr "稼働時間"
 
 #: fw/apps/system/settings/system.c:218
 msgid "Legal"
-msgstr ""
+msgstr "法的情報"
 
 #: fw/apps/system/settings/system.c:355
 msgid "Core dump and reboot?"
-msgstr ""
+msgstr "コアダンプを保存して再起動しますか？"
 
 #: fw/apps/system/settings/system.c:442
 msgid "Very Low"
-msgstr ""
+msgstr "最低"
 
 #: fw/apps/system/settings/system.c:443
 msgid "Medium-Low"
-msgstr ""
+msgstr "やや低"
 
 #: fw/apps/system/settings/system.c:444
 msgid "Medium-High"
-msgstr ""
+msgstr "やや高"
 
 #: fw/apps/system/settings/system.c:445
 msgid "Very High"
-msgstr ""
+msgstr "最高"
 
 #: fw/apps/system/settings/system.c:470 fw/apps/system/settings/system.c:496
 msgid "Motion Sensitivity"
-msgstr ""
+msgstr "動きの感度"
 
 #: fw/apps/system/settings/system.c:492
 msgid "CoreDump now"
-msgstr ""
+msgstr "ダンプ保存"
 
 #: fw/apps/system/settings/system.c:493
 msgid "CoreDump shortcut"
-msgstr ""
+msgstr "ダンプ操作"
 
 #: fw/apps/system/settings/system.c:494
 msgid "ALS Threshold"
-msgstr ""
+msgstr "照度閾値"
 
 #: fw/apps/system/settings/system.c:498
 msgid "Shake Log Info"
-msgstr ""
+msgstr "揺れログ"
 
 #: fw/apps/system/settings/system.c:499
 msgid "Vibe Log Info"
-msgstr ""
+msgstr "振動ログ"
 
 #: fw/apps/system/settings/system.c:500
 msgid "Compact Settings DBs"
-msgstr ""
+msgstr "設定DB整理"
 
 #: fw/apps/system/settings/system.c:502
 msgid "SpO2 Test"
-msgstr ""
+msgstr "SpO2テスト"
 
 #: fw/apps/system/settings/system.c:522
 msgid "10 back-button presses"
-msgstr ""
+msgstr "戻るを10回押す"
 
 #: fw/apps/system/settings/system.c:538 fw/apps/system/settings/system.c:541
 msgid "Enabled"
-msgstr ""
+msgstr "有効"
 
 #: fw/apps/system/settings/system.c:680
 msgid "PebbleOS developers only!"
-msgstr ""
+msgstr "PebbleOS開発者専用！"
 
 #: fw/apps/system/settings/system.c:927
 msgid "See details..."
-msgstr ""
+msgstr "詳細を見る…"
 
 #: fw/apps/system/settings/system.c:985
 msgid "Company"
-msgstr ""
+msgstr "会社名"
 
 #: fw/apps/system/settings/system.c:993
 msgid "Product Model"
-msgstr ""
+msgstr "製品モデル"
 
 #: fw/apps/system/settings/system.c:1000
 msgid "Product Type"
-msgstr ""
+msgstr "製品区分"
 
 #: fw/apps/system/settings/system.c:1007
 msgid "Trademark"
-msgstr ""
+msgstr "商標"
 
 #: fw/apps/system/settings/system.c:1014
 msgid "Place of Origin"
-msgstr ""
+msgstr "原産地"
 
 #: fw/apps/system/settings/system.c:1021
 msgid "DC Input"
-msgstr ""
+msgstr "直流入力"
 
 #: fw/apps/system/settings/system.c:1028
 msgid "Rated Voltage"
-msgstr ""
+msgstr "定格電圧"
 
 #: fw/apps/system/settings/system.c:1035
 msgid "Milliampere-hour"
-msgstr ""
+msgstr "容量(mAh)"
 
 #: fw/apps/system/settings/system.c:1042
 msgid "Watt-hour"
-msgstr ""
+msgstr "電力量(Wh)"
 
 #: fw/apps/system/settings/system.c:1056
 msgid "Canada IC"
-msgstr ""
+msgstr "カナダIC"
 
 #: fw/apps/system/settings/system.c:1063
 msgid "Canada ISED"
-msgstr ""
+msgstr "カナダISED"
 
 #: fw/apps/system/settings/system.c:1077 fw/apps/system/settings/system.c:1185
 msgid "South Korea KCC"
-msgstr ""
+msgstr "韓国KCC"
 
 #: fw/apps/system/settings/system.c:1256
 msgid "Disconnect the charger to shut down."
-msgstr ""
+msgstr "電源を切るには充電器を外してください。"
 
 #: fw/apps/system/settings/system.c:1290
 msgid "Do you want to shut down?"
-msgstr ""
+msgstr "電源を切りますか？"
 
 #. / Refers to the class of all non-score vibes, e.g. 3rd party app vibes
 #: fw/apps/system/settings/system.c:1377
 #: fw/apps/system/settings/vibe_patterns.c:109
 msgid "System"
-msgstr ""
+msgstr "システム"
 
 #: fw/apps/system/settings/themes.c:108 fw/apps/system/settings/themes.c:167
 msgid "Accent Color"
-msgstr ""
+msgstr "アクセントカラー"
 
 #: fw/apps/system/settings/themes.c:161
 msgid "Schedule Time"
-msgstr ""
+msgstr "時間帯の設定"
 
 #. / Title of the Themes Settings submenu in Settings
 #: fw/apps/system/settings/themes.c:209
 msgid "Themes"
-msgstr ""
+msgstr "テーマ"
 
 #. / Title of the menu for changing the watch's timezone.
 #: fw/apps/system/settings/time.c:162 fw/apps/system/settings/time.c:401
 msgid "Timezone"
-msgstr ""
+msgstr "タイムゾーン"
 
 #: fw/apps/system/settings/time.c:262 fw/apps/system/settings/time.c:365
 msgid "Set Time"
-msgstr ""
+msgstr "時刻を設定"
 
 #: fw/apps/system/settings/time.c:301 fw/apps/system/settings/time.c:373
 msgid "Set Date"
-msgstr ""
+msgstr "日付を設定"
 
 #: fw/apps/system/settings/time.c:360
 msgid "Time Source"
-msgstr ""
+msgstr "時刻の取得"
 
 #: fw/apps/system/settings/time.c:361 fw/apps/system/settings/time.c:392
 #: fw/apps/system/settings/time.c:396
 msgid "Automatic"
-msgstr ""
+msgstr "自動"
 
 #: fw/apps/system/settings/time.c:381
 msgid "Time Format"
-msgstr ""
+msgstr "時刻の形式"
 
 #: fw/apps/system/settings/time.c:382
 msgid "24h"
-msgstr ""
+msgstr "24時間制"
 
 #: fw/apps/system/settings/time.c:382
 msgid "12h"
-msgstr ""
+msgstr "12時間制"
 
 #: fw/apps/system/settings/time.c:386
 msgid "Timezone Source"
-msgstr ""
+msgstr "タイムゾーン設定"
 
 #: fw/apps/system/settings/time.c:446
 msgid "Date & Time"
-msgstr ""
+msgstr "日付と時刻"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
 #: fw/apps/system/settings/timeline.c:71
 msgid "Start Time"
-msgstr ""
+msgstr "開始時刻"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
 #: fw/apps/system/settings/timeline.c:73
 msgid "5 Min Before"
-msgstr ""
+msgstr "5分前"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
 #: fw/apps/system/settings/timeline.c:75
 msgid "10 Min Before"
-msgstr ""
+msgstr "10分前"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
 #: fw/apps/system/settings/timeline.c:77
 msgid "15 Min Before"
-msgstr ""
+msgstr "15分前"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
 #: fw/apps/system/settings/timeline.c:79
 msgid "30 Min Before"
-msgstr ""
+msgstr "30分前"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
 #: fw/apps/system/settings/timeline.c:89
 msgid "Overlay"
-msgstr ""
+msgstr "重ねて表示"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
 #: fw/apps/system/settings/timeline.c:91
 msgid "Shift up"
-msgstr ""
+msgstr "上に移動"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
 #: fw/apps/system/settings/timeline.c:93
 msgid "Squish up"
-msgstr ""
+msgstr "上に縮小"
 
 #. / Shows up in the Timeline settings as the title for the "Timing" submenu window.
 #. / Shows up in the Timeline settings as the title for the menu item that controls the
@@ -1916,30 +1933,30 @@ msgstr ""
 #: fw/apps/system/settings/timeline.c:126
 #: fw/apps/system/settings/timeline.c:198
 msgid "Timing"
-msgstr ""
+msgstr "表示開始"
 
 #. / Shows up in the Timeline settings as the title for unsupported watchface behavior.
 #. / Shows up in the Timeline settings for watchfaces that do not support Quick View.
 #: fw/apps/system/settings/timeline.c:155
 #: fw/apps/system/settings/timeline.c:205
 msgid "Unsupported Faces"
-msgstr ""
+msgstr "非対応の文字盤"
 
 #. / Shows up in the Timeline settings as a toggle-able "Quick View" item.
 #. / Title for the Timeline Quick View first use dialog.
 #: fw/apps/system/settings/timeline.c:186
 #: fw/apps/system/settings/timeline.c:267
 msgid "Quick View"
-msgstr ""
+msgstr "クイックビュー"
 
 #: fw/apps/system/settings/timeline.c:270
 msgid "Appears on your watchface when an event is about to start."
-msgstr ""
+msgstr "予定の開始が近づくと文字盤に表示します。"
 
 #: fw/apps/system/settings/timeline.c:296
 #: fw/apps/system/timeline/timeline.c:1313
 msgid "Timeline"
-msgstr ""
+msgstr "タイムライン"
 
 #: fw/apps/system/settings/vibe_patterns.c:88
 msgid "Incoming Calls"
