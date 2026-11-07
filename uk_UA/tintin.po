@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-07 21:07+0000\n"
+"PO-Revision-Date: 2026-11-07 21:18+0000\n"
 "Last-Translator: Denys Vasylenko <dinja.ostrovskiy@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.repebble.com/projects/pebbleos/"
 "watch/uk/>\n"
@@ -505,7 +505,7 @@ msgstr "Початок"
 #: fw/applib/ui/time_range_selection_window.c:184
 #: fw/apps/system/settings/notifications.c:239
 msgid "End"
-msgstr "В кінці"
+msgstr "Закінчення"
 
 #: fw/applib/voice/voice_window.c:187
 msgid "Dictation is not available."
