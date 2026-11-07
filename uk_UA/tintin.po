@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2026-11-07 19:26+0000\n"
-"Last-Translator: osikovsky8 <osikovsky8@gmail.com>\n"
+"Last-Translator: Denys Vasylenko <dinja.ostrovskiy@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.repebble.com/projects/pebbleos/"
 "watch/uk/>\n"
 "Language: uk_UA\n"
@@ -188,12 +188,10 @@ msgid "%H:%M:%S"
 msgstr "%H:%M:%S"
 
 #: fw/applib/pbl_std/timelocal.c:56
-#, fuzzy
 msgid "%m/%d/%y"
 msgstr "%d/%m/%y"
 
 #: fw/applib/pbl_std/timelocal.c:57
-#, fuzzy
 msgid "%a %b %e %H:%M:%S %Y"
 msgstr "%a %e %b %Y:%H:%M %S"
 
@@ -489,7 +487,7 @@ msgstr "Власне"
 
 #: fw/applib/ui/day_picker.c:48
 msgid "Just Once"
-msgstr ""
+msgstr "Лише раз"
 
 #: fw/applib/ui/day_picker.c:236
 msgid "Check something first."
@@ -507,7 +505,7 @@ msgstr "Початок"
 #: fw/applib/ui/time_range_selection_window.c:184
 #: fw/apps/system/settings/notifications.c:239
 msgid "End"
-msgstr "Кінець"
+msgstr "В кінці"
 
 #: fw/applib/voice/voice_window.c:187
 msgid "Dictation is not available."
@@ -523,7 +521,7 @@ msgstr "Відсутнє інтернет-з'єднання"
 
 #: fw/applib/voice/voice_window.c:225
 msgid "Enable voice in the settings page of the Pebble app."
-msgstr "Увімкніть голос в налаштуваннях застосунку Pebble."
+msgstr "Ввімкніть голос в налаштуваннях застосунку Pebble."
 
 #: fw/applib/voice/voice_window.c:388
 msgid "Missed that. Try again."
@@ -561,13 +559,11 @@ msgstr "Видалити"
 
 #: fw/apps/system/alarms/alarm_detail.c:279
 #: fw/apps/system/settings/quiet_time.c:314
-#, fuzzy
 msgid "Disable"
 msgstr "Скасувати"
 
 #: fw/apps/system/alarms/alarm_detail.c:279
 #: fw/apps/system/settings/quiet_time.c:318
-#, fuzzy
 msgid "Enable"
 msgstr "Активувати"
 
@@ -595,14 +591,13 @@ msgstr "Звук"
 
 #: fw/apps/system/alarms/alarm_detail.c:307
 msgid "Vibration: On"
-msgstr "Вібрація: Увім"
+msgstr "Вібрація: Ввім."
 
 #: fw/apps/system/alarms/alarm_detail.c:308
 msgid "Vibration: Off"
-msgstr "Вібрація: Вим"
+msgstr "Вібрація: Вим."
 
 #: fw/apps/system/alarms/alarm_detail.c:313
-#, fuzzy
 msgid "Snooze Delay"
 msgstr "Інтервал повтору"
 
@@ -777,15 +772,15 @@ msgstr ""
 
 #: fw/apps/system/health/hr_chart.c:112
 msgid "%k"
-msgstr ""
+msgstr "%k"
 
 #: fw/apps/system/health/hr_chart.c:112
 msgid "%l%p"
-msgstr ""
+msgstr "%l%p"
 
 #: fw/apps/system/health/hr_chart.c:112
 msgid "%l"
-msgstr ""
+msgstr "%l"
 
 #. / Range of heart rate readings, e.g. "52–104 BPM"
 #: fw/apps/system/health/hr_detail_card.c:45
@@ -2390,7 +2385,7 @@ msgstr ""
 
 #: fw/apps/system/weather/weather_app_layout.c:543
 msgid "m/s"
-msgstr ""
+msgstr "м/с"
 
 #: fw/apps/system/weather/weather_app_layout.c:547
 msgid "kt"
@@ -2557,7 +2552,7 @@ msgstr ""
 #: fw/apps/system/workout/active.c:1117 fw/apps/system/workout/active.c:1268
 #, c-format
 msgid "Z%d"
-msgstr ""
+msgstr "З%d"
 
 #: fw/apps/system/workout/active.c:1173 fw/apps/system/workout/active.c:1218
 #: fw/apps/system/workout/active.c:1460
@@ -2566,7 +2561,7 @@ msgstr ""
 
 #: fw/apps/system/workout/active.c:1173 fw/apps/system/workout/active.c:1218
 msgid "TIMER"
-msgstr ""
+msgstr "ТАЙМЕР"
 
 #: fw/apps/system/workout/active.c:1181
 msgid "DIST MI"
@@ -2574,28 +2569,28 @@ msgstr ""
 
 #: fw/apps/system/workout/active.c:1181
 msgid "DIST KM"
-msgstr ""
+msgstr "ВІДСТ. КМ"
 
 #: fw/apps/system/workout/active.c:1183 fw/apps/system/workout/active.c:1216
 msgid "PACE /MI"
-msgstr ""
+msgstr "ТЕМП /МИ"
 
 #: fw/apps/system/workout/active.c:1183 fw/apps/system/workout/active.c:1216
 msgid "PACE /KM"
-msgstr ""
+msgstr "ТЕМП /КМ"
 
 #: fw/apps/system/workout/active.c:1187 fw/apps/system/workout/active.c:1204
 #: fw/apps/system/workout/active.c:1228 fw/apps/system/workout/active.c:1462
 msgid "KCAL"
-msgstr ""
+msgstr "ККАЛ"
 
 #: fw/apps/system/workout/active.c:1202 fw/apps/system/workout/active.c:1226
 msgid "CADENCE"
-msgstr ""
+msgstr "КАДЕНС"
 
 #: fw/apps/system/workout/active.c:1213
 msgid "SPEED MPH"
-msgstr ""
+msgstr "ШВИДКІСТЬ МИ/ГОД"
 
 #: fw/apps/system/workout/active.c:1214
 msgid "SPEED KM/H"
@@ -2604,36 +2599,36 @@ msgstr ""
 #: fw/apps/system/workout/active.c:1221 fw/apps/system/workout/active.c:1422
 #: fw/apps/system/workout/active.c:1461
 msgid "AVG BPM"
-msgstr ""
+msgstr "СЕР. ЧСС"
 
 #: fw/apps/system/workout/active.c:1245
 msgid "TIME IN ZONE"
-msgstr ""
+msgstr "ЧАС У ЗОНІ"
 
 #: fw/apps/system/workout/active.c:1392
 msgid "LAST MINUTE"
-msgstr ""
+msgstr "ОСТАННЯ ХВИЛИНА"
 
 #: fw/apps/system/workout/active.c:1395
 msgid "WAITING FOR HR"
-msgstr ""
+msgstr "ОЧІКУЄМО ЧСС"
 
 #: fw/apps/system/workout/active.c:1419
 #, c-format
 msgid "ZONE %d"
-msgstr ""
+msgstr "ЗОНА %d"
 
 #: fw/apps/system/workout/active.c:1422
 msgid "MEASURING"
-msgstr ""
+msgstr "ВИМІРЮВАННЯ"
 
 #: fw/apps/system/workout/countdown.c:85 fw/apps/system/workout/summary.c:61
 msgid "WORKOUT"
-msgstr ""
+msgstr "ТРЕНУВАННЯ"
 
 #: fw/apps/system/workout/countdown.c:107
 msgid "GO!"
-msgstr ""
+msgstr "ГАЙДА!"
 
 #: fw/apps/system/workout/sports.c:353
 msgid "Sports"
@@ -2797,7 +2792,7 @@ msgstr ""
 
 #: fw/popups/mic_banner.c:115
 msgid "Listening..."
-msgstr ""
+msgstr "Слухаю..."
 
 #: fw/popups/notifications/notification_window.c:734
 msgid "Snoozed"
@@ -3030,15 +3025,17 @@ msgstr ""
 
 #: fw/services/activity/activity_insights.c:906
 msgid "Short night! Try going to bed a little earlier tonight."
-msgstr ""
+msgstr "Мало спали! Сьогодні спробуйте лягти трохи раніше."
 
 #: fw/services/activity/activity_insights.c:909
 msgid "Almost there! A little more sleep tonight would help."
-msgstr ""
+msgstr "Майже достатньо! Сьогодні не завадило б поспати трохи довше."
 
 #: fw/services/activity/activity_insights.c:914
 msgid "A long night! Great for catching up; a steady routine helps most."
 msgstr ""
+"Дали хропака! Оце гарна нагода надолужити згаяне. Сталий режим допоможе в "
+"цьому найкраще."
 
 #: fw/services/activity/activity_insights.c:945
 msgid "Nap Time"
@@ -3194,6 +3191,8 @@ msgid ""
 "Short night? You slept for %dH %dM. Most adults need at least 7 hours, so "
 "try heading to bed earlier tonight."
 msgstr ""
+"Засинаєте на ходу? Ви спали %dгод %dхв. Більшості дорослих потрібно "
+"щонайменше 7 годин. Спробуйте сьогодні лягти раніше."
 
 #: fw/services/activity/activity_insights.c:1463
 #, c-format
@@ -3201,6 +3200,8 @@ msgid ""
 "You slept for %dH %dM. Sleep fuels everything you do; let's aim for more "
 "tonight 😉"
 msgstr ""
+"Ви спали %dгод %dхв. Повноцінний відпочинок додає наснаги для щоденних "
+"справ. Сьогодні спробуймо поспати довше 😉"
 
 #. / Sleep notification on wake up, slept 6 to 7 hours, not below their typical
 #: fw/services/activity/activity_insights.c:1471
@@ -3208,6 +3209,8 @@ msgstr ""
 msgid ""
 "You slept for %dH %dM. You're close! A little extra tonight goes a long way."
 msgstr ""
+"Ви спали %dгод %dхв. Вже близько до мети! Ще трохи сну цієї ночі піде вам на "
+"користь."
 
 #: fw/services/activity/activity_insights.c:1472
 #, c-format
@@ -3215,6 +3218,8 @@ msgid ""
 "Good morning! You slept for %dH %dM. Just a bit more sleep would help you "
 "feel your best."
 msgstr ""
+"Доброго ранку! Ви спали %dгод %dхв. Трохи довший сон допоможе покращити "
+"самопочуття."
 
 #. / Sleep notification on wake up, slept 9 to 10 hours
 #: fw/services/activity/activity_insights.c:1480
@@ -3223,6 +3228,8 @@ msgid ""
 "You slept for %dH %dM. A long night can help you catch up after short ones; "
 "a steady routine is what counts."
 msgstr ""
+"Ви спали %dгод %dхв. Тривалий сон допоможе надолужити попередній недосип. "
+"Проте найважливіше — дотримуватися режиму."
 
 #: fw/services/activity/activity_insights.c:1482
 #, c-format
@@ -3230,6 +3237,8 @@ msgid ""
 "Well rested? You slept for %dH %dM. Extra sleep helps you recover, but most "
 "adults do best with 7 to 9 hours."
 msgstr ""
+"Скинули втому? Ви спали %dгод %dхв. Додатковий сон допомагає відновитися, "
+"проте більшості дорослих варто спати 7–9 годин на добу."
 
 #. / Sleep notification on wake up, slept 10 hours or more
 #: fw/services/activity/activity_insights.c:1490
@@ -3238,6 +3247,8 @@ msgid ""
 "You slept for %dH %dM. That's a long night! Great for recovering, but a "
 "regular bedtime and wake time will help you feel your best."
 msgstr ""
+"Ви спали %dгод %dхв. Оце так дали хропака! Це добре для відновлення сил, "
+"проте сталий режим сну допоможе вам почуватися краще."
 
 #: fw/services/activity/activity_insights.c:1492
 #, c-format
@@ -3245,6 +3256,8 @@ msgid ""
 "You slept for %dH %dM, more than most adults need. Catching up now and then "
 "is fine; try to keep a steady routine."
 msgstr ""
+"Ви спали %dгод %dхв, що більше, ніж зазвичай потрібно дорослим. Іноді "
+"корисно добре відіспатися, проте важливо дотримуватися сталого режиму сну."
 
 #. / Sleep notification on wake up, slept above their typical sleep duration
 #: fw/services/activity/activity_insights.c:1503
