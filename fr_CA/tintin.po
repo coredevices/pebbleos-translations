@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-06 18:18+0000\n"
+"PO-Revision-Date: 2026-11-07 03:26+0000\n"
 "Last-Translator: Rhialto <rhialto@gmail.com>\n"
 "Language-Team: French (Canada) <https://translate.repebble.com/projects/"
 "pebbleos/watch/fr_CA/>\n"
@@ -3287,6 +3287,9 @@ msgid ""
 "Short night? You slept for %dH %dM. Most adults need at least 7 hours, so "
 "try heading to bed earlier tonight."
 msgstr ""
+"Nuit courte? Vous avez dormi pendant %dH %dM. La plupart des adultes ont "
+"besoin d'au moins 7 heures de sommeil, essayez de vous coucher plus tôt ce "
+"soir."
 
 #: fw/services/activity/activity_insights.c:1463
 #, c-format
@@ -3294,6 +3297,8 @@ msgid ""
 "You slept for %dH %dM. Sleep fuels everything you do; let's aim for more "
 "tonight 😉"
 msgstr ""
+"Vous avez dormi pendant %dH %dM. Le sommeil est le moteur de toutes vos "
+"activités, visez un peu plus ce soir. 😉"
 
 #. / Sleep notification on wake up, slept 6 to 7 hours, not below their typical
 #: fw/services/activity/activity_insights.c:1471
@@ -3340,6 +3345,9 @@ msgid ""
 "You slept for %dH %dM. That's a long night! Great for recovering, but a "
 "regular bedtime and wake time will help you feel your best."
 msgstr ""
+"Vous avez dormi pendant %dH %dM. C'est une longue nuit! C'est excellent pour "
+"la récupération, mais une heure de coucher et de lever régulière vous aidera "
+"à vous sentir au sommet de votre forme."
 
 #: fw/services/activity/activity_insights.c:1492
 #, c-format
@@ -3347,6 +3355,9 @@ msgid ""
 "You slept for %dH %dM, more than most adults need. Catching up now and then "
 "is fine; try to keep a steady routine."
 msgstr ""
+"Vous avez dormi pendant %dH %dM, ce qui est plus que ce dont la plupart des "
+"adultes ont besoin. Rattraper son sommeil de temps en temps ne pose pas de "
+"problème, mais essayez de maintenir une routine régulière."
 
 #. / Sleep notification on wake up, slept above their typical sleep duration
 #: fw/services/activity/activity_insights.c:1503
