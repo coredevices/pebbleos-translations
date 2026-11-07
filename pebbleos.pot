@@ -2865,7 +2865,7 @@ msgstr ""
 msgid "While your Pebble was off wakeup events occurred for:\n"
 msgstr ""
 
-#: fw/process_management/app_manager.c:521
+#: fw/process_management/app_manager.c:531
 #, c-format
 msgid "%.*s is not responding"
 msgstr ""
