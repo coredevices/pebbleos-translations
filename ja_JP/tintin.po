@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-08 03:26+0000\n"
+"PO-Revision-Date: 2026-11-09 00:26+0000\n"
 "Last-Translator: おーの <nobb.hero@gmail.com>\n"
 "Language-Team: Japanese <https://translate.repebble.com/projects/pebbleos/"
 "watch/ja/>\n"
@@ -758,8 +758,8 @@ msgid ""
 "Psst! Want smart tips about your activity and sleep? You can enable Insights "
 "in the mobile app."
 msgstr ""
-"ちょっとお知らせ！活動や睡眠に役立つアドバイスを受け取りませんか？"
-"スマートフォンのPebbleアプリで「インサイト」をオンにできます。"
+"ちょっとお知らせ！活動や睡眠に役立つアドバイスを受け取りませんか？スマート"
+"フォンのPebbleアプリで「インサイト」をオンにできます。"
 
 #: fw/apps/system/health/health.c:111
 msgid ""
@@ -2299,177 +2299,177 @@ msgstr "大雪"
 
 #: fw/apps/system/weather/weather_app_layout.c:464
 msgid "Heavy rain"
-msgstr ""
+msgstr "大雨"
 
 #: fw/apps/system/weather/weather_app_layout.c:466
 msgid "Wintry mix"
-msgstr ""
+msgstr "雨と雪"
 
 #: fw/apps/system/weather/weather_app_layout.c:468
 msgid "Flood risk"
-msgstr ""
+msgstr "洪水のおそれ"
 
 #: fw/apps/system/weather/weather_app_layout.c:470
 msgid "Strong winds"
-msgstr ""
+msgstr "強風"
 
 #: fw/apps/system/weather/weather_app_layout.c:473
 msgid "Below freezing"
-msgstr ""
+msgstr "氷点下"
 
 #: fw/apps/system/weather/weather_app_layout.c:475
 msgid "Hard frost"
-msgstr ""
+msgstr "強い霜"
 
 #: fw/apps/system/weather/weather_app_layout.c:478
 msgid "Feels below freezing"
-msgstr ""
+msgstr "体感温度は氷点下"
 
 #: fw/apps/system/weather/weather_app_layout.c:480
 msgid "Heatwave"
-msgstr ""
+msgstr "猛暑"
 
 #: fw/apps/system/weather/weather_app_layout.c:482
 msgid "Very high UV"
-msgstr ""
+msgstr "紫外線が非常に強い"
 
 #: fw/apps/system/weather/weather_app_layout.c:484
 msgid "High UV"
-msgstr ""
+msgstr "紫外線が強い"
 
 #: fw/apps/system/weather/weather_app_layout.c:487
 msgid "Poor visibility"
-msgstr ""
+msgstr "視界不良"
 
 #: fw/apps/system/weather/weather_app_layout.c:489
 msgid "High humidity"
-msgstr ""
+msgstr "湿度が高い"
 
 #: fw/apps/system/weather/weather_app_layout.c:495
 msgid "Windy"
-msgstr ""
+msgstr "風が強い"
 
 #: fw/apps/system/weather/weather_app_layout.c:504
 msgid "Clear skies"
-msgstr ""
+msgstr "快晴"
 
 #: fw/apps/system/weather/weather_app_layout.c:506
 msgid "Light winds"
-msgstr ""
+msgstr "風は弱め"
 
 #: fw/apps/system/weather/weather_app_layout.c:509
 msgid "Calm breeze"
-msgstr ""
+msgstr "穏やかな風"
 
 #: fw/apps/system/weather/weather_app_layout.c:512
 msgid "Fair conditions"
-msgstr ""
+msgstr "穏やかな天気"
 
 #: fw/apps/system/weather/weather_app_layout.c:514
 msgid "Mild conditions"
-msgstr ""
+msgstr "過ごしやすい気候"
 
 #: fw/apps/system/weather/weather_app_layout.c:516
 msgid "All clear"
-msgstr ""
+msgstr "心配なし"
 
 #: fw/apps/system/weather/weather_app_layout.c:526
 msgid "N"
-msgstr ""
+msgstr "北"
 
 #: fw/apps/system/weather/weather_app_layout.c:526
 msgid "NE"
-msgstr ""
+msgstr "北東"
 
 #: fw/apps/system/weather/weather_app_layout.c:526
 msgid "E"
-msgstr ""
+msgstr "東"
 
 #: fw/apps/system/weather/weather_app_layout.c:526
 msgid "SE"
-msgstr ""
+msgstr "南東"
 
 #: fw/apps/system/weather/weather_app_layout.c:527
 msgid "S"
-msgstr ""
+msgstr "南"
 
 #: fw/apps/system/weather/weather_app_layout.c:527
 msgid "SW"
-msgstr ""
+msgstr "南西"
 
 #: fw/apps/system/weather/weather_app_layout.c:527
 msgid "W"
-msgstr ""
+msgstr "西"
 
 #: fw/apps/system/weather/weather_app_layout.c:527
 msgid "NW"
-msgstr ""
+msgstr "北西"
 
 #: fw/apps/system/weather/weather_app_layout.c:539
 msgid "mph"
-msgstr ""
+msgstr "mph"
 
 #: fw/apps/system/weather/weather_app_layout.c:543
 msgid "m/s"
-msgstr ""
+msgstr "m/s"
 
 #: fw/apps/system/weather/weather_app_layout.c:547
 msgid "kt"
-msgstr ""
+msgstr "kt"
 
 #: fw/apps/system/weather/weather_app_layout.c:551
 msgid "km/h"
-msgstr ""
+msgstr "km/h"
 
 #: fw/apps/system/weather/weather_app_layout.c:574
 #, c-format
 msgid "%s at %d%s."
-msgstr ""
+msgstr "風向%s、風速%d%s。"
 
 #: fw/apps/system/weather/weather_app_layout.c:574
 #, c-format
 msgid "Winds %s at %d%s."
-msgstr ""
+msgstr "%sの風、風速%d%s。"
 
 #: fw/apps/system/weather/weather_app_layout.c:579
 #, c-format
 msgid "At %d%s."
-msgstr ""
+msgstr "風速%d%s。"
 
 #: fw/apps/system/weather/weather_app_layout.c:579
 #, c-format
 msgid "Winds at %d%s."
-msgstr ""
+msgstr "風速%d%s。"
 
 #: fw/apps/system/weather/weather_app_layout.c:588
 #, c-format
 msgid "Precipitation %d%%."
-msgstr ""
+msgstr "降水確率%d%%。"
 
 #: fw/apps/system/weather/weather_app_layout.c:863
 #: fw/apps/system/weather/weather_app_layout.c:1152
 msgid "TODAY"
-msgstr ""
+msgstr "今日"
 
 #: fw/apps/system/weather/weather_app_layout.c:894
 #: fw/apps/system/weather/weather_app_layout.c:1238
 msgid "TOMORROW"
-msgstr ""
+msgstr "明日"
 
 #: fw/apps/system/weather/weather_app_layout.c:991
 #: fw/apps/system/weather/weather_app_layout.c:1088
 msgid "UV INDEX"
-msgstr ""
+msgstr "UV指数"
 
 #. / Zone 1 HR Label
 #: fw/apps/system/workout/active.c:136
 msgid "FAT BURN"
-msgstr ""
+msgstr "脂肪燃焼"
 
 #. / Zone 2 HR Label
 #: fw/apps/system/workout/active.c:139
 msgid "ENDURANCE"
-msgstr ""
+msgstr "持久力"
 
 #. / Zone 3 HR Label
 #: fw/apps/system/workout/active.c:142
@@ -2479,225 +2479,227 @@ msgstr ""
 #. / Default/Zone 0 HR Label
 #: fw/apps/system/workout/active.c:145
 msgid "HEART RATE"
-msgstr ""
+msgstr "心拍数"
 
 #. / Duration Label
 #: fw/apps/system/workout/active.c:162
 msgid "DURATION"
-msgstr ""
+msgstr "経過時間"
 
 #. / Average Pace Label
 #: fw/apps/system/workout/active.c:166
 msgid "AVG PACE"
-msgstr ""
+msgstr "平均ペース"
 
 #. / Average Pace Label with units
 #: fw/apps/system/workout/active.c:169
 msgid "AVG PACE (/MI)"
-msgstr ""
+msgstr "平均ペース/mi"
 
 #: fw/apps/system/workout/active.c:170
 msgid "AVG PACE (/KM)"
-msgstr ""
+msgstr "平均ペース/km"
 
 #. / Pace Label
 #: fw/apps/system/workout/active.c:175
 msgid "PACE"
-msgstr ""
+msgstr "ペース"
 
 #. / Pace Label with units
 #: fw/apps/system/workout/active.c:178
 msgid "PACE (/MI)"
-msgstr ""
+msgstr "ペース/mi"
 
 #: fw/apps/system/workout/active.c:179
 msgid "PACE (/KM)"
-msgstr ""
+msgstr "ペース/km"
 
 #. / Speed Label
 #: fw/apps/system/workout/active.c:184
 msgid "SPEED"
-msgstr ""
+msgstr "速度"
 
 #. / Speed Label with units
 #: fw/apps/system/workout/active.c:187
 msgid "SPEED (MPH)"
-msgstr ""
+msgstr "速度(mph)"
 
 #: fw/apps/system/workout/active.c:188
 msgid "SPEED (KM/H)"
-msgstr ""
+msgstr "速度(km/h)"
 
 #. / Distance Label with units
 #: fw/apps/system/workout/active.c:196
 msgid "DISTANCE (MI)"
-msgstr ""
+msgstr "距離mi"
 
 #: fw/apps/system/workout/active.c:197
 msgid "DISTANCE (KM)"
-msgstr ""
+msgstr "距離km"
 
 #. / Steps Label
 #: fw/apps/system/workout/active.c:201 fw/apps/system/workout/active.c:1185
 #: fw/apps/system/workout/active.c:1203 fw/apps/system/workout/active.c:1227
 msgid "STEPS"
-msgstr ""
+msgstr "歩数"
 
 #: fw/apps/system/workout/active.c:306 fw/apps/system/workout/active.c:363
 msgid "MI"
-msgstr ""
+msgstr "マイル"
 
 #: fw/apps/system/workout/active.c:306 fw/apps/system/workout/active.c:363
 msgid "KM"
-msgstr ""
+msgstr "km"
 
 #: fw/apps/system/workout/active.c:382
 msgid "MPH"
-msgstr ""
+msgstr "mph"
 
 #: fw/apps/system/workout/active.c:382
 msgid "KM/H"
-msgstr ""
+msgstr "km/h"
 
 #: fw/apps/system/workout/active.c:1053
 msgid "COMPLETE"
-msgstr ""
+msgstr "完了"
 
 #: fw/apps/system/workout/active.c:1056
 msgid "END WORKOUT?"
-msgstr ""
+msgstr "運動を終了しますか？"
 
 #: fw/apps/system/workout/active.c:1060
 msgid "PAUSED"
-msgstr ""
+msgstr "一時停止中"
 
 #: fw/apps/system/workout/active.c:1114
 msgid "AVG"
-msgstr ""
+msgstr "平均"
 
 #: fw/apps/system/workout/active.c:1117 fw/apps/system/workout/active.c:1268
 #, c-format
 msgid "Z%d"
-msgstr ""
+msgstr "Z%d"
 
 #: fw/apps/system/workout/active.c:1173 fw/apps/system/workout/active.c:1218
 #: fw/apps/system/workout/active.c:1460
 msgid "TOTAL TIME"
-msgstr ""
+msgstr "合計時間"
 
 #: fw/apps/system/workout/active.c:1173 fw/apps/system/workout/active.c:1218
 msgid "TIMER"
-msgstr ""
+msgstr "タイマー"
 
 #: fw/apps/system/workout/active.c:1181
 msgid "DIST MI"
-msgstr ""
+msgstr "距離mi"
 
 #: fw/apps/system/workout/active.c:1181
 msgid "DIST KM"
-msgstr ""
+msgstr "距離km"
 
 #: fw/apps/system/workout/active.c:1183 fw/apps/system/workout/active.c:1216
 msgid "PACE /MI"
-msgstr ""
+msgstr "ペース/mi"
 
 #: fw/apps/system/workout/active.c:1183 fw/apps/system/workout/active.c:1216
 msgid "PACE /KM"
-msgstr ""
+msgstr "ペース/km"
 
 #: fw/apps/system/workout/active.c:1187 fw/apps/system/workout/active.c:1204
 #: fw/apps/system/workout/active.c:1228 fw/apps/system/workout/active.c:1462
 msgid "KCAL"
-msgstr ""
+msgstr "kcal"
 
 #: fw/apps/system/workout/active.c:1202 fw/apps/system/workout/active.c:1226
 msgid "CADENCE"
-msgstr ""
+msgstr "歩調"
 
 #: fw/apps/system/workout/active.c:1213
 msgid "SPEED MPH"
-msgstr ""
+msgstr "速度 mph"
 
 #: fw/apps/system/workout/active.c:1214
 msgid "SPEED KM/H"
-msgstr ""
+msgstr "速度 km/h"
 
 #: fw/apps/system/workout/active.c:1221 fw/apps/system/workout/active.c:1422
 #: fw/apps/system/workout/active.c:1461
 msgid "AVG BPM"
-msgstr ""
+msgstr "平均心拍"
 
 #: fw/apps/system/workout/active.c:1245
 msgid "TIME IN ZONE"
-msgstr ""
+msgstr "ゾーン内の時間"
 
 #: fw/apps/system/workout/active.c:1392
 msgid "LAST MINUTE"
-msgstr ""
+msgstr "直近1分"
 
 #: fw/apps/system/workout/active.c:1395
 msgid "WAITING FOR HR"
-msgstr ""
+msgstr "心拍数を待機中"
 
 #: fw/apps/system/workout/active.c:1419
 #, c-format
 msgid "ZONE %d"
-msgstr ""
+msgstr "ゾーン%d"
 
 #: fw/apps/system/workout/active.c:1422
 msgid "MEASURING"
-msgstr ""
+msgstr "測定中"
 
 #: fw/apps/system/workout/countdown.c:85 fw/apps/system/workout/summary.c:61
 msgid "WORKOUT"
-msgstr ""
+msgstr "運動"
 
 #: fw/apps/system/workout/countdown.c:107
 msgid "GO!"
-msgstr ""
+msgstr "スタート！"
 
 #: fw/apps/system/workout/sports.c:353
 msgid "Sports"
-msgstr ""
+msgstr "スポーツ"
 
 #: fw/apps/system/workout/utils.c:20
 msgid ""
 "Still sweating? Your workout is active and will be ended soon. Open the "
 "workout to keep it going."
 msgstr ""
+"まだ運動中ですか？記録中の運動はまもなく自動終了します。続けるには運動画面を"
+"開いてください。"
 
 #: fw/apps/system/workout/utils.c:31
 #: fw/popups/ble_hrm/ble_hrm_reminder_popup.c:24
 #: fw/services/activity/activity_insights.c:1266
 #: fw/services/notifications/ancs/ancs_item.c:150
 msgid "Dismiss"
-msgstr ""
+msgstr "閉じる"
 
 #: fw/apps/system/workout/utils.c:35
 msgid "End Workout"
-msgstr ""
+msgstr "運動を終了"
 
 #: fw/apps/system/workout/utils.c:41
 msgid "Open Workout"
-msgstr ""
+msgstr "運動画面を開く"
 
 #. / Workout Label
 #: fw/apps/system/workout/utils.c:94 fw/apps/system/workout/workout.c:268
 #: fw/services/activity/activity_insights.c:1789
 msgid "Workout"
-msgstr ""
+msgstr "運動"
 
 #. / Walk Label
 #: fw/apps/system/workout/utils.c:97
 #: fw/services/activity/activity_insights.c:1787
 msgid "Walk"
-msgstr ""
+msgstr "ウォーキング"
 
 #. / Run Label
 #: fw/apps/system/workout/utils.c:100
 #: fw/services/activity/activity_insights.c:1785
 msgid "Run"
-msgstr ""
+msgstr "ランニング"
 
 #. / Workout automatically detected dialog text
 #: fw/apps/system/workout/utils.c:118
@@ -2705,6 +2707,8 @@ msgid ""
 "Workout\n"
 "Detected"
 msgstr ""
+"運動を\n"
+"検出しました"
 
 #. / Walk automatically detected dialog text
 #: fw/apps/system/workout/utils.c:121
@@ -2712,6 +2716,8 @@ msgid ""
 "Walk\n"
 "Detected"
 msgstr ""
+"ウォーキングを\n"
+"検出しました"
 
 #. / Run automatically detected dialog text
 #: fw/apps/system/workout/utils.c:124
@@ -2719,38 +2725,44 @@ msgid ""
 "Run\n"
 "Detected"
 msgstr ""
+"ランニングを\n"
+"検出しました"
 
 #: fw/apps/system/workout/workout.c:167
 msgid ""
 "Workout\n"
 "Ended"
 msgstr ""
+"運動が\n"
+"終了しました"
 
 #: fw/apps/system/workout/workout.c:193
 msgid "Workout requires the time to be synced. Please connect your phone."
-msgstr ""
+msgstr "運動の記録には時刻の同期が必要です。スマートフォンと接続してください。"
 
 #. / Health disabled text
 #: fw/apps/system/workout/workout.c:201
 msgid "Enable Pebble Health in the mobile app to track workouts"
 msgstr ""
+"運動を記録するには、スマートフォンのPebbleアプリで「Pebble ヘルス」をオンにし"
+"てください"
 
 #: fw/apps/system/workout/workout.c:210
 msgid ""
 "Wear your watch snug and 2 fingers' width above your wrist bone for best "
 "results."
-msgstr ""
+msgstr "正しく測定するには、手首の骨から指2本分上に、時計をぴったり装着してください。"
 
 #: fw/apps/watch/kickstart/kickstart.c:365
 #, c-format
 msgid "%d BPM"
-msgstr ""
+msgstr "%d回/分"
 
 #. / Step count greater than 1000 with a thousands separator
 #: fw/apps/watch/kickstart/kickstart.c:475
 #, c-format
 msgid "%d,%03d"
-msgstr ""
+msgstr "%d,%03d"
 
 #. / Step count less than 1000
 #: fw/apps/watch/kickstart/kickstart.c:479
@@ -2758,43 +2770,45 @@ msgstr ""
 #: fw/services/clock/service.c:1005
 #, c-format
 msgid "%d"
-msgstr ""
+msgstr "%d"
 
 #: fw/apps/watch/tictoc/bw/tictoc_bw.c:77 fw/services/clock/service.c:883
 #: fw/services/clock/service.c:891
 msgid "%B %e"
-msgstr ""
+msgstr "%B%e日"
 
 #: fw/popups/alarm_popup.c:60
 #, c-format
 msgid "Snooze for %d minutes"
-msgstr ""
+msgstr "%d分間スヌーズ"
 
 #: fw/popups/alarm_popup.c:77
 msgid "Alarm dismissed"
-msgstr ""
+msgstr "アラームを停止しました"
 
 #: fw/popups/ble_hrm/ble_hrm_reminder_popup.c:15
 msgid ""
 "Your heart rate has been shared with an app on your phone for several hours. "
 "This could affect your battery. Stop sharing now?"
 msgstr ""
+"心拍数をスマートフォンのアプリと数時間共有しています。バッテリーの消耗が増え"
+"る可能性があります。共有を停止しますか？"
 
 #: fw/popups/ble_hrm/ble_hrm_sharing_popup.c:28
 msgid "Sharing Heart Rate"
-msgstr ""
+msgstr "心拍数を共有中"
 
 #: fw/popups/ble_hrm/ble_hrm_sharing_popup.c:65
 msgid "Share heart rate?"
-msgstr ""
+msgstr "心拍数を共有しますか？"
 
 #: fw/popups/ble_hrm/ble_hrm_stop_sharing_popup.c:18
 msgid "Heart Rate Not Shared"
-msgstr ""
+msgstr "心拍数は共有されていません"
 
 #: fw/popups/bluetooth_pairing_ui.c:228
 msgid "Pair?"
-msgstr ""
+msgstr "ペアリングしますか？"
 
 #: fw/popups/crashed_ui.c:92
 #, c-format
@@ -2803,302 +2817,317 @@ msgid ""
 "\n"
 "Open app?"
 msgstr ""
+"%s%.*sが応答していません。\n"
+"\n"
+"アプリを開きますか？"
 
 #: fw/popups/crashed_ui.c:148
 msgid ""
 "A bug report has been captured. Please finish uploading the bug report using "
 "the Pebble phone app."
 msgstr ""
+"不具合の報告データを保存しました。スマートフォンのPebbleアプリでアップロード"
+"を完了してください。"
 
 #: fw/popups/health_tracking_ui.c:74
 msgid ""
 "This feature requires Pebble Health to work. Enable Health in the Pebble "
 "mobile app to continue."
 msgstr ""
+"この機能にはPebble ヘルスが必要です。続けるにはスマートフォンのPebbleアプリで"
+"「ヘルス」をオンにしてください。"
 
 #: fw/popups/mic_banner.c:115
 msgid "Listening..."
-msgstr ""
+msgstr "聞き取り中…"
 
 #: fw/popups/notifications/notification_window.c:734
 msgid "Snoozed"
-msgstr ""
+msgstr "再通知を設定しました"
 
 #: fw/popups/notifications/notification_window.c:767
 msgid "Muted"
-msgstr ""
+msgstr "ミュートしました"
 
 #: fw/popups/notifications/notification_window.c:937
 msgid "Snooze"
-msgstr ""
+msgstr "後で通知"
 
 #: fw/popups/notifications/notification_window.c:955
 #, c-format
 msgid "Mute %s"
-msgstr ""
+msgstr "%sをミュート"
 
 #: fw/popups/notifications/notification_window.c:973
 msgid "Mute 1 Hour"
-msgstr ""
+msgstr "1時間ミュート"
 
 #: fw/popups/notifications/notification_window.c:976
 msgid "Mute Today"
-msgstr ""
+msgstr "今日だけミュート"
 
 #: fw/popups/notifications/notification_window.c:979
 msgid "Mute Always"
-msgstr ""
+msgstr "常にミュート"
 
 #: fw/popups/notifications/notification_window.c:982
 msgid "Mute Weekends"
-msgstr ""
+msgstr "週末はミュート"
 
 #: fw/popups/notifications/notification_window.c:985
 msgid "Mute Weekdays"
-msgstr ""
+msgstr "平日はミュート"
 
 #: fw/popups/notifications/notification_window.c:993
 msgid "Dismiss All"
-msgstr ""
+msgstr "すべて閉じる"
 
 #: fw/popups/notifications/notification_window.c:999
 msgid "End Quiet Time"
-msgstr ""
+msgstr "集中モードを終了"
 
 #: fw/popups/notifications/notification_window.c:1000
 msgid "Start Quiet Time"
-msgstr ""
+msgstr "集中モードを開始"
 
 #: fw/popups/phone_ui.c:581
 msgid "Call Accepted"
-msgstr ""
+msgstr "着信に応答しました"
 
 #: fw/popups/phone_ui.c:584
 msgid "Disconnected"
-msgstr ""
+msgstr "接続が切れました"
 
 #: fw/popups/phone_ui.c:587
 msgid "Call Ended"
-msgstr ""
+msgstr "通話が終了しました"
 
 #: fw/popups/phone_ui.c:590
 msgid "Call Declined"
-msgstr ""
+msgstr "着信を拒否しました"
 
 #: fw/popups/switch_worker_ui.c:94
 #, c-format
 msgid "Run %s instead of %s as the background app?"
-msgstr ""
+msgstr "バックグラウンドアプリを%sに切り替えますか？（現在：%s）"
 
 #: fw/popups/wakeup_ui.c:53
 msgid "While your Pebble was off wakeup events occurred for:\n"
-msgstr ""
+msgstr "Pebbleの電源がオフの間に、次のアプリで起動イベントが発生しました：\n"
 
 #: fw/process_management/app_manager.c:530
 #, c-format
 msgid "%.*s is not responding"
-msgstr ""
+msgstr "%.*sが応答していません"
 
 #: fw/process_management/process_manager.c:197
 msgid "This app requires a newer version of the Pebble firmware."
-msgstr ""
+msgstr "このアプリを使うには、Pebbleのファームウェアを更新してください。"
 
 #: fw/process_management/process_manager.c:342
 msgid "This app uses RockyJS which is no longer supported."
-msgstr ""
+msgstr "このアプリは、現在サポートされていないRockyJSを使用しています。"
 
 #: fw/services/activity/activity_insights.c:194
 msgid ""
 "How are you feeling? Have you noticed extra focus, better mood or extra "
 "energy? You have been sleeping great this week! Keep it up!"
 msgstr ""
+"今週はぐっすり眠れていますね！集中力や気分、元気さに変化はありましたか？この"
+"調子で続けましょう！"
 
 #: fw/services/activity/activity_insights.c:196
 msgid "I feel fabulous!"
-msgstr ""
+msgstr "最高の気分！"
 
 #: fw/services/activity/activity_insights.c:197
 msgid "About average"
-msgstr ""
+msgstr "いつもどおり"
 
 #: fw/services/activity/activity_insights.c:198
 msgid "I'm still tired"
-msgstr ""
+msgstr "まだ眠い"
 
 #: fw/services/activity/activity_insights.c:199
 #: fw/services/activity/activity_insights.c:217
 msgid "Awesome!"
-msgstr ""
+msgstr "すばらしい！"
 
 #: fw/services/activity/activity_insights.c:200
 #: fw/services/activity/activity_insights.c:218
 msgid "Keep it up!"
-msgstr ""
+msgstr "その調子！"
 
 #: fw/services/activity/activity_insights.c:201
 #: fw/services/activity/activity_insights.c:219
 msgid "We'll get there!"
-msgstr ""
+msgstr "少しずついきましょう！"
 
 #: fw/services/activity/activity_insights.c:212
 msgid ""
 "Congratulations - you're having a super active day! Activity makes you more "
 "focused and creative. How do you feel?"
 msgstr ""
+"今日はとてもよく動いていますね！体を動かすと集中力や創造力も高まります。今の"
+"気分はどうですか？"
 
 #: fw/services/activity/activity_insights.c:214
 #: fw/services/activity/activity_insights.c:983
 msgid "I feel great!"
-msgstr ""
+msgstr "とてもいい気分！"
 
 #: fw/services/activity/activity_insights.c:215
 msgid "About the same"
-msgstr ""
+msgstr "普段と変わらない"
 
 #: fw/services/activity/activity_insights.c:216
 msgid "Not feeling it"
-msgstr ""
+msgstr "いまひとつ"
 
 #: fw/services/activity/activity_insights.c:246
 msgid "Activity Summary"
-msgstr ""
+msgstr "活動のまとめ"
 
 #: fw/services/activity/activity_insights.c:254
 msgid "Do you feel more energetic, sharper or optimistic? Being active helps!"
 msgstr ""
+"いつもより元気だったり、頭がすっきりしたり、前向きな気分になったりしませんか"
+"？体を動かすのはいいことですね！"
 
 #: fw/services/activity/activity_insights.c:255
 msgid "GREAT DAY TODAY"
-msgstr ""
+msgstr "今日はよく動きました"
 
 #: fw/services/activity/activity_insights.c:259
 msgid "You're being consistent and that's important, keep at it!"
-msgstr ""
+msgstr "コツコツ続けられていますね。それが大切です！この調子でいきましょう！"
 
 #: fw/services/activity/activity_insights.c:260
 msgid "CONSISTENT!"
-msgstr ""
+msgstr "継続できています！"
 
 #: fw/services/activity/activity_insights.c:264
 #: fw/services/activity/activity_insights.c:269
 msgid "Resting is fine, but try to recover and step it up tomorrow!"
-msgstr ""
+msgstr "休むことも大切。でも明日は少しずつ動いてみましょう！"
 
 #: fw/services/activity/activity_insights.c:265
 #: fw/services/activity/activity_insights.c:270
 msgid "NOT VERY ACTIVE"
-msgstr ""
+msgstr "活動は少なめ"
 
 #: fw/services/activity/activity_insights.c:278
 msgid "Sleep Summary"
-msgstr ""
+msgstr "睡眠のまとめ"
 
 #: fw/services/activity/activity_insights.c:287
 msgid "You had a good night! Feel the energy 😃"
-msgstr ""
+msgstr "よく眠れましたね！今日も元気にいきましょう 😃"
 
 #: fw/services/activity/activity_insights.c:291
 msgid "It's great that you're keeping a consistent sleep routine!"
-msgstr ""
+msgstr "規則正しい睡眠が続いていて、いい感じですね！"
 
 #: fw/services/activity/activity_insights.c:295
 #: fw/services/activity/activity_insights.c:299
 msgid "A good night's sleep goes a long way! Try to get more hours tonight."
-msgstr ""
+msgstr "ぐっすり眠ると毎日が変わります！今夜はもう少し長く眠ってみましょう。"
 
 #: fw/services/activity/activity_insights.c:448
 msgid "Open App"
-msgstr ""
+msgstr "アプリを開く"
 
 #: fw/services/activity/activity_insights.c:554
 #: fw/services/activity/activity_insights.c:560
 msgid "BELOW AVG"
-msgstr ""
+msgstr "平均より少ない"
 
 #: fw/services/activity/activity_insights.c:554
 #: fw/services/activity/activity_insights.c:560
 msgid "Below avg"
-msgstr ""
+msgstr "平均より少ない"
 
 #: fw/services/activity/activity_insights.c:566
 msgid "ON AVG"
-msgstr ""
+msgstr "平均どおり"
 
 #: fw/services/activity/activity_insights.c:566
 msgid "On avg"
-msgstr ""
+msgstr "平均どおり"
 
 #: fw/services/activity/activity_insights.c:571
 msgid "ABOVE AVG"
-msgstr ""
+msgstr "平均より多い"
 
 #: fw/services/activity/activity_insights.c:571
 msgid "Above avg"
-msgstr ""
+msgstr "平均より多い"
 
 #: fw/services/activity/activity_insights.c:853
 msgid "%H:%M"
-msgstr ""
+msgstr "%H:%M"
 
 #: fw/services/activity/activity_insights.c:853
 msgid "%l:%M%p"
-msgstr ""
+msgstr "%p%l:%M"
 
 #: fw/services/activity/activity_insights.c:877
 #, c-format
 msgid "%uH %uM Sleep"
-msgstr ""
+msgstr "%u時間%u分"
 
 #: fw/services/activity/activity_insights.c:906
 msgid "Short night! Try going to bed a little earlier tonight."
-msgstr ""
+msgstr "昨夜は睡眠時間が短めでした。今夜は少し早めに寝てみましょう。"
 
 #: fw/services/activity/activity_insights.c:909
 msgid "Almost there! A little more sleep tonight would help."
-msgstr ""
+msgstr "あと少し！今夜はもう少し長く眠ってみましょう。"
 
 #: fw/services/activity/activity_insights.c:914
 msgid "A long night! Great for catching up; a steady routine helps most."
 msgstr ""
+"たっぷり眠れましたね！睡眠不足の解消にはいいですが、普段から規則正しく眠るこ"
+"とが大切です。"
 
 #: fw/services/activity/activity_insights.c:945
 msgid "Nap Time"
-msgstr ""
+msgstr "お昼寝の時間"
 
 #: fw/services/activity/activity_insights.c:953
 #, c-format
 msgid "%s of sleep"
-msgstr ""
+msgstr "%sの睡眠"
 
 #: fw/services/activity/activity_insights.c:958
 msgid "YOU NAPPED"
-msgstr ""
+msgstr "お昼寝しました"
 
 #: fw/services/activity/activity_insights.c:958
 msgid "Of napping"
-msgstr ""
+msgstr "お昼寝の時間"
 
 #: fw/services/activity/activity_insights.c:966
 #, c-format
 msgid "%s - %s"
-msgstr ""
+msgstr "%s～%s"
 
 #: fw/services/activity/activity_insights.c:987
 msgid "I need more"
-msgstr ""
+msgstr "もっと眠りたい"
 
 #: fw/services/activity/activity_insights.c:1017
 #, c-format
 msgid "Aren't naps great? You knocked out for %dH %dM!"
-msgstr ""
+msgstr "お昼寝っていいですよね！%d時間%d分、ぐっすり眠りました！"
 
 #: fw/services/activity/activity_insights.c:1033
 msgid "I didn't nap!?"
-msgstr ""
+msgstr "昼寝してないけど！？"
 
 #: fw/services/activity/activity_insights.c:1274
 msgid "Open Pin"
-msgstr ""
+msgstr "項目を開く"
 
 #: fw/services/activity/activity_insights.c:1360
 #, c-format
@@ -3106,6 +3135,8 @@ msgid ""
 "Killer job! You've walked %d steps today which is %d%% above your typical. "
 "Do it again tomorrow and you'll be on top of the world!"
 msgstr ""
+"やりましたね！今日は%d歩、いつもの平均より%d%%多く歩きました。明日も続けて、"
+"さらに調子を上げましょう！"
 
 #: fw/services/activity/activity_insights.c:1363
 #, c-format
