@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-06 08:52+0000\n"
+"PO-Revision-Date: 2026-11-08 03:26+0000\n"
 "Last-Translator: おーの <nobb.hero@gmail.com>\n"
 "Language-Team: Japanese <https://translate.repebble.com/projects/pebbleos/"
 "watch/ja/>\n"
@@ -765,8 +765,8 @@ msgstr ""
 msgid ""
 "Track your steps, sleep, and more! Enable Pebble Health in the mobile app."
 msgstr ""
-"歩数や睡眠などを記録しましょう！スマートフォンのPebbleアプリで「Pebble ヘルス"
-"」をオンにしてください。"
+"歩数や睡眠などを記録しましょう！スマートフォンのPebbleアプリで「Pebble ヘル"
+"ス」をオンにしてください。"
 
 #: fw/apps/system/health/health.c:120
 msgid "Health requires the time to be synced. Please connect your phone."
@@ -1523,7 +1523,7 @@ msgstr "上短押し"
 #. / Shown in Quick Launch Settings as the title of the tap down button option.
 #: fw/apps/system/settings/quick_launch.c:60
 msgid "Tap Down"
-msgstr ""
+msgstr "下短押し"
 
 #. / Shown in Quick Launch Settings as the title of the hold up button quick launch option.
 #: fw/apps/system/settings/quick_launch.c:62
@@ -1960,203 +1960,211 @@ msgstr "タイムライン"
 
 #: fw/apps/system/settings/vibe_patterns.c:88
 msgid "Incoming Calls"
-msgstr ""
+msgstr "電話の着信"
 
 #: fw/apps/system/settings/vibe_patterns.c:98
 msgid "Hourly Notice"
-msgstr ""
+msgstr "毎時の通知"
 
 #: fw/apps/system/settings/vibe_patterns.c:103
 msgid "On Disconnect"
-msgstr ""
+msgstr "切断時"
 
 #: fw/apps/system/settings/vibe_patterns.c:285
 msgid "Sounds & Haptics"
-msgstr ""
+msgstr "音と振動"
 
 #: fw/apps/system/settings/vibe_patterns.c:287
 msgid "Vibrations"
-msgstr ""
+msgstr "振動"
 
 #: fw/apps/system/timeline/timeline.c:909
 msgid "No events"
-msgstr ""
+msgstr "予定なし"
 
 #: fw/apps/system/timeline/timeline.c:1285
 msgid "Timeline Future"
-msgstr ""
+msgstr "今後の予定"
 
 #. / The title of Timeline Past in Quick Launch. If the translation is too long, cut out
 #. / Timeline and only translate "Past".
 #: fw/apps/system/timeline/timeline.c:1300
 msgid "Timeline Past"
-msgstr ""
+msgstr "過去の予定"
 
 #: fw/apps/system/toggle/airplane_mode.c:26
 msgid "Turn On Airplane Mode?"
-msgstr ""
+msgstr "機内モードをオンにしますか？"
 
 #: fw/apps/system/toggle/airplane_mode.c:27
 msgid "Turn Off Airplane Mode?"
-msgstr ""
+msgstr "機内モードをオフにしますか？"
 
 #: fw/apps/system/toggle/airplane_mode.c:28
 msgid ""
 "Airplane\n"
 "Mode On"
 msgstr ""
+"機内モード\n"
+"オン"
 
 #: fw/apps/system/toggle/airplane_mode.c:29
 msgid ""
 "Airplane\n"
 "Mode Off"
 msgstr ""
+"機内モード\n"
+"オフ"
 
 #. / The Quick Launch action that toggles Airplane Mode.
 #: fw/apps/system/toggle/airplane_mode.c:53
 msgid "Toggle Airplane Mode"
-msgstr ""
+msgstr "機内モード切替"
 
 #: fw/apps/system/toggle/backlight_state.c:27
 msgid "Turn On Backlight?"
-msgstr ""
+msgstr "バックライトをオンにしますか？"
 
 #: fw/apps/system/toggle/backlight_state.c:28
 msgid "Turn Off Backlight?"
-msgstr ""
+msgstr "バックライトをオフにしますか？"
 
 #: fw/apps/system/toggle/backlight_state.c:29
 msgid "Backlight On"
-msgstr ""
+msgstr "バックライト オン"
 
 #: fw/apps/system/toggle/backlight_state.c:30
 msgid "Backlight Off"
-msgstr ""
+msgstr "バックライト オフ"
 
 #. / The Quick Launch action that toggles the backlight.
 #: fw/apps/system/toggle/backlight_state.c:54
 msgid "Toggle Backlight"
-msgstr ""
+msgstr "バックライト切替"
 
 #: fw/apps/system/toggle/motion_backlight.c:24
 msgid "Turn On Motion Backlight?"
-msgstr ""
+msgstr "動きによる点灯をオンにしますか？"
 
 #: fw/apps/system/toggle/motion_backlight.c:25
 msgid "Turn Off Motion Backlight?"
-msgstr ""
+msgstr "動きによる点灯をオフにしますか？"
 
 #: fw/apps/system/toggle/motion_backlight.c:26
 msgid ""
 "Motion\n"
 "Backlight On"
 msgstr ""
+"動きによる点灯\n"
+"オン"
 
 #: fw/apps/system/toggle/motion_backlight.c:27
 msgid ""
 "Motion\n"
 "Backlight Off"
 msgstr ""
+"動きによる点灯\n"
+"オフ"
 
 #. / The Quick Launch action that toggles the motion backlight.
 #: fw/apps/system/toggle/motion_backlight.c:51
 msgid "Toggle Motion Backlight"
-msgstr ""
+msgstr "動きによる点灯を切替"
 
 #. / The Quick Launch action that toggles Quiet Time.
 #: fw/apps/system/toggle/quiet_time.c:26
 msgid "Toggle Quiet Time"
-msgstr ""
+msgstr "集中モード切替"
 
 #: fw/apps/system/toggle/touch.c:24
 msgid "Turn On Touch?"
-msgstr ""
+msgstr "タッチをオンにしますか？"
 
 #: fw/apps/system/toggle/touch.c:25
 msgid "Turn Off Touch?"
-msgstr ""
+msgstr "タッチをオフにしますか？"
 
 #: fw/apps/system/toggle/touch.c:26
 msgid "Touch On"
-msgstr ""
+msgstr "タッチ オン"
 
 #: fw/apps/system/toggle/touch.c:27
 msgid "Touch Off"
-msgstr ""
+msgstr "タッチ オフ"
 
 #. / The Quick Launch action that turns the touchscreen on or off.
 #: fw/apps/system/toggle/touch.c:51
 msgid "Toggle Touch"
-msgstr ""
+msgstr "タッチ切替"
 
 #: fw/apps/system/watchfaces.c:101
 msgid "Active"
-msgstr ""
+msgstr "使用中"
 
 #: fw/apps/system/watchfaces.c:222
 msgid "Watchfaces"
-msgstr ""
+msgstr "文字盤"
 
 #: fw/apps/system/weather/expanded_view.c:180
 msgid "Sunset --:--"
-msgstr ""
+msgstr "日の入り --:--"
 
 #: fw/apps/system/weather/expanded_view.c:183
 #, c-format
 msgid "Sunset %s"
-msgstr ""
+msgstr "日の入り %s"
 
 #: fw/apps/system/weather/expanded_view.c:208
 msgid "Last updated --:--"
-msgstr ""
+msgstr "更新 --:--"
 
 #: fw/apps/system/weather/expanded_view.c:211
 #, c-format
 msgid "Last updated %s"
-msgstr ""
+msgstr "更新 %s"
 
 #: fw/apps/system/weather/expanded_view.c:397
 msgid "PRECIPITATION: --"
-msgstr ""
+msgstr "降水確率：--"
 
 #: fw/apps/system/weather/expanded_view.c:399
 #, c-format
 msgid "PRECIPITATION: %d%%"
-msgstr ""
+msgstr "降水確率：%d%%"
 
 #: fw/apps/system/weather/expanded_view.c:482
 msgid "CURRENT UV"
-msgstr ""
+msgstr "現在のUV"
 
 #: fw/apps/system/weather/expanded_view.c:491
 #, c-format
 msgid "UV %d"
-msgstr ""
+msgstr "UV %d"
 
 #: fw/apps/system/weather/expanded_view.c:493
 msgid "UV --"
-msgstr ""
+msgstr "UV --"
 
 #: fw/apps/system/weather/expanded_view.c:495
 #, c-format
 msgid "RAIN %d%%"
-msgstr ""
+msgstr "雨 %d%%"
 
 #: fw/apps/system/weather/expanded_view.c:497
 msgid "RAIN --"
-msgstr ""
+msgstr "雨 --"
 
 #: fw/apps/system/weather/expanded_view.c:505
 msgid "UV"
-msgstr ""
+msgstr "UV"
 
 #: fw/apps/system/weather/expanded_view.c:507
 msgid "RAIN"
-msgstr ""
+msgstr "雨"
 
 #: fw/apps/system/weather/forecast_list.c:1288
 msgid "WEATHER REPORT"
-msgstr ""
+msgstr "天気予報"
 
 #. / row at 164: with the deeper section lift (EXTRA_LIFT 19) the
 #. scrolled column's air splits evenly — solved for disc->graph = graph->pill =
@@ -2164,128 +2172,130 @@ msgstr ""
 #. holds for any temp spread).
 #: fw/apps/system/weather/forecast_list.c:1609
 msgid "PRECIPITATION"
-msgstr ""
+msgstr "降水確率"
 
 #: fw/apps/system/weather/forecast_list.c:2227
 #, no-c-format
 msgid "%a, %b %d"
-msgstr ""
+msgstr "%b%d日(%a)"
 
 #: fw/apps/system/weather/globe_view.c:2168
 msgid "Saved Location"
-msgstr ""
+msgstr "保存した場所"
 
 #: fw/apps/system/weather/globe_view.c:2172
 #: fw/apps/system/weather/globe_view.c:3700
 #: fw/apps/system/weather/globe_view.c:3754
 #: fw/apps/system/weather/saved_locations.c:162
 msgid "Current Location"
-msgstr ""
+msgstr "現在地"
 
 #: fw/apps/system/weather/globe_view.c:3102
 #: fw/apps/system/weather/globe_view.c:3109
 msgid "CITY SELECT"
-msgstr ""
+msgstr "都市を選択"
 
 #: fw/apps/system/weather/globe_view.c:3170
 #: fw/apps/system/weather/globe_view.c:3202
 msgid "SAVED LOCATIONS"
-msgstr ""
+msgstr "保存した場所"
 
 #: fw/apps/system/weather/saved_locations.c:160
 msgid "Location"
-msgstr ""
+msgstr "場所"
 
 #: fw/apps/system/weather/saved_locations.c:247
 msgid "No Locations"
-msgstr ""
+msgstr "登録地点なし"
 
 #: fw/apps/system/weather/saved_locations.c:248
 msgid "Add them in the app"
-msgstr ""
+msgstr "アプリで追加してください"
 
 #: fw/apps/system/weather/weather.c:103 fw/services/weather/weather_types.c:49
 msgid "Sunny"
-msgstr ""
+msgstr "晴れ"
 
 #: fw/apps/system/weather/weather.c:105 fw/services/weather/weather_types.c:51
 msgid "Partly Cloudy"
-msgstr ""
+msgstr "晴れ時々くもり"
 
 #: fw/apps/system/weather/weather.c:107 fw/services/weather/weather_types.c:53
 msgid "Cloudy"
-msgstr ""
+msgstr "くもり"
 
 #: fw/apps/system/weather/weather.c:109 fw/services/weather/weather_types.c:55
 msgid "Light Rain"
-msgstr ""
+msgstr "小雨"
 
 #: fw/apps/system/weather/weather.c:111 fw/services/weather/weather_types.c:57
 msgid "Rain"
-msgstr ""
+msgstr "雨"
 
 #: fw/apps/system/weather/weather.c:113 fw/services/weather/weather_types.c:59
 msgid "Light Snow"
-msgstr ""
+msgstr "小雪"
 
 #: fw/apps/system/weather/weather.c:115 fw/services/weather/weather_types.c:61
 msgid "Snow"
-msgstr ""
+msgstr "雪"
 
 #: fw/apps/system/weather/weather.c:117 fw/services/weather/weather_types.c:63
 msgid "Rain & Snow"
-msgstr ""
+msgstr "雨と雪"
 
 #: fw/apps/system/weather/weather.c:143 fw/services/clock/service.c:784
 #: fw/services/timeline/timeline_actions.c:1066
 msgid "Tomorrow"
-msgstr ""
+msgstr "明日"
 
 #: fw/apps/system/weather/weather.c:383
 msgid ""
 "No location information available. To see weather, add locations in your "
 "Pebble mobile app."
 msgstr ""
+"位置情報がありません。天気を表示するには、スマートフォンのPebbleアプリで場所"
+"を追加してください。"
 
 #: fw/apps/system/weather/weather.c:794 fw/services/timeline/timeline.c:924
 msgid "Weather"
-msgstr ""
+msgstr "天気"
 
 #: fw/apps/system/weather/weather_app_layout.c:404
 msgid "Snow likely"
-msgstr ""
+msgstr "雪の見込み"
 
 #: fw/apps/system/weather/weather_app_layout.c:406
 msgid "Sleet likely"
-msgstr ""
+msgstr "みぞれの見込み"
 
 #: fw/apps/system/weather/weather_app_layout.c:408
 msgid "Rain likely"
-msgstr ""
+msgstr "雨の見込み"
 
 #: fw/apps/system/weather/weather_app_layout.c:416
 msgid "Chance of snow"
-msgstr ""
+msgstr "雪の可能性"
 
 #: fw/apps/system/weather/weather_app_layout.c:418
 msgid "Chance of sleet"
-msgstr ""
+msgstr "みぞれの可能性"
 
 #: fw/apps/system/weather/weather_app_layout.c:420
 msgid "Chance of rain"
-msgstr ""
+msgstr "雨の可能性"
 
 #: fw/apps/system/weather/weather_app_layout.c:458
 msgid "Hail"
-msgstr ""
+msgstr "ひょう"
 
 #: fw/apps/system/weather/weather_app_layout.c:460
 msgid "Chance of storms"
-msgstr ""
+msgstr "雷雨の可能性"
 
 #: fw/apps/system/weather/weather_app_layout.c:462
 msgid "Heavy snow"
-msgstr ""
+msgstr "大雪"
 
 #: fw/apps/system/weather/weather_app_layout.c:464
 msgid "Heavy rain"
@@ -2884,16 +2894,16 @@ msgstr ""
 msgid "While your Pebble was off wakeup events occurred for:\n"
 msgstr ""
 
-#: fw/process_management/app_manager.c:521
+#: fw/process_management/app_manager.c:530
 #, c-format
 msgid "%.*s is not responding"
 msgstr ""
 
-#: fw/process_management/process_manager.c:196
+#: fw/process_management/process_manager.c:197
 msgid "This app requires a newer version of the Pebble firmware."
 msgstr ""
 
-#: fw/process_management/process_manager.c:341
+#: fw/process_management/process_manager.c:342
 msgid "This app uses RockyJS which is no longer supported."
 msgstr ""
 
