@@ -711,7 +711,7 @@ msgid "km"
 msgstr ""
 
 #: fw/apps/system/health/activity_detail_card.c:61
-#: fw/apps/system/health/sleep_detail_card.c:67
+#: fw/apps/system/health/sleep_detail_card.c:184
 msgid "30 DAY AVG"
 msgstr ""
 
@@ -729,7 +729,7 @@ msgstr ""
 msgid "TOTAL"
 msgstr ""
 
-#: fw/apps/system/health/detail_card.c:679 fw/apps/system/weather/weather.c:141
+#: fw/apps/system/health/detail_card.c:726 fw/apps/system/weather/weather.c:141
 #: fw/services/clock/service.c:579 fw/services/clock/service.c:781
 msgid "Today"
 msgstr ""
@@ -820,16 +820,19 @@ msgstr ""
 msgid "Enable heart rate monitoring in the mobile app"
 msgstr ""
 
-#: fw/apps/system/health/sleep_detail_card.c:69
-msgid "30 DAY"
-msgstr ""
-
-#: fw/apps/system/health/sleep_detail_card.c:98
+#: fw/apps/system/health/sleep_detail_card.c:80
+#: fw/apps/system/health/sleep_detail_card.c:236
 msgid "SLEEP SESSION"
 msgstr ""
 
-#: fw/apps/system/health/sleep_detail_card.c:111
+#: fw/apps/system/health/sleep_detail_card.c:140
+#: fw/apps/system/health/sleep_detail_card.c:249
 msgid "DEEP SLEEP"
+msgstr ""
+
+#: fw/apps/system/health/sleep_detail_card.c:143
+#: fw/apps/system/health/sleep_detail_card.c:186
+msgid "30 DAY"
 msgstr ""
 
 #: fw/apps/system/health/sleep_summary_card.c:215
