@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-09 00:26+0000\n"
+"PO-Revision-Date: 2026-11-09 07:26+0000\n"
 "Last-Translator: おーの <nobb.hero@gmail.com>\n"
 "Language-Team: Japanese <https://translate.repebble.com/projects/pebbleos/"
 "watch/ja/>\n"
@@ -2474,7 +2474,7 @@ msgstr "持久力"
 #. / Zone 3 HR Label
 #: fw/apps/system/workout/active.c:142
 msgid "PERFORMANCE"
-msgstr ""
+msgstr "高強度"
 
 #. / Default/Zone 0 HR Label
 #: fw/apps/system/workout/active.c:145
@@ -3143,7 +3143,7 @@ msgstr ""
 msgid ""
 "Nice moves! You've walked %d steps today which is %d%% above your typical. "
 "Crush it again tomorrow 😀"
-msgstr ""
+msgstr "いい調子！今日は%d歩、いつもの平均より%d%%多く歩きました。明日もこの調子で 😀"
 
 #: fw/services/activity/activity_insights.c:1365
 #, c-format
@@ -3151,6 +3151,8 @@ msgid ""
 "Hey rockstar 🎤 You've walked %d steps today which is %d%% above your "
 "typical. Nothing can stop you!"
 msgstr ""
+"今日も絶好調！🎤 %d歩も歩いて、いつもの平均を%d%%上回りました。もう誰にも止め"
+"られません！"
 
 #: fw/services/activity/activity_insights.c:1367
 #, c-format
@@ -3158,13 +3160,15 @@ msgid ""
 "We can barely keep up! You walked %d steps today which is %d%% above your "
 "typical. You're on 🔥"
 msgstr ""
+"ついていくのが大変なくらい！今日は%d歩、いつもの平均より%d%%多く歩きました。"
+"燃えていますね 🔥"
 
 #: fw/services/activity/activity_insights.c:1370
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% above your typical. You just "
 "outstepped YOURSELF. Mic drop."
-msgstr ""
+msgstr "今日は%d歩、いつもの平均より%d%%多く歩きました。自分の記録を超えましたね。"
 
 #: fw/services/activity/activity_insights.c:1379
 #, c-format
@@ -3172,25 +3176,27 @@ msgid ""
 "You walked %d steps today; keep it up! Being active is the key to feeling "
 "like a million bucks. Try to beat your typical tomorrow."
 msgstr ""
+"今日は%d歩！その調子で続けましょう。体を動かすと気分も上がります。明日はいつ"
+"もの平均を超えてみましょう。"
 
 #: fw/services/activity/activity_insights.c:1382
 #, c-format
 msgid "Good job! You walked %d steps today–do it again tomorrow."
-msgstr ""
+msgstr "よく頑張りました！今日は%d歩。明日も続けましょう。"
 
 #: fw/services/activity/activity_insights.c:1383
 #, c-format
 msgid ""
 "Someone's on the move 👊 You walked %d steps today; keep doing what you're "
 "doing!"
-msgstr ""
+msgstr "今日もアクティブですね 👊 %d歩も歩きました。その調子です！"
 
 #: fw/services/activity/activity_insights.c:1385
 #, c-format
 msgid ""
 "You keep moving, we'll keep counting! You've clocked in %d steps today. Keep "
 "it rolling, hot stuff."
-msgstr ""
+msgstr "歩き続ける限り、こちらも数え続けます！今日は%d歩。この調子でいきましょう。"
 
 #: fw/services/activity/activity_insights.c:1394
 #, c-format
@@ -3198,6 +3204,8 @@ msgid ""
 "You walked %d steps today which is %d%% below your typical. Try to be more "
 "active tomorrow–you can do it!"
 msgstr ""
+"今日は%d歩で、いつもの平均より%d%%少なめでした。明日はもう少し動いてみましょ"
+"う。きっとできます！"
 
 #: fw/services/activity/activity_insights.c:1397
 #, c-format
@@ -3205,6 +3213,8 @@ msgid ""
 "You walked %d steps which is %d%% below your typical. Being active makes you "
 "feel amaaaazing–try to get back on track tomorrow."
 msgstr ""
+"今日は%d歩で、いつもの平均より%d%%少なめでした。体を動かすと気分もよくなりま"
+"す。明日はいつものペースを取り戻しましょう。"
 
 #: fw/services/activity/activity_insights.c:1399
 #, c-format
@@ -3212,6 +3222,8 @@ msgid ""
 "You walked %d steps today which is %d%% below your typical. Don't worry, "
 "tomorrow is just around the corner 😀"
 msgstr ""
+"今日は%d歩で、いつもの平均より%d%%少なめでした。でも大丈夫。明日はまた新しい"
+"一日です 😀"
 
 #: fw/services/activity/activity_insights.c:1401
 #, c-format
@@ -3219,25 +3231,27 @@ msgid ""
 "You walked %d steps which is %d%% below your typical, but don't stress. "
 "You'll crush it tomorrow 😉"
 msgstr ""
+"今日は%d歩、いつもの平均より%d%%少なめでした。気にしすぎず、明日また頑張りま"
+"しょう 😉"
 
 #: fw/services/activity/activity_insights.c:1408
 #, c-format
 msgid ""
 "You walked %d steps today. Don't fret, you can get back on track in no time "
 "😉"
-msgstr ""
+msgstr "今日は%d歩。焦らず、また自分のペースに戻していきましょう 😉"
 
 #: fw/services/activity/activity_insights.c:1410
 #, c-format
 msgid "You walked %d steps today. Good news is the sky's the limit!"
-msgstr ""
+msgstr "今日は%d歩。これからいくらでも伸ばせますよ！"
 
 #: fw/services/activity/activity_insights.c:1411
 #, c-format
 msgid ""
 "You walked %d steps today. Try to take even more steps tomorrow–show us what "
 "you're made of!"
-msgstr ""
+msgstr "今日は%d歩。明日はもう少し歩いて、自分の力を試してみましょう！"
 
 #. / Sleep notification on wake up, slept under 6 hours
 #: fw/services/activity/activity_insights.c:1461
@@ -3246,6 +3260,8 @@ msgid ""
 "Short night? You slept for %dH %dM. Most adults need at least 7 hours, so "
 "try heading to bed earlier tonight."
 msgstr ""
+"昨夜は睡眠時間が短めでしたね。%d時間%d分眠りました。大人は一般に7時間以上の睡"
+"眠が必要です。今夜は少し早めに寝てみましょう。"
 
 #: fw/services/activity/activity_insights.c:1463
 #, c-format
@@ -3253,6 +3269,8 @@ msgid ""
 "You slept for %dH %dM. Sleep fuels everything you do; let's aim for more "
 "tonight 😉"
 msgstr ""
+"昨夜は%d時間%d分眠りました。睡眠は毎日の元気の源です。今夜はもう少し長く眠っ"
+"てみましょう😉"
 
 #. / Sleep notification on wake up, slept 6 to 7 hours, not below their typical
 #: fw/services/activity/activity_insights.c:1471
@@ -3260,6 +3278,8 @@ msgstr ""
 msgid ""
 "You slept for %dH %dM. You're close! A little extra tonight goes a long way."
 msgstr ""
+"昨夜は%d時間%d分眠りました。あと少し！今夜もう少し長く眠るだけでも、きっと違"
+"いを感じられますよ。"
 
 #: fw/services/activity/activity_insights.c:1472
 #, c-format
@@ -3267,6 +3287,8 @@ msgid ""
 "Good morning! You slept for %dH %dM. Just a bit more sleep would help you "
 "feel your best."
 msgstr ""
+"おはようございます！昨夜は%d時間%d分眠りました。もう少し長く眠ると、さらに元"
+"気に過ごせそうですね。"
 
 #. / Sleep notification on wake up, slept 9 to 10 hours
 #: fw/services/activity/activity_insights.c:1480
@@ -3275,6 +3297,8 @@ msgid ""
 "You slept for %dH %dM. A long night can help you catch up after short ones; "
 "a steady routine is what counts."
 msgstr ""
+"昨夜は%d時間%d分眠りました。長めの睡眠は寝不足を補うのに役立ちますが、何より"
+"大切なのは規則正しい睡眠習慣です。"
 
 #: fw/services/activity/activity_insights.c:1482
 #, c-format
@@ -3282,6 +3306,8 @@ msgid ""
 "Well rested? You slept for %dH %dM. Extra sleep helps you recover, but most "
 "adults do best with 7 to 9 hours."
 msgstr ""
+"よく眠れましたか？昨夜は%d時間%d分眠りました。長めの睡眠は疲労回復に役立ちま"
+"すが、多くの大人には7～9時間の睡眠が適しています。"
 
 #. / Sleep notification on wake up, slept 10 hours or more
 #: fw/services/activity/activity_insights.c:1490
@@ -3290,6 +3316,8 @@ msgid ""
 "You slept for %dH %dM. That's a long night! Great for recovering, but a "
 "regular bedtime and wake time will help you feel your best."
 msgstr ""
+"昨夜は%d時間%d分眠りました。たっぷり眠れましたね！疲労回復にはいいですが、毎"
+"日決まった時間に寝起きすると、より元気に過ごせますよ。"
 
 #: fw/services/activity/activity_insights.c:1492
 #, c-format
@@ -3297,6 +3325,8 @@ msgid ""
 "You slept for %dH %dM, more than most adults need. Catching up now and then "
 "is fine; try to keep a steady routine."
 msgstr ""
+"昨夜は%d時間%d分眠りました。多くの大人に必要な睡眠時間より長めです。たまに寝"
+"不足を補うのはいいですが、普段は規則正しい睡眠を心がけましょう。"
 
 #. / Sleep notification on wake up, slept above their typical sleep duration
 #: fw/services/activity/activity_insights.c:1503
@@ -3305,6 +3335,8 @@ msgid ""
 "Refreshed? You slept for %dH %dM which is %d%% above your typical. Go tackle "
 "your day 😃."
 msgstr ""
+"すっきり目覚めましたか？%d時間%d分眠り、いつもの平均より%d%%長めでした。今日"
+"も元気にいきましょう 😃。"
 
 #: fw/services/activity/activity_insights.c:1505
 #, c-format
@@ -3312,6 +3344,8 @@ msgid ""
 "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above your "
 "typical. Keep it up."
 msgstr ""
+"ぐっすり眠れましたね！%d時間%d分で、いつもの平均より%d%%長めの睡眠。この調子"
+"です。"
 
 #: fw/services/activity/activity_insights.c:1507
 #, c-format
@@ -3319,6 +3353,8 @@ msgid ""
 "Rise and shine! You slept for %dH %dM which is %d%% above your typical. Do "
 "it again tonight, sleep master."
 msgstr ""
+"おはようございます！%d時間%d分、いつもの平均より%d%%長く眠れました。今夜もぐ"
+"っすり眠りましょう。"
 
 #: fw/services/activity/activity_insights.c:1510
 #, c-format
@@ -3326,6 +3362,8 @@ msgid ""
 "Mmmm...what a night. You slept for %dH %dM which is %d%% above your typical. "
 "That's gotta feel good!"
 msgstr ""
+"いい夜でしたね！%d時間%d分、いつもの平均より%d%%長く眠れました。気持ちよさそ"
+"う！"
 
 #: fw/services/activity/activity_insights.c:1513
 #, c-format
@@ -3333,6 +3371,8 @@ msgid ""
 "That's a lot of sheep you just counted! You slept for %dH %dM which is %d%% "
 "above your typical. Boom shakalaka."
 msgstr ""
+"数えた羊も多そうですね！%d時間%d分、いつもの平均より%d%%長く眠れました。やり"
+"ました。"
 
 #. / Sleep notification on wake up, slept similar to their typical sleep duration
 #: fw/services/activity/activity_insights.c:1523
@@ -3341,6 +3381,8 @@ msgid ""
 "Good mornin’. You slept for %dH %dM. Every good day begins with a solid "
 "night’s sleep...kinda like that one 😉 Keep it up!"
 msgstr ""
+"おはようございます。%d時間%d分眠れました。いい一日は、ぐっすり眠った夜から始"
+"まりますね 😉 この調子！"
 
 #: fw/services/activity/activity_insights.c:1526
 #, c-format
@@ -3348,18 +3390,20 @@ msgid ""
 "Good morning! You slept for %dH %dM. Consistency is key; keep doing what "
 "you're doing 😃."
 msgstr ""
+"おはようございます！%d時間%d分眠れました。規則正しい睡眠が大切。その調子で続"
+"けましょう 😃。"
 
 #: fw/services/activity/activity_insights.c:1529
 #, c-format
 msgid ""
 "You're rockin' the shut eye! You slept for %dH %dM. Make it a nightly "
 "ritual. You deserve it."
-msgstr ""
+msgstr "よく眠れていますね！%d時間%d分の睡眠。毎晩の習慣にしましょう。自分を大切に。"
 
 #: fw/services/activity/activity_insights.c:1531
 #, c-format
 msgid "Feelin' good? You slept for %dH %dM. Nothing can stop you now 👊"
-msgstr ""
+msgstr "いい気分ですか？%d時間%d分眠れました。今日は何でもできそうですね 👊"
 
 #. / Sleep notification on wake up, slept below their typical sleep duration
 #: fw/services/activity/activity_insights.c:1540
@@ -3368,6 +3412,8 @@ msgid ""
 "Hey sleepy head. You slept for %dH %dM which is %d%% below your typical. Try "
 "to get more tonight!"
 msgstr ""
+"お寝坊さん、おはよう！%d時間%d分眠りましたが、いつもの平均より%d%%短め。今夜"
+"はもう少し眠りましょう！"
 
 #: fw/services/activity/activity_insights.c:1542
 #, c-format
@@ -3375,6 +3421,8 @@ msgid ""
 "Groggy? You slept for %dH %dM which is %d%% below your typical. Sleep is "
 "important for everything you do-try getting more shut eye tonight!"
 msgstr ""
+"まだ眠いですか？%d時間%d分で、いつもの平均より%d%%短めの睡眠でした。睡眠は大"
+"切。今夜はもう少し長く眠りましょう！"
 
 #: fw/services/activity/activity_insights.c:1544
 #, c-format
@@ -3382,6 +3430,8 @@ msgid ""
 "It's a new day! You slept for %dH %dM which is %d%% below your typical. It's "
 "not your best, but there's always tonight."
 msgstr ""
+"新しい朝ですね！%d時間%d分眠り、いつもの平均より%d%%短めでした。今夜またゆっ"
+"くり休みましょう。"
 
 #: fw/services/activity/activity_insights.c:1547
 #, c-format
@@ -3389,6 +3439,8 @@ msgid ""
 "Goooood morning! You slept for %dH %dM which is %d%% below your typical. Go "
 "crush your day and then get back in bed 😉"
 msgstr ""
+"おはようございまーす！%d時間%d分、いつもの平均より%d%%短めの睡眠でした。今日"
+"を頑張ったら、今夜は早めに寝ましょう 😉"
 
 #: fw/services/activity/activity_insights.c:1554
 #, c-format
@@ -3396,6 +3448,8 @@ msgid ""
 "You slept for %dH %dM which is %d%% below your typical. Sleep is vital for "
 "all your great ideas–how 'bout getting more tonight?"
 msgstr ""
+"%d時間%d分眠り、いつもの平均より%d%%短めでした。いいアイデアのためにも睡眠は"
+"大切。今夜はもう少し眠りませんか？"
 
 #: fw/services/activity/activity_insights.c:1556
 #, c-format
@@ -3403,6 +3457,8 @@ msgid ""
 "You only slept for %dH %dM which is %d%% below your typical. We know you're "
 "busy, but try getting more tonight. We believe in you 😉"
 msgstr ""
+"%d時間%d分の睡眠で、いつもの平均より%d%%短めでした。忙しいと思いますが、今夜"
+"はもう少し休みましょう。応援しています 😉"
 
 #: fw/services/activity/activity_insights.c:1558
 #, c-format
@@ -3410,67 +3466,69 @@ msgid ""
 "You slept for %dH %dM which is %d%% below your typical. We know stuff "
 "happens; take another crack at it tonight."
 msgstr ""
+"%d時間%d分眠り、いつもの平均より%d%%短めでした。そんな日もあります。今夜また"
+"ゆっくり眠りましょう。"
 
 #: fw/services/activity/activity_insights.c:1637
 #, c-format
 msgid "%u Steps"
-msgstr ""
+msgstr "%u歩"
 
 #: fw/services/activity/activity_insights.c:1719
 msgid "Didn’t that walk feel good?"
-msgstr ""
+msgstr "散歩は気持ちよかったですか？"
 
 #: fw/services/activity/activity_insights.c:1720
 msgid "Way to keep it active!"
-msgstr ""
+msgstr "元気に動けていますね！"
 
 #: fw/services/activity/activity_insights.c:1721
 msgid "You got the moves!"
-msgstr ""
+msgstr "いい動きです！"
 
 #: fw/services/activity/activity_insights.c:1722
 msgid "Gettin' your step on?"
-msgstr ""
+msgstr "今日も歩いていますか？"
 
 #: fw/services/activity/activity_insights.c:1732
 msgid "Feelin' hot? Cause you're on 🔥"
-msgstr ""
+msgstr "熱くなってきましたか？絶好調です 🔥"
 
 #: fw/services/activity/activity_insights.c:1733
 msgid "Hey lightning bolt, way to go!"
-msgstr ""
+msgstr "稲妻みたいな勢いですね！すごい！"
 
 #: fw/services/activity/activity_insights.c:1734
 msgid "You're a machine!"
-msgstr ""
+msgstr "まるで機械のような力強さ！"
 
 #: fw/services/activity/activity_insights.c:1735
 msgid "Hey speedster, we can barely keep up!"
-msgstr ""
+msgstr "速すぎてついていけません！"
 
 #: fw/services/activity/activity_insights.c:1736
 msgid "Way to show us what you're made of 👊"
-msgstr ""
+msgstr "すごい力を見せてくれましたね 👊"
 
 #: fw/services/activity/activity_insights.c:1746
 msgid "Workin' up a sweat?"
-msgstr ""
+msgstr "いい汗かいていますか？"
 
 #: fw/services/activity/activity_insights.c:1747
 msgid "Well done 💪"
-msgstr ""
+msgstr "よく頑張りました 💪"
 
 #: fw/services/activity/activity_insights.c:1748
 msgid "Endorphin rush?"
-msgstr ""
+msgstr "気分が上がってきましたか？"
 
 #: fw/services/activity/activity_insights.c:1749
 msgid "Can't stop, won't stop 👊"
-msgstr ""
+msgstr "まだまだ止まりません 👊"
 
 #: fw/services/activity/activity_insights.c:1750
 msgid "Keepin' that heart healthy! ❤"
-msgstr ""
+msgstr "心臓も元気に保ちましょう ❤"
 
 #: fw/services/activity/activity_insights.c:1778
 #: fw/services/activity/activity_insights.c:1870
@@ -3478,349 +3536,349 @@ msgstr ""
 #: fw/services/activity/activity_insights.c:1884
 #, c-format
 msgid "%d Min"
-msgstr ""
+msgstr "%d分"
 
 #: fw/services/activity/activity_insights.c:1807
 msgid "Avg Pace"
-msgstr ""
+msgstr "平均ペース"
 
 #: fw/services/activity/activity_insights.c:1823
 msgid "Distance"
-msgstr ""
+msgstr "距離"
 
 #: fw/services/activity/activity_insights.c:1835
 msgid "Steps"
-msgstr ""
+msgstr "歩数"
 
 #: fw/services/activity/activity_insights.c:1849
 msgid "Active Calories"
-msgstr ""
+msgstr "活動中の消費カロリー"
 
 #: fw/services/activity/activity_insights.c:1862
 msgid "Avg HR"
-msgstr ""
+msgstr "平均心拍数"
 
 #: fw/services/activity/health_util.c:30
 #, c-format
 msgid "%dH"
-msgstr ""
+msgstr "%dH"
 
 #: fw/services/activity/health_util.c:36
 #, c-format
 msgid "%dM"
-msgstr ""
+msgstr "%dM"
 
 #: fw/services/activity/health_util.c:59
 #, c-format
 msgid "%d:%d"
-msgstr ""
+msgstr "%d:%d"
 
 #: fw/services/activity/health_util.c:96
 msgid "h"
-msgstr ""
+msgstr "時間"
 
 #: fw/services/activity/health_util.c:102
 msgid " "
-msgstr ""
+msgstr " "
 
 #: fw/services/activity/health_util.c:112
 msgid "min"
-msgstr ""
+msgstr "分"
 
 #: fw/services/activity/health_util.c:130
 #, c-format
 msgid "%d.%d"
-msgstr ""
+msgstr "%d.%d"
 
 #: fw/services/alarms/alarm.c:465 fw/services/alarms/alarm_pin.c:74
 msgid "Alarm"
-msgstr ""
+msgstr "アラーム"
 
 #. / A frequency option for alarms, i.e. the alarm would go off every
 #. / day. Respect capitalization!
 #: fw/services/alarms/alarm.c:1426
 msgid "EVERY DAY"
-msgstr ""
+msgstr "毎日"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / every weekday. Respect capitalization!
 #: fw/services/alarms/alarm.c:1436
 msgid "WEEKDAYS"
-msgstr ""
+msgstr "平日"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / each day on the weekend. Respect capitalization!
 #: fw/services/alarms/alarm.c:1446
 msgid "WEEKENDS"
-msgstr ""
+msgstr "週末"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / one time ever. Respect capitalization!
 #: fw/services/alarms/alarm.c:1457
 msgid "ONCE"
-msgstr ""
+msgstr "1回のみ"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / one time ever. Respect capitalization!
 #: fw/services/alarms/alarm.c:1461
 msgid "Once"
-msgstr ""
+msgstr "1回のみ"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / on a custom choice of days. Respect capitalization!
 #: fw/services/alarms/alarm.c:1468
 msgid "CUSTOM"
-msgstr ""
+msgstr "カスタム"
 
 #: fw/services/alarms/alarm.c:1488
 msgid "Sundays"
-msgstr ""
+msgstr "毎週日曜"
 
 #: fw/services/alarms/alarm.c:1488
 msgid "Mondays"
-msgstr ""
+msgstr "毎週月曜"
 
 #: fw/services/alarms/alarm.c:1489
 msgid "Tuesdays"
-msgstr ""
+msgstr "毎週火曜"
 
 #: fw/services/alarms/alarm.c:1489
 msgid "Wednesdays"
-msgstr ""
+msgstr "毎週水曜"
 
 #: fw/services/alarms/alarm.c:1490
 msgid "Thursdays"
-msgstr ""
+msgstr "毎週木曜"
 
 #: fw/services/alarms/alarm.c:1490
 msgid "Fridays"
-msgstr ""
+msgstr "毎週金曜"
 
 #: fw/services/alarms/alarm.c:1491
 msgid "Saturdays"
-msgstr ""
+msgstr "毎週土曜"
 
 #: fw/services/alarms/alarm_pin.c:87
 msgid "Edit"
-msgstr ""
+msgstr "編集"
 
 #: fw/services/alarms/alarm_tones.c:187
 msgid "Reveille"
-msgstr ""
+msgstr "起床ラッパ"
 
 #: fw/services/alarms/alarm_tones.c:190
 msgid "Beacon"
-msgstr ""
+msgstr "ビーコン"
 
 #: fw/services/alarms/alarm_tones.c:192
 msgid "Bell"
-msgstr ""
+msgstr "ベル"
 
 #: fw/services/alarms/alarm_tones.c:194
 msgid "Chime"
-msgstr ""
+msgstr "チャイム"
 
 #: fw/services/clock/service.c:552 fw/services/clock/service.c:854
 msgid "%R"
-msgstr ""
+msgstr "%R"
 
 #: fw/services/clock/service.c:552
 msgid "%l:%M"
-msgstr ""
+msgstr "%l:%M"
 
 #: fw/services/clock/service.c:564
 #, c-format
 msgid "%p"
-msgstr ""
+msgstr "%p"
 
 #: fw/services/clock/service.c:580 fw/services/timeline/timeline_layout.c:424
 msgid "All day"
-msgstr ""
+msgstr "終日"
 
 #: fw/services/clock/service.c:593 fw/services/clock/service.c:605
 #: fw/services/clock/service.c:960
 msgid "Now"
-msgstr ""
+msgstr "今"
 
 #: fw/services/clock/service.c:597
 msgid " MIN. TO"
-msgstr ""
+msgstr " 分後"
 
 #: fw/services/clock/service.c:782 fw/services/clock/service.c:864
 #: fw/services/clock/service.c:872
 msgid "Yesterday"
-msgstr ""
+msgstr "昨日"
 
 #: fw/services/clock/service.c:787 fw/services/clock/service.c:902
 #: fw/services/clock/service.c:910
 #, c-format
 msgid "%A"
-msgstr ""
+msgstr "%A"
 
 #: fw/services/clock/service.c:790
 msgid "%B %d"
-msgstr ""
+msgstr "%B%d日"
 
 #: fw/services/clock/service.c:850
 msgid "%l:%M %p"
-msgstr ""
+msgstr "%p%l:%M"
 
 #: fw/services/clock/service.c:862
 msgid "Yesterday, %l:%M %p"
-msgstr ""
+msgstr "昨日 %p%l:%M"
 
 #: fw/services/clock/service.c:870
 msgid "Yesterday, %R"
-msgstr ""
+msgstr "昨日 %R"
 
 #: fw/services/clock/service.c:881
 msgid "%b %e, %l:%M %p"
-msgstr ""
+msgstr "%b%e日 %p%l:%M"
 
 #: fw/services/clock/service.c:889
 msgid "%b %e, %R"
-msgstr ""
+msgstr "%b%e日 %R"
 
 #: fw/services/clock/service.c:900
 msgid "%a, %l:%M %p"
-msgstr ""
+msgstr "%a曜 %p%l:%M"
 
 #: fw/services/clock/service.c:908
 msgid "%a, %R"
-msgstr ""
+msgstr "%a曜 %R"
 
 #: fw/services/clock/service.c:937
 #, c-format
 msgid "%lu H AGO"
-msgstr ""
+msgstr "%lu時間前"
 
 #: fw/services/clock/service.c:939
 msgid "An hour ago"
-msgstr ""
+msgstr "1時間前"
 
 #: fw/services/clock/service.c:941
 #, c-format
 msgid "%lu hours ago"
-msgstr ""
+msgstr "%lu時間前"
 
 #: fw/services/clock/service.c:951
 #, c-format
 msgid "%lu MIN AGO"
-msgstr ""
+msgstr "%lu分前"
 
 #: fw/services/clock/service.c:953
 #, c-format
 msgid "%lu minute ago"
-msgstr ""
+msgstr "%lu分前"
 
 #: fw/services/clock/service.c:955
 #, c-format
 msgid "%lu minutes ago"
-msgstr ""
+msgstr "%lu分前"
 
 #: fw/services/clock/service.c:960
 msgid "NOW"
-msgstr ""
+msgstr "今"
 
 #: fw/services/clock/service.c:968
 #, c-format
 msgid "IN %lu MIN"
-msgstr ""
+msgstr "%lu分後"
 
 #: fw/services/clock/service.c:970
 #, c-format
 msgid "In %lu minute"
-msgstr ""
+msgstr "%lu分後"
 
 #: fw/services/clock/service.c:972
 #, c-format
 msgid "In %lu minutes"
-msgstr ""
+msgstr "%lu分後"
 
 #: fw/services/clock/service.c:982
 #, c-format
 msgid "IN %lu H"
-msgstr ""
+msgstr "%lu時間後"
 
 #: fw/services/clock/service.c:984
 #, c-format
 msgid "In %lu hour"
-msgstr ""
+msgstr "%lu時間後"
 
 #: fw/services/clock/service.c:986
 #, c-format
 msgid "In %lu hours"
-msgstr ""
+msgstr "%lu時間後"
 
 #: fw/services/clock/service.c:997 fw/services/clock/service.c:1001
 #, c-format
 msgid "%m/%d"
-msgstr ""
+msgstr "%m/%d"
 
 #: fw/services/clock/service.c:1010
 msgid "%b "
-msgstr ""
+msgstr "%b "
 
 #: fw/services/clock/service.c:1010
 msgid "%B "
-msgstr ""
+msgstr "%B "
 
 #: fw/services/clock/service.c:1014
 #, c-format
 msgid "%e"
-msgstr ""
+msgstr "%e日"
 
 #: fw/services/clock/service.c:1065
 msgid "this morning"
-msgstr ""
+msgstr "今日の午前"
 
 #: fw/services/clock/service.c:1066
 msgid "this afternoon"
-msgstr ""
+msgstr "今日の午後"
 
 #: fw/services/clock/service.c:1067
 msgid "this evening"
-msgstr ""
+msgstr "今日の夕方"
 
 #: fw/services/clock/service.c:1068
 msgid "tonight"
-msgstr ""
+msgstr "今夜"
 
 #: fw/services/clock/service.c:1069
 msgid "tomorrow morning"
-msgstr ""
+msgstr "明日の午前"
 
 #: fw/services/clock/service.c:1070
 msgid "tomorrow afternoon"
-msgstr ""
+msgstr "明日の午後"
 
 #: fw/services/clock/service.c:1071
 msgid "tomorrow evening"
-msgstr ""
+msgstr "明日の夕方"
 
 #: fw/services/clock/service.c:1072
 msgid "tomorrow night"
-msgstr ""
+msgstr "明日の夜"
 
 #: fw/services/clock/service.c:1073 fw/services/clock/service.c:1074
 msgid "the day after tomorrow"
-msgstr ""
+msgstr "明後日"
 
 #: fw/services/clock/service.c:1075
 msgid "the foreseeable future"
-msgstr ""
+msgstr "しばらく先"
 
 #: fw/services/notifications/ancs/ancs_item.c:111
 msgid "sent an attachment"
-msgstr ""
+msgstr "添付ファイルを送信しました"
 
 #: fw/services/notifications/ancs/ancs_item.c:157
 msgid "Call Back"
-msgstr ""
+msgstr "折り返し電話"
 
 #: fw/services/notifications/ancs/ancs_notifications.c:444
 msgid "iPhone Notifications Blocked"
-msgstr ""
+msgstr "iPhoneからの通知がブロックされています"
 
 #: fw/services/notifications/ancs/ancs_notifications.c:447
 msgid ""
@@ -3828,214 +3886,223 @@ msgid ""
 "open Settings > Bluetooth, tap the (i) next to your Pebble and turn on Share "
 "System Notifications."
 msgstr ""
+"iPhoneからこの時計へ通知が共有されていません。iPhoneで「設定」→「Bluetooth」"
+"を開き、Pebbleの横にあるⓘをタップして「システム通知を共有」をオンにしてくださ"
+"い。"
 
 #: fw/services/notifications/do_not_disturb.c:113
 msgid "Calendar Aware enables Quiet Time automatically during calendar events."
-msgstr ""
+msgstr "「予定と連動」をオンにすると、予定の時間帯に自動で集中モードになります。"
 
 #: fw/services/notifications/do_not_disturb.c:121
 msgid ""
 "Press and hold the Back button from a notification to turn Quiet Time on or "
 "off."
-msgstr ""
+msgstr "通知の表示中に戻るボタンを長押しすると、集中モードを切り替えられます。"
 
 #: fw/services/notifications/do_not_disturb_toggle.c:29
 msgid "Start Quiet Time?"
-msgstr ""
+msgstr "集中モードを開始しますか？"
 
 #: fw/services/notifications/do_not_disturb_toggle.c:30
 msgid "End Quiet Time?"
-msgstr ""
+msgstr "集中モードを終了しますか？"
 
 #: fw/services/notifications/do_not_disturb_toggle.c:31
 msgid ""
 "Quiet Time\n"
 "Started"
 msgstr ""
+"集中モード\n"
+"開始"
 
 #: fw/services/notifications/do_not_disturb_toggle.c:32
 msgid ""
 "Quiet Time\n"
 "Ended"
 msgstr ""
+"集中モード\n"
+"終了"
 
 #: fw/services/timeline/calendar_layout.c:171
 msgid " - "
-msgstr ""
+msgstr " - "
 
 #: fw/services/timeline/calendar_layout.c:339
 msgid "All Day"
-msgstr ""
+msgstr "終日"
 
 #: fw/services/timeline/calendar_layout.c:383
 msgid "Recurring"
-msgstr ""
+msgstr "繰り返し"
 
 #: fw/services/timeline/sports_layout.c:61
 msgid "STARTS "
-msgstr ""
+msgstr "開始 "
 
 #: fw/services/timeline/sports_layout.c:149
 msgid "Broadcaster"
-msgstr ""
+msgstr "放送・配信"
 
 #: fw/services/timeline/timeline.c:698
 msgid "Can't connect. Relaunch Pebble Time app on phone."
-msgstr ""
+msgstr "接続できません。スマートフォンのPebble Timeアプリを再起動してください。"
 
 #: fw/services/timeline/timeline.c:710
 msgid "Removed"
-msgstr ""
+msgstr "削除しました"
 
 #: fw/services/timeline/timeline.c:720 fw/services/timeline/timeline.c:739
 msgid "Dismissed"
-msgstr ""
+msgstr "閉じました"
 
 #: fw/services/timeline/timeline.c:743
 msgid "Deleted"
-msgstr ""
+msgstr "削除しました"
 
 #: fw/services/timeline/timeline.c:770
 msgid "Thanks!"
-msgstr ""
+msgstr "ありがとう！"
 
 #: fw/services/timeline/timeline.c:920
 msgid "Calendar"
-msgstr ""
+msgstr "カレンダー"
 
 #: fw/services/timeline/timeline.c:928
 msgid "Reminders"
-msgstr ""
+msgstr "リマインダー"
 
 #: fw/services/timeline/timeline.c:940
 msgid "Intercom"
-msgstr ""
+msgstr "インターコム"
 
 #: fw/services/timeline/timeline_actions.c:723
 msgid ""
 "Quickly dismiss all notifications by holding the Select button for 2 seconds "
 "from any incoming notification."
 msgstr ""
+"通知が届いたときに中央ボタンを2秒間長押しすると、すべての通知をすばやく閉じら"
+"れます。"
 
 #: fw/services/timeline/timeline_actions.c:811
 msgid "Ok"
-msgstr ""
+msgstr "OK"
 
 #: fw/services/timeline/timeline_actions.c:812
 msgid "Yes"
-msgstr ""
+msgstr "はい"
 
 #: fw/services/timeline/timeline_actions.c:813
 msgid "No"
-msgstr ""
+msgstr "いいえ"
 
 #: fw/services/timeline/timeline_actions.c:814
 msgid "Call me"
-msgstr ""
+msgstr "電話して"
 
 #: fw/services/timeline/timeline_actions.c:815
 msgid "Call you later"
-msgstr ""
+msgstr "後で電話します"
 
 #: fw/services/timeline/timeline_actions.c:940
 msgid "Reply with Voice"
-msgstr ""
+msgstr "音声で返信"
 
 #: fw/services/timeline/timeline_actions.c:940
 msgid "Voice"
-msgstr ""
+msgstr "音声"
 
 #: fw/services/timeline/timeline_actions.c:950
 msgid "Canned messages"
-msgstr ""
+msgstr "定型文"
 
 #: fw/services/timeline/timeline_actions.c:954
 msgid "Emoji"
-msgstr ""
+msgstr "絵文字"
 
 #: fw/services/timeline/timeline_actions.c:1058
 msgid "In 15 minutes"
-msgstr ""
+msgstr "15分後"
 
 #: fw/services/timeline/timeline_actions.c:1062
 msgid "Later today"
-msgstr ""
+msgstr "今日の後ほど"
 
 #: fw/services/timeline/timeline_layout.c:803
 msgid "Last updated"
-msgstr ""
+msgstr "最終更新"
 
 #: fw/services/timeline/weather_layout.c:51
 msgid "Sunrise"
-msgstr ""
+msgstr "日の出"
 
 #: fw/services/timeline/weather_layout.c:53
 msgid "Sunset"
-msgstr ""
+msgstr "日の入り"
 
 #. / Standard vibration pattern option that has a low intensity
 #: fw/services/vibes/vibe_intensity.c:38 fw/services/vibes/vibes.def:5
 #: fw/services/vibes/vibes.def:6
 msgid "Standard - Low"
-msgstr ""
+msgstr "標準・弱"
 
 #. / Standard vibration pattern option that has a medium intensity
 #: fw/services/vibes/vibe_intensity.c:42
 msgid "Standard - Medium"
-msgstr ""
+msgstr "標準・中"
 
 #. / Standard vibration pattern option that has a high intensity
 #: fw/services/vibes/vibe_intensity.c:46 fw/services/vibes/vibes.def:7
 #: fw/services/vibes/vibes.def:8
 msgid "Standard - High"
-msgstr ""
+msgstr "標準・強"
 
 #: fw/services/vibes/vibes.def:4
 msgctxt "NotifVibe"
 msgid "Disabled"
-msgstr ""
+msgstr "無効"
 
 #: fw/services/vibes/vibes.def:9
 msgid "Pulse"
-msgstr ""
+msgstr "パルス"
 
 #: fw/services/vibes/vibes.def:10
 msgid "Nudge Nudge"
-msgstr ""
+msgstr "トントン"
 
 #: fw/services/vibes/vibes.def:11
 msgid "Jackhammer"
-msgstr ""
+msgstr "激しい振動"
 
 #: fw/services/vibes/vibes.def:15
 msgid "Gentle"
-msgstr ""
+msgstr "やさしい振動"
 
 #: fw/services/vibes/vibes.def:16
 msgid "Double Pulse Medium"
-msgstr ""
+msgstr "ダブルパルス・中"
 
 #: fw/services/vibes/vibes.def:17
 msgid "Pebble Morse"
-msgstr ""
+msgstr "Pebbleモールス"
 
 #: fw/services/vibes/vibes.def:18
 msgid "Heartbeat"
-msgstr ""
+msgstr "心拍"
 
 #: fw/services/vibes/vibes.def:20
 msgid "Wave"
-msgstr ""
+msgstr "ウェーブ"
 
 #: fw/shell/normal/battery_ui.c:357
 msgid "Fully Charged"
-msgstr ""
+msgstr "充電完了"
 
 #: fw/shell/normal/battery_ui.c:363
 msgid "Charging"
-msgstr ""
+msgstr "充電中"
 
 #: fw/shell/normal/battery_ui.c:381
 #, c-format
 msgid "Powered 'til %s"
-msgstr ""
+msgstr "バッテリーは%sまで持ちます"
