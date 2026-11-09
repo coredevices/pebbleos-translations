@@ -672,7 +672,7 @@ msgid ""
 msgstr ""
 
 #: fw/apps/system/alarms/alarms.c:480
-#: fw/apps/system/settings/vibe_patterns.c:93
+#: fw/apps/system/settings/vibe_patterns.c:65
 #: fw/services/timeline/timeline.c:937
 msgid "Alarms"
 msgstr ""
@@ -897,7 +897,7 @@ msgstr ""
 #: fw/apps/system/settings/notifications.c:491
 #: fw/apps/system/settings/quiet_time.c:539
 #: fw/apps/system/settings/quiet_time.c:623
-#: fw/apps/system/settings/vibe_patterns.c:83
+#: fw/apps/system/settings/vibe_patterns.c:61
 #: fw/services/timeline/timeline.c:921
 msgid "Notifications"
 msgstr ""
@@ -1045,7 +1045,7 @@ msgstr ""
 #: fw/apps/system/settings/quiet_time.c:613
 #: fw/apps/system/settings/quiet_time.c:633
 #: fw/apps/system/settings/system.c:1310 fw/apps/system/settings/timeline.c:193
-#: fw/apps/system/settings/vibe_patterns.c:69
+#: fw/apps/system/settings/vibe_patterns.c:90
 msgid "Off"
 msgstr ""
 
@@ -1061,7 +1061,7 @@ msgstr ""
 #: fw/apps/system/settings/quiet_time.c:613
 #: fw/apps/system/settings/quiet_time.c:633
 #: fw/apps/system/settings/system.c:1310 fw/apps/system/settings/timeline.c:190
-#: fw/apps/system/settings/vibe_patterns.c:69
+#: fw/apps/system/settings/vibe_patterns.c:90
 msgid "On"
 msgstr ""
 
@@ -1597,7 +1597,7 @@ msgid "Interruptions"
 msgstr ""
 
 #: fw/apps/system/settings/quiet_time.c:631
-#: fw/apps/system/settings/vibe_patterns.c:68
+#: fw/apps/system/settings/vibe_patterns.c:89
 msgid "Mute Speaker"
 msgstr ""
 
@@ -1623,7 +1623,7 @@ msgid "Settings"
 msgstr ""
 
 #: fw/apps/system/settings/speaker_volume_window.c:56
-#: fw/apps/system/settings/vibe_patterns.c:75
+#: fw/apps/system/settings/vibe_patterns.c:96
 msgid "Volume"
 msgstr ""
 
@@ -1809,7 +1809,7 @@ msgstr ""
 
 #. / Refers to the class of all non-score vibes, e.g. 3rd party app vibes
 #: fw/apps/system/settings/system.c:1377
-#: fw/apps/system/settings/vibe_patterns.c:109
+#: fw/apps/system/settings/vibe_patterns.c:72
 msgid "System"
 msgstr ""
 
@@ -1939,23 +1939,23 @@ msgstr ""
 msgid "Timeline"
 msgstr ""
 
-#: fw/apps/system/settings/vibe_patterns.c:88
+#: fw/apps/system/settings/vibe_patterns.c:63
 msgid "Incoming Calls"
 msgstr ""
 
-#: fw/apps/system/settings/vibe_patterns.c:98
+#: fw/apps/system/settings/vibe_patterns.c:67
 msgid "Hourly Notice"
 msgstr ""
 
-#: fw/apps/system/settings/vibe_patterns.c:103
+#: fw/apps/system/settings/vibe_patterns.c:69
 msgid "On Disconnect"
 msgstr ""
 
-#: fw/apps/system/settings/vibe_patterns.c:285
+#: fw/apps/system/settings/vibe_patterns.c:403
 msgid "Sounds & Haptics"
 msgstr ""
 
-#: fw/apps/system/settings/vibe_patterns.c:287
+#: fw/apps/system/settings/vibe_patterns.c:405
 msgid "Vibrations"
 msgstr ""
 
