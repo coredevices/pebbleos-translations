@@ -673,7 +673,7 @@ msgstr ""
 
 #: fw/apps/system/alarms/alarms.c:480
 #: fw/apps/system/settings/vibe_patterns.c:93
-#: fw/services/timeline/timeline.c:932
+#: fw/services/timeline/timeline.c:937
 msgid "Alarms"
 msgstr ""
 
@@ -692,7 +692,7 @@ msgid "Incompatible JS"
 msgstr ""
 
 #: fw/apps/system/app_fetch_ui.c:139
-#: fw/services/timeline/timeline_actions.c:270
+#: fw/services/timeline/timeline_actions.c:271
 msgid "Failed"
 msgstr ""
 
@@ -763,7 +763,7 @@ msgid "Health requires the time to be synced. Please connect your phone."
 msgstr ""
 
 #: fw/apps/system/health/health.c:187 fw/apps/system/settings/health.c:265
-#: fw/services/timeline/timeline.c:936
+#: fw/services/timeline/timeline.c:941
 msgid "Health"
 msgstr ""
 
@@ -898,7 +898,7 @@ msgstr ""
 #: fw/apps/system/settings/quiet_time.c:539
 #: fw/apps/system/settings/quiet_time.c:623
 #: fw/apps/system/settings/vibe_patterns.c:83
-#: fw/services/timeline/timeline.c:916
+#: fw/services/timeline/timeline.c:921
 msgid "Notifications"
 msgstr ""
 
@@ -921,7 +921,7 @@ msgstr ""
 
 #: fw/apps/system/reminders/reminder.c:68
 #: fw/services/activity/activity_insights.c:466
-#: fw/services/timeline/timeline.c:657
+#: fw/services/timeline/timeline.c:658
 msgid "Remove"
 msgstr ""
 
@@ -2218,7 +2218,7 @@ msgid "Rain & Snow"
 msgstr ""
 
 #: fw/apps/system/weather/weather.c:143 fw/services/clock/service.c:784
-#: fw/services/timeline/timeline_actions.c:1066
+#: fw/services/timeline/timeline_actions.c:1067
 msgid "Tomorrow"
 msgstr ""
 
@@ -2228,7 +2228,7 @@ msgid ""
 "Pebble mobile app."
 msgstr ""
 
-#: fw/apps/system/weather/weather.c:794 fw/services/timeline/timeline.c:924
+#: fw/apps/system/weather/weather.c:794 fw/services/timeline/timeline.c:929
 msgid "Weather"
 msgstr ""
 
@@ -3819,85 +3819,85 @@ msgstr ""
 msgid "Broadcaster"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:698
+#: fw/services/timeline/timeline.c:699
 msgid "Can't connect. Relaunch Pebble Time app on phone."
 msgstr ""
 
-#: fw/services/timeline/timeline.c:710
+#: fw/services/timeline/timeline.c:711
 msgid "Removed"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:720 fw/services/timeline/timeline.c:739
+#: fw/services/timeline/timeline.c:721 fw/services/timeline/timeline.c:740
 msgid "Dismissed"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:743
+#: fw/services/timeline/timeline.c:744
 msgid "Deleted"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:770
+#: fw/services/timeline/timeline.c:771
 msgid "Thanks!"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:920
+#: fw/services/timeline/timeline.c:925
 msgid "Calendar"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:928
+#: fw/services/timeline/timeline.c:933
 msgid "Reminders"
 msgstr ""
 
-#: fw/services/timeline/timeline.c:940
+#: fw/services/timeline/timeline.c:945
 msgid "Intercom"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:723
+#: fw/services/timeline/timeline_actions.c:724
 msgid ""
 "Quickly dismiss all notifications by holding the Select button for 2 seconds "
 "from any incoming notification."
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:811
+#: fw/services/timeline/timeline_actions.c:812
 msgid "Ok"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:812
+#: fw/services/timeline/timeline_actions.c:813
 msgid "Yes"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:813
+#: fw/services/timeline/timeline_actions.c:814
 msgid "No"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:814
+#: fw/services/timeline/timeline_actions.c:815
 msgid "Call me"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:815
+#: fw/services/timeline/timeline_actions.c:816
 msgid "Call you later"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:940
+#: fw/services/timeline/timeline_actions.c:941
 msgid "Reply with Voice"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:940
+#: fw/services/timeline/timeline_actions.c:941
 msgid "Voice"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:950
+#: fw/services/timeline/timeline_actions.c:951
 msgid "Canned messages"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:954
+#: fw/services/timeline/timeline_actions.c:955
 msgid "Emoji"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:1058
+#: fw/services/timeline/timeline_actions.c:1059
 msgid "In 15 minutes"
 msgstr ""
 
-#: fw/services/timeline/timeline_actions.c:1062
+#: fw/services/timeline/timeline_actions.c:1063
 msgid "Later today"
 msgstr ""
 
