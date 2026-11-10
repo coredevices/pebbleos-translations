@@ -511,27 +511,35 @@ msgstr ""
 msgid "End"
 msgstr ""
 
-#: pebble/applib/voice/voice_window.c:187
+#: pebble/applib/voice/voice_window.c:188
 msgid "Dictation is not available."
 msgstr ""
 
-#: pebble/applib/voice/voice_window.c:206
+#: pebble/applib/voice/voice_window.c:207
 msgid "Error occurred. Try again."
 msgstr ""
 
-#: pebble/applib/voice/voice_window.c:213 pebble/apps/system/app_fetch_ui.c:125
+#: pebble/applib/voice/voice_window.c:214 pebble/apps/system/app_fetch_ui.c:125
 msgid "No internet connection"
 msgstr ""
 
-#: pebble/applib/voice/voice_window.c:225
+#: pebble/applib/voice/voice_window.c:226
 msgid "Enable voice in the settings page of the Pebble app."
 msgstr ""
 
-#: pebble/applib/voice/voice_window.c:388
+#: pebble/applib/voice/voice_window.c:389
 msgid "Missed that. Try again."
 msgstr ""
 
-#: pebble/applib/voice/voice_window.c:1115
+#: pebble/applib/voice/voice_window.c:683
+msgid "Retrying"
+msgstr ""
+
+#: pebble/applib/voice/voice_window.c:686
+msgid "Retrying offline"
+msgstr ""
+
+#: pebble/applib/voice/voice_window.c:1135
 msgid "Listening"
 msgstr ""
 
