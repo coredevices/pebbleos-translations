@@ -1,7 +1,7 @@
 {
   "languages": [
     {
-      "locale": "ar_SA",
+      "locale": "ar_AA",
       "name": "Arabic",
       "nativeName": "العربية",
       "version": 2,
@@ -12,7 +12,7 @@
       "size": 80814
     },
     {
-      "locale": "ar_SA",
+      "locale": "ar_AA",
       "name": "Arabic",
       "nativeName": "العربية",
       "version": 2,
@@ -23,7 +23,7 @@
       "size": 80814
     },
     {
-      "locale": "ar_SA",
+      "locale": "ar_AA",
       "name": "Arabic",
       "nativeName": "العربية",
       "version": 2,
@@ -34,7 +34,7 @@
       "size": 80814
     },
     {
-      "locale": "ar_SA",
+      "locale": "ar_AA",
       "name": "Arabic",
       "nativeName": "العربية",
       "version": 2,
@@ -45,7 +45,7 @@
       "size": 80814
     },
     {
-      "locale": "ar_SA",
+      "locale": "ar_AA",
       "name": "Arabic",
       "nativeName": "العربية",
       "version": 2,
@@ -56,7 +56,7 @@
       "size": 80814
     },
     {
-      "locale": "ar_SA",
+      "locale": "ar_AA",
       "name": "Arabic",
       "nativeName": "العربية",
       "version": 2,
@@ -67,7 +67,7 @@
       "size": 80814
     },
     {
-      "locale": "ar_SA",
+      "locale": "ar_AA",
       "name": "Arabic",
       "nativeName": "العربية",
       "version": 2,
@@ -78,7 +78,7 @@
       "size": 80814
     },
     {
-      "locale": "bg",
+      "locale": "bg_BG",
       "name": "Bulgarian - by MarSoft",
       "nativeName": "български",
       "version": 1,
@@ -1057,7 +1057,7 @@
       "size": 1133437
     },
     {
-      "locale": "zh_TW",
+      "locale": "zh_Hant",
       "name": "Traditional Chinese",
       "nativeName": "中文 (繁體)",
       "version": 1,
@@ -1068,7 +1068,7 @@
       "size": 1133382
     },
     {
-      "locale": "zh_TW",
+      "locale": "zh_Hant",
       "name": "Traditional Chinese",
       "nativeName": "中文 (繁體)",
       "version": 1,
