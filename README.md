@@ -76,6 +76,14 @@ languages. Compiled fonts and preview caches are generated artifacts.
 Coverage gaps are warnings in local checks. Emoji, string-to-style usage and
 screen layout are not checked. See [coverage data](data/README.md) for details.
 
+## Legacy packs
+
+`legacy/packs.json` lists older community and Pebble-era packs that are hosted
+elsewhere, one entry per locale and hardware revision. Each release copies them
+into the manifest's `legacyLanguages` array unchanged. The app checks each
+download against the pinned `sha256` and `size`, so if a file changes upstream
+its entry must be updated here.
+
 ## License
 
 [Apache License 2.0](LICENSE), except where individual notices specify otherwise.

@@ -101,6 +101,50 @@ def completion(catalog, template):
     return {"translatedStrings": translated, "totalStrings": len(source)}
 
 
+LEGACY_FIELDS = {
+    "locale": str,
+    "name": str,
+    "nativeName": str,
+    "version": int,
+    "firmware": str,
+    "hardware": (str, type(None)),
+    "url": str,
+    "sha256": str,
+    "size": int,
+}
+
+
+def legacy_languages(root):
+    """Externally hosted packs for older firmware, pinned by checksum."""
+    path = Path(root) / "legacy" / "packs.json"
+    if not path.is_file():
+        return []
+    packs = json.loads(path.read_text())["languages"]
+    seen = set()
+    for pack in packs:
+        if set(pack) != set(LEGACY_FIELDS) or not all(
+            isinstance(pack[k], t) and not isinstance(pack[k], bool)
+            for k, t in LEGACY_FIELDS.items()
+        ):
+            raise ValueError(f"Invalid legacy pack entry: {pack}")
+        if not (
+            re.fullmatch(r"[A-Za-z][A-Za-z0-9_@.-]*", pack["locale"])
+            and pack["name"].strip()
+            and pack["nativeName"].strip()
+            and 1 <= pack["version"] <= 65535
+            and re.fullmatch(r"\d+(\.\d+)*", pack["firmware"])
+            and pack["url"].startswith("https://")
+            and re.fullmatch(r"[a-f0-9]{64}", pack["sha256"])
+            and 1 <= pack["size"] <= 16_777_216
+        ):
+            raise ValueError(f"Invalid legacy pack entry: {pack}")
+        key = (pack["locale"], pack["hardware"], pack["url"])
+        if key in seen:
+            raise ValueError(f"Duplicate legacy pack entry: {key}")
+        seen.add(key)
+    return packs
+
+
 def read_previous(directory):
     if directory is None:
         return None
@@ -344,6 +388,7 @@ def build(
         "sourceCommit": git(root, "rev-parse", "HEAD"),
         "languages": languages,
         "versionHighWater": versions,
+        "legacyLanguages": legacy_languages(root),
     }
 
     # Release URLs and publication metadata naturally change between snapshots.
@@ -354,6 +399,7 @@ def build(
         bool(languages)
         if not old
         else comparable(languages) != comparable(old["languages"])
+        or manifest["legacyLanguages"] != old.get("legacyLanguages", [])
     )
     (output / "readiness.json").write_text(
         json.dumps({"languages": readiness}, indent=2, ensure_ascii=False) + "\n"

@@ -349,6 +349,55 @@ class ReleaseTest(unittest.TestCase):
         with self.assertRaises(FileNotFoundError):
             self.build()
 
+    def write_legacy(self, packs):
+        (self.root / "legacy").mkdir(exist_ok=True)
+        (self.root / "legacy/packs.json").write_text(json.dumps({"languages": packs}))
+        self.commit()
+
+    def legacy_pack(self, **changes):
+        return {
+            "locale": "de_DE",
+            "name": "German",
+            "nativeName": "Deutsch",
+            "version": 34,
+            "firmware": "4.0.0",
+            "hardware": "silk",
+            "url": "https://example.invalid/de_DE.pbl",
+            "sha256": "a" * 64,
+            "size": 41339,
+            **changes,
+        }
+
+    def test_legacy_packs_are_published_and_changes_trigger_release(self):
+        first, manifest, _ = self.build()
+        self.assertEqual(manifest["legacyLanguages"], [])
+        self.write_legacy([self.legacy_pack()])
+        second, manifest, changed = self.build(first)
+        self.assertTrue(changed)
+        self.assertEqual(manifest["legacyLanguages"], [self.legacy_pack()])
+        self.assertFalse((second / "de_DE.pbl").exists())
+        _, _, changed = self.build(second)
+        self.assertFalse(changed)
+
+    def test_invalid_legacy_pack_fails(self):
+        for pack in (
+            self.legacy_pack(sha256="abc"),
+            self.legacy_pack(url="http://example.invalid/de_DE.pbl"),
+            self.legacy_pack(version=0),
+            self.legacy_pack(extra=True),
+        ):
+            with self.subTest(pack=pack):
+                self.write_legacy([pack])
+                with self.assertRaises(ValueError):
+                    self.build()
+        self.write_legacy([self.legacy_pack(), self.legacy_pack()])
+        with self.assertRaisesRegex(ValueError, "Duplicate"):
+            self.build()
+
+    def test_checked_in_legacy_packs_are_valid(self):
+        packs = releases.legacy_languages(Path(__file__).resolve().parents[1])
+        self.assertTrue(packs)
+
     def test_community_language_is_not_published(self):
         self.evidence["reviewers"] = []
         directory, manifest, changed = self.build()
