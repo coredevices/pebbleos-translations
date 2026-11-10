@@ -205,13 +205,13 @@ msgstr ""
 
 #: pebble/applib/pbl_std/timelocal.c:64
 #: pebble/applib/ui/date_time_selection_window_private.c:74
-#: pebble/apps/system/weather/expanded_view.c:162
+#: pebble/apps/system/weather/expanded_view.c:165
 msgid "AM"
 msgstr ""
 
 #: pebble/applib/pbl_std/timelocal.c:65
 #: pebble/applib/ui/date_time_selection_window_private.c:76
-#: pebble/apps/system/weather/expanded_view.c:162
+#: pebble/apps/system/weather/expanded_view.c:165
 msgid "PM"
 msgstr ""
 
@@ -2139,60 +2139,60 @@ msgstr ""
 msgid "Watchfaces"
 msgstr ""
 
-#: pebble/apps/system/weather/expanded_view.c:181
+#: pebble/apps/system/weather/expanded_view.c:184
 msgid "Sunset --:--"
 msgstr ""
 
-#: pebble/apps/system/weather/expanded_view.c:184
+#: pebble/apps/system/weather/expanded_view.c:187
 #, c-format
 msgid "Sunset %s"
 msgstr ""
 
-#: pebble/apps/system/weather/expanded_view.c:209
+#: pebble/apps/system/weather/expanded_view.c:212
 msgid "Last updated --:--"
 msgstr ""
 
-#: pebble/apps/system/weather/expanded_view.c:212
+#: pebble/apps/system/weather/expanded_view.c:215
 #, c-format
 msgid "Last updated %s"
 msgstr ""
 
-#: pebble/apps/system/weather/expanded_view.c:398
+#: pebble/apps/system/weather/expanded_view.c:401
 msgid "PRECIPITATION: --"
 msgstr ""
 
-#: pebble/apps/system/weather/expanded_view.c:400
+#: pebble/apps/system/weather/expanded_view.c:403
 #, c-format
 msgid "PRECIPITATION: %d%%"
 msgstr ""
 
-#: pebble/apps/system/weather/expanded_view.c:484
+#: pebble/apps/system/weather/expanded_view.c:487
 msgid "CURRENT UV"
 msgstr ""
 
-#: pebble/apps/system/weather/expanded_view.c:493
+#: pebble/apps/system/weather/expanded_view.c:496
 #, c-format
 msgid "UV %d"
 msgstr ""
 
-#: pebble/apps/system/weather/expanded_view.c:495
+#: pebble/apps/system/weather/expanded_view.c:498
 msgid "UV --"
 msgstr ""
 
-#: pebble/apps/system/weather/expanded_view.c:497
+#: pebble/apps/system/weather/expanded_view.c:500
 #, c-format
 msgid "RAIN %d%%"
 msgstr ""
 
-#: pebble/apps/system/weather/expanded_view.c:499
+#: pebble/apps/system/weather/expanded_view.c:502
 msgid "RAIN --"
 msgstr ""
 
-#: pebble/apps/system/weather/expanded_view.c:507
+#: pebble/apps/system/weather/expanded_view.c:510
 msgid "UV"
 msgstr ""
 
-#: pebble/apps/system/weather/expanded_view.c:509
+#: pebble/apps/system/weather/expanded_view.c:512
 msgid "RAIN"
 msgstr ""
 
