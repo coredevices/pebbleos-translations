@@ -22,6 +22,14 @@
       "license_original_name": "OFL.txt"
     },
     {
+      "name": "GOTHIC_18_BOLD_EXTENDED",
+      "file": "0d2b93b20ee06024dc10ca7decdc0edd2d69bdbea939cf9859a2b5b211672628.ttf",
+      "license": "a6e4f868df1b9eec9284d26f35808a9a08f0733b8fd96109e509d6eac29f2aca.license",
+      "extended": true,
+      "original_name": "GenKiGothic2TW-B.otf",
+      "license_original_name": "SIL_Open_Font_License_1.1.txt"
+    },
+    {
       "name": "GOTHIC_18_EXTENDED",
       "file": "d57a68309dc2afadba417f8ca083f27b6b2d4a5c2cde3cedcb6d92c4189eaad7.ttf",
       "license": "a6e4f868df1b9eec9284d26f35808a9a08f0733b8fd96109e509d6eac29f2aca.license",
