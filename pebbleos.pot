@@ -2299,13 +2299,13 @@ msgstr ""
 msgid "Tomorrow"
 msgstr ""
 
-#: pebble/apps/system/weather/weather.c:385
+#: pebble/apps/system/weather/weather.c:396
 msgid ""
 "No location information available. To see weather, add locations in your "
 "Pebble mobile app."
 msgstr ""
 
-#: pebble/apps/system/weather/weather.c:796
+#: pebble/apps/system/weather/weather.c:807
 #: pebble/services/timeline/timeline.c:929
 msgid "Weather"
 msgstr ""
@@ -2495,18 +2495,18 @@ msgstr ""
 msgid "Precipitation %d%%."
 msgstr ""
 
-#: pebble/apps/system/weather/weather_app_layout.c:864
-#: pebble/apps/system/weather/weather_app_layout.c:1154
+#: pebble/apps/system/weather/weather_app_layout.c:865
+#: pebble/apps/system/weather/weather_app_layout.c:1155
 msgid "TODAY"
 msgstr ""
 
-#: pebble/apps/system/weather/weather_app_layout.c:895
-#: pebble/apps/system/weather/weather_app_layout.c:1241
+#: pebble/apps/system/weather/weather_app_layout.c:896
+#: pebble/apps/system/weather/weather_app_layout.c:1242
 msgid "TOMORROW"
 msgstr ""
 
-#: pebble/apps/system/weather/weather_app_layout.c:992
-#: pebble/apps/system/weather/weather_app_layout.c:1089
+#: pebble/apps/system/weather/weather_app_layout.c:993
+#: pebble/apps/system/weather/weather_app_layout.c:1090
 msgid "UV INDEX"
 msgstr ""
 
