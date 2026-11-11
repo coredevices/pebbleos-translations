@@ -39,11 +39,11 @@
     },
     {
       "name": "GOTHIC_24_EXTENDED",
-      "file": "9d5bf4932d31fe94c18cd8cfddc98bc1b14ce10f4e354c682179db290a99c825.ttf",
-      "license": "dd5ddc3cda1eabd38140f4ba423a25b19f293bf17ae4885d8795495a5c227f2e.license",
+      "file": "d57a68309dc2afadba417f8ca083f27b6b2d4a5c2cde3cedcb6d92c4189eaad7.ttf",
+      "license": "a6e4f868df1b9eec9284d26f35808a9a08f0733b8fd96109e509d6eac29f2aca.license",
       "extended": true,
-      "original_name": "jf-openhuninn-2.1.ttf",
-      "license_original_name": "license.txt"
+      "original_name": "GenKiGothic2TW-L.otf",
+      "license_original_name": "SIL_Open_Font_License_1.1.txt"
     }
   ],
   "images": []
