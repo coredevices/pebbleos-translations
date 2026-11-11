@@ -20,6 +20,14 @@
       "extended": true,
       "original_name": "BoutiqueBitmap9x9_1.93.ttf",
       "license_original_name": "OFL.txt"
+    },
+    {
+      "name": "GOTHIC_18_EXTENDED",
+      "file": "9d5bf4932d31fe94c18cd8cfddc98bc1b14ce10f4e354c682179db290a99c825.ttf",
+      "license": "dd5ddc3cda1eabd38140f4ba423a25b19f293bf17ae4885d8795495a5c227f2e.license",
+      "extended": true,
+      "original_name": "jf-openhuninn-2.1.ttf",
+      "license_original_name": "license.txt"
     }
   ],
   "images": []
