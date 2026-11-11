@@ -4,6 +4,15 @@
     "name": "STRINGS",
     "file": "tintin.po"
   },
-  "fonts": [],
+  "fonts": [
+    {
+      "name": "GOTHIC_14_EXTENDED",
+      "file": "7210391e4252471fbd9b62f65d86f1f7bcdc7f8beb4fc1feeb3ad8b65a0e85e8.ttf",
+      "license": "213009942f38d2484a746c667b2ee6788aef4b34b4472a0dd93c914af6303108.license",
+      "extended": true,
+      "original_name": "BoutiqueBitmap9x9_1.93.ttf",
+      "license_original_name": "OFL.txt"
+    }
+  ],
   "images": []
 }
