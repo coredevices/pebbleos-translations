@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-08 14:26+0000\n"
+"PO-Revision-Date: 2026-11-12 14:41+0000\n"
 "Last-Translator: dx3756 <dx3756@gmail.com>\n"
 "Language-Team: Russian <https://translate.repebble.com/projects/pebbleos/"
 "watch/ru/>\n"
@@ -536,11 +536,11 @@ msgstr "Не распознано. Попробуйте ещё раз."
 
 #: pebble/applib/voice/voice_window.c:683
 msgid "Retrying"
-msgstr ""
+msgstr "Повтор"
 
 #: pebble/applib/voice/voice_window.c:686
 msgid "Retrying offline"
-msgstr ""
+msgstr "Повтор офлайн"
 
 #: pebble/applib/voice/voice_window.c:1135
 msgid "Listening"
@@ -1292,7 +1292,7 @@ msgstr "Макс. Яркость"
 
 #: pebble/apps/system/settings/display.c:295
 msgid "Battery Saver"
-msgstr "Энергосбер."
+msgstr "Энергосбережение"
 
 #: pebble/apps/system/settings/display.c:296
 msgid "Advanced"
@@ -1641,7 +1641,7 @@ msgstr ""
 
 #: pebble/apps/system/settings/quiet_time.c:106
 msgid "Quiet All Notifications"
-msgstr "Заглушить все уведомл."
+msgstr "Заглушить все уведомления"
 
 #: pebble/apps/system/settings/quiet_time.c:109
 msgid "Allow Phone Calls"
@@ -1745,7 +1745,7 @@ msgstr "Прошивка"
 
 #: pebble/apps/system/settings/system.c:213
 msgid "Recovery"
-msgstr "Прошивка PRF"
+msgstr "Версия Recovery"
 
 #: pebble/apps/system/settings/system.c:214
 msgid "Bootloader"
@@ -1954,7 +1954,7 @@ msgstr "12ч"
 
 #: pebble/apps/system/settings/time.c:387
 msgid "Timezone Source"
-msgstr "Источник Ч.Пояса"
+msgstr "Источник часового пояса"
 
 #: pebble/apps/system/settings/time.c:448
 msgid "Date & Time"
@@ -2041,7 +2041,7 @@ msgstr "Вибро раз в час"
 
 #: pebble/apps/system/settings/vibe_patterns.c:69
 msgid "On Disconnect"
-msgstr "При потере подкл."
+msgstr "При потере подключения"
 
 #: pebble/apps/system/settings/vibe_patterns.c:406
 msgid "Sounds & Haptics"
