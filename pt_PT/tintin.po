@@ -16,216 +16,256 @@ msgstr ""
 "X-Generator: Weblate 2026.9.1\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 
-#: src/fw/applib/pbl_std/timelocal.c:38
+#: pebble/applib/pbl_std/timelocal.c:38
+#, fuzzy
+#| msgid "Jan"
+msgctxt "MonthAbbr"
 msgid "Jan"
 msgstr "Jan"
 
-#: src/fw/applib/pbl_std/timelocal.c:38
+#: pebble/applib/pbl_std/timelocal.c:38
+#, fuzzy
+#| msgid "Feb"
+msgctxt "MonthAbbr"
 msgid "Feb"
 msgstr "Fev"
 
-#: src/fw/applib/pbl_std/timelocal.c:38
+#: pebble/applib/pbl_std/timelocal.c:39
+#, fuzzy
+#| msgid "Mar"
+msgctxt "MonthAbbr"
 msgid "Mar"
 msgstr "Mar"
 
-#: src/fw/applib/pbl_std/timelocal.c:38
+#: pebble/applib/pbl_std/timelocal.c:39
+#, fuzzy
+#| msgid "Apr"
+msgctxt "MonthAbbr"
 msgid "Apr"
 msgstr "Abr"
 
-#: src/fw/applib/pbl_std/timelocal.c:38 src/fw/applib/pbl_std/timelocal.c:43
+#: pebble/applib/pbl_std/timelocal.c:40
+#, fuzzy
+#| msgid "May"
+msgctxt "MonthAbbr"
 msgid "May"
 msgstr "Mai"
 
-#: src/fw/applib/pbl_std/timelocal.c:39
+#: pebble/applib/pbl_std/timelocal.c:40
+#, fuzzy
+#| msgid "Jun"
+msgctxt "MonthAbbr"
 msgid "Jun"
 msgstr "Jun"
 
-#: src/fw/applib/pbl_std/timelocal.c:39
+#: pebble/applib/pbl_std/timelocal.c:41
+#, fuzzy
+#| msgid "Jul"
+msgctxt "MonthAbbr"
 msgid "Jul"
 msgstr "Jul"
 
-#: src/fw/applib/pbl_std/timelocal.c:39
+#: pebble/applib/pbl_std/timelocal.c:41
+#, fuzzy
+#| msgid "Aug"
+msgctxt "MonthAbbr"
 msgid "Aug"
 msgstr "Ago"
 
-#: src/fw/applib/pbl_std/timelocal.c:39
+#: pebble/applib/pbl_std/timelocal.c:42
+#, fuzzy
+#| msgid "Sep"
+msgctxt "MonthAbbr"
 msgid "Sep"
 msgstr "Set"
 
-#: src/fw/applib/pbl_std/timelocal.c:39
+#: pebble/applib/pbl_std/timelocal.c:42
+#, fuzzy
+#| msgid "Oct"
+msgctxt "MonthAbbr"
 msgid "Oct"
 msgstr "Out"
 
-#: src/fw/applib/pbl_std/timelocal.c:40
+#: pebble/applib/pbl_std/timelocal.c:43
+#, fuzzy
+#| msgid "Nov"
+msgctxt "MonthAbbr"
 msgid "Nov"
 msgstr "Nov"
 
-#: src/fw/applib/pbl_std/timelocal.c:40
+#: pebble/applib/pbl_std/timelocal.c:43
+#, fuzzy
+#| msgid "Dec"
+msgctxt "MonthAbbr"
 msgid "Dec"
 msgstr "Dez"
 
-#: src/fw/applib/pbl_std/timelocal.c:42
+#: pebble/applib/pbl_std/timelocal.c:45
 msgid "January"
 msgstr "Janeiro"
 
-#: src/fw/applib/pbl_std/timelocal.c:42
+#: pebble/applib/pbl_std/timelocal.c:45
 msgid "February"
 msgstr "Fevereiro"
 
-#: src/fw/applib/pbl_std/timelocal.c:42
+#: pebble/applib/pbl_std/timelocal.c:45
 msgid "March"
 msgstr "Março"
 
-#: src/fw/applib/pbl_std/timelocal.c:42
+#: pebble/applib/pbl_std/timelocal.c:46
 msgid "April"
 msgstr "Abril"
 
-#: src/fw/applib/pbl_std/timelocal.c:43
+#: pebble/applib/pbl_std/timelocal.c:46
+msgid "May"
+msgstr "Mai"
+
+#: pebble/applib/pbl_std/timelocal.c:46
 msgid "June"
 msgstr "Junho"
 
-#: src/fw/applib/pbl_std/timelocal.c:43
+#: pebble/applib/pbl_std/timelocal.c:46
 msgid "July"
 msgstr "Julho"
 
-#: src/fw/applib/pbl_std/timelocal.c:43
+#: pebble/applib/pbl_std/timelocal.c:47
 msgid "August"
 msgstr "Agosto"
 
-#: src/fw/applib/pbl_std/timelocal.c:44
+#: pebble/applib/pbl_std/timelocal.c:47
 msgid "September"
 msgstr "Setembro"
 
-#: src/fw/applib/pbl_std/timelocal.c:44
+#: pebble/applib/pbl_std/timelocal.c:47
 msgid "October"
 msgstr "Outubro"
 
-#: src/fw/applib/pbl_std/timelocal.c:44
+#: pebble/applib/pbl_std/timelocal.c:48
 msgid "November"
 msgstr "Novembro"
 
-#: src/fw/applib/pbl_std/timelocal.c:44
+#: pebble/applib/pbl_std/timelocal.c:48
 msgid "December"
 msgstr "Dezembro"
 
-#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1461
+#: pebble/applib/pbl_std/timelocal.c:50 pebble/services/alarms/alarm.c:1485
 msgid "Sun"
 msgstr "Dom"
 
-#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1461
+#: pebble/applib/pbl_std/timelocal.c:50 pebble/services/alarms/alarm.c:1485
 msgid "Mon"
 msgstr "Seg"
 
-#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1461
+#: pebble/applib/pbl_std/timelocal.c:50 pebble/services/alarms/alarm.c:1486
 msgid "Tue"
 msgstr "Ter"
 
-#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1462
+#: pebble/applib/pbl_std/timelocal.c:50 pebble/services/alarms/alarm.c:1486
 msgid "Wed"
 msgstr "Qua"
 
-#: src/fw/applib/pbl_std/timelocal.c:46 src/fw/services/alarms/alarm.c:1462
+#: pebble/applib/pbl_std/timelocal.c:51 pebble/services/alarms/alarm.c:1487
 msgid "Thu"
 msgstr "Qui"
 
-#: src/fw/applib/pbl_std/timelocal.c:47 src/fw/services/alarms/alarm.c:1462
+#: pebble/applib/pbl_std/timelocal.c:51 pebble/services/alarms/alarm.c:1487
 msgid "Fri"
 msgstr "Sex"
 
-#: src/fw/applib/pbl_std/timelocal.c:47 src/fw/services/alarms/alarm.c:1463
+#: pebble/applib/pbl_std/timelocal.c:51 pebble/services/alarms/alarm.c:1488
 msgid "Sat"
 msgstr "Sáb"
 
-#: src/fw/applib/pbl_std/timelocal.c:49
-#: src/fw/apps/system/weather/weather.c:141
+#: pebble/applib/pbl_std/timelocal.c:53
+#: pebble/apps/system/weather/weather.c:146
 msgid "Sunday"
 msgstr "Domingo"
 
-#: src/fw/applib/pbl_std/timelocal.c:49
-#: src/fw/apps/system/weather/weather.c:141
+#: pebble/applib/pbl_std/timelocal.c:53
+#: pebble/apps/system/weather/weather.c:146
 msgid "Monday"
 msgstr "Segunda"
 
-#: src/fw/applib/pbl_std/timelocal.c:49
-#: src/fw/apps/system/weather/weather.c:141
+#: pebble/applib/pbl_std/timelocal.c:53
+#: pebble/apps/system/weather/weather.c:146
 msgid "Tuesday"
 msgstr "Terça"
 
-#: src/fw/applib/pbl_std/timelocal.c:49
-#: src/fw/apps/system/weather/weather.c:141
+#: pebble/applib/pbl_std/timelocal.c:54
+#: pebble/apps/system/weather/weather.c:147
 msgid "Wednesday"
 msgstr "Quarta"
 
-#: src/fw/applib/pbl_std/timelocal.c:50
-#: src/fw/apps/system/weather/weather.c:142
+#: pebble/applib/pbl_std/timelocal.c:54
+#: pebble/apps/system/weather/weather.c:147
 msgid "Thursday"
 msgstr "Quinta"
 
-#: src/fw/applib/pbl_std/timelocal.c:50
-#: src/fw/apps/system/weather/weather.c:142
+#: pebble/applib/pbl_std/timelocal.c:54
+#: pebble/apps/system/weather/weather.c:147
 msgid "Friday"
 msgstr "Sexta"
 
-#: src/fw/applib/pbl_std/timelocal.c:50
-#: src/fw/apps/system/weather/weather.c:142
+#: pebble/applib/pbl_std/timelocal.c:55
+#: pebble/apps/system/weather/weather.c:148
 msgid "Saturday"
 msgstr "Sábado"
 
-#: src/fw/applib/pbl_std/timelocal.c:52
+#: pebble/applib/pbl_std/timelocal.c:57
 msgid "%H:%M:%S"
 msgstr "%H:%M:%S"
 
-#: src/fw/applib/pbl_std/timelocal.c:53
+#: pebble/applib/pbl_std/timelocal.c:58
 msgid "%m/%d/%y"
 msgstr "%d/%m/%y"
 
-#: src/fw/applib/pbl_std/timelocal.c:54
+#: pebble/applib/pbl_std/timelocal.c:59
 msgid "%a %b %e %H:%M:%S %Y"
 msgstr "%a %e de %b %H:%M:%S %Y"
 
-#: src/fw/applib/pbl_std/timelocal.c:55
+#: pebble/applib/pbl_std/timelocal.c:60
 msgid "%I:%M:%S %p"
 msgstr "%I:%M:%S %p"
 
-#: src/fw/applib/pbl_std/timelocal.c:59
-#: src/fw/applib/ui/date_time_selection_window_private.c:76
-#: src/fw/apps/system/weather/expanded_view.c:157
+#: pebble/applib/pbl_std/timelocal.c:64
+#: pebble/applib/ui/date_time_selection_window_private.c:74
+#: pebble/apps/system/weather/expanded_view.c:165
 msgid "AM"
 msgstr "AM"
 
-#: src/fw/applib/pbl_std/timelocal.c:60
-#: src/fw/applib/ui/date_time_selection_window_private.c:78
-#: src/fw/apps/system/weather/expanded_view.c:157
+#: pebble/applib/pbl_std/timelocal.c:65
+#: pebble/applib/ui/date_time_selection_window_private.c:76
+#: pebble/apps/system/weather/expanded_view.c:165
 msgid "PM"
 msgstr "PM"
 
-#: src/fw/applib/pbl_std/timelocal.c:63
+#: pebble/applib/pbl_std/timelocal.c:68
 msgid "am"
 msgstr "am"
 
-#: src/fw/applib/pbl_std/timelocal.c:64
+#: pebble/applib/pbl_std/timelocal.c:69
 msgid "pm"
 msgstr "pm"
 
 #. / The second separator in `<hour>:<minute>:<second>`
-#: src/fw/applib/template_string.c:216 src/fw/applib/template_string.c:218
+#: pebble/applib/template_string.c:217 pebble/applib/template_string.c:219
 msgctxt "TmplStringSep"
 msgid ":"
 msgstr ":"
 
 #. / The second separator in `<hour> hr <minute> min <second> sec`
-#: src/fw/applib/template_string.c:222 src/fw/applib/template_string.c:224
+#: pebble/applib/template_string.c:223 pebble/applib/template_string.c:225
 msgctxt "TmplStringSep"
 msgid " "
 msgstr " "
 
-#: src/fw/applib/template_string.c:228
+#: pebble/applib/template_string.c:229
 msgctxt "TmplStringSep"
 msgid ", "
 msgstr ", "
 
 #. / The second separator in `<hour> hours, <minute> minutes, and <second> seconds`
-#: src/fw/applib/template_string.c:230
+#: pebble/applib/template_string.c:231
 msgctxt "TmplStringSep"
 msgid ", and "
 msgstr ", e "
@@ -236,399 +276,442 @@ msgstr ", e "
 #. / Suffixes for days with no units
 #. / Suffixes for months with no units
 #. / Suffixes for years with no units
-#: src/fw/applib/template_string.c:303 src/fw/applib/template_string.c:315
-#: src/fw/applib/template_string.c:327 src/fw/applib/template_string.c:339
-#: src/fw/applib/template_string.c:352 src/fw/applib/template_string.c:366
+#: pebble/applib/template_string.c:304 pebble/applib/template_string.c:316
+#: pebble/applib/template_string.c:328 pebble/applib/template_string.c:340
+#: pebble/applib/template_string.c:353 pebble/applib/template_string.c:367
 msgctxt "TmplStringSing"
 msgid ""
 msgstr ""
 
-#: src/fw/applib/template_string.c:303 src/fw/applib/template_string.c:315
-#: src/fw/applib/template_string.c:327 src/fw/applib/template_string.c:339
-#: src/fw/applib/template_string.c:352 src/fw/applib/template_string.c:366
+#: pebble/applib/template_string.c:304 pebble/applib/template_string.c:316
+#: pebble/applib/template_string.c:328 pebble/applib/template_string.c:340
+#: pebble/applib/template_string.c:353 pebble/applib/template_string.c:367
 msgctxt "TmplStringPlur"
 msgid ""
 msgstr ""
 
-#: src/fw/applib/template_string.c:304 src/fw/applib/template_string.c:316
-#: src/fw/applib/template_string.c:328 src/fw/applib/template_string.c:340
-#: src/fw/applib/template_string.c:353 src/fw/applib/template_string.c:367
+#: pebble/applib/template_string.c:305 pebble/applib/template_string.c:317
+#: pebble/applib/template_string.c:329 pebble/applib/template_string.c:341
+#: pebble/applib/template_string.c:354 pebble/applib/template_string.c:368
 msgctxt "TmplStringMany"
 msgid ""
 msgstr ""
 
 #. / Suffixes for seconds with abbreviated units
-#: src/fw/applib/template_string.c:306
+#: pebble/applib/template_string.c:307
 msgctxt "TmplStringSing"
 msgid " sec"
 msgstr " seg"
 
-#: src/fw/applib/template_string.c:306
+#: pebble/applib/template_string.c:307
 msgctxt "TmplStringPlur"
 msgid " sec"
 msgstr " segs"
 
-#: src/fw/applib/template_string.c:307
+#: pebble/applib/template_string.c:308
 msgctxt "TmplStringMany"
 msgid " sec"
 msgstr " segs"
 
 #. / Suffixes for seconds with full units
-#: src/fw/applib/template_string.c:309
+#: pebble/applib/template_string.c:310
 msgctxt "TmplStringSing"
 msgid " second"
 msgstr " segundo"
 
-#: src/fw/applib/template_string.c:309
+#: pebble/applib/template_string.c:310
 msgctxt "TmplStringPlur"
 msgid " seconds"
 msgstr " segundos"
 
-#: src/fw/applib/template_string.c:310
+#: pebble/applib/template_string.c:311
 msgctxt "TmplStringMany"
 msgid " seconds"
 msgstr " segundos"
 
 #. / Suffixes for minutes with abbreviated units
-#: src/fw/applib/template_string.c:318
+#: pebble/applib/template_string.c:319
 msgctxt "TmplStringSing"
 msgid " min"
 msgstr " min"
 
-#: src/fw/applib/template_string.c:318
+#: pebble/applib/template_string.c:319
 msgctxt "TmplStringPlur"
 msgid " min"
 msgstr " mins"
 
-#: src/fw/applib/template_string.c:319
+#: pebble/applib/template_string.c:320
 msgctxt "TmplStringMany"
 msgid " min"
 msgstr " mins"
 
 #. / Suffixes for minutes with full units
-#: src/fw/applib/template_string.c:321
+#: pebble/applib/template_string.c:322
 msgctxt "TmplStringSing"
 msgid " minute"
 msgstr " minuto"
 
-#: src/fw/applib/template_string.c:321
+#: pebble/applib/template_string.c:322
 msgctxt "TmplStringPlur"
 msgid " minutes"
 msgstr " minutos"
 
-#: src/fw/applib/template_string.c:322
+#: pebble/applib/template_string.c:323
 msgctxt "TmplStringMany"
 msgid " minutes"
 msgstr " minutos"
 
 #. / Suffixes for hours with abbreviated units
-#: src/fw/applib/template_string.c:330
+#: pebble/applib/template_string.c:331
 msgctxt "TmplStringSing"
 msgid " hr"
 msgstr " hr"
 
-#: src/fw/applib/template_string.c:330
+#: pebble/applib/template_string.c:331
 msgctxt "TmplStringPlur"
 msgid " hr"
 msgstr " hrs"
 
-#: src/fw/applib/template_string.c:331
+#: pebble/applib/template_string.c:332
 msgctxt "TmplStringMany"
 msgid " hr"
 msgstr " hrs"
 
 #. / Suffixes for hours with full units
-#: src/fw/applib/template_string.c:333
+#: pebble/applib/template_string.c:334
 msgctxt "TmplStringSing"
 msgid " hour"
 msgstr " hora"
 
-#: src/fw/applib/template_string.c:333
+#: pebble/applib/template_string.c:334
 msgctxt "TmplStringPlur"
 msgid " hours"
 msgstr " horas"
 
-#: src/fw/applib/template_string.c:334
+#: pebble/applib/template_string.c:335
 msgctxt "TmplStringMany"
 msgid " hours"
 msgstr " horas"
 
 #. / Suffixes for days with abbreviated units
-#: src/fw/applib/template_string.c:342
+#: pebble/applib/template_string.c:343
 msgctxt "TmplStringSing"
 msgid " d"
 msgstr " d"
 
-#: src/fw/applib/template_string.c:342
+#: pebble/applib/template_string.c:343
 msgctxt "TmplStringPlur"
 msgid " d"
 msgstr " d"
 
-#: src/fw/applib/template_string.c:343
+#: pebble/applib/template_string.c:344
 msgctxt "TmplStringMany"
 msgid " d"
 msgstr " d"
 
 #. / Suffixes for days with full units
-#: src/fw/applib/template_string.c:345
+#: pebble/applib/template_string.c:346
 msgctxt "TmplStringSing"
 msgid " day"
 msgstr " dia"
 
-#: src/fw/applib/template_string.c:345
+#: pebble/applib/template_string.c:346
 msgctxt "TmplStringPlur"
 msgid " days"
 msgstr " dias"
 
-#: src/fw/applib/template_string.c:346
+#: pebble/applib/template_string.c:347
 msgctxt "TmplStringMany"
 msgid " days"
 msgstr " dias"
 
 #. / Suffixes for months with abbreviated units
-#: src/fw/applib/template_string.c:355
+#: pebble/applib/template_string.c:356
 msgctxt "TmplStringSing"
 msgid " mo"
 msgstr " mês"
 
-#: src/fw/applib/template_string.c:355
+#: pebble/applib/template_string.c:356
 msgctxt "TmplStringPlur"
 msgid " mo"
 msgstr " meses"
 
-#: src/fw/applib/template_string.c:356
+#: pebble/applib/template_string.c:357
 msgctxt "TmplStringMany"
 msgid " mo"
 msgstr " meses"
 
 #. / Suffixes for months with full units
-#: src/fw/applib/template_string.c:358
+#: pebble/applib/template_string.c:359
 msgctxt "TmplStringSing"
 msgid " month"
 msgstr " mês"
 
-#: src/fw/applib/template_string.c:358
+#: pebble/applib/template_string.c:359
 msgctxt "TmplStringPlur"
 msgid " months"
 msgstr " meses"
 
-#: src/fw/applib/template_string.c:359
+#: pebble/applib/template_string.c:360
 msgctxt "TmplStringMany"
 msgid " months"
 msgstr " meses"
 
 #. / Suffixes for years with abbreviated units
-#: src/fw/applib/template_string.c:369
+#: pebble/applib/template_string.c:370
 msgctxt "TmplStringSing"
 msgid " yr"
 msgstr " ano"
 
-#: src/fw/applib/template_string.c:369
+#: pebble/applib/template_string.c:370
 msgctxt "TmplStringPlur"
 msgid " yr"
 msgstr " anos"
 
-#: src/fw/applib/template_string.c:370
+#: pebble/applib/template_string.c:371
 msgctxt "TmplStringMany"
 msgid " yr"
 msgstr " anos"
 
 #. / Suffixes for years with full units
-#: src/fw/applib/template_string.c:372
+#: pebble/applib/template_string.c:373
 msgctxt "TmplStringSing"
 msgid " year"
 msgstr " ano"
 
-#: src/fw/applib/template_string.c:372
+#: pebble/applib/template_string.c:373
 msgctxt "TmplStringPlur"
 msgid " years"
 msgstr " anos"
 
-#: src/fw/applib/template_string.c:373
+#: pebble/applib/template_string.c:374
 msgctxt "TmplStringMany"
 msgid " years"
 msgstr " anos"
 
-#: src/fw/applib/ui/day_picker.c:234
+#. / A frequency option for alarms, i.e. the alarm would go off every
+#. / day. Respect capitalization!
+#: pebble/applib/ui/day_picker.c:46 pebble/services/alarms/alarm.c:1430
+msgid "Every Day"
+msgstr "Diariamente"
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / every weekday. Respect capitalization!
+#: pebble/applib/ui/day_picker.c:47 pebble/services/alarms/alarm.c:1440
+msgid "Weekdays"
+msgstr "Dias úteis"
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / each day on the weekend. Respect capitalization!
+#: pebble/applib/ui/day_picker.c:48 pebble/services/alarms/alarm.c:1450
+msgid "Weekends"
+msgstr "Fins de semana"
+
+#. / A frequency option for alarms, i.e. the alarm would only go off
+#. / on a custom choice of days. Respect capitalization!
+#: pebble/applib/ui/day_picker.c:49 pebble/services/alarms/alarm.c:1472
+msgid "Custom"
+msgstr "Personalizar"
+
+#: pebble/applib/ui/day_picker.c:50
+#, fuzzy
+#| msgid "Just now"
+msgid "Just Once"
+msgstr "Há pouco"
+
+#: pebble/applib/ui/day_picker.c:238
 msgid "Check something first."
 msgstr "Verif. algo primeiro."
 
-#: src/fw/applib/ui/dialogs/bt_conn_dialog.c:96
+#: pebble/applib/ui/dialogs/bt_conn_dialog.c:97
 msgid "Check bluetooth connection"
 msgstr "Verificar lig. bluetooth"
 
-#: src/fw/applib/ui/time_range_selection_window.c:177
+#: pebble/applib/ui/time_range_selection_window.c:180
 msgid "Start"
 msgstr "Inicio"
 
 #. / Vibrate at the end of notification animation (delayed)
-#: src/fw/applib/ui/time_range_selection_window.c:181
-#: src/fw/apps/system/settings/notifications.c:238
+#: pebble/applib/ui/time_range_selection_window.c:184
+#: pebble/apps/system/settings/notifications.c:239
 msgid "End"
 msgstr "Fim"
 
-#: src/fw/applib/voice/voice_window.c:192
+#: pebble/applib/voice/voice_window.c:188
 msgid "Dictation is not available."
 msgstr "Ditado não disponível."
 
-#: src/fw/applib/voice/voice_window.c:211
+#: pebble/applib/voice/voice_window.c:207
 msgid "Error occurred. Try again."
 msgstr "Ocorreu um erro. Tente de novo."
 
-#: src/fw/applib/voice/voice_window.c:218 src/fw/apps/system/app_fetch_ui.c:123
+#: pebble/applib/voice/voice_window.c:214 pebble/apps/system/app_fetch_ui.c:125
 msgid "No internet connection"
 msgstr "Sem lig. à Internet"
 
-#: src/fw/applib/voice/voice_window.c:230
+#: pebble/applib/voice/voice_window.c:226
 msgid "Enable voice in the settings page of the Pebble app."
 msgstr "Ativa a voz na página de definições da app Pebble."
 
-#: src/fw/applib/voice/voice_window.c:366
+#: pebble/applib/voice/voice_window.c:389
 msgid "Missed that. Try again."
 msgstr "Falhou. Tente de novo."
 
-#: src/fw/applib/voice/voice_window.c:1108
+#: pebble/applib/voice/voice_window.c:683
+msgid "Retrying"
+msgstr ""
+
+#: pebble/applib/voice/voice_window.c:686
+msgid "Retrying offline"
+msgstr ""
+
+#: pebble/applib/voice/voice_window.c:1135
 msgid "Listening"
 msgstr "A ouvir"
 
-#: src/fw/apps/core/progress_ui.c:62
+#: pebble/apps/core/progress_ui.c:63
 msgid "Update Complete"
 msgstr "Atualização Concluída"
 
-#: src/fw/apps/core/progress_ui.c:62
+#: pebble/apps/core/progress_ui.c:63
 msgid "Update Failed"
 msgstr "Falha na Atualização"
 
-#: src/fw/apps/core/progress_ui.c:174
-#: src/fw/apps/system/settings/factory_reset.c:56
+#: pebble/apps/core/progress_ui.c:175
+#: pebble/apps/system/settings/factory_reset.c:59
 msgid "Resetting..."
 msgstr "A repor..."
 
-#: src/fw/apps/demo/dialogs/dialogs_demo.c:104
+#: pebble/apps/demo/dialogs/dialogs_demo.c:105
 msgid "Decline dialog."
 msgstr "Diálogo de recusa."
 
-#: src/fw/apps/system/alarms/alarm_detail.c:59
+#: pebble/apps/system/alarms/alarm_detail.c:63
 #, c-format
 msgid "Snooze delay set to %d minutes"
 msgstr "Duração do Snooze: %d minutos"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:270
+#: pebble/apps/system/alarms/alarm_detail.c:275
+#: pebble/apps/system/settings/quiet_time.c:337
 msgid "Delete"
 msgstr "Eliminar"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:275
-#: src/fw/apps/system/settings/quiet_time.c:203
+#: pebble/apps/system/alarms/alarm_detail.c:281
+#: pebble/apps/system/settings/quiet_time.c:314
 msgid "Disable"
 msgstr "Desativar"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:275
-#: src/fw/apps/system/settings/quiet_time.c:205
+#: pebble/apps/system/alarms/alarm_detail.c:281
+#: pebble/apps/system/settings/quiet_time.c:318
 msgid "Enable"
 msgstr "Ativar"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:280
-#: src/fw/apps/system/alarms/alarm_editor.c:161
+#: pebble/apps/system/alarms/alarm_detail.c:286
+#: pebble/apps/system/alarms/alarm_editor.c:163
 msgid "Change Time"
 msgstr "Alterar hora"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:285
+#: pebble/apps/system/alarms/alarm_detail.c:291
+#: pebble/apps/system/settings/quiet_time.c:332
 msgid "Change Days"
 msgstr "Alterar dias"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:290
+#: pebble/apps/system/alarms/alarm_detail.c:296
 msgid "Convert to Basic Alarm"
 msgstr "Converter para Alarme Básico"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:291
+#: pebble/apps/system/alarms/alarm_detail.c:297
 msgid "Convert to Smart Alarm"
 msgstr "Converter para Alarme Inteligente"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:297
+#: pebble/apps/system/alarms/alarm_detail.c:303
 msgid "Sound"
 msgstr "Som"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:303
+#: pebble/apps/system/alarms/alarm_detail.c:309
 msgid "Vibration: On"
 msgstr "Vibração: On"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:304
+#: pebble/apps/system/alarms/alarm_detail.c:310
 msgid "Vibration: Off"
 msgstr "Vibração: Off"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:309
+#: pebble/apps/system/alarms/alarm_detail.c:315
 msgid "Snooze Delay"
 msgstr "Duração Snooze"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:320
+#: pebble/apps/system/alarms/alarm_detail.c:326
 msgid "5 minutes"
 msgstr "5 minutos"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:320
+#: pebble/apps/system/alarms/alarm_detail.c:326
 msgid "10 minutes"
 msgstr "10 minutos"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:320
+#: pebble/apps/system/alarms/alarm_detail.c:326
 msgid "15 minutes"
 msgstr "15 minutos"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:321
+#: pebble/apps/system/alarms/alarm_detail.c:327
 msgid "30 minutes"
 msgstr "30 minutos"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:321
+#: pebble/apps/system/alarms/alarm_detail.c:327
 msgid "1 hour"
 msgstr "1 hora"
 
-#: src/fw/apps/system/alarms/alarm_detail.c:347
+#: pebble/apps/system/alarms/alarm_detail.c:353
 msgctxt "AlarmSound"
 msgid "Off"
 msgstr "Off"
 
-#: src/fw/apps/system/alarms/alarm_editor.c:162
+#: pebble/apps/system/alarms/alarm_editor.c:164
 msgid "New Smart Alarm"
 msgstr "Alarme Inteligente"
 
-#: src/fw/apps/system/alarms/alarm_editor.c:163
-#: src/fw/apps/system/alarms/alarm_editor.c:261
+#: pebble/apps/system/alarms/alarm_editor.c:165
+#: pebble/apps/system/alarms/alarm_editor.c:263
 msgid "New Alarm"
 msgstr "Novo alarme"
 
-#: src/fw/apps/system/alarms/alarm_editor.c:165
+#: pebble/apps/system/alarms/alarm_editor.c:167
 msgid "Wake up between"
 msgstr "Acordar entre"
 
-#: src/fw/apps/system/alarms/alarm_editor.c:165
+#: pebble/apps/system/alarms/alarm_editor.c:167
 msgid "Wake up interval"
 msgstr "Intervalo de acordar"
 
-#: src/fw/apps/system/alarms/alarm_editor.c:258
+#: pebble/apps/system/alarms/alarm_editor.c:260
 msgid "Basic Alarm"
 msgstr "Alarme Básico"
 
-#: src/fw/apps/system/alarms/alarm_editor.c:259
-#: src/fw/apps/system/alarms/alarms.c:347 src/fw/services/alarms/alarm.c:458
-#: src/fw/services/alarms/alarm_pin.c:75
+#: pebble/apps/system/alarms/alarm_editor.c:261
+#: pebble/apps/system/alarms/alarms.c:351 pebble/services/alarms/alarm.c:465
+#: pebble/services/alarms/alarm_pin.c:75
 msgid "Smart Alarm"
 msgstr "Alarme Inteligente"
 
-#: src/fw/apps/system/alarms/alarms.c:114
+#: pebble/apps/system/alarms/alarms.c:115
 msgid "Alarm Deleted"
 msgstr "Alarme apagado"
 
-#: src/fw/apps/system/alarms/alarms.c:229
+#: pebble/apps/system/alarms/alarms.c:230
+#: pebble/apps/system/settings/quiet_time.c:384
 msgid "Limit reached."
 msgstr "Limite atingido."
 
-#: src/fw/apps/system/alarms/alarms.c:272
+#: pebble/apps/system/alarms/alarms.c:274
+#: pebble/apps/system/settings/quiet_time.c:427
 msgid "ON"
 msgstr "ON"
 
-#: src/fw/apps/system/alarms/alarms.c:272
+#: pebble/apps/system/alarms/alarms.c:274
+#: pebble/apps/system/settings/quiet_time.c:427
 msgid "OFF"
 msgstr "OFF"
 
-#: src/fw/apps/system/alarms/alarms.c:344
+#: pebble/apps/system/alarms/alarms.c:348
 msgid ""
 "Let us wake you in your lightest sleep so you're fully refreshed! Smart "
 "Alarm wakes you up to 30min before your alarm."
@@ -636,17 +719,17 @@ msgstr ""
 "Deixe-nos acordá-lo durante o sono mais leve para que esteja totalmente "
 "recuperado! Alarme Inteligente acorda-o até 30m antes do alarme."
 
-#: src/fw/apps/system/alarms/alarms.c:472
-#: src/fw/apps/system/settings/vibe_patterns.c:90
-#: src/fw/services/timeline/timeline.c:938
+#: pebble/apps/system/alarms/alarms.c:480
+#: pebble/apps/system/settings/vibe_patterns.c:65
+#: pebble/services/timeline/timeline.c:937
 msgid "Alarms"
 msgstr "Alarme"
 
-#: src/fw/apps/system/app_fetch_ui.c:109
+#: pebble/apps/system/app_fetch_ui.c:111
 msgid "Not connected"
 msgstr "Não ligado"
 
-#: src/fw/apps/system/app_fetch_ui.c:121
+#: pebble/apps/system/app_fetch_ui.c:123
 msgid ""
 "No internet\n"
 "connection"
@@ -654,64 +737,68 @@ msgstr ""
 "Sem ligação\n"
 "à Internet"
 
-#: src/fw/apps/system/app_fetch_ui.c:129
+#: pebble/apps/system/app_fetch_ui.c:130
 msgid "Incompatible JS"
 msgstr "JS incompatível"
 
-#: src/fw/apps/system/app_fetch_ui.c:138
-#: src/fw/services/timeline/timeline_actions.c:264
+#: pebble/apps/system/app_fetch_ui.c:139
+#: pebble/services/timeline/timeline_actions.c:271
 msgid "Failed"
 msgstr "Falhou"
 
-#: src/fw/apps/system/health/activity_detail_card.c:43
-#: src/fw/services/activity/activity_insights.c:1624
+#: pebble/apps/system/health/activity_detail_card.c:37
+msgid "kcal"
+msgstr ""
+
+#: pebble/apps/system/health/activity_detail_card.c:48
+#: pebble/services/activity/activity_insights.c:1779
 msgid "mi"
 msgstr "mi"
 
-#: src/fw/apps/system/health/activity_detail_card.c:43
-#: src/fw/services/activity/activity_insights.c:1624
+#: pebble/apps/system/health/activity_detail_card.c:48
+#: pebble/services/activity/activity_insights.c:1780
 msgid "km"
 msgstr "km"
 
-#: src/fw/apps/system/health/activity_detail_card.c:56
-#: src/fw/apps/system/health/sleep_detail_card.c:65
+#: pebble/apps/system/health/activity_detail_card.c:61
+#: pebble/apps/system/health/sleep_detail_card.c:184
 msgid "30 DAY AVG"
 msgstr "MÉDIA 30 DIAS"
 
-#: src/fw/apps/system/health/activity_detail_card.c:83
+#: pebble/apps/system/health/activity_detail_card.c:88
 msgid "CALORIES"
 msgstr "CALORIAS"
 
 #. / Distance Label
-#: src/fw/apps/system/health/activity_detail_card.c:85
-#: src/fw/apps/system/workout/active.c:158
+#: pebble/apps/system/health/activity_detail_card.c:90
+#: pebble/apps/system/workout/active.c:193
 msgid "DISTANCE"
 msgstr "DISTÂNCIA"
 
-#: src/fw/apps/system/health/activity_summary_card.c:142
+#: pebble/apps/system/health/activity_summary_card.c:144
 msgid "TOTAL"
 msgstr "TOTAL"
 
-#: src/fw/apps/system/health/detail_card.c:538
-#: src/fw/apps/system/weather/weather.c:136 src/fw/services/clock/service.c:530
-#: src/fw/services/clock/service.c:715
+#: pebble/apps/system/health/detail_card.c:726
+#: pebble/apps/system/weather/weather.c:141 pebble/services/clock/service.c:579
+#: pebble/services/clock/service.c:781
 msgid "Today"
 msgstr "Hoje"
 
-#: src/fw/apps/system/health/graph_card.c:306
+#: pebble/apps/system/health/graph_card.c:309
 msgid ": "
 msgstr ": "
 
-#: src/fw/apps/system/health/graph_card.c:312
+#: pebble/apps/system/health/graph_card.c:315
 #, c-format
 msgid "%a: "
 msgstr "%a: "
 
-#: src/fw/apps/system/health/graph_card.c:395
+#: pebble/apps/system/health/graph_card.c:398
 msgid "SMTWTFS"
 msgstr "DSTQQSS"
 
-#: src/fw/apps/system/health/health.c:76
+#: pebble/apps/system/health/health.c:79
 msgid ""
 "Psst! Want smart tips about your activity and sleep? You can enable Insights "
 "in the mobile app."
@@ -719,64 +806,92 @@ msgstr ""
 "Psst! Queres dicas inteligentes sobre atividade e sono? Podes ativar "
 "Insights na app móvel."
 
-#: src/fw/apps/system/health/health.c:106
+#: pebble/apps/system/health/health.c:111
 msgid ""
 "Track your steps, sleep, and more! Enable Pebble Health in the mobile app."
 msgstr ""
 "Siga os seus passos, sono, e mais! Ative o Pebble Health na aplicação móvel."
 
-#: src/fw/apps/system/health/health.c:115
+#: pebble/apps/system/health/health.c:120
 msgid "Health requires the time to be synced. Please connect your phone."
 msgstr "Health requer a hora sincronizada. Liga o telefone."
 
-#: src/fw/apps/system/health/health.c:182
-#: src/fw/apps/system/settings/health.c:254
-#: src/fw/services/timeline/timeline.c:942
+#: pebble/apps/system/health/health.c:187
+#: pebble/apps/system/settings/health.c:266
+#: pebble/services/timeline/timeline.c:941
 msgid "Health"
 msgstr "Health"
 
-#: src/fw/apps/system/health/hr_detail_card.c:65
-#: src/fw/services/activity/activity_insights.c:1727
+#: pebble/apps/system/health/hr_chart.c:112
+msgid "%k"
+msgstr ""
+
+#: pebble/apps/system/health/hr_chart.c:113
+msgid "%l%p"
+msgstr ""
+
+#: pebble/apps/system/health/hr_chart.c:113
+msgid "%l"
+msgstr ""
+
+#. / Range of heart rate readings, e.g. "52–104 BPM"
+#: pebble/apps/system/health/hr_detail_card.c:45
+#, fuzzy, c-format
+#| msgid "%d BPM"
+msgid "%d–%d BPM"
+msgstr "%d BPM"
+
+#: pebble/apps/system/health/hr_detail_card.c:91
+#: pebble/services/activity/activity_insights.c:1885
 msgid "Fat Burn"
 msgstr "Perda de Peso"
 
-#: src/fw/apps/system/health/hr_detail_card.c:68
-#: src/fw/services/activity/activity_insights.c:1734
+#: pebble/apps/system/health/hr_detail_card.c:94
+#: pebble/services/activity/activity_insights.c:1892
 msgid "Endurance"
 msgstr "Resistência"
 
-#: src/fw/apps/system/health/hr_detail_card.c:71
-#: src/fw/services/activity/activity_insights.c:1741
+#: pebble/apps/system/health/hr_detail_card.c:97
+#: pebble/services/activity/activity_insights.c:1899
 msgid "Performance"
 msgstr "Performance"
 
-#. / Resting HR
-#: src/fw/apps/system/health/hr_detail_card.c:77
+#. / Heading above a chart of today's heart rate and its lowest to highest reading
+#: pebble/apps/system/health/hr_detail_card.c:104
+msgid "TODAY'S RANGE"
+msgstr ""
+
+#. / Heading above the time spent in each heart rate zone today
+#: pebble/apps/system/health/hr_detail_card.c:116
 msgid "TIME IN ZONES"
 msgstr "TEMPO EM ZONAS"
 
-#: src/fw/apps/system/health/hr_summary_card.c:110
+#: pebble/apps/system/health/hr_summary_card.c:135
+#: pebble/apps/system/workout/active.c:1114
 msgid "BPM"
 msgstr "BPM"
 
 #. / HRM disabled
-#: src/fw/apps/system/health/hr_summary_card.c:155
+#: pebble/apps/system/health/hr_summary_card.c:180
 msgid "Enable heart rate monitoring in the mobile app"
 msgstr "Ativa monitorização do ritmo cardíaco na app móvel"
 
-#: src/fw/apps/system/health/sleep_detail_card.c:67
-msgid "30 DAY"
-msgstr "30 DIAS"
-
-#: src/fw/apps/system/health/sleep_detail_card.c:96
+#: pebble/apps/system/health/sleep_detail_card.c:80
+#: pebble/apps/system/health/sleep_detail_card.c:236
 msgid "SLEEP SESSION"
 msgstr "SESSÃO DE SONO"
 
-#: src/fw/apps/system/health/sleep_detail_card.c:109
+#: pebble/apps/system/health/sleep_detail_card.c:140
+#: pebble/apps/system/health/sleep_detail_card.c:249
 msgid "DEEP SLEEP"
 msgstr "SONO PROFUNDO"
 
-#: src/fw/apps/system/health/sleep_summary_card.c:209
+#: pebble/apps/system/health/sleep_detail_card.c:143
+#: pebble/apps/system/health/sleep_detail_card.c:186
+msgid "30 DAY"
+msgstr "30 DIAS"
+
+#: pebble/apps/system/health/sleep_summary_card.c:215
 msgid ""
 "No sleep data,\n"
 "wear your watch\n"
@@ -786,29 +901,29 @@ msgstr ""
 "usa o teu relógio\n"
 "a dormir"
 
-#: src/fw/apps/system/health/ui.c:65
+#: pebble/apps/system/health/ui.c:69
 #, c-format
 msgid "TYPICAL %s"
 msgstr "TÍPICO %s"
 
 #. / Shown when the current temperature is unknown
-#: src/fw/apps/system/launcher/default/app_glance_weather.c:117
+#: pebble/apps/system/launcher/default/app_glance_weather.c:118
 msgid "--°"
 msgstr "--°"
 
 #. / Shown when today's temperature and conditions phrase is known (e.g. "52° - Fair")
-#: src/fw/apps/system/launcher/default/app_glance_weather.c:123
+#: pebble/apps/system/launcher/default/app_glance_weather.c:124
 #, c-format
 msgid "%i° - %s"
 msgstr "%i° - %s"
 
 #. / Today's current temperature (e.g. "68°")
-#: src/fw/apps/system/launcher/default/app_glance_weather.c:125
+#: pebble/apps/system/launcher/default/app_glance_weather.c:126
 #, c-format
 msgid "%i°"
 msgstr "%i°"
 
-#: src/fw/apps/system/music.c:878
+#: pebble/apps/system/music.c:909
 msgid ""
 "START PLAYBACK\n"
 "ON YOUR PHONE"
@@ -816,86 +931,85 @@ msgstr ""
 "INICIAR REPRODUÇÃO\n"
 "NO TELEFONE"
 
-#: src/fw/apps/system/music.c:1768
+#: pebble/apps/system/music.c:1854
 msgid "Music"
 msgstr "Música"
 
-#: src/fw/apps/system/notifications.c:404
+#: pebble/apps/system/notifications.c:418
 msgid "Done"
 msgstr "Feito"
 
-#: src/fw/apps/system/notifications.c:430
+#: pebble/apps/system/notifications.c:444
 msgid "Clear history?"
 msgstr "Apag. histórico?"
 
 #. / Notification sender followed by the number of grouped notifications
-#: src/fw/apps/system/notifications.c:690
+#: pebble/apps/system/notifications.c:713
 #, c-format
 msgid "%s (%u)"
 msgstr ""
 
-#: src/fw/apps/system/notifications.c:729
-#: src/fw/apps/system/notifications.c:736
+#: pebble/apps/system/notifications.c:752
+#: pebble/apps/system/notifications.c:759
 msgid "Clear All"
 msgstr "Apagar tudo"
 
-#: src/fw/apps/system/notifications.c:987
+#: pebble/apps/system/notifications.c:1010
 msgid "No notifications"
 msgstr "Sem notificações"
 
-#: src/fw/apps/system/notifications.c:1096
-#: src/fw/apps/system/settings/notifications.c:490
-#: src/fw/apps/system/settings/quiet_time.c:439
-#: src/fw/apps/system/settings/vibe_patterns.c:80
-#: src/fw/services/timeline/timeline.c:922
+#: pebble/apps/system/notifications.c:1117
+#: pebble/apps/system/settings/notifications.c:492
+#: pebble/apps/system/settings/quiet_time.c:541
+#: pebble/apps/system/settings/quiet_time.c:626
+#: pebble/apps/system/settings/vibe_patterns.c:61
+#: pebble/services/timeline/timeline.c:921
 msgid "Notifications"
 msgstr "Notificações"
 
-#: src/fw/apps/system/notifications.c:1110
+#: pebble/apps/system/notifications.c:1131
 msgid "Clear Notification History"
 msgstr "Apagar histór. de notificações"
 
 #. / Quick Launch action that makes the button do nothing at all.
-#: src/fw/apps/system/quick_launch_nothing.c:24
+#: pebble/apps/system/quick_launch_nothing.c:24
 msgid "Nothing"
 msgstr ""
 
-#: src/fw/apps/system/reminders/reminder.c:51
+#: pebble/apps/system/reminders/reminder.c:60
 msgid "Completed"
 msgstr "Completado"
 
-#: src/fw/apps/system/reminders/reminder.c:55
+#: pebble/apps/system/reminders/reminder.c:64
 msgid "Postpone"
 msgstr "Adiar"
 
-#: src/fw/apps/system/reminders/reminder.c:59
-#: src/fw/services/activity/activity_insights.c:442
-#: src/fw/services/timeline/timeline.c:656
+#: pebble/apps/system/reminders/reminder.c:68
+#: pebble/services/activity/activity_insights.c:469
+#: pebble/services/timeline/timeline.c:658
 msgid "Remove"
 msgstr "Remover"
 
-#: src/fw/apps/system/reminders/reminder.c:109
+#: pebble/apps/system/reminders/reminder.c:118
 msgid "Added"
 msgstr "Adicionado"
 
-#: src/fw/apps/system/reminders/reminder.c:295
+#: pebble/apps/system/reminders/reminder.c:304
 msgid "Reminder"
 msgstr "Lembrete"
 
-#: src/fw/apps/system/send_text/send_text.c:194
-#: src/fw/apps/system/settings/health.c:115
-#: src/fw/apps/system/settings/health.c:126
-#: src/fw/apps/system/settings/health.c:147
-#: src/fw/services/phone_call/util.c:18
+#: pebble/apps/system/send_text/send_text.c:197
+#: pebble/apps/system/settings/health.c:155
+#: pebble/services/phone_call/util.c:17
 msgid "Unknown"
 msgstr "Desconhecido"
 
-#: src/fw/apps/system/send_text/send_text.c:252
-#: src/fw/apps/system/send_text/send_text.c:334
+#: pebble/apps/system/send_text/send_text.c:256
+#: pebble/apps/system/send_text/send_text.c:340
 msgid "Select Contact"
 msgstr "Selecione contacto"
 
-#: src/fw/apps/system/send_text/send_text.c:348
+#: pebble/apps/system/send_text/send_text.c:354
 msgid ""
 "Add contacts in\n"
 "mobile app"
@@ -903,113 +1017,164 @@ msgstr ""
 "Adic. contactos na\n"
 "app Pebble Time"
 
-#: src/fw/apps/system/send_text/send_text.c:382
+#: pebble/apps/system/send_text/send_text.c:388
 msgid "Send Text"
 msgstr "Enviar SMS"
 
-#: src/fw/apps/system/settings/activity_tracker.c:154
+#: pebble/apps/system/settings/activity_tracker.c:156
 msgid "No background apps"
 msgstr "Não há aplicações de fundo"
 
 #. / No Notification Window Timeout
-#: src/fw/apps/system/settings/activity_tracker.c:162
-#: src/fw/apps/system/settings/notifications.c:160
+#: pebble/apps/system/settings/activity_tracker.c:164
+#: pebble/apps/system/settings/notifications.c:161
 msgid "None"
 msgstr "Inexistente"
 
-#: src/fw/apps/system/settings/activity_tracker.c:238
-#: src/fw/apps/system/settings/activity_tracker.c:255
+#: pebble/apps/system/settings/activity_tracker.c:237
+#: pebble/apps/system/settings/activity_tracker.c:254
 msgid "Background App"
 msgstr "App de Fundo"
 
-#: src/fw/apps/system/settings/bluetooth.c:127
+#: pebble/apps/system/settings/bluetooth.c:130
 msgid "<Untitled>"
 msgstr "<Sem título>"
 
-#: src/fw/apps/system/settings/bluetooth.c:187
+#: pebble/apps/system/settings/bluetooth.c:190
 msgid "Pairing Instructions"
 msgstr "Instr. de emparelham."
 
-#: src/fw/apps/system/settings/bluetooth.c:192
+#: pebble/apps/system/settings/bluetooth.c:194
 #, c-format
 msgid "%u Paired Phones"
 msgstr "%u tel. empar."
 
-#: src/fw/apps/system/settings/bluetooth.c:192
+#: pebble/apps/system/settings/bluetooth.c:195
 #, c-format
 msgid "%u Paired Phone"
 msgstr "%u tel. empar."
 
-#: src/fw/apps/system/settings/bluetooth.c:343
+#: pebble/apps/system/settings/bluetooth.c:346
 msgid "Connected"
 msgstr "Ligado"
 
-#: src/fw/apps/system/settings/bluetooth.c:358
+#: pebble/apps/system/settings/bluetooth.c:361
 msgid "Sharing Heart Rate ❤"
 msgstr "Partilhando Ritmo Cardíaco ❤"
 
-#: src/fw/apps/system/settings/bluetooth.c:383
+#: pebble/apps/system/settings/bluetooth.c:386
 msgid "Forget this device to pair a new device."
 msgstr "Esquece este dispositivo para emparelhar um novo."
 
-#: src/fw/apps/system/settings/bluetooth.c:386
+#: pebble/apps/system/settings/bluetooth.c:389
 msgid "Disable Airplane Mode to connect."
 msgstr "Desativar modo de voo para ligar."
 
-#: src/fw/apps/system/settings/bluetooth.c:388
+#: pebble/apps/system/settings/bluetooth.c:391
 msgid "Open the Pebble app on your phone to connect."
 msgstr "Abrir app Pebble no telefone para ligar."
 
-#: src/fw/apps/system/settings/bluetooth.c:463
+#: pebble/apps/system/settings/bluetooth.c:466
 msgid "Connection"
 msgstr "Ligação"
 
-#: src/fw/apps/system/settings/bluetooth.c:467
+#: pebble/apps/system/settings/bluetooth.c:470
 msgid "Airplane Mode"
 msgstr "Modo de Voo"
 
-#: src/fw/apps/system/settings/bluetooth.c:477
+#: pebble/apps/system/settings/bluetooth.c:480
 msgid "Disabling..."
 msgstr "A desativar..."
 
-#: src/fw/apps/system/settings/bluetooth.c:478
+#: pebble/apps/system/settings/bluetooth.c:481
 msgid "Enabling..."
 msgstr "A ativar..."
 
-#: src/fw/apps/system/settings/bluetooth.c:631
+#: pebble/apps/system/settings/bluetooth.c:634
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: src/fw/apps/system/settings/bluetooth.h:37
+#: pebble/apps/system/settings/bluetooth.h:38
 msgid ""
 "Remember to also forget your Pebble's Bluetooth connection from your phone."
 msgstr "Remova também a ligação Bluetooth no telefone."
 
-#. / A frequency option for alarms, i.e. the alarm would only go off
-#. / on a custom choice of days. Respect capitalization!
-#: src/fw/apps/system/settings/display.c:40 src/fw/services/alarms/alarm.c:1448
-msgid "Custom"
-msgstr "Personalizar"
+#. / Shows up in the Timeline settings as the status under the "Quick View" toggle.
+#: pebble/apps/system/settings/dark_mode_menu.c:18
+#: pebble/apps/system/settings/display.c:458
+#: pebble/apps/system/settings/display.c:690
+#: pebble/apps/system/settings/display.c:694
+#: pebble/apps/system/settings/health.c:148
+#: pebble/apps/system/settings/health.c:172
+#: pebble/apps/system/settings/health.c:177
+#: pebble/apps/system/settings/notifications.c:379
+#: pebble/apps/system/settings/quiet_time.c:492
+#: pebble/apps/system/settings/quiet_time.c:531
+#: pebble/apps/system/settings/quiet_time.c:537
+#: pebble/apps/system/settings/quiet_time.c:543
+#: pebble/apps/system/settings/quiet_time.c:611
+#: pebble/apps/system/settings/quiet_time.c:616
+#: pebble/apps/system/settings/quiet_time.c:636
+#: pebble/apps/system/settings/system.c:1312
+#: pebble/apps/system/settings/timeline.c:193
+#: pebble/apps/system/settings/vibe_patterns.c:91
+msgid "Off"
+msgstr "Off"
 
-#: src/fw/apps/system/settings/display.c:53
-#: src/fw/apps/system/settings/display.c:679
-#: src/fw/apps/system/settings/system.c:208
+#: pebble/apps/system/settings/dark_mode_menu.c:19
+#: pebble/apps/system/settings/display.c:458
+#: pebble/apps/system/settings/display.c:690
+#: pebble/apps/system/settings/display.c:694
+#: pebble/apps/system/settings/health.c:148
+#: pebble/apps/system/settings/health.c:171
+#: pebble/apps/system/settings/health.c:177
+#: pebble/apps/system/settings/notifications.c:378
+#: pebble/apps/system/settings/quiet_time.c:530
+#: pebble/apps/system/settings/quiet_time.c:537
+#: pebble/apps/system/settings/quiet_time.c:542
+#: pebble/apps/system/settings/quiet_time.c:610
+#: pebble/apps/system/settings/quiet_time.c:615
+#: pebble/apps/system/settings/quiet_time.c:635
+#: pebble/apps/system/settings/system.c:1312
+#: pebble/apps/system/settings/timeline.c:190
+#: pebble/apps/system/settings/vibe_patterns.c:91
+msgid "On"
+msgstr "On"
+
+#: pebble/apps/system/settings/dark_mode_menu.c:20
+#: pebble/apps/system/settings/quiet_time.c:485
+#: pebble/apps/system/settings/quiet_time.c:619
+msgid "Schedule"
+msgstr "Horário"
+
+#: pebble/apps/system/settings/dark_mode_menu.c:77
+msgid "DARK MODE"
+msgstr ""
+
+#: pebble/apps/system/settings/dark_mode_menu.c:77
+#: pebble/apps/system/settings/themes.c:158
+msgid "Dark Mode"
+msgstr ""
+
+#: pebble/apps/system/settings/display.c:87
+#: pebble/apps/system/settings/display.c:712
+#: pebble/apps/system/settings/system.c:212
 msgid "Language"
 msgstr "Idioma"
 
-#: src/fw/apps/system/settings/display.c:62
-#: src/fw/apps/system/settings/notifications.c:107
+#: pebble/apps/system/settings/display.c:96
+#: pebble/apps/system/settings/notifications.c:108
 msgid "Smaller"
 msgstr "Menor"
 
-#: src/fw/apps/system/settings/display.c:63
-#: src/fw/apps/system/settings/notifications.c:108
+#: pebble/apps/system/settings/display.c:97
+#: pebble/apps/system/settings/notifications.c:109
 msgctxt "TextSize"
 msgid "Default"
 msgstr "Padrão"
 
-#: src/fw/apps/system/settings/display.c:64
-#: src/fw/apps/system/settings/notifications.c:109
+#: pebble/apps/system/settings/display.c:98
+#: pebble/apps/system/settings/notifications.c:110
 msgid "Larger"
 msgstr "Maior"
 
@@ -1017,453 +1182,411 @@ msgstr "Maior"
 #. / String within Settings->Display that describes the text font size
 #. / The option in the Settings app for choosing the text size of notifications.
 #. / String within Settings->Notifications that describes the text font size
-#: src/fw/apps/system/settings/display.c:77
-#: src/fw/apps/system/settings/display.c:672
-#: src/fw/apps/system/settings/notifications.c:133
-#: src/fw/apps/system/settings/notifications.c:351
+#: pebble/apps/system/settings/display.c:111
+#: pebble/apps/system/settings/display.c:705
+#: pebble/apps/system/settings/notifications.c:134
+#: pebble/apps/system/settings/notifications.c:352
 msgid "Text Size"
 msgstr "Tamanho letra"
 
-#: src/fw/apps/system/settings/display.c:91
-#: src/fw/apps/system/settings/system.c:440
+#: pebble/apps/system/settings/display.c:125
+#: pebble/apps/system/settings/system.c:443
 msgid "Low"
 msgstr "Baixa"
 
-#: src/fw/apps/system/settings/display.c:91
-#: src/fw/apps/system/settings/system.c:441
+#: pebble/apps/system/settings/display.c:125
+#: pebble/apps/system/settings/system.c:444
 msgid "Medium"
 msgstr "Média"
 
-#: src/fw/apps/system/settings/display.c:91
-#: src/fw/apps/system/settings/system.c:442
+#: pebble/apps/system/settings/display.c:125
+#: pebble/apps/system/settings/system.c:444
 msgid "High"
 msgstr "Alta"
 
-#: src/fw/apps/system/settings/display.c:91
+#: pebble/apps/system/settings/display.c:125
 msgid "Blinding"
 msgstr "Cegante"
 
-#: src/fw/apps/system/settings/display.c:126
+#: pebble/apps/system/settings/display.c:157
 msgid "INTENSITY"
 msgstr "INTENSIDADE"
 
-#: src/fw/apps/system/settings/display.c:126
-#: src/fw/apps/system/settings/display.c:454
-#: src/fw/apps/system/settings/display.c:456
+#: pebble/apps/system/settings/display.c:157
+#: pebble/apps/system/settings/display.c:486
+#: pebble/apps/system/settings/display.c:488
 msgid "Intensity"
 msgstr "Intensidade"
 
-#: src/fw/apps/system/settings/display.c:136
+#: pebble/apps/system/settings/display.c:167
 msgctxt "Orientation"
 msgid "Default"
 msgstr "Padrão"
 
-#: src/fw/apps/system/settings/display.c:137
+#: pebble/apps/system/settings/display.c:168
 msgid "Left-Handed"
 msgstr "Canhoto"
 
-#: src/fw/apps/system/settings/display.c:162
-#: src/fw/apps/system/settings/display.c:666
+#: pebble/apps/system/settings/display.c:193
+#: pebble/apps/system/settings/display.c:699
 msgid "Orientation"
 msgstr "Orientação"
 
-#: src/fw/apps/system/settings/display.c:175
+#: pebble/apps/system/settings/display.c:206
 msgid "3 Seconds"
 msgstr "3 segundos"
 
-#: src/fw/apps/system/settings/display.c:175
+#: pebble/apps/system/settings/display.c:206
 msgid "5 Seconds"
 msgstr "5 segundos"
 
-#: src/fw/apps/system/settings/display.c:175
+#: pebble/apps/system/settings/display.c:206
 msgid "8 Seconds"
 msgstr "8 segundos"
 
-#: src/fw/apps/system/settings/display.c:198
+#: pebble/apps/system/settings/display.c:229
 msgid "TIMEOUT"
 msgstr "LIMITE"
 
 #. / Status bar title for the Notification Window Timeout settings screen
 #. / String within Settings->Notifications that describes the window timeout setting
-#: src/fw/apps/system/settings/display.c:198
-#: src/fw/apps/system/settings/display.c:461
-#: src/fw/apps/system/settings/notifications.c:192
-#: src/fw/apps/system/settings/notifications.c:356
+#: pebble/apps/system/settings/display.c:229
+#: pebble/apps/system/settings/display.c:493
+#: pebble/apps/system/settings/notifications.c:193
+#: pebble/apps/system/settings/notifications.c:357
 msgid "Timeout"
 msgstr "Desligar após"
 
-#: src/fw/apps/system/settings/display.c:208 src/fw/services/vibes/vibes.def:19
+#: pebble/apps/system/settings/display.c:239 pebble/services/vibes/vibes.def:19
 msgid "Double Tap"
 msgstr "Toque duplo"
 
-#: src/fw/apps/system/settings/display.c:209
+#: pebble/apps/system/settings/display.c:240
 msgid "Tap"
 msgstr "Toque"
 
-#: src/fw/apps/system/settings/display.c:210
+#: pebble/apps/system/settings/display.c:241
 msgctxt "TouchWake"
 msgid "Off"
 msgstr "Off"
 
-#: src/fw/apps/system/settings/display.c:223
+#: pebble/apps/system/settings/display.c:255
 msgid "WAKE ON TOUCH"
 msgstr "ACORDAR AO TOQUE"
 
-#: src/fw/apps/system/settings/display.c:223
-#: src/fw/apps/system/settings/display.c:430
+#: pebble/apps/system/settings/display.c:255
+#: pebble/apps/system/settings/display.c:462
 msgid "Wake on touch"
 msgstr "Acordar ao toque"
 
-#: src/fw/apps/system/settings/display.c:234
+#: pebble/apps/system/settings/display.c:266
 msgctxt "DynBacklight"
 msgid "Off"
 msgstr "Off"
 
-#: src/fw/apps/system/settings/display.c:235
+#: pebble/apps/system/settings/display.c:267
 msgid "Bright"
 msgstr "Forte"
 
-#: src/fw/apps/system/settings/display.c:236
-#: src/fw/apps/system/settings/display.c:262
+#: pebble/apps/system/settings/display.c:268
+#: pebble/apps/system/settings/display.c:294
 msgid "Standard"
 msgstr "Normal"
 
-#: src/fw/apps/system/settings/display.c:237
+#: pebble/apps/system/settings/display.c:269
 msgid "Dim"
 msgstr "Fraco"
 
-#: src/fw/apps/system/settings/display.c:251
+#: pebble/apps/system/settings/display.c:283
 msgid "DYNAMIC BACKLIGHT"
 msgstr "RETROILUMINAÇÃO DINÂMICA"
 
-#: src/fw/apps/system/settings/display.c:251
-#: src/fw/apps/system/settings/display.c:447
+#: pebble/apps/system/settings/display.c:283
+#: pebble/apps/system/settings/display.c:479
 msgid "Dynamic Backlight"
 msgstr "Retroiluminação dinâmica"
 
-#: src/fw/apps/system/settings/display.c:261
+#: pebble/apps/system/settings/display.c:293
 msgid "Max Brightness"
 msgstr "Brilho máx."
 
-#: src/fw/apps/system/settings/display.c:263
+#: pebble/apps/system/settings/display.c:295
 msgid "Battery Saver"
 msgstr "Poupança de bateria"
 
-#: src/fw/apps/system/settings/display.c:264
+#: pebble/apps/system/settings/display.c:296
 msgid "Advanced"
 msgstr "Avançadas"
 
-#: src/fw/apps/system/settings/display.c:284
+#: pebble/apps/system/settings/display.c:316
 msgid "BACKLIGHT"
 msgstr "RETROILUMINAÇÃO"
 
 #. / String within Settings->Notifications that describes backlight setting
-#: src/fw/apps/system/settings/display.c:284
-#: src/fw/apps/system/settings/display.c:406
-#: src/fw/apps/system/settings/display.c:647
-#: src/fw/apps/system/settings/notifications.c:376
-#: src/fw/apps/system/settings/quiet_time.c:404
-#: src/fw/apps/system/settings/quiet_time.c:444
+#: pebble/apps/system/settings/display.c:316
+#: pebble/apps/system/settings/display.c:438
+#: pebble/apps/system/settings/display.c:680
+#: pebble/apps/system/settings/notifications.c:377
+#: pebble/apps/system/settings/quiet_time.c:587
+#: pebble/apps/system/settings/quiet_time.c:630
 msgid "Backlight"
 msgstr "Retroiluminação"
 
-#: src/fw/apps/system/settings/display.c:294
+#: pebble/apps/system/settings/display.c:326
 msgid "Centered"
 msgstr "Centrado"
 
-#: src/fw/apps/system/settings/display.c:294
+#: pebble/apps/system/settings/display.c:326
 msgid "Scaled (Nearest)"
 msgstr "Escalado (mais próximo)"
 
-#: src/fw/apps/system/settings/display.c:294
+#: pebble/apps/system/settings/display.c:326
 msgid "Scaled (Bilinear)"
 msgstr "Escalado (bilinear)"
 
-#: src/fw/apps/system/settings/display.c:307
+#: pebble/apps/system/settings/display.c:339
 msgid "Legacy App Display"
 msgstr "Visualização de apps antigas"
 
-#: src/fw/apps/system/settings/display.c:412
+#: pebble/apps/system/settings/display.c:444
 #, c-format
 msgid "On - %d%%"
 msgstr "On - %d%%"
 
-#: src/fw/apps/system/settings/display.c:415
-#: src/fw/apps/system/settings/display.c:418
+#: pebble/apps/system/settings/display.c:447
+#: pebble/apps/system/settings/display.c:450
 msgctxt "DeviceState"
 msgid "On"
 msgstr "On"
 
-#: src/fw/apps/system/settings/display.c:421
-#: src/fw/apps/system/settings/display.c:442
-#: src/fw/apps/system/settings/display.c:649
+#: pebble/apps/system/settings/display.c:453
+#: pebble/apps/system/settings/display.c:474
+#: pebble/apps/system/settings/display.c:682
 msgctxt "DeviceState"
 msgid "Off"
 msgstr "Off"
 
-#: src/fw/apps/system/settings/display.c:425
+#: pebble/apps/system/settings/display.c:457
 msgid "Wake on motion"
 msgstr "Acordar com movimento"
 
-#: src/fw/apps/system/settings/display.c:426
-#: src/fw/apps/system/settings/display.c:657
-#: src/fw/apps/system/settings/display.c:661
-#: src/fw/apps/system/settings/health.c:108
-#: src/fw/apps/system/settings/health.c:135
-#: src/fw/apps/system/settings/health.c:140
-#: src/fw/apps/system/settings/health.c:159
-#: src/fw/apps/system/settings/notifications.c:378
-#: src/fw/apps/system/settings/quiet_time.c:363
-#: src/fw/apps/system/settings/quiet_time.c:367
-#: src/fw/apps/system/settings/quiet_time.c:429
-#: src/fw/apps/system/settings/quiet_time.c:449
-#: src/fw/apps/system/settings/quiet_time.c:457
-#: src/fw/apps/system/settings/system.c:1293
-#: src/fw/apps/system/settings/timeline.c:187
-#: src/fw/apps/system/settings/vibe_patterns.c:67
-msgid "On"
-msgstr "On"
-
-#. / Shows up in the Timeline settings as the status under the "Quick View" toggle.
-#: src/fw/apps/system/settings/display.c:426
-#: src/fw/apps/system/settings/display.c:657
-#: src/fw/apps/system/settings/display.c:661
-#: src/fw/apps/system/settings/health.c:108
-#: src/fw/apps/system/settings/health.c:135
-#: src/fw/apps/system/settings/health.c:140
-#: src/fw/apps/system/settings/health.c:160
-#: src/fw/apps/system/settings/notifications.c:378
-#: src/fw/apps/system/settings/quiet_time.c:324
-#: src/fw/apps/system/settings/quiet_time.c:363
-#: src/fw/apps/system/settings/quiet_time.c:367
-#: src/fw/apps/system/settings/quiet_time.c:429
-#: src/fw/apps/system/settings/quiet_time.c:450
-#: src/fw/apps/system/settings/quiet_time.c:457
-#: src/fw/apps/system/settings/system.c:1293
-#: src/fw/apps/system/settings/timeline.c:190
-#: src/fw/apps/system/settings/vibe_patterns.c:67
-msgid "Off"
-msgstr "Off"
-
-#: src/fw/apps/system/settings/display.c:435
+#: pebble/apps/system/settings/display.c:467
 msgid "Ambient Sensor"
 msgstr "Sensor Ambiente"
 
-#: src/fw/apps/system/settings/display.c:438
+#: pebble/apps/system/settings/display.c:471
 #, c-format
 msgid "On (%d)"
 msgstr "On (%d)"
 
-#: src/fw/apps/system/settings/display.c:453
+#: pebble/apps/system/settings/display.c:485
 msgid "Max Intensity"
 msgstr "Intensidade máx."
 
-#: src/fw/apps/system/settings/display.c:542
-#: src/fw/apps/system/settings/display.c:652
+#: pebble/apps/system/settings/display.c:575
+#: pebble/apps/system/settings/display.c:685
 msgid "Backlight Settings"
 msgstr "Definições de retroiluminação"
 
-#: src/fw/apps/system/settings/display.c:656
-#: src/fw/apps/system/settings/quiet_time.c:366
+#: pebble/apps/system/settings/display.c:689
+#: pebble/apps/system/settings/quiet_time.c:535
 msgid "Touch"
 msgstr "Toque"
 
-#: src/fw/apps/system/settings/display.c:660
+#: pebble/apps/system/settings/display.c:693
 msgid "Touch Navigation"
 msgstr "Navegação tátil"
 
-#: src/fw/apps/system/settings/display.c:684
+#: pebble/apps/system/settings/display.c:717
 msgid "Legacy Apps"
 msgstr "Apps antigas"
 
-#: src/fw/apps/system/settings/display.c:726
+#: pebble/apps/system/settings/display.c:760
 msgid "Display"
 msgstr "Visor"
 
-#: src/fw/apps/system/settings/factory_reset.c:108
+#: pebble/apps/system/settings/factory_reset.c:112
 msgid "Perform factory reset?"
 msgstr "Repor definições fábrica?"
 
-#: src/fw/apps/system/settings/health.c:22
+#: pebble/apps/system/settings/health.c:24
 msgid "Kilometers"
 msgstr "Quilómetros"
 
-#: src/fw/apps/system/settings/health.c:23
+#: pebble/apps/system/settings/health.c:25
 msgid "Miles"
 msgstr "Milhas"
 
+#: pebble/apps/system/settings/health.c:35
+#, fuzzy
+#| msgid "3 Minutes"
+msgid "5 Minutes"
+msgstr "3 Minutos"
+
 #. / 10 Minute Notification Window Timeout
-#: src/fw/apps/system/settings/health.c:28
-#: src/fw/apps/system/settings/notifications.c:158
+#: pebble/apps/system/settings/health.c:35
+#: pebble/apps/system/settings/health.c:56
+#: pebble/apps/system/settings/notifications.c:159
 msgid "10 Minutes"
 msgstr "10 Minutos"
 
-#: src/fw/apps/system/settings/health.c:29
+#: pebble/apps/system/settings/health.c:35
+#: pebble/apps/system/settings/health.c:57
 msgid "30 Minutes"
 msgstr "30 minutos"
 
-#: src/fw/apps/system/settings/health.c:30
+#: pebble/apps/system/settings/health.c:36
+#: pebble/apps/system/settings/health.c:58
 msgid "1 Hour"
 msgstr "1 hora"
 
-#: src/fw/apps/system/settings/health.c:31
-#: src/fw/apps/system/settings/system.c:521
-#: src/fw/apps/system/settings/system.c:537
-#: src/fw/apps/system/settings/system.c:540
+#: pebble/apps/system/settings/health.c:36
+#: pebble/apps/system/settings/health.c:59
+#: pebble/apps/system/settings/system.c:525
+#: pebble/apps/system/settings/system.c:541
+#: pebble/apps/system/settings/system.c:544
 msgid "Disabled"
 msgstr "Desativado"
 
-#: src/fw/apps/system/settings/health.c:62
-#: src/fw/apps/system/settings/health.c:123
+#: pebble/apps/system/settings/health.c:100
+#: pebble/apps/system/settings/health.c:163
 msgid "HR Monitoring"
 msgstr "Monitorização FC"
 
-#: src/fw/apps/system/settings/health.c:81
-#: src/fw/apps/system/settings/health.c:139
-msgid "Blood Oxygen"
-msgstr ""
-
-#: src/fw/apps/system/settings/health.c:107
-msgid "Health Tracking"
-msgstr "Monitorização de saúde"
-
-#: src/fw/apps/system/settings/health.c:112
-msgid "Distance Unit"
-msgstr "Unidade de distância"
-
-#: src/fw/apps/system/settings/health.c:133
-msgid "HR During Activity"
-msgstr "FC durante atividade"
-
-#: src/fw/apps/system/settings/health.c:144
+#: pebble/apps/system/settings/health.c:121
+#: pebble/apps/system/settings/health.c:181
 #, fuzzy
 #| msgid "HR Monitoring"
 msgid "SpO2 Monitoring"
 msgstr "Monitorização FC"
 
-#: src/fw/apps/system/settings/health.c:154
-#, fuzzy
-#| msgid "HR During Activity"
-msgid "Blood O2 During Activity"
+#: pebble/apps/system/settings/health.c:147
+msgid "Health Tracking"
+msgstr "Monitorização de saúde"
+
+#: pebble/apps/system/settings/health.c:152
+msgid "Distance Unit"
+msgstr "Unidade de distância"
+
+#: pebble/apps/system/settings/health.c:170
+msgid "HR During Activity"
 msgstr "FC durante atividade"
 
-#: src/fw/apps/system/settings/health.c:157
-#, fuzzy
-#| msgid "HR During Activity"
-msgid "Needs HR During Activity"
-msgstr "FC durante atividade"
+#: pebble/apps/system/settings/health.c:176
+msgid "SpO2"
+msgstr ""
 
-#: src/fw/apps/system/settings/notifications.c:59
+#: pebble/apps/system/settings/notifications.c:61
 msgid "Allow All Notifications"
 msgstr "Permitir notificações"
 
-#: src/fw/apps/system/settings/notifications.c:60
+#: pebble/apps/system/settings/notifications.c:62
 msgid "Allow Phone Calls Only"
 msgstr "Permitir só chamadas"
 
-#: src/fw/apps/system/settings/notifications.c:61
+#: pebble/apps/system/settings/notifications.c:63
 msgid "Mute All Notifications"
 msgstr "Silenciar notificações"
 
 #. / The option in the Settings app for filtering notifications by type.
-#: src/fw/apps/system/settings/notifications.c:93
-#: src/fw/apps/system/settings/notifications.c:346
+#: pebble/apps/system/settings/notifications.c:94
+#: pebble/apps/system/settings/notifications.c:347
 msgid "Filter"
 msgstr "Filtrar"
 
 #. / Notification text size option that follows the system Text Size setting
-#: src/fw/apps/system/settings/notifications.c:111
+#: pebble/apps/system/settings/notifications.c:112
 #, fuzzy
 #| msgid "System"
 msgid "Same as System"
 msgstr "Sistema"
 
 #. / 15 Second Notification Window Timeout
-#: src/fw/apps/system/settings/notifications.c:150
+#: pebble/apps/system/settings/notifications.c:151
 msgid "15 Seconds"
 msgstr "15 Segundos"
 
 #. / 30 Second Notification Window Timeout
-#: src/fw/apps/system/settings/notifications.c:152
+#: pebble/apps/system/settings/notifications.c:153
 msgid "30 Seconds"
 msgstr "30 segundos"
 
 #. / 1 Minute Notification Window Timeout
-#: src/fw/apps/system/settings/notifications.c:154
+#: pebble/apps/system/settings/notifications.c:155
 msgid "1 Minute"
 msgstr "1 Minuto"
 
 #. / 3 Minute Notification Window Timeout
-#: src/fw/apps/system/settings/notifications.c:156
+#: pebble/apps/system/settings/notifications.c:157
 msgid "3 Minutes"
 msgstr "3 Minutos"
 
 #. / Standard notification design option (default)
-#: src/fw/apps/system/settings/notifications.c:204
+#: pebble/apps/system/settings/notifications.c:205
 msgid "Classic"
 msgstr "Clássico"
 
 #. / Alternative notification design option
-#: src/fw/apps/system/settings/notifications.c:206
+#: pebble/apps/system/settings/notifications.c:207
 msgid "Flat Black"
 msgstr "Preto liso"
 
 #. / Status bar title for the Notification Design Style settings screen
 #. / String within Settings->Notifications that describes the notification design style
-#: src/fw/apps/system/settings/notifications.c:224
-#: src/fw/apps/system/settings/notifications.c:363
+#: pebble/apps/system/settings/notifications.c:225
+#: pebble/apps/system/settings/notifications.c:364
 msgid "Banner Style"
 msgstr "Estilo de faixa"
 
 #. / Vibrate at the beginning of notification animation (immediate)
-#: src/fw/apps/system/settings/notifications.c:236
+#: pebble/apps/system/settings/notifications.c:237
 msgid "Beginning"
 msgstr "Início"
 
 #. / Status bar title for the Notification Vibe Timing settings screen
 #. / String within Settings->Notifications that describes when vibration happens
-#: src/fw/apps/system/settings/notifications.c:256
-#: src/fw/apps/system/settings/notifications.c:370
+#: pebble/apps/system/settings/notifications.c:257
+#: pebble/apps/system/settings/notifications.c:371
 msgid "Vibe Timing"
 msgstr "Tempo de vibração"
 
-#: src/fw/apps/system/settings/notifications.c:266
+#: pebble/apps/system/settings/notifications.c:267
 msgctxt "StatusBar"
 msgid "Default"
 msgstr "Padrão"
 
-#: src/fw/apps/system/settings/notifications.c:267
+#: pebble/apps/system/settings/notifications.c:268
 msgid "Bold"
 msgstr "Negrito"
 
-#: src/fw/apps/system/settings/notifications.c:268
+#: pebble/apps/system/settings/notifications.c:269
 msgid "Big & Bold"
 msgstr "Grande e negrito"
 
 #. / Status bar title for the Notification Status Bar Style settings screen
-#: src/fw/apps/system/settings/notifications.c:290
+#: pebble/apps/system/settings/notifications.c:291
 msgid "Clock Style"
 msgstr "Estilo do relógio"
 
 #. / Disable notification grouping
-#: src/fw/apps/system/settings/notifications.c:301
+#: pebble/apps/system/settings/notifications.c:302
 msgid "Never"
 msgstr ""
 
 #. / Group notifications received within one day
-#: src/fw/apps/system/settings/notifications.c:303
+#: pebble/apps/system/settings/notifications.c:304
 #, fuzzy
 #| msgid "All Day"
 msgid "1 Day"
 msgstr "Todo o dia"
 
 #. / Group notifications received within one week
-#: src/fw/apps/system/settings/notifications.c:305
+#: pebble/apps/system/settings/notifications.c:306
 msgid "1 Week"
 msgstr ""
 
 #. / Group all notifications
-#: src/fw/apps/system/settings/notifications.c:307
+#: pebble/apps/system/settings/notifications.c:308
 #, fuzzy
 #| msgid "All day"
 msgid "All"
@@ -1471,50 +1594,50 @@ msgstr "Dia todo"
 
 #. / Title for the notification sender grouping settings screen
 #. / Notification settings item for grouping notifications by sender
-#: src/fw/apps/system/settings/notifications.c:324
-#: src/fw/apps/system/settings/notifications.c:383
+#: pebble/apps/system/settings/notifications.c:325
+#: pebble/apps/system/settings/notifications.c:384
 msgid "Group by Sender"
 msgstr ""
 
 #. / String within Settings->Notifications that selects the notification status bar style
-#: src/fw/apps/system/settings/notifications.c:390
+#: pebble/apps/system/settings/notifications.c:391
 msgid "Status Bar"
 msgstr "Barra de estado"
 
 #. / Shown in Quick Launch Settings as the title of the tap up button option.
-#: src/fw/apps/system/settings/quick_launch.c:56
+#: pebble/apps/system/settings/quick_launch.c:58
 msgid "Tap Up"
 msgstr "Toque para cima"
 
 #. / Shown in Quick Launch Settings as the title of the tap down button option.
-#: src/fw/apps/system/settings/quick_launch.c:58
+#: pebble/apps/system/settings/quick_launch.c:60
 msgid "Tap Down"
 msgstr "Toque para baixo"
 
 #. / Shown in Quick Launch Settings as the title of the hold up button quick launch option.
-#: src/fw/apps/system/settings/quick_launch.c:60
+#: pebble/apps/system/settings/quick_launch.c:62
 msgid "Hold Up"
 msgstr "Manter cima"
 
 #. / Shown in Quick Launch Settings as the title of the hold center button quick launch option.
-#: src/fw/apps/system/settings/quick_launch.c:62
+#: pebble/apps/system/settings/quick_launch.c:64
 msgid "Hold Center"
 msgstr "Manter centro"
 
 #. / Shown in Quick Launch Settings as the title of the hold down button quick launch option.
-#: src/fw/apps/system/settings/quick_launch.c:64
+#: pebble/apps/system/settings/quick_launch.c:66
 msgid "Hold Down"
 msgstr "Manter baixo"
 
 #. / Shown in Quick Launch Settings as the title of the hold back button quick launch option.
-#: src/fw/apps/system/settings/quick_launch.c:66
+#: pebble/apps/system/settings/quick_launch.c:68
 msgid "Hold Back"
 msgstr "Manter voltar"
 
 #. / Shown in Quick Launch Settings as the title of the list of actions.
 #. / Title of the Quick Launch menu listing the available actions.
-#: src/fw/apps/system/settings/quick_launch.c:71
-#: src/fw/apps/system/settings/quick_launch_app_menu.c:35
+#: pebble/apps/system/settings/quick_launch.c:73
+#: pebble/apps/system/settings/quick_launch_app_menu.c:37
 #, fuzzy
 #| msgid "Options"
 msgid "Actions"
@@ -1522,494 +1645,470 @@ msgstr "Opções"
 
 #. / Shown in Quick Launch Settings as the title of the list of apps.
 #. / Title of the Quick Launch menu listing the installed apps.
-#: src/fw/apps/system/settings/quick_launch.c:73
-#: src/fw/apps/system/settings/quick_launch_app_menu.c:37
+#: pebble/apps/system/settings/quick_launch.c:75
+#: pebble/apps/system/settings/quick_launch_app_menu.c:39
 #, fuzzy
 #| msgid "Apps Only"
 msgid "Apps"
 msgstr "Só apps"
 
 #. / Shown in Quick Launch Settings when no action or app is bound to the button.
-#: src/fw/apps/system/settings/quick_launch.c:80
-#: src/fw/apps/system/settings/quick_launch_app_menu.c:109
+#: pebble/apps/system/settings/quick_launch.c:82
+#: pebble/apps/system/settings/quick_launch_app_menu.c:111
 msgid "Unassigned"
 msgstr ""
 
 #. / Title of the Quick Launch Settings submenu in Settings
 #. / Title for the Quick Launch first use dialog.
-#: src/fw/apps/system/settings/quick_launch.c:174
-#: src/fw/apps/system/settings/quick_launch.c:248
-#: src/fw/apps/system/settings/quick_launch_setup_menu.c:45
+#: pebble/apps/system/settings/quick_launch.c:176
+#: pebble/apps/system/settings/quick_launch.c:250
+#: pebble/apps/system/settings/quick_launch_setup_menu.c:46
 msgid "Quick Launch"
 msgstr "Início rápido"
 
-#: src/fw/apps/system/settings/quick_launch_setup_menu.c:48
+#: pebble/apps/system/settings/quick_launch_setup_menu.c:49
 msgid ""
 "Open favorite apps quickly with a long button press from your watchface."
 msgstr ""
 "Abre as tuas apps favoritas ao manter premido um botão a partir do visor"
 
-#: src/fw/apps/system/settings/quiet_time.c:94
+#: pebble/apps/system/settings/quiet_time.c:106
 msgid "Quiet All Notifications"
 msgstr "Silenciar notificações"
 
-#: src/fw/apps/system/settings/quiet_time.c:97
+#: pebble/apps/system/settings/quiet_time.c:109
 msgid "Allow Phone Calls"
 msgstr "Permitir chamadas"
 
-#: src/fw/apps/system/settings/quiet_time.c:219
+#: pebble/apps/system/settings/quiet_time.c:327
 msgid "Change Schedule"
 msgstr "Alterar agenda"
 
-#: src/fw/apps/system/settings/quiet_time.c:255
-msgid "Calendar Aware"
-msgstr "Ciente Calendário"
-
-#: src/fw/apps/system/settings/quiet_time.c:257
-msgctxt "QuietTime"
-msgid "Enabled"
-msgstr "Ativado"
-
-#: src/fw/apps/system/settings/quiet_time.c:258
-#: src/fw/apps/system/settings/quiet_time.c:266
-#: src/fw/apps/system/settings/quiet_time.c:274
-msgctxt "QuietTime"
-msgid "Disabled"
-msgstr "Desativado"
-
-#. / A frequency option for alarms, i.e. the alarm would only go off
-#. / every weekday. Respect capitalization!
-#: src/fw/apps/system/settings/quiet_time.c:262
-#: src/fw/services/alarms/alarm.c:1416
-msgid "Weekdays"
-msgstr "Dias úteis"
-
-#. / A frequency option for alarms, i.e. the alarm would only go off
-#. / each day on the weekend. Respect capitalization!
-#: src/fw/apps/system/settings/quiet_time.c:270
-#: src/fw/services/alarms/alarm.c:1426
-msgid "Weekends"
-msgstr "Fins de semana"
-
-#: src/fw/apps/system/settings/quiet_time.c:318
-#: src/fw/apps/system/settings/quiet_time.c:432
-msgid "Schedule"
-msgstr "Horário"
-
-#: src/fw/apps/system/settings/quiet_time.c:327
+#: pebble/apps/system/settings/quiet_time.c:495
 msgid "On - Auto Dismiss"
 msgstr "On - Remover auto"
 
-#: src/fw/apps/system/settings/quiet_time.c:329
+#: pebble/apps/system/settings/quiet_time.c:497
 msgid "On - Persistent"
 msgstr "On - Persistente"
 
-#: src/fw/apps/system/settings/quiet_time.c:362
+#: pebble/apps/system/settings/quiet_time.c:529
 msgid "Motion"
 msgstr "Movimento"
 
-#: src/fw/apps/system/settings/quiet_time.c:427
-#: src/fw/apps/system/settings/time.c:362
-#: src/fw/apps/system/settings/time.c:389
+#: pebble/apps/system/settings/quiet_time.c:609
+#: pebble/apps/system/settings/time.c:362
+#: pebble/apps/system/settings/time.c:389
 msgid "Manual"
 msgstr "Manual"
 
-#: src/fw/apps/system/settings/quiet_time.c:435
+#: pebble/apps/system/settings/quiet_time.c:614
+msgid "Calendar Aware"
+msgstr "Ciente Calendário"
+
+#: pebble/apps/system/settings/quiet_time.c:622
 msgid "Interruptions"
 msgstr "Interrupções"
 
-#: src/fw/apps/system/settings/quiet_time.c:448
-msgid "Motion Backlight"
-msgstr "Retroiluminação com Sensor"
-
-#: src/fw/apps/system/settings/quiet_time.c:455
-#: src/fw/apps/system/settings/vibe_patterns.c:66
+#: pebble/apps/system/settings/quiet_time.c:634
+#: pebble/apps/system/settings/vibe_patterns.c:89
 msgid "Mute Speaker"
 msgstr "Silenciar altifalante"
 
-#: src/fw/apps/system/settings/quiet_time.c:519
+#: pebble/apps/system/settings/quiet_time.c:695
 msgid "Quiet Time"
 msgstr "Modo Silêncio"
 
-#: src/fw/apps/system/settings/remote.c:53
+#: pebble/apps/system/settings/remote.c:55
 msgid "You're all set"
 msgstr "Está pronto"
 
-#: src/fw/apps/system/settings/remote.c:122
+#: pebble/apps/system/settings/remote.c:124
 msgid "Forget"
 msgstr "Esquecer"
 
-#: src/fw/apps/system/settings/remote.c:130
-#: src/fw/popups/ble_hrm/ble_hrm_reminder_popup.c:28
+#: pebble/apps/system/settings/remote.c:132
+#: pebble/popups/ble_hrm/ble_hrm_reminder_popup.c:28
 msgid "Stop Sharing Heart Rate"
 msgstr "Parar Partilha de Ritmo Cardíaco"
 
-#: src/fw/apps/system/settings/settings.c:230
+#: pebble/apps/system/settings/settings.c:225
 msgid "Settings"
 msgstr "Definições"
 
-#: src/fw/apps/system/settings/speaker_volume_window.c:55
-#: src/fw/apps/system/settings/vibe_patterns.c:72
+#: pebble/apps/system/settings/speaker_volume_window.c:56
+#: pebble/apps/system/settings/vibe_patterns.c:97
 msgid "Volume"
 msgstr "Volume"
 
-#: src/fw/apps/system/settings/system.c:160
-#: src/fw/apps/system/settings/system.c:255
+#: pebble/apps/system/settings/system.c:164
+#: pebble/apps/system/settings/system.c:259
 msgid "Information"
 msgstr "Informações"
 
-#: src/fw/apps/system/settings/system.c:161
-#: src/fw/apps/system/settings/system.c:961
+#: pebble/apps/system/settings/system.c:165
+#: pebble/apps/system/settings/system.c:965
 msgid "Certification"
 msgstr "Certificação"
 
-#: src/fw/apps/system/settings/system.c:162
+#: pebble/apps/system/settings/system.c:166
 msgid "Stand-By Mode"
 msgstr "Modo espera"
 
-#: src/fw/apps/system/settings/system.c:163
-#: src/fw/apps/system/settings/system.c:603
+#: pebble/apps/system/settings/system.c:167
+#: pebble/apps/system/settings/system.c:607
 msgid "Debugging"
 msgstr "Depuração"
 
-#: src/fw/apps/system/settings/system.c:164
+#: pebble/apps/system/settings/system.c:168
 msgid "Shut Down"
 msgstr "Encerrar"
 
-#: src/fw/apps/system/settings/system.c:165
+#: pebble/apps/system/settings/system.c:169
 msgid "Factory Reset"
 msgstr "Defin. fábrica"
 
-#: src/fw/apps/system/settings/system.c:206
+#: pebble/apps/system/settings/system.c:210
 msgid "BT Address"
 msgstr "Endereço BT"
 
-#: src/fw/apps/system/settings/system.c:207
+#: pebble/apps/system/settings/system.c:211
 msgid "Firmware"
 msgstr "Firmware"
 
-#: src/fw/apps/system/settings/system.c:209
+#: pebble/apps/system/settings/system.c:213
 msgid "Recovery"
 msgstr "Recuperação"
 
-#: src/fw/apps/system/settings/system.c:210
+#: pebble/apps/system/settings/system.c:214
 msgid "Bootloader"
 msgstr "Bootloader"
 
-#: src/fw/apps/system/settings/system.c:211
+#: pebble/apps/system/settings/system.c:215
 msgid "Hardware"
 msgstr "Hardware"
 
-#: src/fw/apps/system/settings/system.c:212
+#: pebble/apps/system/settings/system.c:216
 msgid "Serial"
 msgstr "Nº de série"
 
-#: src/fw/apps/system/settings/system.c:213
+#: pebble/apps/system/settings/system.c:217
 msgid "Uptime"
 msgstr "Tempo ativo"
 
-#: src/fw/apps/system/settings/system.c:214
+#: pebble/apps/system/settings/system.c:218
 msgid "Legal"
 msgstr "Legal"
 
-#: src/fw/apps/system/settings/system.c:353
+#: pebble/apps/system/settings/system.c:355
 msgid "Core dump and reboot?"
 msgstr "Relatório de memória e reiniciar?"
 
-#: src/fw/apps/system/settings/system.c:440
+#: pebble/apps/system/settings/system.c:443
 msgid "Very Low"
 msgstr "Muito baixo"
 
-#: src/fw/apps/system/settings/system.c:441
+#: pebble/apps/system/settings/system.c:443
 msgid "Medium-Low"
 msgstr "Médio-baixo"
 
-#: src/fw/apps/system/settings/system.c:442
+#: pebble/apps/system/settings/system.c:444
 msgid "Medium-High"
 msgstr "Médio-alto"
 
-#: src/fw/apps/system/settings/system.c:443
+#: pebble/apps/system/settings/system.c:445
 msgid "Very High"
 msgstr "Muito alto"
 
-#: src/fw/apps/system/settings/system.c:468
-#: src/fw/apps/system/settings/system.c:494
+#: pebble/apps/system/settings/system.c:471
+#: pebble/apps/system/settings/system.c:497
 msgid "Motion Sensitivity"
 msgstr "Sensibilidade movimento"
 
-#: src/fw/apps/system/settings/system.c:490
+#: pebble/apps/system/settings/system.c:493
 msgid "CoreDump now"
 msgstr "CoreDump agora"
 
-#: src/fw/apps/system/settings/system.c:491
+#: pebble/apps/system/settings/system.c:494
 msgid "CoreDump shortcut"
 msgstr "Atalho CoreDump"
 
-#: src/fw/apps/system/settings/system.c:492
+#: pebble/apps/system/settings/system.c:495
 msgid "ALS Threshold"
 msgstr "Limiar ALS"
 
-#: src/fw/apps/system/settings/system.c:496
+#: pebble/apps/system/settings/system.c:499
 msgid "Shake Log Info"
 msgstr "Info registo abanão"
 
-#: src/fw/apps/system/settings/system.c:497
+#: pebble/apps/system/settings/system.c:500
 msgid "Vibe Log Info"
 msgstr "Info registo vibração"
 
-#: src/fw/apps/system/settings/system.c:498
+#: pebble/apps/system/settings/system.c:501
 msgid "Compact Settings DBs"
 msgstr "Compactar BD definições"
 
-#: src/fw/apps/system/settings/system.c:500
+#: pebble/apps/system/settings/system.c:503
 msgid "SpO2 Test"
 msgstr ""
 
-#: src/fw/apps/system/settings/system.c:520
+#: pebble/apps/system/settings/system.c:524
 msgid "10 back-button presses"
 msgstr "10 pressões botão voltar"
 
-#: src/fw/apps/system/settings/system.c:536
-#: src/fw/apps/system/settings/system.c:539
+#: pebble/apps/system/settings/system.c:540
+#: pebble/apps/system/settings/system.c:543
 msgid "Enabled"
 msgstr "Ativado"
 
-#: src/fw/apps/system/settings/system.c:680
+#: pebble/apps/system/settings/system.c:682
 msgid "PebbleOS developers only!"
 msgstr "Só para programadores PebbleOS!"
 
-#: src/fw/apps/system/settings/system.c:925
+#: pebble/apps/system/settings/system.c:929
 msgid "See details..."
 msgstr "Ver detalhes..."
 
-#: src/fw/apps/system/settings/system.c:983
+#: pebble/apps/system/settings/system.c:987
 msgid "Company"
 msgstr "Empresa"
 
-#: src/fw/apps/system/settings/system.c:991
+#: pebble/apps/system/settings/system.c:995
 msgid "Product Model"
 msgstr "Modelo do produto"
 
-#: src/fw/apps/system/settings/system.c:998
+#: pebble/apps/system/settings/system.c:1002
 msgid "Product Type"
 msgstr "Tipo de produto"
 
-#: src/fw/apps/system/settings/system.c:1005
+#: pebble/apps/system/settings/system.c:1009
 msgid "Trademark"
 msgstr "Marca registada"
 
-#: src/fw/apps/system/settings/system.c:1012
+#: pebble/apps/system/settings/system.c:1016
 msgid "Place of Origin"
 msgstr "Local de origem"
 
-#: src/fw/apps/system/settings/system.c:1019
+#: pebble/apps/system/settings/system.c:1023
 msgid "DC Input"
 msgstr "Entrada CC"
 
-#: src/fw/apps/system/settings/system.c:1026
+#: pebble/apps/system/settings/system.c:1030
 msgid "Rated Voltage"
 msgstr "Tensão nominal"
 
-#: src/fw/apps/system/settings/system.c:1033
+#: pebble/apps/system/settings/system.c:1037
 msgid "Milliampere-hour"
 msgstr "Miliampere-hora"
 
-#: src/fw/apps/system/settings/system.c:1040
+#: pebble/apps/system/settings/system.c:1044
 msgid "Watt-hour"
 msgstr "Watt-hora"
 
-#: src/fw/apps/system/settings/system.c:1054
+#: pebble/apps/system/settings/system.c:1058
 msgid "Canada IC"
 msgstr "IC do Canadá"
 
-#: src/fw/apps/system/settings/system.c:1061
+#: pebble/apps/system/settings/system.c:1065
 msgid "Canada ISED"
 msgstr "ISED do Canadá"
 
-#: src/fw/apps/system/settings/system.c:1075
-#: src/fw/apps/system/settings/system.c:1185
+#: pebble/apps/system/settings/system.c:1079
+#: pebble/apps/system/settings/system.c:1187
 msgid "South Korea KCC"
 msgstr "KCC da Coreia do Sul"
 
-#: src/fw/apps/system/settings/system.c:1273
+#: pebble/apps/system/settings/system.c:1258
+msgid "Disconnect the charger to shut down."
+msgstr ""
+
+#: pebble/apps/system/settings/system.c:1292
 msgid "Do you want to shut down?"
 msgstr "Pretende encerrar?"
 
 #. / Refers to the class of all non-score vibes, e.g. 3rd party app vibes
-#: src/fw/apps/system/settings/system.c:1360
-#: src/fw/apps/system/settings/vibe_patterns.c:106
+#: pebble/apps/system/settings/system.c:1379
+#: pebble/apps/system/settings/vibe_patterns.c:72
 msgid "System"
 msgstr "Sistema"
 
-#: src/fw/apps/system/settings/themes.c:98
+#: pebble/apps/system/settings/themes.c:108
+#: pebble/apps/system/settings/themes.c:167
 msgid "Accent Color"
 msgstr "Cor de destaque"
 
+#: pebble/apps/system/settings/themes.c:161
+#, fuzzy
+#| msgid "Schedule"
+msgid "Schedule Time"
+msgstr "Horário"
+
 #. / Title of the Themes Settings submenu in Settings
-#: src/fw/apps/system/settings/themes.c:147
+#: pebble/apps/system/settings/themes.c:209
 msgid "Themes"
 msgstr "Temas"
 
 #. / Title of the menu for changing the watch's timezone.
-#: src/fw/apps/system/settings/time.c:163
-#: src/fw/apps/system/settings/time.c:402
+#: pebble/apps/system/settings/time.c:162
+#: pebble/apps/system/settings/time.c:402
 msgid "Timezone"
 msgstr "Fuso horário"
 
-#: src/fw/apps/system/settings/time.c:263
-#: src/fw/apps/system/settings/time.c:366
+#: pebble/apps/system/settings/time.c:262
+#: pebble/apps/system/settings/time.c:366
 msgid "Set Time"
 msgstr "Def. hora"
 
-#: src/fw/apps/system/settings/time.c:302
-#: src/fw/apps/system/settings/time.c:374
+#: pebble/apps/system/settings/time.c:301
+#: pebble/apps/system/settings/time.c:374
 msgid "Set Date"
 msgstr "Def. data"
 
-#: src/fw/apps/system/settings/time.c:361
+#: pebble/apps/system/settings/time.c:360
 msgid "Time Source"
 msgstr "Origem da hora"
 
-#: src/fw/apps/system/settings/time.c:362
-#: src/fw/apps/system/settings/time.c:393
-#: src/fw/apps/system/settings/time.c:397
+#: pebble/apps/system/settings/time.c:362
+#: pebble/apps/system/settings/time.c:393
+#: pebble/apps/system/settings/time.c:397
 msgid "Automatic"
 msgstr "Automático"
 
-#: src/fw/apps/system/settings/time.c:382
+#: pebble/apps/system/settings/time.c:382
 msgid "Time Format"
 msgstr "Formato hora"
 
-#: src/fw/apps/system/settings/time.c:383
+#: pebble/apps/system/settings/time.c:383
 msgid "24h"
 msgstr "24h"
 
-#: src/fw/apps/system/settings/time.c:383
+#: pebble/apps/system/settings/time.c:383
 msgid "12h"
 msgstr "12h"
 
-#: src/fw/apps/system/settings/time.c:387
+#: pebble/apps/system/settings/time.c:387
 msgid "Timezone Source"
 msgstr "Fonte de Fuso Horário"
 
-#: src/fw/apps/system/settings/time.c:447
+#: pebble/apps/system/settings/time.c:448
 msgid "Date & Time"
 msgstr "Data e hora"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
-#: src/fw/apps/system/settings/timeline.c:68
+#: pebble/apps/system/settings/timeline.c:71
 msgid "Start Time"
 msgstr "Início"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
-#: src/fw/apps/system/settings/timeline.c:70
+#: pebble/apps/system/settings/timeline.c:73
 msgid "5 Min Before"
 msgstr "5 Min Antes"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
-#: src/fw/apps/system/settings/timeline.c:72
+#: pebble/apps/system/settings/timeline.c:75
 msgid "10 Min Before"
 msgstr "10 Min Antes"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
-#: src/fw/apps/system/settings/timeline.c:74
+#: pebble/apps/system/settings/timeline.c:77
 msgid "15 Min Before"
 msgstr "15 Min Antes"
 
 #. / Shows up in the Timeline settings as a "Timing" subtitle and submenu option.
-#: src/fw/apps/system/settings/timeline.c:76
+#: pebble/apps/system/settings/timeline.c:79
 msgid "30 Min Before"
 msgstr "30 Min Antes"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
-#: src/fw/apps/system/settings/timeline.c:86
+#: pebble/apps/system/settings/timeline.c:89
 msgid "Overlay"
 msgstr "Sobrepor"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
-#: src/fw/apps/system/settings/timeline.c:88
+#: pebble/apps/system/settings/timeline.c:91
 msgid "Shift up"
 msgstr "Subir"
 
 #. / Shows up in the Timeline settings as an "Unsupported Faces" submenu option.
-#: src/fw/apps/system/settings/timeline.c:90
+#: pebble/apps/system/settings/timeline.c:93
 msgid "Squish up"
 msgstr "Comprimir"
 
 #. / Shows up in the Timeline settings as the title for the "Timing" submenu window.
 #. / Shows up in the Timeline settings as the title for the menu item that controls the
 #. / timing for when to begin showing the peek for an event.
-#: src/fw/apps/system/settings/timeline.c:123
-#: src/fw/apps/system/settings/timeline.c:195
+#: pebble/apps/system/settings/timeline.c:126
+#: pebble/apps/system/settings/timeline.c:198
 msgid "Timing"
 msgstr "Quando"
 
 #. / Shows up in the Timeline settings as the title for unsupported watchface behavior.
 #. / Shows up in the Timeline settings for watchfaces that do not support Quick View.
-#: src/fw/apps/system/settings/timeline.c:152
-#: src/fw/apps/system/settings/timeline.c:202
+#: pebble/apps/system/settings/timeline.c:155
+#: pebble/apps/system/settings/timeline.c:205
 msgid "Unsupported Faces"
 msgstr "Visores não suportados"
 
 #. / Shows up in the Timeline settings as a toggle-able "Quick View" item.
 #. / Title for the Timeline Quick View first use dialog.
-#: src/fw/apps/system/settings/timeline.c:183
-#: src/fw/apps/system/settings/timeline.c:264
+#: pebble/apps/system/settings/timeline.c:186
+#: pebble/apps/system/settings/timeline.c:268
 msgid "Quick View"
 msgstr "Vislumbre"
 
-#: src/fw/apps/system/settings/timeline.c:267
+#: pebble/apps/system/settings/timeline.c:271
 msgid "Appears on your watchface when an event is about to start."
 msgstr "Aparece no teu visor quando um evento está prestes a começar."
 
-#: src/fw/apps/system/settings/timeline.c:293
-#: src/fw/apps/system/timeline/timeline.c:1309
+#: pebble/apps/system/settings/timeline.c:297
+#: pebble/apps/system/timeline/timeline.c:1313
 msgid "Timeline"
 msgstr "Linha temporal"
 
-#: src/fw/apps/system/settings/vibe_patterns.c:85
+#: pebble/apps/system/settings/vibe_patterns.c:63
 msgid "Incoming Calls"
 msgstr "Chamadas"
 
-#: src/fw/apps/system/settings/vibe_patterns.c:95
+#: pebble/apps/system/settings/vibe_patterns.c:67
 msgid "Hourly Notice"
 msgstr "Aviso horário"
 
-#: src/fw/apps/system/settings/vibe_patterns.c:100
+#: pebble/apps/system/settings/vibe_patterns.c:69
 msgid "On Disconnect"
 msgstr "Ao desligar"
 
-#: src/fw/apps/system/settings/vibe_patterns.c:282
+#: pebble/apps/system/settings/vibe_patterns.c:406
 msgid "Sounds & Haptics"
 msgstr "Sons e háptica"
 
-#: src/fw/apps/system/settings/vibe_patterns.c:284
+#: pebble/apps/system/settings/vibe_patterns.c:408
 msgid "Vibrations"
 msgstr "Vibrações"
 
-#: src/fw/apps/system/timeline/timeline.c:904
+#: pebble/apps/system/timeline/timeline.c:909
 msgid "No events"
 msgstr "Sem eventos"
 
-#: src/fw/apps/system/timeline/timeline.c:1281
+#: pebble/apps/system/timeline/timeline.c:1285
 msgid "Timeline Future"
 msgstr "Timeline futura"
 
 #. / The title of Timeline Past in Quick Launch. If the translation is too long, cut out
 #. / Timeline and only translate "Past".
-#: src/fw/apps/system/timeline/timeline.c:1296
+#: pebble/apps/system/timeline/timeline.c:1300
 msgid "Timeline Past"
 msgstr "Passado"
 
-#: src/fw/apps/system/toggle/airplane_mode.c:25
+#: pebble/apps/system/toggle/airplane_mode.c:26
 msgid "Turn On Airplane Mode?"
 msgstr "Ligar Modo Avião?"
 
-#: src/fw/apps/system/toggle/airplane_mode.c:26
+#: pebble/apps/system/toggle/airplane_mode.c:27
 msgid "Turn Off Airplane Mode?"
 msgstr "Desligar Modo Avião?"
 
-#: src/fw/apps/system/toggle/airplane_mode.c:27
+#: pebble/apps/system/toggle/airplane_mode.c:28
 msgid ""
 "Airplane\n"
 "Mode On"
@@ -2017,7 +2116,7 @@ msgstr ""
 "Modo Avião\n"
 "Ligado"
 
-#: src/fw/apps/system/toggle/airplane_mode.c:28
+#: pebble/apps/system/toggle/airplane_mode.c:29
 msgid ""
 "Airplane\n"
 "Mode Off"
@@ -2026,44 +2125,44 @@ msgstr ""
 "Desligado"
 
 #. / The Quick Launch action that toggles Airplane Mode.
-#: src/fw/apps/system/toggle/airplane_mode.c:52
+#: pebble/apps/system/toggle/airplane_mode.c:53
 #, fuzzy
 #| msgid "Airplane Mode"
 msgid "Toggle Airplane Mode"
 msgstr "Modo de Voo"
 
-#: src/fw/apps/system/toggle/backlight_state.c:26
+#: pebble/apps/system/toggle/backlight_state.c:27
 msgid "Turn On Backlight?"
 msgstr "Ativar retroiluminação?"
 
-#: src/fw/apps/system/toggle/backlight_state.c:27
+#: pebble/apps/system/toggle/backlight_state.c:28
 msgid "Turn Off Backlight?"
 msgstr "Desativar retroiluminação?"
 
-#: src/fw/apps/system/toggle/backlight_state.c:28
+#: pebble/apps/system/toggle/backlight_state.c:29
 msgid "Backlight On"
 msgstr "Retroiluminação ligada"
 
-#: src/fw/apps/system/toggle/backlight_state.c:29
+#: pebble/apps/system/toggle/backlight_state.c:30
 msgid "Backlight Off"
 msgstr "Retroiluminação desligada"
 
 #. / The Quick Launch action that toggles the backlight.
-#: src/fw/apps/system/toggle/backlight_state.c:53
+#: pebble/apps/system/toggle/backlight_state.c:54
 #, fuzzy
 #| msgid "Backlight"
 msgid "Toggle Backlight"
 msgstr "Retroiluminação"
 
-#: src/fw/apps/system/toggle/motion_backlight.c:23
+#: pebble/apps/system/toggle/motion_backlight.c:24
 msgid "Turn On Motion Backlight?"
 msgstr "Ligar Retroiluminação com Sensor?"
 
-#: src/fw/apps/system/toggle/motion_backlight.c:24
+#: pebble/apps/system/toggle/motion_backlight.c:25
 msgid "Turn Off Motion Backlight?"
 msgstr "Desligar Retroiluminação com Sensor?"
 
-#: src/fw/apps/system/toggle/motion_backlight.c:25
+#: pebble/apps/system/toggle/motion_backlight.c:26
 msgid ""
 "Motion\n"
 "Backlight On"
@@ -2071,7 +2170,7 @@ msgstr ""
 "Retroiluminação\n"
 "com Sensor Ligada"
 
-#: src/fw/apps/system/toggle/motion_backlight.c:26
+#: pebble/apps/system/toggle/motion_backlight.c:27
 msgid ""
 "Motion\n"
 "Backlight Off"
@@ -2080,85 +2179,116 @@ msgstr ""
 "com Sensor Desligada"
 
 #. / The Quick Launch action that toggles the motion backlight.
-#: src/fw/apps/system/toggle/motion_backlight.c:50
+#: pebble/apps/system/toggle/motion_backlight.c:51
 #, fuzzy
 #| msgid "Motion Backlight"
 msgid "Toggle Motion Backlight"
 msgstr "Retroiluminação com Sensor"
 
 #. / The Quick Launch action that toggles Quiet Time.
-#: src/fw/apps/system/toggle/quiet_time.c:25
+#: pebble/apps/system/toggle/quiet_time.c:26
 #, fuzzy
 #| msgid "Quiet Time"
 msgid "Toggle Quiet Time"
 msgstr "Modo Silêncio"
 
-#: src/fw/apps/system/watchfaces.c:98
+#: pebble/apps/system/toggle/touch.c:24
+#, fuzzy
+#| msgid "Turn On Backlight?"
+msgid "Turn On Touch?"
+msgstr "Ativar retroiluminação?"
+
+#: pebble/apps/system/toggle/touch.c:25
+#, fuzzy
+#| msgid "Turn Off Backlight?"
+msgid "Turn Off Touch?"
+msgstr "Desativar retroiluminação?"
+
+#: pebble/apps/system/toggle/touch.c:26
+#, fuzzy
+#| msgid "Touch"
+msgid "Touch On"
+msgstr "Toque"
+
+#: pebble/apps/system/toggle/touch.c:27
+#, fuzzy
+#| msgid "Touch"
+msgid "Touch Off"
+msgstr "Toque"
+
+#. / The Quick Launch action that turns the touchscreen on or off.
+#: pebble/apps/system/toggle/touch.c:51
+#, fuzzy
+#| msgid "Backlight"
+msgid "Toggle Touch"
+msgstr "Retroiluminação"
+
+#: pebble/apps/system/watchfaces.c:101
 msgid "Active"
 msgstr "Ativo"
 
-#: src/fw/apps/system/watchfaces.c:219
+#: pebble/apps/system/watchfaces.c:222
 msgid "Watchfaces"
 msgstr "Visores"
 
-#: src/fw/apps/system/weather/expanded_view.c:175
+#: pebble/apps/system/weather/expanded_view.c:184
 msgid "Sunset --:--"
 msgstr "Pôr do sol --:--"
 
-#: src/fw/apps/system/weather/expanded_view.c:178
+#: pebble/apps/system/weather/expanded_view.c:187
 #, c-format
 msgid "Sunset %s"
 msgstr "Pôr do sol %s"
 
-#: src/fw/apps/system/weather/expanded_view.c:203
+#: pebble/apps/system/weather/expanded_view.c:212
 msgid "Last updated --:--"
 msgstr "Atualizado --:--"
 
-#: src/fw/apps/system/weather/expanded_view.c:206
+#: pebble/apps/system/weather/expanded_view.c:215
 #, c-format
 msgid "Last updated %s"
 msgstr "Atualizado %s"
 
-#: src/fw/apps/system/weather/expanded_view.c:390
+#: pebble/apps/system/weather/expanded_view.c:401
 msgid "PRECIPITATION: --"
 msgstr "PRECIPITAÇÃO: --"
 
-#: src/fw/apps/system/weather/expanded_view.c:392
+#: pebble/apps/system/weather/expanded_view.c:403
 #, c-format
 msgid "PRECIPITATION: %d%%"
 msgstr "PRECIPITAÇÃO: %d%%"
 
-#: src/fw/apps/system/weather/expanded_view.c:475
+#: pebble/apps/system/weather/expanded_view.c:487
 msgid "CURRENT UV"
 msgstr "UV ATUAL"
 
-#: src/fw/apps/system/weather/expanded_view.c:484
+#: pebble/apps/system/weather/expanded_view.c:496
 #, c-format
 msgid "UV %d"
 msgstr "UV %d"
 
-#: src/fw/apps/system/weather/expanded_view.c:486
+#: pebble/apps/system/weather/expanded_view.c:498
 msgid "UV --"
 msgstr "UV --"
 
-#: src/fw/apps/system/weather/expanded_view.c:488
+#: pebble/apps/system/weather/expanded_view.c:500
 #, c-format
 msgid "RAIN %d%%"
 msgstr "CHUVA %d%%"
 
-#: src/fw/apps/system/weather/expanded_view.c:490
+#: pebble/apps/system/weather/expanded_view.c:502
 msgid "RAIN --"
 msgstr "CHUVA --"
 
-#: src/fw/apps/system/weather/expanded_view.c:498
+#: pebble/apps/system/weather/expanded_view.c:510
 msgid "UV"
 msgstr "UV"
 
-#: src/fw/apps/system/weather/expanded_view.c:500
+#: pebble/apps/system/weather/expanded_view.c:512
 msgid "RAIN"
 msgstr "CHUVA"
 
-#: src/fw/apps/system/weather/forecast_list.c:1278
+#: pebble/apps/system/weather/forecast_list.c:1288
 msgid "WEATHER REPORT"
 msgstr "BOLETIM DO TEMPO"
 
@@ -2166,86 +2296,94 @@ msgstr "BOLETIM DO TEMPO"
 #. scrolled column's air splits evenly — solved for disc->graph = graph->pill =
 #. %-row->dot (~10-11px each; the graph auto-centres in its band, so the split
 #. holds for any temp spread).
-#: src/fw/apps/system/weather/forecast_list.c:1599
+#: pebble/apps/system/weather/forecast_list.c:1609
 msgid "PRECIPITATION"
 msgstr "PRECIPITAÇÃO"
 
-#: src/fw/apps/system/weather/forecast_list.c:2217
+#: pebble/apps/system/weather/forecast_list.c:2227
 #, no-c-format
 msgid "%a, %b %d"
 msgstr "%a, %d %b"
 
-#: src/fw/apps/system/weather/globe_view.c:2156
+#: pebble/apps/system/weather/globe_view.c:2168
 msgid "Saved Location"
 msgstr "Local guardado"
 
-#: src/fw/apps/system/weather/globe_view.c:2160
-#: src/fw/apps/system/weather/globe_view.c:3688
-#: src/fw/apps/system/weather/globe_view.c:3742
-#: src/fw/apps/system/weather/saved_locations.c:160
+#: pebble/apps/system/weather/globe_view.c:2172
+#: pebble/apps/system/weather/globe_view.c:3700
+#: pebble/apps/system/weather/globe_view.c:3754
+#: pebble/apps/system/weather/saved_locations.c:162
 msgid "Current Location"
 msgstr "Localização atual"
 
-#: src/fw/apps/system/weather/globe_view.c:3090
-#: src/fw/apps/system/weather/globe_view.c:3097
+#: pebble/apps/system/weather/globe_view.c:3102
+#: pebble/apps/system/weather/globe_view.c:3109
 msgid "CITY SELECT"
 msgstr "ESCOLHER CIDADE"
 
-#: src/fw/apps/system/weather/globe_view.c:3158
-#: src/fw/apps/system/weather/globe_view.c:3190
+#: pebble/apps/system/weather/globe_view.c:3170
+#: pebble/apps/system/weather/globe_view.c:3202
 msgid "SAVED LOCATIONS"
 msgstr "LOCAIS GUARDADOS"
 
-#: src/fw/apps/system/weather/saved_locations.c:159
+#: pebble/apps/system/weather/saved_locations.c:160
 msgid "Location"
 msgstr "Local"
 
-#: src/fw/apps/system/weather/saved_locations.c:241
+#: pebble/apps/system/weather/saved_locations.c:247
 msgid "No Locations"
 msgstr "Sem locais"
 
-#: src/fw/apps/system/weather/saved_locations.c:242
+#: pebble/apps/system/weather/saved_locations.c:248
 msgid "Add them in the app"
 msgstr "Adicione-os na app"
 
-#: src/fw/apps/system/weather/weather.c:98
+#: pebble/apps/system/weather/weather.c:103
+#: pebble/services/weather/weather_types.c:49
 msgid "Sunny"
 msgstr "Sol"
 
-#: src/fw/apps/system/weather/weather.c:100
+#: pebble/apps/system/weather/weather.c:105
+#: pebble/services/weather/weather_types.c:51
 msgid "Partly Cloudy"
 msgstr "Parcialmente nublado"
 
-#: src/fw/apps/system/weather/weather.c:102
+#: pebble/apps/system/weather/weather.c:107
+#: pebble/services/weather/weather_types.c:53
 msgid "Cloudy"
 msgstr "Nublado"
 
-#: src/fw/apps/system/weather/weather.c:104
+#: pebble/apps/system/weather/weather.c:109
+#: pebble/services/weather/weather_types.c:55
 msgid "Light Rain"
 msgstr "Chuva fraca"
 
-#: src/fw/apps/system/weather/weather.c:106
+#: pebble/apps/system/weather/weather.c:111
+#: pebble/services/weather/weather_types.c:57
 msgid "Rain"
 msgstr "Chuva"
 
-#: src/fw/apps/system/weather/weather.c:108
+#: pebble/apps/system/weather/weather.c:113
+#: pebble/services/weather/weather_types.c:59
 msgid "Light Snow"
 msgstr "Neve fraca"
 
-#: src/fw/apps/system/weather/weather.c:110
+#: pebble/apps/system/weather/weather.c:115
+#: pebble/services/weather/weather_types.c:61
 msgid "Snow"
 msgstr "Neve"
 
-#: src/fw/apps/system/weather/weather.c:112
+#: pebble/apps/system/weather/weather.c:117
+#: pebble/services/weather/weather_types.c:63
 msgid "Rain & Snow"
 msgstr "Chuva e neve"
 
-#: src/fw/apps/system/weather/weather.c:138 src/fw/services/clock/service.c:719
-#: src/fw/services/timeline/timeline_actions.c:1055
+#: pebble/apps/system/weather/weather.c:143 pebble/services/clock/service.c:785
+#: pebble/services/timeline/timeline_actions.c:1067
 msgid "Tomorrow"
 msgstr "Amanhã"
 
-#: src/fw/apps/system/weather/weather.c:378
+#: pebble/apps/system/weather/weather.c:396
 msgid ""
 "No location information available. To see weather, add locations in your "
 "Pebble mobile app."
@@ -2253,311 +2391,447 @@ msgstr ""
 "Localização indisponível. Para ver o Tempo, adicione localizações na "
 "aplicação móvel Pebble."
 
-#: src/fw/apps/system/weather/weather.c:795
-#: src/fw/services/timeline/timeline.c:930
+#: pebble/apps/system/weather/weather.c:807
+#: pebble/services/timeline/timeline.c:929
 msgid "Weather"
 msgstr "Tempo"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:406
+#: pebble/apps/system/weather/weather_app_layout.c:404
 msgid "Snow likely"
 msgstr "Neve provável"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:408
+#: pebble/apps/system/weather/weather_app_layout.c:406
 msgid "Sleet likely"
 msgstr "Água-neve provável"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:410
+#: pebble/apps/system/weather/weather_app_layout.c:408
 msgid "Rain likely"
 msgstr "Chuva provável"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:418
+#: pebble/apps/system/weather/weather_app_layout.c:416
 msgid "Chance of snow"
 msgstr "Possível neve"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:420
+#: pebble/apps/system/weather/weather_app_layout.c:418
 msgid "Chance of sleet"
 msgstr "Possível água-neve"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:422
+#: pebble/apps/system/weather/weather_app_layout.c:420
 msgid "Chance of rain"
 msgstr "Possível chuva"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:460
+#: pebble/apps/system/weather/weather_app_layout.c:458
 msgid "Hail"
 msgstr "Granizo"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:462
+#: pebble/apps/system/weather/weather_app_layout.c:460
 msgid "Chance of storms"
 msgstr "Possíveis trovoadas"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:464
+#: pebble/apps/system/weather/weather_app_layout.c:462
 msgid "Heavy snow"
 msgstr "Neve intensa"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:466
+#: pebble/apps/system/weather/weather_app_layout.c:464
 msgid "Heavy rain"
 msgstr "Chuva intensa"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:468
+#: pebble/apps/system/weather/weather_app_layout.c:466
 msgid "Wintry mix"
 msgstr "Mistura invernal"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:470
+#: pebble/apps/system/weather/weather_app_layout.c:468
 msgid "Flood risk"
 msgstr "Risco de cheias"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:472
+#: pebble/apps/system/weather/weather_app_layout.c:470
 msgid "Strong winds"
 msgstr "Ventos fortes"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:475
+#: pebble/apps/system/weather/weather_app_layout.c:473
 msgid "Below freezing"
 msgstr "Abaixo de zero"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:477
+#: pebble/apps/system/weather/weather_app_layout.c:475
 msgid "Hard frost"
 msgstr "Geada forte"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:480
+#: pebble/apps/system/weather/weather_app_layout.c:478
 msgid "Feels below freezing"
 msgstr "Sensação abaixo de zero"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:482
+#: pebble/apps/system/weather/weather_app_layout.c:480
 msgid "Heatwave"
 msgstr "Onda de calor"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:484
+#: pebble/apps/system/weather/weather_app_layout.c:482
 msgid "Very high UV"
 msgstr "UV muito alto"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:486
+#: pebble/apps/system/weather/weather_app_layout.c:484
 msgid "High UV"
 msgstr "UV alto"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:489
+#: pebble/apps/system/weather/weather_app_layout.c:487
 msgid "Poor visibility"
 msgstr "Visibilidade fraca"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:491
+#: pebble/apps/system/weather/weather_app_layout.c:489
 msgid "High humidity"
 msgstr "Humidade alta"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:497
+#: pebble/apps/system/weather/weather_app_layout.c:495
 msgid "Windy"
 msgstr "Ventoso"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:502
+#: pebble/apps/system/weather/weather_app_layout.c:504
 msgid "Clear skies"
 msgstr "Céu limpo"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:504
+#: pebble/apps/system/weather/weather_app_layout.c:506
 msgid "Light winds"
 msgstr "Ventos fracos"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:507
+#: pebble/apps/system/weather/weather_app_layout.c:509
 msgid "Calm breeze"
 msgstr "Brisa suave"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:510
+#: pebble/apps/system/weather/weather_app_layout.c:512
 msgid "Fair conditions"
 msgstr "Bom tempo"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:512
+#: pebble/apps/system/weather/weather_app_layout.c:514
 msgid "Mild conditions"
 msgstr "Tempo ameno"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:514
+#: pebble/apps/system/weather/weather_app_layout.c:516
 msgid "All clear"
 msgstr "Tudo calmo"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:524
+#: pebble/apps/system/weather/weather_app_layout.c:526
 msgid "N"
 msgstr "N"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:524
+#: pebble/apps/system/weather/weather_app_layout.c:526
 msgid "NE"
 msgstr "NE"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:524
+#: pebble/apps/system/weather/weather_app_layout.c:526
 msgid "E"
 msgstr "E"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:524
+#: pebble/apps/system/weather/weather_app_layout.c:526
 msgid "SE"
 msgstr "SE"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:525
+#: pebble/apps/system/weather/weather_app_layout.c:527
 msgid "S"
 msgstr "S"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:525
+#: pebble/apps/system/weather/weather_app_layout.c:527
 msgid "SW"
 msgstr "SO"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:525
+#: pebble/apps/system/weather/weather_app_layout.c:527
 msgid "W"
 msgstr "O"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:525
+#: pebble/apps/system/weather/weather_app_layout.c:527
 msgid "NW"
 msgstr "NO"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:549
+#: pebble/apps/system/weather/weather_app_layout.c:539
 msgid "mph"
 msgstr "mph"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:549
+#: pebble/apps/system/weather/weather_app_layout.c:543
+msgid "m/s"
+msgstr ""
+
+#: pebble/apps/system/weather/weather_app_layout.c:547
+msgid "kt"
+msgstr ""
+
+#: pebble/apps/system/weather/weather_app_layout.c:551
 msgid "km/h"
 msgstr "km/h"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:551
+#: pebble/apps/system/weather/weather_app_layout.c:575
 #, c-format
 msgid "%s at %d%s."
 msgstr "%s a %d%s."
 
-#: src/fw/apps/system/weather/weather_app_layout.c:551
+#: pebble/apps/system/weather/weather_app_layout.c:575
 #, c-format
 msgid "Winds %s at %d%s."
 msgstr "Vento %s a %d%s."
 
-#: src/fw/apps/system/weather/weather_app_layout.c:556
+#: pebble/apps/system/weather/weather_app_layout.c:580
 #, c-format
 msgid "At %d%s."
 msgstr "A %d%s."
 
-#: src/fw/apps/system/weather/weather_app_layout.c:556
+#: pebble/apps/system/weather/weather_app_layout.c:580
 #, c-format
 msgid "Winds at %d%s."
 msgstr "Vento a %d%s."
 
-#: src/fw/apps/system/weather/weather_app_layout.c:565
+#: pebble/apps/system/weather/weather_app_layout.c:589
 #, c-format
 msgid "Precipitation %d%%."
 msgstr "Precipitação %d%%."
 
-#: src/fw/apps/system/weather/weather_app_layout.c:840
-#: src/fw/apps/system/weather/weather_app_layout.c:1128
+#: pebble/apps/system/weather/weather_app_layout.c:865
+#: pebble/apps/system/weather/weather_app_layout.c:1155
 msgid "TODAY"
 msgstr "HOJE"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:871
-#: src/fw/apps/system/weather/weather_app_layout.c:1214
+#: pebble/apps/system/weather/weather_app_layout.c:896
+#: pebble/apps/system/weather/weather_app_layout.c:1242
 msgid "TOMORROW"
 msgstr "AMANHÃ"
 
-#: src/fw/apps/system/weather/weather_app_layout.c:968
-#: src/fw/apps/system/weather/weather_app_layout.c:1064
+#: pebble/apps/system/weather/weather_app_layout.c:993
+#: pebble/apps/system/weather/weather_app_layout.c:1090
 msgid "UV INDEX"
 msgstr "ÍNDICE UV"
 
 #. / Zone 1 HR Label
-#: src/fw/apps/system/workout/active.c:101
+#: pebble/apps/system/workout/active.c:136
 msgid "FAT BURN"
 msgstr "PERDA DE PESO"
 
 #. / Zone 2 HR Label
-#: src/fw/apps/system/workout/active.c:104
+#: pebble/apps/system/workout/active.c:139
 msgid "ENDURANCE"
 msgstr "RESISTÊNCIA"
 
 #. / Zone 3 HR Label
-#: src/fw/apps/system/workout/active.c:107
+#: pebble/apps/system/workout/active.c:142
 msgid "PERFORMANCE"
 msgstr "PERFORMANCE"
 
 #. / Default/Zone 0 HR Label
-#: src/fw/apps/system/workout/active.c:110
+#: pebble/apps/system/workout/active.c:145
 msgid "HEART RATE"
 msgstr "BPM"
 
 #. / Duration Label
-#: src/fw/apps/system/workout/active.c:127
+#: pebble/apps/system/workout/active.c:162
 msgid "DURATION"
 msgstr "DURAÇÃO"
 
 #. / Average Pace Label
-#: src/fw/apps/system/workout/active.c:131
+#: pebble/apps/system/workout/active.c:166
 msgid "AVG PACE"
 msgstr "RITMO MÉDIO"
 
-#. / Average Pace Label with units
-#: src/fw/apps/system/workout/active.c:134
+#: pebble/apps/system/workout/active.c:170
 msgid "AVG PACE (/MI)"
 msgstr "RITMO MÉD (/MI)"
 
-#: src/fw/apps/system/workout/active.c:135
+#: pebble/apps/system/workout/active.c:170
 msgid "AVG PACE (/KM)"
 msgstr "RITMO MÉD (/KM)"
 
 #. / Pace Label
-#: src/fw/apps/system/workout/active.c:140
+#: pebble/apps/system/workout/active.c:175
 msgid "PACE"
 msgstr "RITMO"
 
 #. / Pace Label with units
-#: src/fw/apps/system/workout/active.c:143
+#: pebble/apps/system/workout/active.c:178
 msgid "PACE (/MI)"
 msgstr "RITMO (/MI)"
 
-#: src/fw/apps/system/workout/active.c:144
+#: pebble/apps/system/workout/active.c:179
 msgid "PACE (/KM)"
 msgstr "RITMO (/KM)"
 
 #. / Speed Label
-#: src/fw/apps/system/workout/active.c:149
+#: pebble/apps/system/workout/active.c:184
 msgid "SPEED"
 msgstr "VELOCIDADE"
 
 #. / Speed Label with units
-#: src/fw/apps/system/workout/active.c:152
+#: pebble/apps/system/workout/active.c:187
 msgid "SPEED (MPH)"
 msgstr "VELOCIDADE (MPH)"
 
-#: src/fw/apps/system/workout/active.c:153
+#: pebble/apps/system/workout/active.c:188
 msgid "SPEED (KM/H)"
 msgstr "VELOCIDADE (KM/H)"
 
 #. / Distance Label with units
-#: src/fw/apps/system/workout/active.c:161
+#: pebble/apps/system/workout/active.c:196
 msgid "DISTANCE (MI)"
 msgstr "DISTÂNCIA (MI)"
 
-#: src/fw/apps/system/workout/active.c:162
+#: pebble/apps/system/workout/active.c:197
 msgid "DISTANCE (KM)"
 msgstr "DISTÂNCIA (KM)"
 
 #. / Steps Label
-#: src/fw/apps/system/workout/active.c:166
+#: pebble/apps/system/workout/active.c:201
+#: pebble/apps/system/workout/active.c:1185
+#: pebble/apps/system/workout/active.c:1203
+#: pebble/apps/system/workout/active.c:1228
 msgid "STEPS"
 msgstr "PASSOS"
 
-#: src/fw/apps/system/workout/active.c:274
-#: src/fw/apps/system/workout/active.c:331
+#: pebble/apps/system/workout/active.c:306
+#: pebble/apps/system/workout/active.c:363
 msgid "MI"
 msgstr "MI"
 
-#: src/fw/apps/system/workout/active.c:274
-#: src/fw/apps/system/workout/active.c:331
+#: pebble/apps/system/workout/active.c:306
+#: pebble/apps/system/workout/active.c:363
 msgid "KM"
 msgstr "KM"
 
-#: src/fw/apps/system/workout/active.c:350
+#: pebble/apps/system/workout/active.c:382
 msgid "MPH"
 msgstr "MPH"
 
-#: src/fw/apps/system/workout/active.c:350
+#: pebble/apps/system/workout/active.c:382
 msgid "KM/H"
 msgstr "KM/h"
 
-#: src/fw/apps/system/workout/active.c:670
-msgid "End Workout?"
-msgstr "Acabar Exercício?"
+#: pebble/apps/system/workout/active.c:1053
+msgid "COMPLETE"
+msgstr ""
 
-#: src/fw/apps/system/workout/sports.c:344
+#: pebble/apps/system/workout/active.c:1056
+msgid "END WORKOUT?"
+msgstr ""
+
+#: pebble/apps/system/workout/active.c:1060
+msgid "PAUSED"
+msgstr ""
+
+#: pebble/apps/system/workout/active.c:1114
+#, fuzzy
+#| msgid "AVG "
+msgid "AVG"
+msgstr "MÉDIA "
+
+#: pebble/apps/system/workout/active.c:1117
+#: pebble/apps/system/workout/active.c:1269
+#, fuzzy, c-format
+#| msgid "%d"
+msgid "Z%d"
+msgstr "%d"
+
+#: pebble/apps/system/workout/active.c:1173
+#: pebble/apps/system/workout/active.c:1219
+#: pebble/apps/system/workout/active.c:1463
+#, fuzzy
+#| msgid "TOTAL"
+msgid "TOTAL TIME"
+msgstr "TOTAL"
+
+#: pebble/apps/system/workout/active.c:1173
+#: pebble/apps/system/workout/active.c:1219
+#, fuzzy
+#| msgid "TIMEOUT"
+msgid "TIMER"
+msgstr "LIMITE"
+
+#: pebble/apps/system/workout/active.c:1180
+#, fuzzy
+#| msgid "DISTANCE (MI)"
+msgid "DIST MI"
+msgstr "DISTÂNCIA (MI)"
+
+#: pebble/apps/system/workout/active.c:1181
+#, fuzzy
+#| msgid "DISTANCE (KM)"
+msgid "DIST KM"
+msgstr "DISTÂNCIA (KM)"
+
+#: pebble/apps/system/workout/active.c:1182
+#: pebble/apps/system/workout/active.c:1215
+#, fuzzy
+#| msgid "PACE (/MI)"
+msgid "PACE /MI"
+msgstr "RITMO (/MI)"
+
+#: pebble/apps/system/workout/active.c:1183
+#: pebble/apps/system/workout/active.c:1216
+#, fuzzy
+#| msgid "PACE (/KM)"
+msgid "PACE /KM"
+msgstr "RITMO (/KM)"
+
+#: pebble/apps/system/workout/active.c:1187
+#: pebble/apps/system/workout/active.c:1204
+#: pebble/apps/system/workout/active.c:1229
+#: pebble/apps/system/workout/active.c:1465
+msgid "KCAL"
+msgstr ""
+
+#: pebble/apps/system/workout/active.c:1202
+#: pebble/apps/system/workout/active.c:1227
+msgid "CADENCE"
+msgstr ""
+
+#: pebble/apps/system/workout/active.c:1213
+#, fuzzy
+#| msgid "SPEED (MPH)"
+msgid "SPEED MPH"
+msgstr "VELOCIDADE (MPH)"
+
+#: pebble/apps/system/workout/active.c:1214
+#, fuzzy
+#| msgid "SPEED (KM/H)"
+msgid "SPEED KM/H"
+msgstr "VELOCIDADE (KM/H)"
+
+#: pebble/apps/system/workout/active.c:1222
+#: pebble/apps/system/workout/active.c:1424
+#: pebble/apps/system/workout/active.c:1464
+#, fuzzy
+#| msgid "AVG "
+msgid "AVG BPM"
+msgstr "MÉDIA "
+
+#: pebble/apps/system/workout/active.c:1246
+#, fuzzy
+#| msgid "TIME IN ZONES"
+msgid "TIME IN ZONE"
+msgstr "TEMPO EM ZONAS"
+
+#: pebble/apps/system/workout/active.c:1393
+msgid "LAST MINUTE"
+msgstr ""
+
+#: pebble/apps/system/workout/active.c:1396
+msgid "WAITING FOR HR"
+msgstr ""
+
+#: pebble/apps/system/workout/active.c:1421
+#, c-format
+msgid "ZONE %d"
+msgstr ""
+
+#: pebble/apps/system/workout/active.c:1424
+msgid "MEASURING"
+msgstr ""
+
+#: pebble/apps/system/workout/countdown.c:85
+#: pebble/apps/system/workout/summary.c:61
+msgid "WORKOUT"
+msgstr ""
+
+#: pebble/apps/system/workout/countdown.c:107
+msgid "GO!"
+msgstr ""
+
+#: pebble/apps/system/workout/sports.c:353
 msgid "Sports"
 msgstr "Desporto"
 
-#: src/fw/apps/system/workout/utils.c:17
+#: pebble/apps/system/workout/utils.c:20
 msgid ""
 "Still sweating? Your workout is active and will be ended soon. Open the "
 "workout to keep it going."
@@ -2565,42 +2839,42 @@ msgstr ""
 "Ainda a suar? O teu exercício está ativo e será concluído em breve.\n"
 "Abre a app Exercício para continuar."
 
-#: src/fw/apps/system/workout/utils.c:28
-#: src/fw/popups/ble_hrm/ble_hrm_reminder_popup.c:24
-#: src/fw/services/activity/activity_insights.c:1192
-#: src/fw/services/notifications/ancs/ancs_item.c:152
+#: pebble/apps/system/workout/utils.c:32
+#: pebble/popups/ble_hrm/ble_hrm_reminder_popup.c:24
+#: pebble/services/activity/activity_insights.c:1271
+#: pebble/services/notifications/ancs/ancs_item.c:150
 msgid "Dismiss"
 msgstr "Remover"
 
-#: src/fw/apps/system/workout/utils.c:32
+#: pebble/apps/system/workout/utils.c:36
 msgid "End Workout"
 msgstr "Concluír Exercício"
 
-#: src/fw/apps/system/workout/utils.c:38
+#: pebble/apps/system/workout/utils.c:42
 msgid "Open Workout"
 msgstr "Exercício Livre"
 
 #. / Workout Label
-#: src/fw/apps/system/workout/utils.c:91
-#: src/fw/apps/system/workout/workout.c:258
-#: src/fw/services/activity/activity_insights.c:1647
+#: pebble/apps/system/workout/utils.c:95
+#: pebble/apps/system/workout/workout.c:269
+#: pebble/services/activity/activity_insights.c:1803
 msgid "Workout"
 msgstr "Exercício"
 
 #. / Walk Label
-#: src/fw/apps/system/workout/utils.c:94
-#: src/fw/services/activity/activity_insights.c:1645
+#: pebble/apps/system/workout/utils.c:98
+#: pebble/services/activity/activity_insights.c:1801
 msgid "Walk"
 msgstr "Passeio"
 
 #. / Run Label
-#: src/fw/apps/system/workout/utils.c:97
-#: src/fw/services/activity/activity_insights.c:1643
+#: pebble/apps/system/workout/utils.c:101
+#: pebble/services/activity/activity_insights.c:1799
 msgid "Run"
 msgstr "Corrida"
 
 #. / Workout automatically detected dialog text
-#: src/fw/apps/system/workout/utils.c:115
+#: pebble/apps/system/workout/utils.c:119
 msgid ""
 "Workout\n"
 "Detected"
@@ -2609,7 +2883,7 @@ msgstr ""
 "Detectado"
 
 #. / Walk automatically detected dialog text
-#: src/fw/apps/system/workout/utils.c:118
+#: pebble/apps/system/workout/utils.c:122
 msgid ""
 "Walk\n"
 "Detected"
@@ -2618,7 +2892,7 @@ msgstr ""
 "Detectada"
 
 #. / Run automatically detected dialog text
-#: src/fw/apps/system/workout/utils.c:121
+#: pebble/apps/system/workout/utils.c:125
 msgid ""
 "Run\n"
 "Detected"
@@ -2626,7 +2900,7 @@ msgstr ""
 "Corrida\n"
 "Detectada"
 
-#: src/fw/apps/system/workout/workout.c:158
+#: pebble/apps/system/workout/workout.c:167
 msgid ""
 "Workout\n"
 "Ended"
@@ -2634,16 +2908,15 @@ msgstr ""
 "Exercício\n"
 "Concluído"
 
-#: src/fw/apps/system/workout/workout.c:184
+#: pebble/apps/system/workout/workout.c:193
 msgid "Workout requires the time to be synced. Please connect your phone."
 msgstr "Workout requer a hora sincronizada. Liga o telefone."
 
-#. / Health disabled text
-#: src/fw/apps/system/workout/workout.c:192
+#: pebble/apps/system/workout/workout.c:202
 msgid "Enable Pebble Health in the mobile app to track workouts"
 msgstr "Ativa Pebble Health na app móvel para monitorar exercícios"
 
-#: src/fw/apps/system/workout/workout.c:200
+#: pebble/apps/system/workout/workout.c:211
 msgid ""
 "Wear your watch snug and 2 fingers' width above your wrist bone for best "
 "results."
@@ -2651,41 +2924,41 @@ msgstr ""
 "Usa o teu Pebble justo mas confortável dois dedos acima do osso do pulso "
 "para os melhores resultados."
 
-#: src/fw/apps/watch/kickstart/kickstart.c:362
+#: pebble/apps/watch/kickstart/kickstart.c:365
 #, c-format
 msgid "%d BPM"
 msgstr "%d BPM"
 
 #. / Step count greater than 1000 with a thousands separator
-#: src/fw/apps/watch/kickstart/kickstart.c:472
+#: pebble/apps/watch/kickstart/kickstart.c:475
 #, c-format
 msgid "%d,%03d"
 msgstr "%d.%03d"
 
 #. / Step count less than 1000
-#: src/fw/apps/watch/kickstart/kickstart.c:476
-#: src/fw/services/activity/health_util.c:93
-#: src/fw/services/activity/health_util.c:109
-#: src/fw/services/clock/service.c:940
+#: pebble/apps/watch/kickstart/kickstart.c:479
+#: pebble/services/activity/health_util.c:93
+#: pebble/services/activity/health_util.c:110
+#: pebble/services/clock/service.c:1007
 #, c-format
 msgid "%d"
 msgstr "%d"
 
-#: src/fw/apps/watch/tictoc/bw/tictoc_bw.c:75
-#: src/fw/services/clock/service.c:818 src/fw/services/clock/service.c:826
+#: pebble/apps/watch/tictoc/bw/tictoc_bw.c:77
+#: pebble/services/clock/service.c:884 pebble/services/clock/service.c:892
 msgid "%B %e"
 msgstr "%B %e"
 
-#: src/fw/popups/alarm_popup.c:52
+#: pebble/popups/alarm_popup.c:60
 #, c-format
 msgid "Snooze for %d minutes"
 msgstr "Adiar %d minutos"
 
-#: src/fw/popups/alarm_popup.c:69
+#: pebble/popups/alarm_popup.c:78
 msgid "Alarm dismissed"
 msgstr "Alarme cancelado"
 
-#: src/fw/popups/ble_hrm/ble_hrm_reminder_popup.c:15
+#: pebble/popups/ble_hrm/ble_hrm_reminder_popup.c:15
 msgid ""
 "Your heart rate has been shared with an app on your phone for several hours. "
 "This could affect your battery. Stop sharing now?"
@@ -2693,23 +2966,23 @@ msgstr ""
 "O teu ritmo cardíaco tem sido partilhado com uma app no teu telefone há "
 "algumas horas. Isto pode afectar a bateria. Parar a partilha?"
 
-#: src/fw/popups/ble_hrm/ble_hrm_sharing_popup.c:29
+#: pebble/popups/ble_hrm/ble_hrm_sharing_popup.c:28
 msgid "Sharing Heart Rate"
 msgstr "Partilhando Ritmo Cardíaco"
 
-#: src/fw/popups/ble_hrm/ble_hrm_sharing_popup.c:66
+#: pebble/popups/ble_hrm/ble_hrm_sharing_popup.c:65
 msgid "Share heart rate?"
 msgstr "Partilhar ritmo cardíaco?"
 
-#: src/fw/popups/ble_hrm/ble_hrm_stop_sharing_popup.c:17
+#: pebble/popups/ble_hrm/ble_hrm_stop_sharing_popup.c:18
 msgid "Heart Rate Not Shared"
 msgstr "Ritmo Cardíaco Não Partilhado"
 
-#: src/fw/popups/bluetooth_pairing_ui.c:222
+#: pebble/popups/bluetooth_pairing_ui.c:229
 msgid "Pair?"
 msgstr "Emp.?"
 
-#: src/fw/popups/crashed_ui.c:92
+#: pebble/popups/crashed_ui.c:92
 #, c-format
 msgid ""
 "%s%.*s is not responding.\n"
@@ -2720,7 +2993,7 @@ msgstr ""
 "\n"
 "Abrir app?"
 
-#: src/fw/popups/crashed_ui.c:148
+#: pebble/popups/crashed_ui.c:148
 msgid ""
 "A bug report has been captured. Please finish uploading the bug report using "
 "the Pebble phone app."
@@ -2728,7 +3001,7 @@ msgstr ""
 "Foi capturado um relatório de erro. Termina o envio com a app Pebble no "
 "telefone."
 
-#: src/fw/popups/health_tracking_ui.c:75
+#: pebble/popups/health_tracking_ui.c:74
 msgid ""
 "This feature requires Pebble Health to work. Enable Health in the Pebble "
 "mobile app to continue."
@@ -2736,94 +3009,100 @@ msgstr ""
 "Esta funcionalidade requer a Pebble Health. Ativa-a na aplicação móvel "
 "Pebble para continuar."
 
-#: src/fw/popups/notifications/notification_window.c:709
+#: pebble/popups/mic_banner.c:115
+#, fuzzy
+#| msgid "Listening"
+msgid "Listening..."
+msgstr "A ouvir"
+
+#: pebble/popups/notifications/notification_window.c:727
 msgid "Snoozed"
 msgstr "Adiado"
 
-#: src/fw/popups/notifications/notification_window.c:742
+#: pebble/popups/notifications/notification_window.c:760
 msgid "Muted"
 msgstr "Silenciada"
 
-#: src/fw/popups/notifications/notification_window.c:912
+#: pebble/popups/notifications/notification_window.c:930
 msgid "Snooze"
 msgstr "Adiar"
 
-#: src/fw/popups/notifications/notification_window.c:930
+#: pebble/popups/notifications/notification_window.c:948
 #, c-format
 msgid "Mute %s"
 msgstr "Silenciar %s"
 
-#: src/fw/popups/notifications/notification_window.c:948
+#: pebble/popups/notifications/notification_window.c:966
 msgid "Mute 1 Hour"
 msgstr "Silenciar 1 hora"
 
-#: src/fw/popups/notifications/notification_window.c:951
+#: pebble/popups/notifications/notification_window.c:969
 msgid "Mute Today"
 msgstr "Silenciar hoje"
 
-#: src/fw/popups/notifications/notification_window.c:954
+#: pebble/popups/notifications/notification_window.c:972
 msgid "Mute Always"
 msgstr "Sempre"
 
-#: src/fw/popups/notifications/notification_window.c:957
+#: pebble/popups/notifications/notification_window.c:975
 msgid "Mute Weekends"
 msgstr "Fim de Semana"
 
-#: src/fw/popups/notifications/notification_window.c:960
+#: pebble/popups/notifications/notification_window.c:978
 msgid "Mute Weekdays"
 msgstr "Dias Úteis"
 
-#: src/fw/popups/notifications/notification_window.c:968
+#: pebble/popups/notifications/notification_window.c:986
 msgid "Dismiss All"
 msgstr "Remover tudo"
 
-#: src/fw/popups/notifications/notification_window.c:974
+#: pebble/popups/notifications/notification_window.c:992
 msgid "End Quiet Time"
 msgstr "Terminar Modo Silêncio"
 
-#: src/fw/popups/notifications/notification_window.c:975
+#: pebble/popups/notifications/notification_window.c:993
 msgid "Start Quiet Time"
 msgstr "Iniciar Modo Silêncio"
 
-#: src/fw/popups/phone_ui.c:562
+#: pebble/popups/phone_ui.c:579
 msgid "Call Accepted"
 msgstr "Cham. atendida"
 
-#: src/fw/popups/phone_ui.c:565
+#: pebble/popups/phone_ui.c:582
 msgid "Disconnected"
 msgstr "Desligado"
 
-#: src/fw/popups/phone_ui.c:568
+#: pebble/popups/phone_ui.c:585
 msgid "Call Ended"
 msgstr "Chamada terminou"
 
-#: src/fw/popups/phone_ui.c:571
+#: pebble/popups/phone_ui.c:588
 msgid "Call Declined"
 msgstr "Ignorada"
 
-#: src/fw/popups/switch_worker_ui.c:93
+#: pebble/popups/switch_worker_ui.c:95
 #, c-format
 msgid "Run %s instead of %s as the background app?"
 msgstr "Executar %s em vez de %s como app de fundo?"
 
-#: src/fw/popups/wakeup_ui.c:52
+#: pebble/popups/wakeup_ui.c:53
 msgid "While your Pebble was off wakeup events occurred for:\n"
 msgstr "Enquanto o teu Pebble estava desligado ocorreram os eventos:\n"
 
-#: src/fw/process_management/app_manager.c:467
+#: pebble/process_management/app_manager.c:532
 #, c-format
 msgid "%.*s is not responding"
 msgstr "%.*s não responde"
 
-#: src/fw/process_management/process_manager.c:196
+#: pebble/process_management/process_manager.c:212
 msgid "This app requires a newer version of the Pebble firmware."
 msgstr "Esta aplicação requer uma versão mais recente do firmware Pebble."
 
-#: src/fw/process_management/process_manager.c:340
+#: pebble/process_management/process_manager.c:357
 msgid "This app uses RockyJS which is no longer supported."
 msgstr "Esta app usa RockyJS, que já não é suportado."
 
-#: src/fw/services/activity/activity_insights.c:170
+#: pebble/services/activity/activity_insights.c:195
 msgid ""
 "How are you feeling? Have you noticed extra focus, better mood or extra "
 "energy? You have been sleeping great this week! Keep it up!"
@@ -2831,34 +3110,34 @@ msgstr ""
 "Como se sente? Notou que se concentra melhor, está mais bem-disposto ou com "
 "mais energia? Tem dormido esplendidamente esta semana! Continue assim!"
 
-#: src/fw/services/activity/activity_insights.c:172
+#: pebble/services/activity/activity_insights.c:197
 msgid "I feel fabulous!"
 msgstr "Sinto-me muito bem!"
 
-#: src/fw/services/activity/activity_insights.c:173
+#: pebble/services/activity/activity_insights.c:198
 msgid "About average"
 msgstr "Normal"
 
-#: src/fw/services/activity/activity_insights.c:174
+#: pebble/services/activity/activity_insights.c:199
 msgid "I'm still tired"
 msgstr "Continuo cansado"
 
-#: src/fw/services/activity/activity_insights.c:175
-#: src/fw/services/activity/activity_insights.c:193
+#: pebble/services/activity/activity_insights.c:200
+#: pebble/services/activity/activity_insights.c:218
 msgid "Awesome!"
 msgstr "Fantástico!"
 
-#: src/fw/services/activity/activity_insights.c:176
-#: src/fw/services/activity/activity_insights.c:194
+#: pebble/services/activity/activity_insights.c:201
+#: pebble/services/activity/activity_insights.c:219
 msgid "Keep it up!"
 msgstr "Continue assim!"
 
-#: src/fw/services/activity/activity_insights.c:177
-#: src/fw/services/activity/activity_insights.c:195
+#: pebble/services/activity/activity_insights.c:202
+#: pebble/services/activity/activity_insights.c:220
 msgid "We'll get there!"
 msgstr "Lá chegaremos!"
 
-#: src/fw/services/activity/activity_insights.c:188
+#: pebble/services/activity/activity_insights.c:213
 msgid ""
 "Congratulations - you're having a super active day! Activity makes you more "
 "focused and creative. How do you feel?"
@@ -2866,152 +3145,164 @@ msgstr ""
 "Parabéns, está a ter um dia super ativo! A atividade aumenta a concentração "
 "e a criatividade. Como se sente?"
 
-#: src/fw/services/activity/activity_insights.c:190
-#: src/fw/services/activity/activity_insights.c:917
+#: pebble/services/activity/activity_insights.c:215
+#: pebble/services/activity/activity_insights.c:988
 msgid "I feel great!"
 msgstr "Sinto-me muito bem!"
 
-#: src/fw/services/activity/activity_insights.c:191
+#: pebble/services/activity/activity_insights.c:216
 msgid "About the same"
 msgstr "Na mesma"
 
-#: src/fw/services/activity/activity_insights.c:192
+#: pebble/services/activity/activity_insights.c:217
 msgid "Not feeling it"
 msgstr "Não me sinto grande coisa..."
 
-#: src/fw/services/activity/activity_insights.c:222
+#: pebble/services/activity/activity_insights.c:247
 msgid "Activity Summary"
 msgstr "Resumo da Atividade"
 
-#: src/fw/services/activity/activity_insights.c:230
+#: pebble/services/activity/activity_insights.c:256
 msgid "Do you feel more energetic, sharper or optimistic? Being active helps!"
 msgstr ""
 "Sente-se mais enérgico, mais concentrado ou otimista? Estar ativo ajuda!"
 
-#: src/fw/services/activity/activity_insights.c:231
+#: pebble/services/activity/activity_insights.c:257
 msgid "GREAT DAY TODAY"
 msgstr "HOJE FOI UM GRANDE DIA"
 
-#: src/fw/services/activity/activity_insights.c:235
+#: pebble/services/activity/activity_insights.c:261
 msgid "You're being consistent and that's important, keep at it!"
 msgstr "Está a ser consistente e isso é importante. Continue assim!"
 
-#: src/fw/services/activity/activity_insights.c:236
+#: pebble/services/activity/activity_insights.c:262
 msgid "CONSISTENT!"
 msgstr "CONSISTENTE!"
 
-#: src/fw/services/activity/activity_insights.c:240
-#: src/fw/services/activity/activity_insights.c:245
+#: pebble/services/activity/activity_insights.c:266
+#: pebble/services/activity/activity_insights.c:271
 msgid "Resting is fine, but try to recover and step it up tomorrow!"
 msgstr "Descansar é bom, mas tente recuperar e intensificar amanhã!"
 
-#: src/fw/services/activity/activity_insights.c:241
-#: src/fw/services/activity/activity_insights.c:246
+#: pebble/services/activity/activity_insights.c:267
+#: pebble/services/activity/activity_insights.c:272
 msgid "NOT VERY ACTIVE"
 msgstr "POUCO ATIVO"
 
-#: src/fw/services/activity/activity_insights.c:254
+#: pebble/services/activity/activity_insights.c:280
 msgid "Sleep Summary"
 msgstr "Resumo do Sono"
 
-#: src/fw/services/activity/activity_insights.c:263
+#: pebble/services/activity/activity_insights.c:289
 msgid "You had a good night! Feel the energy 😃"
 msgstr "Tiveste uma boa noite! Sente a energia 😃"
 
-#: src/fw/services/activity/activity_insights.c:267
+#: pebble/services/activity/activity_insights.c:293
 msgid "It's great that you're keeping a consistent sleep routine!"
 msgstr "É excelente conseguir manter uma rotina de sono consistente!"
 
-#: src/fw/services/activity/activity_insights.c:271
-#: src/fw/services/activity/activity_insights.c:275
+#: pebble/services/activity/activity_insights.c:297
+#: pebble/services/activity/activity_insights.c:301
 msgid "A good night's sleep goes a long way! Try to get more hours tonight."
 msgstr ""
 "Uma boa noite de sono faz muita diferença! Tenta dormir mais umas horas hoje "
 "à noite."
 
-#: src/fw/services/activity/activity_insights.c:424
+#: pebble/services/activity/activity_insights.c:451
 msgid "Open App"
 msgstr "Abrir App"
 
-#: src/fw/services/activity/activity_insights.c:529
-#: src/fw/services/activity/activity_insights.c:535
+#: pebble/services/activity/activity_insights.c:557
+#: pebble/services/activity/activity_insights.c:563
 msgid "BELOW AVG"
 msgstr "ABAIXO DA MÉDIA"
 
-#: src/fw/services/activity/activity_insights.c:529
-#: src/fw/services/activity/activity_insights.c:535
+#: pebble/services/activity/activity_insights.c:557
+#: pebble/services/activity/activity_insights.c:563
 msgid "Below avg"
 msgstr "Abaixo da média"
 
-#: src/fw/services/activity/activity_insights.c:541
+#: pebble/services/activity/activity_insights.c:569
 msgid "ON AVG"
 msgstr "NA MÉDIA"
 
-#: src/fw/services/activity/activity_insights.c:541
+#: pebble/services/activity/activity_insights.c:569
 msgid "On avg"
 msgstr "Na média"
 
-#: src/fw/services/activity/activity_insights.c:546
+#: pebble/services/activity/activity_insights.c:574
 msgid "ABOVE AVG"
 msgstr "ACIMA DA MÉDIA"
 
-#: src/fw/services/activity/activity_insights.c:546
+#: pebble/services/activity/activity_insights.c:574
 msgid "Above avg"
 msgstr "Acima da média"
 
-#: src/fw/services/activity/activity_insights.c:827
+#: pebble/services/activity/activity_insights.c:855
 msgid "%H:%M"
 msgstr "%H:%M"
 
-#: src/fw/services/activity/activity_insights.c:827
+#: pebble/services/activity/activity_insights.c:856
 msgid "%l:%M%p"
 msgstr "%l:%M%p"
 
-#: src/fw/services/activity/activity_insights.c:851
+#: pebble/services/activity/activity_insights.c:880
 #, c-format
 msgid "%uH %uM Sleep"
 msgstr "%uH %uM Sono"
 
-#: src/fw/services/activity/activity_insights.c:879
+#: pebble/services/activity/activity_insights.c:909
+msgid "Short night! Try going to bed a little earlier tonight."
+msgstr ""
+
+#: pebble/services/activity/activity_insights.c:912
+msgid "Almost there! A little more sleep tonight would help."
+msgstr ""
+
+#: pebble/services/activity/activity_insights.c:917
+msgid "A long night! Great for catching up; a steady routine helps most."
+msgstr ""
+
+#: pebble/services/activity/activity_insights.c:948
 msgid "Nap Time"
 msgstr "Hora da Sesta"
 
-#: src/fw/services/activity/activity_insights.c:887
+#: pebble/services/activity/activity_insights.c:957
 #, c-format
 msgid "%s of sleep"
 msgstr "%s de sono"
 
-#: src/fw/services/activity/activity_insights.c:892
+#: pebble/services/activity/activity_insights.c:963
 msgid "YOU NAPPED"
 msgstr "DORMIU"
 
-#: src/fw/services/activity/activity_insights.c:892
+#: pebble/services/activity/activity_insights.c:963
 msgid "Of napping"
 msgstr "De sesta"
 
-#: src/fw/services/activity/activity_insights.c:900
+#: pebble/services/activity/activity_insights.c:971
 #, c-format
 msgid "%s - %s"
 msgstr "%s - %s"
 
-#: src/fw/services/activity/activity_insights.c:921
+#: pebble/services/activity/activity_insights.c:992
 msgid "I need more"
 msgstr "Preciso de mais"
 
-#: src/fw/services/activity/activity_insights.c:951
+#: pebble/services/activity/activity_insights.c:1022
 #, c-format
 msgid "Aren't naps great? You knocked out for %dH %dM!"
 msgstr "Sestas são fantásticas, não são? Dormiu %dh e %dm!"
 
-#: src/fw/services/activity/activity_insights.c:967
+#: pebble/services/activity/activity_insights.c:1038
 msgid "I didn't nap!?"
 msgstr "Não fiz uma sesta?!"
 
-#: src/fw/services/activity/activity_insights.c:1200
+#: pebble/services/activity/activity_insights.c:1279
 msgid "Open Pin"
 msgstr "Abrir Pin"
 
-#: src/fw/services/activity/activity_insights.c:1286
+#: pebble/services/activity/activity_insights.c:1365
 #, c-format
 msgid ""
 "Killer job! You've walked %d steps today which is %d%% above your typical. "
@@ -3020,7 +3311,7 @@ msgstr ""
 "Fantástico! Deste %d passos hoje o que é %d%% acima do teu normal. Fá-lo de "
 "novo amanhã e sentir-te-ás no topo do mundo!"
 
-#: src/fw/services/activity/activity_insights.c:1289
+#: pebble/services/activity/activity_insights.c:1368
 #, c-format
 msgid ""
 "Nice moves! You've walked %d steps today which is %d%% above your typical. "
@@ -3029,7 +3320,7 @@ msgstr ""
 "Bom ritmo! Deste %d passos hoje o que é %d%% acima do teu normal. Dá-lhe "
 "forte de novo amanhã 😀"
 
-#: src/fw/services/activity/activity_insights.c:1291
+#: pebble/services/activity/activity_insights.c:1370
 #, c-format
 msgid ""
 "Hey rockstar 🎤 You've walked %d steps today which is %d%% above your "
@@ -3038,7 +3329,7 @@ msgstr ""
 "Hey rockstar 🎤 Deste %d passos hoje o que é %d%% acima do teu normal. Nada "
 "te pode parar!"
 
-#: src/fw/services/activity/activity_insights.c:1293
+#: pebble/services/activity/activity_insights.c:1372
 #, c-format
 msgid ""
 "We can barely keep up! You walked %d steps today which is %d%% above your "
@@ -3047,7 +3338,7 @@ msgstr ""
 "Quase não conseguimos acompanhar! Deste %d passos hoje o que é %d%% acima do "
 "teu normal! 🔥"
 
-#: src/fw/services/activity/activity_insights.c:1296
+#: pebble/services/activity/activity_insights.c:1375
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% above your typical. You just "
@@ -3056,7 +3347,7 @@ msgstr ""
 "Deste %d passos hoje o que é %d%% acima do teu normal. Ultrapassaste-te a TI "
 "PRÓPRIO!"
 
-#: src/fw/services/activity/activity_insights.c:1305
+#: pebble/services/activity/activity_insights.c:1384
 #, c-format
 msgid ""
 "You walked %d steps today; keep it up! Being active is the key to feeling "
@@ -3065,12 +3356,12 @@ msgstr ""
 "Deste %d passos hoje; continue assim! Estar ativo é a chave para te sentires "
 "fenomenal. Tenta bater a tua média amanhã."
 
-#: src/fw/services/activity/activity_insights.c:1308
+#: pebble/services/activity/activity_insights.c:1387
 #, c-format
 msgid "Good job! You walked %d steps today–do it again tomorrow."
 msgstr "Bom trabalho! Deste %d passos hoje, fá-lo de novo amanhã."
 
-#: src/fw/services/activity/activity_insights.c:1309
+#: pebble/services/activity/activity_insights.c:1388
 #, c-format
 msgid ""
 "Someone's on the move 👊 You walked %d steps today; keep doing what you're "
@@ -3079,7 +3370,7 @@ msgstr ""
 "Alguém está em movimento 👊 Deste %d passos hoje; continua o que estás a "
 "fazer!"
 
-#: src/fw/services/activity/activity_insights.c:1311
+#: pebble/services/activity/activity_insights.c:1391
 #, c-format
 msgid ""
 "You keep moving, we'll keep counting! You've clocked in %d steps today. Keep "
@@ -3088,7 +3379,7 @@ msgstr ""
 "Continua em movimento, nós continuamos a contar! Deste %d passos hoje. "
 "Continua a dar-lhe!"
 
-#: src/fw/services/activity/activity_insights.c:1320
+#: pebble/services/activity/activity_insights.c:1400
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% below your typical. Try to be more "
@@ -3097,7 +3388,7 @@ msgstr ""
 "Deste %d passos hoje o que é %d%% abaixo do teu normal. Tenta ser mais ativo "
 "amanhã–tu consegues!"
 
-#: src/fw/services/activity/activity_insights.c:1323
+#: pebble/services/activity/activity_insights.c:1403
 #, c-format
 msgid ""
 "You walked %d steps which is %d%% below your typical. Being active makes you "
@@ -3106,7 +3397,7 @@ msgstr ""
 "Deste %d passos o que é %d%% abaixo do teu normal. Estar ativo faz-te sentir "
 "fantááástico, tenta voltar à forma amanhã."
 
-#: src/fw/services/activity/activity_insights.c:1325
+#: pebble/services/activity/activity_insights.c:1405
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% below your typical. Don't worry, "
@@ -3115,7 +3406,7 @@ msgstr ""
 "Deste %d passos hoje o que é %d%% abaixo do teu normal. Não te preocupes, "
 "amanhã é já ao virar da esquina 😀"
 
-#: src/fw/services/activity/activity_insights.c:1327
+#: pebble/services/activity/activity_insights.c:1407
 #, c-format
 msgid ""
 "You walked %d steps which is %d%% below your typical, but don't stress. "
@@ -3124,19 +3415,19 @@ msgstr ""
 "Deste %d passos o que é %d%% abaixo do teu normal, mas não há problema. "
 "Amanhã partes tudo 😉"
 
-#: src/fw/services/activity/activity_insights.c:1334
+#: pebble/services/activity/activity_insights.c:1414
 #, c-format
 msgid ""
 "You walked %d steps today. Don't fret, you can get back on track in no time "
 "😉"
 msgstr "Deste %d passos hoje. Não te chateies, voltas à forma não tarda nada 😉"
 
-#: src/fw/services/activity/activity_insights.c:1336
+#: pebble/services/activity/activity_insights.c:1416
 #, c-format
 msgid "You walked %d steps today. Good news is the sky's the limit!"
 msgstr "Deste %d passos hoje. A boa notícia é que o céu é o limite!"
 
-#: src/fw/services/activity/activity_insights.c:1337
+#: pebble/services/activity/activity_insights.c:1417
 #, c-format
 msgid ""
 "You walked %d steps today. Try to take even more steps tomorrow–show us what "
@@ -3145,8 +3436,71 @@ msgstr ""
 "Deste %d passos hoje. Tenta dar ainda mais passos amanhã – mostra-nos aquilo "
 "de que és feito!"
 
+#. / Sleep notification on wake up, slept under 6 hours
+#: pebble/services/activity/activity_insights.c:1467
+#, c-format
+msgid ""
+"Short night? You slept for %dH %dM. Most adults need at least 7 hours, so "
+"try heading to bed earlier tonight."
+msgstr ""
+
+#: pebble/services/activity/activity_insights.c:1469
+#, c-format
+msgid ""
+"You slept for %dH %dM. Sleep fuels everything you do; let's aim for more "
+"tonight 😉"
+msgstr ""
+
+#. / Sleep notification on wake up, slept 6 to 7 hours, not below their typical
+#: pebble/services/activity/activity_insights.c:1477
+#, c-format
+msgid ""
+"You slept for %dH %dM. You're close! A little extra tonight goes a long way."
+msgstr ""
+
+#: pebble/services/activity/activity_insights.c:1479
+#, fuzzy, c-format
+#| msgid ""
+#| "Good morning! You slept for %dH %dM. Consistency is key; keep doing what "
+#| "you're doing 😃."
+msgid ""
+"Good morning! You slept for %dH %dM. Just a bit more sleep would help you "
+"feel your best."
+msgstr ""
+"Bom dia! Dormiste %dh %dm. A consistência é chave; continua a fazer o que "
+"estás a fazer 😃."
+
+#. / Sleep notification on wake up, slept 9 to 10 hours
+#: pebble/services/activity/activity_insights.c:1487
+#, c-format
+msgid ""
+"You slept for %dH %dM. A long night can help you catch up after short ones; "
+"a steady routine is what counts."
+msgstr ""
+
+#: pebble/services/activity/activity_insights.c:1489
+#, c-format
+msgid ""
+"Well rested? You slept for %dH %dM. Extra sleep helps you recover, but most "
+"adults do best with 7 to 9 hours."
+msgstr ""
+
+#: pebble/services/activity/activity_insights.c:1498
+#, c-format
+msgid ""
+"You slept for %dH %dM. That's a long night! Great for recovering, but a "
+"regular bedtime and wake time will help you feel your best."
+msgstr ""
+
+#: pebble/services/activity/activity_insights.c:1501
+#, c-format
+msgid ""
+"You slept for %dH %dM, more than most adults need. Catching up now and then "
+"is fine; try to keep a steady routine."
+msgstr ""
+
 #. / Sleep notification on wake up, slept above their typical sleep duration
-#: src/fw/services/activity/activity_insights.c:1389
+#: pebble/services/activity/activity_insights.c:1512
 #, c-format
 msgid ""
 "Refreshed? You slept for %dH %dM which is %d%% above your typical. Go tackle "
@@ -3155,7 +3509,7 @@ msgstr ""
 "Refrescado? Dormiste %dh %dm o que é %d%% acima do teu normal. Vai atacar o "
 "teu dia 😀."
 
-#: src/fw/services/activity/activity_insights.c:1391
+#: pebble/services/activity/activity_insights.c:1515
 #, c-format
 msgid ""
 "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above your "
@@ -3164,7 +3518,7 @@ msgstr ""
 "Apanhaste uns zzzs do caraças! Dormiste %dh %dm o que é %d%% acima do teu "
 "normal. Continua assim."
 
-#: src/fw/services/activity/activity_insights.c:1393
+#: pebble/services/activity/activity_insights.c:1518
 #, c-format
 msgid ""
 "Rise and shine! You slept for %dH %dM which is %d%% above your typical. Do "
@@ -3173,7 +3527,7 @@ msgstr ""
 "Bom dia! Dormiste %dh %dm o que é %d%% acima do teu normal. Fá-lo de novo "
 "amanhã, mestre do sono."
 
-#: src/fw/services/activity/activity_insights.c:1396
+#: pebble/services/activity/activity_insights.c:1521
 #, c-format
 msgid ""
 "Mmmm...what a night. You slept for %dH %dM which is %d%% above your typical. "
@@ -3182,7 +3536,7 @@ msgstr ""
 "Mmmm... que noite. Dormiste %dh %dm o que é %d%% acima do teu normal. Deves-"
 "te sentir bem!"
 
-#: src/fw/services/activity/activity_insights.c:1399
+#: pebble/services/activity/activity_insights.c:1524
 #, c-format
 msgid ""
 "That's a lot of sheep you just counted! You slept for %dH %dM which is %d%% "
@@ -3192,7 +3546,7 @@ msgstr ""
 "normal."
 
 #. / Sleep notification on wake up, slept similar to their typical sleep duration
-#: src/fw/services/activity/activity_insights.c:1409
+#: pebble/services/activity/activity_insights.c:1534
 #, c-format
 msgid ""
 "Good mornin’. You slept for %dH %dM. Every good day begins with a solid "
@@ -3201,7 +3555,7 @@ msgstr ""
 "Bom dia. Dormiste %dh %dm. Todos os bons dias começam com uma noite de sono "
 "sólida... Como esta 😉 Continua assim!"
 
-#: src/fw/services/activity/activity_insights.c:1412
+#: pebble/services/activity/activity_insights.c:1537
 #, c-format
 msgid ""
 "Good morning! You slept for %dH %dM. Consistency is key; keep doing what "
@@ -3210,7 +3564,7 @@ msgstr ""
 "Bom dia! Dormiste %dh %dm. A consistência é chave; continua a fazer o que "
 "estás a fazer 😃."
 
-#: src/fw/services/activity/activity_insights.c:1415
+#: pebble/services/activity/activity_insights.c:1540
 #, c-format
 msgid ""
 "You're rockin' the shut eye! You slept for %dH %dM. Make it a nightly "
@@ -3219,13 +3573,13 @@ msgstr ""
 "Estás a dormir que nem um campeão! Dormiste %dh %dm. Torna isto num ritual "
 "diário. Tu mereces."
 
-#: src/fw/services/activity/activity_insights.c:1417
+#: pebble/services/activity/activity_insights.c:1542
 #, c-format
 msgid "Feelin' good? You slept for %dH %dM. Nothing can stop you now 👊"
 msgstr "Tudo bem? Dormiste %dh %dm. Nada te pode parar agora 👊"
 
 #. / Sleep notification on wake up, slept below their typical sleep duration
-#: src/fw/services/activity/activity_insights.c:1426
+#: pebble/services/activity/activity_insights.c:1551
 #, c-format
 msgid ""
 "Hey sleepy head. You slept for %dH %dM which is %d%% below your typical. Try "
@@ -3234,7 +3588,7 @@ msgstr ""
 "Hey dorminhoco. Dormiste %dh %dm o que é %d%% abaixo do teu normal. Tenta "
 "dormir mais hoje à noite!"
 
-#: src/fw/services/activity/activity_insights.c:1428
+#: pebble/services/activity/activity_insights.c:1554
 #, c-format
 msgid ""
 "Groggy? You slept for %dH %dM which is %d%% below your typical. Sleep is "
@@ -3243,7 +3597,7 @@ msgstr ""
 "Sonolento? Dormiste %dh %dm o que é %d%% abaixo do teu normal. Dormir é "
 "importante para tudo o que fazes-tenta dormir mais hoje à noite!"
 
-#: src/fw/services/activity/activity_insights.c:1430
+#: pebble/services/activity/activity_insights.c:1557
 #, c-format
 msgid ""
 "It's a new day! You slept for %dH %dM which is %d%% below your typical. It's "
@@ -3252,7 +3606,7 @@ msgstr ""
 "É um novo dia! Dormiste %dh %dm o que é %d%% abaixo do teu normal. Não foi a "
 "tua melhor noite, mas há sempre amanhã!"
 
-#: src/fw/services/activity/activity_insights.c:1433
+#: pebble/services/activity/activity_insights.c:1560
 #, c-format
 msgid ""
 "Goooood morning! You slept for %dH %dM which is %d%% below your typical. Go "
@@ -3261,7 +3615,7 @@ msgstr ""
 "Booooom dia! Dormiste %dh %dm o que é %d%% abaixo do teu normal. Vai demolir "
 "este dia e depois volta para a cama 😉"
 
-#: src/fw/services/activity/activity_insights.c:1440
+#: pebble/services/activity/activity_insights.c:1567
 #, c-format
 msgid ""
 "You slept for %dH %dM which is %d%% below your typical. Sleep is vital for "
@@ -3270,7 +3624,7 @@ msgstr ""
 "Dormiste %dh %dm o que é %d%% abaixo do teu normal. O sono é fundamental "
 "para todas as grandes ideias–que tal dormires mais hoje à noite?"
 
-#: src/fw/services/activity/activity_insights.c:1442
+#: pebble/services/activity/activity_insights.c:1569
 #, c-format
 msgid ""
 "You only slept for %dH %dM which is %d%% below your typical. We know you're "
@@ -3279,7 +3633,7 @@ msgstr ""
 "Dormiste só %dh %dm o que é %d%%  abaixo do teu normal. Sabemos que tens "
 "muito para fazer, mas tenta dormir mais hoje à noite. Acreditamos em ti 😉"
 
-#: src/fw/services/activity/activity_insights.c:1444
+#: pebble/services/activity/activity_insights.c:1571
 #, c-format
 msgid ""
 "You slept for %dH %dM which is %d%% below your typical. We know stuff "
@@ -3288,440 +3642,434 @@ msgstr ""
 "Dormiste %dh %dm o que é %d%% abaixo do teu normal. Sabemos que isto "
 "acontece; tenta de novo hoje à noite."
 
-#: src/fw/services/activity/activity_insights.c:1495
+#: pebble/services/activity/activity_insights.c:1650
 #, c-format
 msgid "%u Steps"
 msgstr "%u Passos"
 
-#: src/fw/services/activity/activity_insights.c:1577
+#: pebble/services/activity/activity_insights.c:1732
 msgid "Didn’t that walk feel good?"
 msgstr "O passeio soube bem?"
 
-#: src/fw/services/activity/activity_insights.c:1578
+#: pebble/services/activity/activity_insights.c:1733
 msgid "Way to keep it active!"
 msgstr "Estás bem ativo!"
 
-#: src/fw/services/activity/activity_insights.c:1579
+#: pebble/services/activity/activity_insights.c:1734
 msgid "You got the moves!"
 msgstr "Estás em grande!"
 
-#: src/fw/services/activity/activity_insights.c:1580
+#: pebble/services/activity/activity_insights.c:1735
 msgid "Gettin' your step on?"
 msgstr "A dar uns passos?"
 
-#: src/fw/services/activity/activity_insights.c:1590
+#: pebble/services/activity/activity_insights.c:1745
 msgid "Feelin' hot? Cause you're on 🔥"
 msgstr "Estás em grande!"
 
-#: src/fw/services/activity/activity_insights.c:1591
+#: pebble/services/activity/activity_insights.c:1746
 msgid "Hey lightning bolt, way to go!"
 msgstr "Hey relâmpago, continua assim!"
 
-#: src/fw/services/activity/activity_insights.c:1592
+#: pebble/services/activity/activity_insights.c:1747
 msgid "You're a machine!"
 msgstr "És uma máquina!"
 
-#: src/fw/services/activity/activity_insights.c:1593
+#: pebble/services/activity/activity_insights.c:1748
 msgid "Hey speedster, we can barely keep up!"
 msgstr "Quase não conseguimos acompanhar!!"
 
-#: src/fw/services/activity/activity_insights.c:1594
+#: pebble/services/activity/activity_insights.c:1749
 msgid "Way to show us what you're made of 👊"
 msgstr "Estás a mostrar-nos o teu calibre 👊"
 
-#: src/fw/services/activity/activity_insights.c:1604
+#: pebble/services/activity/activity_insights.c:1759
 msgid "Workin' up a sweat?"
 msgstr "A começar a suar?"
 
-#: src/fw/services/activity/activity_insights.c:1605
+#: pebble/services/activity/activity_insights.c:1760
 msgid "Well done 💪"
 msgstr "Bom trabalho 💪"
 
-#: src/fw/services/activity/activity_insights.c:1606
+#: pebble/services/activity/activity_insights.c:1761
 msgid "Endorphin rush?"
 msgstr "Sentes a endorfina?"
 
-#: src/fw/services/activity/activity_insights.c:1607
+#: pebble/services/activity/activity_insights.c:1762
 msgid "Can't stop, won't stop 👊"
 msgstr "Não posso parar, não vou parar 👊"
 
-#: src/fw/services/activity/activity_insights.c:1608
+#: pebble/services/activity/activity_insights.c:1763
 msgid "Keepin' that heart healthy! ❤"
 msgstr "Mantém esse coração saudável! ❤"
 
-#: src/fw/services/activity/activity_insights.c:1636
-#: src/fw/services/activity/activity_insights.c:1726
-#: src/fw/services/activity/activity_insights.c:1733
-#: src/fw/services/activity/activity_insights.c:1740
+#: pebble/services/activity/activity_insights.c:1792
+#: pebble/services/activity/activity_insights.c:1884
+#: pebble/services/activity/activity_insights.c:1891
+#: pebble/services/activity/activity_insights.c:1898
 #, c-format
 msgid "%d Min"
 msgstr "%dm"
 
-#: src/fw/services/activity/activity_insights.c:1665
+#: pebble/services/activity/activity_insights.c:1821
 msgid "Avg Pace"
 msgstr "Ritmo Méd"
 
-#: src/fw/services/activity/activity_insights.c:1681
+#: pebble/services/activity/activity_insights.c:1837
 msgid "Distance"
 msgstr "Distância"
 
-#: src/fw/services/activity/activity_insights.c:1693
+#: pebble/services/activity/activity_insights.c:1849
 msgid "Steps"
 msgstr "Passos"
 
-#: src/fw/services/activity/activity_insights.c:1706
+#: pebble/services/activity/activity_insights.c:1863
 msgid "Active Calories"
 msgstr "Calorias Ativas"
 
-#: src/fw/services/activity/activity_insights.c:1718
+#: pebble/services/activity/activity_insights.c:1876
 msgid "Avg HR"
 msgstr "Ritmo Cardíaco Méd"
 
-#: src/fw/services/activity/health_util.c:30
+#: pebble/services/activity/health_util.c:30
 #, c-format
 msgid "%dH"
 msgstr "%dH"
 
-#: src/fw/services/activity/health_util.c:36
+#: pebble/services/activity/health_util.c:36
 #, c-format
 msgid "%dM"
 msgstr "%dM"
 
-#: src/fw/services/activity/health_util.c:59
+#: pebble/services/activity/health_util.c:59
 #, c-format
 msgid "%d:%d"
 msgstr "%d:%d"
 
-#: src/fw/services/activity/health_util.c:96
+#: pebble/services/activity/health_util.c:96
 msgid "h"
 msgstr "h"
 
-#: src/fw/services/activity/health_util.c:102
+#: pebble/services/activity/health_util.c:102
 msgid " "
 msgstr " "
 
-#: src/fw/services/activity/health_util.c:112
+#: pebble/services/activity/health_util.c:113
 msgid "min"
 msgstr "min"
 
-#: src/fw/services/activity/health_util.c:130
+#: pebble/services/activity/health_util.c:131
 #, c-format
 msgid "%d.%d"
 msgstr "%d.%d"
 
-#: src/fw/services/alarms/alarm.c:458 src/fw/services/alarms/alarm_pin.c:75
+#: pebble/services/alarms/alarm.c:465 pebble/services/alarms/alarm_pin.c:75
 msgid "Alarm"
 msgstr "Alarme"
 
 #. / A frequency option for alarms, i.e. the alarm would go off every
 #. / day. Respect capitalization!
-#: src/fw/services/alarms/alarm.c:1402
+#: pebble/services/alarms/alarm.c:1426
 msgid "EVERY DAY"
 msgstr "TODOS OS DIAS"
 
-#. / A frequency option for alarms, i.e. the alarm would go off every
-#. / day. Respect capitalization!
-#: src/fw/services/alarms/alarm.c:1406
-msgid "Every Day"
-msgstr "Diariamente"
-
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / every weekday. Respect capitalization!
-#: src/fw/services/alarms/alarm.c:1412
+#: pebble/services/alarms/alarm.c:1436
 msgid "WEEKDAYS"
 msgstr "DIAS DE SEMANA"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / each day on the weekend. Respect capitalization!
-#: src/fw/services/alarms/alarm.c:1422
+#: pebble/services/alarms/alarm.c:1446
 msgid "WEEKENDS"
 msgstr "FIM DE SEMANA"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / one time ever. Respect capitalization!
-#: src/fw/services/alarms/alarm.c:1433
+#: pebble/services/alarms/alarm.c:1457
 msgid "ONCE"
 msgstr "UMA VEZ"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / one time ever. Respect capitalization!
-#: src/fw/services/alarms/alarm.c:1437
+#: pebble/services/alarms/alarm.c:1461
 msgid "Once"
 msgstr "Uma vez"
 
 #. / A frequency option for alarms, i.e. the alarm would only go off
 #. / on a custom choice of days. Respect capitalization!
-#: src/fw/services/alarms/alarm.c:1444
+#: pebble/services/alarms/alarm.c:1468
 msgid "CUSTOM"
 msgstr "PERSONALIZ."
 
-#: src/fw/services/alarms/alarm.c:1464
+#: pebble/services/alarms/alarm.c:1489
 msgid "Sundays"
 msgstr "Domingos"
 
-#: src/fw/services/alarms/alarm.c:1464
+#: pebble/services/alarms/alarm.c:1489
 msgid "Mondays"
 msgstr "Segundas"
 
-#: src/fw/services/alarms/alarm.c:1465
+#: pebble/services/alarms/alarm.c:1490
 msgid "Tuesdays"
 msgstr "Terças"
 
-#: src/fw/services/alarms/alarm.c:1465
+#: pebble/services/alarms/alarm.c:1490
 msgid "Wednesdays"
 msgstr "Quartas"
 
-#: src/fw/services/alarms/alarm.c:1466
+#: pebble/services/alarms/alarm.c:1491
 msgid "Thursdays"
 msgstr "Quintas"
 
-#: src/fw/services/alarms/alarm.c:1466
+#: pebble/services/alarms/alarm.c:1491
 msgid "Fridays"
 msgstr "Sextas"
 
-#: src/fw/services/alarms/alarm.c:1467
+#: pebble/services/alarms/alarm.c:1492
 msgid "Saturdays"
 msgstr "Sábados"
 
-#: src/fw/services/alarms/alarm_pin.c:88
+#: pebble/services/alarms/alarm_pin.c:88
 msgid "Edit"
 msgstr "Editar"
 
-#: src/fw/services/alarms/alarm_tones.c:187
+#: pebble/services/alarms/alarm_tones.c:187
 msgid "Reveille"
 msgstr "Alvorada"
 
-#: src/fw/services/alarms/alarm_tones.c:190
+#: pebble/services/alarms/alarm_tones.c:190
 msgid "Beacon"
 msgstr "Farol"
 
-#: src/fw/services/alarms/alarm_tones.c:192
+#: pebble/services/alarms/alarm_tones.c:193
 msgid "Bell"
 msgstr "Sino"
 
-#: src/fw/services/alarms/alarm_tones.c:194
+#: pebble/services/alarms/alarm_tones.c:195
 msgid "Chime"
 msgstr "Carrilhão"
 
-#: src/fw/services/clock/service.c:504 src/fw/services/clock/service.c:789
+#: pebble/services/clock/service.c:553 pebble/services/clock/service.c:855
 msgid "%R"
 msgstr "%R"
 
-#: src/fw/services/clock/service.c:504
+#: pebble/services/clock/service.c:553
 msgid "%l:%M"
 msgstr "%l:%M"
 
-#: src/fw/services/clock/service.c:516
+#: pebble/services/clock/service.c:565
 #, c-format
 msgid "%p"
 msgstr "%p"
 
-#: src/fw/services/clock/service.c:532
-#: src/fw/services/timeline/timeline_layout.c:371
+#: pebble/services/clock/service.c:581
+#: pebble/services/timeline/timeline_layout.c:424
 msgid "All day"
 msgstr "Dia todo"
 
-#: src/fw/services/clock/service.c:545 src/fw/services/clock/service.c:557
-#: src/fw/services/clock/service.c:895
+#: pebble/services/clock/service.c:594 pebble/services/clock/service.c:606
+#: pebble/services/clock/service.c:961
 msgid "Now"
 msgstr "Agora"
 
-#: src/fw/services/clock/service.c:549
+#: pebble/services/clock/service.c:598
 msgid " MIN. TO"
 msgstr " MIN. ATÉ"
 
-#: src/fw/services/clock/service.c:717 src/fw/services/clock/service.c:799
-#: src/fw/services/clock/service.c:807
+#: pebble/services/clock/service.c:783 pebble/services/clock/service.c:865
+#: pebble/services/clock/service.c:873
 msgid "Yesterday"
 msgstr "Ontem"
 
-#: src/fw/services/clock/service.c:722 src/fw/services/clock/service.c:837
-#: src/fw/services/clock/service.c:845
+#: pebble/services/clock/service.c:788 pebble/services/clock/service.c:903
+#: pebble/services/clock/service.c:911
 #, c-format
 msgid "%A"
 msgstr "%A"
 
-#: src/fw/services/clock/service.c:725
+#: pebble/services/clock/service.c:791
 msgid "%B %d"
 msgstr "%B %d"
 
-#: src/fw/services/clock/service.c:785
+#: pebble/services/clock/service.c:851
 msgid "%l:%M %p"
 msgstr "%l:%M %p"
 
-#: src/fw/services/clock/service.c:797
+#: pebble/services/clock/service.c:863
 msgid "Yesterday, %l:%M %p"
 msgstr "Ontem, %l:%M %p"
 
-#: src/fw/services/clock/service.c:805
+#: pebble/services/clock/service.c:871
 msgid "Yesterday, %R"
 msgstr "Ontem, %R"
 
-#: src/fw/services/clock/service.c:816
+#: pebble/services/clock/service.c:882
 msgid "%b %e, %l:%M %p"
 msgstr "%b %e, %l:%M %p"
 
-#: src/fw/services/clock/service.c:824
+#: pebble/services/clock/service.c:890
 msgid "%b %e, %R"
 msgstr "%b %e, %R"
 
-#: src/fw/services/clock/service.c:835
+#: pebble/services/clock/service.c:901
 msgid "%a, %l:%M %p"
 msgstr "%a, %l:%M %p"
 
-#: src/fw/services/clock/service.c:843
+#: pebble/services/clock/service.c:909
 msgid "%a, %R"
 msgstr "%a, %R"
 
-#: src/fw/services/clock/service.c:872
+#: pebble/services/clock/service.c:938
 #, c-format
 msgid "%lu H AGO"
 msgstr "HÁ %lu H."
 
-#: src/fw/services/clock/service.c:874
+#: pebble/services/clock/service.c:940
 msgid "An hour ago"
 msgstr "Há 1 hora"
 
-#: src/fw/services/clock/service.c:876
+#: pebble/services/clock/service.c:942
 #, c-format
 msgid "%lu hours ago"
 msgstr "há %lu horas"
 
-#: src/fw/services/clock/service.c:886
+#: pebble/services/clock/service.c:952
 #, c-format
 msgid "%lu MIN AGO"
 msgstr "HÁ %lu MIN."
 
-#: src/fw/services/clock/service.c:888
+#: pebble/services/clock/service.c:954
 #, c-format
 msgid "%lu minute ago"
 msgstr "Há %lu minuto"
 
-#: src/fw/services/clock/service.c:890
+#: pebble/services/clock/service.c:956
 #, c-format
 msgid "%lu minutes ago"
 msgstr "há %lu minutos"
 
-#: src/fw/services/clock/service.c:895
+#: pebble/services/clock/service.c:961
 msgid "NOW"
 msgstr "AGORA"
 
-#: src/fw/services/clock/service.c:903
+#: pebble/services/clock/service.c:970
 #, c-format
 msgid "IN %lu MIN"
 msgstr "EM %lu MIN."
 
-#: src/fw/services/clock/service.c:905
+#: pebble/services/clock/service.c:972
 #, c-format
 msgid "In %lu minute"
 msgstr "Em %lu minuto"
 
-#: src/fw/services/clock/service.c:907
+#: pebble/services/clock/service.c:974
 #, c-format
 msgid "In %lu minutes"
 msgstr "Em %lu minutos"
 
-#: src/fw/services/clock/service.c:917
+#: pebble/services/clock/service.c:984
 #, c-format
 msgid "IN %lu H"
 msgstr "EM %lu H"
 
-#: src/fw/services/clock/service.c:919
+#: pebble/services/clock/service.c:986
 #, c-format
 msgid "In %lu hour"
 msgstr "Em %lu hora"
 
-#: src/fw/services/clock/service.c:921
+#: pebble/services/clock/service.c:988
 #, c-format
 msgid "In %lu hours"
 msgstr "Em %lu horas"
 
-#: src/fw/services/clock/service.c:932 src/fw/services/clock/service.c:936
+#: pebble/services/clock/service.c:999 pebble/services/clock/service.c:1003
 #, c-format
 msgid "%m/%d"
 msgstr "%d/%m"
 
-#: src/fw/services/clock/service.c:945
+#: pebble/services/clock/service.c:1012
 msgid "%b "
 msgstr "%b "
 
-#: src/fw/services/clock/service.c:945
+#: pebble/services/clock/service.c:1012
 msgid "%B "
 msgstr "%B "
 
-#: src/fw/services/clock/service.c:949
+#: pebble/services/clock/service.c:1016
 #, c-format
 msgid "%e"
 msgstr "%e"
 
-#: src/fw/services/clock/service.c:999
+#: pebble/services/clock/service.c:1067
 msgid "this morning"
 msgstr "esta manhã"
 
-#: src/fw/services/clock/service.c:1000
+#: pebble/services/clock/service.c:1068
 msgid "this afternoon"
 msgstr "esta tarde"
 
-#: src/fw/services/clock/service.c:1001
+#: pebble/services/clock/service.c:1069
 msgid "this evening"
 msgstr "este fim de tarde"
 
-#: src/fw/services/clock/service.c:1002
+#: pebble/services/clock/service.c:1070
 msgid "tonight"
 msgstr "esta noite"
 
-#: src/fw/services/clock/service.c:1003
+#: pebble/services/clock/service.c:1071
 msgid "tomorrow morning"
 msgstr "amanhã de manhã"
 
-#: src/fw/services/clock/service.c:1004
+#: pebble/services/clock/service.c:1072
 msgid "tomorrow afternoon"
 msgstr "amanhã à tarde"
 
-#: src/fw/services/clock/service.c:1005
+#: pebble/services/clock/service.c:1073
 msgid "tomorrow evening"
 msgstr "amanhã ao fim da tarde"
 
-#: src/fw/services/clock/service.c:1006
+#: pebble/services/clock/service.c:1074
 msgid "tomorrow night"
 msgstr "amanhã à noite"
 
-#: src/fw/services/clock/service.c:1007 src/fw/services/clock/service.c:1008
+#: pebble/services/clock/service.c:1075 pebble/services/clock/service.c:1076
 msgid "the day after tomorrow"
 msgstr "depois de amanhã"
 
-#: src/fw/services/clock/service.c:1009
+#: pebble/services/clock/service.c:1077
 msgid "the foreseeable future"
 msgstr "daqui a uns dias"
 
-#: src/fw/services/notifications/ancs/ancs_item.c:112
+#: pebble/services/notifications/ancs/ancs_item.c:111
 msgid "sent an attachment"
 msgstr "enviou um anexo"
 
-#: src/fw/services/notifications/ancs/ancs_item.c:160
+#: pebble/services/notifications/ancs/ancs_item.c:157
 msgid "Call Back"
 msgstr "Ligar"
 
-#: src/fw/services/notifications/ancs/ancs_notifications.c:412
+#: pebble/services/notifications/ancs/ancs_notifications.c:444
 #, fuzzy
 #| msgid "Notifications On"
 msgid "iPhone Notifications Blocked"
 msgstr "Notificações ON"
 
-#: src/fw/services/notifications/ancs/ancs_notifications.c:415
+#: pebble/services/notifications/ancs/ancs_notifications.c:447
 msgid ""
 "Your iPhone is not sharing notifications with this watch. On your iPhone, "
 "open Settings > Bluetooth, tap the (i) next to your Pebble and turn on Share "
 "System Notifications."
 msgstr ""
 
-#: src/fw/services/notifications/do_not_disturb.c:114
+#: pebble/services/notifications/do_not_disturb.c:113
 msgid "Calendar Aware enables Quiet Time automatically during calendar events."
 msgstr ""
 "Modo Silêncio Ciente do Calendário permite o silêncio automático durante "
 "eventos no calendário"
 
-#: src/fw/services/notifications/do_not_disturb.c:122
+#: pebble/services/notifications/do_not_disturb.c:121
 msgid ""
 "Press and hold the Back button from a notification to turn Quiet Time on or "
 "off."
@@ -3729,15 +4077,15 @@ msgstr ""
 "Mantém premido o botão Trás numa notificação para ligar ou desligar o Modo "
 "Silêncio"
 
-#: src/fw/services/notifications/do_not_disturb_toggle.c:29
+#: pebble/services/notifications/do_not_disturb_toggle.c:29
 msgid "Start Quiet Time?"
 msgstr "Iniciar Modo Silêncio?"
 
-#: src/fw/services/notifications/do_not_disturb_toggle.c:30
+#: pebble/services/notifications/do_not_disturb_toggle.c:30
 msgid "End Quiet Time?"
 msgstr "Terminar Modo Silêncio?"
 
-#: src/fw/services/notifications/do_not_disturb_toggle.c:31
+#: pebble/services/notifications/do_not_disturb_toggle.c:31
 msgid ""
 "Quiet Time\n"
 "Started"
@@ -3745,7 +4093,7 @@ msgstr ""
 "Silêncio\n"
 "iniciado"
 
-#: src/fw/services/notifications/do_not_disturb_toggle.c:32
+#: pebble/services/notifications/do_not_disturb_toggle.c:32
 msgid ""
 "Quiet Time\n"
 "Ended"
@@ -3753,60 +4101,60 @@ msgstr ""
 "Silêncio\n"
 "concluído"
 
-#: src/fw/services/timeline/calendar_layout.c:168
+#: pebble/services/timeline/calendar_layout.c:171
 msgid " - "
 msgstr " - "
 
-#: src/fw/services/timeline/calendar_layout.c:331
+#: pebble/services/timeline/calendar_layout.c:339
 msgid "All Day"
 msgstr "Todo o dia"
 
-#: src/fw/services/timeline/calendar_layout.c:373
+#: pebble/services/timeline/calendar_layout.c:383
 msgid "Recurring"
 msgstr "Recorrente"
 
-#: src/fw/services/timeline/sports_layout.c:60
+#: pebble/services/timeline/sports_layout.c:61
 msgid "STARTS "
 msgstr "INÍCIO "
 
-#: src/fw/services/timeline/sports_layout.c:141
+#: pebble/services/timeline/sports_layout.c:149
 msgid "Broadcaster"
 msgstr "Emissora"
 
-#: src/fw/services/timeline/timeline.c:696
+#: pebble/services/timeline/timeline.c:699
 msgid "Can't connect. Relaunch Pebble Time app on phone."
 msgstr "Não consigo ligar. Reabra a aplicação Pebble Time no telefone."
 
-#: src/fw/services/timeline/timeline.c:710
+#: pebble/services/timeline/timeline.c:711
 msgid "Removed"
 msgstr "Removido"
 
-#: src/fw/services/timeline/timeline.c:722
-#: src/fw/services/timeline/timeline.c:743
+#: pebble/services/timeline/timeline.c:721
+#: pebble/services/timeline/timeline.c:740
 msgid "Dismissed"
 msgstr "Removida"
 
-#: src/fw/services/timeline/timeline.c:747
+#: pebble/services/timeline/timeline.c:744
 msgid "Deleted"
 msgstr "Removida"
 
-#: src/fw/services/timeline/timeline.c:776
+#: pebble/services/timeline/timeline.c:771
 msgid "Thanks!"
 msgstr "Obrigado!"
 
-#: src/fw/services/timeline/timeline.c:926
+#: pebble/services/timeline/timeline.c:925
 msgid "Calendar"
 msgstr "Calendário"
 
-#: src/fw/services/timeline/timeline.c:934
+#: pebble/services/timeline/timeline.c:933
 msgid "Reminders"
 msgstr "Lembretes"
 
-#: src/fw/services/timeline/timeline.c:946
+#: pebble/services/timeline/timeline.c:945
 msgid "Intercom"
 msgstr "Intercom"
 
-#: src/fw/services/timeline/timeline_actions.c:712
+#: pebble/services/timeline/timeline_actions.c:724
 msgid ""
 "Quickly dismiss all notifications by holding the Select button for 2 seconds "
 "from any incoming notification."
@@ -3814,130 +4162,154 @@ msgstr ""
 "Remova rapidamente todas as notificações ao segurar o botão Select durante 2 "
 "segundos a partir de qualquer notificação."
 
-#: src/fw/services/timeline/timeline_actions.c:800
+#: pebble/services/timeline/timeline_actions.c:812
 msgid "Ok"
 msgstr "Ok"
 
-#: src/fw/services/timeline/timeline_actions.c:801
+#: pebble/services/timeline/timeline_actions.c:813
 msgid "Yes"
 msgstr "Sim"
 
-#: src/fw/services/timeline/timeline_actions.c:802
+#: pebble/services/timeline/timeline_actions.c:814
 msgid "No"
 msgstr "Não"
 
-#: src/fw/services/timeline/timeline_actions.c:803
+#: pebble/services/timeline/timeline_actions.c:815
 msgid "Call me"
 msgstr "Liga-me"
 
-#: src/fw/services/timeline/timeline_actions.c:804
+#: pebble/services/timeline/timeline_actions.c:816
 msgid "Call you later"
 msgstr "Ligo-te mais tarde"
 
-#: src/fw/services/timeline/timeline_actions.c:929
+#: pebble/services/timeline/timeline_actions.c:940
 msgid "Reply with Voice"
 msgstr "Responder com Voz"
 
-#: src/fw/services/timeline/timeline_actions.c:929
+#: pebble/services/timeline/timeline_actions.c:941
 msgid "Voice"
 msgstr "Voz"
 
-#: src/fw/services/timeline/timeline_actions.c:939
+#: pebble/services/timeline/timeline_actions.c:951
 msgid "Canned messages"
 msgstr "Mensagens predefinidas"
 
-#: src/fw/services/timeline/timeline_actions.c:943
+#: pebble/services/timeline/timeline_actions.c:955
 msgid "Emoji"
 msgstr "Emoji"
 
-#: src/fw/services/timeline/timeline_actions.c:1047
+#: pebble/services/timeline/timeline_actions.c:1059
 msgid "In 15 minutes"
 msgstr "Daqui a 15m"
 
-#: src/fw/services/timeline/timeline_actions.c:1051
+#: pebble/services/timeline/timeline_actions.c:1063
 msgid "Later today"
 msgstr "Mais logo"
 
-#: src/fw/services/timeline/timeline_layout.c:729
+#: pebble/services/timeline/timeline_layout.c:803
 msgid "Last updated"
 msgstr "Última atualização"
 
-#: src/fw/services/timeline/weather_layout.c:51
+#: pebble/services/timeline/weather_layout.c:51
 msgid "Sunrise"
 msgstr ""
 
-#: src/fw/services/timeline/weather_layout.c:53
+#: pebble/services/timeline/weather_layout.c:53
 #, fuzzy
 #| msgid "Sunset %s"
 msgid "Sunset"
 msgstr "Pôr do sol %s"
 
 #. / Standard vibration pattern option that has a low intensity
-#: src/fw/services/vibes/vibe_intensity.c:39 src/fw/services/vibes/vibes.def:5
-#: src/fw/services/vibes/vibes.def:6
+#: pebble/services/vibes/vibe_intensity.c:38 pebble/services/vibes/vibes.def:5
+#: pebble/services/vibes/vibes.def:6
 msgid "Standard - Low"
 msgstr "Normal - Baixa"
 
 #. / Standard vibration pattern option that has a medium intensity
-#: src/fw/services/vibes/vibe_intensity.c:43
+#: pebble/services/vibes/vibe_intensity.c:42
 msgid "Standard - Medium"
 msgstr "Normal - Média"
 
 #. / Standard vibration pattern option that has a high intensity
-#: src/fw/services/vibes/vibe_intensity.c:47 src/fw/services/vibes/vibes.def:7
-#: src/fw/services/vibes/vibes.def:8
+#: pebble/services/vibes/vibe_intensity.c:46 pebble/services/vibes/vibes.def:7
+#: pebble/services/vibes/vibes.def:8
 msgid "Standard - High"
 msgstr "Normal - Alta"
 
-#: src/fw/services/vibes/vibes.def:4
+#: pebble/services/vibes/vibes.def:4
 msgctxt "NotifVibe"
 msgid "Disabled"
 msgstr "Desativado"
 
-#: src/fw/services/vibes/vibes.def:9
+#: pebble/services/vibes/vibes.def:9
 msgid "Pulse"
 msgstr "Pulsar"
 
-#: src/fw/services/vibes/vibes.def:10
+#: pebble/services/vibes/vibes.def:10
 msgid "Nudge Nudge"
 msgstr "Toque no ombro"
 
-#: src/fw/services/vibes/vibes.def:11
+#: pebble/services/vibes/vibes.def:11
 msgid "Jackhammer"
 msgstr "Britadeira"
 
-#: src/fw/services/vibes/vibes.def:15
+#: pebble/services/vibes/vibes.def:15
 msgid "Gentle"
 msgstr "Suave"
 
-#: src/fw/services/vibes/vibes.def:16
+#: pebble/services/vibes/vibes.def:16
 msgid "Double Pulse Medium"
 msgstr ""
 
-#: src/fw/services/vibes/vibes.def:17
+#: pebble/services/vibes/vibes.def:17
 msgid "Pebble Morse"
 msgstr ""
 
-#: src/fw/services/vibes/vibes.def:18
+#: pebble/services/vibes/vibes.def:18
 msgid "Heartbeat"
 msgstr ""
 
-#: src/fw/services/vibes/vibes.def:20
+#: pebble/services/vibes/vibes.def:20
 msgid "Wave"
 msgstr ""
 
-#: src/fw/shell/normal/battery_ui.c:43
+#: pebble/shell/normal/battery_ui.c:357
 msgid "Fully Charged"
 msgstr "Carga total"
 
-#: src/fw/shell/normal/battery_ui.c:49
+#: pebble/shell/normal/battery_ui.c:363
 msgid "Charging"
 msgstr "A carregar"
 
-#: src/fw/shell/normal/battery_ui.c:64
+#: pebble/shell/normal/battery_ui.c:381
 #, c-format
 msgid "Powered 'til %s"
 msgstr "Carregado até %s"
+
+#, fuzzy
+#~| msgid "HR During Activity"
+#~ msgid "Blood O2 During Activity"
+#~ msgstr "FC durante atividade"
+
+#, fuzzy
+#~| msgid "HR During Activity"
+#~ msgid "Needs HR During Activity"
+#~ msgstr "FC durante atividade"
+
+#~ msgctxt "QuietTime"
+#~ msgid "Enabled"
+#~ msgstr "Ativado"
+
+#~ msgctxt "QuietTime"
+#~ msgid "Disabled"
+#~ msgstr "Desativado"
+
+#~ msgid "Motion Backlight"
+#~ msgstr "Retroiluminação com Sensor"
+
+#~ msgid "End Workout?"
+#~ msgstr "Acabar Exercício?"
 
 #~ msgid "High performance"
 #~ msgstr "Alto desempenho"
@@ -3964,8 +4336,8 @@ msgstr "Carregado até %s"
 #~ "Unable to connect. Your weather data may be out of date; try checking the "
 #~ "connection on your phone."
 #~ msgstr ""
-#~ "Sem ligação. A informação de Tempo poderá estar desatualizada; verifique "
-#~ "a ligação no seu telefone."
+#~ "Sem ligação. A informação de Tempo poderá estar desatualizada; verifique a "
+#~ "ligação no seu telefone."
 
 #~ msgid "Default"
 #~ msgstr "Padrão"
@@ -3983,15 +4355,15 @@ msgstr "Carregado até %s"
 #~ msgstr "Limiar mín. retroil. din."
 
 #~ msgid ""
-#~ "Bluetooth on your phone is in a high power state. Please report this "
-#~ "using 'Support' and reboot your phone."
+#~ "Bluetooth on your phone is in a high power state. Please report this using "
+#~ "'Support' and reboot your phone."
 #~ msgstr ""
 #~ "O Bluetooth no telefone está em alta potência. Por favor reporte isto "
 #~ "através do link \"Suporte\" na app Pebble no telefone."
 
 #~ msgid ""
-#~ "This app requires Pebble Health to work. Enable Health in the Pebble "
-#~ "mobile app to continue."
+#~ "This app requires Pebble Health to work. Enable Health in the Pebble mobile "
+#~ "app to continue."
 #~ msgstr ""
 #~ "Esta aplicação requer a Pebble Health. Ative-a na aplicação móvel Pebble "
 #~ "para continuar."
@@ -4009,8 +4381,7 @@ msgstr "Carregado até %s"
 #~ "\n"
 #~ "Read more at blog.pebble.com"
 #~ msgstr ""
-#~ "Para monitorização de sono e atividade, pressiona Cima a partir do "
-#~ "visor.\n"
+#~ "Para monitorização de sono e atividade, pressiona Cima a partir do visor.\n"
 #~ "\n"
 #~ "Pressiona Baixo para eventos atuais e futuros.\n"
 #~ "\n"
@@ -4083,8 +4454,8 @@ msgstr "Carregado até %s"
 #~ msgstr "Botão Traseiro"
 
 #~ msgid ""
-#~ "The core dump was created successfully. Please create a support request "
-#~ "as usual."
+#~ "The core dump was created successfully. Please create a support request as "
+#~ "usual."
 #~ msgstr ""
 #~ "Relatório de memória criado com sucesso. Crie um pedido de suporte "
 #~ "normalmente."
@@ -4093,15 +4464,14 @@ msgstr "Carregado até %s"
 #~ msgstr "O seu Pebble reiniciou?"
 
 #~ msgid ""
-#~ "Wanna know more about you? Track your activity and sleep with Pebble "
-#~ "Health."
+#~ "Wanna know more about you? Track your activity and sleep with Pebble Health."
 #~ msgstr ""
 #~ "Queres saber mais sobre ti? Monitoriza a tua atividade e sono com Pebble "
 #~ "Health."
 
 #~ msgid ""
-#~ "You like sleep, don't you? Get fun stats on your sleep and start waking "
-#~ "up less groggy with Pebble Health."
+#~ "You like sleep, don't you? Get fun stats on your sleep and start waking up "
+#~ "less groggy with Pebble Health."
 #~ msgstr ""
 #~ "Gostas de dormir, não gostas? Vê estatísticas giras sobre o teu sono e "
 #~ "começa a acordar menos sonolento com Pebble Health."
@@ -4110,9 +4480,8 @@ msgstr "Carregado até %s"
 #~ "Wish you could get daily updates on your activity and sleep progress? You "
 #~ "can! Check out your stats with Pebble Health."
 #~ msgstr ""
-#~ "Gostavas de receber atualizações diárias sobre o progresso da tua "
-#~ "atividade e sono? Então podes! Vê as tuas estatísticas com o Pebble "
-#~ "Health."
+#~ "Gostavas de receber atualizações diárias sobre o progresso da tua atividade "
+#~ "e sono? Então podes! Vê as tuas estatísticas com o Pebble Health."
 
 #~ msgid "%a %b %e %H:%M:%S %Z %Y"
 #~ msgstr "%a %b %e %H:%M:%S %Z %A"
@@ -4310,9 +4679,6 @@ msgstr "Carregado até %s"
 #~ msgid "%d%% remaining"
 #~ msgstr "%d%% restantes"
 
-#~ msgid "Just now"
-#~ msgstr "Há pouco"
-
 #~ msgid "A minute ago"
 #~ msgstr "Há 1 minuto"
 
@@ -4465,11 +4831,11 @@ msgstr "Carregado até %s"
 #~ msgstr "Manter premido %s do visor para abrir %s."
 
 #~ msgid ""
-#~ "The core dump was created automatically. Please create a support request "
-#~ "as usual."
+#~ "The core dump was created automatically. Please create a support request as "
+#~ "usual."
 #~ msgstr ""
-#~ "Relatório de memória foi criado automaticamente. Crie um pedido de "
-#~ "suporte habitual."
+#~ "Relatório de memória foi criado automaticamente. Crie um pedido de suporte "
+#~ "habitual."
 
 #~ msgid "12 hour format"
 #~ msgstr "Formato 12 h."
@@ -4555,11 +4921,11 @@ msgstr "Carregado até %s"
 #~ "qualquer notificação ou visor?"
 
 #~ msgid ""
-#~ "Press and hold the Back button from the watchface or a notification to "
-#~ "turn Quiet Time on or off."
+#~ "Press and hold the Back button from the watchface or a notification to turn "
+#~ "Quiet Time on or off."
 #~ msgstr ""
-#~ "Mantenha premido o botão Voltar de qualquer visor ou notificação para "
-#~ "ativar/desativar o Modo Silêncio."
+#~ "Mantenha premido o botão Voltar de qualquer visor ou notificação para ativar/"
+#~ "desativar o Modo Silêncio."
 
 #~ msgid "TEXT SIZE"
 #~ msgstr "TAMANHO TEXTO"
@@ -4602,12 +4968,10 @@ msgstr "Carregado até %s"
 #~ msgstr "Mais Info"
 
 #~ msgid "Pebble Health tracks your steps and sleep, have you checked it out?"
-#~ msgstr ""
-#~ "A Pebble Health regista os seus passos e o seu sono. Já experimentou?"
+#~ msgstr "A Pebble Health regista os seus passos e o seu sono. Já experimentou?"
 
 #~ msgid ""
-#~ "A good night's sleep makes for a more productive day. Have you seen "
-#~ "progress?"
+#~ "A good night's sleep makes for a more productive day. Have you seen progress?"
 #~ msgstr "Uma boa noite de sono torna o dia mais produtivo. Notou progressos?"
 
 #~ msgid "Are you enjoying Pebble Health and it's insights?"
@@ -4646,9 +5010,6 @@ msgstr "Carregado até %s"
 #~ msgid "Weekly Sleep"
 #~ msgstr "Sono Semanal"
 
-#~ msgid "AVG "
-#~ msgstr "MÉDIA "
-
 #~ msgid "Sleep"
 #~ msgstr "Sono"
 
@@ -4663,8 +5024,7 @@ msgstr "Carregado até %s"
 
 #~ msgid ""
 #~ "A good night's sleep makes for a more productive day. How are you doing?"
-#~ msgstr ""
-#~ "Uma boa noite de sono propicia um dia mais produtivo. Como te sentes?"
+#~ msgstr "Uma boa noite de sono propicia um dia mais produtivo. Como te sentes?"
 
 #~ msgid "Are you enjoying Pebble Health and Insights?"
 #~ msgstr "Estás a gostar da Pebble Health?"
@@ -4715,8 +5075,7 @@ msgstr "Carregado até %s"
 #~ msgid "Good Morning! See how you slept last night"
 #~ msgstr "Bom dia! Veja como dormiu a noite passada"
 
-#~ msgid ""
-#~ "Great %d minute walk! You're making strides towards a healthier life."
+#~ msgid "Great %d minute walk! You're making strides towards a healthier life."
 #~ msgstr ""
 #~ "Bom passeio de %d minutos! Está a progredir em direcção a uma vida mais "
 #~ "saudável."
@@ -4760,8 +5119,7 @@ msgstr "Carregado até %s"
 #~ msgstr "Passeio de %d Min"
 
 #~ msgid ""
-#~ "You've walked %d steps so far today! Check out your daily activity "
-#~ "progress."
+#~ "You've walked %d steps so far today! Check out your daily activity progress."
 #~ msgstr ""
 #~ "Até agora deu %d passos hoje! Dê uma olhada ao seu progresso diário de "
 #~ "atividade."
@@ -4783,8 +5141,8 @@ msgstr "Carregado até %s"
 #~ "New and improved Health Graphs are now on your phone! Find them in the "
 #~ "Pebble app under the health tab."
 #~ msgstr ""
-#~ "Gráficos de saúde novos e melhorados estão agora no seu telefone! "
-#~ "Descubra-os no separador Health da aplicação móvel."
+#~ "Gráficos de saúde novos e melhorados estão agora no seu telefone! Descubra-"
+#~ "os no separador Health da aplicação móvel."
 
 #~ msgid "You had a good night! Feel the energy "
 #~ msgstr "Teve uma boa noite! Sinta a energia :)"
@@ -4796,18 +5154,18 @@ msgstr "Carregado até %s"
 #~ msgstr "%d.%d km"
 
 #~ msgid ""
-#~ "Killer job! You've walked %d steps today which is %d%% above your "
-#~ "average. Try to do it again tomorrow, champ."
+#~ "Killer job! You've walked %d steps today which is %d%% above your average. "
+#~ "Try to do it again tomorrow, champ."
 #~ msgstr ""
-#~ "Espetacular! Deste %d passos hoje o que te coloca %d%% acima da tua "
-#~ "média. Repete o feito amanhã!"
+#~ "Espetacular! Deste %d passos hoje o que te coloca %d%% acima da tua média. "
+#~ "Repete o feito amanhã!"
 
 #~ msgid ""
-#~ "Nice moves! You've walked %d steps today which is %d%% above your "
-#~ "average. Give yourself a pat on the back and crush it again tomorrow."
+#~ "Nice moves! You've walked %d steps today which is %d%% above your average. "
+#~ "Give yourself a pat on the back and crush it again tomorrow."
 #~ msgstr ""
-#~ "Fenomenal! Deste %d passos hoje o que te coloca %d%% acima da tua média. "
-#~ "Dá uma palmada nas tuas costas e demole esta meta de novo amanhã."
+#~ "Fenomenal! Deste %d passos hoje o que te coloca %d%% acima da tua média. Dá "
+#~ "uma palmada nas tuas costas e demole esta meta de novo amanhã."
 
 #~ msgid ""
 #~ "Good job! You're being consistent with your activity. You walked %d steps "
@@ -4817,34 +5175,34 @@ msgstr "Carregado até %s"
 #~ "passos - fá-lo de novo amanhã."
 
 #~ msgid ""
-#~ "Hey you. You walked %d steps today which is %d%% below your average. Try "
-#~ "to be more active tomorrow, you can do it!"
+#~ "Hey you. You walked %d steps today which is %d%% below your average. Try to "
+#~ "be more active tomorrow, you can do it!"
 #~ msgstr ""
 #~ "Hey. Deste %d passos hoje o que te coloca %d%% abaixo da tua média. Tenta "
 #~ "ser mais ativo amanhã, tu consegues!"
 
 #~ msgid ""
-#~ "Today wasn't your most active day. You walked %d steps today which is %d%"
-#~ "% below your average. Being active makes you feel amaaaazing–try to get "
-#~ "back on track tomorrow."
+#~ "Today wasn't your most active day. You walked %d steps today which is %d%% "
+#~ "below your average. Being active makes you feel amaaaazing–try to get back "
+#~ "on track tomorrow."
 #~ msgstr ""
 #~ "Hoje não foi o teu dia mais ativo. Deste %d passos o que te coloca %d%% "
 #~ "abaixo da tua média. Estar ativo faz-te sentir fabuloso - tenta voltar à "
 #~ "rotina amanhã."
 
 #~ msgid ""
-#~ "Refreshed? You slept for %dH %dM which is %+d%% compared to your average. "
-#~ "Go tackle your day "
+#~ "Refreshed? You slept for %dH %dM which is %+d%% compared to your average. Go "
+#~ "tackle your day "
 #~ msgstr ""
-#~ "Recuperado? Dormiste %dh %dm o que corresponde a %+d%% da tua média. "
-#~ "Força para este dia :)"
+#~ "Recuperado? Dormiste %dh %dm o que corresponde a %+d%% da tua média. Força "
+#~ "para este dia :)"
 
 #~ msgid ""
-#~ "You caught some killer zzz’s! You slept for %dH %dM which is %+d%% "
-#~ "compared to your average. Keep it up!"
+#~ "You caught some killer zzz’s! You slept for %dH %dM which is %+d%% compared "
+#~ "to your average. Keep it up!"
 #~ msgstr ""
-#~ "Contaste montes de carneiros! Dormiste %dh %dm o que corresponde a %+d%% "
-#~ "da tua média. Continua assim!"
+#~ "Contaste montes de carneiros! Dormiste %dh %dm o que corresponde a %+d%% da "
+#~ "tua média. Continua assim!"
 
 #~ msgid ""
 #~ "Good mornin’. Way to keep it consistent! You slept for %dH %dM. Every day "
@@ -4853,26 +5211,22 @@ msgstr "Carregado até %s"
 #~ "Bom dia. Bela consistência! Dormiste %dh %dm. Bons dias começam com bom "
 #~ "sono. Continua forte!"
 
-#~ msgid ""
-#~ "Good morning’! You slept for %dH %dM. Consistency is key; keep it up "
-#~ msgstr ""
-#~ "Bom dia! Dormiste %dh %dm. Consistência é essential; continua assim :)"
+#~ msgid "Good morning’! You slept for %dH %dM. Consistency is key; keep it up "
+#~ msgstr "Bom dia! Dormiste %dh %dm. Consistência é essential; continua assim :)"
 
 #~ msgid ""
-#~ "Hey sleepy head. You got less sleep than usual. You slept for %dH %dM "
-#~ "which is %+d%% compared to your average. Try to get more tonight!"
+#~ "Hey sleepy head. You got less sleep than usual. You slept for %dH %dM which "
+#~ "is %+d%% compared to your average. Try to get more tonight!"
 #~ msgstr ""
-#~ "Hey. Dormiste menos do que o costume. Dormiste %dh %dm o que corresponde "
-#~ "a %+d%% da tua média. Tenta dormir mais hoje à noite!"
+#~ "Hey. Dormiste menos do que o costume. Dormiste %dh %dm o que corresponde a "
+#~ "%+d%% da tua média. Tenta dormir mais hoje à noite!"
 
 #~ msgid ""
-#~ "Groggy? You slept for %dH %dM which is %+d%% compared to your average. "
-#~ "Sleep is important for everything you do, so try getting more shut eye "
-#~ "tonight!"
+#~ "Groggy? You slept for %dH %dM which is %+d%% compared to your average. Sleep "
+#~ "is important for everything you do, so try getting more shut eye tonight!"
 #~ msgstr ""
-#~ "Sonolento? Dormiste %dh %dm o que corresponde a %+d%% da tua média. "
-#~ "Dormir é importante para tudo o que fazes, portanto tenta dormir um pouco "
-#~ "mais hoje!"
+#~ "Sonolento? Dormiste %dh %dm o que corresponde a %+d%% da tua média. Dormir é "
+#~ "importante para tudo o que fazes, portanto tenta dormir um pouco mais hoje!"
 
 #~ msgid ""
 #~ "Hey lighting bolt, you just a ran for %d minutes at a %d minutes per %s "
@@ -4895,19 +5249,19 @@ msgstr "Carregado até %s"
 #~ "Stuck inside today? You walked %d steps which is %d%% below your average. "
 #~ "Being active makes you feel amaaaazing–try to get back on track tomorrow."
 #~ msgstr ""
-#~ "Preso em casa hoje? Deste %d passos o que é %d%% abaixo da tua média. "
-#~ "Estar ativo faz-te sentir fantástico, tenta regressar à rotina amanhã."
+#~ "Preso em casa hoje? Deste %d passos o que é %d%% abaixo da tua média. Estar "
+#~ "ativo faz-te sentir fantástico, tenta regressar à rotina amanhã."
 
 #~ msgid ""
-#~ "Refreshed? You slept for %dH %dM which is %d%% above your average. Go "
-#~ "tackle your day 😃."
+#~ "Refreshed? You slept for %dH %dM which is %d%% above your average. Go tackle "
+#~ "your day 😃."
 #~ msgstr ""
-#~ "Refrescado? Dormiste %dh %dm o que é %d%% acima da tua média. Vai atacar "
-#~ "o teu dia 😃."
+#~ "Refrescado? Dormiste %dh %dm o que é %d%% acima da tua média. Vai atacar o "
+#~ "teu dia 😃."
 
 #~ msgid ""
-#~ "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above "
-#~ "your average. Keep it up."
+#~ "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above your "
+#~ "average. Keep it up."
 #~ msgstr ""
 #~ "Contaste montes de carneiros! Dormiste %dh %dm o que é %d%% acima da tua "
 #~ "média. Continua assim!"
@@ -4920,8 +5274,8 @@ msgstr "Carregado até %s"
 #~ "sono. Continua forte 😃."
 
 #~ msgid ""
-#~ "Hey sleepy head. You slept for %dH %dM which is %d%% below your average. "
-#~ "Try to get more tonight!"
+#~ "Hey sleepy head. You slept for %dH %dM which is %d%% below your average. Try "
+#~ "to get more tonight!"
 #~ msgstr ""
 #~ "Hey. Dormiste %dh %dm o que é %d%% abaixo da tua média. Tenta dormir mais "
 #~ "hoje à noite!"
@@ -4931,15 +5285,14 @@ msgstr "Carregado até %s"
 #~ "important for everything you do-try getting more shut eye tonight!"
 #~ msgstr ""
 #~ "Sonolento? Dormiste %dh %dm o que é %d%% abaixo da tua média. Dormir é "
-#~ "importante para tudo o que fazes, portanto tenta dormir um pouco mais "
-#~ "hoje!"
+#~ "importante para tudo o que fazes, portanto tenta dormir um pouco mais hoje!"
 
 #~ msgid ""
-#~ "Hey lightning bolt, you just ran for %d minutes at a %d minutes per %s "
-#~ "pace. You keep this up and there'll be nothing you can’t do!"
+#~ "Hey lightning bolt, you just ran for %d minutes at a %d minutes per %s pace. "
+#~ "You keep this up and there'll be nothing you can’t do!"
 #~ msgstr ""
-#~ "Hey relâmpago, correste %d minutos a um ritmo de %d minutos por %s. "
-#~ "Continua assim e não haverá nada que não consigas fazer!"
+#~ "Hey relâmpago, correste %d minutos a um ritmo de %d minutos por %s. Continua "
+#~ "assim e não haverá nada que não consigas fazer!"
 
 #~ msgid "%i° %s"
 #~ msgstr "%i° %s"
@@ -4948,19 +5301,19 @@ msgstr "Carregado até %s"
 #~ "Hey rockstar 🎤 You've walked %d steps today which is %d%% above your "
 #~ "average. Nothing can stop you!"
 #~ msgstr ""
-#~ "Olá rockstar 🎤 Deste %d passos hoje o que é %d%% acima da tua média. "
-#~ "Nada te pode parar!"
+#~ "Olá rockstar 🎤 Deste %d passos hoje o que é %d%% acima da tua média. Nada "
+#~ "te pode parar!"
 
 #~ msgid ""
 #~ "We can barely keep up! You walked %d steps today which is %d%% above your "
 #~ "average. You're on 🔥"
 #~ msgstr ""
-#~ "Quase não conseguimos acompanhar! Deste %d passos hoje o que é %d%% acima "
-#~ "da tua média! Estás em grande!"
+#~ "Quase não conseguimos acompanhar! Deste %d passos hoje o que é %d%% acima da "
+#~ "tua média! Estás em grande!"
 
 #~ msgid ""
-#~ "In the battle of you vs. you, YOU are the winner. You walked %d steps "
-#~ "today which is %d%% above your average. Mic drop."
+#~ "In the battle of you vs. you, YOU are the winner. You walked %d steps today "
+#~ "which is %d%% above your average. Mic drop."
 #~ msgstr ""
 #~ "Na luta de tu vs tu, TU és o vencedor. Deste %d passos hoje o que é %d%% "
 #~ "acima da tua média."
@@ -4980,83 +5333,82 @@ msgstr "Carregado até %s"
 #~ "Amanhã dás cabo disto tudo 😉"
 
 #~ msgid ""
-#~ "Not having the best day? We get it. You walked %d steps today. Don't "
-#~ "fret; you can get back on track in no time 😃"
+#~ "Not having the best day? We get it. You walked %d steps today. Don't fret; "
+#~ "you can get back on track in no time 😃"
 #~ msgstr ""
-#~ "Não estás a ter o melhor dia? A gente percebe. Deste %d passos hoje. Não "
-#~ "te chateies; não tarda nada voltas à forma 😃"
+#~ "Não estás a ter o melhor dia? A gente percebe. Deste %d passos hoje. Não te "
+#~ "chateies; não tarda nada voltas à forma 😃"
 
 #~ msgid ""
-#~ "Hey bud. You only walked %d steps today but everyone deserves a rest. "
-#~ "Good news is the sky's the limit!"
+#~ "Hey bud. You only walked %d steps today but everyone deserves a rest. Good "
+#~ "news is the sky's the limit!"
 #~ msgstr ""
 #~ "Olá. Só deste %d passos hoje, mas todos merecemos um descanso. Por outro "
 #~ "lado, o céu é o limite!"
 
 #~ msgid ""
-#~ "Having a sitting day? We can tell 😃 –you only walked %d steps today. "
-#~ "It's not your most active, but get pumped to beat your average tomorrow!"
+#~ "Having a sitting day? We can tell 😃 –you only walked %d steps today. It's "
+#~ "not your most active, but get pumped to beat your average tomorrow!"
 #~ msgstr ""
-#~ "Dia de sentar? A gente sabe 😃 só deste %d passos hoje. Não é o teu dia "
-#~ "mais ativo, mas prepara-te para bater a tua média amanhã!"
+#~ "Dia de sentar? A gente sabe 😃 só deste %d passos hoje. Não é o teu dia mais "
+#~ "ativo, mas prepara-te para bater a tua média amanhã!"
 
 #~ msgid ""
-#~ "Rise and shine! You slept for %dH %dM which is %d%% above your average. "
-#~ "Do it again tonight, sleep master."
+#~ "Rise and shine! You slept for %dH %dM which is %d%% above your average. Do "
+#~ "it again tonight, sleep master."
 #~ msgstr ""
-#~ "Ora bom dia! Dormiste %dh %dm o que é %d%% acima da tua média. Fá-lo de "
-#~ "novo hoje à noite, mestre do sono."
+#~ "Ora bom dia! Dormiste %dh %dm o que é %d%% acima da tua média. Fá-lo de novo "
+#~ "hoje à noite, mestre do sono."
 
 #~ msgid ""
-#~ "Mmmm...what a night. You slept for %dH %dM which is %d%% above your "
-#~ "average. That's gotta feel good!"
+#~ "Mmmm...what a night. You slept for %dH %dM which is %d%% above your average. "
+#~ "That's gotta feel good!"
 #~ msgstr ""
-#~ "Hmmm... que noite. Dormiste %dh %dm o que é %d%% acima da tua média. "
-#~ "Deves-te sentir bem!"
+#~ "Hmmm... que noite. Dormiste %dh %dm o que é %d%% acima da tua média. Deves-"
+#~ "te sentir bem!"
 
 #~ msgid ""
-#~ "That's a lot of sheep you just counted! You slept for %dH %dM which is %d%"
-#~ "% above your average. Boom shakalaka."
+#~ "That's a lot of sheep you just counted! You slept for %dH %dM which is %d%% "
+#~ "above your average. Boom shakalaka."
 #~ msgstr ""
 #~ "Ena, tantos carneiros! Dormiste %dh %dm o que é %d%% acima da tua média."
 
 #~ msgid ""
-#~ "It's a new day! You slept for %dH %dM which is %d%% below your average. "
-#~ "It's not your best, but there's always tonight."
+#~ "It's a new day! You slept for %dH %dM which is %d%% below your average. It's "
+#~ "not your best, but there's always tonight."
 #~ msgstr ""
 #~ "É um novo dia! Dormiste %dh %dm o que é %d%% abaixo da tua média. Não é o "
 #~ "teu melhor, mas esta noite redimes-te."
 
 #~ msgid ""
-#~ "Goooood morning! You slept for %dH %dM which is %d%% below your average. "
-#~ "Go crush your day and then get back in bed 😉"
+#~ "Goooood morning! You slept for %dH %dM which is %d%% below your average. Go "
+#~ "crush your day and then get back in bed 😉"
 #~ msgstr ""
-#~ "Boooom dia! Dormiste %dh %dm o que é %d%% abaixo da tua média. Vai "
-#~ "dominar este dia e depois volta para a cama 😉"
+#~ "Boooom dia! Dormiste %dh %dm o que é %d%% abaixo da tua média. Vai dominar "
+#~ "este dia e depois volta para a cama 😉"
 
 #~ msgid ""
-#~ "Feeling tired? You only slept for %dH %dM which is %d%% below your "
-#~ "average. Sleep is vital for all your great ideas – how 'bout getting more "
-#~ "tonight?"
+#~ "Feeling tired? You only slept for %dH %dM which is %d%% below your average. "
+#~ "Sleep is vital for all your great ideas – how 'bout getting more tonight?"
 #~ msgstr ""
 #~ "Cansado? Só dormiste %dh %dm o que é %d%% abaixo da tua média. O sono é "
 #~ "vital para tudo o que fazes, que tal dormires um pouco mais hoje à noite?"
 
 #~ msgid ""
-#~ "You only slept for %dH %dM which is %d%% below your average. We know "
-#~ "you're busy, but try getting more tonight. We believe in you 😉"
+#~ "You only slept for %dH %dM which is %d%% below your average. We know you're "
+#~ "busy, but try getting more tonight. We believe in you 😉"
 #~ msgstr ""
-#~ "Só dormiste %dh %dm o que é %d%% abaixo da tua média. A gente sabe que "
-#~ "estás ocupado, mas tenta dormir mais hoje. Nós acreditamos em ti 😉"
+#~ "Só dormiste %dh %dm o que é %d%% abaixo da tua média. A gente sabe que estás "
+#~ "ocupado, mas tenta dormir mais hoje. Nós acreditamos em ti 😉"
 
 #~ msgid ""
 #~ "Looks like you didn't get enough sleep, pal 😟 You only slept for %dH %dM "
-#~ "which is %d%% below your average. We know stuff happens. Take another "
-#~ "crack at it tonight."
+#~ "which is %d%% below your average. We know stuff happens. Take another crack "
+#~ "at it tonight."
 #~ msgstr ""
 #~ "Parece que não dormiste o suficiente 😟 só dormiste %dh %dm o que é %d%% "
-#~ "abaixo da tua média. A gente sabe que isto acontece. Tenta outra vez hoje "
-#~ "à noite."
+#~ "abaixo da tua média. A gente sabe que isto acontece. Tenta outra vez hoje à "
+#~ "noite."
 
 #~ msgid ""
 #~ "Hey lightning bolt, you just ran for %d minutes at a %d:%02d per %s pace. "
@@ -5069,8 +5421,8 @@ msgstr "Carregado até %s"
 #~ "Feelin' hot? Cause you're on 🔥! You just ran for %d minutes at a %d:%02d "
 #~ "per %s pace."
 #~ msgstr ""
-#~ "Sentes-te grande! Estás em grande! Correste %d minutos a um ritmo de %d:"
-#~ "%02d por %s."
+#~ "Sentes-te grande! Estás em grande! Correste %d minutos a um ritmo de %d:%02d "
+#~ "por %s."
 
 #~ msgid ""
 #~ "Hey speedster, you just ran for %d minutes at a %d:%02d per %s pace. Keep "
@@ -5080,8 +5432,8 @@ msgstr "Carregado até %s"
 #~ "Continua a mostrar-nos aquilo de que és feito 👊"
 
 #~ msgid ""
-#~ "You got the moves! You walked for %d minutes and burned %d calories. "
-#~ "We're super impressed; keep it up 😃"
+#~ "You got the moves! You walked for %d minutes and burned %d calories. We're "
+#~ "super impressed; keep it up 😃"
 #~ msgstr ""
 #~ "Tens genica! Andaste durante %d minutos e queimaste %d calorias. Estamos "
 #~ "impressionados; continua assim 😃"

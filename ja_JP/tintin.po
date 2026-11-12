@@ -779,15 +779,15 @@ msgid ""
 "Psst! Want smart tips about your activity and sleep? You can enable Insights "
 "in the mobile app."
 msgstr ""
-"ちょっとお知らせ！活動や睡眠に役立つアドバイスを受け取りませんか？スマート"
-"フォンのPebbleアプリで「インサイト」をオンにできます。"
+"ちょっとお知らせ！活動や睡眠に役立つアドバイスを受け取りませんか？"
+"スマートフォンのPebbleアプリで「インサイト」をオンにできます。"
 
 #: pebble/apps/system/health/health.c:111
 msgid ""
 "Track your steps, sleep, and more! Enable Pebble Health in the mobile app."
 msgstr ""
-"歩数や睡眠などを記録しましょう！スマートフォンのPebbleアプリで「Pebble ヘル"
-"ス」をオンにしてください。"
+"歩数や睡眠などを記録しましょう！スマートフォンのPebbleアプリで「Pebble ヘルス"
+"」をオンにしてください。"
 
 #: pebble/apps/system/health/health.c:120
 msgid "Health requires the time to be synced. Please connect your phone."
@@ -2842,8 +2842,7 @@ msgstr ""
 msgid ""
 "Wear your watch snug and 2 fingers' width above your wrist bone for best "
 "results."
-msgstr ""
-"正しく測定するには、手首の骨から指2本分上に、時計をぴったり装着してください。"
+msgstr "正しく測定するには、手首の骨から指2本分上に、時計をぴったり装着してください。"
 
 #: pebble/apps/watch/kickstart/kickstart.c:365
 #, c-format
@@ -3084,8 +3083,8 @@ msgstr "活動のまとめ"
 #: pebble/services/activity/activity_insights.c:256
 msgid "Do you feel more energetic, sharper or optimistic? Being active helps!"
 msgstr ""
-"いつもより元気だったり、頭がすっきりしたり、前向きな気分になったりしません"
-"か？体を動かすのはいいことですね！"
+"いつもより元気だったり、頭がすっきりしたり、前向きな気分になったりしませんか"
+"？体を動かすのはいいことですね！"
 
 #: pebble/services/activity/activity_insights.c:257
 msgid "GREAT DAY TODAY"
@@ -3236,8 +3235,7 @@ msgstr ""
 msgid ""
 "Nice moves! You've walked %d steps today which is %d%% above your typical. "
 "Crush it again tomorrow 😀"
-msgstr ""
-"いい調子！今日は%d歩、いつもの平均より%d%%多く歩きました。明日もこの調子で 😀"
+msgstr "いい調子！今日は%d歩、いつもの平均より%d%%多く歩きました。明日もこの調子で 😀"
 
 #: pebble/services/activity/activity_insights.c:1370
 #, c-format
@@ -3262,8 +3260,7 @@ msgstr ""
 msgid ""
 "You walked %d steps today which is %d%% above your typical. You just "
 "outstepped YOURSELF. Mic drop."
-msgstr ""
-"今日は%d歩、いつもの平均より%d%%多く歩きました。自分の記録を超えましたね。"
+msgstr "今日は%d歩、いつもの平均より%d%%多く歩きました。自分の記録を超えましたね。"
 
 #: pebble/services/activity/activity_insights.c:1384
 #, c-format
@@ -3291,8 +3288,7 @@ msgstr "今日もアクティブですね 👊 %d歩も歩きました。その�
 msgid ""
 "You keep moving, we'll keep counting! You've clocked in %d steps today. Keep "
 "it rolling, hot stuff."
-msgstr ""
-"歩き続ける限り、こちらも数え続けます！今日は%d歩。この調子でいきましょう。"
+msgstr "歩き続ける限り、こちらも数え続けます！今日は%d歩。この調子でいきましょう。"
 
 #: pebble/services/activity/activity_insights.c:1400
 #, c-format
@@ -3448,8 +3444,8 @@ msgid ""
 "Rise and shine! You slept for %dH %dM which is %d%% above your typical. Do "
 "it again tonight, sleep master."
 msgstr ""
-"おはようございます！%d時間%d分、いつもの平均より%d%%長く眠れました。今夜も"
-"ぐっすり眠りましょう。"
+"おはようございます！%d時間%d分、いつもの平均より%d%%長く眠れました。今夜もぐ"
+"っすり眠りましょう。"
 
 #: pebble/services/activity/activity_insights.c:1521
 #, c-format
@@ -3493,8 +3489,7 @@ msgstr ""
 msgid ""
 "You're rockin' the shut eye! You slept for %dH %dM. Make it a nightly "
 "ritual. You deserve it."
-msgstr ""
-"よく眠れていますね！%d時間%d分の睡眠。毎晩の習慣にしましょう。自分を大切に。"
+msgstr "よく眠れていますね！%d時間%d分の睡眠。毎晩の習慣にしましょう。自分を大切に。"
 
 #: pebble/services/activity/activity_insights.c:1542
 #, c-format
@@ -3989,8 +3984,7 @@ msgstr ""
 
 #: pebble/services/notifications/do_not_disturb.c:113
 msgid "Calendar Aware enables Quiet Time automatically during calendar events."
-msgstr ""
-"「予定と連動」をオンにすると、予定の時間帯に自動で集中モードになります。"
+msgstr "「予定と連動」をオンにすると、予定の時間帯に自動で集中モードになります。"
 
 #: pebble/services/notifications/do_not_disturb.c:121
 msgid ""
@@ -4044,8 +4038,7 @@ msgstr "放送・配信"
 
 #: pebble/services/timeline/timeline.c:699
 msgid "Can't connect. Relaunch Pebble Time app on phone."
-msgstr ""
-"接続できません。スマートフォンのPebble Timeアプリを再起動してください。"
+msgstr "接続できません。スマートフォンのPebble Timeアプリを再起動してください。"
 
 #: pebble/services/timeline/timeline.c:711
 msgid "Removed"

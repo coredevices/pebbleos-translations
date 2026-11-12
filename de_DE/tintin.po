@@ -205,13 +205,13 @@ msgstr "%H:%M:%S"
 
 #: pebble/applib/pbl_std/timelocal.c:64
 #: pebble/applib/ui/date_time_selection_window_private.c:74
-#: pebble/apps/system/weather/expanded_view.c:162
+#: pebble/apps/system/weather/expanded_view.c:165
 msgid "AM"
 msgstr "AM"
 
 #: pebble/applib/pbl_std/timelocal.c:65
 #: pebble/applib/ui/date_time_selection_window_private.c:76
-#: pebble/apps/system/weather/expanded_view.c:162
+#: pebble/apps/system/weather/expanded_view.c:165
 msgid "PM"
 msgstr "PM"
 
@@ -511,27 +511,35 @@ msgstr "Start"
 msgid "End"
 msgstr "Ende"
 
-#: pebble/applib/voice/voice_window.c:187
+#: pebble/applib/voice/voice_window.c:188
 msgid "Dictation is not available."
 msgstr "Diktieren nicht verfügbar."
 
-#: pebble/applib/voice/voice_window.c:206
+#: pebble/applib/voice/voice_window.c:207
 msgid "Error occurred. Try again."
 msgstr "Fehler aufgetreten. Versuche es erneut."
 
-#: pebble/applib/voice/voice_window.c:213 pebble/apps/system/app_fetch_ui.c:125
+#: pebble/applib/voice/voice_window.c:214 pebble/apps/system/app_fetch_ui.c:125
 msgid "No internet connection"
 msgstr "Keine Internetverbindung"
 
-#: pebble/applib/voice/voice_window.c:225
+#: pebble/applib/voice/voice_window.c:226
 msgid "Enable voice in the settings page of the Pebble app."
 msgstr "Aktiviere Sprache auf der Einstellungsseite der Pebble-App."
 
-#: pebble/applib/voice/voice_window.c:388
+#: pebble/applib/voice/voice_window.c:389
 msgid "Missed that. Try again."
 msgstr "Nicht verstanden. Nochmal bitte."
 
-#: pebble/applib/voice/voice_window.c:1115
+#: pebble/applib/voice/voice_window.c:683
+msgid "Retrying"
+msgstr ""
+
+#: pebble/applib/voice/voice_window.c:686
+msgid "Retrying offline"
+msgstr ""
+
+#: pebble/applib/voice/voice_window.c:1135
 msgid "Listening"
 msgstr "Ich höre"
 
@@ -716,12 +724,12 @@ msgid "kcal"
 msgstr "kcal"
 
 #: pebble/apps/system/health/activity_detail_card.c:48
-#: pebble/services/activity/activity_insights.c:1778
+#: pebble/services/activity/activity_insights.c:1779
 msgid "mi"
 msgstr "mi"
 
 #: pebble/apps/system/health/activity_detail_card.c:48
-#: pebble/services/activity/activity_insights.c:1779
+#: pebble/services/activity/activity_insights.c:1780
 msgid "km"
 msgstr "km"
 
@@ -808,17 +816,17 @@ msgid "%d–%d BPM"
 msgstr "%d-%d BPM"
 
 #: pebble/apps/system/health/hr_detail_card.c:91
-#: pebble/services/activity/activity_insights.c:1884
+#: pebble/services/activity/activity_insights.c:1885
 msgid "Fat Burn"
 msgstr "Fett-Weg"
 
 #: pebble/apps/system/health/hr_detail_card.c:94
-#: pebble/services/activity/activity_insights.c:1891
+#: pebble/services/activity/activity_insights.c:1892
 msgid "Endurance"
 msgstr "Ausdauer"
 
 #: pebble/apps/system/health/hr_detail_card.c:97
-#: pebble/services/activity/activity_insights.c:1898
+#: pebble/services/activity/activity_insights.c:1899
 msgid "Performance"
 msgstr "Performance"
 
@@ -951,7 +959,7 @@ msgid "Postpone"
 msgstr "Vertagen"
 
 #: pebble/apps/system/reminders/reminder.c:68
-#: pebble/services/activity/activity_insights.c:468
+#: pebble/services/activity/activity_insights.c:469
 #: pebble/services/timeline/timeline.c:658
 msgid "Remove"
 msgstr "Entfernen"
@@ -2167,60 +2175,60 @@ msgstr "Aktiv"
 msgid "Watchfaces"
 msgstr "Zifferblätter"
 
-#: pebble/apps/system/weather/expanded_view.c:181
+#: pebble/apps/system/weather/expanded_view.c:184
 msgid "Sunset --:--"
 msgstr "Sonnenuntergang --:--"
 
-#: pebble/apps/system/weather/expanded_view.c:184
+#: pebble/apps/system/weather/expanded_view.c:187
 #, c-format
 msgid "Sunset %s"
 msgstr "Sonnenuntergang %s"
 
-#: pebble/apps/system/weather/expanded_view.c:209
+#: pebble/apps/system/weather/expanded_view.c:212
 msgid "Last updated --:--"
 msgstr "Aktualisiert --:--"
 
-#: pebble/apps/system/weather/expanded_view.c:212
+#: pebble/apps/system/weather/expanded_view.c:215
 #, c-format
 msgid "Last updated %s"
 msgstr "Aktualisiert %s"
 
-#: pebble/apps/system/weather/expanded_view.c:398
+#: pebble/apps/system/weather/expanded_view.c:401
 msgid "PRECIPITATION: --"
 msgstr "NIEDERSCHLAG: --"
 
-#: pebble/apps/system/weather/expanded_view.c:400
+#: pebble/apps/system/weather/expanded_view.c:403
 #, c-format
 msgid "PRECIPITATION: %d%%"
 msgstr "NIEDERSCHLAG: %d%%"
 
-#: pebble/apps/system/weather/expanded_view.c:484
+#: pebble/apps/system/weather/expanded_view.c:487
 msgid "CURRENT UV"
 msgstr "AKTUELLER UV"
 
-#: pebble/apps/system/weather/expanded_view.c:493
+#: pebble/apps/system/weather/expanded_view.c:496
 #, c-format
 msgid "UV %d"
 msgstr "UV %d"
 
-#: pebble/apps/system/weather/expanded_view.c:495
+#: pebble/apps/system/weather/expanded_view.c:498
 msgid "UV --"
 msgstr "UV --"
 
-#: pebble/apps/system/weather/expanded_view.c:497
+#: pebble/apps/system/weather/expanded_view.c:500
 #, c-format
 msgid "RAIN %d%%"
 msgstr "REGEN %d%%"
 
-#: pebble/apps/system/weather/expanded_view.c:499
+#: pebble/apps/system/weather/expanded_view.c:502
 msgid "RAIN --"
 msgstr "REGEN --"
 
-#: pebble/apps/system/weather/expanded_view.c:507
+#: pebble/apps/system/weather/expanded_view.c:510
 msgid "UV"
 msgstr "UV"
 
-#: pebble/apps/system/weather/expanded_view.c:509
+#: pebble/apps/system/weather/expanded_view.c:512
 msgid "RAIN"
 msgstr "REGEN"
 
@@ -2319,7 +2327,7 @@ msgstr "Regen und Schnee"
 msgid "Tomorrow"
 msgstr "Morgen"
 
-#: pebble/apps/system/weather/weather.c:385
+#: pebble/apps/system/weather/weather.c:396
 msgid ""
 "No location information available. To see weather, add locations in your "
 "Pebble mobile app."
@@ -2327,7 +2335,7 @@ msgstr ""
 "Keine Standortdaten. Um Wetter zu sehen, füge Orte in der Pebble-App auf dem "
 "Handy hinzu."
 
-#: pebble/apps/system/weather/weather.c:796
+#: pebble/apps/system/weather/weather.c:807
 #: pebble/services/timeline/timeline.c:929
 msgid "Weather"
 msgstr "Wetter"
@@ -2517,18 +2525,18 @@ msgstr "Wind mit %d%s."
 msgid "Precipitation %d%%."
 msgstr "Niederschlag %d%%."
 
-#: pebble/apps/system/weather/weather_app_layout.c:864
-#: pebble/apps/system/weather/weather_app_layout.c:1154
+#: pebble/apps/system/weather/weather_app_layout.c:865
+#: pebble/apps/system/weather/weather_app_layout.c:1155
 msgid "TODAY"
 msgstr "HEUTE"
 
-#: pebble/apps/system/weather/weather_app_layout.c:895
-#: pebble/apps/system/weather/weather_app_layout.c:1241
+#: pebble/apps/system/weather/weather_app_layout.c:896
+#: pebble/apps/system/weather/weather_app_layout.c:1242
 msgid "TOMORROW"
 msgstr "MORGEN"
 
-#: pebble/apps/system/weather/weather_app_layout.c:992
-#: pebble/apps/system/weather/weather_app_layout.c:1089
+#: pebble/apps/system/weather/weather_app_layout.c:993
+#: pebble/apps/system/weather/weather_app_layout.c:1090
 msgid "UV INDEX"
 msgstr "UV-INDEX"
 
@@ -2754,7 +2762,7 @@ msgstr ""
 
 #: pebble/apps/system/workout/utils.c:32
 #: pebble/popups/ble_hrm/ble_hrm_reminder_popup.c:24
-#: pebble/services/activity/activity_insights.c:1270
+#: pebble/services/activity/activity_insights.c:1271
 #: pebble/services/notifications/ancs/ancs_item.c:150
 msgid "Dismiss"
 msgstr "Verwerfen"
@@ -2770,19 +2778,19 @@ msgstr "Freies Workout"
 #. / Workout Label
 #: pebble/apps/system/workout/utils.c:95
 #: pebble/apps/system/workout/workout.c:269
-#: pebble/services/activity/activity_insights.c:1802
+#: pebble/services/activity/activity_insights.c:1803
 msgid "Workout"
 msgstr "Workout"
 
 #. / Walk Label
 #: pebble/apps/system/workout/utils.c:98
-#: pebble/services/activity/activity_insights.c:1800
+#: pebble/services/activity/activity_insights.c:1801
 msgid "Walk"
 msgstr "Spazieren"
 
 #. / Run Label
 #: pebble/apps/system/workout/utils.c:101
-#: pebble/services/activity/activity_insights.c:1798
+#: pebble/services/activity/activity_insights.c:1799
 msgid "Run"
 msgstr "Laufen"
 
@@ -3014,7 +3022,7 @@ msgstr "Diese App benötigt eine neuere Version der Pebble Firmware."
 msgid "This app uses RockyJS which is no longer supported."
 msgstr "Diese App verwendet RockyJS, das nicht mehr unterstützt wird."
 
-#: pebble/services/activity/activity_insights.c:194
+#: pebble/services/activity/activity_insights.c:195
 msgid ""
 "How are you feeling? Have you noticed extra focus, better mood or extra "
 "energy? You have been sleeping great this week! Keep it up!"
@@ -3022,34 +3030,34 @@ msgstr ""
 "Wie fühlst du dich? Konntest du dich besser konzentrieren, hattest bessere "
 "Laune oder mehr Energie? Dein Schlaf diese Woche war super - mach weiter so!"
 
-#: pebble/services/activity/activity_insights.c:196
+#: pebble/services/activity/activity_insights.c:197
 msgid "I feel fabulous!"
 msgstr "Großartig"
 
-#: pebble/services/activity/activity_insights.c:197
+#: pebble/services/activity/activity_insights.c:198
 msgid "About average"
 msgstr "Ganz okay"
 
-#: pebble/services/activity/activity_insights.c:198
+#: pebble/services/activity/activity_insights.c:199
 msgid "I'm still tired"
 msgstr "Noch müde"
 
-#: pebble/services/activity/activity_insights.c:199
-#: pebble/services/activity/activity_insights.c:217
+#: pebble/services/activity/activity_insights.c:200
+#: pebble/services/activity/activity_insights.c:218
 msgid "Awesome!"
 msgstr "Hammer!"
 
-#: pebble/services/activity/activity_insights.c:200
-#: pebble/services/activity/activity_insights.c:218
+#: pebble/services/activity/activity_insights.c:201
+#: pebble/services/activity/activity_insights.c:219
 msgid "Keep it up!"
 msgstr "Weiter so!"
 
-#: pebble/services/activity/activity_insights.c:201
-#: pebble/services/activity/activity_insights.c:219
+#: pebble/services/activity/activity_insights.c:202
+#: pebble/services/activity/activity_insights.c:220
 msgid "We'll get there!"
 msgstr "Wir sind fast da!"
 
-#: pebble/services/activity/activity_insights.c:212
+#: pebble/services/activity/activity_insights.c:213
 msgid ""
 "Congratulations - you're having a super active day! Activity makes you more "
 "focused and creative. How do you feel?"
@@ -3057,201 +3065,201 @@ msgstr ""
 "Gratulation - du hast einen super aktiven Tag! Bewegung hilft bei "
 "Konzentration und Kreativität."
 
-#: pebble/services/activity/activity_insights.c:214
-#: pebble/services/activity/activity_insights.c:987
+#: pebble/services/activity/activity_insights.c:215
+#: pebble/services/activity/activity_insights.c:988
 msgid "I feel great!"
 msgstr "Großartig!"
 
-#: pebble/services/activity/activity_insights.c:215
+#: pebble/services/activity/activity_insights.c:216
 msgid "About the same"
 msgstr "Unverändert"
 
-#: pebble/services/activity/activity_insights.c:216
+#: pebble/services/activity/activity_insights.c:217
 msgid "Not feeling it"
 msgstr "Kein Unterschied"
 
-#: pebble/services/activity/activity_insights.c:246
+#: pebble/services/activity/activity_insights.c:247
 msgid "Activity Summary"
 msgstr "Überblick Aktivität"
 
-#: pebble/services/activity/activity_insights.c:255
+#: pebble/services/activity/activity_insights.c:256
 msgid "Do you feel more energetic, sharper or optimistic? Being active helps!"
 msgstr ""
 "Fühlst du dich energetisch, konzentrierter oder optimistisch? Bewegung hilft!"
 
-#: pebble/services/activity/activity_insights.c:256
+#: pebble/services/activity/activity_insights.c:257
 msgid "GREAT DAY TODAY"
 msgstr "SUPER TAG HEUTE"
 
-#: pebble/services/activity/activity_insights.c:260
+#: pebble/services/activity/activity_insights.c:261
 msgid "You're being consistent and that's important, keep at it!"
 msgstr "Du bleibst dran und das ist wichtig, weiter so!"
 
-#: pebble/services/activity/activity_insights.c:261
+#: pebble/services/activity/activity_insights.c:262
 msgid "CONSISTENT!"
 msgstr "KONSISTENT!"
 
-#: pebble/services/activity/activity_insights.c:265
-#: pebble/services/activity/activity_insights.c:270
+#: pebble/services/activity/activity_insights.c:266
+#: pebble/services/activity/activity_insights.c:271
 msgid "Resting is fine, but try to recover and step it up tomorrow!"
 msgstr "Ausruhen ist okay, aber versuch morgen wieder einen drauf zu legen."
 
-#: pebble/services/activity/activity_insights.c:266
-#: pebble/services/activity/activity_insights.c:271
+#: pebble/services/activity/activity_insights.c:267
+#: pebble/services/activity/activity_insights.c:272
 msgid "NOT VERY ACTIVE"
 msgstr "NICHT SEHR AKTIV"
 
-#: pebble/services/activity/activity_insights.c:279
+#: pebble/services/activity/activity_insights.c:280
 msgid "Sleep Summary"
 msgstr "Überblick Schlaf"
 
-#: pebble/services/activity/activity_insights.c:288
+#: pebble/services/activity/activity_insights.c:289
 msgid "You had a good night! Feel the energy 😃"
 msgstr "Du hattest eine gute Nacht! Spüre die Energie 😃"
 
-#: pebble/services/activity/activity_insights.c:292
+#: pebble/services/activity/activity_insights.c:293
 msgid "It's great that you're keeping a consistent sleep routine!"
 msgstr "Es ist super, dass du bei einer konsistenten Schlafroutine bleibst!"
 
-#: pebble/services/activity/activity_insights.c:296
-#: pebble/services/activity/activity_insights.c:300
+#: pebble/services/activity/activity_insights.c:297
+#: pebble/services/activity/activity_insights.c:301
 msgid "A good night's sleep goes a long way! Try to get more hours tonight."
 msgstr ""
 "Ausreichend Schlafen ist eine Herausforderung! Versuche heute Nacht mehr zu "
 "schlafen."
 
-#: pebble/services/activity/activity_insights.c:450
+#: pebble/services/activity/activity_insights.c:451
 msgid "Open App"
 msgstr "App öffnen"
 
-#: pebble/services/activity/activity_insights.c:556
-#: pebble/services/activity/activity_insights.c:562
+#: pebble/services/activity/activity_insights.c:557
+#: pebble/services/activity/activity_insights.c:563
 msgid "BELOW AVG"
 msgstr "UNTERM Ø"
 
-#: pebble/services/activity/activity_insights.c:556
-#: pebble/services/activity/activity_insights.c:562
+#: pebble/services/activity/activity_insights.c:557
+#: pebble/services/activity/activity_insights.c:563
 msgid "Below avg"
 msgstr "Unterm Ø"
 
-#: pebble/services/activity/activity_insights.c:568
+#: pebble/services/activity/activity_insights.c:569
 msgid "ON AVG"
 msgstr "IM Ø"
 
-#: pebble/services/activity/activity_insights.c:568
+#: pebble/services/activity/activity_insights.c:569
 msgid "On avg"
 msgstr "Im Ø"
 
-#: pebble/services/activity/activity_insights.c:573
+#: pebble/services/activity/activity_insights.c:574
 msgid "ABOVE AVG"
 msgstr "ÜBER DURCHSCHNITT"
 
-#: pebble/services/activity/activity_insights.c:573
+#: pebble/services/activity/activity_insights.c:574
 msgid "Above avg"
 msgstr "Überm Ø"
 
-#: pebble/services/activity/activity_insights.c:854
+#: pebble/services/activity/activity_insights.c:855
 msgid "%H:%M"
 msgstr "%H:%M"
 
-#: pebble/services/activity/activity_insights.c:855
+#: pebble/services/activity/activity_insights.c:856
 msgid "%l:%M%p"
 msgstr "%I:%M%p"
 
-#: pebble/services/activity/activity_insights.c:879
+#: pebble/services/activity/activity_insights.c:880
 #, c-format
 msgid "%uH %uM Sleep"
 msgstr "%uH %uM Schlaf"
 
-#: pebble/services/activity/activity_insights.c:908
+#: pebble/services/activity/activity_insights.c:909
 msgid "Short night! Try going to bed a little earlier tonight."
 msgstr "Kurze Nacht! Versuch, heute Abend etwas früher ins Bett zu gehen."
 
-#: pebble/services/activity/activity_insights.c:911
+#: pebble/services/activity/activity_insights.c:912
 msgid "Almost there! A little more sleep tonight would help."
 msgstr "Fast geschafft! Ein bisschen mehr Schlaf heute Nacht würde helfen."
 
-#: pebble/services/activity/activity_insights.c:916
+#: pebble/services/activity/activity_insights.c:917
 msgid "A long night! Great for catching up; a steady routine helps most."
 msgstr ""
 "Eine lange Nacht! Ideal, um einiges nachzuholen; am meisten hilft eine feste "
 "Routine."
 
-#: pebble/services/activity/activity_insights.c:947
+#: pebble/services/activity/activity_insights.c:948
 msgid "Nap Time"
 msgstr "Schlummer"
 
-#: pebble/services/activity/activity_insights.c:956
+#: pebble/services/activity/activity_insights.c:957
 #, c-format
 msgid "%s of sleep"
 msgstr "%s Schlaf"
 
-#: pebble/services/activity/activity_insights.c:962
+#: pebble/services/activity/activity_insights.c:963
 msgid "YOU NAPPED"
 msgstr "DU HAST GEDÖST"
 
-#: pebble/services/activity/activity_insights.c:962
+#: pebble/services/activity/activity_insights.c:963
 msgid "Of napping"
 msgstr "Schlummern"
 
-#: pebble/services/activity/activity_insights.c:970
+#: pebble/services/activity/activity_insights.c:971
 #, c-format
 msgid "%s - %s"
 msgstr "%s - %s"
 
-#: pebble/services/activity/activity_insights.c:991
+#: pebble/services/activity/activity_insights.c:992
 msgid "I need more"
 msgstr "Ich brauche mehr"
 
-#: pebble/services/activity/activity_insights.c:1021
+#: pebble/services/activity/activity_insights.c:1022
 #, c-format
 msgid "Aren't naps great? You knocked out for %dH %dM!"
 msgstr "Sind Nickerchen nicht toll? Du hast %dH %dM geschlafen!"
 
-#: pebble/services/activity/activity_insights.c:1037
+#: pebble/services/activity/activity_insights.c:1038
 msgid "I didn't nap!?"
 msgstr "Ich war wach!"
 
-#: pebble/services/activity/activity_insights.c:1278
+#: pebble/services/activity/activity_insights.c:1279
 msgid "Open Pin"
 msgstr "Eintrag öffnen"
 
-#: pebble/services/activity/activity_insights.c:1364
+#: pebble/services/activity/activity_insights.c:1365
 #, c-format
 msgid ""
 "Killer job! You've walked %d steps today which is %d%% above your typical. "
 "Do it again tomorrow and you'll be on top of the world!"
 msgstr "Du bist %d Schritte gelaufen (+%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1367
+#: pebble/services/activity/activity_insights.c:1368
 #, c-format
 msgid ""
 "Nice moves! You've walked %d steps today which is %d%% above your typical. "
 "Crush it again tomorrow 😀"
 msgstr "Du bist %d Schritte gelaufen (+%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1369
+#: pebble/services/activity/activity_insights.c:1370
 #, c-format
 msgid ""
 "Hey rockstar 🎤 You've walked %d steps today which is %d%% above your "
 "typical. Nothing can stop you!"
 msgstr "Du bist %d Schritte gelaufen (+%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1371
+#: pebble/services/activity/activity_insights.c:1372
 #, c-format
 msgid ""
 "We can barely keep up! You walked %d steps today which is %d%% above your "
 "typical. You're on 🔥"
 msgstr "Du bist %d Schritte gelaufen (+%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1374
+#: pebble/services/activity/activity_insights.c:1375
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% above your typical. You just "
 "outstepped YOURSELF. Mic drop."
 msgstr "Du bist %d Schritte gelaufen (+%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1383
+#: pebble/services/activity/activity_insights.c:1384
 #, c-format
 msgid ""
 "You walked %d steps today; keep it up! Being active is the key to feeling "
@@ -3261,13 +3269,13 @@ msgstr ""
 "Schlüssel dazu, wie ein Honigkuchenpferd zu grinsen. Versuch deinen Schnitt "
 "morgen zu schlagen."
 
-#: pebble/services/activity/activity_insights.c:1386
+#: pebble/services/activity/activity_insights.c:1387
 #, c-format
 msgid "Good job! You walked %d steps today–do it again tomorrow."
 msgstr ""
 "Gut gemacht! Du bist heute %d Schritte gegangen – versuch das morgen nochmal."
 
-#: pebble/services/activity/activity_insights.c:1387
+#: pebble/services/activity/activity_insights.c:1388
 #, c-format
 msgid ""
 "Someone's on the move 👊 You walked %d steps today; keep doing what you're "
@@ -3276,7 +3284,7 @@ msgstr ""
 "Da geht jemand ab 👊 Du bist heute %d Schritte gelaufen; was auch immer du "
 "tust - weiter so!"
 
-#: pebble/services/activity/activity_insights.c:1390
+#: pebble/services/activity/activity_insights.c:1391
 #, c-format
 msgid ""
 "You keep moving, we'll keep counting! You've clocked in %d steps today. Keep "
@@ -3285,47 +3293,47 @@ msgstr ""
 "Du machst weiter, wir zählen weiter! Du bist heute bei %d Schritten "
 "angekommen. Weiter so, du heißer Feger!"
 
-#: pebble/services/activity/activity_insights.c:1399
+#: pebble/services/activity/activity_insights.c:1400
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% below your typical. Try to be more "
 "active tomorrow–you can do it!"
 msgstr "Du bist %d Schritte gelaufen (-%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1402
+#: pebble/services/activity/activity_insights.c:1403
 #, c-format
 msgid ""
 "You walked %d steps which is %d%% below your typical. Being active makes you "
 "feel amaaaazing–try to get back on track tomorrow."
 msgstr "Du bist %d Schritte gelaufen (-%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1404
+#: pebble/services/activity/activity_insights.c:1405
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% below your typical. Don't worry, "
 "tomorrow is just around the corner 😀"
 msgstr "Du bist %d Schritte gelaufen (-%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1406
+#: pebble/services/activity/activity_insights.c:1407
 #, c-format
 msgid ""
 "You walked %d steps which is %d%% below your typical, but don't stress. "
 "You'll crush it tomorrow 😉"
 msgstr "Du bist %d Schritte gelaufen (+%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1413
+#: pebble/services/activity/activity_insights.c:1414
 #, c-format
 msgid ""
 "You walked %d steps today. Don't fret, you can get back on track in no time "
 "😉"
 msgstr "Du bist %d Schritte gelaufen."
 
-#: pebble/services/activity/activity_insights.c:1415
+#: pebble/services/activity/activity_insights.c:1416
 #, c-format
 msgid "You walked %d steps today. Good news is the sky's the limit!"
 msgstr "Du bist %d Schritte gelaufen."
 
-#: pebble/services/activity/activity_insights.c:1416
+#: pebble/services/activity/activity_insights.c:1417
 #, c-format
 msgid ""
 "You walked %d steps today. Try to take even more steps tomorrow–show us what "
@@ -3333,7 +3341,7 @@ msgid ""
 msgstr "Du bist %d Schritte gelaufen."
 
 #. / Sleep notification on wake up, slept under 6 hours
-#: pebble/services/activity/activity_insights.c:1466
+#: pebble/services/activity/activity_insights.c:1467
 #, c-format
 msgid ""
 "Short night? You slept for %dH %dM. Most adults need at least 7 hours, so "
@@ -3343,7 +3351,7 @@ msgstr ""
 "brauchen mindestens 7 Stunden Schlaf. Versuch also, heute Abend früher ins "
 "Bett zu gehen."
 
-#: pebble/services/activity/activity_insights.c:1468
+#: pebble/services/activity/activity_insights.c:1469
 #, c-format
 msgid ""
 "You slept for %dH %dM. Sleep fuels everything you do; let's aim for more "
@@ -3353,7 +3361,7 @@ msgstr ""
 "tust - lass uns heute Nacht auf mehr Schlaf hinarbeiten 😉"
 
 #. / Sleep notification on wake up, slept 6 to 7 hours, not below their typical
-#: pebble/services/activity/activity_insights.c:1476
+#: pebble/services/activity/activity_insights.c:1477
 #, c-format
 msgid ""
 "You slept for %dH %dM. You're close! A little extra tonight goes a long way."
@@ -3361,7 +3369,7 @@ msgstr ""
 "Du hast %d Std. %d Min. geschlafen. Du bist fast am Ziel! Schon ein bisschen "
 "mehr Schlaf heute Nacht macht einen großen Unterschied."
 
-#: pebble/services/activity/activity_insights.c:1478
+#: pebble/services/activity/activity_insights.c:1479
 #, c-format
 msgid ""
 "Good morning! You slept for %dH %dM. Just a bit more sleep would help you "
@@ -3371,7 +3379,7 @@ msgstr ""
 "helfen, dich rundum wohlzufühlen."
 
 #. / Sleep notification on wake up, slept 9 to 10 hours
-#: pebble/services/activity/activity_insights.c:1486
+#: pebble/services/activity/activity_insights.c:1487
 #, c-format
 msgid ""
 "You slept for %dH %dM. A long night can help you catch up after short ones; "
@@ -3380,7 +3388,7 @@ msgstr ""
 "Du hast %dH %dM geschlafen. Eine lange Nacht kann helfen, Schlaf nach kurzen "
 "Nächten nachzuholen; entscheidend ist eine regelmäßige Routine."
 
-#: pebble/services/activity/activity_insights.c:1488
+#: pebble/services/activity/activity_insights.c:1489
 #, c-format
 msgid ""
 "Well rested? You slept for %dH %dM. Extra sleep helps you recover, but most "
@@ -3390,7 +3398,7 @@ msgstr ""
 "dir bei der Erholung, aber die meisten Erwachsenen sind mit 7 bis 9 Stunden "
 "am besten erholt."
 
-#: pebble/services/activity/activity_insights.c:1497
+#: pebble/services/activity/activity_insights.c:1498
 #, c-format
 msgid ""
 "You slept for %dH %dM. That's a long night! Great for recovering, but a "
@@ -3400,7 +3408,7 @@ msgstr ""
 "zur Erholung, aber eine regelmäßige Schlafens- und Aufstehzeit hilft dir, "
 "dich rundum wohlzufühlen."
 
-#: pebble/services/activity/activity_insights.c:1500
+#: pebble/services/activity/activity_insights.c:1501
 #, c-format
 msgid ""
 "You slept for %dH %dM, more than most adults need. Catching up now and then "
@@ -3411,35 +3419,35 @@ msgstr ""
 "einen regelmäßigen Schlafrhythmus beizubehalten."
 
 #. / Sleep notification on wake up, slept above their typical sleep duration
-#: pebble/services/activity/activity_insights.c:1511
+#: pebble/services/activity/activity_insights.c:1512
 #, c-format
 msgid ""
 "Refreshed? You slept for %dH %dM which is %d%% above your typical. Go tackle "
 "your day 😃."
 msgstr "Du hast %dH %dM lang geschlafen (+%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1514
+#: pebble/services/activity/activity_insights.c:1515
 #, c-format
 msgid ""
 "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above your "
 "typical. Keep it up."
 msgstr "Du hast %dH %dM lang geschlafen (+%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1517
+#: pebble/services/activity/activity_insights.c:1518
 #, c-format
 msgid ""
 "Rise and shine! You slept for %dH %dM which is %d%% above your typical. Do "
 "it again tonight, sleep master."
 msgstr "Du hast %dH %dM lang geschlafen (+%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1520
+#: pebble/services/activity/activity_insights.c:1521
 #, c-format
 msgid ""
 "Mmmm...what a night. You slept for %dH %dM which is %d%% above your typical. "
 "That's gotta feel good!"
 msgstr "Du hast %dH %dM lang geschlafen (+%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1523
+#: pebble/services/activity/activity_insights.c:1524
 #, c-format
 msgid ""
 "That's a lot of sheep you just counted! You slept for %dH %dM which is %d%% "
@@ -3447,14 +3455,14 @@ msgid ""
 msgstr "Du hast %dH %dM lang geschlafen (+%d%%)."
 
 #. / Sleep notification on wake up, slept similar to their typical sleep duration
-#: pebble/services/activity/activity_insights.c:1533
+#: pebble/services/activity/activity_insights.c:1534
 #, c-format
 msgid ""
 "Good mornin’. You slept for %dH %dM. Every good day begins with a solid "
 "night’s sleep...kinda like that one 😉 Keep it up!"
 msgstr "Du hast %dH %dM lang geschlafen."
 
-#: pebble/services/activity/activity_insights.c:1536
+#: pebble/services/activity/activity_insights.c:1537
 #, c-format
 msgid ""
 "Good morning! You slept for %dH %dM. Consistency is key; keep doing what "
@@ -3463,7 +3471,7 @@ msgstr ""
 "Guten Morgen! Du hast %dH %dM geschlafen. Konsistenz ist der Schlüssel - "
 "bleib dabei 😃."
 
-#: pebble/services/activity/activity_insights.c:1539
+#: pebble/services/activity/activity_insights.c:1540
 #, c-format
 msgid ""
 "You're rockin' the shut eye! You slept for %dH %dM. Make it a nightly "
@@ -3472,7 +3480,7 @@ msgstr ""
 "Da ist jemand gut im Augen-Geschlossen-Halten. Du hast %dH %dM geschlafen. "
 "Mach das zum nächtlichen Ritual. Du hast es verdient."
 
-#: pebble/services/activity/activity_insights.c:1541
+#: pebble/services/activity/activity_insights.c:1542
 #, c-format
 msgid "Feelin' good? You slept for %dH %dM. Nothing can stop you now 👊"
 msgstr ""
@@ -3480,141 +3488,141 @@ msgstr ""
 "aufhalten. 👊"
 
 #. / Sleep notification on wake up, slept below their typical sleep duration
-#: pebble/services/activity/activity_insights.c:1550
+#: pebble/services/activity/activity_insights.c:1551
 #, c-format
 msgid ""
 "Hey sleepy head. You slept for %dH %dM which is %d%% below your typical. Try "
 "to get more tonight!"
 msgstr "Du hast %dH %dM lang geschlafen (-%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1553
+#: pebble/services/activity/activity_insights.c:1554
 #, c-format
 msgid ""
 "Groggy? You slept for %dH %dM which is %d%% below your typical. Sleep is "
 "important for everything you do-try getting more shut eye tonight!"
 msgstr "Du hast %dH %dM lang geschlafen (-%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1556
+#: pebble/services/activity/activity_insights.c:1557
 #, c-format
 msgid ""
 "It's a new day! You slept for %dH %dM which is %d%% below your typical. It's "
 "not your best, but there's always tonight."
 msgstr "Du hast %dH %dM lang geschlafen (-%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1559
+#: pebble/services/activity/activity_insights.c:1560
 #, c-format
 msgid ""
 "Goooood morning! You slept for %dH %dM which is %d%% below your typical. Go "
 "crush your day and then get back in bed 😉"
 msgstr "Du hast %dH %dM lang geschlafen (-%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1566
+#: pebble/services/activity/activity_insights.c:1567
 #, c-format
 msgid ""
 "You slept for %dH %dM which is %d%% below your typical. Sleep is vital for "
 "all your great ideas–how 'bout getting more tonight?"
 msgstr "Du hast %dH %dM lang geschlafen (-%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1568
+#: pebble/services/activity/activity_insights.c:1569
 #, c-format
 msgid ""
 "You only slept for %dH %dM which is %d%% below your typical. We know you're "
 "busy, but try getting more tonight. We believe in you 😉"
 msgstr "Du hast %dH %dM lang geschlafen (-%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1570
+#: pebble/services/activity/activity_insights.c:1571
 #, c-format
 msgid ""
 "You slept for %dH %dM which is %d%% below your typical. We know stuff "
 "happens; take another crack at it tonight."
 msgstr "Du hast %dH %dM lang geschlafen (-%d%%)."
 
-#: pebble/services/activity/activity_insights.c:1649
+#: pebble/services/activity/activity_insights.c:1650
 #, c-format
 msgid "%u Steps"
 msgstr "%u Schritte"
 
-#: pebble/services/activity/activity_insights.c:1731
+#: pebble/services/activity/activity_insights.c:1732
 msgid "Didn’t that walk feel good?"
 msgstr "Hat sich der Spaziergang nicht gut angefühlt?"
 
-#: pebble/services/activity/activity_insights.c:1732
+#: pebble/services/activity/activity_insights.c:1733
 msgid "Way to keep it active!"
 msgstr "So bleibt man am Ball!"
 
-#: pebble/services/activity/activity_insights.c:1733
+#: pebble/services/activity/activity_insights.c:1734
 msgid "You got the moves!"
 msgstr "So bewegt man sich!"
 
-#: pebble/services/activity/activity_insights.c:1734
+#: pebble/services/activity/activity_insights.c:1735
 msgid "Gettin' your step on?"
 msgstr "Sieben-Meilen-Stiefel dabei?"
 
-#: pebble/services/activity/activity_insights.c:1744
+#: pebble/services/activity/activity_insights.c:1745
 msgid "Feelin' hot? Cause you're on 🔥"
 msgstr "Ist dir heiß? Kein Wunder, in dir brennt ein 🔥"
 
-#: pebble/services/activity/activity_insights.c:1745
+#: pebble/services/activity/activity_insights.c:1746
 msgid "Hey lightning bolt, way to go!"
 msgstr "Hey Kugelblitz, so geht das!"
 
-#: pebble/services/activity/activity_insights.c:1746
+#: pebble/services/activity/activity_insights.c:1747
 msgid "You're a machine!"
 msgstr "Du bist eine Maschine!"
 
-#: pebble/services/activity/activity_insights.c:1747
+#: pebble/services/activity/activity_insights.c:1748
 msgid "Hey speedster, we can barely keep up!"
 msgstr "Hey, du Raser - wir kommen kaum hinterher!"
 
-#: pebble/services/activity/activity_insights.c:1748
+#: pebble/services/activity/activity_insights.c:1749
 msgid "Way to show us what you're made of 👊"
 msgstr "Du willst uns wohl zeigen, woraus du gemacht bist 👊"
 
-#: pebble/services/activity/activity_insights.c:1758
+#: pebble/services/activity/activity_insights.c:1759
 msgid "Workin' up a sweat?"
 msgstr "Ins Schwitzen gekommen?"
 
-#: pebble/services/activity/activity_insights.c:1759
+#: pebble/services/activity/activity_insights.c:1760
 msgid "Well done 💪"
 msgstr "Gut gemacht 💪"
 
-#: pebble/services/activity/activity_insights.c:1760
+#: pebble/services/activity/activity_insights.c:1761
 msgid "Endorphin rush?"
 msgstr "Endorphin-Überschuss?"
 
-#: pebble/services/activity/activity_insights.c:1761
+#: pebble/services/activity/activity_insights.c:1762
 msgid "Can't stop, won't stop 👊"
 msgstr "Gut gemacht 💪"
 
-#: pebble/services/activity/activity_insights.c:1762
+#: pebble/services/activity/activity_insights.c:1763
 msgid "Keepin' that heart healthy! ❤"
 msgstr "Ich spüre dein Herz klopfen! ❤"
 
-#: pebble/services/activity/activity_insights.c:1791
-#: pebble/services/activity/activity_insights.c:1883
-#: pebble/services/activity/activity_insights.c:1890
-#: pebble/services/activity/activity_insights.c:1897
+#: pebble/services/activity/activity_insights.c:1792
+#: pebble/services/activity/activity_insights.c:1884
+#: pebble/services/activity/activity_insights.c:1891
+#: pebble/services/activity/activity_insights.c:1898
 #, c-format
 msgid "%d Min"
 msgstr "%d min."
 
-#: pebble/services/activity/activity_insights.c:1820
+#: pebble/services/activity/activity_insights.c:1821
 msgid "Avg Pace"
 msgstr "Ø Tempo"
 
-#: pebble/services/activity/activity_insights.c:1836
+#: pebble/services/activity/activity_insights.c:1837
 msgid "Distance"
 msgstr "Distanz"
 
-#: pebble/services/activity/activity_insights.c:1848
+#: pebble/services/activity/activity_insights.c:1849
 msgid "Steps"
 msgstr "Schritte"
 
-#: pebble/services/activity/activity_insights.c:1862
+#: pebble/services/activity/activity_insights.c:1863
 msgid "Active Calories"
 msgstr "Aktive Kalorien"
 
-#: pebble/services/activity/activity_insights.c:1875
+#: pebble/services/activity/activity_insights.c:1876
 msgid "Avg HR"
 msgstr "Ø Puls"
 
@@ -4243,22 +4251,21 @@ msgstr "Geladen bis %s"
 #~ msgstr "Min.-Schwelle dyn. Bel."
 
 #~ msgid ""
-#~ "Bluetooth on your phone is in a high power state. Please report this "
-#~ "using 'Support' and reboot your phone."
+#~ "Bluetooth on your phone is in a high power state. Please report this using "
+#~ "'Support' and reboot your phone."
 #~ msgstr ""
 #~ "Bluetooth läuft auf deinem Handy in einem \"High Power State\". Teile uns "
 #~ "das bitte via 'Support' in der Pebble-App auf deinem Handy mit."
 
 #~ msgid ""
-#~ "This app requires Pebble Health to work. Enable Health in the Pebble "
-#~ "mobile app to continue."
+#~ "This app requires Pebble Health to work. Enable Health in the Pebble mobile "
+#~ "app to continue."
 #~ msgstr ""
 #~ "Diese App benötigt Pebble Health um zu funktionieren. Aktiviere Health in "
 #~ "der Pebble-App auf deinem Handy um fortzufahren."
 
 #~ msgid "Your screen may need calibration. Calibrate it now?"
-#~ msgstr ""
-#~ "Dein Bildschirm muss eventuell kalibriert werden. Jetzt kalibrieren?"
+#~ msgstr "Dein Bildschirm muss eventuell kalibriert werden. Jetzt kalibrieren?"
 
 #~ msgid "Pebble Updated!"
 #~ msgstr "Pebble aktualisiert!"
@@ -4270,8 +4277,7 @@ msgstr "Geladen bis %s"
 #~ "\n"
 #~ "Read more at blog.pebble.com"
 #~ msgstr ""
-#~ "Für Bewegungs- und Schlaf-Tracking, drücke RAUF von deinem Zifferblatt "
-#~ "aus.\n"
+#~ "Für Bewegungs- und Schlaf-Tracking, drücke RAUF von deinem Zifferblatt aus.\n"
 #~ "\n"
 #~ "Drücke RUNTER für aktuelle und zukünftige Ereignisse.\n"
 #~ "\n"
@@ -4344,25 +4350,24 @@ msgstr "Geladen bis %s"
 #~ msgstr "Zurück-Taste"
 
 #~ msgid ""
-#~ "The core dump was created successfully. Please create a support request "
-#~ "as usual."
+#~ "The core dump was created successfully. Please create a support request as "
+#~ "usual."
 #~ msgstr ""
-#~ "Das Speicherabbild wurde erfolgreich erzeugt. Bitte stelle jetzt wie "
-#~ "gewohnt eine Supportanfrage."
+#~ "Das Speicherabbild wurde erfolgreich erzeugt. Bitte stelle jetzt wie gewohnt "
+#~ "eine Supportanfrage."
 
 #~ msgid "Did your Pebble reset?"
 #~ msgstr "Pebble neu gestartet?"
 
 #~ msgid ""
-#~ "Wanna know more about you? Track your activity and sleep with Pebble "
-#~ "Health."
+#~ "Wanna know more about you? Track your activity and sleep with Pebble Health."
 #~ msgstr ""
-#~ "Du willst mehr über dich wissen? Zeichne deine Aktivität und deinen "
-#~ "Schlaf mit Pebble Health auf."
+#~ "Du willst mehr über dich wissen? Zeichne deine Aktivität und deinen Schlaf "
+#~ "mit Pebble Health auf."
 
 #~ msgid ""
-#~ "You like sleep, don't you? Get fun stats on your sleep and start waking "
-#~ "up less groggy with Pebble Health."
+#~ "You like sleep, don't you? Get fun stats on your sleep and start waking up "
+#~ "less groggy with Pebble Health."
 #~ msgstr ""
 #~ "Du magst Schlafen, nicht wahr? Mit Pebble Health bekommst du spannende "
 #~ "Statistiken zu deinem Schlaf und wachst weniger müde auf."
@@ -4727,8 +4732,8 @@ msgstr "Geladen bis %s"
 #~ msgstr "Drücke lange %s von jedem Zifferblatt aus, um %s zu öffnen."
 
 #~ msgid ""
-#~ "The core dump was created automatically. Please create a support request "
-#~ "as usual."
+#~ "The core dump was created automatically. Please create a support request as "
+#~ "usual."
 #~ msgstr ""
 #~ "Das Speicherabbild wurde automatisch erstellt. Bitte stelle eine "
 #~ "Supportanfrage wie sonst auch."
@@ -4813,15 +4818,15 @@ msgstr "Geladen bis %s"
 #~ "Did you know you can toggle Quiet Time by holding the Back button from a "
 #~ "notification or the watchface?"
 #~ msgstr ""
-#~ "Du kannst Ruhezeit übringens an- und ausschalten, indem du die Zurück-"
-#~ "Taste bei Mitteilungen oder einem Zifferblatt gedrückt hältst."
+#~ "Du kannst Ruhezeit übringens an- und ausschalten, indem du die Zurück-Taste "
+#~ "bei Mitteilungen oder einem Zifferblatt gedrückt hältst."
 
 #~ msgid ""
-#~ "Press and hold the Back button from the watchface or a notification to "
-#~ "turn Quiet Time on or off."
+#~ "Press and hold the Back button from the watchface or a notification to turn "
+#~ "Quiet Time on or off."
 #~ msgstr ""
-#~ "Zum An- und Ausschalten der Ruhezeit drücke und halte ZURÜCK vom "
-#~ "Zifferblatt oder einer Mitteilung aus."
+#~ "Zum An- und Ausschalten der Ruhezeit drücke und halte ZURÜCK vom Zifferblatt "
+#~ "oder einer Mitteilung aus."
 
 #~ msgid "TEXT SIZE"
 #~ msgstr "TEXTGRÖSSE"
@@ -4867,11 +4872,10 @@ msgstr "Geladen bis %s"
 #~ "ausprobiert?"
 
 #~ msgid ""
-#~ "A good night's sleep makes for a more productive day. Have you seen "
-#~ "progress?"
+#~ "A good night's sleep makes for a more productive day. Have you seen progress?"
 #~ msgstr ""
-#~ "Eine gute Mütze Schlaf führt zu einem produktiverem Tag. Hast du "
-#~ "Fortschritt bemerkt?"
+#~ "Eine gute Mütze Schlaf führt zu einem produktiverem Tag. Hast du Fortschritt "
+#~ "bemerkt?"
 
 #~ msgid "Are you enjoying Pebble Health and it's insights?"
 #~ msgstr "Gefällt dir Pebble Health und deine Einsichten dadurch?"
@@ -4924,8 +4928,7 @@ msgstr "Geladen bis %s"
 
 #~ msgid ""
 #~ "A good night's sleep makes for a more productive day. How are you doing?"
-#~ msgstr ""
-#~ "Ausreichend Schlaf macht dich produktiver am Tag. Wie fühlst du dich?"
+#~ msgstr "Ausreichend Schlaf macht dich produktiver am Tag. Wie fühlst du dich?"
 
 #~ msgid "Are you enjoying Pebble Health and Insights?"
 #~ msgstr "Hast du Spaß an Pebble Health und den Einsichten?"
@@ -4960,8 +4963,7 @@ msgstr "Geladen bis %s"
 
 #~ msgid "You walked %d steps today! Check out your daily activity progress."
 #~ msgstr ""
-#~ "Du hast heute %d Schritte gemacht! Schau dir deinen täglichen Fortschritt "
-#~ "an."
+#~ "Du hast heute %d Schritte gemacht! Schau dir deinen täglichen Fortschritt an."
 
 #~ msgid "VIBRATIONS"
 #~ msgstr "VIBRATIONEN"
@@ -4978,8 +4980,7 @@ msgstr "Geladen bis %s"
 #~ msgid "Good Morning! See how you slept last night"
 #~ msgstr "Guten Morgen! Schau, wie du letzte Nacht geschlafen hast"
 
-#~ msgid ""
-#~ "Great %d minute walk! You're making strides towards a healthier life."
+#~ msgid "Great %d minute walk! You're making strides towards a healthier life."
 #~ msgstr "Super %d-Minuten-Spaziergang. Du lebst langsam gesünder."
 
 #~ msgid "What a run! See how this measures against your week."
@@ -5021,11 +5022,10 @@ msgstr "Geladen bis %s"
 #~ msgstr "%d-Minuten-Marsch"
 
 #~ msgid ""
-#~ "You've walked %d steps so far today! Check out your daily activity "
-#~ "progress."
+#~ "You've walked %d steps so far today! Check out your daily activity progress."
 #~ msgstr ""
-#~ "Du bist bisher %d Schritte gelaufen! Schau dir deinen täglichen "
-#~ "Fortschritt an."
+#~ "Du bist bisher %d Schritte gelaufen! Schau dir deinen täglichen Fortschritt "
+#~ "an."
 
 #~ msgid "%d.%d Miles"
 #~ msgstr "%d,%d Meilen"
@@ -5044,8 +5044,8 @@ msgstr "Geladen bis %s"
 #~ "New and improved Health Graphs are now on your phone! Find them in the "
 #~ "Pebble app under the health tab."
 #~ msgstr ""
-#~ "Neue und verbesserte Health-Diagramme jetzt auf deinem Handy! Schau sie "
-#~ "dir im Health-Reiter in deiner Pebble-App an."
+#~ "Neue und verbesserte Health-Diagramme jetzt auf deinem Handy! Schau sie dir "
+#~ "im Health-Reiter in deiner Pebble-App an."
 
 #~ msgid "You had a good night! Feel the energy "
 #~ msgstr "Du hattest eine gute Nacht! Spüre die Energie "
@@ -5057,15 +5057,15 @@ msgstr "Geladen bis %s"
 #~ msgstr "%d,%d km"
 
 #~ msgid ""
-#~ "Killer job! You've walked %d steps today which is %d%% above your "
-#~ "average. Try to do it again tomorrow, champ."
+#~ "Killer job! You've walked %d steps today which is %d%% above your average. "
+#~ "Try to do it again tomorrow, champ."
 #~ msgstr ""
-#~ "Hammer! Du bist heute %d Schritte glaufen, was %d%% über deinem "
-#~ "Durchschnitt ist. Versuch das morgen nochmal, Champion."
+#~ "Hammer! Du bist heute %d Schritte glaufen, was %d%% über deinem Durchschnitt "
+#~ "ist. Versuch das morgen nochmal, Champion."
 
 #~ msgid ""
-#~ "Nice moves! You've walked %d steps today which is %d%% above your "
-#~ "average. Give yourself a pat on the back and crush it again tomorrow."
+#~ "Nice moves! You've walked %d steps today which is %d%% above your average. "
+#~ "Give yourself a pat on the back and crush it again tomorrow."
 #~ msgstr ""
 #~ "So bewegt man sich! Du bist %d Schritte gelaufen was %d%% über deinem "
 #~ "Schnitt liegt. Klopfe dir selbst auf die Schulter und rocke morgen weiter."
@@ -5078,34 +5078,34 @@ msgstr "Geladen bis %s"
 #~ "Schritte gelaufen - mach das morgen nochmal."
 
 #~ msgid ""
-#~ "Hey you. You walked %d steps today which is %d%% below your average. Try "
-#~ "to be more active tomorrow, you can do it!"
+#~ "Hey you. You walked %d steps today which is %d%% below your average. Try to "
+#~ "be more active tomorrow, you can do it!"
 #~ msgstr ""
 #~ "Hey du. Du bist heute %d Schritte gelaufen was %d%% unter deinem Schnitt "
 #~ "liegt. Versuch dich morgen etwas mehr zu bewegen, du schaffst das!"
 
 #~ msgid ""
-#~ "Today wasn't your most active day. You walked %d steps today which is %d%"
-#~ "% below your average. Being active makes you feel amaaaazing–try to get "
-#~ "back on track tomorrow."
+#~ "Today wasn't your most active day. You walked %d steps today which is %d%% "
+#~ "below your average. Being active makes you feel amaaaazing–try to get back "
+#~ "on track tomorrow."
 #~ msgstr ""
 #~ "Heute war nicht dein aktivster Tag. Du bist %d Schritte gelaufen was %d%% "
 #~ "unter deinem Schnitt liegt. Mehr Bewegung gibt dir einen Kick. Versuch "
 #~ "morgen etwas mehr zu geben."
 
 #~ msgid ""
-#~ "Refreshed? You slept for %dH %dM which is %+d%% compared to your average. "
-#~ "Go tackle your day "
+#~ "Refreshed? You slept for %dH %dM which is %+d%% compared to your average. Go "
+#~ "tackle your day "
 #~ msgstr ""
-#~ "Erfrischt? Du hast für %dH %dM geschlafen was %+d%% zum Schnitt ist. "
-#~ "Einen guten Start in den Tag "
+#~ "Erfrischt? Du hast für %dH %dM geschlafen was %+d%% zum Schnitt ist. Einen "
+#~ "guten Start in den Tag "
 
 #~ msgid ""
-#~ "You caught some killer zzz’s! You slept for %dH %dM which is %+d%% "
-#~ "compared to your average. Keep it up!"
+#~ "You caught some killer zzz’s! You slept for %dH %dM which is %+d%% compared "
+#~ "to your average. Keep it up!"
 #~ msgstr ""
-#~ "Du hast ganz schön viele Schäfchen gezählt. Du hast %dH %dM geschlafen "
-#~ "was %+d%% zum Schnitt ist. Weiter so!"
+#~ "Du hast ganz schön viele Schäfchen gezählt. Du hast %dH %dM geschlafen was "
+#~ "%+d%% zum Schnitt ist. Weiter so!"
 
 #~ msgid ""
 #~ "Good mornin’. Way to keep it consistent! You slept for %dH %dM. Every day "
@@ -5114,28 +5114,25 @@ msgstr "Geladen bis %s"
 #~ "Moin. So bleibt man konsistent! Du hast %dH %dM geschlafen. Jeder tag "
 #~ "beginnt mit Schlaf. Bleib dabei "
 
-#~ msgid ""
-#~ "Good morning’! You slept for %dH %dM. Consistency is key; keep it up "
+#~ msgid "Good morning’! You slept for %dH %dM. Consistency is key; keep it up "
 #~ msgstr ""
 #~ "Guten Morgen! Du hast %dH %dM geschlafen. Konsistenz ist der Schlüssel - "
 #~ "bleib dabei "
 
 #~ msgid ""
-#~ "Hey sleepy head. You got less sleep than usual. You slept for %dH %dM "
-#~ "which is %+d%% compared to your average. Try to get more tonight!"
+#~ "Hey sleepy head. You got less sleep than usual. You slept for %dH %dM which "
+#~ "is %+d%% compared to your average. Try to get more tonight!"
 #~ msgstr ""
-#~ "Hey Schlafmütze. Du hast weniger Schlaf als sonst bekommen. Du hast %dH "
-#~ "%dM geschlafen was %+d%% zum Schnitt ist. Versuch heute Nacht mehr zu "
-#~ "bekommen."
+#~ "Hey Schlafmütze. Du hast weniger Schlaf als sonst bekommen. Du hast %dH %dM "
+#~ "geschlafen was %+d%% zum Schnitt ist. Versuch heute Nacht mehr zu bekommen."
 
 #~ msgid ""
-#~ "Groggy? You slept for %dH %dM which is %+d%% compared to your average. "
-#~ "Sleep is important for everything you do, so try getting more shut eye "
-#~ "tonight!"
+#~ "Groggy? You slept for %dH %dM which is %+d%% compared to your average. Sleep "
+#~ "is important for everything you do, so try getting more shut eye tonight!"
 #~ msgstr ""
 #~ "Müde? Du hast %dH %dM geschlafen was %+d%% zum Schnitt ist. Schlaf ist "
-#~ "wichtig für alles was du tust, also versuche heute Nacht mehr Schäfchen "
-#~ "zu zählen."
+#~ "wichtig für alles was du tust, also versuche heute Nacht mehr Schäfchen zu "
+#~ "zählen."
 
 #~ msgid ""
 #~ "Hey lighting bolt, you just a ran for %d minutes at a %d minutes per %s "
@@ -5151,31 +5148,30 @@ msgstr "Geladen bis %s"
 #~ "Didn’t that walk feel good? You walked for %d minutes and burned %d "
 #~ "calories. You’re a walking machine!"
 #~ msgstr ""
-#~ "Hat sich der Spaziergang nicht gut angefühlt? Du bist %d Minuten "
-#~ "unterwegs gewesen und hast %d Kalorien verbrannt. Was einen Schritt du "
-#~ "drauf hast!"
+#~ "Hat sich der Spaziergang nicht gut angefühlt? Du bist %d Minuten unterwegs "
+#~ "gewesen und hast %d Kalorien verbrannt. Was einen Schritt du drauf hast!"
 
 #~ msgid ""
 #~ "Stuck inside today? You walked %d steps which is %d%% below your average. "
 #~ "Being active makes you feel amaaaazing–try to get back on track tomorrow."
 #~ msgstr ""
-#~ "Heute nicht rausgekommen? Du bist %d Schritte gelaufen was %d%% unter "
-#~ "deinem Schnitt liegt. Mehr Bewegung gibt dir einen Kick. Versuch morgen "
-#~ "etwas mehr zu geben."
+#~ "Heute nicht rausgekommen? Du bist %d Schritte gelaufen was %d%% unter deinem "
+#~ "Schnitt liegt. Mehr Bewegung gibt dir einen Kick. Versuch morgen etwas mehr "
+#~ "zu geben."
 
 #~ msgid ""
-#~ "Refreshed? You slept for %dH %dM which is %d%% above your average. Go "
-#~ "tackle your day 😃."
+#~ "Refreshed? You slept for %dH %dM which is %d%% above your average. Go tackle "
+#~ "your day 😃."
 #~ msgstr ""
 #~ "Erfrischt? Du hast für %dH %dM geschlafen was %d%% zum Schnitt ist. Einen "
 #~ "guten Start in den Tag 😃."
 
 #~ msgid ""
-#~ "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above "
-#~ "your average. Keep it up."
+#~ "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above your "
+#~ "average. Keep it up."
 #~ msgstr ""
-#~ "Du hast ganz schön viele Schäfchen gezählt. Du hast %dH %dM geschlafen "
-#~ "was %d%% zum Schnitt ist. Weiter so."
+#~ "Du hast ganz schön viele Schäfchen gezählt. Du hast %dH %dM geschlafen was "
+#~ "%d%% zum Schnitt ist. Weiter so."
 
 #~ msgid ""
 #~ "Good mornin’. You slept for %dH %dM. Way to keep it consistent! Every day "
@@ -5185,24 +5181,23 @@ msgstr "Geladen bis %s"
 #~ "beginnt mit Schlaf. Bleib dabei 😃."
 
 #~ msgid ""
-#~ "Hey sleepy head. You slept for %dH %dM which is %d%% below your average. "
-#~ "Try to get more tonight!"
+#~ "Hey sleepy head. You slept for %dH %dM which is %d%% below your average. Try "
+#~ "to get more tonight!"
 #~ msgstr ""
-#~ "Hey, Schlafmütze. Du hast weniger Schlaf als sonst bekommen. Du hast %dH "
-#~ "%dM geschlafen was %d%% zum Schnitt ist. Versuch heute Nacht mehr zu "
-#~ "bekommen!"
+#~ "Hey, Schlafmütze. Du hast weniger Schlaf als sonst bekommen. Du hast %dH %dM "
+#~ "geschlafen was %d%% zum Schnitt ist. Versuch heute Nacht mehr zu bekommen!"
 
 #~ msgid ""
 #~ "Groggy? You slept for %dH %dM which is %d%% below your average. Sleep is "
 #~ "important for everything you do-try getting more shut eye tonight!"
 #~ msgstr ""
 #~ "Müde? Du hast %dH %dM geschlafen was %d%% zum Schnitt ist. Schlaf ist "
-#~ "wichtig für alles was du tust, also versuche heute Nacht mehr Schäfchen "
-#~ "zu zählen!"
+#~ "wichtig für alles was du tust, also versuche heute Nacht mehr Schäfchen zu "
+#~ "zählen!"
 
 #~ msgid ""
-#~ "Hey lightning bolt, you just ran for %d minutes at a %d minutes per %s "
-#~ "pace. You keep this up and there'll be nothing you can’t do!"
+#~ "Hey lightning bolt, you just ran for %d minutes at a %d minutes per %s pace. "
+#~ "You keep this up and there'll be nothing you can’t do!"
 #~ msgstr ""
 #~ "Hey Donnerblitz, du bist gerade %d Minuten bei einem Tempo von %d Minuten "
 #~ "pro %s gelaufen. Bleib dabei und es gibt nichts, was du nicht tun kannst!"
@@ -5225,8 +5220,8 @@ msgstr "Geladen bis %s"
 #~ "deinem Schnitt liegt. Du hast ja richtig 🔥 in dir!"
 
 #~ msgid ""
-#~ "In the battle of you vs. you, YOU are the winner. You walked %d steps "
-#~ "today which is %d%% above your average. Mic drop."
+#~ "In the battle of you vs. you, YOU are the winner. You walked %d steps today "
+#~ "which is %d%% above your average. Mic drop."
 #~ msgstr ""
 #~ "Im Kampf zwischen dir und dir bist DU der Gewinner! Du bist heute %d "
 #~ "Schritte gelaufen was %d%% über deinem Schnitt liegt. Hammer!"
@@ -5235,84 +5230,83 @@ msgstr "Geladen bis %s"
 #~ "You walked %d steps today which is %d%% below your average. But hey, "
 #~ "everyone deserves a break. There's always tomorrow 😃"
 #~ msgstr ""
-#~ "Du bist heute %d Schritte gelaufen was %d%% unter deinem Schnitt liegt. "
-#~ "Aber hey, jeder braucht mal eine Pause. Es gibt immer ein morgen 😃"
+#~ "Du bist heute %d Schritte gelaufen was %d%% unter deinem Schnitt liegt. Aber "
+#~ "hey, jeder braucht mal eine Pause. Es gibt immer ein morgen 😃"
 
 #~ msgid ""
 #~ "You walked %d steps which is %d%% below your average, but don't stress. "
 #~ "You'll crush it tomorrow 😉"
 #~ msgstr ""
-#~ "Du bist %d Schritte gelaufen was %d%% unter deinem Schnitt liegt. Mach "
-#~ "dir keinen Stress, morgen legst du einen drauf! 😉"
+#~ "Du bist %d Schritte gelaufen was %d%% unter deinem Schnitt liegt. Mach dir "
+#~ "keinen Stress, morgen legst du einen drauf! 😉"
 
 #~ msgid ""
-#~ "Not having the best day? We get it. You walked %d steps today. Don't "
-#~ "fret; you can get back on track in no time 😃"
+#~ "Not having the best day? We get it. You walked %d steps today. Don't fret; "
+#~ "you can get back on track in no time 😃"
 #~ msgstr ""
-#~ "Heute nicht der beste Tag? Verstehen wir. Du bist %d Schritte gelaufen. "
-#~ "Lass dich nicht beirren; in Nullkommanichts bist du wieder auf der Spur 😃"
+#~ "Heute nicht der beste Tag? Verstehen wir. Du bist %d Schritte gelaufen. Lass "
+#~ "dich nicht beirren; in Nullkommanichts bist du wieder auf der Spur 😃"
 
 #~ msgid ""
-#~ "Hey bud. You only walked %d steps today but everyone deserves a rest. "
-#~ "Good news is the sky's the limit!"
+#~ "Hey bud. You only walked %d steps today but everyone deserves a rest. Good "
+#~ "news is the sky's the limit!"
 #~ msgstr ""
 #~ "Hey! Du bist heute nur %d Schritte gelaufen aber jeder braucht mal eine "
 #~ "Pause. Die gute Nachricht ist: besser geht immer!"
 
 #~ msgid ""
-#~ "Having a sitting day? We can tell 😃 –you only walked %d steps today. "
-#~ "It's not your most active, but get pumped to beat your average tomorrow!"
+#~ "Having a sitting day? We can tell 😃 –you only walked %d steps today. It's "
+#~ "not your most active, but get pumped to beat your average tomorrow!"
 #~ msgstr ""
 #~ "Heute Tag des Sitzens? Haben wir mitbekommen 😃 du bist nur %d Schritte "
 #~ "gelaufen. Nicht dein bester Tag, aber morgen schlägst du deinen Schnitt!"
 
 #~ msgid ""
-#~ "Rise and shine! You slept for %dH %dM which is %d%% above your average. "
-#~ "Do it again tonight, sleep master."
+#~ "Rise and shine! You slept for %dH %dM which is %d%% above your average. Do "
+#~ "it again tonight, sleep master."
 #~ msgstr ""
-#~ "Guten Morgen, Sonnenschein! Du hast %dH %dM geschlafen was %d%% über "
-#~ "deinem Schnitt ist. Heute Nacht nochmal, Eure Schlafmajestät."
+#~ "Guten Morgen, Sonnenschein! Du hast %dH %dM geschlafen was %d%% über deinem "
+#~ "Schnitt ist. Heute Nacht nochmal, Eure Schlafmajestät."
 
 #~ msgid ""
-#~ "Mmmm...what a night. You slept for %dH %dM which is %d%% above your "
-#~ "average. That's gotta feel good!"
+#~ "Mmmm...what a night. You slept for %dH %dM which is %d%% above your average. "
+#~ "That's gotta feel good!"
 #~ msgstr ""
-#~ "Mmmh... was für eine Nacht. Du hast %dH %dM geschlafen was %d%% über "
-#~ "deinem Schnitt liegt. Das muss sich gut anfühlen!"
+#~ "Mmmh... was für eine Nacht. Du hast %dH %dM geschlafen was %d%% über deinem "
+#~ "Schnitt liegt. Das muss sich gut anfühlen!"
 
 #~ msgid ""
-#~ "That's a lot of sheep you just counted! You slept for %dH %dM which is %d%"
-#~ "% above your average. Boom shakalaka."
+#~ "That's a lot of sheep you just counted! You slept for %dH %dM which is %d%% "
+#~ "above your average. Boom shakalaka."
 #~ msgstr ""
 #~ "Das sind ganz schön viele Schafe, die du da gezählt hast. Du hast %dH %dM "
 #~ "geschlafen was %d%% über deinem Schnitt liegt. Boom shakalaka."
 
 #~ msgid ""
-#~ "It's a new day! You slept for %dH %dM which is %d%% below your average. "
-#~ "It's not your best, but there's always tonight."
+#~ "It's a new day! You slept for %dH %dM which is %d%% below your average. It's "
+#~ "not your best, but there's always tonight."
 #~ msgstr ""
 #~ "Heute ist ein neuer Tag! Du hast %dH %dM geschlafen was %d%% über deinem "
 #~ "Schnitt liegt. Nicht deine beste Nacht, aber es kommt immer eine nächste."
 
 #~ msgid ""
-#~ "Goooood morning! You slept for %dH %dM which is %d%% below your average. "
-#~ "Go crush your day and then get back in bed 😉"
+#~ "Goooood morning! You slept for %dH %dM which is %d%% below your average. Go "
+#~ "crush your day and then get back in bed 😉"
 #~ msgstr ""
-#~ "Guuuten Mooorgen! Du hast %dH %dM geschlafen was %d%% unter deinem "
-#~ "Schnitt liegt. Bewältige deinen Tag und dann zurück ins Bett. 😉"
+#~ "Guuuten Mooorgen! Du hast %dH %dM geschlafen was %d%% unter deinem Schnitt "
+#~ "liegt. Bewältige deinen Tag und dann zurück ins Bett. 😉"
 
 #~ msgid ""
-#~ "Feeling tired? You only slept for %dH %dM which is %d%% below your "
-#~ "average. Sleep is vital for all your great ideas – how 'bout getting more "
-#~ "tonight?"
+#~ "Feeling tired? You only slept for %dH %dM which is %d%% below your average. "
+#~ "Sleep is vital for all your great ideas – how 'bout getting more tonight?"
 #~ msgstr ""
 #~ "Fühlst du dich müde? Du hast nur %dH %dM geschlafen was %d%% unter deinem "
 #~ "Schnitt liegt. Schlaf ist wichtig für all deine großen Einfälle - heute "
 #~ "Nacht etwas mehr?"
 
 #~ msgid ""
-#~ "You only slept for %dH %dM which is %d%% below your average. We know "
-#~ "you're busy, but try getting more tonight. We believe in you 😉"
+#~ "You only slept for %dH %dM which is %d%% below your average. We know you're "
+#~ "busy, but try getting more tonight. We believe in you 😉"
 #~ msgstr ""
 #~ "Du hast nur %dH %dM geschlafen was %d%% unter deinem Schnitt liegt. Wir "
 #~ "wissen, dass du viel zu tun hast, aber versuche heute Nacht etwas mehr zu "
@@ -5320,27 +5314,27 @@ msgstr "Geladen bis %s"
 
 #~ msgid ""
 #~ "Looks like you didn't get enough sleep, pal 😟 You only slept for %dH %dM "
-#~ "which is %d%% below your average. We know stuff happens. Take another "
-#~ "crack at it tonight."
+#~ "which is %d%% below your average. We know stuff happens. Take another crack "
+#~ "at it tonight."
 #~ msgstr ""
-#~ "Sieht so aus als ob du nicht genug Schlaf bekommen hast. 😟 Du hast nur "
-#~ "%dH %dM geschlafen was %d%% unter deinem Schnitt liegt. Manchmal klappt "
-#~ "es halt nicht. Neuer Versuch heute Abend?"
+#~ "Sieht so aus als ob du nicht genug Schlaf bekommen hast. 😟 Du hast nur %dH "
+#~ "%dM geschlafen was %d%% unter deinem Schnitt liegt. Manchmal klappt es halt "
+#~ "nicht. Neuer Versuch heute Abend?"
 
 #~ msgid ""
 #~ "Hey lightning bolt, you just ran for %d minutes at a %d:%02d per %s pace. "
 #~ "You keep this up and there'll be nothing you can’t do!"
 #~ msgstr ""
 #~ "Hey Donnerblitz, du bist gerade %d Minuten lang gerannt - bei einem Tempo "
-#~ "von %d:%02d pro %s. Wenn du weiter so machst gibt es nichts was du nicht "
-#~ "tun kannst!"
+#~ "von %d:%02d pro %s. Wenn du weiter so machst gibt es nichts was du nicht tun "
+#~ "kannst!"
 
 #~ msgid ""
 #~ "Feelin' hot? Cause you're on 🔥! You just ran for %d minutes at a %d:%02d "
 #~ "per %s pace."
 #~ msgstr ""
-#~ "Ist dir warm? In dir lodert nämlich ein 🔥! Du bist gerade %d Minuten "
-#~ "lang bei %d:%02d pro %s gelaufen."
+#~ "Ist dir warm? In dir lodert nämlich ein 🔥! Du bist gerade %d Minuten lang "
+#~ "bei %d:%02d pro %s gelaufen."
 
 #~ msgid ""
 #~ "Hey speedster, you just ran for %d minutes at a %d:%02d per %s pace. Keep "
@@ -5350,8 +5344,8 @@ msgstr "Geladen bis %s"
 #~ "Zeig uns woraus du gemacht bist 👊"
 
 #~ msgid ""
-#~ "You got the moves! You walked for %d minutes and burned %d calories. "
-#~ "We're super impressed; keep it up 😃"
+#~ "You got the moves! You walked for %d minutes and burned %d calories. We're "
+#~ "super impressed; keep it up 😃"
 #~ msgstr ""
 #~ "Du hast es in dir! Du bist %d Minuten unterwegs gewesen und %d Kalorien "
 #~ "verbrannt. Wir sind beeindruckt; weiter so 😃"

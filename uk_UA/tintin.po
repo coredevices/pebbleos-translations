@@ -3287,8 +3287,7 @@ msgstr "Чудово! Сьогодні ви зробили %d кроків. Тр
 msgid ""
 "Someone's on the move 👊 You walked %d steps today; keep doing what you're "
 "doing!"
-msgstr ""
-"Хтось сьогодні не сидить на місці 👊 Ви зробили %d кроків. Так тримати!"
+msgstr "Хтось сьогодні не сидить на місці 👊 Ви зробили %d кроків. Так тримати!"
 
 #: pebble/services/activity/activity_insights.c:1391
 #, c-format
