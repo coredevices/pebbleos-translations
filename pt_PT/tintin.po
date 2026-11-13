@@ -177,37 +177,37 @@ msgid "Sat"
 msgstr "Sáb"
 
 #: pebble/applib/pbl_std/timelocal.c:53
-#: pebble/apps/system/weather/weather.c:146
+#: pebble/apps/system/weather/weather.c:156
 msgid "Sunday"
 msgstr "Domingo"
 
 #: pebble/applib/pbl_std/timelocal.c:53
-#: pebble/apps/system/weather/weather.c:146
+#: pebble/apps/system/weather/weather.c:156
 msgid "Monday"
 msgstr "Segunda"
 
 #: pebble/applib/pbl_std/timelocal.c:53
-#: pebble/apps/system/weather/weather.c:146
+#: pebble/apps/system/weather/weather.c:156
 msgid "Tuesday"
 msgstr "Terça"
 
 #: pebble/applib/pbl_std/timelocal.c:54
-#: pebble/apps/system/weather/weather.c:147
+#: pebble/apps/system/weather/weather.c:157
 msgid "Wednesday"
 msgstr "Quarta"
 
 #: pebble/applib/pbl_std/timelocal.c:54
-#: pebble/apps/system/weather/weather.c:147
+#: pebble/apps/system/weather/weather.c:157
 msgid "Thursday"
 msgstr "Quinta"
 
 #: pebble/applib/pbl_std/timelocal.c:54
-#: pebble/apps/system/weather/weather.c:147
+#: pebble/apps/system/weather/weather.c:157
 msgid "Friday"
 msgstr "Sexta"
 
 #: pebble/applib/pbl_std/timelocal.c:55
-#: pebble/apps/system/weather/weather.c:148
+#: pebble/apps/system/weather/weather.c:158
 msgid "Saturday"
 msgstr "Sábado"
 
@@ -229,13 +229,13 @@ msgstr "%I:%M:%S %p"
 
 #: pebble/applib/pbl_std/timelocal.c:64
 #: pebble/applib/ui/date_time_selection_window_private.c:74
-#: pebble/apps/system/weather/expanded_view.c:165
+#: pebble/apps/system/weather/expanded_view.c:94
 msgid "AM"
 msgstr "AM"
 
 #: pebble/applib/pbl_std/timelocal.c:65
 #: pebble/applib/ui/date_time_selection_window_private.c:76
-#: pebble/apps/system/weather/expanded_view.c:165
+#: pebble/apps/system/weather/expanded_view.c:94
 msgid "PM"
 msgstr "PM"
 
@@ -780,7 +780,7 @@ msgid "TOTAL"
 msgstr "TOTAL"
 
 #: pebble/apps/system/health/detail_card.c:726
-#: pebble/apps/system/weather/weather.c:141 pebble/services/clock/service.c:579
+#: pebble/apps/system/weather/weather.c:151 pebble/services/clock/service.c:579
 #: pebble/services/clock/service.c:781
 msgid "Today"
 msgstr "Hoje"
@@ -2231,60 +2231,60 @@ msgstr "Ativo"
 msgid "Watchfaces"
 msgstr "Visores"
 
-#: pebble/apps/system/weather/expanded_view.c:184
+#: pebble/apps/system/weather/expanded_view.c:113
 msgid "Sunset --:--"
 msgstr "Pôr do sol --:--"
 
-#: pebble/apps/system/weather/expanded_view.c:187
+#: pebble/apps/system/weather/expanded_view.c:116
 #, c-format
 msgid "Sunset %s"
 msgstr "Pôr do sol %s"
 
-#: pebble/apps/system/weather/expanded_view.c:212
+#: pebble/apps/system/weather/expanded_view.c:141
 msgid "Last updated --:--"
 msgstr "Atualizado --:--"
 
-#: pebble/apps/system/weather/expanded_view.c:215
+#: pebble/apps/system/weather/expanded_view.c:144
 #, c-format
 msgid "Last updated %s"
 msgstr "Atualizado %s"
 
-#: pebble/apps/system/weather/expanded_view.c:401
+#: pebble/apps/system/weather/expanded_view.c:330
 msgid "PRECIPITATION: --"
 msgstr "PRECIPITAÇÃO: --"
 
-#: pebble/apps/system/weather/expanded_view.c:403
+#: pebble/apps/system/weather/expanded_view.c:332
 #, c-format
 msgid "PRECIPITATION: %d%%"
 msgstr "PRECIPITAÇÃO: %d%%"
 
-#: pebble/apps/system/weather/expanded_view.c:487
+#: pebble/apps/system/weather/expanded_view.c:416
 msgid "CURRENT UV"
 msgstr "UV ATUAL"
 
-#: pebble/apps/system/weather/expanded_view.c:496
+#: pebble/apps/system/weather/expanded_view.c:425
 #, c-format
 msgid "UV %d"
 msgstr "UV %d"
 
-#: pebble/apps/system/weather/expanded_view.c:498
+#: pebble/apps/system/weather/expanded_view.c:427
 msgid "UV --"
 msgstr "UV --"
 
-#: pebble/apps/system/weather/expanded_view.c:500
+#: pebble/apps/system/weather/expanded_view.c:429
 #, c-format
 msgid "RAIN %d%%"
 msgstr "CHUVA %d%%"
 
-#: pebble/apps/system/weather/expanded_view.c:502
+#: pebble/apps/system/weather/expanded_view.c:431
 msgid "RAIN --"
 msgstr "CHUVA --"
 
-#: pebble/apps/system/weather/expanded_view.c:510
+#: pebble/apps/system/weather/expanded_view.c:439
 msgid "UV"
 msgstr "UV"
 
-#: pebble/apps/system/weather/expanded_view.c:512
+#: pebble/apps/system/weather/expanded_view.c:441
 msgid "RAIN"
 msgstr "CHUVA"
 
@@ -2338,52 +2338,58 @@ msgstr "Sem locais"
 msgid "Add them in the app"
 msgstr "Adicione-os na app"
 
-#: pebble/apps/system/weather/weather.c:103
+#: pebble/apps/system/weather/weather.c:104
 #: pebble/services/weather/weather_types.c:49
 msgid "Sunny"
 msgstr "Sol"
 
-#: pebble/apps/system/weather/weather.c:105
+#: pebble/apps/system/weather/weather.c:106
 #: pebble/services/weather/weather_types.c:51
 msgid "Partly Cloudy"
 msgstr "Parcialmente nublado"
 
-#: pebble/apps/system/weather/weather.c:107
+#: pebble/apps/system/weather/weather.c:108
 #: pebble/services/weather/weather_types.c:53
 msgid "Cloudy"
 msgstr "Nublado"
 
-#: pebble/apps/system/weather/weather.c:109
+#: pebble/apps/system/weather/weather.c:110
 #: pebble/services/weather/weather_types.c:55
 msgid "Light Rain"
 msgstr "Chuva fraca"
 
-#: pebble/apps/system/weather/weather.c:111
+#: pebble/apps/system/weather/weather.c:112
 #: pebble/services/weather/weather_types.c:57
 msgid "Rain"
 msgstr "Chuva"
 
-#: pebble/apps/system/weather/weather.c:113
+#: pebble/apps/system/weather/weather.c:114
 #: pebble/services/weather/weather_types.c:59
 msgid "Light Snow"
 msgstr "Neve fraca"
 
-#: pebble/apps/system/weather/weather.c:115
+#: pebble/apps/system/weather/weather.c:116
 #: pebble/services/weather/weather_types.c:61
 msgid "Snow"
 msgstr "Neve"
 
-#: pebble/apps/system/weather/weather.c:117
+#: pebble/apps/system/weather/weather.c:118
 #: pebble/services/weather/weather_types.c:63
 msgid "Rain & Snow"
 msgstr "Chuva e neve"
 
-#: pebble/apps/system/weather/weather.c:143 pebble/services/clock/service.c:785
+#: pebble/apps/system/weather/weather.c:130
+#, fuzzy
+#| msgid "Clear All"
+msgid "Clear"
+msgstr "Apagar tudo"
+
+#: pebble/apps/system/weather/weather.c:153 pebble/services/clock/service.c:785
 #: pebble/services/timeline/timeline_actions.c:1067
 msgid "Tomorrow"
 msgstr "Amanhã"
 
-#: pebble/apps/system/weather/weather.c:396
+#: pebble/apps/system/weather/weather.c:406
 msgid ""
 "No location information available. To see weather, add locations in your "
 "Pebble mobile app."
@@ -2391,7 +2397,7 @@ msgstr ""
 "Localização indisponível. Para ver o Tempo, adicione localizações na "
 "aplicação móvel Pebble."
 
-#: pebble/apps/system/weather/weather.c:807
+#: pebble/apps/system/weather/weather.c:817
 #: pebble/services/timeline/timeline.c:929
 msgid "Weather"
 msgstr "Tempo"
@@ -2420,179 +2426,179 @@ msgstr "Possível água-neve"
 msgid "Chance of rain"
 msgstr "Possível chuva"
 
-#: pebble/apps/system/weather/weather_app_layout.c:458
+#: pebble/apps/system/weather/weather_app_layout.c:461
 msgid "Hail"
 msgstr "Granizo"
 
-#: pebble/apps/system/weather/weather_app_layout.c:460
+#: pebble/apps/system/weather/weather_app_layout.c:463
 msgid "Chance of storms"
 msgstr "Possíveis trovoadas"
 
-#: pebble/apps/system/weather/weather_app_layout.c:462
+#: pebble/apps/system/weather/weather_app_layout.c:465
 msgid "Heavy snow"
 msgstr "Neve intensa"
 
-#: pebble/apps/system/weather/weather_app_layout.c:464
+#: pebble/apps/system/weather/weather_app_layout.c:467
 msgid "Heavy rain"
 msgstr "Chuva intensa"
 
-#: pebble/apps/system/weather/weather_app_layout.c:466
+#: pebble/apps/system/weather/weather_app_layout.c:469
 msgid "Wintry mix"
 msgstr "Mistura invernal"
 
-#: pebble/apps/system/weather/weather_app_layout.c:468
+#: pebble/apps/system/weather/weather_app_layout.c:471
 msgid "Flood risk"
 msgstr "Risco de cheias"
 
-#: pebble/apps/system/weather/weather_app_layout.c:470
+#: pebble/apps/system/weather/weather_app_layout.c:473
 msgid "Strong winds"
 msgstr "Ventos fortes"
 
-#: pebble/apps/system/weather/weather_app_layout.c:473
+#: pebble/apps/system/weather/weather_app_layout.c:476
 msgid "Below freezing"
 msgstr "Abaixo de zero"
 
-#: pebble/apps/system/weather/weather_app_layout.c:475
+#: pebble/apps/system/weather/weather_app_layout.c:478
 msgid "Hard frost"
 msgstr "Geada forte"
 
-#: pebble/apps/system/weather/weather_app_layout.c:478
+#: pebble/apps/system/weather/weather_app_layout.c:481
 msgid "Feels below freezing"
 msgstr "Sensação abaixo de zero"
 
-#: pebble/apps/system/weather/weather_app_layout.c:480
+#: pebble/apps/system/weather/weather_app_layout.c:483
 msgid "Heatwave"
 msgstr "Onda de calor"
 
-#: pebble/apps/system/weather/weather_app_layout.c:482
+#: pebble/apps/system/weather/weather_app_layout.c:485
 msgid "Very high UV"
 msgstr "UV muito alto"
 
-#: pebble/apps/system/weather/weather_app_layout.c:484
+#: pebble/apps/system/weather/weather_app_layout.c:487
 msgid "High UV"
 msgstr "UV alto"
 
-#: pebble/apps/system/weather/weather_app_layout.c:487
+#: pebble/apps/system/weather/weather_app_layout.c:490
 msgid "Poor visibility"
 msgstr "Visibilidade fraca"
 
-#: pebble/apps/system/weather/weather_app_layout.c:489
+#: pebble/apps/system/weather/weather_app_layout.c:492
 msgid "High humidity"
 msgstr "Humidade alta"
 
-#: pebble/apps/system/weather/weather_app_layout.c:495
+#: pebble/apps/system/weather/weather_app_layout.c:498
 msgid "Windy"
 msgstr "Ventoso"
 
-#: pebble/apps/system/weather/weather_app_layout.c:504
+#: pebble/apps/system/weather/weather_app_layout.c:507
 msgid "Clear skies"
 msgstr "Céu limpo"
 
-#: pebble/apps/system/weather/weather_app_layout.c:506
+#: pebble/apps/system/weather/weather_app_layout.c:509
 msgid "Light winds"
 msgstr "Ventos fracos"
 
-#: pebble/apps/system/weather/weather_app_layout.c:509
+#: pebble/apps/system/weather/weather_app_layout.c:512
 msgid "Calm breeze"
 msgstr "Brisa suave"
 
-#: pebble/apps/system/weather/weather_app_layout.c:512
+#: pebble/apps/system/weather/weather_app_layout.c:515
 msgid "Fair conditions"
 msgstr "Bom tempo"
 
-#: pebble/apps/system/weather/weather_app_layout.c:514
+#: pebble/apps/system/weather/weather_app_layout.c:517
 msgid "Mild conditions"
 msgstr "Tempo ameno"
 
-#: pebble/apps/system/weather/weather_app_layout.c:516
+#: pebble/apps/system/weather/weather_app_layout.c:519
 msgid "All clear"
 msgstr "Tudo calmo"
 
-#: pebble/apps/system/weather/weather_app_layout.c:526
+#: pebble/apps/system/weather/weather_app_layout.c:529
 msgid "N"
 msgstr "N"
 
-#: pebble/apps/system/weather/weather_app_layout.c:526
+#: pebble/apps/system/weather/weather_app_layout.c:529
 msgid "NE"
 msgstr "NE"
 
-#: pebble/apps/system/weather/weather_app_layout.c:526
+#: pebble/apps/system/weather/weather_app_layout.c:529
 msgid "E"
 msgstr "E"
 
-#: pebble/apps/system/weather/weather_app_layout.c:526
+#: pebble/apps/system/weather/weather_app_layout.c:529
 msgid "SE"
 msgstr "SE"
 
-#: pebble/apps/system/weather/weather_app_layout.c:527
+#: pebble/apps/system/weather/weather_app_layout.c:530
 msgid "S"
 msgstr "S"
 
-#: pebble/apps/system/weather/weather_app_layout.c:527
+#: pebble/apps/system/weather/weather_app_layout.c:530
 msgid "SW"
 msgstr "SO"
 
-#: pebble/apps/system/weather/weather_app_layout.c:527
+#: pebble/apps/system/weather/weather_app_layout.c:530
 msgid "W"
 msgstr "O"
 
-#: pebble/apps/system/weather/weather_app_layout.c:527
+#: pebble/apps/system/weather/weather_app_layout.c:530
 msgid "NW"
 msgstr "NO"
 
-#: pebble/apps/system/weather/weather_app_layout.c:539
+#: pebble/apps/system/weather/weather_app_layout.c:542
 msgid "mph"
 msgstr "mph"
 
-#: pebble/apps/system/weather/weather_app_layout.c:543
+#: pebble/apps/system/weather/weather_app_layout.c:546
 msgid "m/s"
 msgstr ""
 
-#: pebble/apps/system/weather/weather_app_layout.c:547
+#: pebble/apps/system/weather/weather_app_layout.c:550
 msgid "kt"
 msgstr ""
 
-#: pebble/apps/system/weather/weather_app_layout.c:551
+#: pebble/apps/system/weather/weather_app_layout.c:554
 msgid "km/h"
 msgstr "km/h"
 
-#: pebble/apps/system/weather/weather_app_layout.c:575
+#: pebble/apps/system/weather/weather_app_layout.c:578
 #, c-format
 msgid "%s at %d%s."
 msgstr "%s a %d%s."
 
-#: pebble/apps/system/weather/weather_app_layout.c:575
+#: pebble/apps/system/weather/weather_app_layout.c:578
 #, c-format
 msgid "Winds %s at %d%s."
 msgstr "Vento %s a %d%s."
 
-#: pebble/apps/system/weather/weather_app_layout.c:580
+#: pebble/apps/system/weather/weather_app_layout.c:583
 #, c-format
 msgid "At %d%s."
 msgstr "A %d%s."
 
-#: pebble/apps/system/weather/weather_app_layout.c:580
+#: pebble/apps/system/weather/weather_app_layout.c:583
 #, c-format
 msgid "Winds at %d%s."
 msgstr "Vento a %d%s."
 
-#: pebble/apps/system/weather/weather_app_layout.c:589
+#: pebble/apps/system/weather/weather_app_layout.c:592
 #, c-format
 msgid "Precipitation %d%%."
 msgstr "Precipitação %d%%."
 
-#: pebble/apps/system/weather/weather_app_layout.c:865
-#: pebble/apps/system/weather/weather_app_layout.c:1155
+#: pebble/apps/system/weather/weather_app_layout.c:868
+#: pebble/apps/system/weather/weather_app_layout.c:1158
 msgid "TODAY"
 msgstr "HOJE"
 
-#: pebble/apps/system/weather/weather_app_layout.c:896
-#: pebble/apps/system/weather/weather_app_layout.c:1242
+#: pebble/apps/system/weather/weather_app_layout.c:899
+#: pebble/apps/system/weather/weather_app_layout.c:1245
 msgid "TOMORROW"
 msgstr "AMANHÃ"
 
-#: pebble/apps/system/weather/weather_app_layout.c:993
-#: pebble/apps/system/weather/weather_app_layout.c:1090
+#: pebble/apps/system/weather/weather_app_layout.c:996
+#: pebble/apps/system/weather/weather_app_layout.c:1093
 msgid "UV INDEX"
 msgstr "ÍNDICE UV"
 
