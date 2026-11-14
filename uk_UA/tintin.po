@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-12 00:52+0000\n"
+"PO-Revision-Date: 2026-11-14 00:13+0000\n"
 "Last-Translator: Denys Vasylenko <dinja.ostrovskiy@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.repebble.com/projects/pebbleos/"
 "watch/uk/>\n"
@@ -2323,10 +2323,8 @@ msgid "Rain & Snow"
 msgstr "Дощ зі снігом"
 
 #: pebble/apps/system/weather/weather.c:130
-#, fuzzy
-#| msgid "Clear All"
 msgid "Clear"
-msgstr "Очистити все"
+msgstr "Очистити"
 
 #: pebble/apps/system/weather/weather.c:153 pebble/services/clock/service.c:785
 #: pebble/services/timeline/timeline_actions.c:1067
