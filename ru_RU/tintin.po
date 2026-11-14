@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-13 12:26+0000\n"
+"PO-Revision-Date: 2026-11-14 13:26+0000\n"
 "Last-Translator: dx3756 <dx3756@gmail.com>\n"
 "Language-Team: Russian <https://translate.repebble.com/projects/pebbleos/"
 "watch/ru/>\n"
@@ -949,7 +949,7 @@ msgstr "Уведомления"
 
 #: pebble/apps/system/notifications.c:1131
 msgid "Clear Notification History"
-msgstr "Очистить Историю Уведомлений"
+msgstr "Очистить историю уведомлений"
 
 #. / Quick Launch action that makes the button do nothing at all.
 #: pebble/apps/system/quick_launch_nothing.c:24
@@ -2319,7 +2319,7 @@ msgstr "Дождь со снегом"
 
 #: pebble/apps/system/weather/weather.c:130
 msgid "Clear"
-msgstr "Очистить"
+msgstr "Ясно"
 
 #: pebble/apps/system/weather/weather.c:153 pebble/services/clock/service.c:785
 #: pebble/services/timeline/timeline_actions.c:1067
@@ -2429,7 +2429,7 @@ msgstr "Ветрено"
 
 #: pebble/apps/system/weather/weather_app_layout.c:507
 msgid "Clear skies"
-msgstr "Ясно"
+msgstr "Безоблачно"
 
 #: pebble/apps/system/weather/weather_app_layout.c:509
 msgid "Light winds"
