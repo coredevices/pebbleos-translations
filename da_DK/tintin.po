@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-26 22:44+0200\n"
-"PO-Revision-Date: 2026-11-09 15:12+0000\n"
+"PO-Revision-Date: 2026-11-14 10:26+0000\n"
 "Last-Translator: Hans Henrik Juhl <hans@kopula.dk>\n"
 "Language-Team: Danish <https://translate.repebble.com/projects/pebbleos/"
 "watch/da/>\n"
@@ -536,11 +536,11 @@ msgstr "Hørte det ikke. Prøv igen."
 
 #: pebble/applib/voice/voice_window.c:683
 msgid "Retrying"
-msgstr ""
+msgstr "Forsøger igen"
 
 #: pebble/applib/voice/voice_window.c:686
 msgid "Retrying offline"
-msgstr ""
+msgstr "Forsøger igen offline"
 
 #: pebble/applib/voice/voice_window.c:1135
 msgid "Listening"
@@ -2314,10 +2314,8 @@ msgid "Rain & Snow"
 msgstr "Regn og sne"
 
 #: pebble/apps/system/weather/weather.c:130
-#, fuzzy
-#| msgid "Clear All"
 msgid "Clear"
-msgstr "Ryd alle"
+msgstr "Klart"
 
 #: pebble/apps/system/weather/weather.c:153 pebble/services/clock/service.c:785
 #: pebble/services/timeline/timeline_actions.c:1067
