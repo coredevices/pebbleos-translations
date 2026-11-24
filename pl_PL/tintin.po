@@ -2075,32 +2075,36 @@ msgstr "Oś czasu – przyszłość"
 msgid "Timeline Past"
 msgstr "Oś czasu - przeszłość"
 
-#: pebble/apps/system/toggle/airplane_mode.c:26
+#: pebble/apps/system/toggle/airplane_mode.c:27
 msgid "Turn On Airplane Mode?"
 msgstr "Włączyć tryb samolotowy?"
 
-#: pebble/apps/system/toggle/airplane_mode.c:27
+#: pebble/apps/system/toggle/airplane_mode.c:28
 msgid "Turn Off Airplane Mode?"
 msgstr "Wyłączyć tryb samolotowy?"
 
-#: pebble/apps/system/toggle/airplane_mode.c:28
-msgid ""
-"Airplane\n"
-"Mode On"
-msgstr ""
-"Tryb samo-\n"
-"lotowy wł."
-
 #: pebble/apps/system/toggle/airplane_mode.c:29
+#, fuzzy
+#| msgid "Airplane Mode"
 msgid ""
-"Airplane\n"
-"Mode Off"
+"Airplane Mode\n"
+"On"
+msgstr "Tryb samolotowy"
+
+#: pebble/apps/system/toggle/airplane_mode.c:30
+#, fuzzy
+#| msgid ""
+#| "Airplane\n"
+#| "Mode Off"
+msgid ""
+"Airplane Mode\n"
+"Off"
 msgstr ""
 "Tryb samo-\n"
 "lotowy wył."
 
 #. / The Quick Launch action that toggles Airplane Mode.
-#: pebble/apps/system/toggle/airplane_mode.c:53
+#: pebble/apps/system/toggle/airplane_mode.c:54
 #, fuzzy
 #| msgid "Airplane Mode"
 msgid "Toggle Airplane Mode"
@@ -4348,6 +4352,13 @@ msgstr "Ładowanie"
 #, c-format
 msgid "Powered 'til %s"
 msgstr "Zasilanie do %s"
+
+#~ msgid ""
+#~ "Airplane\n"
+#~ "Mode On"
+#~ msgstr ""
+#~ "Tryb samo-\n"
+#~ "lotowy wł."
 
 #~ msgid "PRECIPITATION: --"
 #~ msgstr "OPADY: --"

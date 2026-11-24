@@ -2057,32 +2057,36 @@ msgstr "Tidslinje framtid"
 msgid "Timeline Past"
 msgstr "Tidslinje dåtid"
 
-#: pebble/apps/system/toggle/airplane_mode.c:26
+#: pebble/apps/system/toggle/airplane_mode.c:27
 msgid "Turn On Airplane Mode?"
 msgstr "Aktivera flygplansläge?"
 
-#: pebble/apps/system/toggle/airplane_mode.c:27
+#: pebble/apps/system/toggle/airplane_mode.c:28
 msgid "Turn Off Airplane Mode?"
 msgstr "Inaktivera flygplansläge?"
 
-#: pebble/apps/system/toggle/airplane_mode.c:28
-msgid ""
-"Airplane\n"
-"Mode On"
-msgstr ""
-"Flygplansläge\n"
-"aktivt"
-
 #: pebble/apps/system/toggle/airplane_mode.c:29
+#, fuzzy
+#| msgid "Airplane Mode"
 msgid ""
-"Airplane\n"
-"Mode Off"
+"Airplane Mode\n"
+"On"
+msgstr "Flygplansläge"
+
+#: pebble/apps/system/toggle/airplane_mode.c:30
+#, fuzzy
+#| msgid ""
+#| "Airplane\n"
+#| "Mode Off"
+msgid ""
+"Airplane Mode\n"
+"Off"
 msgstr ""
 "Flyplansläge\n"
 "inaktivt"
 
 #. / The Quick Launch action that toggles Airplane Mode.
-#: pebble/apps/system/toggle/airplane_mode.c:53
+#: pebble/apps/system/toggle/airplane_mode.c:54
 msgid "Toggle Airplane Mode"
 msgstr "Växla flygplansläge"
 
@@ -4297,6 +4301,13 @@ msgstr "Laddar"
 #, c-format
 msgid "Powered 'til %s"
 msgstr "Ström till %s"
+
+#~ msgid ""
+#~ "Airplane\n"
+#~ "Mode On"
+#~ msgstr ""
+#~ "Flygplansläge\n"
+#~ "aktivt"
 
 #~ msgid "PRECIPITATION: --"
 #~ msgstr "NEDERBÖRD: --"

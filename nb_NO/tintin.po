@@ -2045,28 +2045,28 @@ msgstr ""
 msgid "Timeline Past"
 msgstr ""
 
-#: pebble/apps/system/toggle/airplane_mode.c:26
+#: pebble/apps/system/toggle/airplane_mode.c:27
 msgid "Turn On Airplane Mode?"
 msgstr ""
 
-#: pebble/apps/system/toggle/airplane_mode.c:27
-msgid "Turn Off Airplane Mode?"
-msgstr ""
-
 #: pebble/apps/system/toggle/airplane_mode.c:28
-msgid ""
-"Airplane\n"
-"Mode On"
+msgid "Turn Off Airplane Mode?"
 msgstr ""
 
 #: pebble/apps/system/toggle/airplane_mode.c:29
 msgid ""
-"Airplane\n"
-"Mode Off"
+"Airplane Mode\n"
+"On"
+msgstr ""
+
+#: pebble/apps/system/toggle/airplane_mode.c:30
+msgid ""
+"Airplane Mode\n"
+"Off"
 msgstr ""
 
 #. / The Quick Launch action that toggles Airplane Mode.
-#: pebble/apps/system/toggle/airplane_mode.c:53
+#: pebble/apps/system/toggle/airplane_mode.c:54
 msgid "Toggle Airplane Mode"
 msgstr ""
 

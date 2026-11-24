@@ -2100,32 +2100,36 @@ msgstr "Timeline futura"
 msgid "Timeline Past"
 msgstr "Passado"
 
-#: pebble/apps/system/toggle/airplane_mode.c:26
+#: pebble/apps/system/toggle/airplane_mode.c:27
 msgid "Turn On Airplane Mode?"
 msgstr "Ligar Modo Avião?"
 
-#: pebble/apps/system/toggle/airplane_mode.c:27
+#: pebble/apps/system/toggle/airplane_mode.c:28
 msgid "Turn Off Airplane Mode?"
 msgstr "Desligar Modo Avião?"
 
-#: pebble/apps/system/toggle/airplane_mode.c:28
-msgid ""
-"Airplane\n"
-"Mode On"
-msgstr ""
-"Modo Avião\n"
-"Ligado"
-
 #: pebble/apps/system/toggle/airplane_mode.c:29
+#, fuzzy
+#| msgid "Airplane Mode"
 msgid ""
-"Airplane\n"
-"Mode Off"
+"Airplane Mode\n"
+"On"
+msgstr "Modo de Voo"
+
+#: pebble/apps/system/toggle/airplane_mode.c:30
+#, fuzzy
+#| msgid ""
+#| "Airplane\n"
+#| "Mode Off"
+msgid ""
+"Airplane Mode\n"
+"Off"
 msgstr ""
 "Modo Avião\n"
 "Desligado"
 
 #. / The Quick Launch action that toggles Airplane Mode.
-#: pebble/apps/system/toggle/airplane_mode.c:53
+#: pebble/apps/system/toggle/airplane_mode.c:54
 #, fuzzy
 #| msgid "Airplane Mode"
 msgid "Toggle Airplane Mode"
@@ -4379,6 +4383,13 @@ msgstr "A carregar"
 #, c-format
 msgid "Powered 'til %s"
 msgstr "Carregado até %s"
+
+#~ msgid ""
+#~ "Airplane\n"
+#~ "Mode On"
+#~ msgstr ""
+#~ "Modo Avião\n"
+#~ "Ligado"
 
 #~ msgid "PRECIPITATION: --"
 #~ msgstr "PRECIPITAÇÃO: --"

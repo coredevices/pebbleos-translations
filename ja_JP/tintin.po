@@ -2061,32 +2061,36 @@ msgstr "今後の予定"
 msgid "Timeline Past"
 msgstr "過去の予定"
 
-#: pebble/apps/system/toggle/airplane_mode.c:26
+#: pebble/apps/system/toggle/airplane_mode.c:27
 msgid "Turn On Airplane Mode?"
 msgstr "機内モードをオンにしますか？"
 
-#: pebble/apps/system/toggle/airplane_mode.c:27
+#: pebble/apps/system/toggle/airplane_mode.c:28
 msgid "Turn Off Airplane Mode?"
 msgstr "機内モードをオフにしますか？"
 
-#: pebble/apps/system/toggle/airplane_mode.c:28
-msgid ""
-"Airplane\n"
-"Mode On"
-msgstr ""
-"機内モード\n"
-"オン"
-
 #: pebble/apps/system/toggle/airplane_mode.c:29
+#, fuzzy
+#| msgid "Airplane Mode"
 msgid ""
-"Airplane\n"
-"Mode Off"
+"Airplane Mode\n"
+"On"
+msgstr "機内モード"
+
+#: pebble/apps/system/toggle/airplane_mode.c:30
+#, fuzzy
+#| msgid ""
+#| "Airplane\n"
+#| "Mode Off"
+msgid ""
+"Airplane Mode\n"
+"Off"
 msgstr ""
 "機内モード\n"
 "オフ"
 
 #. / The Quick Launch action that toggles Airplane Mode.
-#: pebble/apps/system/toggle/airplane_mode.c:53
+#: pebble/apps/system/toggle/airplane_mode.c:54
 msgid "Toggle Airplane Mode"
 msgstr "機内モード切替"
 
@@ -4292,6 +4296,13 @@ msgstr "充電中"
 #, c-format
 msgid "Powered 'til %s"
 msgstr "バッテリーは%sまで持ちます"
+
+#~ msgid ""
+#~ "Airplane\n"
+#~ "Mode On"
+#~ msgstr ""
+#~ "機内モード\n"
+#~ "オン"
 
 #~ msgid "PRECIPITATION: --"
 #~ msgstr "降水確率：--"
