@@ -728,12 +728,12 @@ msgid "kcal"
 msgstr "ккал"
 
 #: pebble/apps/system/health/activity_detail_card.c:48
-#: pebble/services/activity/activity_insights.c:1779
+#: pebble/services/activity/activity_insights.c:1839
 msgid "mi"
 msgstr "ми"
 
 #: pebble/apps/system/health/activity_detail_card.c:48
-#: pebble/services/activity/activity_insights.c:1780
+#: pebble/services/activity/activity_insights.c:1840
 msgid "km"
 msgstr "км"
 
@@ -796,7 +796,7 @@ msgstr ""
 "телефон."
 
 #: pebble/apps/system/health/health.c:187
-#: pebble/apps/system/settings/health.c:266
+#: pebble/apps/system/settings/health.c:303
 #: pebble/services/timeline/timeline.c:943
 msgid "Health"
 msgstr "Здоровье"
@@ -820,17 +820,17 @@ msgid "%d–%d BPM"
 msgstr "ЧСС %d-%d"
 
 #: pebble/apps/system/health/hr_detail_card.c:91
-#: pebble/services/activity/activity_insights.c:1885
+#: pebble/services/activity/activity_insights.c:1945
 msgid "Fat Burn"
 msgstr "Сжигание жира"
 
 #: pebble/apps/system/health/hr_detail_card.c:94
-#: pebble/services/activity/activity_insights.c:1892
+#: pebble/services/activity/activity_insights.c:1952
 msgid "Endurance"
 msgstr "Выносливость"
 
 #: pebble/apps/system/health/hr_detail_card.c:97
-#: pebble/services/activity/activity_insights.c:1899
+#: pebble/services/activity/activity_insights.c:1959
 msgid "Performance"
 msgstr "Эффективность"
 
@@ -979,7 +979,7 @@ msgid "Reminder"
 msgstr "Напоминание"
 
 #: pebble/apps/system/send_text/send_text.c:197
-#: pebble/apps/system/settings/health.c:155
+#: pebble/apps/system/settings/health.c:184
 #: pebble/services/phone_call/util.c:17
 msgid "Unknown"
 msgstr "Неизвестно"
@@ -1080,9 +1080,9 @@ msgstr "Также не забудьте отвязать ваши часы в B
 #: pebble/apps/system/settings/display.c:458
 #: pebble/apps/system/settings/display.c:690
 #: pebble/apps/system/settings/display.c:694
-#: pebble/apps/system/settings/health.c:148
-#: pebble/apps/system/settings/health.c:172
 #: pebble/apps/system/settings/health.c:177
+#: pebble/apps/system/settings/health.c:206
+#: pebble/apps/system/settings/health.c:211
 #: pebble/apps/system/settings/notifications.c:380
 #: pebble/apps/system/settings/quiet_time.c:492
 #: pebble/apps/system/settings/quiet_time.c:531
@@ -1101,9 +1101,9 @@ msgstr "Выкл"
 #: pebble/apps/system/settings/display.c:458
 #: pebble/apps/system/settings/display.c:690
 #: pebble/apps/system/settings/display.c:694
-#: pebble/apps/system/settings/health.c:148
-#: pebble/apps/system/settings/health.c:171
 #: pebble/apps/system/settings/health.c:177
+#: pebble/apps/system/settings/health.c:205
+#: pebble/apps/system/settings/health.c:211
 #: pebble/apps/system/settings/notifications.c:379
 #: pebble/apps/system/settings/quiet_time.c:530
 #: pebble/apps/system/settings/quiet_time.c:537
@@ -1266,6 +1266,7 @@ msgstr "Ярко"
 
 #: pebble/apps/system/settings/display.c:268
 #: pebble/apps/system/settings/display.c:294
+#: pebble/apps/system/settings/health.c:30
 msgid "Standard"
 msgstr "Стандартно"
 
@@ -1393,58 +1394,67 @@ msgstr "Километры"
 msgid "Miles"
 msgstr "Мили"
 
-#: pebble/apps/system/settings/health.c:35
+#: pebble/apps/system/settings/health.c:31
+msgid "Playful"
+msgstr ""
+
+#: pebble/apps/system/settings/health.c:42
 msgid "5 Minutes"
 msgstr "5 минут"
 
 #. / 10 Minute Notification Window Timeout
-#: pebble/apps/system/settings/health.c:35
-#: pebble/apps/system/settings/health.c:56
+#: pebble/apps/system/settings/health.c:42
+#: pebble/apps/system/settings/health.c:63
 #: pebble/apps/system/settings/notifications.c:159
 msgid "10 Minutes"
 msgstr "10 минут"
 
-#: pebble/apps/system/settings/health.c:35
-#: pebble/apps/system/settings/health.c:57
+#: pebble/apps/system/settings/health.c:42
+#: pebble/apps/system/settings/health.c:64
 msgid "30 Minutes"
 msgstr "30 минут"
 
-#: pebble/apps/system/settings/health.c:36
-#: pebble/apps/system/settings/health.c:58
+#: pebble/apps/system/settings/health.c:43
+#: pebble/apps/system/settings/health.c:65
 msgid "1 Hour"
 msgstr "1 час"
 
-#: pebble/apps/system/settings/health.c:36
-#: pebble/apps/system/settings/health.c:59
+#: pebble/apps/system/settings/health.c:43
+#: pebble/apps/system/settings/health.c:66
 #: pebble/apps/system/settings/system.c:555
 #: pebble/apps/system/settings/system.c:571
 #: pebble/apps/system/settings/system.c:574
 msgid "Disabled"
 msgstr "Отключено"
 
-#: pebble/apps/system/settings/health.c:100
-#: pebble/apps/system/settings/health.c:163
+#: pebble/apps/system/settings/health.c:106
+#: pebble/apps/system/settings/health.c:191
+msgid "Insights Style"
+msgstr ""
+
+#: pebble/apps/system/settings/health.c:129
+#: pebble/apps/system/settings/health.c:197
 msgid "HR Monitoring"
 msgstr "Мониторинг ЧСС"
 
-#: pebble/apps/system/settings/health.c:121
-#: pebble/apps/system/settings/health.c:181
+#: pebble/apps/system/settings/health.c:150
+#: pebble/apps/system/settings/health.c:215
 msgid "SpO2 Monitoring"
 msgstr "Мониторинг SpO2"
 
-#: pebble/apps/system/settings/health.c:147
+#: pebble/apps/system/settings/health.c:176
 msgid "Health Tracking"
 msgstr "Мониторинг здоровья"
 
-#: pebble/apps/system/settings/health.c:152
+#: pebble/apps/system/settings/health.c:181
 msgid "Distance Unit"
 msgstr "Единицы расстояния"
 
-#: pebble/apps/system/settings/health.c:170
+#: pebble/apps/system/settings/health.c:204
 msgid "HR During Activity"
 msgstr "ЧСС в активностях"
 
-#: pebble/apps/system/settings/health.c:176
+#: pebble/apps/system/settings/health.c:210
 msgid "SpO2"
 msgstr "SpO2"
 
@@ -2798,7 +2808,7 @@ msgstr ""
 "продолжить."
 
 #: pebble/apps/system/workout/utils.c:32
-#: pebble/services/activity/activity_insights.c:1271
+#: pebble/services/activity/activity_insights.c:1281
 #: pebble/services/notifications/ancs/ancs_item.c:157
 msgid "Dismiss"
 msgstr "Отклонить"
@@ -2814,19 +2824,19 @@ msgstr "Открыть тренировку"
 #. / Workout Label
 #: pebble/apps/system/workout/utils.c:95
 #: pebble/apps/system/workout/workout.c:269
-#: pebble/services/activity/activity_insights.c:1803
+#: pebble/services/activity/activity_insights.c:1863
 msgid "Workout"
 msgstr "Тренировка"
 
 #. / Walk Label
 #: pebble/apps/system/workout/utils.c:98
-#: pebble/services/activity/activity_insights.c:1801
+#: pebble/services/activity/activity_insights.c:1861
 msgid "Walk"
 msgstr "Ходьба"
 
 #. / Run Label
 #: pebble/apps/system/workout/utils.c:101
-#: pebble/services/activity/activity_insights.c:1799
+#: pebble/services/activity/activity_insights.c:1859
 msgid "Run"
 msgstr "Бег"
 
@@ -3086,7 +3096,7 @@ msgstr ""
 "сосредоточенным и творческим. Как себя чувствуете?"
 
 #: pebble/services/activity/activity_insights.c:215
-#: pebble/services/activity/activity_insights.c:988
+#: pebble/services/activity/activity_insights.c:998
 msgid "I feel great!"
 msgstr "Прекрасно!"
 
@@ -3190,60 +3200,76 @@ msgstr "%l:%M%p"
 msgid "%uH %uM Sleep"
 msgstr "Сон %uЧ %uМ"
 
-#: pebble/services/activity/activity_insights.c:909
+#: pebble/services/activity/activity_insights.c:911
+msgid "New day, new you! An early night gets you back on track 💪"
+msgstr ""
+
+#: pebble/services/activity/activity_insights.c:912
 msgid "Short night! Try going to bed a little earlier tonight."
 msgstr "Короткая ночь! Постарайтесь сегодня лечь спать пораньше."
 
-#: pebble/services/activity/activity_insights.c:912
+#: pebble/services/activity/activity_insights.c:916
+msgid "So close! A few more zzz's tonight and you're golden 😃"
+msgstr ""
+
+#: pebble/services/activity/activity_insights.c:917
 msgid "Almost there! A little more sleep tonight would help."
 msgstr "Почти! Ещё немного сна сегодня ночью может помочь."
 
-#: pebble/services/activity/activity_insights.c:917
+#: pebble/services/activity/activity_insights.c:923
+#, fuzzy
+#| msgid "A long night! Great for catching up; a steady routine helps most."
+msgid "Serious zzz's! Great for catching up; keep that routine steady."
+msgstr ""
+"Длинная ночь! Отлично для навёрстывания упущенного; чёткий распорядок дня "
+"помогает."
+
+#: pebble/services/activity/activity_insights.c:925
 msgid "A long night! Great for catching up; a steady routine helps most."
 msgstr ""
 "Длинная ночь! Отлично для навёрстывания упущенного; чёткий распорядок дня "
 "помогает."
 
-#: pebble/services/activity/activity_insights.c:948
+#: pebble/services/activity/activity_insights.c:958
 msgid "Nap Time"
 msgstr "Время сна"
 
-#: pebble/services/activity/activity_insights.c:957
+#: pebble/services/activity/activity_insights.c:967
 #, c-format
 msgid "%s of sleep"
 msgstr "%s сна"
 
-#: pebble/services/activity/activity_insights.c:963
+#: pebble/services/activity/activity_insights.c:973
 msgid "YOU NAPPED"
 msgstr "ВЫ ПОДРЕМАЛИ"
 
-#: pebble/services/activity/activity_insights.c:963
+#: pebble/services/activity/activity_insights.c:973
 msgid "Of napping"
 msgstr "дремоты"
 
-#: pebble/services/activity/activity_insights.c:971
+#: pebble/services/activity/activity_insights.c:981
 #, c-format
 msgid "%s - %s"
 msgstr "%s - %s"
 
-#: pebble/services/activity/activity_insights.c:992
+#: pebble/services/activity/activity_insights.c:1002
 msgid "I need more"
 msgstr "Нужно больше"
 
-#: pebble/services/activity/activity_insights.c:1022
+#: pebble/services/activity/activity_insights.c:1032
 #, c-format
 msgid "Aren't naps great? You knocked out for %dH %dM!"
 msgstr "Вздремнуть всегда здорово! Вы дремали %dH %dM!"
 
-#: pebble/services/activity/activity_insights.c:1038
+#: pebble/services/activity/activity_insights.c:1048
 msgid "I didn't nap!?"
 msgstr "Я не дремал!?"
 
-#: pebble/services/activity/activity_insights.c:1279
+#: pebble/services/activity/activity_insights.c:1289
 msgid "Open Pin"
 msgstr "Открыть пин"
 
-#: pebble/services/activity/activity_insights.c:1365
+#: pebble/services/activity/activity_insights.c:1375
 #, c-format
 msgid ""
 "Killer job! You've walked %d steps today which is %d%% above your typical. "
@@ -3252,7 +3278,7 @@ msgstr ""
 "Потрясающе! Сегодня вы сделали %d шагов, что на %d%% больше обычного. "
 "Повторите это завтра, и вы будете на вершине мира!"
 
-#: pebble/services/activity/activity_insights.c:1368
+#: pebble/services/activity/activity_insights.c:1378
 #, c-format
 msgid ""
 "Nice moves! You've walked %d steps today which is %d%% above your typical. "
@@ -3261,7 +3287,7 @@ msgstr ""
 "Классные движения! Сегодня вы сделали %d шагов, что на %d%% больше обычного. "
 "Отожгите так же завтра 😀"
 
-#: pebble/services/activity/activity_insights.c:1370
+#: pebble/services/activity/activity_insights.c:1380
 #, c-format
 msgid ""
 "Hey rockstar 🎤 You've walked %d steps today which is %d%% above your "
@@ -3270,7 +3296,7 @@ msgstr ""
 "Эй, рок-звезда 🎤 Сегодня вы сделали %d шагов, что на %d%% выше обычного. "
 "Ничто вас не остановит!"
 
-#: pebble/services/activity/activity_insights.c:1372
+#: pebble/services/activity/activity_insights.c:1382
 #, c-format
 msgid ""
 "We can barely keep up! You walked %d steps today which is %d%% above your "
@@ -3279,7 +3305,7 @@ msgstr ""
 "Мы еле успеваем! Сегодня вы сделали %d шагов, что на %d%% выше обычного. Вы "
 "🔥"
 
-#: pebble/services/activity/activity_insights.c:1375
+#: pebble/services/activity/activity_insights.c:1385
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% above your typical. You just "
@@ -3288,7 +3314,7 @@ msgstr ""
 "Сегодня вы прошли %d шагов, что на %d%% выше обычного. Вы обошли СЕБЯ. "
 "*Роняет микрофон*"
 
-#: pebble/services/activity/activity_insights.c:1384
+#: pebble/services/activity/activity_insights.c:1394
 #, c-format
 msgid ""
 "You walked %d steps today; keep it up! Being active is the key to feeling "
@@ -3297,19 +3323,19 @@ msgstr ""
 "Сегодня вы прошли %d шагов; продолжайте! Быть активным - ключ к ощущению "
 "себя на вес золота. Попробуйте превзойти себя завтра."
 
-#: pebble/services/activity/activity_insights.c:1387
+#: pebble/services/activity/activity_insights.c:1397
 #, c-format
 msgid "Good job! You walked %d steps today–do it again tomorrow."
 msgstr "Хорошая работа! Сегодня вы прошли %d шагов–повторите так же завтра."
 
-#: pebble/services/activity/activity_insights.c:1388
+#: pebble/services/activity/activity_insights.c:1398
 #, c-format
 msgid ""
 "Someone's on the move 👊 You walked %d steps today; keep doing what you're "
 "doing!"
 msgstr "Кое-кто в движении 👊 Сегодня вы прошли %d шагов; продолжайте так же!"
 
-#: pebble/services/activity/activity_insights.c:1391
+#: pebble/services/activity/activity_insights.c:1401
 #, c-format
 msgid ""
 "You keep moving, we'll keep counting! You've clocked in %d steps today. Keep "
@@ -3318,7 +3344,7 @@ msgstr ""
 "Вы ходите, мы считаем! Сегодня вы преодолели %d шагов. Продолжайте в том же "
 "духе, горячая штучка."
 
-#: pebble/services/activity/activity_insights.c:1400
+#: pebble/services/activity/activity_insights.c:1410
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% below your typical. Try to be more "
@@ -3327,7 +3353,7 @@ msgstr ""
 "Сегодня вы сделали %d шагов, что на %d%% ниже обычного. Попробуйте быть "
 "активнее завтра–вы сможете!"
 
-#: pebble/services/activity/activity_insights.c:1403
+#: pebble/services/activity/activity_insights.c:1413
 #, c-format
 msgid ""
 "You walked %d steps which is %d%% below your typical. Being active makes you "
@@ -3336,7 +3362,7 @@ msgstr ""
 "Сегодня вы сделали %d шагов, что на %d%% ниже обычного. Быть активным "
 "помогает чувствовать себя крууууче–постарайтесь вернуться в русло завтра."
 
-#: pebble/services/activity/activity_insights.c:1405
+#: pebble/services/activity/activity_insights.c:1415
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% below your typical. Don't worry, "
@@ -3345,7 +3371,7 @@ msgstr ""
 "Сегодня вы сделали %d шагов, что на %d%% ниже обычного. Не волнуйтесь, "
 "\"завтра\" уже не за горами 😀"
 
-#: pebble/services/activity/activity_insights.c:1407
+#: pebble/services/activity/activity_insights.c:1417
 #, c-format
 msgid ""
 "You walked %d steps which is %d%% below your typical, but don't stress. "
@@ -3354,7 +3380,7 @@ msgstr ""
 "Сегодня вы сделали %d шагов, что на %d%% ниже обычного. Но не волнуйтесь, "
 "завтра вы отожжёте 😉"
 
-#: pebble/services/activity/activity_insights.c:1414
+#: pebble/services/activity/activity_insights.c:1424
 #, c-format
 msgid ""
 "You walked %d steps today. Don't fret, you can get back on track in no time "
@@ -3363,12 +3389,12 @@ msgstr ""
 "Сегодня вы сделали %d шагов. Не волнуйтесь, вы сможете вернуться в русло в "
 "короткие сроки 😉"
 
-#: pebble/services/activity/activity_insights.c:1416
+#: pebble/services/activity/activity_insights.c:1426
 #, c-format
 msgid "You walked %d steps today. Good news is the sky's the limit!"
 msgstr "Сегодня вы сделали %d шагов. Хорошая новость: это не предел!"
 
-#: pebble/services/activity/activity_insights.c:1417
+#: pebble/services/activity/activity_insights.c:1427
 #, c-format
 msgid ""
 "You walked %d steps today. Try to take even more steps tomorrow–show us what "
@@ -3378,7 +3404,7 @@ msgstr ""
 "из чего вы сделаны!"
 
 #. / Sleep notification on wake up, slept under 6 hours
-#: pebble/services/activity/activity_insights.c:1467
+#: pebble/services/activity/activity_insights.c:1478
 #, c-format
 msgid ""
 "Short night? You slept for %dH %dM. Most adults need at least 7 hours, so "
@@ -3387,7 +3413,7 @@ msgstr ""
 "Короткая ночь? Вы спали %dч %dм. Большинству нужно хотя бы 7 часов, поэтому "
 "постарайтесь сегодня лечь спать пораньше."
 
-#: pebble/services/activity/activity_insights.c:1469
+#: pebble/services/activity/activity_insights.c:1480
 #, c-format
 msgid ""
 "You slept for %dH %dM. Sleep fuels everything you do; let's aim for more "
@@ -3397,14 +3423,14 @@ msgstr ""
 "подольше 😉"
 
 #. / Sleep notification on wake up, slept 6 to 7 hours, not below their typical
-#: pebble/services/activity/activity_insights.c:1477
+#: pebble/services/activity/activity_insights.c:1488
 #, c-format
 msgid ""
 "You slept for %dH %dM. You're close! A little extra tonight goes a long way."
 msgstr ""
 "Вы спали %dч %dм. Вы близко! Еще чуть больше поспите сегодня - и вы в деле."
 
-#: pebble/services/activity/activity_insights.c:1479
+#: pebble/services/activity/activity_insights.c:1490
 #, c-format
 msgid ""
 "Good morning! You slept for %dH %dM. Just a bit more sleep would help you "
@@ -3414,7 +3440,7 @@ msgstr ""
 "чувствовать себя лучше."
 
 #. / Sleep notification on wake up, slept 9 to 10 hours
-#: pebble/services/activity/activity_insights.c:1487
+#: pebble/services/activity/activity_insights.c:1498
 #, c-format
 msgid ""
 "You slept for %dH %dM. A long night can help you catch up after short ones; "
@@ -3423,7 +3449,7 @@ msgstr ""
 "Вы спали %dч %dм. Долгий сон поможет вам наверстать упущенное после "
 "короткого; главное соблюдать режим."
 
-#: pebble/services/activity/activity_insights.c:1489
+#: pebble/services/activity/activity_insights.c:1500
 #, c-format
 msgid ""
 "Well rested? You slept for %dH %dM. Extra sleep helps you recover, but most "
@@ -3432,7 +3458,7 @@ msgstr ""
 "Хорошо отдохнули? Вы спали %dч %dм. Дополнительный сон помогает "
 "восстановиться, но большинству достаточно 7-9 часов."
 
-#: pebble/services/activity/activity_insights.c:1498
+#: pebble/services/activity/activity_insights.c:1509
 #, c-format
 msgid ""
 "You slept for %dH %dM. That's a long night! Great for recovering, but a "
@@ -3441,7 +3467,7 @@ msgstr ""
 "Вы спали %dч %dм. Это была долгая ночь! Это хорошо для восстановления, но "
 "для лучшего самочувствия нужно ложиться и вставать в одно и то же время."
 
-#: pebble/services/activity/activity_insights.c:1501
+#: pebble/services/activity/activity_insights.c:1512
 #, c-format
 msgid ""
 "You slept for %dH %dM, more than most adults need. Catching up now and then "
@@ -3450,8 +3476,91 @@ msgstr ""
 "Вы спали %dч %dм, больше, чем нужно большинству людей. Иногда можно "
 "навёрстывать упущенное, но старайтесь придерживаться стабильного распорядка."
 
+#. / Playful sleep notification on wake up, slept under 6 hours
+#: pebble/services/activity/activity_insights.c:1521
+#, c-format
+msgid ""
+"New day, new you! You slept for %dH %dM. Tonight's a fresh shot at 7+ hours; "
+"go get 'em 💪"
+msgstr ""
+
+#: pebble/services/activity/activity_insights.c:1523
+#, fuzzy, c-format
+#| msgid ""
+#| "Short night? You slept for %dH %dM. Most adults need at least 7 hours, so "
+#| "try heading to bed earlier tonight."
+msgid ""
+"Good mornin'! You slept for %dH %dM. Most adults need at least 7 hours; an "
+"early night tonight and you'll be unstoppable 👊"
+msgstr ""
+"Короткая ночь? Вы спали %dч %dм. Большинству нужно хотя бы 7 часов, поэтому "
+"постарайтесь сегодня лечь спать пораньше."
+
+#. / Playful sleep notification on wake up, slept 6 to 7 hours, not below their typical
+#: pebble/services/activity/activity_insights.c:1531
+#, c-format
+msgid ""
+"Almost a full tank! You slept for %dH %dM. Bank a little extra shut eye "
+"tonight 😴"
+msgstr ""
+
+#: pebble/services/activity/activity_insights.c:1533
+#, c-format
+msgid ""
+"So close! You slept for %dH %dM. Squeeze in a few more zzz's tonight and "
+"you'll be golden 😃"
+msgstr ""
+
+#. / Playful sleep notification on wake up, slept 9 to 10 hours
+#: pebble/services/activity/activity_insights.c:1541
+#, fuzzy, c-format
+#| msgid ""
+#| "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above "
+#| "your typical. Keep it up."
+msgid ""
+"You caught some serious zzz's! You slept for %dH %dM. Great for catching up; "
+"keep that routine steady."
+msgstr "Вы спали как мёртвый %dч %dм, что на %d%% выше обычного. Продолжайте."
+
+#: pebble/services/activity/activity_insights.c:1543
+#, fuzzy, c-format
+#| msgid ""
+#| "Well rested? You slept for %dH %dM. Extra sleep helps you recover, but "
+#| "most adults do best with 7 to 9 hours."
+msgid ""
+"Mmmm...what a night. You slept for %dH %dM. Extra sleep helps you recover, "
+"but most adults do best with 7 to 9 hours."
+msgstr ""
+"Хорошо отдохнули? Вы спали %dч %dм. Дополнительный сон помогает "
+"восстановиться, но большинству достаточно 7-9 часов."
+
+#. / Playful sleep notification on wake up, slept 10 hours or more
+#: pebble/services/activity/activity_insights.c:1551
+#, fuzzy, c-format
+#| msgid ""
+#| "You slept for %dH %dM. That's a long night! Great for recovering, but a "
+#| "regular bedtime and wake time will help you feel your best."
+msgid ""
+"Whoa, epic snooze! You slept for %dH %dM. Catching up is cool; a regular "
+"bedtime and wake time keep you at your best."
+msgstr ""
+"Вы спали %dч %dм. Это была долгая ночь! Это хорошо для восстановления, но "
+"для лучшего самочувствия нужно ложиться и вставать в одно и то же время."
+
+#: pebble/services/activity/activity_insights.c:1553
+#, fuzzy, c-format
+#| msgid ""
+#| "You slept for %dH %dM, more than most adults need. Catching up now and "
+#| "then is fine; try to keep a steady routine."
+msgid ""
+"That's a lot of sheep you just counted! You slept for %dH %dM, more than "
+"most adults need. Catching up is fine; try to keep a steady routine."
+msgstr ""
+"Вы спали %dч %dм, больше, чем нужно большинству людей. Иногда можно "
+"навёрстывать упущенное, но старайтесь придерживаться стабильного распорядка."
+
 #. / Sleep notification on wake up, slept above their typical sleep duration
-#: pebble/services/activity/activity_insights.c:1512
+#: pebble/services/activity/activity_insights.c:1564
 #, c-format
 msgid ""
 "Refreshed? You slept for %dH %dM which is %d%% above your typical. Go tackle "
@@ -3460,14 +3569,14 @@ msgstr ""
 "Отдохнули? Вы спали %dч %dм, что на %d%% выше обычного. Вперёд в новый день "
 "😃"
 
-#: pebble/services/activity/activity_insights.c:1515
+#: pebble/services/activity/activity_insights.c:1567
 #, c-format
 msgid ""
 "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above your "
 "typical. Keep it up."
 msgstr "Вы спали как мёртвый %dч %dм, что на %d%% выше обычного. Продолжайте."
 
-#: pebble/services/activity/activity_insights.c:1518
+#: pebble/services/activity/activity_insights.c:1570
 #, c-format
 msgid ""
 "Rise and shine! You slept for %dH %dM which is %d%% above your typical. Do "
@@ -3476,7 +3585,7 @@ msgstr ""
 "Проснитесь и пойте! Вы спали %dч %dм, что на %d%% выше обычного. Поспите так "
 "же завтра, мастер снов."
 
-#: pebble/services/activity/activity_insights.c:1521
+#: pebble/services/activity/activity_insights.c:1573
 #, c-format
 msgid ""
 "Mmmm...what a night. You slept for %dH %dM which is %d%% above your typical. "
@@ -3485,7 +3594,7 @@ msgstr ""
 "Ммм...ну и ночь. Вы спали %dч %dм, что на %d%% выше обычного. Должно быть по "
 "ощущениям это хорошо!"
 
-#: pebble/services/activity/activity_insights.c:1524
+#: pebble/services/activity/activity_insights.c:1576
 #, c-format
 msgid ""
 "That's a lot of sheep you just counted! You slept for %dH %dM which is %d%% "
@@ -3495,7 +3604,7 @@ msgstr ""
 "шакалака."
 
 #. / Sleep notification on wake up, slept similar to their typical sleep duration
-#: pebble/services/activity/activity_insights.c:1534
+#: pebble/services/activity/activity_insights.c:1586
 #, c-format
 msgid ""
 "Good mornin’. You slept for %dH %dM. Every good day begins with a solid "
@@ -3504,7 +3613,7 @@ msgstr ""
 "Доброе утро. Вы спали %dч %dм. Каждый хороший день начинается с крепкого "
 "сна...вроде этого 😉 Продолжайте!"
 
-#: pebble/services/activity/activity_insights.c:1537
+#: pebble/services/activity/activity_insights.c:1589
 #, c-format
 msgid ""
 "Good morning! You slept for %dH %dM. Consistency is key; keep doing what "
@@ -3512,7 +3621,7 @@ msgid ""
 msgstr ""
 "Доброе утро! Вы спали %dч %dм. Постоянство это ключ; продолжайте так же 😃"
 
-#: pebble/services/activity/activity_insights.c:1540
+#: pebble/services/activity/activity_insights.c:1592
 #, c-format
 msgid ""
 "You're rockin' the shut eye! You slept for %dH %dM. Make it a nightly "
@@ -3521,14 +3630,14 @@ msgstr ""
 "Звезда закрытых глаз! Вы спали %dч %dм. Пора сделать это еженочным ритуалом. "
 "Вы заслужили это."
 
-#: pebble/services/activity/activity_insights.c:1542
+#: pebble/services/activity/activity_insights.c:1594
 #, c-format
 msgid "Feelin' good? You slept for %dH %dM. Nothing can stop you now 👊"
 msgstr ""
 "Чувствуете себя хорошо? Вы спали %dч %dм. Теперь ничто вас не остановит 👊"
 
 #. / Sleep notification on wake up, slept below their typical sleep duration
-#: pebble/services/activity/activity_insights.c:1551
+#: pebble/services/activity/activity_insights.c:1603
 #, c-format
 msgid ""
 "Hey sleepy head. You slept for %dH %dM which is %d%% below your typical. Try "
@@ -3537,7 +3646,7 @@ msgstr ""
 "Эй, соня. Вы спали %dч %dм, что на %d%% ниже обычного. Постарайтесь ночью "
 "поспать подольше!"
 
-#: pebble/services/activity/activity_insights.c:1554
+#: pebble/services/activity/activity_insights.c:1606
 #, c-format
 msgid ""
 "Groggy? You slept for %dH %dM which is %d%% below your typical. Sleep is "
@@ -3546,7 +3655,7 @@ msgstr ""
 "Сонливость? Вы спали %dч %dм, что на %d%% ниже обычного. Сон важен для "
 "всего, что вы делаете-постарайтесь ночью побольше поспать!"
 
-#: pebble/services/activity/activity_insights.c:1557
+#: pebble/services/activity/activity_insights.c:1609
 #, c-format
 msgid ""
 "It's a new day! You slept for %dH %dM which is %d%% below your typical. It's "
@@ -3555,7 +3664,7 @@ msgstr ""
 "Новый день! Вы спали %dч %dм, что на %d%% ниже обычного. Не лучший "
 "результат, но всегда есть ещё ночь."
 
-#: pebble/services/activity/activity_insights.c:1560
+#: pebble/services/activity/activity_insights.c:1612
 #, c-format
 msgid ""
 "Goooood morning! You slept for %dH %dM which is %d%% below your typical. Go "
@@ -3564,7 +3673,7 @@ msgstr ""
 "Доооброе утроо! Вы спали %dч %dм, что на %d%% ниже обычного. Отожгите этим "
 "днём и возвращайтесь в постель 😉"
 
-#: pebble/services/activity/activity_insights.c:1567
+#: pebble/services/activity/activity_insights.c:1619
 #, c-format
 msgid ""
 "You slept for %dH %dM which is %d%% below your typical. Sleep is vital for "
@@ -3573,7 +3682,7 @@ msgstr ""
 "Вы спали %dч %dм, что на %d%% ниже обычного. Сон необходим для крутых идей–"
 "как насчёт поспать сегодня подольше?"
 
-#: pebble/services/activity/activity_insights.c:1569
+#: pebble/services/activity/activity_insights.c:1621
 #, c-format
 msgid ""
 "You only slept for %dH %dM which is %d%% below your typical. We know you're "
@@ -3582,7 +3691,7 @@ msgstr ""
 "Вы спали всего %dч %dм, что на %d%% ниже обычного. Мы знаем, что вы заняты, "
 "но постарайтесь ночью хорошенько поспать. Мы верим в вас 😉"
 
-#: pebble/services/activity/activity_insights.c:1571
+#: pebble/services/activity/activity_insights.c:1623
 #, c-format
 msgid ""
 "You slept for %dH %dM which is %d%% below your typical. We know stuff "
@@ -3591,92 +3700,92 @@ msgstr ""
 "Вы спали %dч %dм, что на %d%% ниже обычного. Мы знаем, всякое бывает; "
 "сделайте новую попытку этой ночью."
 
-#: pebble/services/activity/activity_insights.c:1650
+#: pebble/services/activity/activity_insights.c:1710
 #, c-format
 msgid "%u Steps"
 msgstr "%u шагов"
 
-#: pebble/services/activity/activity_insights.c:1732
+#: pebble/services/activity/activity_insights.c:1792
 msgid "Didn’t that walk feel good?"
 msgstr "Классная прогулка?"
 
-#: pebble/services/activity/activity_insights.c:1733
+#: pebble/services/activity/activity_insights.c:1793
 msgid "Way to keep it active!"
 msgstr "Вот как надо быть активным!"
 
-#: pebble/services/activity/activity_insights.c:1734
+#: pebble/services/activity/activity_insights.c:1794
 msgid "You got the moves!"
 msgstr "Вот так надо двигаться!"
 
-#: pebble/services/activity/activity_insights.c:1735
+#: pebble/services/activity/activity_insights.c:1795
 msgid "Gettin' your step on?"
 msgstr "Набираете обороты?"
 
-#: pebble/services/activity/activity_insights.c:1745
+#: pebble/services/activity/activity_insights.c:1805
 msgid "Feelin' hot? Cause you're on 🔥"
 msgstr "Жарко? Потому что вы 🔥"
 
-#: pebble/services/activity/activity_insights.c:1746
+#: pebble/services/activity/activity_insights.c:1806
 msgid "Hey lightning bolt, way to go!"
 msgstr "Эй, молния, так держать!"
 
-#: pebble/services/activity/activity_insights.c:1747
+#: pebble/services/activity/activity_insights.c:1807
 msgid "You're a machine!"
 msgstr "Вы машина!"
 
-#: pebble/services/activity/activity_insights.c:1748
+#: pebble/services/activity/activity_insights.c:1808
 msgid "Hey speedster, we can barely keep up!"
 msgstr "Эй гонщик, мы едва поспеваем за вами!"
 
-#: pebble/services/activity/activity_insights.c:1749
+#: pebble/services/activity/activity_insights.c:1809
 msgid "Way to show us what you're made of 👊"
 msgstr "Вот как надо доказывать из чего вы сделаны 👊"
 
-#: pebble/services/activity/activity_insights.c:1759
+#: pebble/services/activity/activity_insights.c:1819
 msgid "Workin' up a sweat?"
 msgstr "Работаете в поте лица?"
 
-#: pebble/services/activity/activity_insights.c:1760
+#: pebble/services/activity/activity_insights.c:1820
 msgid "Well done 💪"
 msgstr "Отлично 💪"
 
-#: pebble/services/activity/activity_insights.c:1761
+#: pebble/services/activity/activity_insights.c:1821
 msgid "Endorphin rush?"
 msgstr "Всплеск эндорфинов?"
 
-#: pebble/services/activity/activity_insights.c:1762
+#: pebble/services/activity/activity_insights.c:1822
 msgid "Can't stop, won't stop 👊"
 msgstr "Не могу и не хочу останавливаться 👊"
 
-#: pebble/services/activity/activity_insights.c:1763
+#: pebble/services/activity/activity_insights.c:1823
 msgid "Keepin' that heart healthy! ❤"
 msgstr "Держим сердце здоровым! ❤"
 
-#: pebble/services/activity/activity_insights.c:1792
-#: pebble/services/activity/activity_insights.c:1884
-#: pebble/services/activity/activity_insights.c:1891
-#: pebble/services/activity/activity_insights.c:1898
+#: pebble/services/activity/activity_insights.c:1852
+#: pebble/services/activity/activity_insights.c:1944
+#: pebble/services/activity/activity_insights.c:1951
+#: pebble/services/activity/activity_insights.c:1958
 #, c-format
 msgid "%d Min"
 msgstr "%d мин"
 
-#: pebble/services/activity/activity_insights.c:1821
+#: pebble/services/activity/activity_insights.c:1881
 msgid "Avg Pace"
 msgstr "Ср Темп"
 
-#: pebble/services/activity/activity_insights.c:1837
+#: pebble/services/activity/activity_insights.c:1897
 msgid "Distance"
 msgstr "Дистанция"
 
-#: pebble/services/activity/activity_insights.c:1849
+#: pebble/services/activity/activity_insights.c:1909
 msgid "Steps"
 msgstr "Шаги"
 
-#: pebble/services/activity/activity_insights.c:1863
+#: pebble/services/activity/activity_insights.c:1923
 msgid "Active Calories"
 msgstr "Активные калории"
 
-#: pebble/services/activity/activity_insights.c:1876
+#: pebble/services/activity/activity_insights.c:1936
 msgid "Avg HR"
 msgstr "Ср ЧСС"
 

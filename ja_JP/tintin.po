@@ -727,12 +727,12 @@ msgid "kcal"
 msgstr "kcal"
 
 #: pebble/apps/system/health/activity_detail_card.c:48
-#: pebble/services/activity/activity_insights.c:1779
+#: pebble/services/activity/activity_insights.c:1839
 msgid "mi"
 msgstr "mi"
 
 #: pebble/apps/system/health/activity_detail_card.c:48
-#: pebble/services/activity/activity_insights.c:1780
+#: pebble/services/activity/activity_insights.c:1840
 msgid "km"
 msgstr "km"
 
@@ -796,7 +796,7 @@ msgstr ""
 "い。"
 
 #: pebble/apps/system/health/health.c:187
-#: pebble/apps/system/settings/health.c:266
+#: pebble/apps/system/settings/health.c:303
 #: pebble/services/timeline/timeline.c:943
 msgid "Health"
 msgstr "ヘルス"
@@ -820,17 +820,17 @@ msgid "%d–%d BPM"
 msgstr "%d～%d回/分"
 
 #: pebble/apps/system/health/hr_detail_card.c:91
-#: pebble/services/activity/activity_insights.c:1885
+#: pebble/services/activity/activity_insights.c:1945
 msgid "Fat Burn"
 msgstr "脂肪燃焼"
 
 #: pebble/apps/system/health/hr_detail_card.c:94
-#: pebble/services/activity/activity_insights.c:1892
+#: pebble/services/activity/activity_insights.c:1952
 msgid "Endurance"
 msgstr "持久力"
 
 #: pebble/apps/system/health/hr_detail_card.c:97
-#: pebble/services/activity/activity_insights.c:1899
+#: pebble/services/activity/activity_insights.c:1959
 msgid "Performance"
 msgstr "高強度"
 
@@ -977,7 +977,7 @@ msgid "Reminder"
 msgstr "リマインダー"
 
 #: pebble/apps/system/send_text/send_text.c:197
-#: pebble/apps/system/settings/health.c:155
+#: pebble/apps/system/settings/health.c:184
 #: pebble/services/phone_call/util.c:17
 msgid "Unknown"
 msgstr "不明"
@@ -1078,9 +1078,9 @@ msgstr "スマホのBluetooth設定でもPebbleの登録を解除してくださ
 #: pebble/apps/system/settings/display.c:458
 #: pebble/apps/system/settings/display.c:690
 #: pebble/apps/system/settings/display.c:694
-#: pebble/apps/system/settings/health.c:148
-#: pebble/apps/system/settings/health.c:172
 #: pebble/apps/system/settings/health.c:177
+#: pebble/apps/system/settings/health.c:206
+#: pebble/apps/system/settings/health.c:211
 #: pebble/apps/system/settings/notifications.c:380
 #: pebble/apps/system/settings/quiet_time.c:492
 #: pebble/apps/system/settings/quiet_time.c:531
@@ -1099,9 +1099,9 @@ msgstr "オフ"
 #: pebble/apps/system/settings/display.c:458
 #: pebble/apps/system/settings/display.c:690
 #: pebble/apps/system/settings/display.c:694
-#: pebble/apps/system/settings/health.c:148
-#: pebble/apps/system/settings/health.c:171
 #: pebble/apps/system/settings/health.c:177
+#: pebble/apps/system/settings/health.c:205
+#: pebble/apps/system/settings/health.c:211
 #: pebble/apps/system/settings/notifications.c:379
 #: pebble/apps/system/settings/quiet_time.c:530
 #: pebble/apps/system/settings/quiet_time.c:537
@@ -1264,6 +1264,7 @@ msgstr "明るめ"
 
 #: pebble/apps/system/settings/display.c:268
 #: pebble/apps/system/settings/display.c:294
+#: pebble/apps/system/settings/health.c:30
 msgid "Standard"
 msgstr "標準"
 
@@ -1391,58 +1392,67 @@ msgstr "km"
 msgid "Miles"
 msgstr "マイル"
 
-#: pebble/apps/system/settings/health.c:35
+#: pebble/apps/system/settings/health.c:31
+msgid "Playful"
+msgstr ""
+
+#: pebble/apps/system/settings/health.c:42
 msgid "5 Minutes"
 msgstr "5分"
 
 #. / 10 Minute Notification Window Timeout
-#: pebble/apps/system/settings/health.c:35
-#: pebble/apps/system/settings/health.c:56
+#: pebble/apps/system/settings/health.c:42
+#: pebble/apps/system/settings/health.c:63
 #: pebble/apps/system/settings/notifications.c:159
 msgid "10 Minutes"
 msgstr "10分"
 
-#: pebble/apps/system/settings/health.c:35
-#: pebble/apps/system/settings/health.c:57
+#: pebble/apps/system/settings/health.c:42
+#: pebble/apps/system/settings/health.c:64
 msgid "30 Minutes"
 msgstr "30分"
 
-#: pebble/apps/system/settings/health.c:36
-#: pebble/apps/system/settings/health.c:58
+#: pebble/apps/system/settings/health.c:43
+#: pebble/apps/system/settings/health.c:65
 msgid "1 Hour"
 msgstr "1時間"
 
-#: pebble/apps/system/settings/health.c:36
-#: pebble/apps/system/settings/health.c:59
+#: pebble/apps/system/settings/health.c:43
+#: pebble/apps/system/settings/health.c:66
 #: pebble/apps/system/settings/system.c:555
 #: pebble/apps/system/settings/system.c:571
 #: pebble/apps/system/settings/system.c:574
 msgid "Disabled"
 msgstr "無効"
 
-#: pebble/apps/system/settings/health.c:100
-#: pebble/apps/system/settings/health.c:163
+#: pebble/apps/system/settings/health.c:106
+#: pebble/apps/system/settings/health.c:191
+msgid "Insights Style"
+msgstr ""
+
+#: pebble/apps/system/settings/health.c:129
+#: pebble/apps/system/settings/health.c:197
 msgid "HR Monitoring"
 msgstr "心拍測定"
 
-#: pebble/apps/system/settings/health.c:121
-#: pebble/apps/system/settings/health.c:181
+#: pebble/apps/system/settings/health.c:150
+#: pebble/apps/system/settings/health.c:215
 msgid "SpO2 Monitoring"
 msgstr "SpO2測定"
 
-#: pebble/apps/system/settings/health.c:147
+#: pebble/apps/system/settings/health.c:176
 msgid "Health Tracking"
 msgstr "健康記録"
 
-#: pebble/apps/system/settings/health.c:152
+#: pebble/apps/system/settings/health.c:181
 msgid "Distance Unit"
 msgstr "距離単位"
 
-#: pebble/apps/system/settings/health.c:170
+#: pebble/apps/system/settings/health.c:204
 msgid "HR During Activity"
 msgstr "運動時心拍"
 
-#: pebble/apps/system/settings/health.c:176
+#: pebble/apps/system/settings/health.c:210
 msgid "SpO2"
 msgstr "SpO2"
 
@@ -2874,7 +2884,7 @@ msgstr ""
 "開いてください。"
 
 #: pebble/apps/system/workout/utils.c:32
-#: pebble/services/activity/activity_insights.c:1271
+#: pebble/services/activity/activity_insights.c:1281
 #: pebble/services/notifications/ancs/ancs_item.c:157
 msgid "Dismiss"
 msgstr "閉じる"
@@ -2890,19 +2900,19 @@ msgstr "運動画面を開く"
 #. / Workout Label
 #: pebble/apps/system/workout/utils.c:95
 #: pebble/apps/system/workout/workout.c:269
-#: pebble/services/activity/activity_insights.c:1803
+#: pebble/services/activity/activity_insights.c:1863
 msgid "Workout"
 msgstr "運動"
 
 #. / Walk Label
 #: pebble/apps/system/workout/utils.c:98
-#: pebble/services/activity/activity_insights.c:1801
+#: pebble/services/activity/activity_insights.c:1861
 msgid "Walk"
 msgstr "ウォーキング"
 
 #. / Run Label
 #: pebble/apps/system/workout/utils.c:101
-#: pebble/services/activity/activity_insights.c:1799
+#: pebble/services/activity/activity_insights.c:1859
 msgid "Run"
 msgstr "ランニング"
 
@@ -3161,7 +3171,7 @@ msgstr ""
 "気分はどうですか？"
 
 #: pebble/services/activity/activity_insights.c:215
-#: pebble/services/activity/activity_insights.c:988
+#: pebble/services/activity/activity_insights.c:998
 msgid "I feel great!"
 msgstr "とてもいい気分！"
 
@@ -3265,60 +3275,76 @@ msgstr "%p%l:%M"
 msgid "%uH %uM Sleep"
 msgstr "%u時間%u分"
 
-#: pebble/services/activity/activity_insights.c:909
+#: pebble/services/activity/activity_insights.c:911
+msgid "New day, new you! An early night gets you back on track 💪"
+msgstr ""
+
+#: pebble/services/activity/activity_insights.c:912
 msgid "Short night! Try going to bed a little earlier tonight."
 msgstr "昨夜は睡眠時間が短めでした。今夜は少し早めに寝てみましょう。"
 
-#: pebble/services/activity/activity_insights.c:912
+#: pebble/services/activity/activity_insights.c:916
+msgid "So close! A few more zzz's tonight and you're golden 😃"
+msgstr ""
+
+#: pebble/services/activity/activity_insights.c:917
 msgid "Almost there! A little more sleep tonight would help."
 msgstr "あと少し！今夜はもう少し長く眠ってみましょう。"
 
-#: pebble/services/activity/activity_insights.c:917
+#: pebble/services/activity/activity_insights.c:923
+#, fuzzy
+#| msgid "A long night! Great for catching up; a steady routine helps most."
+msgid "Serious zzz's! Great for catching up; keep that routine steady."
+msgstr ""
+"たっぷり眠れましたね！睡眠不足の解消にはいいですが、普段から規則正しく眠るこ"
+"とが大切です。"
+
+#: pebble/services/activity/activity_insights.c:925
 msgid "A long night! Great for catching up; a steady routine helps most."
 msgstr ""
 "たっぷり眠れましたね！睡眠不足の解消にはいいですが、普段から規則正しく眠るこ"
 "とが大切です。"
 
-#: pebble/services/activity/activity_insights.c:948
+#: pebble/services/activity/activity_insights.c:958
 msgid "Nap Time"
 msgstr "お昼寝の時間"
 
-#: pebble/services/activity/activity_insights.c:957
+#: pebble/services/activity/activity_insights.c:967
 #, c-format
 msgid "%s of sleep"
 msgstr "%sの睡眠"
 
-#: pebble/services/activity/activity_insights.c:963
+#: pebble/services/activity/activity_insights.c:973
 msgid "YOU NAPPED"
 msgstr "お昼寝しました"
 
-#: pebble/services/activity/activity_insights.c:963
+#: pebble/services/activity/activity_insights.c:973
 msgid "Of napping"
 msgstr "お昼寝の時間"
 
-#: pebble/services/activity/activity_insights.c:971
+#: pebble/services/activity/activity_insights.c:981
 #, c-format
 msgid "%s - %s"
 msgstr "%s～%s"
 
-#: pebble/services/activity/activity_insights.c:992
+#: pebble/services/activity/activity_insights.c:1002
 msgid "I need more"
 msgstr "もっと眠りたい"
 
-#: pebble/services/activity/activity_insights.c:1022
+#: pebble/services/activity/activity_insights.c:1032
 #, c-format
 msgid "Aren't naps great? You knocked out for %dH %dM!"
 msgstr "お昼寝っていいですよね！%d時間%d分、ぐっすり眠りました！"
 
-#: pebble/services/activity/activity_insights.c:1038
+#: pebble/services/activity/activity_insights.c:1048
 msgid "I didn't nap!?"
 msgstr "昼寝してないけど！？"
 
-#: pebble/services/activity/activity_insights.c:1279
+#: pebble/services/activity/activity_insights.c:1289
 msgid "Open Pin"
 msgstr "項目を開く"
 
-#: pebble/services/activity/activity_insights.c:1365
+#: pebble/services/activity/activity_insights.c:1375
 #, c-format
 msgid ""
 "Killer job! You've walked %d steps today which is %d%% above your typical. "
@@ -3327,14 +3353,14 @@ msgstr ""
 "やりましたね！今日は%d歩、いつもの平均より%d%%多く歩きました。明日も続けて、"
 "さらに調子を上げましょう！"
 
-#: pebble/services/activity/activity_insights.c:1368
+#: pebble/services/activity/activity_insights.c:1378
 #, c-format
 msgid ""
 "Nice moves! You've walked %d steps today which is %d%% above your typical. "
 "Crush it again tomorrow 😀"
 msgstr "いい調子！今日は%d歩、いつもの平均より%d%%多く歩きました。明日もこの調子で 😀"
 
-#: pebble/services/activity/activity_insights.c:1370
+#: pebble/services/activity/activity_insights.c:1380
 #, c-format
 msgid ""
 "Hey rockstar 🎤 You've walked %d steps today which is %d%% above your "
@@ -3343,7 +3369,7 @@ msgstr ""
 "今日も絶好調！🎤 %d歩も歩いて、いつもの平均を%d%%上回りました。もう誰にも止め"
 "られません！"
 
-#: pebble/services/activity/activity_insights.c:1372
+#: pebble/services/activity/activity_insights.c:1382
 #, c-format
 msgid ""
 "We can barely keep up! You walked %d steps today which is %d%% above your "
@@ -3352,14 +3378,14 @@ msgstr ""
 "ついていくのが大変なくらい！今日は%d歩、いつもの平均より%d%%多く歩きました。"
 "燃えていますね 🔥"
 
-#: pebble/services/activity/activity_insights.c:1375
+#: pebble/services/activity/activity_insights.c:1385
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% above your typical. You just "
 "outstepped YOURSELF. Mic drop."
 msgstr "今日は%d歩、いつもの平均より%d%%多く歩きました。自分の記録を超えましたね。"
 
-#: pebble/services/activity/activity_insights.c:1384
+#: pebble/services/activity/activity_insights.c:1394
 #, c-format
 msgid ""
 "You walked %d steps today; keep it up! Being active is the key to feeling "
@@ -3368,26 +3394,26 @@ msgstr ""
 "今日は%d歩！その調子で続けましょう。体を動かすと気分も上がります。明日はいつ"
 "もの平均を超えてみましょう。"
 
-#: pebble/services/activity/activity_insights.c:1387
+#: pebble/services/activity/activity_insights.c:1397
 #, c-format
 msgid "Good job! You walked %d steps today–do it again tomorrow."
 msgstr "よく頑張りました！今日は%d歩。明日も続けましょう。"
 
-#: pebble/services/activity/activity_insights.c:1388
+#: pebble/services/activity/activity_insights.c:1398
 #, c-format
 msgid ""
 "Someone's on the move 👊 You walked %d steps today; keep doing what you're "
 "doing!"
 msgstr "今日もアクティブですね 👊 %d歩も歩きました。その調子です！"
 
-#: pebble/services/activity/activity_insights.c:1391
+#: pebble/services/activity/activity_insights.c:1401
 #, c-format
 msgid ""
 "You keep moving, we'll keep counting! You've clocked in %d steps today. Keep "
 "it rolling, hot stuff."
 msgstr "歩き続ける限り、こちらも数え続けます！今日は%d歩。この調子でいきましょう。"
 
-#: pebble/services/activity/activity_insights.c:1400
+#: pebble/services/activity/activity_insights.c:1410
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% below your typical. Try to be more "
@@ -3396,7 +3422,7 @@ msgstr ""
 "今日は%d歩で、いつもの平均より%d%%少なめでした。明日はもう少し動いてみましょ"
 "う。きっとできます！"
 
-#: pebble/services/activity/activity_insights.c:1403
+#: pebble/services/activity/activity_insights.c:1413
 #, c-format
 msgid ""
 "You walked %d steps which is %d%% below your typical. Being active makes you "
@@ -3405,7 +3431,7 @@ msgstr ""
 "今日は%d歩で、いつもの平均より%d%%少なめでした。体を動かすと気分もよくなりま"
 "す。明日はいつものペースを取り戻しましょう。"
 
-#: pebble/services/activity/activity_insights.c:1405
+#: pebble/services/activity/activity_insights.c:1415
 #, c-format
 msgid ""
 "You walked %d steps today which is %d%% below your typical. Don't worry, "
@@ -3414,7 +3440,7 @@ msgstr ""
 "今日は%d歩で、いつもの平均より%d%%少なめでした。でも大丈夫。明日はまた新しい"
 "一日です 😀"
 
-#: pebble/services/activity/activity_insights.c:1407
+#: pebble/services/activity/activity_insights.c:1417
 #, c-format
 msgid ""
 "You walked %d steps which is %d%% below your typical, but don't stress. "
@@ -3423,19 +3449,19 @@ msgstr ""
 "今日は%d歩、いつもの平均より%d%%少なめでした。気にしすぎず、明日また頑張りま"
 "しょう 😉"
 
-#: pebble/services/activity/activity_insights.c:1414
+#: pebble/services/activity/activity_insights.c:1424
 #, c-format
 msgid ""
 "You walked %d steps today. Don't fret, you can get back on track in no time "
 "😉"
 msgstr "今日は%d歩。焦らず、また自分のペースに戻していきましょう 😉"
 
-#: pebble/services/activity/activity_insights.c:1416
+#: pebble/services/activity/activity_insights.c:1426
 #, c-format
 msgid "You walked %d steps today. Good news is the sky's the limit!"
 msgstr "今日は%d歩。これからいくらでも伸ばせますよ！"
 
-#: pebble/services/activity/activity_insights.c:1417
+#: pebble/services/activity/activity_insights.c:1427
 #, c-format
 msgid ""
 "You walked %d steps today. Try to take even more steps tomorrow–show us what "
@@ -3443,7 +3469,7 @@ msgid ""
 msgstr "今日は%d歩。明日はもう少し歩いて、自分の力を試してみましょう！"
 
 #. / Sleep notification on wake up, slept under 6 hours
-#: pebble/services/activity/activity_insights.c:1467
+#: pebble/services/activity/activity_insights.c:1478
 #, c-format
 msgid ""
 "Short night? You slept for %dH %dM. Most adults need at least 7 hours, so "
@@ -3452,7 +3478,7 @@ msgstr ""
 "昨夜は睡眠時間が短めでしたね。%d時間%d分眠りました。大人は一般に7時間以上の睡"
 "眠が必要です。今夜は少し早めに寝てみましょう。"
 
-#: pebble/services/activity/activity_insights.c:1469
+#: pebble/services/activity/activity_insights.c:1480
 #, c-format
 msgid ""
 "You slept for %dH %dM. Sleep fuels everything you do; let's aim for more "
@@ -3462,7 +3488,7 @@ msgstr ""
 "てみましょう😉"
 
 #. / Sleep notification on wake up, slept 6 to 7 hours, not below their typical
-#: pebble/services/activity/activity_insights.c:1477
+#: pebble/services/activity/activity_insights.c:1488
 #, c-format
 msgid ""
 "You slept for %dH %dM. You're close! A little extra tonight goes a long way."
@@ -3470,7 +3496,7 @@ msgstr ""
 "昨夜は%d時間%d分眠りました。あと少し！今夜もう少し長く眠るだけでも、きっと違"
 "いを感じられますよ。"
 
-#: pebble/services/activity/activity_insights.c:1479
+#: pebble/services/activity/activity_insights.c:1490
 #, c-format
 msgid ""
 "Good morning! You slept for %dH %dM. Just a bit more sleep would help you "
@@ -3480,7 +3506,7 @@ msgstr ""
 "気に過ごせそうですね。"
 
 #. / Sleep notification on wake up, slept 9 to 10 hours
-#: pebble/services/activity/activity_insights.c:1487
+#: pebble/services/activity/activity_insights.c:1498
 #, c-format
 msgid ""
 "You slept for %dH %dM. A long night can help you catch up after short ones; "
@@ -3489,7 +3515,7 @@ msgstr ""
 "昨夜は%d時間%d分眠りました。長めの睡眠は寝不足を補うのに役立ちますが、何より"
 "大切なのは規則正しい睡眠習慣です。"
 
-#: pebble/services/activity/activity_insights.c:1489
+#: pebble/services/activity/activity_insights.c:1500
 #, c-format
 msgid ""
 "Well rested? You slept for %dH %dM. Extra sleep helps you recover, but most "
@@ -3498,7 +3524,7 @@ msgstr ""
 "よく眠れましたか？昨夜は%d時間%d分眠りました。長めの睡眠は疲労回復に役立ちま"
 "すが、多くの大人には7～9時間の睡眠が適しています。"
 
-#: pebble/services/activity/activity_insights.c:1498
+#: pebble/services/activity/activity_insights.c:1509
 #, c-format
 msgid ""
 "You slept for %dH %dM. That's a long night! Great for recovering, but a "
@@ -3507,7 +3533,7 @@ msgstr ""
 "昨夜は%d時間%d分眠りました。たっぷり眠れましたね！疲労回復にはいいですが、毎"
 "日決まった時間に寝起きすると、より元気に過ごせますよ。"
 
-#: pebble/services/activity/activity_insights.c:1501
+#: pebble/services/activity/activity_insights.c:1512
 #, c-format
 msgid ""
 "You slept for %dH %dM, more than most adults need. Catching up now and then "
@@ -3516,8 +3542,93 @@ msgstr ""
 "昨夜は%d時間%d分眠りました。多くの大人に必要な睡眠時間より長めです。たまに寝"
 "不足を補うのはいいですが、普段は規則正しい睡眠を心がけましょう。"
 
+#. / Playful sleep notification on wake up, slept under 6 hours
+#: pebble/services/activity/activity_insights.c:1521
+#, c-format
+msgid ""
+"New day, new you! You slept for %dH %dM. Tonight's a fresh shot at 7+ hours; "
+"go get 'em 💪"
+msgstr ""
+
+#: pebble/services/activity/activity_insights.c:1523
+#, fuzzy, c-format
+#| msgid ""
+#| "Short night? You slept for %dH %dM. Most adults need at least 7 hours, so "
+#| "try heading to bed earlier tonight."
+msgid ""
+"Good mornin'! You slept for %dH %dM. Most adults need at least 7 hours; an "
+"early night tonight and you'll be unstoppable 👊"
+msgstr ""
+"昨夜は睡眠時間が短めでしたね。%d時間%d分眠りました。大人は一般に7時間以上の睡"
+"眠が必要です。今夜は少し早めに寝てみましょう。"
+
+#. / Playful sleep notification on wake up, slept 6 to 7 hours, not below their typical
+#: pebble/services/activity/activity_insights.c:1531
+#, c-format
+msgid ""
+"Almost a full tank! You slept for %dH %dM. Bank a little extra shut eye "
+"tonight 😴"
+msgstr ""
+
+#: pebble/services/activity/activity_insights.c:1533
+#, c-format
+msgid ""
+"So close! You slept for %dH %dM. Squeeze in a few more zzz's tonight and "
+"you'll be golden 😃"
+msgstr ""
+
+#. / Playful sleep notification on wake up, slept 9 to 10 hours
+#: pebble/services/activity/activity_insights.c:1541
+#, fuzzy, c-format
+#| msgid ""
+#| "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above "
+#| "your typical. Keep it up."
+msgid ""
+"You caught some serious zzz's! You slept for %dH %dM. Great for catching up; "
+"keep that routine steady."
+msgstr ""
+"ぐっすり眠れましたね！%d時間%d分で、いつもの平均より%d%%長めの睡眠。この調子"
+"です。"
+
+#: pebble/services/activity/activity_insights.c:1543
+#, fuzzy, c-format
+#| msgid ""
+#| "Well rested? You slept for %dH %dM. Extra sleep helps you recover, but "
+#| "most adults do best with 7 to 9 hours."
+msgid ""
+"Mmmm...what a night. You slept for %dH %dM. Extra sleep helps you recover, "
+"but most adults do best with 7 to 9 hours."
+msgstr ""
+"よく眠れましたか？昨夜は%d時間%d分眠りました。長めの睡眠は疲労回復に役立ちま"
+"すが、多くの大人には7～9時間の睡眠が適しています。"
+
+#. / Playful sleep notification on wake up, slept 10 hours or more
+#: pebble/services/activity/activity_insights.c:1551
+#, fuzzy, c-format
+#| msgid ""
+#| "You slept for %dH %dM. That's a long night! Great for recovering, but a "
+#| "regular bedtime and wake time will help you feel your best."
+msgid ""
+"Whoa, epic snooze! You slept for %dH %dM. Catching up is cool; a regular "
+"bedtime and wake time keep you at your best."
+msgstr ""
+"昨夜は%d時間%d分眠りました。たっぷり眠れましたね！疲労回復にはいいですが、毎"
+"日決まった時間に寝起きすると、より元気に過ごせますよ。"
+
+#: pebble/services/activity/activity_insights.c:1553
+#, fuzzy, c-format
+#| msgid ""
+#| "You slept for %dH %dM, more than most adults need. Catching up now and "
+#| "then is fine; try to keep a steady routine."
+msgid ""
+"That's a lot of sheep you just counted! You slept for %dH %dM, more than "
+"most adults need. Catching up is fine; try to keep a steady routine."
+msgstr ""
+"昨夜は%d時間%d分眠りました。多くの大人に必要な睡眠時間より長めです。たまに寝"
+"不足を補うのはいいですが、普段は規則正しい睡眠を心がけましょう。"
+
 #. / Sleep notification on wake up, slept above their typical sleep duration
-#: pebble/services/activity/activity_insights.c:1512
+#: pebble/services/activity/activity_insights.c:1564
 #, c-format
 msgid ""
 "Refreshed? You slept for %dH %dM which is %d%% above your typical. Go tackle "
@@ -3526,7 +3637,7 @@ msgstr ""
 "すっきり目覚めましたか？%d時間%d分眠り、いつもの平均より%d%%長めでした。今日"
 "も元気にいきましょう 😃。"
 
-#: pebble/services/activity/activity_insights.c:1515
+#: pebble/services/activity/activity_insights.c:1567
 #, c-format
 msgid ""
 "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above your "
@@ -3535,7 +3646,7 @@ msgstr ""
 "ぐっすり眠れましたね！%d時間%d分で、いつもの平均より%d%%長めの睡眠。この調子"
 "です。"
 
-#: pebble/services/activity/activity_insights.c:1518
+#: pebble/services/activity/activity_insights.c:1570
 #, c-format
 msgid ""
 "Rise and shine! You slept for %dH %dM which is %d%% above your typical. Do "
@@ -3544,7 +3655,7 @@ msgstr ""
 "おはようございます！%d時間%d分、いつもの平均より%d%%長く眠れました。今夜もぐ"
 "っすり眠りましょう。"
 
-#: pebble/services/activity/activity_insights.c:1521
+#: pebble/services/activity/activity_insights.c:1573
 #, c-format
 msgid ""
 "Mmmm...what a night. You slept for %dH %dM which is %d%% above your typical. "
@@ -3553,7 +3664,7 @@ msgstr ""
 "いい夜でしたね！%d時間%d分、いつもの平均より%d%%長く眠れました。気持ちよさそ"
 "う！"
 
-#: pebble/services/activity/activity_insights.c:1524
+#: pebble/services/activity/activity_insights.c:1576
 #, c-format
 msgid ""
 "That's a lot of sheep you just counted! You slept for %dH %dM which is %d%% "
@@ -3563,7 +3674,7 @@ msgstr ""
 "ました。"
 
 #. / Sleep notification on wake up, slept similar to their typical sleep duration
-#: pebble/services/activity/activity_insights.c:1534
+#: pebble/services/activity/activity_insights.c:1586
 #, c-format
 msgid ""
 "Good mornin’. You slept for %dH %dM. Every good day begins with a solid "
@@ -3572,7 +3683,7 @@ msgstr ""
 "おはようございます。%d時間%d分眠れました。いい一日は、ぐっすり眠った夜から始"
 "まりますね 😉 この調子！"
 
-#: pebble/services/activity/activity_insights.c:1537
+#: pebble/services/activity/activity_insights.c:1589
 #, c-format
 msgid ""
 "Good morning! You slept for %dH %dM. Consistency is key; keep doing what "
@@ -3581,20 +3692,20 @@ msgstr ""
 "おはようございます！%d時間%d分眠れました。規則正しい睡眠が大切。その調子で続"
 "けましょう 😃。"
 
-#: pebble/services/activity/activity_insights.c:1540
+#: pebble/services/activity/activity_insights.c:1592
 #, c-format
 msgid ""
 "You're rockin' the shut eye! You slept for %dH %dM. Make it a nightly "
 "ritual. You deserve it."
 msgstr "よく眠れていますね！%d時間%d分の睡眠。毎晩の習慣にしましょう。自分を大切に。"
 
-#: pebble/services/activity/activity_insights.c:1542
+#: pebble/services/activity/activity_insights.c:1594
 #, c-format
 msgid "Feelin' good? You slept for %dH %dM. Nothing can stop you now 👊"
 msgstr "いい気分ですか？%d時間%d分眠れました。今日は何でもできそうですね 👊"
 
 #. / Sleep notification on wake up, slept below their typical sleep duration
-#: pebble/services/activity/activity_insights.c:1551
+#: pebble/services/activity/activity_insights.c:1603
 #, c-format
 msgid ""
 "Hey sleepy head. You slept for %dH %dM which is %d%% below your typical. Try "
@@ -3603,7 +3714,7 @@ msgstr ""
 "お寝坊さん、おはよう！%d時間%d分眠りましたが、いつもの平均より%d%%短め。今夜"
 "はもう少し眠りましょう！"
 
-#: pebble/services/activity/activity_insights.c:1554
+#: pebble/services/activity/activity_insights.c:1606
 #, c-format
 msgid ""
 "Groggy? You slept for %dH %dM which is %d%% below your typical. Sleep is "
@@ -3612,7 +3723,7 @@ msgstr ""
 "まだ眠いですか？%d時間%d分で、いつもの平均より%d%%短めの睡眠でした。睡眠は大"
 "切。今夜はもう少し長く眠りましょう！"
 
-#: pebble/services/activity/activity_insights.c:1557
+#: pebble/services/activity/activity_insights.c:1609
 #, c-format
 msgid ""
 "It's a new day! You slept for %dH %dM which is %d%% below your typical. It's "
@@ -3621,7 +3732,7 @@ msgstr ""
 "新しい朝ですね！%d時間%d分眠り、いつもの平均より%d%%短めでした。今夜またゆっ"
 "くり休みましょう。"
 
-#: pebble/services/activity/activity_insights.c:1560
+#: pebble/services/activity/activity_insights.c:1612
 #, c-format
 msgid ""
 "Goooood morning! You slept for %dH %dM which is %d%% below your typical. Go "
@@ -3630,7 +3741,7 @@ msgstr ""
 "おはようございまーす！%d時間%d分、いつもの平均より%d%%短めの睡眠でした。今日"
 "を頑張ったら、今夜は早めに寝ましょう 😉"
 
-#: pebble/services/activity/activity_insights.c:1567
+#: pebble/services/activity/activity_insights.c:1619
 #, c-format
 msgid ""
 "You slept for %dH %dM which is %d%% below your typical. Sleep is vital for "
@@ -3639,7 +3750,7 @@ msgstr ""
 "%d時間%d分眠り、いつもの平均より%d%%短めでした。いいアイデアのためにも睡眠は"
 "大切。今夜はもう少し眠りませんか？"
 
-#: pebble/services/activity/activity_insights.c:1569
+#: pebble/services/activity/activity_insights.c:1621
 #, c-format
 msgid ""
 "You only slept for %dH %dM which is %d%% below your typical. We know you're "
@@ -3648,7 +3759,7 @@ msgstr ""
 "%d時間%d分の睡眠で、いつもの平均より%d%%短めでした。忙しいと思いますが、今夜"
 "はもう少し休みましょう。応援しています 😉"
 
-#: pebble/services/activity/activity_insights.c:1571
+#: pebble/services/activity/activity_insights.c:1623
 #, c-format
 msgid ""
 "You slept for %dH %dM which is %d%% below your typical. We know stuff "
@@ -3657,92 +3768,92 @@ msgstr ""
 "%d時間%d分眠り、いつもの平均より%d%%短めでした。そんな日もあります。今夜また"
 "ゆっくり眠りましょう。"
 
-#: pebble/services/activity/activity_insights.c:1650
+#: pebble/services/activity/activity_insights.c:1710
 #, c-format
 msgid "%u Steps"
 msgstr "%u歩"
 
-#: pebble/services/activity/activity_insights.c:1732
+#: pebble/services/activity/activity_insights.c:1792
 msgid "Didn’t that walk feel good?"
 msgstr "散歩は気持ちよかったですか？"
 
-#: pebble/services/activity/activity_insights.c:1733
+#: pebble/services/activity/activity_insights.c:1793
 msgid "Way to keep it active!"
 msgstr "元気に動けていますね！"
 
-#: pebble/services/activity/activity_insights.c:1734
+#: pebble/services/activity/activity_insights.c:1794
 msgid "You got the moves!"
 msgstr "いい動きです！"
 
-#: pebble/services/activity/activity_insights.c:1735
+#: pebble/services/activity/activity_insights.c:1795
 msgid "Gettin' your step on?"
 msgstr "今日も歩いていますか？"
 
-#: pebble/services/activity/activity_insights.c:1745
+#: pebble/services/activity/activity_insights.c:1805
 msgid "Feelin' hot? Cause you're on 🔥"
 msgstr "熱くなってきましたか？絶好調です 🔥"
 
-#: pebble/services/activity/activity_insights.c:1746
+#: pebble/services/activity/activity_insights.c:1806
 msgid "Hey lightning bolt, way to go!"
 msgstr "稲妻みたいな勢いですね！すごい！"
 
-#: pebble/services/activity/activity_insights.c:1747
+#: pebble/services/activity/activity_insights.c:1807
 msgid "You're a machine!"
 msgstr "まるで機械のような力強さ！"
 
-#: pebble/services/activity/activity_insights.c:1748
+#: pebble/services/activity/activity_insights.c:1808
 msgid "Hey speedster, we can barely keep up!"
 msgstr "速すぎてついていけません！"
 
-#: pebble/services/activity/activity_insights.c:1749
+#: pebble/services/activity/activity_insights.c:1809
 msgid "Way to show us what you're made of 👊"
 msgstr "すごい力を見せてくれましたね 👊"
 
-#: pebble/services/activity/activity_insights.c:1759
+#: pebble/services/activity/activity_insights.c:1819
 msgid "Workin' up a sweat?"
 msgstr "いい汗かいていますか？"
 
-#: pebble/services/activity/activity_insights.c:1760
+#: pebble/services/activity/activity_insights.c:1820
 msgid "Well done 💪"
 msgstr "よく頑張りました 💪"
 
-#: pebble/services/activity/activity_insights.c:1761
+#: pebble/services/activity/activity_insights.c:1821
 msgid "Endorphin rush?"
 msgstr "気分が上がってきましたか？"
 
-#: pebble/services/activity/activity_insights.c:1762
+#: pebble/services/activity/activity_insights.c:1822
 msgid "Can't stop, won't stop 👊"
 msgstr "まだまだ止まりません 👊"
 
-#: pebble/services/activity/activity_insights.c:1763
+#: pebble/services/activity/activity_insights.c:1823
 msgid "Keepin' that heart healthy! ❤"
 msgstr "心臓も元気に保ちましょう ❤"
 
-#: pebble/services/activity/activity_insights.c:1792
-#: pebble/services/activity/activity_insights.c:1884
-#: pebble/services/activity/activity_insights.c:1891
-#: pebble/services/activity/activity_insights.c:1898
+#: pebble/services/activity/activity_insights.c:1852
+#: pebble/services/activity/activity_insights.c:1944
+#: pebble/services/activity/activity_insights.c:1951
+#: pebble/services/activity/activity_insights.c:1958
 #, c-format
 msgid "%d Min"
 msgstr "%d分"
 
-#: pebble/services/activity/activity_insights.c:1821
+#: pebble/services/activity/activity_insights.c:1881
 msgid "Avg Pace"
 msgstr "平均ペース"
 
-#: pebble/services/activity/activity_insights.c:1837
+#: pebble/services/activity/activity_insights.c:1897
 msgid "Distance"
 msgstr "距離"
 
-#: pebble/services/activity/activity_insights.c:1849
+#: pebble/services/activity/activity_insights.c:1909
 msgid "Steps"
 msgstr "歩数"
 
-#: pebble/services/activity/activity_insights.c:1863
+#: pebble/services/activity/activity_insights.c:1923
 msgid "Active Calories"
 msgstr "活動中の消費カロリー"
 
-#: pebble/services/activity/activity_insights.c:1876
+#: pebble/services/activity/activity_insights.c:1936
 msgid "Avg HR"
 msgstr "平均心拍数"
 
