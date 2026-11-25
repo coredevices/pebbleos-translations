@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-25 00:56+0000\n"
+"PO-Revision-Date: 2026-11-25 01:11+0000\n"
 "Last-Translator: Denys Vasylenko <dinja.ostrovskiy@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.repebble.com/projects/pebbleos/"
 "watch/uk/>\n"
@@ -3545,16 +3545,14 @@ msgstr ""
 "проте сталий режим сну допоможе вам почуватися краще."
 
 #: pebble/services/activity/activity_insights.c:1553
-#, fuzzy, c-format
-#| msgid ""
-#| "You slept for %dH %dM, more than most adults need. Catching up now and "
-#| "then is fine; try to keep a steady routine."
+#, c-format
 msgid ""
 "That's a lot of sheep you just counted! You slept for %dH %dM, more than "
 "most adults need. Catching up is fine; try to keep a steady routine."
 msgstr ""
-"Ви спали %dгод %dхв, що більше, ніж зазвичай потрібно дорослим. Іноді "
-"корисно добре відіспатися, проте важливо дотримуватися сталого режиму сну."
+"Йой, вночі ви нарахували чимало баранців! Ваш сон тривав %d год %d хв, що "
+"більше, ніж потрібно більшості дорослих. Краще дотримуйтеся сталого режиму "
+"сну."
 
 #. / Sleep notification on wake up, slept above their typical sleep duration
 #: pebble/services/activity/activity_insights.c:1564
