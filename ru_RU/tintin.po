@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-24 05:26+0000\n"
+"PO-Revision-Date: 2026-11-25 01:11+0000\n"
 "Last-Translator: dx3756 <dx3756@gmail.com>\n"
 "Language-Team: Russian <https://translate.repebble.com/projects/pebbleos/"
 "watch/ru/>\n"
@@ -1396,7 +1396,7 @@ msgstr "Мили"
 
 #: pebble/apps/system/settings/health.c:31
 msgid "Playful"
-msgstr ""
+msgstr "Игривый"
 
 #: pebble/apps/system/settings/health.c:42
 msgid "5 Minutes"
