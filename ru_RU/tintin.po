@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-25 01:11+0000\n"
+"PO-Revision-Date: 2026-11-25 02:26+0000\n"
 "Last-Translator: dx3756 <dx3756@gmail.com>\n"
 "Language-Team: Russian <https://translate.repebble.com/projects/pebbleos/"
 "watch/ru/>\n"
@@ -1430,7 +1430,7 @@ msgstr "Отключено"
 #: pebble/apps/system/settings/health.c:106
 #: pebble/apps/system/settings/health.c:191
 msgid "Insights Style"
-msgstr ""
+msgstr "Стиль сводок"
 
 #: pebble/apps/system/settings/health.c:129
 #: pebble/apps/system/settings/health.c:197
@@ -3202,7 +3202,7 @@ msgstr "Сон %uЧ %uМ"
 
 #: pebble/services/activity/activity_insights.c:911
 msgid "New day, new you! An early night gets you back on track 💪"
-msgstr ""
+msgstr "Новый день, новый вы! Ранний сон помогает вернуться в строй 💪"
 
 #: pebble/services/activity/activity_insights.c:912
 msgid "Short night! Try going to bed a little earlier tonight."
@@ -3210,7 +3210,7 @@ msgstr "Короткая ночь! Постарайтесь сегодня ле�
 
 #: pebble/services/activity/activity_insights.c:916
 msgid "So close! A few more zzz's tonight and you're golden 😃"
-msgstr ""
+msgstr "Так близко! Побольше сна сегодня ночью, и вы в шоколаде 😃"
 
 #: pebble/services/activity/activity_insights.c:917
 msgid "Almost there! A little more sleep tonight would help."
@@ -3483,6 +3483,8 @@ msgid ""
 "New day, new you! You slept for %dH %dM. Tonight's a fresh shot at 7+ hours; "
 "go get 'em 💪"
 msgstr ""
+"Новый день, новый вы! Вы спали %dч %dм. Вечером после 7 будет новая попытка; "
+"вперёд восполнять 💪"
 
 #: pebble/services/activity/activity_insights.c:1523
 #, fuzzy, c-format
@@ -3503,6 +3505,8 @@ msgid ""
 "Almost a full tank! You slept for %dH %dM. Bank a little extra shut eye "
 "tonight 😴"
 msgstr ""
+"Почти полный бак! Вы спали %dч %dм. Постарайтесь еще немного поспать этой "
+"ночью 😴"
 
 #: pebble/services/activity/activity_insights.c:1533
 #, c-format
@@ -3510,6 +3514,8 @@ msgid ""
 "So close! You slept for %dH %dM. Squeeze in a few more zzz's tonight and "
 "you'll be golden 😃"
 msgstr ""
+"Так близко! Вы спали %dч %dм. Поспите сегодня подольше, и все будет отлично "
+"😃"
 
 #. / Playful sleep notification on wake up, slept 9 to 10 hours
 #: pebble/services/activity/activity_insights.c:1541
