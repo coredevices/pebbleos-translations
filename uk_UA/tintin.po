@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-24 00:27+0000\n"
+"PO-Revision-Date: 2026-11-25 00:56+0000\n"
 "Last-Translator: Denys Vasylenko <dinja.ostrovskiy@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.repebble.com/projects/pebbleos/"
 "watch/uk/>\n"
@@ -1393,7 +1393,7 @@ msgstr "Милі"
 
 #: pebble/apps/system/settings/health.c:31
 msgid "Playful"
-msgstr ""
+msgstr "Грайливий"
 
 #: pebble/apps/system/settings/health.c:42
 msgid "5 Minutes"
@@ -1427,7 +1427,7 @@ msgstr "Припинено"
 #: pebble/apps/system/settings/health.c:106
 #: pebble/apps/system/settings/health.c:191
 msgid "Insights Style"
-msgstr ""
+msgstr "Стиль аналітики"
 
 #: pebble/apps/system/settings/health.c:129
 #: pebble/apps/system/settings/health.c:197
@@ -2081,18 +2081,14 @@ msgid "Turn Off Airplane Mode?"
 msgstr "Вимкнути Авіарежим?"
 
 #: pebble/apps/system/toggle/airplane_mode.c:29
-#, fuzzy
-#| msgid "Airplane Mode"
 msgid ""
 "Airplane Mode\n"
 "On"
-msgstr "Авіарежим"
+msgstr ""
+"Авіарежим\n"
+"ввімкнено"
 
 #: pebble/apps/system/toggle/airplane_mode.c:30
-#, fuzzy
-#| msgid ""
-#| "Airplane\n"
-#| "Mode Off"
 msgid ""
 "Airplane Mode\n"
 "Off"
@@ -3207,6 +3203,8 @@ msgstr "%uгод %uхв сну"
 #: pebble/services/activity/activity_insights.c:911
 msgid "New day, new you! An early night gets you back on track 💪"
 msgstr ""
+"Новий день — новий початок! Лягайте раніше, щоб повернутися до сталого "
+"режиму 💪"
 
 #: pebble/services/activity/activity_insights.c:912
 msgid "Short night! Try going to bed a little earlier tonight."
@@ -3214,19 +3212,17 @@ msgstr "Мало спали! Сьогодні спробуйте лягти тр
 
 #: pebble/services/activity/activity_insights.c:916
 msgid "So close! A few more zzz's tonight and you're golden 😃"
-msgstr ""
+msgstr "Вже майже вдалося! Ще трохи сну цієї ночі — і все буде чудово 😃"
 
 #: pebble/services/activity/activity_insights.c:917
 msgid "Almost there! A little more sleep tonight would help."
 msgstr "Майже достатньо! Сьогодні не завадило б поспати трохи довше."
 
 #: pebble/services/activity/activity_insights.c:923
-#, fuzzy
-#| msgid "A long night! Great for catching up; a steady routine helps most."
 msgid "Serious zzz's! Great for catching up; keep that routine steady."
 msgstr ""
-"Дали хропака! Оце гарна нагода надолужити згаяне. Сталий режим допоможе в "
-"цьому найкраще."
+"Оце дали хропака! Є чудова нагода надолужити згаяне. Сталий режим сну "
+"допоможе вам із цим."
 
 #: pebble/services/activity/activity_insights.c:925
 msgid "A long night! Great for catching up; a steady routine helps most."
@@ -3488,18 +3484,17 @@ msgid ""
 "New day, new you! You slept for %dH %dM. Tonight's a fresh shot at 7+ hours; "
 "go get 'em 💪"
 msgstr ""
+"Новий день — нові можливості! Ви спали %d год %d хв. Вночі спробуйте поспати "
+"щонайменше 7 годин. Уперед! 💪"
 
 #: pebble/services/activity/activity_insights.c:1523
-#, fuzzy, c-format
-#| msgid ""
-#| "Short night? You slept for %dH %dM. Most adults need at least 7 hours, so "
-#| "try heading to bed earlier tonight."
+#, c-format
 msgid ""
 "Good mornin'! You slept for %dH %dM. Most adults need at least 7 hours; an "
 "early night tonight and you'll be unstoppable 👊"
 msgstr ""
-"Засинаєте на ходу? Ви спали %dгод %dхв. Більшості дорослих потрібно "
-"щонайменше 7 годин. Спробуйте сьогодні лягти раніше."
+"Доброго ранку! Ви спали %d год %d хв. Більшості дорослих потрібно щонайменше "
+"7 годин сну. Раніше ляжете сьогодні — завтра гори звернете! 👊"
 
 #. / Playful sleep notification on wake up, slept 6 to 7 hours, not below their typical
 #: pebble/services/activity/activity_insights.c:1531
@@ -3508,6 +3503,8 @@ msgid ""
 "Almost a full tank! You slept for %dH %dM. Bank a little extra shut eye "
 "tonight 😴"
 msgstr ""
+"Майже повний бак! Ви спали %d год %d хв. Вночі спробуйте поспати трошки "
+"довше 😴"
 
 #: pebble/services/activity/activity_insights.c:1533
 #, c-format
@@ -3515,42 +3512,36 @@ msgid ""
 "So close! You slept for %dH %dM. Squeeze in a few more zzz's tonight and "
 "you'll be golden 😃"
 msgstr ""
+"Ну от вже майже! Ви спали %d год %d хв. Вночі поспите трохи довше і все буде "
+"файно! 😃"
 
 #. / Playful sleep notification on wake up, slept 9 to 10 hours
 #: pebble/services/activity/activity_insights.c:1541
-#, fuzzy, c-format
-#| msgid ""
-#| "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above "
-#| "your typical. Keep it up."
+#, c-format
 msgid ""
 "You caught some serious zzz's! You slept for %dH %dM. Great for catching up; "
 "keep that routine steady."
 msgstr ""
-"Міцний сон! Ви спали %dгод %dxв, що на %d%% довше, ніж зазвичай. Так тримати!"
+"Оце дали хропака! Ви спали %d год %d хв. Гарна спроба надолужити згаяне! Не "
+"втрачайте ритму! 😴"
 
 #: pebble/services/activity/activity_insights.c:1543
-#, fuzzy, c-format
-#| msgid ""
-#| "Well rested? You slept for %dH %dM. Extra sleep helps you recover, but "
-#| "most adults do best with 7 to 9 hours."
+#, c-format
 msgid ""
 "Mmmm...what a night. You slept for %dH %dM. Extra sleep helps you recover, "
 "but most adults do best with 7 to 9 hours."
 msgstr ""
-"Скинули втому? Ви спали %dгод %dхв. Додатковий сон допомагає відновитися, "
-"проте більшості дорослих варто спати 7–9 годин на добу."
+"Ох і нічка! Ви спали %d год %d хв. Додатковий сон сприяє відновленню, проте "
+"для більшості дорослих оптимальний час сну 7–9 годин."
 
 #. / Playful sleep notification on wake up, slept 10 hours or more
 #: pebble/services/activity/activity_insights.c:1551
-#, fuzzy, c-format
-#| msgid ""
-#| "You slept for %dH %dM. That's a long night! Great for recovering, but a "
-#| "regular bedtime and wake time will help you feel your best."
+#, c-format
 msgid ""
 "Whoa, epic snooze! You slept for %dH %dM. Catching up is cool; a regular "
 "bedtime and wake time keep you at your best."
 msgstr ""
-"Ви спали %dгод %dхв. Оце так дали хропака! Це добре для відновлення сил, "
+"Ну ви й сонько! Ваш сон тривав %d год %d хв. Це добре для відновлення сил, "
 "проте сталий режим сну допоможе вам почуватися краще."
 
 #: pebble/services/activity/activity_insights.c:1553
