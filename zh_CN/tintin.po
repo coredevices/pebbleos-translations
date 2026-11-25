@@ -1029,61 +1029,61 @@ msgstr "无"
 msgid "Background App"
 msgstr "后台应用"
 
-#: pebble/apps/system/settings/bluetooth.c:123
+#: pebble/apps/system/settings/bluetooth.c:122
 msgid "<Untitled>"
 msgstr "<无标题>"
 
-#: pebble/apps/system/settings/bluetooth.c:164
+#: pebble/apps/system/settings/bluetooth.c:163
 msgid "Pairing Instructions"
 msgstr "配对说明"
 
-#: pebble/apps/system/settings/bluetooth.c:168
+#: pebble/apps/system/settings/bluetooth.c:167
 #, c-format
 msgid "%u Paired Phones"
 msgstr "%u 部已配对手机"
 
-#: pebble/apps/system/settings/bluetooth.c:169
+#: pebble/apps/system/settings/bluetooth.c:168
 #, c-format
 msgid "%u Paired Phone"
 msgstr "%u 部已配对手机"
 
-#: pebble/apps/system/settings/bluetooth.c:282
+#: pebble/apps/system/settings/bluetooth.c:281
 msgid "Connected"
 msgstr "已连接"
 
-#: pebble/apps/system/settings/bluetooth.c:309
+#: pebble/apps/system/settings/bluetooth.c:308
 msgid "Forget this device to pair a new device."
 msgstr "请先解除与此设备的配对，再配对新的设备。"
 
-#: pebble/apps/system/settings/bluetooth.c:312
+#: pebble/apps/system/settings/bluetooth.c:311
 msgid "Disable Airplane Mode to connect."
 msgstr "请关闭飞行模式以连接。"
 
-#: pebble/apps/system/settings/bluetooth.c:314
+#: pebble/apps/system/settings/bluetooth.c:313
 msgid "Open the Pebble app on your phone to connect."
 msgstr "打开手机上的 Pebble 应用以连接。"
 
-#: pebble/apps/system/settings/bluetooth.c:389
+#: pebble/apps/system/settings/bluetooth.c:388
 msgid "Connection"
 msgstr "连接"
 
-#: pebble/apps/system/settings/bluetooth.c:393
+#: pebble/apps/system/settings/bluetooth.c:392
 msgid "Airplane Mode"
 msgstr "飞行模式"
 
-#: pebble/apps/system/settings/bluetooth.c:403
+#: pebble/apps/system/settings/bluetooth.c:402
 msgid "Disabling..."
 msgstr "正在禁用..."
 
-#: pebble/apps/system/settings/bluetooth.c:404
+#: pebble/apps/system/settings/bluetooth.c:403
 msgid "Enabling..."
 msgstr "正在启用..."
 
-#: pebble/apps/system/settings/bluetooth.c:546
+#: pebble/apps/system/settings/bluetooth.c:545
 msgid "Bluetooth"
 msgstr "蓝牙"
 
-#: pebble/apps/system/settings/bluetooth.h:31
+#: pebble/apps/system/settings/bluetooth.h:32
 msgid ""
 "Remember to also forget your Pebble's Bluetooth connection from your phone."
 msgstr "请同时解除手机与 Pebble 的蓝牙配对。"

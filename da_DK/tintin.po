@@ -1012,61 +1012,61 @@ msgstr "Ingen"
 msgid "Background App"
 msgstr "Baggrundsapp"
 
-#: pebble/apps/system/settings/bluetooth.c:123
+#: pebble/apps/system/settings/bluetooth.c:122
 msgid "<Untitled>"
 msgstr "<Uden navn>"
 
-#: pebble/apps/system/settings/bluetooth.c:164
+#: pebble/apps/system/settings/bluetooth.c:163
 msgid "Pairing Instructions"
 msgstr "Parringsinstruktioner"
 
-#: pebble/apps/system/settings/bluetooth.c:168
+#: pebble/apps/system/settings/bluetooth.c:167
 #, c-format
 msgid "%u Paired Phones"
 msgstr "%u parrede telefoner"
 
-#: pebble/apps/system/settings/bluetooth.c:169
+#: pebble/apps/system/settings/bluetooth.c:168
 #, c-format
 msgid "%u Paired Phone"
 msgstr "%u parret telefon"
 
-#: pebble/apps/system/settings/bluetooth.c:282
+#: pebble/apps/system/settings/bluetooth.c:281
 msgid "Connected"
 msgstr "Forbundet"
 
-#: pebble/apps/system/settings/bluetooth.c:309
+#: pebble/apps/system/settings/bluetooth.c:308
 msgid "Forget this device to pair a new device."
 msgstr "Glem denne enhed for at parre en ny enhed."
 
-#: pebble/apps/system/settings/bluetooth.c:312
+#: pebble/apps/system/settings/bluetooth.c:311
 msgid "Disable Airplane Mode to connect."
 msgstr "Slå flytilstand fra for at forbinde."
 
-#: pebble/apps/system/settings/bluetooth.c:314
+#: pebble/apps/system/settings/bluetooth.c:313
 msgid "Open the Pebble app on your phone to connect."
 msgstr "Åbn Pebble-appen på din telefon for at forbinde."
 
-#: pebble/apps/system/settings/bluetooth.c:389
+#: pebble/apps/system/settings/bluetooth.c:388
 msgid "Connection"
 msgstr "Forbindelse"
 
-#: pebble/apps/system/settings/bluetooth.c:393
+#: pebble/apps/system/settings/bluetooth.c:392
 msgid "Airplane Mode"
 msgstr "Flytilstand"
 
-#: pebble/apps/system/settings/bluetooth.c:403
+#: pebble/apps/system/settings/bluetooth.c:402
 msgid "Disabling..."
 msgstr "Slår fra..."
 
-#: pebble/apps/system/settings/bluetooth.c:404
+#: pebble/apps/system/settings/bluetooth.c:403
 msgid "Enabling..."
 msgstr "Slår til..."
 
-#: pebble/apps/system/settings/bluetooth.c:546
+#: pebble/apps/system/settings/bluetooth.c:545
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: pebble/apps/system/settings/bluetooth.h:31
+#: pebble/apps/system/settings/bluetooth.h:32
 msgid ""
 "Remember to also forget your Pebble's Bluetooth connection from your phone."
 msgstr "Husk også at glemme din Pebbles Bluetooth-forbindelse på din telefon."
