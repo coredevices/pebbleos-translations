@@ -929,7 +929,7 @@ msgstr ""
 "START PLAYBACK\n"
 "ON YOUR PHONE"
 
-#: pebble/apps/system/music.c:1889
+#: pebble/apps/system/music.c:1885
 msgid "Music"
 msgstr "Muziek"
 
@@ -1034,57 +1034,57 @@ msgstr "None"
 msgid "Background App"
 msgstr "Background App"
 
-#: pebble/apps/system/settings/bluetooth.c:122
+#: pebble/apps/system/settings/bluetooth.c:120
 msgid "<Untitled>"
 msgstr "<Untitled>"
 
-#: pebble/apps/system/settings/bluetooth.c:163
+#: pebble/apps/system/settings/bluetooth.c:161
 msgid "Pairing Instructions"
 msgstr "Koppelinstructies"
 
-#: pebble/apps/system/settings/bluetooth.c:167
+#: pebble/apps/system/settings/bluetooth.c:165
 #, c-format
 msgid "%u Paired Phones"
 msgstr "%u Paired Phones"
 
-#: pebble/apps/system/settings/bluetooth.c:168
+#: pebble/apps/system/settings/bluetooth.c:166
 #, c-format
 msgid "%u Paired Phone"
 msgstr "%u Paired Phone"
 
-#: pebble/apps/system/settings/bluetooth.c:281
+#: pebble/apps/system/settings/bluetooth.c:259
 msgid "Connected"
 msgstr "Verbonden"
 
-#: pebble/apps/system/settings/bluetooth.c:308
+#: pebble/apps/system/settings/bluetooth.c:286
 msgid "Forget this device to pair a new device."
 msgstr "Forget this device to pair a new device."
 
-#: pebble/apps/system/settings/bluetooth.c:311
+#: pebble/apps/system/settings/bluetooth.c:289
 msgid "Disable Airplane Mode to connect."
 msgstr "Disable Airplane Mode to connect."
 
-#: pebble/apps/system/settings/bluetooth.c:313
+#: pebble/apps/system/settings/bluetooth.c:291
 msgid "Open the Pebble app on your phone to connect."
 msgstr "Open the Pebble app on your phone to connect."
 
-#: pebble/apps/system/settings/bluetooth.c:388
+#: pebble/apps/system/settings/bluetooth.c:366
 msgid "Connection"
 msgstr "Connection"
 
-#: pebble/apps/system/settings/bluetooth.c:392
+#: pebble/apps/system/settings/bluetooth.c:370
 msgid "Airplane Mode"
 msgstr "Vliegtuigmodus"
 
-#: pebble/apps/system/settings/bluetooth.c:402
+#: pebble/apps/system/settings/bluetooth.c:380
 msgid "Disabling..."
 msgstr "Uitschakelen..."
 
-#: pebble/apps/system/settings/bluetooth.c:403
+#: pebble/apps/system/settings/bluetooth.c:381
 msgid "Enabling..."
 msgstr "Inschakelen..."
 
-#: pebble/apps/system/settings/bluetooth.c:545
+#: pebble/apps/system/settings/bluetooth.c:511
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
@@ -2950,7 +2950,7 @@ msgstr ""
 msgid "GO!"
 msgstr ""
 
-#: pebble/apps/system/workout/sports.c:353
+#: pebble/apps/system/workout/sports.c:350
 msgid "Sports"
 msgstr "Sport"
 
@@ -3191,7 +3191,7 @@ msgstr "Run %s instead of %s as the background app?"
 msgid "While your Pebble was off wakeup events occurred for:\n"
 msgstr "While your Pebble was off wakeup events occurred for:\n"
 
-#: pebble/process_management/app_manager.c:536
+#: pebble/process_management/app_manager.c:534
 #, c-format
 msgid "%.*s is not responding"
 msgstr "%.*s is not responding"

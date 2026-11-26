@@ -904,7 +904,7 @@ msgstr ""
 "INICIA LA REPRODUCCIÓ\n"
 "AL TELÈFON"
 
-#: pebble/apps/system/music.c:1889
+#: pebble/apps/system/music.c:1885
 msgid "Music"
 msgstr "Música"
 
@@ -1009,57 +1009,57 @@ msgstr "Cap"
 msgid "Background App"
 msgstr "App en segon pla"
 
-#: pebble/apps/system/settings/bluetooth.c:122
+#: pebble/apps/system/settings/bluetooth.c:120
 msgid "<Untitled>"
 msgstr "<Sense títol>"
 
-#: pebble/apps/system/settings/bluetooth.c:163
+#: pebble/apps/system/settings/bluetooth.c:161
 msgid "Pairing Instructions"
 msgstr "Instruccions d'enllaç"
 
-#: pebble/apps/system/settings/bluetooth.c:167
+#: pebble/apps/system/settings/bluetooth.c:165
 #, c-format
 msgid "%u Paired Phones"
 msgstr "%u telèfons enllaçats"
 
-#: pebble/apps/system/settings/bluetooth.c:168
+#: pebble/apps/system/settings/bluetooth.c:166
 #, c-format
 msgid "%u Paired Phone"
 msgstr "%u telèfon enllaçat"
 
-#: pebble/apps/system/settings/bluetooth.c:281
+#: pebble/apps/system/settings/bluetooth.c:259
 msgid "Connected"
 msgstr "Connectat"
 
-#: pebble/apps/system/settings/bluetooth.c:308
+#: pebble/apps/system/settings/bluetooth.c:286
 msgid "Forget this device to pair a new device."
 msgstr "Oblida aquest dispositiu per enllaçar-ne un de nou."
 
-#: pebble/apps/system/settings/bluetooth.c:311
+#: pebble/apps/system/settings/bluetooth.c:289
 msgid "Disable Airplane Mode to connect."
 msgstr "Desactiva el mode avió per connectar."
 
-#: pebble/apps/system/settings/bluetooth.c:313
+#: pebble/apps/system/settings/bluetooth.c:291
 msgid "Open the Pebble app on your phone to connect."
 msgstr "Obre l'app Pebble al telèfon per connectar."
 
-#: pebble/apps/system/settings/bluetooth.c:388
+#: pebble/apps/system/settings/bluetooth.c:366
 msgid "Connection"
 msgstr "Connexió"
 
-#: pebble/apps/system/settings/bluetooth.c:392
+#: pebble/apps/system/settings/bluetooth.c:370
 msgid "Airplane Mode"
 msgstr "Mode avió"
 
-#: pebble/apps/system/settings/bluetooth.c:402
+#: pebble/apps/system/settings/bluetooth.c:380
 msgid "Disabling..."
 msgstr "Desactivant..."
 
-#: pebble/apps/system/settings/bluetooth.c:403
+#: pebble/apps/system/settings/bluetooth.c:381
 msgid "Enabling..."
 msgstr "Activant..."
 
-#: pebble/apps/system/settings/bluetooth.c:545
+#: pebble/apps/system/settings/bluetooth.c:511
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
@@ -2870,7 +2870,7 @@ msgstr "ENTRENAMENT"
 msgid "GO!"
 msgstr "SOM-HI!"
 
-#: pebble/apps/system/workout/sports.c:353
+#: pebble/apps/system/workout/sports.c:350
 msgid "Sports"
 msgstr "Esports"
 
@@ -3114,7 +3114,7 @@ msgstr ""
 "Mentre el Pebble estava apagat hi ha hagut esdeveniments de despertador per "
 "a:\n"
 
-#: pebble/process_management/app_manager.c:536
+#: pebble/process_management/app_manager.c:534
 #, c-format
 msgid "%.*s is not responding"
 msgstr "%.*s no respon"

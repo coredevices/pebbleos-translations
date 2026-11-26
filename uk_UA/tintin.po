@@ -907,7 +907,7 @@ msgstr ""
 "ПОЧАТИ ВІДТВОРЕННЯ\n"
 "НА ТЕЛЕФОНІ"
 
-#: pebble/apps/system/music.c:1889
+#: pebble/apps/system/music.c:1885
 msgid "Music"
 msgstr "Музика"
 
@@ -1012,57 +1012,57 @@ msgstr "Відсутній"
 msgid "Background App"
 msgstr "Фонові застосунки"
 
-#: pebble/apps/system/settings/bluetooth.c:122
+#: pebble/apps/system/settings/bluetooth.c:120
 msgid "<Untitled>"
 msgstr "<Без назви>"
 
-#: pebble/apps/system/settings/bluetooth.c:163
+#: pebble/apps/system/settings/bluetooth.c:161
 msgid "Pairing Instructions"
 msgstr "Інструкції зі сполучення"
 
-#: pebble/apps/system/settings/bluetooth.c:167
+#: pebble/apps/system/settings/bluetooth.c:165
 #, c-format
 msgid "%u Paired Phones"
 msgstr "%u спарених телефонів"
 
-#: pebble/apps/system/settings/bluetooth.c:168
+#: pebble/apps/system/settings/bluetooth.c:166
 #, c-format
 msgid "%u Paired Phone"
 msgstr "%u спарений телефон"
 
-#: pebble/apps/system/settings/bluetooth.c:281
+#: pebble/apps/system/settings/bluetooth.c:259
 msgid "Connected"
 msgstr "Підключено"
 
-#: pebble/apps/system/settings/bluetooth.c:308
+#: pebble/apps/system/settings/bluetooth.c:286
 msgid "Forget this device to pair a new device."
 msgstr "Видаліть цей пристрій, щоб спарити з новим."
 
-#: pebble/apps/system/settings/bluetooth.c:311
+#: pebble/apps/system/settings/bluetooth.c:289
 msgid "Disable Airplane Mode to connect."
 msgstr "Скасуйте Авіарежим для підключення."
 
-#: pebble/apps/system/settings/bluetooth.c:313
+#: pebble/apps/system/settings/bluetooth.c:291
 msgid "Open the Pebble app on your phone to connect."
 msgstr "Відкрийте застосунок Pebble на телефоні для підключення."
 
-#: pebble/apps/system/settings/bluetooth.c:388
+#: pebble/apps/system/settings/bluetooth.c:366
 msgid "Connection"
 msgstr "З'єднання"
 
-#: pebble/apps/system/settings/bluetooth.c:392
+#: pebble/apps/system/settings/bluetooth.c:370
 msgid "Airplane Mode"
 msgstr "Авіарежим"
 
-#: pebble/apps/system/settings/bluetooth.c:402
+#: pebble/apps/system/settings/bluetooth.c:380
 msgid "Disabling..."
 msgstr "Відключення..."
 
-#: pebble/apps/system/settings/bluetooth.c:403
+#: pebble/apps/system/settings/bluetooth.c:381
 msgid "Enabling..."
 msgstr "Активація..."
 
-#: pebble/apps/system/settings/bluetooth.c:545
+#: pebble/apps/system/settings/bluetooth.c:511
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
@@ -2794,7 +2794,7 @@ msgstr "ТРЕНУВАННЯ"
 msgid "GO!"
 msgstr "ГАЙДА!"
 
-#: pebble/apps/system/workout/sports.c:353
+#: pebble/apps/system/workout/sports.c:350
 msgid "Sports"
 msgstr "Спорт"
 
@@ -3033,7 +3033,7 @@ msgstr "Запустити %s замість %s як фоновий застос
 msgid "While your Pebble was off wakeup events occurred for:\n"
 msgstr "Поки годинник було вимкнено, відбулись події пробудження для::\n"
 
-#: pebble/process_management/app_manager.c:536
+#: pebble/process_management/app_manager.c:534
 #, c-format
 msgid "%.*s is not responding"
 msgstr "%.*s не відповідає"

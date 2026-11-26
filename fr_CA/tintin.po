@@ -909,7 +909,7 @@ msgstr ""
 "COMMENCER LA LECTURE\n"
 "SUR LE TÉLÉPHONE"
 
-#: pebble/apps/system/music.c:1889
+#: pebble/apps/system/music.c:1885
 msgid "Music"
 msgstr "Musique"
 
@@ -1014,57 +1014,57 @@ msgstr "Vide"
 msgid "Background App"
 msgstr "Tâche de fond"
 
-#: pebble/apps/system/settings/bluetooth.c:122
+#: pebble/apps/system/settings/bluetooth.c:120
 msgid "<Untitled>"
 msgstr ""
 
-#: pebble/apps/system/settings/bluetooth.c:163
+#: pebble/apps/system/settings/bluetooth.c:161
 msgid "Pairing Instructions"
 msgstr "Instructions de jumelage"
 
-#: pebble/apps/system/settings/bluetooth.c:167
+#: pebble/apps/system/settings/bluetooth.c:165
 #, c-format
 msgid "%u Paired Phones"
 msgstr "%u téléphones jumelés"
 
-#: pebble/apps/system/settings/bluetooth.c:168
+#: pebble/apps/system/settings/bluetooth.c:166
 #, c-format
 msgid "%u Paired Phone"
 msgstr "%u téléphone jumelé"
 
-#: pebble/apps/system/settings/bluetooth.c:281
+#: pebble/apps/system/settings/bluetooth.c:259
 msgid "Connected"
 msgstr "Connecté"
 
-#: pebble/apps/system/settings/bluetooth.c:308
+#: pebble/apps/system/settings/bluetooth.c:286
 msgid "Forget this device to pair a new device."
 msgstr "Oublier cet appareil pour en associer un nouveau."
 
-#: pebble/apps/system/settings/bluetooth.c:311
+#: pebble/apps/system/settings/bluetooth.c:289
 msgid "Disable Airplane Mode to connect."
 msgstr "Désactivez le mode avion pour vous connecter."
 
-#: pebble/apps/system/settings/bluetooth.c:313
+#: pebble/apps/system/settings/bluetooth.c:291
 msgid "Open the Pebble app on your phone to connect."
 msgstr "Ouvrez l'application Pebble sur votre téléphone pour vous connecter."
 
-#: pebble/apps/system/settings/bluetooth.c:388
+#: pebble/apps/system/settings/bluetooth.c:366
 msgid "Connection"
 msgstr "Connexion"
 
-#: pebble/apps/system/settings/bluetooth.c:392
+#: pebble/apps/system/settings/bluetooth.c:370
 msgid "Airplane Mode"
 msgstr "Mode avion"
 
-#: pebble/apps/system/settings/bluetooth.c:402
+#: pebble/apps/system/settings/bluetooth.c:380
 msgid "Disabling..."
 msgstr "Désactivation..."
 
-#: pebble/apps/system/settings/bluetooth.c:403
+#: pebble/apps/system/settings/bluetooth.c:381
 msgid "Enabling..."
 msgstr "Activation..."
 
-#: pebble/apps/system/settings/bluetooth.c:545
+#: pebble/apps/system/settings/bluetooth.c:511
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
@@ -2873,7 +2873,7 @@ msgstr "EXERCICE"
 msgid "GO!"
 msgstr "GO!"
 
-#: pebble/apps/system/workout/sports.c:353
+#: pebble/apps/system/workout/sports.c:350
 msgid "Sports"
 msgstr "Sports"
 
@@ -3116,7 +3116,7 @@ msgstr ""
 "Pendant que votre Pebble était éteinte, des événements de réveil se sont "
 "produits pour:\n"
 
-#: pebble/process_management/app_manager.c:536
+#: pebble/process_management/app_manager.c:534
 #, c-format
 msgid "%.*s is not responding"
 msgstr "%.*s ne répond pas"
