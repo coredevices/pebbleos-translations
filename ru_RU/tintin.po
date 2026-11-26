@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-25 02:26+0000\n"
+"PO-Revision-Date: 2026-11-26 16:36+0000\n"
 "Last-Translator: dx3756 <dx3756@gmail.com>\n"
 "Language-Team: Russian <https://translate.repebble.com/projects/pebbleos/"
 "watch/ru/>\n"
@@ -2084,22 +2084,20 @@ msgid "Turn Off Airplane Mode?"
 msgstr "Выключить Авиарежим?"
 
 #: pebble/apps/system/toggle/airplane_mode.c:29
-#, fuzzy
-#| msgid "Airplane Mode"
 msgid ""
 "Airplane Mode\n"
 "On"
-msgstr "Авиарежим"
+msgstr ""
+"Авиарежим\n"
+"включён"
 
 #: pebble/apps/system/toggle/airplane_mode.c:30
-#, fuzzy
-#| msgid ""
-#| "Airplane\n"
-#| "Mode Off"
 msgid ""
 "Airplane Mode\n"
 "Off"
-msgstr "Авиарежим выкл."
+msgstr ""
+"Авиарежим\n"
+"выключен"
 
 #. / The Quick Launch action that toggles Airplane Mode.
 #: pebble/apps/system/toggle/airplane_mode.c:54
@@ -3217,12 +3215,10 @@ msgid "Almost there! A little more sleep tonight would help."
 msgstr "Почти! Ещё немного сна сегодня ночью может помочь."
 
 #: pebble/services/activity/activity_insights.c:923
-#, fuzzy
-#| msgid "A long night! Great for catching up; a steady routine helps most."
 msgid "Serious zzz's! Great for catching up; keep that routine steady."
 msgstr ""
-"Длинная ночь! Отлично для навёрстывания упущенного; чёткий распорядок дня "
-"помогает."
+"Столько часов сна! Отлично для навёрстывания упущенного; соблюдайте такой же "
+"распорядок дня."
 
 #: pebble/services/activity/activity_insights.c:925
 msgid "A long night! Great for catching up; a steady routine helps most."
@@ -3487,16 +3483,13 @@ msgstr ""
 "вперёд восполнять 💪"
 
 #: pebble/services/activity/activity_insights.c:1523
-#, fuzzy, c-format
-#| msgid ""
-#| "Short night? You slept for %dH %dM. Most adults need at least 7 hours, so "
-#| "try heading to bed earlier tonight."
+#, c-format
 msgid ""
 "Good mornin'! You slept for %dH %dM. Most adults need at least 7 hours; an "
 "early night tonight and you'll be unstoppable 👊"
 msgstr ""
-"Короткая ночь? Вы спали %dч %dм. Большинству нужно хотя бы 7 часов, поэтому "
-"постарайтесь сегодня лечь спать пораньше."
+"Доброе утречко! Вы спали %dч %dм. Большинству нужно хотя бы 7 часов; лягте "
+"пораньше и вас будет не остановить 👊"
 
 #. / Playful sleep notification on wake up, slept 6 to 7 hours, not below their typical
 #: pebble/services/activity/activity_insights.c:1531
@@ -3519,51 +3512,42 @@ msgstr ""
 
 #. / Playful sleep notification on wake up, slept 9 to 10 hours
 #: pebble/services/activity/activity_insights.c:1541
-#, fuzzy, c-format
-#| msgid ""
-#| "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above "
-#| "your typical. Keep it up."
+#, c-format
 msgid ""
 "You caught some serious zzz's! You slept for %dH %dM. Great for catching up; "
 "keep that routine steady."
-msgstr "Вы спали как мёртвый %dч %dм, что на %d%% выше обычного. Продолжайте."
+msgstr ""
+"Вы крепко спали %dч %dм! Отлично для навёрстывания упущенного; держитесь "
+"такого же распорядка."
 
 #: pebble/services/activity/activity_insights.c:1543
-#, fuzzy, c-format
-#| msgid ""
-#| "Well rested? You slept for %dH %dM. Extra sleep helps you recover, but "
-#| "most adults do best with 7 to 9 hours."
+#, c-format
 msgid ""
 "Mmmm...what a night. You slept for %dH %dM. Extra sleep helps you recover, "
 "but most adults do best with 7 to 9 hours."
 msgstr ""
-"Хорошо отдохнули? Вы спали %dч %dм. Дополнительный сон помогает "
+"Мммм... ну и ночь. Вы спали %dч %dм. Дополнительный сон помогает "
 "восстановиться, но большинству достаточно 7-9 часов."
 
 #. / Playful sleep notification on wake up, slept 10 hours or more
 #: pebble/services/activity/activity_insights.c:1551
-#, fuzzy, c-format
-#| msgid ""
-#| "You slept for %dH %dM. That's a long night! Great for recovering, but a "
-#| "regular bedtime and wake time will help you feel your best."
+#, c-format
 msgid ""
 "Whoa, epic snooze! You slept for %dH %dM. Catching up is cool; a regular "
 "bedtime and wake time keep you at your best."
 msgstr ""
-"Вы спали %dч %dм. Это была долгая ночь! Это хорошо для восстановления, но "
-"для лучшего самочувствия нужно ложиться и вставать в одно и то же время."
+"Вау, эпичный сон! Вы спали %dч %dм. Навёрстывать упущенное это круто; "
+"регулярные отход ко сну и пробуждение позволят вам быть в наилучшей форме."
 
 #: pebble/services/activity/activity_insights.c:1553
-#, fuzzy, c-format
-#| msgid ""
-#| "You slept for %dH %dM, more than most adults need. Catching up now and "
-#| "then is fine; try to keep a steady routine."
+#, c-format
 msgid ""
 "That's a lot of sheep you just counted! You slept for %dH %dM, more than "
 "most adults need. Catching up is fine; try to keep a steady routine."
 msgstr ""
-"Вы спали %dч %dм, больше, чем нужно большинству людей. Иногда можно "
-"навёрстывать упущенное, но старайтесь придерживаться стабильного распорядка."
+"Много же овец вы сосчитали! Вы спали %dч %dм, что больше, чем нужно "
+"большинству людей. Навёрстывать упущенное можно, но старайтесь "
+"придерживаться стабильного распорядка."
 
 #. / Sleep notification on wake up, slept above their typical sleep duration
 #: pebble/services/activity/activity_insights.c:1564
