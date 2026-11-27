@@ -1132,24 +1132,24 @@ msgstr "MODE SOMBRE"
 msgid "Dark Mode"
 msgstr "Mode sombre"
 
-#: pebble/apps/system/settings/display.c:87
+#: pebble/apps/system/settings/display.c:88
 #: pebble/apps/system/settings/display.c:712
 #: pebble/apps/system/settings/system.c:213
 msgid "Language"
 msgstr "Langue"
 
-#: pebble/apps/system/settings/display.c:96
+#: pebble/apps/system/settings/display.c:97
 #: pebble/apps/system/settings/notifications.c:108
 msgid "Smaller"
 msgstr "Petit"
 
-#: pebble/apps/system/settings/display.c:97
+#: pebble/apps/system/settings/display.c:98
 #: pebble/apps/system/settings/notifications.c:109
 msgctxt "TextSize"
 msgid "Default"
 msgstr "Original"
 
-#: pebble/apps/system/settings/display.c:98
+#: pebble/apps/system/settings/display.c:99
 #: pebble/apps/system/settings/notifications.c:110
 msgid "Larger"
 msgstr "Grand"
@@ -1158,29 +1158,29 @@ msgstr "Grand"
 #. / String within Settings->Display that describes the text font size
 #. / The option in the Settings app for choosing the text size of notifications.
 #. / String within Settings->Notifications that describes the text font size
-#: pebble/apps/system/settings/display.c:111
+#: pebble/apps/system/settings/display.c:112
 #: pebble/apps/system/settings/display.c:705
 #: pebble/apps/system/settings/notifications.c:134
 #: pebble/apps/system/settings/notifications.c:353
 msgid "Text Size"
 msgstr "Taille du texte"
 
-#: pebble/apps/system/settings/display.c:125
+#: pebble/apps/system/settings/display.c:126
 #: pebble/apps/system/settings/system.c:444
 msgid "Low"
 msgstr "Faible"
 
-#: pebble/apps/system/settings/display.c:125
+#: pebble/apps/system/settings/display.c:126
 #: pebble/apps/system/settings/system.c:445
 msgid "Medium"
 msgstr "Moyenne"
 
-#: pebble/apps/system/settings/display.c:125
+#: pebble/apps/system/settings/display.c:126
 #: pebble/apps/system/settings/system.c:445
 msgid "High"
 msgstr "Forte"
 
-#: pebble/apps/system/settings/display.c:125
+#: pebble/apps/system/settings/display.c:126
 msgid "Blinding"
 msgstr "Aveuglante"
 
